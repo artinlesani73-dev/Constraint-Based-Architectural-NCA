@@ -30,7 +30,7 @@ A research project exploring whether Neural Cellular Automata (NCA) can serve as
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/Constraint-Based-Architectural-NCA.git
+git clone https://github.com/artinlesani73-dev/Constraint-Based-Architectural-NCA.git
 cd Constraint-Based-Architectural-NCA
 
 # Install dependencies
@@ -222,7 +222,7 @@ This project investigates whether Neural Cellular Automata can serve as a genera
   title={Constraint-Based Architectural NCA: Neural Cellular Automata for Urban Pavilion Generation},
   author={[Your Name]},
   year={2025},
-  howpublished={\url{https://github.com/YOUR_USERNAME/Constraint-Based-Architectural-NCA}}
+  howpublished={\url{https://github.com/artinlesani73-dev/Constraint-Based-Architectural-NCA}}
 }
 ```
 

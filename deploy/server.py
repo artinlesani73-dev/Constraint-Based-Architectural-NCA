@@ -22,19 +22,19 @@ generator = None
 async def lifespan(app: FastAPI):
     global model, config, generator
     # Paths - Using MODEL C (deployment target)
-    base_dir = os.path.join("notebooks", "sel", "MODEL C - Copy - no change")
+    base_dir = os.path.join("notebooks", "model_c")
     config_path = os.path.join(base_dir, "config_step_b.json")
     model_candidates = [
         os.path.join(base_dir, "v31_fixed_geometry.pth"),
     ]
 
     if not os.path.exists(config_path):
-        config_path = "../notebooks/sel/MODEL C - Copy - no change/config_step_b.json"
+        config_path = "../notebooks/model_c/config_step_b.json"
 
     model_path = next((p for p in model_candidates if os.path.exists(p)), None)
     if model_path is None:
         alt_candidates = [
-            "../notebooks/sel/MODEL C - Copy - no change/v31_fixed_geometry.pth",
+            "../notebooks/model_c/v31_fixed_geometry.pth",
         ]
         model_path = next((p for p in alt_candidates if os.path.exists(p)), None)
 

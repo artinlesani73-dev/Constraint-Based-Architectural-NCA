@@ -54,12 +54,15 @@ logs/
 # Model checkpoints (keep specific ones, ignore temp)
 *.pth.tmp
 checkpoints/
-!notebooks/sel/*/v31_fixed_geometry.pth
+!notebooks/model_c/v31_fixed_geometry.pth
 !deploy/models/*.pth
 
 # Training outputs (generated during fine-tuning)
 notebooks/finetuned_*/
 !notebooks/finetuned_*/.gitkeep
+
+# Archived notebooks (keep out of repo)
+notebooks/archive/
 
 # Large files
 *.zip
