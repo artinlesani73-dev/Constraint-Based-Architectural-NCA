@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local config
+.env
+.env.local
+*.local
+
+# Model checkpoints (keep specific ones, ignore temp)
+*.pth.tmp
+checkpoints/
+!notebooks/sel/*/v31_fixed_geometry.pth
+!deploy/models/*.pth
+
+# Training outputs (generated during fine-tuning)
+notebooks/finetuned_*/
+!notebooks/finetuned_*/.gitkeep
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+tmp/
+temp/
+*.tmp

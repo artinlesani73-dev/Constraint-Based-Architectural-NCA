@@ -1,0 +1,354 @@
+:root {
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: #334155;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+    background: rgba(30, 41, 59, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    min-height: 0;
+    height: calc(100vh - 80px);
+}
+
+#viewer-container {
+    flex: 1;
+    position: relative;
+    background: #000;
+}
+
+#viewer {
+    width: 100%;
+    height: 100%;
+}
+
+#ui-overlay {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    pointer-events: none;
+}
+
+.stats {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+}
+
+#controls {
+    width: 320px;
+    min-width: 320px;
+    background: var(--card);
+    border-left: 1px solid var(--border);
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    height: 100%;
+}
+
+#controls section {
+    margin-bottom: 1rem;
+}
+
+#controls .action-buttons {
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--border);
+}
+
+h2 {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.control-group {
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+input[type="number"],
+input[type="range"] {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+input[type="color"] {
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--bg);
+    padding: 0.2rem;
+}
+
+.control-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.building-item,
+.access-item {
+    background: var(--bg);
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    position: relative;
+    border: 1px solid var(--border);
+}
+
+.item-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: auto;
+}
+
+.secondary-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+button.primary {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.65rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+button.danger {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+button.danger:disabled {
+    background: #7f1d1d;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button.primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+button.primary:hover {
+    background: var(--primary-hover);
+}
+
+button.secondary {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px dashed var(--border);
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button.secondary:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+}
+
+button.delete {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    font-size: 0.75rem;
+}
+
+/* Visibility toggles */
+.visibility-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.visibility-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--primary);
+    cursor: pointer;
+}
+
+.visibility-toggle label {
+    display: inline;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: var(--text);
+}
+
+.visibility-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+/* Building size sliders */
+.building-item .size-controls {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.building-item .size-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.building-item .size-row label {
+    width: 50px;
+    font-size: 0.7rem;
+    flex-shrink: 0;
+}
+
+.building-item .size-row input[type="range"] {
+    flex: 1;
+    height: 6px;
+    padding: 0;
+}
+
+.building-item .size-row span {
+    width: 50px;
+    font-size: 0.7rem;
+    text-align: right;
+    color: var(--text-muted);
+}
+
+.building-item .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.building-item .item-title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+/* Collapsible sections */
+.collapsible .section-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    margin: 0;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+}
+
+.collapsible .section-header:hover {
+    color: var(--primary);
+}
+
+.collapse-icon {
+    font-family: monospace;
+    font-size: 0.9rem;
+    width: 12px;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.collapsible .section-content {
+    padding-top: 0.5rem;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible.collapsed .section-content {
+    display: none;
+}
+
+/* Hints */
+.hint {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    font-weight: normal;
+    display: block;
+    margin-top: 1px;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural NCA Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/TransformControls.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>Architectural NCA Generator</h1>
+            <p>Constraint-Based Voxel Neighborhood Growth</p>
+        </header>
+
+        <main>
+            <div id="viewer-container">
+                <div id="viewer"></div>
+                <div id="ui-overlay">
+                    <div class="stats">
+                        <span id="gen-time">Generation: -- ms</span>
+                        <span id="voxel-count">Voxels: 0</span>
+                    </div>
+                </div>
+            </div>
+
+            <aside id="controls">
+                <!-- Generation Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Generation
+                    </h2>
+                    <div class="section-content">
+                        <div class="control-group">
+                            <label>Seed <span class="hint">-1 = random each time</span></label>
+                            <input type="number" id="seed" value="-1">
+                        </div>
+                        <div class="control-group">
+                            <label>Steps <span class="hint">More steps = more refined structure</span></label>
+                            <input type="range" id="steps" min="30" max="100" value="50">
+                            <span id="steps-val">50</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Threshold <span class="hint">Voxel on/off cutoff (lower = denser)</span></label>
+                            <input type="range" id="threshold" min="0.3" max="0.7" step="0.05" value="0.5">
+                            <span id="threshold-val">0.5</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Randomness Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Randomness
+                    </h2>
+                    <div class="section-content">
+                        <div class="control-group">
+                            <label>Noise <span class="hint">Per-step random perturbation</span></label>
+                            <input type="range" id="noise-std" min="0" max="0.1" step="0.005" value="0.02">
+                            <span id="noise-std-val">0.02</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Fire Rate <span class="hint">1.0 = all cells update, lower = stochastic</span></label>
+                            <input type="range" id="fire-rate" min="0.5" max="1.0" step="0.05" value="1.0">
+                            <span id="fire-rate-val">1.0</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Corridor Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Corridor Settings
+                    </h2>
+                    <div class="section-content">
+                        <div class="control-group">
+                            <label>Seed Scale <span class="hint">Initial structure bias along corridors</span></label>
+                            <input type="range" id="corridor-seed" min="0" max="0.01" step="0.0001" value="0.005">
+                            <span id="corridor-seed-val">0.005</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Corridor Width <span class="hint">Path thickness between access points</span></label>
+                            <input type="range" id="corridor-width" min="1" max="3" step="1" value="1">
+                            <span id="corridor-width-val">1</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Vertical Envelope <span class="hint">Vertical spread of corridor zone</span></label>
+                            <input type="range" id="vertical-envelope" min="0" max="4" step="1" value="1">
+                            <span id="vertical-envelope-val">1</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Advanced Section -->
+                <section class="collapsible collapsed">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">+</span> Advanced
+                    </h2>
+                    <div class="section-content">
+                        <div class="control-group">
+                            <label>Update Scale <span class="hint">Step size per NCA iteration</span></label>
+                            <input type="range" id="update-scale" min="0.05" max="0.2" step="0.01" value="0.1">
+                            <span id="update-scale-val">0.1</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Buildings Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Buildings
+                    </h2>
+                    <div class="section-content">
+                        <div id="buildings-list"></div>
+                        <button id="add-building" class="secondary">+ Add Building</button>
+                    </div>
+                </section>
+
+                <!-- Access Points Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Access Points
+                    </h2>
+                    <div class="section-content">
+                        <div id="access-list"></div>
+                        <button id="add-access" class="secondary">+ Add Access Point</button>
+                    </div>
+                </section>
+
+                <!-- Visibility Section -->
+                <section class="collapsible">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">-</span> Visibility
+                    </h2>
+                    <div class="section-content">
+                        <div class="visibility-grid">
+                            <div class="visibility-toggle">
+                                <input type="checkbox" id="show-structure" checked>
+                                <label for="show-structure">Structure</label>
+                            </div>
+                            <div class="visibility-toggle">
+                                <input type="checkbox" id="show-existing" checked>
+                                <label for="show-existing">Buildings</label>
+                            </div>
+                            <div class="visibility-toggle">
+                                <input type="checkbox" id="show-access" checked>
+                                <label for="show-access">Access</label>
+                            </div>
+                            <div class="visibility-toggle">
+                                <input type="checkbox" id="show-anchors" checked>
+                                <label for="show-anchors">Anchors</label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Styling Section -->
+                <section class="collapsible collapsed">
+                    <h2 class="section-header" onclick="toggleSection(this)">
+                        <span class="collapse-icon">+</span> Voxel Styling
+                    </h2>
+                    <div class="section-content">
+                        <div class="control-grid">
+                            <div class="control-group">
+                                <label>Structure Color</label>
+                                <input type="color" id="color-structure" value="#6366f1">
+                            </div>
+                            <div class="control-group">
+                                <label>Structure Opacity</label>
+                                <input type="range" id="opacity-structure" min="0" max="1" step="0.05" value="1">
+                                <span id="opacity-structure-val">1</span>
+                            </div>
+                            <div class="control-group">
+                                <label>Existing Color</label>
+                                <input type="color" id="color-existing" value="#64748b">
+                            </div>
+                            <div class="control-group">
+                                <label>Existing Opacity</label>
+                                <input type="range" id="opacity-existing" min="0" max="1" step="0.05" value="0.8">
+                                <span id="opacity-existing-val">0.8</span>
+                            </div>
+                            <div class="control-group">
+                                <label>Access Color</label>
+                                <input type="color" id="color-access" value="#ef4444">
+                            </div>
+                            <div class="control-group">
+                                <label>Access Opacity</label>
+                                <input type="range" id="opacity-access" min="0" max="1" step="0.05" value="0.9">
+                                <span id="opacity-access-val">0.9</span>
+                            </div>
+                            <div class="control-group">
+                                <label>Anchor Color</label>
+                                <input type="color" id="color-anchors" value="#22c55e">
+                            </div>
+                            <div class="control-group">
+                                <label>Anchor Opacity</label>
+                                <input type="range" id="opacity-anchors" min="0" max="1" step="0.05" value="0.2">
+                                <span id="opacity-anchors-val">0.2</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="action-buttons">
+                    <button id="generate-btn" class="primary">Generate Design</button>
+                    <div class="secondary-actions">
+                        <button id="stop-btn" class="danger" disabled>Stop</button>
+                        <button id="reset-btn" class="secondary">Reset Scene</button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>

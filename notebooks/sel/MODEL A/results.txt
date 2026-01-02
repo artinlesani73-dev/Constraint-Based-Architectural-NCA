@@ -1,0 +1,42 @@
+ 
+======================================================================
+STEP B TRAINING v3.1: FIXED LOSS GEOMETRY
+======================================================================
+KEY FIXES:
+  - Split Coverage (A) + Spill (B) - was both spill
+  - Corridor from SEED - was current state
+  - Ground openness - was missing
+  - Thickness=2 - was 4
+  - Squared sparsity - was hinge
+======================================================================
+Training: 100% 500/500 [24:07<00:00,  2.57s/it]Epoch    0 | Loss: 110.11 | Cov: 12% | Spill: 9% | Fill: 1.0% | CorrL: 95% | Cvox: 8507 | Cgnd: 407 | Acc: 8 | CorrF: 6.5%
+Epoch   20 | Loss: 63.89 | Cov: 26% | Spill: 5% | Fill: 1.6% | CorrL: 95% | Cvox: 6375 | Cgnd: 346 | Acc: 8 | CorrF: 4.9%
+Epoch   40 | Loss: 40.34 | Cov: 85% | Spill: 14% | Fill: 6.4% | CorrL: 95% | Cvox: 6959 | Cgnd: 383 | Acc: 8 | CorrF: 5.3%
+Epoch   60 | Loss: 41.75 | Cov: 94% | Spill: 21% | Fill: 4.4% | CorrL: 100% | Cvox: 4038 | Cgnd: 15 | Acc: 7 | CorrF: 3.1%
+Epoch   80 | Loss: 40.99 | Cov: 81% | Spill: 14% | Fill: 7.2% | CorrL: 90% | Cvox: 8073 | Cgnd: 786 | Acc: 8 | CorrF: 6.2%
+Epoch  100 | Loss: 40.31 | Cov: 82% | Spill: 8% | Fill: 6.1% | CorrL: 95% | Cvox: 7457 | Cgnd: 369 | Acc: 8 | CorrF: 5.7%
+Checkpoint saved: /content/drive/MyDrive/Constraint-NCA/step_b/checkpoints/v31_epoch_100.pth
+Epoch  120 | Loss: 42.96 | Cov: 86% | Spill: 28% | Fill: 7.4% | CorrL: 91% | Cvox: 6922 | Cgnd: 592 | Acc: 8 | CorrF: 5.3%
+Epoch  140 | Loss: 37.59 | Cov: 88% | Spill: 11% | Fill: 7.8% | CorrL: 97% | Cvox: 8522 | Cgnd: 232 | Acc: 8 | CorrF: 6.5%
+Epoch  160 | Loss: 40.56 | Cov: 86% | Spill: 13% | Fill: 5.4% | CorrL: 96% | Cvox: 5993 | Cgnd: 236 | Acc: 8 | CorrF: 4.6%
+Epoch  180 | Loss: 39.72 | Cov: 84% | Spill: 12% | Fill: 5.8% | CorrL: 96% | Cvox: 6590 | Cgnd: 283 | Acc: 8 | CorrF: 5.0%
+Epoch  200 | Loss: 38.26 | Cov: 89% | Spill: 16% | Fill: 8.8% | CorrL: 96% | Cvox: 9000 | Cgnd: 338 | Acc: 8 | CorrF: 6.9%
+Checkpoint saved: /content/drive/MyDrive/Constraint-NCA/step_b/checkpoints/v31_epoch_200.pth
+Epoch  220 | Loss: 39.43 | Cov: 88% | Spill: 18% | Fill: 6.6% | CorrL: 97% | Cvox: 6496 | Cgnd: 167 | Acc: 8 | CorrF: 5.0%
+Epoch  240 | Loss: 40.51 | Cov: 88% | Spill: 23% | Fill: 7.6% | CorrL: 94% | Cvox: 7077 | Cgnd: 442 | Acc: 8 | CorrF: 5.4%
+Epoch  260 | Loss: 40.89 | Cov: 87% | Spill: 15% | Fill: 4.7% | CorrL: 96% | Cvox: 4920 | Cgnd: 192 | Acc: 8 | CorrF: 3.8%
+Epoch  280 | Loss: 37.95 | Cov: 84% | Spill: 14% | Fill: 10.5% | CorrL: 93% | Cvox: 11784 | Cgnd: 849 | Acc: 8 | CorrF: 9.0%
+Epoch  300 | Loss: 41.29 | Cov: 92% | Spill: 21% | Fill: 4.0% | CorrL: 100% | Cvox: 3709 | Cgnd: 0 | Acc: 7 | CorrF: 2.8%
+Checkpoint saved: /content/drive/MyDrive/Constraint-NCA/step_b/checkpoints/v31_epoch_300.pth
+Epoch  320 | Loss: 41.47 | Cov: 92% | Spill: 29% | Fill: 5.9% | CorrL: 96% | Cvox: 5045 | Cgnd: 201 | Acc: 8 | CorrF: 3.8%
+Epoch  340 | Loss: 39.89 | Cov: 90% | Spill: 30% | Fill: 10.6% | CorrL: 93% | Cvox: 8898 | Cgnd: 632 | Acc: 8 | CorrF: 6.8%
+Epoch  360 | Loss: 40.01 | Cov: 87% | Spill: 24% | Fill: 8.1% | CorrL: 92% | Cvox: 7727 | Cgnd: 623 | Acc: 7 | CorrF: 5.9%
+Epoch  380 | Loss: 40.22 | Cov: 88% | Spill: 18% | Fill: 4.8% | CorrL: 97% | Cvox: 4728 | Cgnd: 126 | Acc: 8 | CorrF: 3.6%
+Epoch  400 | Loss: 38.43 | Cov: 85% | Spill: 12% | Fill: 5.5% | CorrL: 97% | Cvox: 5988 | Cgnd: 184 | Acc: 8 | CorrF: 4.6%
+Checkpoint saved: /content/drive/MyDrive/Constraint-NCA/step_b/checkpoints/v31_epoch_400.pth
+Epoch  420 | Loss: 35.87 | Cov: 87% | Spill: 14% | Fill: 7.3% | CorrL: 96% | Cvox: 7957 | Cgnd: 321 | Acc: 8 | CorrF: 6.1%
+Epoch  440 | Loss: 39.48 | Cov: 86% | Spill: 15% | Fill: 6.8% | CorrL: 93% | Cvox: 7277 | Cgnd: 505 | Acc: 7 | CorrF: 5.6%
+Epoch  460 | Loss: 42.61 | Cov: 81% | Spill: 17% | Fill: 3.8% | CorrL: 95% | Cvox: 4241 | Cgnd: 240 | Acc: 8 | CorrF: 3.2%
+Epoch  480 | Loss: 37.91 | Cov: 82% | Spill: 14% | Fill: 7.0% | CorrL: 93% | Cvox: 7761 | Cgnd: 537 | Acc: 8 | CorrF: 5.9%
+======================================================================
+Training complete!
