@@ -9,8 +9,7 @@
 A research project exploring whether Neural Cellular Automata (NCA) can serve as a generative tool for architectural design, producing constraint-satisfying volumetric structures in urban contexts.
 
 <p align="center">
-  <img src="assets/sample_output.png" alt="Sample NCA Output" width="400"/>
-  <img src="assets/sample_output_2.png" alt="Sample NCA Output 2" width="400"/>
+  <img src="assets/sample_output_2.png" alt="Sample NCA Output 2" width="1000"/>
 </p>
 
 ---
