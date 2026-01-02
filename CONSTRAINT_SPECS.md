@@ -2,11 +2,11 @@
 
 ## Detailed Specifications for Each Architectural Constraint
 
-**Version:** 4.1 (Fixed Loss Geometry)
+**Version:** 3.1 (Fixed Loss Geometry)
 **Date:** December 2025
-**Status:** Reference Document (Project Complete)
+**Status:** Reference Document (Experiment Snapshot)
 
-> **Note:** This document captures the constraint development journey, including the evolution from v3.0 through v4.1. The final deployed model (v3.1) uses the constraint formulations described in Part 5 (v4.1 Architecture). For a summary of the deployed system, see `SPECIFICATION.md`.
+> **Note:** This document captures the constraint development journey, including the evolution from v3.0 through v3.1. The v3.1 experiment uses the constraint formulations described in Part 5 (Fixed Loss Geometry) and matches the notebook `notebooks/model_c/NB02_AllConstraints_v3_1_C.ipynb`. For a summary of the deployed system, see `SPECIFICATION.md`.
 
 ---
 
@@ -19,7 +19,7 @@
 | 2.1 | Evidence-based revision linking changes to experimental observations |
 | 3.0 | Ontology revision - local losses, causal encoding, aligned incentives |
 | 4.0 | Architectural intent - path corridors, thickness limits, facade budgets |
-| **4.1** | **Fixed loss geometry - Coverage+Spill split, ground openness, tighter thickness** |
+| **3.1** | **Fixed loss geometry - Coverage+Spill split, ground openness, tighter thickness** |
 
 ---
 
@@ -516,7 +516,7 @@ v4.0 (notebook v3.0) results:
 
 ---
 
-## Part 5: The v4.1 Architecture (Fixed)
+## Part 5: The v3.1 Architecture (Fixed)
 
 ### Core Fix: Split Coverage and Spill
 
@@ -525,14 +525,14 @@ v4.0 (notebook v3.0) results:
 | **(A) Coverage** | CorridorCoverage | `unfilled_corridor / corridor_target` |
 | **(B) Spill** | CorridorSpill | `outside_corridor / structure` |
 
-### All v4.1 Changes
+### All v3.1 Changes
 
-| Change | v4.0 | v4.1 |
+| Change | v4.0 | v3.1 |
 |--------|------|------|
 | Intent losses | PathConnectivity + OutsideTarget | CorridorCoverage + CorridorSpill |
 | Corridor source | Current state | Seed state (frozen) |
 | max_thickness | 4 | 2 |
-| corridor_width | 3 | 4 |
+| corridor_width | 3 | 1 |
 | Sparsity penalty | Hinge | Squared beyond threshold |
 | Ground openness | None | Explicit GroundOpennessLoss |
 
@@ -566,6 +566,9 @@ ground_struct = structure[:, :street_levels]
 ground_corridor = corridor_target[:, :street_levels]
 unnecessary = ground_struct * (1 - ground_corridor)
 L_ground = unnecessary.sum() / (ground_struct.sum() + eps)
+# Extra cap on total ground mass (even inside corridor)
+ground_mass = ground_struct.sum() / (ground_legal.sum() + eps)
+L_ground += ReLU(ground_mass - ground_max_ratio)
 ```
 
 This says: "don't block the street unless the corridor requires it."
@@ -584,32 +587,32 @@ Squared penalty makes exceeding 15% much more costly.
 ```
 # Compute from SEED (frozen), not current state
 # Add vertical envelope for elevated structures
-corridor = compute_corridor_target(seed_state, vertical_envelope=3)
+corridor = compute_corridor_target(seed_state, vertical_envelope=1)
 ```
 
 ---
 
-## Weight Summary (v4.1)
+## Weight Summary (v3.1)
 
 | Loss | Weight | Category | Change from v4.0 |
 |------|--------|----------|------------------|
 | LocalLegality | 30.0 | Legality | Unchanged |
 | CorridorCoverage | 25.0 | Intent | NEW (replaces PathConnectivity) |
 | CorridorSpill | 25.0 | Intent | Renamed from OutsideTarget |
-| Thickness | 20.0 | Shape | Increased (was 15) |
-| Sparsity | 25.0 | Massing | Increased (was 15) |
-| GroundOpenness | 15.0 | Intent | NEW |
+| Thickness | 30.0 | Shape | Increased (was 15) |
+| Sparsity | 30.0 | Massing | Increased (was 15) |
+| GroundOpenness | 35.0 | Intent | NEW |
 | AccessConnectivity | 15.0 | Circulation | Unchanged |
 | FacadeContact | 10.0 | Shape | Unchanged |
 | LoadPath | 8.0 | Structure | Reduced (was 10) |
 | Cantilever | 5.0 | Structure | Unchanged |
 | Density | 3.0 | Quality | Unchanged |
 | TV | 1.0 | Quality | Unchanged |
-| **Total** | **182.0** | | |
+| **Total** | **217.0** | | |
 
 ---
 
-## Success Criteria (v4.1)
+## Success Criteria (v3.1)
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
@@ -625,17 +628,23 @@ corridor = compute_corridor_target(seed_state, vertical_envelope=3)
 
 ---
 
-## Configuration (v4.1)
+## Configuration (v3.1)
 
 ```python
 CONFIG = {
-    'corridor_width': 4,        # Wider (was 3)
-    'max_thickness': 2,         # Stricter (was 4)
-    'max_facade_contact': 0.15, # Stricter (was 0.20)
-    'vertical_envelope': 3,     # NEW: allow vertical extension
+    'corridor_width': 1,         # Narrower for v3.1 experiment
+    'max_thickness': 2,          # Stricter (was 4)
+    'max_facade_contact': 0.15,  # Stricter (was 0.20)
+    'vertical_envelope': 1,      # Reduced for v3.1 experiment
+    'corridor_seed_scale': 0.15,
+    'corridor_mask_epochs': 20,
+    'corridor_mask_anneal': 40,
+    'ground_max_ratio': 0.04,
+    'street_levels': 6,
+    'corridor_z_margin': 3,
 }
 ```
 
 ---
 
-*Constraint Specification v4.1 - Fixed Loss Geometry - December 2025*
+*Constraint Specification v3.1 - Fixed Loss Geometry - December 2025*

@@ -2,9 +2,9 @@
 
 ## Constraint-Based Architectural NCA
 
-**Version:** 2.0
+**Version:** 3.1
 **Status:** Deployed
-**Date:** January 2025
+**Date:** December 2025
 
 ---
 
@@ -34,18 +34,18 @@ The Constraint-Based Architectural NCA system is fully implemented and deployed.
 | NCA Model | Deployed | `deploy/model_utils.py` |
 | Web Server | Deployed | `deploy/server.py` |
 | Web UI | Deployed | `deploy/index.html` |
-| Trained Weights | Available | `notebooks/sel/MODEL C*/v31_fixed_geometry.pth` |
+| Trained Weights | Available | `notebooks/model_c/v31_fixed_geometry.pth` |
 | Fine-tuning | Available | `notebooks/NB_Finetune_Porosity_Colab.ipynb` |
 
-### 1.3 Key Achievements
+### 1.3 Key Targets
 
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| Coverage | >70% | ~75% |
-| Spill | <25% | ~18% |
-| Ground Openness | >80% | ~85% |
-| Thickness Compliance | >90% | ~92% |
-| Legality | 100% | 100% |
+| Metric | Target |
+|--------|--------|
+| Coverage | >70% |
+| Spill | <20% |
+| Ground Openness | >80% |
+| Thickness Compliance | >90% |
+| Legality | 100% |
 
 ---
 
@@ -100,11 +100,17 @@ CONFIG = {
     'corridor_width': 1,
     'vertical_envelope': 1,
     'corridor_seed_scale': 0.15,
-    'street_levels': 2,
+    'street_levels': 6,
+    'corridor_z_margin': 3,
+    'ground_max_ratio': 0.04,
 
     # Constraints
     'max_thickness': 2,
     'max_facade_contact': 0.15,
+
+    # Training schedule (v3.1)
+    'corridor_mask_epochs': 20,
+    'corridor_mask_anneal': 40,
 }
 ```
 
@@ -200,7 +206,7 @@ Keeps street level open for pedestrian circulation.
 Penalizes bulky, blob-like structures.
 
 #### SparsityLoss
-Limits total fill ratio to 5-15%.
+Limits total fill ratio to 3-12%.
 
 ---
 
@@ -218,15 +224,15 @@ Limits total fill ratio to 5-15%.
 
 ```python
 # v3.1 training settings
-epochs = 2000
+epochs = 500
 batch_size = 4
-lr_initial = 0.001
-steps_range = (40, 60)
+lr_initial = 7e-4
+steps_range = (30, 50)
 grad_clip = 1.0
 
 # Corridor masking (early epochs)
-corridor_mask_epochs = 100
-corridor_mask_anneal = 50
+corridor_mask_epochs = 20
+corridor_mask_anneal = 40
 ```
 
 ### 5.3 Training Curriculum
@@ -322,19 +328,13 @@ max_thickness = 1             # Reduced from 2
 
 ## 8. Evaluation Results
 
-### 8.1 Final Model Performance (v3.1)
+### 8.1 Evaluation Summary (v3.1)
 
-| Metric | Easy | Medium | Hard |
-|--------|------|--------|------|
-| Coverage | 82% | 76% | 68% |
-| Spill | 12% | 18% | 24% |
-| Ground Open | 91% | 86% | 79% |
-| Thickness | 95% | 93% | 89% |
-| Valid Rate | 89% | 78% | 65% |
+Evaluation metrics are computed in the v3.1 notebook and stored alongside the model artifacts. See `notebooks/model_c/v31_evaluation.json` for the latest run.
 
 ### 8.2 Generalization
 
-The model successfully generalizes to:
+The model is designed to generalize to:
 - Novel building configurations
 - Varying gap widths
 - Different access point arrangements
@@ -362,7 +362,7 @@ Constraint-Based-Architectural-NCA/
 │   └── requirements.txt
 │
 ├── notebooks/
-│   ├── sel/MODEL C*/       # Trained model
+│   ├── model_c/            # Trained model
 │   │   ├── v31_fixed_geometry.pth
 │   │   └── config_step_b.json
 │   ├── NB_Finetune_Porosity.ipynb
@@ -380,6 +380,6 @@ Constraint-Based-Architectural-NCA/
 
 ---
 
-*Technical Specification v2.0 - Deployed System*
+*Technical Specification v3.1 - Deployed System*
 
-*January 2025*
+*December 2025*

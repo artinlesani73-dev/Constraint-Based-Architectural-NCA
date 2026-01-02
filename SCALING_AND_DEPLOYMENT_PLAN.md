@@ -2,8 +2,8 @@
 
 ## Status: Complete
 
-**Version:** 2.0
-**Date:** January 2025
+**Version:** 3.1
+**Date:** December 2025
 
 This document describes the completed scaling and deployment work for the Constraint-Based Architectural NCA project.
 
@@ -15,32 +15,26 @@ This document describes the completed scaling and deployment work for the Constr
 
 The model was successfully trained and validated on the easy difficulty setting.
 
-**Achieved Metrics:**
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| Coverage | >70% | ~75% |
-| Spill | <20% | ~18% |
-| Ground Openness | >80% | ~85% |
-| Thickness | >90% | ~92% |
-| Fill Ratio | 5-15% | ~12% |
-| Legality | 100% | 100% |
+**Target Metrics:**
+| Metric | Target |
+|--------|--------|
+| Coverage | >70% |
+| Spill | <20% |
+| Ground Openness | >80% |
+| Thickness | >90% |
+| Fill Ratio | 3-12% |
+| Legality | 100% |
 
 **Training Configuration:**
-- Epochs: 2000
+- Epochs: 500
 - Batch size: 4
-- Learning rate: 0.001 with decay
+- Learning rate: 7e-4 with decay
 - Corridor seed scale: 0.15
-- Steps range: 40-60
+- Steps range: 30-50
 
 ### Phase 1: Difficulty Curriculum (Partial)
 
-The model generalizes to varying difficulty levels:
-
-| Difficulty | Coverage | Spill | Valid Rate |
-|------------|----------|-------|------------|
-| Easy | 82% | 12% | 89% |
-| Medium | 76% | 18% | 78% |
-| Hard | 68% | 24% | 65% |
+The model is evaluated across difficulty levels in the v3.1 notebook. See `notebooks/model_c/v31_evaluation.json` for the latest metrics.
 
 **Observations:**
 - Performance degrades gracefully on harder scenes
@@ -142,6 +136,6 @@ These remain as potential future work:
 
 ---
 
-*Scaling & Deployment Status v2.0 - Project Complete*
+*Scaling & Deployment Status v3.1 - Project Complete*
 
-*January 2025*
+*December 2025*

@@ -136,9 +136,12 @@ The model is trained to satisfy multiple architectural constraints:
 | **Legality** | 100% | No structure inside existing buildings |
 | **Coverage** | >70% | Fill the corridor zone between access points |
 | **Spill** | <20% | Don't grow outside corridor zone |
-| **Ground Openness** | >80% | Keep street level open for circulation |
+| **Ground Openness** | >80% | Ground structure stays in corridor; ground_max_ratio=0.04 |
 | **Thickness** | >90% | No bulky masses (max 2 voxels thick) |
-| **Fill Ratio** | 5-15% | Sparse, efficient structures |
+| **Facade Contact** | <15% | Limit contact with existing building facades |
+| **Access Connectivity** | >90% | Access points reachable through ground-level void |
+| **Load Path** | >95% | Elevated structure is structurally supported |
+| **Fill Ratio** | 3-12% | Sparse, efficient structures |
 
 ---
 

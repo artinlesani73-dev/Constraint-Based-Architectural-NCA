@@ -2,15 +2,15 @@
 
 ## Constraint-Based Architectural NCA: Neural Cellular Automata for Urban Pavilion Generation
 
-**Version:** 2.0
+**Version:** 3.1
 **Status:** Completed & Deployed
-**Date:** January 2025
+**Date:** December 2025
 
 ---
 
 ## Executive Summary
 
-This project demonstrates that Neural Cellular Automata (NCA) can serve as a generative architectural design tool. We successfully trained an NCA to create volumetric pavilion structures within urban settings while respecting architectural constraints including structural validity, corridor connectivity, ground-level openness, and massing distribution.
+This project demonstrates that Neural Cellular Automata (NCA) can serve as a generative architectural design tool. We successfully trained an NCA to create volumetric pavilion structures within urban settings while respecting architectural constraints including structural validity, corridor connectivity, ground-level openness, facade contact limits, and massing distribution.
 
 The system is now deployed as an interactive web application where users can configure urban contexts, adjust generation parameters, and produce constraint-satisfying architectural volumes in real-time.
 
@@ -40,14 +40,14 @@ From this context, the NCA grows a volumetric pavilion structure (purple voxels)
 - Connects all access points through walkable corridors
 - Maintains open ground level for pedestrian circulation
 - Avoids penetrating existing buildings
-- Distributes mass efficiently (5-15% fill ratio)
+- Distributes mass efficiently (3-12% fill ratio)
 - Remains structurally grounded (no floating elements)
 
 ---
 
 ## The Constraint Framework
 
-The trained model satisfies five primary constraint categories:
+The trained model satisfies the following constraint categories:
 
 ### Constraint 1: Structural Legality
 Generated structure must not penetrate existing buildings. Every voxel must be in legally available space.
@@ -56,13 +56,25 @@ Generated structure must not penetrate existing buildings. Every voxel must be i
 The structure must fill the corridor zone connecting access points, achieving >70% coverage of the computed corridor volume.
 
 ### Constraint 3: Spill Prevention
-Structure should not grow excessively outside the corridor zone. Spill is limited to <25% of total structure volume.
+Structure should not grow excessively outside the corridor zone. Spill is limited to <20% of total structure volume.
 
 ### Constraint 4: Ground Openness
-Street level must remain predominantly open for pedestrian movement, with >80% ground void outside anchor zones.
+Street level must remain predominantly open for pedestrian movement. Ground structure should be mostly in the corridor (>80% in-corridor), with an additional cap on total ground mass (ground_max_ratio=0.04).
 
 ### Constraint 5: Thickness Control
-No bulky masses allowed. Structure thickness is limited to prevent blob-like outputs, encouraging lighter, more articulated forms.
+No bulky masses allowed. Structure thickness is limited to prevent blob-like outputs (max_thickness=2), encouraging lighter, more articulated forms.
+
+### Constraint 6: Sparsity
+Total volume is constrained to 3-12% of available space.
+
+### Constraint 7: Facade Contact
+Contact with existing building facades is limited to <15% of total structure.
+
+### Constraint 8: Access Connectivity
+Access points remain mutually reachable through ground-level void (>90%).
+
+### Constraint 9: Load Path
+Elevated structure remains supported by continuous structural paths (>95%).
 
 ---
 
@@ -92,7 +104,7 @@ The final model (v3.1) was trained with all constraints active from epoch 0, usi
 ## Research Questions: Answered
 
 ### RQ1: Can NCA learn to satisfy multiple architectural constraints simultaneously?
-**Yes.** The trained model achieves >70% coverage, <25% spill, >80% ground openness, and >90% thickness compliance simultaneously.
+**Yes.** The trained model achieves >70% coverage, <20% spill, >80% ground openness, and >90% thickness compliance simultaneously.
 
 ### RQ2: Can NCA learn to protect void (absence) rather than just generate mass?
 **Yes.** The corridor-based system successfully learns to keep ground level open while generating structure in appropriate zones.
@@ -171,6 +183,6 @@ This project successfully demonstrates Neural Cellular Automata as a viable gene
 
 ---
 
-*Project Definition v2.0 - Completed System*
+*Project Definition v3.1 - Completed System*
 
-*January 2025*
+*December 2025*
