@@ -6,6 +6,8 @@
 
 **Neural Cellular Automata for Generative Architectural Design**
 
+> **Next phase (September 2026):** implementation is underway with independent evaluation and reproducible experiment records. Start with [the current resume checkpoint](docs/next-phase/RESUME.md), [plan](docs/next-phase/PLAN.md), and [change log](docs/next-phase/CHANGELOG.md). The historical results and claims below are retained for context; they do not establish the performance of the repaired system.
+
 A research project exploring whether Neural Cellular Automata (NCA) can serve as a generative tool for architectural design, producing constraint-satisfying volumetric structures in urban contexts.
 
 <p align="center">

@@ -10,8 +10,10 @@ from pydantic import BaseModel
 from typing import List, Dict, Optional, Tuple
 try:
     from .model_utils import UrbanPavilionNCA, UrbanSceneGenerator, compute_corridor_target_v31
+    from .checkpoints import load_model_c
 except ImportError:
     from model_utils import UrbanPavilionNCA, UrbanSceneGenerator, compute_corridor_target_v31
+    from checkpoints import load_model_c
 
 # Global variables for model and config
 model = None
@@ -21,57 +23,14 @@ generator = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model, config, generator
-    # Paths - Using MODEL C (deployment target)
-    base_dir = os.path.join("notebooks", "model_c")
-    config_path = os.path.join(base_dir, "config_step_b.json")
-    model_candidates = [
-        os.path.join(base_dir, "v31_fixed_geometry.pth"),
-    ]
-
-    if not os.path.exists(config_path):
-        config_path = "../notebooks/model_c/config_step_b.json"
-
-    model_path = next((p for p in model_candidates if os.path.exists(p)), None)
-    if model_path is None:
-        alt_candidates = [
-            "../notebooks/model_c/v31_fixed_geometry.pth",
-        ]
-        model_path = next((p for p in alt_candidates if os.path.exists(p)), None)
-
-    try:
-        if model_path is None or not os.path.exists(config_path):
-            raise FileNotFoundError("Model or config not found in expected locations.")
-
-        with open(config_path, 'r') as f:
-            config = json.load(f)
-        checkpoint = torch.load(model_path, map_location=torch.device('cpu'))
-        if isinstance(checkpoint, dict) and 'config' in checkpoint:
-            config = {**config, **checkpoint['config']}
-            print("Using checkpoint config overrides.")
-        # Use checkpoint values (trained with corridor_width=1, vertical_envelope=1)
-        config.setdefault('corridor_width', 1)
-        config.setdefault('vertical_envelope', 1)
-        config.setdefault('corridor_seed_scale', 0.15)
-        config.setdefault('ground_max_ratio', 0.05)
-        if 'corridor_z_margin' in config:
-            print(f"Corridor z margin: {config.get('corridor_z_margin')}")
-        model = UrbanPavilionNCA(config)
-        if isinstance(checkpoint, dict) and 'model_state_dict' in checkpoint:
-            state_dict = checkpoint['model_state_dict']
-        else:
-            state_dict = checkpoint
-        model.load_state_dict(state_dict)
-        model.eval()
-        generator = UrbanSceneGenerator(config)
-        print("Model and generator loaded successfully.")
-        print(f"Model path: {model_path}")
-        print(f"Config path: {config_path}")
-        print(f"Corridor width: {config.get('corridor_width')}")
-        print(f"Vertical envelope: {config.get('vertical_envelope')}")
-        print(f"Corridor seed scale: {config.get('corridor_seed_scale')}")
-    except Exception as e:
-        print(f"Error loading model: {e}")
-        raise RuntimeError(f"Could not load model: {e}")
+    # Resolve assets relative to the repository, not the launching directory.
+    # Embedded checkpoint configuration is authoritative for this historical model.
+    config, state_dict, model_path = load_model_c(device="cpu")
+    model = UrbanPavilionNCA(config)
+    model.load_state_dict(state_dict, strict=True)
+    model.eval()
+    generator = UrbanSceneGenerator(config)
+    print(f"Model C loaded: {model_path}; street_levels={config['street_levels']}")
     yield
 
 app = FastAPI(title="Constraint-Based Architectural NCA API", lifespan=lifespan)

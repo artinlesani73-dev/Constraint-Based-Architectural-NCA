@@ -74,3 +74,13 @@ tmp/
 temp/
 *.tmp
 article.md
+
+# Private planning report (keep local copies; never commit them)
+NCA-Next-Phase-Report*
+NCA-NEXT-PHASE-REPORT*
+nca-next-phase-report*
+
+# Local runtime, immutable experiment payloads and safety snapshots.
+# Small, reviewed experiment records live in experiments/ and remain tracked.
+.local-artifacts/
+.pytest_cache/

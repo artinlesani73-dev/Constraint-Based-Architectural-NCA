@@ -395,7 +395,7 @@ class UrbanSceneGenerator:
                     anchors[:, 0, z, max(0,y-2):min(G,y+4), max(0,x-2):min(G,x+4)] = 1.0
 
         for building in buildings:
-            if 'gap_facing_x' in building:
+            if building.get('gap_facing_x') is not None:
                 by_start, by_end = building['y']
                 gap_x = building['gap_facing_x']
                 is_left = building.get('side') == 'left'
