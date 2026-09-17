@@ -4,7 +4,7 @@ Owner: Artin Lesani. Started 2026-09-13. Historical baseline: ac913b9.
 
 This tracked plan implements the private next-phase report. It supersedes the old implementation-status document for new work without erasing historical claims. The report itself stays ignored. No new constraint families are planned.
 
-## M0 - Preserve evidence and establish a reliable starting point (current milestone)
+## M0 - Preserve evidence and establish a reliable starting point (complete except the Drive round trip)
 
 - [x] Create a separate implementation branch; preserve the original tracked files and supplied reports in a hash-verified local snapshot.
 - [x] Ignore both report formats; retain small plans, decisions, summaries and resume instructions in Git.
@@ -15,10 +15,10 @@ This tracked plan implements the private next-phase report. It supersedes the ol
 - [x] Record final verification and refresh the handoff: run `20260913T194223Z_ad4ee8ee60f3` passed all 16 tests and the out-of-directory smoke check. Milestone commit is recorded in Git history under `Establish reproducible NCA next-phase foundations`.
 - [ ] Verify a real Google Drive backup round trip (requires user's Drive location / Colab sign-in).
 
-## M1 - Define the geometry contract and replay the original model (next)
+## M1 - Define the geometry contract and replay the original model (current milestone)
 
-1. Freeze scene schema v1: world units, array axes, entrance IDs, material field, empty-space interpretation, support region and design envelope.
-2. Resolve elevated access semantics. Begin with explicit spatial connectivity; do not claim walking clearance, floor support or structural engineering certification.
+1. [x] Freeze scene schema v1: world units, array axes, entrance IDs, material field, empty-space interpretation, support region and design envelope. Implemented as `scene_v1` in `nca/contract.py` with the frozen set `experiments/scenes/reference_v1/`; see `GEOMETRY_CONTRACT.md` and decisions D007/D008. A height ceiling stays reserved and inert pending a user decision, since it is not one of the nine families.
+2. Resolve elevated access semantics. Begin with explicit spatial connectivity; do not claim walking clearance, floor support or structural engineering certification. Partially addressed: facade entrances must sit above the street band and be face-adjacent to a building, and connectivity is documented as spatial only. Clearance, headroom and deck semantics remain undefined.
 3. Extract a shared rollout with named historical-training, historical-evaluation, and historical-serving profiles. Preserve the legacy functions for exact comparisons.
 4. Run E0 on identical frozen scenes/checkpoint/seeds: isolate initial seed scale, firing, noise and masking. Save every per-scene result, continuous fields, binary thresholds, timing, full config and source snapshot.
 5. Correct corridor dilation with an explicitly versioned operator. Do not silently relabel outputs from the legacy operator as corrected results.

@@ -1,0 +1,67 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 8,
+      "id": "B_west",
+      "side": "left",
+      "x": [
+        0,
+        8
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        25
+      ]
+    },
+    {
+      "gap_facing_x": 24,
+      "id": "B_east",
+      "side": "right",
+      "x": [
+        24,
+        32
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        25
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Symmetric slab pair, 16-voxel gap, two ground entrances only.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_ground_west",
+      "kind": "ground",
+      "x": 9,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "extent": 2,
+      "id": "E_ground_east",
+      "kind": "ground",
+      "x": 21,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "Ground-only case; anchor zones come from both entrances and both gap facades.",
+    "Gap spans x in [8, 24), about 12.8 m at 0.8 m per voxel."
+  ],
+  "scene_id": "ref-01-ground-pair",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

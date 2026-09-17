@@ -1,0 +1,75 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 8,
+      "id": "B_west",
+      "side": "left",
+      "x": [
+        0,
+        8
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        25
+      ]
+    },
+    {
+      "gap_facing_x": 24,
+      "id": "B_east",
+      "side": "right",
+      "x": [
+        24,
+        32
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        25
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Same slab pair with two facade entrances at different heights plus a ground entrance.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_facade_west",
+      "kind": "facade",
+      "x": 8,
+      "y": 14,
+      "z": 10
+    },
+    {
+      "extent": 2,
+      "id": "E_facade_east",
+      "kind": "facade",
+      "x": 22,
+      "y": 14,
+      "z": 16
+    },
+    {
+      "extent": 2,
+      "id": "E_ground_mid",
+      "kind": "ground",
+      "x": 15,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "Three entrances at distinct heights, matching the Step D access rule that the two facade points differ in height.",
+    "The primary replay case for E0."
+  ],
+  "scene_id": "ref-02-facade-pair-and-ground",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

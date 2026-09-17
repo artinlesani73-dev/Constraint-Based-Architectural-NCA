@@ -1,0 +1,75 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 6,
+      "id": "B_west",
+      "side": "left",
+      "x": [
+        0,
+        6
+      ],
+      "y": [
+        4,
+        28
+      ],
+      "z": [
+        0,
+        22
+      ]
+    },
+    {
+      "gap_facing_x": 26,
+      "id": "B_east",
+      "side": "right",
+      "x": [
+        26,
+        32
+      ],
+      "y": [
+        4,
+        28
+      ],
+      "z": [
+        0,
+        28
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Narrow slabs with a 20-voxel gap and unequal heights.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_facade_west",
+      "kind": "facade",
+      "x": 6,
+      "y": 15,
+      "z": 8
+    },
+    {
+      "extent": 2,
+      "id": "E_facade_east",
+      "kind": "facade",
+      "x": 24,
+      "y": 15,
+      "z": 14
+    },
+    {
+      "extent": 2,
+      "id": "E_ground_west",
+      "kind": "ground",
+      "x": 7,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "Span stress case: the gap is about 16 m, above the stated 10-30 m pavilion range midpoint.",
+    "Tests whether a longer horizontal run stays connected and supported."
+  ],
+  "scene_id": "ref-03-wide-gap",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

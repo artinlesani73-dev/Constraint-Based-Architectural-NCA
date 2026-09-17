@@ -1,0 +1,66 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 10,
+      "id": "B_west",
+      "side": "left",
+      "x": [
+        0,
+        10
+      ],
+      "y": [
+        10,
+        22
+      ],
+      "z": [
+        0,
+        14
+      ]
+    },
+    {
+      "gap_facing_x": 22,
+      "id": "B_east",
+      "side": "right",
+      "x": [
+        22,
+        32
+      ],
+      "y": [
+        10,
+        22
+      ],
+      "z": [
+        0,
+        14
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Small low-rise pair for fast regression use.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_ground_a",
+      "kind": "ground",
+      "x": 11,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "extent": 2,
+      "id": "E_ground_b",
+      "kind": "ground",
+      "x": 19,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "Cheapest scene in the set; intended for smoke checks, not for reporting quality."
+  ],
+  "scene_id": "ref-06-minimal-smoke",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}
