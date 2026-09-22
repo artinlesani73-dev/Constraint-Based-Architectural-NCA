@@ -19,8 +19,8 @@ This tracked plan implements the private next-phase report. It supersedes the ol
 
 1. [x] Freeze scene schema v1: world units, array axes, entrance IDs, material field, empty-space interpretation, support region and design envelope. Implemented as `scene_v1` in `nca/contract.py` with the frozen set `experiments/scenes/reference_v1/`; see `GEOMETRY_CONTRACT.md` and decisions D007/D008. A height ceiling stays reserved and inert pending a user decision, since it is not one of the nine families.
 2. Resolve elevated access semantics. Begin with explicit spatial connectivity; do not claim walking clearance, floor support or structural engineering certification. Partially addressed: facade entrances must sit above the street band and be face-adjacent to a building, and connectivity is documented as spatial only. Clearance, headroom and deck semantics remain undefined.
-3. Extract a shared rollout with named historical-training, historical-evaluation, and historical-serving profiles. Preserve the legacy functions for exact comparisons.
-4. Run E0 on identical frozen scenes/checkpoint/seeds: isolate initial seed scale, firing, noise and masking. Save every per-scene result, continuous fields, binary thresholds, timing, full config and source snapshot.
+3. [x] Extract a shared rollout with named historical-training, historical-evaluation, and historical-serving profiles. Preserve the legacy functions for exact comparisons. Implemented as `rollout_v1` in `nca/rollout.py`; see `ROLLOUT_PROFILES.md` and decisions D009/D010. Agreement is bitwise against both legacy paths. Reading the historical notebook corrected one earlier claim and added four findings, including that the recorded historical evaluation used no corridor scaffold and that Model C never saw a ground-type access point.
+4. Run E0 on identical frozen scenes/checkpoint/seeds: isolate initial seed scale, firing, noise and masking. Save every per-scene result, continuous fields, binary thresholds, timing, full config and source snapshot. Two frozen sets are now in place, `reference_v1` (designed) and `legacy_easy_v1` (in-distribution, per D011); the legacy set must be seeded with `nca.legacy_scenes.legacy_seed_state`, not the deployed generator. See `SCENE_SETS.md`.
 5. Correct corridor dilation with an explicitly versioned operator. Do not silently relabel outputs from the legacy operator as corrected results.
 
 Acceptance: deterministic reference replay works; differences between historical profiles are measured; disconnected endpoints fail; empty output cannot be mistaken for a good design. Gate A is not complete until rollout and gradient checks are finished.
@@ -50,3 +50,13 @@ Use Colab for experiments, not permanent hosting. The user chose Google Drive pl
 ## Working cadence
 
 Each milestone has a local commit, changelog entry, decision updates, and a refreshed `RESUME.md`. Each experiment gets a unique immutable run record. Review progress by evidence gates; the earlier 8-12-week estimate is not a promise or a reason to skip the baseline.
+
+## Acceptance update - 2026-09-23
+
+M1 step 3 and the legacy scene-set implementation now have a recorded local
+regression run: `20260922T223533Z_9c5bfe017c4c` (76 passed; smoke exit 0).
+Before M1 step 4, repair/reject the delta-mask fire-rate and explicit-RNG variants,
+validate module-mode/firing compatibility, and test historical-training parity
+against the notebook loop. These limitations were found in review after the
+existing suite passed; see CHANGELOG.md. Do not interpret passing historical
+default tests as validation of those ablations. E0 has not run.

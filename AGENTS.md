@@ -25,3 +25,12 @@ Read `docs/next-phase/RESUME.md` first, then `PLAN.md`, `DECISIONS.md`, and `CHA
 ## Start here
 
 `python scripts/verify_foundation.py` runs and archives the full suite; use the documented isolated environment with NumPy, PyTorch, FastAPI and the test client. Dependency-light checks can run with `python -m unittest discover -s tests -p test_evaluation.py -v` and `python -m unittest discover -s tests -p test_experiments.py -v`. See `docs/next-phase/RESUME.md` for verified commands.
+
+## Google Drive boundary and approval rule (2026-09-23)
+
+- The only Drive scope for this project is folder ID `1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H`, named `Constraint-Based-Architectural-NCA`, and its actual descendants: https://drive.google.com/drive/folders/1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H . Use the ID, not a name match.
+- Ask for and receive explicit user approval BEFORE EVERY Drive operation, including viewing, metadata reads, listing, searching, downloading, verifying, creating, uploading/saving, editing, renaming, copying, moving, sharing, or deleting. State the exact action and target; a batch is allowed only if the user explicitly approves its complete stated scope. An upload approval alone does not authorize a later readback/download unless included in that approval.
+- Do not search or list the whole Drive, inspect other folders or account information, access outside files, follow shortcuts/links outside this folder, or move/copy files across its boundary. If scope or ancestry cannot be established from already approved evidence, stop and ask; do not inspect outside resources to resolve it. Expanding scope requires an explicit user revision of this rule.
+- Approval is not standing authorization for later operations, background sync, Colab Drive writes, retries that could create duplicates, or other access methods. No automatic Drive backup/sync is authorized. Local project work remains governed by the existing local working agreement.
+- Folder creation was specifically authorized and completed on 2026-09-23. No files were uploaded. Backup verification remains pending; the older proposed `NCA-Next-Phase` Drive root is superseded by this folder.
+- This is an assistant operating rule, not an OAuth or server-enforced folder restriction. Do not claim the connector itself is limited to this folder.

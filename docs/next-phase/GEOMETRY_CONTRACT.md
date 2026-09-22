@@ -97,6 +97,13 @@ comparing historical scores.
 
 ## Divergences this contract makes visible, for E0 to measure
 
+**Superseded 2026-09-18.** The list below was written before the historical
+notebook was read. Item 2 is wrong: the z-taper keys are dead in training as
+well, not lost in deployment. The list is also incomplete — training adds no
+per-step noise at all, and the historical evaluation used no corridor scaffold.
+`ROLLOUT_PROFILES.md` carries the corrected and fuller account. The original
+wording is kept here rather than edited away.
+
 Reading the historical rollout paths against these declarations surfaced five
 places where training, evaluation and serving do not agree. None is repaired
 here; M1 step 3 gives each a named profile and step 4 measures it.

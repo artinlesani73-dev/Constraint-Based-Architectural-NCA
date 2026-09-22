@@ -1,0 +1,130 @@
+{
+  "axis_order": [
+    "z",
+    "y",
+    "x"
+  ],
+  "contract_version": "scene_v1",
+  "entrance_anchor": "minimum-index corner",
+  "extent_convention": "half-open [start, end) in voxel indices",
+  "material_threshold_default": 0.5,
+  "sampling": {
+    "accepted_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "difficulty": "easy",
+    "difficulty_params": {
+      "anchor_budget": 0.1,
+      "gap_width_range": [
+        14,
+        18
+      ],
+      "height_range": [
+        14,
+        18
+      ],
+      "height_variance": false,
+      "n_buildings": 2,
+      "n_elevated_access": 1,
+      "n_ground_access": 1,
+      "width_range": [
+        8,
+        12
+      ]
+    },
+    "grid_size": 32,
+    "provenance": "NB02_AllConstraints_v3_1_C.ipynb, UrbanSceneGenerator with difficulty='easy'; transcribed, not re-derived",
+    "rejected": [],
+    "seed_state_builder": "nca.legacy_scenes.legacy_seed_state; the deployed generator writes different anchors for a scene with an entrance below the street band and must not be used to replay this set",
+    "seeds_consumed": 12,
+    "selection": "seeds consumed from 0 upward in order; no cherry-picking",
+    "street_levels": 6,
+    "voxel_size_m": 0.8
+  },
+  "scenes": [
+    {
+      "file": "legacy-easy-seed-000.json",
+      "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+      "scene_id": "legacy-easy-seed-000",
+      "sha256": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4"
+    },
+    {
+      "file": "legacy-easy-seed-001.json",
+      "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+      "scene_id": "legacy-easy-seed-001",
+      "sha256": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088"
+    },
+    {
+      "file": "legacy-easy-seed-002.json",
+      "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+      "scene_id": "legacy-easy-seed-002",
+      "sha256": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8"
+    },
+    {
+      "file": "legacy-easy-seed-003.json",
+      "scene_hash": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb",
+      "scene_id": "legacy-easy-seed-003",
+      "sha256": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb"
+    },
+    {
+      "file": "legacy-easy-seed-004.json",
+      "scene_hash": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046",
+      "scene_id": "legacy-easy-seed-004",
+      "sha256": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046"
+    },
+    {
+      "file": "legacy-easy-seed-005.json",
+      "scene_hash": "b4e86078c538799c348435fd6613da1114ec25efefdd8e77c7369b626bc304db",
+      "scene_id": "legacy-easy-seed-005",
+      "sha256": "b4e86078c538799c348435fd6613da1114ec25efefdd8e77c7369b626bc304db"
+    },
+    {
+      "file": "legacy-easy-seed-006.json",
+      "scene_hash": "34e7643e89e562f62330f21437899eb50bc6e2afd710d4e5b018afaab1ae69cf",
+      "scene_id": "legacy-easy-seed-006",
+      "sha256": "34e7643e89e562f62330f21437899eb50bc6e2afd710d4e5b018afaab1ae69cf"
+    },
+    {
+      "file": "legacy-easy-seed-007.json",
+      "scene_hash": "d2255cf8c3a2b8dc65a8f85794deb081db567eac7208b2cd4b53799bc26d253e",
+      "scene_id": "legacy-easy-seed-007",
+      "sha256": "d2255cf8c3a2b8dc65a8f85794deb081db567eac7208b2cd4b53799bc26d253e"
+    },
+    {
+      "file": "legacy-easy-seed-008.json",
+      "scene_hash": "bb91817e955a9a5f6bd9ad0c43eaf9eb37562ddf48f9634411c016b2e0cc2cd2",
+      "scene_id": "legacy-easy-seed-008",
+      "sha256": "bb91817e955a9a5f6bd9ad0c43eaf9eb37562ddf48f9634411c016b2e0cc2cd2"
+    },
+    {
+      "file": "legacy-easy-seed-009.json",
+      "scene_hash": "d3d1383caa7b8027e768b67cc9e7d7dee5586ad5d45164056da0792436af3b5e",
+      "scene_id": "legacy-easy-seed-009",
+      "sha256": "d3d1383caa7b8027e768b67cc9e7d7dee5586ad5d45164056da0792436af3b5e"
+    },
+    {
+      "file": "legacy-easy-seed-010.json",
+      "scene_hash": "cc3e63b5062e13da7dd244f4324629bf10f713bdd2b8d44db21257755644ccbf",
+      "scene_id": "legacy-easy-seed-010",
+      "sha256": "cc3e63b5062e13da7dd244f4324629bf10f713bdd2b8d44db21257755644ccbf"
+    },
+    {
+      "file": "legacy-easy-seed-011.json",
+      "scene_hash": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934",
+      "scene_id": "legacy-easy-seed-011",
+      "sha256": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934"
+    }
+  ],
+  "set_version": "legacy_easy_v1"
+}

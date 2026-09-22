@@ -1,0 +1,71 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 7,
+      "id": "B_left",
+      "side": "left",
+      "x": [
+        0,
+        7
+      ],
+      "y": [
+        0,
+        27
+      ],
+      "z": [
+        0,
+        16
+      ]
+    },
+    {
+      "gap_facing_x": 25,
+      "id": "B_right",
+      "side": "right",
+      "x": [
+        25,
+        32
+      ],
+      "y": [
+        0,
+        16
+      ],
+      "z": [
+        0,
+        16
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Historical 'easy' training scene, gap width 18, heights 16/16.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_legacy_1",
+      "kind": "facade",
+      "x": 23,
+      "y": 10,
+      "z": 6
+    },
+    {
+      "extent": 2,
+      "id": "E_legacy_2",
+      "kind": "facade",
+      "x": 7,
+      "y": 1,
+      "z": 5
+    }
+  ],
+  "grid_size": 32,
+  "legacy_relaxations": [
+    "facade_below_street_band"
+  ],
+  "notes": [
+    "NB02_AllConstraints_v3_1_C.ipynb, UrbanSceneGenerator with difficulty='easy'; transcribed, not re-derived",
+    "Both access points are typed 'facade' because the historical generator typed every access point that way; the ground-anchor branch never ran.",
+    "Entrance IDs are assigned in placement order; the historical generator gave access points no identity."
+  ],
+  "scene_id": "legacy-easy-seed-005",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

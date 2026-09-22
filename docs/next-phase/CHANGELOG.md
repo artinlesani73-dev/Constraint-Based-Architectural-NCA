@@ -51,3 +51,83 @@ Run `20260917T222043Z_d6902ec4a5dc`: 47 tests, 0 failures, 0 errors, 0 skipped; 
 The suite count rose from 16 to 47. This is a regression run over synthetic geometry, archive integrity, real Model C execution and the API path. It establishes no architectural-quality, latency or corrected-training claim.
 
 The same suite was first run to completion in an isolated Linux sandbox mirror on Python 3.12.3 during development. That rehearsal carries no run ID and is not evidence: `scripts/verify_foundation.py` requires real Git provenance and refuses to run outside the repository. The frozen scene set was separately confirmed intact on the checkout, all six files reporting `unchanged`. No GPU training, objective change, retraining, push or publication occurred. Google Drive remains unconnected and unverified.
+
+## 2026-09-18 - M1 step 3: shared rollout with named historical profiles
+
+- Added `nca/rollout.py`, version `rollout_v1`: one rollout implementation with every behavioural axis declared in a `RolloutProfile`, plus `historical_training`, `historical_evaluation` and `historical_serving` constructors, each carrying a provenance string, explicit notes and a version.
+- Established correctness by exact agreement rather than inspection. The serving profile is bitwise identical to the legacy `/generate` loop across six request variants (request defaults, stochastic firing, no noise, training seed scale, past the mask schedule, altered update scale); the evaluation profile is bitwise identical to `model.grow(seed, steps=50)`. The legacy paths are unchanged and remain the reference.
+- The rollout no longer mutates the caller's seed state or the shared `config` dictionary: the update-scale override is scoped and restored in a `finally` block, where the legacy handler leaked it on an exception. This narrows but does not close the per-job configuration item, which stays M4 work.
+- A corridor target is required by any profile that uses one and refused by any profile that does not; `rng_source` must match how the stream is drawn; `profile.replace(...)` renames its result so a variant cannot be recorded under a historical name; module mode is restored even when a step raises.
+- Added `tests/test_rollout.py`, 15 cases. Local suite total rises from 47 to 62.
+- Documented the profiles in `docs/next-phase/ROLLOUT_PROFILES.md`; recorded decisions D009 and D010.
+
+### Corrections to the 2026-09-18 M1 step 1 entry
+
+Reading `notebooks/model_c/NB02_AllConstraints_v3_1_C.ipynb` contradicted one claim in that entry and showed two others to be incomplete. The original entry is left as written; these supersede it.
+
+1. Divergence 2 was wrong. It stated that a training-time z-taper was absent from serving. `z_taper_strength` and `z_taper_floor` are referenced nowhere in the notebook or the deployment. They are dead configuration keys; nothing was lost at deployment and no taper shaped training.
+2. Divergence 1 understated the case. Training adds no per-step noise at all — neither the training loop nor the notebook's `_step` contains any — so serving's per-step noise injection is a deployment addition rather than a difference of degree.
+3. Divergence 3 understated the case. The training mask is applied once to the seed before the rollout and gated on the epoch index; serving applies it inside the loop on every step, gated on the step index. The units differ and so do the location and the frequency.
+
+### Further findings from the historical notebook, not repaired
+
+1. The recorded historical evaluation used no corridor scaffold. `evaluate` computes the corridor target for scoring only and then calls `model.grow(scene, steps=50)`, so the figures in `v31_evaluation.json` came from a rollout that received neither training's 0.15 seeding nor any mask. They are not a measurement of the configuration the model was trained under.
+2. Model C never saw a ground-type access point. In the notebook's scene generator every access point is written with `type: 'facade'`; `n_ground_access` is counted into the total but never changes the type, so the ground-anchor branch of `_generate_anchor_zones` never executed during training. The deployed interface offers ground access points, which produce anchor geometry absent from training. This pins down the access-sampling defect already listed under M2.
+3. Training placed access points from `z=3` upward with `street_levels=6`, so some were typed `facade` while sitting below street level — a combination the `scene_v1` contract rejects. Training buildings also always spanned `y` from 0 to a sampled depth.
+4. The deployed scene generator takes explicit parameters where the historical one took a difficulty label, so no user scene is drawn from the training distribution, and neither is the frozen `reference_v1` set. E0 on that set can measure how the profiles differ from one another; it cannot reproduce the historical aggregate, and a poor score on it may indicate out-of-distribution input rather than a worse model. Whether to add a second frozen set sampled from the `easy` generator at fixed seeds is an open decision.
+
+### Validation status
+
+The suite was run to completion in the isolated Linux sandbox mirror: 62 tests, 0 failures, 0 errors, 0 skipped. That is a development rehearsal with no run ID. The authoritative recorded verification for this milestone is pending on the project checkout. An unrecorded orientation observation, carrying no evidential standing: on `ref-02-facade-pair-and-ground` with one shared seed and 30 steps, the three profiles produced 3005, 362 and 1985 material voxels, with perfect legality and no entrance connectivity in any of them. No GPU training, objective change, retraining, push or publication occurred.
+
+## 2026-09-18 - In-distribution scene set and declared relaxations
+
+Follows the user's decision to have E0 run in-distribution as well as on designed scenes. See `SCENE_SETS.md` and decisions D011 and D012.
+
+- Added `nca/legacy_scenes.py`: a transcription of the historical `easy` sampler, plus `legacy_seed_state`, which builds the seed state the notebook generator would have produced. Both are verified against the notebook generator executed as an oracle in `tests/test_legacy_scenes.py`, not against a reading of it. The notebook is read only.
+- Added the frozen set `experiments/scenes/legacy_easy_v1/`: twelve scenes from seeds 0-11, consumed in order with no cherry-picking, plus `scripts/build_legacy_scenes.py`. The manifest records the difficulty parameters, the accepted seeds, every rejected seed with its reason, and which seed-state builder the set requires.
+- Added named relaxations to the contract. A scene may declare `facade_below_street_band`; the name is covered by the scene hash, an unknown or repeated name is refused, and face adjacency is still required. Four of the twelve legacy scenes declare it; the designed set declares none, enforced by test.
+- An empty relaxation list is omitted from the canonical form, so `reference_v1` kept its canonical hashes and its six files are byte-identical to when they were frozen. Verified: the set still loads and the build script still reports `unchanged` for all six.
+- Added `tests/test_legacy_scenes.py`, 14 cases. Local suite total rises from 62 to 76.
+
+### Behaviour change found in the deployed scene generator
+
+The notebook wrote ground anchor zones only for an access point typed `'ground'`. The deployed `_generate_anchor_zones` also writes them for any access point with `z < street_levels`. Because the historical generator typed every access point `'facade'` and placed some below the street band, the deployed generator produces a wide ground anchor footprint for exactly the scenes where training produced none. Anchors feed the legality field, so this widens what the model is permitted to grow. Tests confirm the divergence occurs exactly when an entrance sits below the street band, that the deployed rule only ever adds anchors, and that the permitted region strictly grows. Nothing was repaired; `legacy_seed_state` is used for the legacy set and the deployed generator is untouched.
+
+### Orientation observation, not a record
+
+Unrecorded, no run ID, one seed, 50 steps, all twelve legacy scenes: `historical-training` produced a mean 1076.4 material voxels and connected the entrances in 10 of 12 scenes; `historical-serving` 805.8 and 10 of 12; `historical-evaluation` 27.7 and 0 of 12. Legality was perfect and geometric support complete throughout. The difference is the corridor scaffold, which training seeds at 0.15 and serving at 0.005 while the evaluation profile seeds nothing.
+
+This bears on how `v31_evaluation.json` is read, since the evaluation profile produced it: `avg_coverage` of 0.04 is consistent with near-empty output. Its `avg_access_reach` of 0.62 does not contradict the zero above — the historical metric measured reachability through ground-level void, which an empty design satisfies trivially, while the figure above measures connectivity through the grown structure. The historical figure is not wrong; it measures something an empty result scores well on. E0 is what turns any of this into evidence.
+
+### Validation status
+
+Sandbox mirror only: 76 tests, 0 failures, 0 errors, 0 skipped. No run ID; the authoritative recorded verification is pending on the project checkout together with that of M1 step 3. No GPU training, objective change, retraining, push or publication occurred.
+
+## 2026-09-23 - Dedicated Drive folder and approval boundary
+
+- Created the project Drive folder with explicit user authorization; connector returned folder ID `1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H` and its URL.
+- Added the persistent one-folder-only and ask-before-every-operation rule to `AGENTS.md`; recorded D013 and refreshed the resume handoff.
+- Drive reads and writes both need prior approval. No uploads, subsequent remote reads, sharing changes or backup verification were performed. Connector scopes were not changed.
+- Validation: successful folder-creation response and local documentation readback. Documentation-only change; model tests were not rerun. Existing implementation work remains untouched.
+
+## 2026-09-23 - Local acceptance of M1 rollout and scene-set milestone
+
+Recorded run `20260922T223533Z_9c5bfe017c4c` completed on the actual Windows checkout: 76 tests, zero failures, errors or skips; out-of-directory Model C smoke exit 0. Parent commit: `ddc81000f44dcdaf9d58c10f23707745803f756c`; dirty-source snapshot captured before testing. UTC run date is September 22; local date in Berlin is September 23. Raw output and source archive are retained under the run directory and the small summary is in `experiments/records/`.
+
+RunStore verification returned no integrity problems. Both frozen manifests loaded without modification: six reference scenes and twelve legacy scenes. Historical Model C files remain unchanged against `ac913b9`; both next-phase report formats remain ignored. No model/optimizer update, paid compute, publication, push, or Drive access occurred.
+
+### Remaining rollout limitations found during acceptance review
+
+These passing regressions cover named historical defaults; they do not validate all parameter variants. `run_rollout` scopes `update_scale` only, while a training-mode `model._step` reads `model.config['fire_rate']` and consumes the global random generator. Consequently a changed profile fire rate is not applied to delta masking, and an explicit generator does not control that path. Also, inconsistent module-mode/firing combinations are currently accepted, so a training-mode profile declaring no firing can still fire internally. Repair or reject these combinations and add targeted behavior tests BEFORE E0 firing/randomness ablations. The exact historical-training path lacks a notebook-loop oracle test; add that before claiming training replay parity. The serving parity test compares against a copied legacy loop, not a live HTTP generation request.
+
+This acceptance establishes local regression behavior only, not improved architectural quality or completion of E0. Existing code and test evidence are preserved in a local milestone with these limitations explicit.
+
+### Checkout integrity fix
+
+Git warned that Windows checkout conversion would turn the frozen JSON scenes
+from LF into CRLF. Because manifests hash exact file bytes, this would invalidate
+otherwise unchanged scenes after a fresh checkout. Added `.gitattributes` to keep
+`experiments/scenes/**/*.json` at LF. Scene contents and manifests were not
+regenerated. Verify both sets in the fresh bundle restore before delivering the
+backup; this check covers the checkout fix independently of the regression run.

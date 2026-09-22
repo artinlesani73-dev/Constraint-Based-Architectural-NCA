@@ -52,6 +52,19 @@ MATERIAL_THRESHOLD_DEFAULT = 0.5
 ENTRANCE_KINDS = ("ground", "facade")
 BUILDING_SIDES = ("left", "right")
 
+#: Named, declared exemptions from a validation rule, for scenes that reproduce a
+#: historical distribution rather than a designed one. A relaxation must be listed
+#: in the scene, is covered by the scene hash, and is refused if unknown. Nothing
+#: is ever relaxed by default, and no relaxation weakens a derived region: a
+#: relaxed scene is still evaluated by exactly the same rules.
+RELAXATIONS = {
+    "facade_below_street_band": (
+        "Permits a facade entrance to start below street_levels. The historical "
+        "training generator placed facade access points from z=3 upward while "
+        "street_levels was 6, so an in-distribution replay scene needs this. "
+        "Face adjacency to a building is still required."),
+}
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 REFERENCE_SET_DIR = REPO_ROOT / "experiments" / "scenes" / "reference_v1"
 MANIFEST_NAME = "manifest.json"
@@ -122,6 +135,17 @@ def validate_scene(scene):
     street_levels = _integer(scene.get("street_levels"), "street_levels")
     if not 1 <= street_levels <= grid_size:
         raise ValueError(f"street_levels must lie in [1, {grid_size}]")
+
+    relaxations = scene.get("legacy_relaxations", [])
+    if not isinstance(relaxations, list):
+        raise ValueError("legacy_relaxations must be a list of declared names")
+    unknown = [name for name in relaxations if name not in RELAXATIONS]
+    if unknown:
+        raise ValueError(f"Unknown legacy_relaxations: {unknown}; "
+                         f"declared names must be among {sorted(RELAXATIONS)}")
+    if len(set(relaxations)) != len(relaxations):
+        raise ValueError("legacy_relaxations must not repeat a name")
+    relaxations = sorted(relaxations)
 
     ceiling_z = scene.get("ceiling_z", None)
     if ceiling_z is not None:
@@ -209,9 +233,10 @@ def validate_scene(scene):
                     f"{identifier}: a ground entrance must lie inside the street band "
                     f"[0, {street_levels})")
         else:
-            if corner["z"] < street_levels:
+            if corner["z"] < street_levels and "facade_below_street_band" not in relaxations:
                 raise ValueError(
-                    f"{identifier}: a facade entrance must start at or above z={street_levels}")
+                    f"{identifier}: a facade entrance must start at or above z={street_levels}, "
+                    "or the scene must declare the facade_below_street_band relaxation")
             if not _touches_existing(block, existing):
                 raise ValueError(
                     f"{identifier}: a facade entrance must be face-adjacent to a building")
@@ -228,6 +253,7 @@ def validate_scene(scene):
         "voxel_size_m": float(voxel_size_m),
         "street_levels": street_levels,
         "ceiling_z": ceiling_z,
+        "legacy_relaxations": relaxations,
         "buildings": normalised_buildings,
         "entrances": normalised_entrances,
         "notes": list(scene.get("notes", [])),
@@ -253,11 +279,27 @@ def _touches_existing(block, existing):
     return False
 
 
+#: Optional keys that are omitted from the canonical form when they hold their
+#: empty default. Declaring no relaxations therefore hashes identically to a
+#: scene authored before relaxations existed, which is what lets an additive
+#: optional field be introduced without revising a frozen set. Any key listed
+#: here must be empty-means-absent in meaning, never empty-means-something.
+CANONICAL_OMIT_WHEN_EMPTY = ("legacy_relaxations",)
+
+
+def _canonical_view(scene):
+    view = dict(scene)
+    for key in CANONICAL_OMIT_WHEN_EMPTY:
+        if not view.get(key):
+            view.pop(key, None)
+    return view
+
+
 def canonical_json(scene):
     """Byte-stable serialisation; the basis of the scene hash."""
     scene = validate_scene(scene)
-    return (json.dumps(scene, indent=2, sort_keys=True, allow_nan=False,
-                       ensure_ascii=True) + "\n").encode("utf-8")
+    return (json.dumps(_canonical_view(scene), indent=2, sort_keys=True,
+                       allow_nan=False, ensure_ascii=True) + "\n").encode("utf-8")
 
 
 def scene_hash(scene):

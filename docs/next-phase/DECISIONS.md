@@ -71,3 +71,93 @@ recorded against a reference scene assume its bytes never changed, so revising a
 scene after results exist requires a new set version and a superseding decision,
 not an overwrite. `scripts/build_reference_scenes.py --force` exists for the
 initial authoring pass only.
+
+## D009 - Rollout profiles are reconstructed from primary sources and named immutably
+
+Date: 2026-09-18. Status: accepted. Source: M1 step 3 implementation.
+
+`nca/rollout.py` carries one rollout implementation whose every behavioural axis
+is declared in a `RolloutProfile`. The three historical profiles are
+reconstructed from primary sources and each records its provenance string: the
+notebook's `train_epoch` and `evaluate` methods, and the `/generate` handler.
+
+Correctness is established by exact agreement, not by inspection. The serving
+profile is bitwise identical to the legacy handler loop across six request
+variants and the evaluation profile is bitwise identical to `model.grow(seed,
+50)`. Without that, a later behaviour change could not be attributed to the
+change rather than to the rewrite.
+
+`profile.replace(...)` renames its result, so a variant can never be recorded
+under a historical name. `rng_source` must match how the stream is drawn: the
+historical profiles declare `global` and refuse an explicit generator, since
+reproducing a historical stream means drawing from the source the original used.
+
+The shared `config` dictionary is no longer mutated per rollout; the update-scale
+override is scoped and restored in a `finally` block. This is narrower than the
+legacy handler, which leaked on an exception, but it is not per-job isolation and
+does not close that M4 item.
+
+## D010 - A wrong recorded claim is corrected by a superseding note, not an edit
+
+Date: 2026-09-18. Status: accepted. Source: M1 step 3 implementation.
+
+`GEOMETRY_CONTRACT.md` claimed that a training-time z-taper was absent from
+serving. Reading the notebook showed the z-taper keys are referenced nowhere in
+either the notebook or the deployment: they are dead configuration, and nothing
+was lost at deployment. The original wording stays in place under a superseding
+note, the corrected account lives in `ROLLOUT_PROFILES.md`, and the correction is
+recorded in the change log. Wrong claims are retracted visibly, on the same terms
+as failed runs.
+
+## D011 - Add an in-distribution scene set alongside the designed one
+
+Date: 2026-09-18. Status: accepted. Source: user's explicit choice when asked.
+
+`reference_v1` was authored for evaluability and is not drawn from the
+distribution Model C was trained on. Asked whether E0 should run on designed
+scenes only, the user chose to add a legacy-distribution set as well, so that a
+poor result can be attributed to the model rather than to out-of-distribution
+input.
+
+`experiments/scenes/legacy_easy_v1/` holds twelve scenes from the historical
+`easy` sampler at seeds 0-11, consumed in order with no cherry-picking; the
+manifest records accepted seeds, rejected seeds with reasons, and the difficulty
+parameters. The sampler in `nca/legacy_scenes.py` is a transcription of notebook
+code, verified against the notebook generator executed as an oracle rather than
+against a reading of it.
+
+`nca.legacy_scenes.legacy_seed_state` is the seed builder for this set, because
+the deployed generator cannot reproduce it: a deployment change writes ground
+anchor zones for any access point below `street_levels`, where the notebook
+required the type `'ground'`. That widens the legality field for precisely the
+scenes the historical generator produced. The deployed generator stays untouched
+and the divergence is measured.
+
+## D012 - Relaxations are named and declared, never implicit
+
+Date: 2026-09-18. Status: accepted. Source: in-distribution set implementation.
+
+A historical scene can violate a `scene_v1` rule that was written for designed
+scenes. Rather than weaken the rule, a scene may declare a named relaxation from
+`nca.contract.RELAXATIONS`. A relaxation is covered by the scene hash, is refused
+if unknown or repeated, must document what it does not relax, and never changes a
+derived region: a relaxed scene is evaluated by exactly the same rules. Only
+`facade_below_street_band` exists. The designed set declares none and a test
+enforces that.
+
+An empty relaxation list is omitted from the canonical form, listed in
+`CANONICAL_OMIT_WHEN_EMPTY`, so declaring no relaxations hashes identically to a
+scene authored before the field existed. This is what allowed an additive
+optional field without revising `reference_v1`, whose six files remain
+byte-identical to when they were frozen. A key may only be listed there when
+empty genuinely means absent.
+
+## D013 - One Drive folder; explicit approval for every operation
+
+Date: 2026-09-23. Status: accepted and recorded. Source: explicit user request.
+
+The user authorized creation of `Constraint-Based-Architectural-NCA` in My Drive. The connector returned success, folder ID `1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H`, URL https://drive.google.com/drive/folders/1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H . This supersedes D003's suggested `NCA-Next-Phase` destination, while retaining local plus Drive backup as the intended policy.
+
+Only this exact folder and its actual descendants are in scope. Ask before every Drive action, including reads/listings/metadata, searches, downloads, verification, uploads, edits, moves, sharing and deletion. Describe exact targets and actions; only an explicitly approved bounded batch may combine operations. No whole-Drive discovery, outside-folder access, shortcut traversal outside the boundary, automatic backup or implicit approval for later verification. This applies to all access routes, including browser, scripts, sync and Colab. The full operational rule is in `AGENTS.md`.
+
+Creation is the only remote change this session. No subsequent folder read was performed because reads now require approval too. No upload or backup round trip is complete. This is a durable behavioral boundary, not a narrowed OAuth permission grant.
