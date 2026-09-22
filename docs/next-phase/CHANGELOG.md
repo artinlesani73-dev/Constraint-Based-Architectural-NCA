@@ -131,3 +131,28 @@ otherwise unchanged scenes after a fresh checkout. Added `.gitattributes` to kee
 `experiments/scenes/**/*.json` at LF. Scene contents and manifests were not
 regenerated. Verify both sets in the fresh bundle restore before delivering the
 backup; this check covers the checkout fix independently of the regression run.
+
+## 2026-09-23 - E0 preparation in progress
+
+- Recorded the user's decision to keep the milestone archive local (D014). No
+  Drive access occurred; the existing Drive scope/approval rules still apply.
+- Added `rollout_v2`: scoped firing-rate overrides, explicit RNG forwarding for
+  delta masks, and rejection of inconsistent firing/module modes. Legacy model
+  `_step` gains an optional generator argument; existing callers retain default
+  behavior and checkpoint parameter shapes are unchanged.
+- Added original-notebook forward parity checks before any losses/optimizer
+  operations, across mask phases and batch sizes; added rate/RNG behavior checks.
+- Failed verification `20260922T225408Z_f67923028c9a` retained: 80 tests, three
+  oracle subcase errors caused by a missing `_compute_mst_edges` helper in the
+  isolated notebook namespace. Fixed dependency extraction. A linked retry is
+  in progress; this entry is not a claim that the retry has passed.
+- Added local E0 protocol/runner with incremental per-case evidence and explicit
+  failure records. Protocol D015 is frozen before recorded E0 results.
+
+### E0 preparation acceptance
+
+Linked retry `20260922T225534Z_1c995e858265`: 80 tests passed, no failures/errors/
+skips, smoke exit 0. Final expanded suite `20260922T225856Z_26be76516805`: 82
+passed with the same clean result, including E0 empty-output and denominator
+checks. The failed oracle setup attempt remains intact and linked; no experiment
+result was replaced. E0 is prepared but has not produced recorded results yet.

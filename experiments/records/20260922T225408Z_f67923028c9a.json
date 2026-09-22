@@ -1,0 +1,51 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260922T225408Z_f67923028c9a",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 3,
+    "failed_cases": [
+      {
+        "id": "test_rollout_controls.RolloutControlTests.test_training_forward_matches_original_notebook_at_each_mask_phase (batch=1, epoch=0)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 136, in test_training_forward_matches_original_notebook_at_each_mask_phase\n    expected, steps, corridor = oracle(epoch)\n                                ^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 69, in <lambda>\n    return lambda epoch: namespace['train_epoch'](holder, epoch)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 63, in train_epoch\n    \"import torch\\n\",\n                      \n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 213, in compute_corridor_target_v31\n    \"            kernel = self.kernels[k:k+1].unsqueeze(0).expand(C, 1, 3, 3, 3)\\n\",\n                ^^^^^^^^^^^^^^^^^^\nNameError: name '_compute_mst_edges' is not defined\n"
+      },
+      {
+        "id": "test_rollout_controls.RolloutControlTests.test_training_forward_matches_original_notebook_at_each_mask_phase (batch=1, epoch=40)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 136, in test_training_forward_matches_original_notebook_at_each_mask_phase\n    expected, steps, corridor = oracle(epoch)\n                                ^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 69, in <lambda>\n    return lambda epoch: namespace['train_epoch'](holder, epoch)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 63, in train_epoch\n    \"import torch\\n\",\n                      \n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 213, in compute_corridor_target_v31\n    \"            kernel = self.kernels[k:k+1].unsqueeze(0).expand(C, 1, 3, 3, 3)\\n\",\n                ^^^^^^^^^^^^^^^^^^\nNameError: name '_compute_mst_edges' is not defined\n"
+      },
+      {
+        "id": "test_rollout_controls.RolloutControlTests.test_training_forward_matches_original_notebook_at_each_mask_phase (batch=2, epoch=60)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 136, in test_training_forward_matches_original_notebook_at_each_mask_phase\n    expected, steps, corridor = oracle(epoch)\n                                ^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_rollout_controls.py\", line 69, in <lambda>\n    return lambda epoch: namespace['train_epoch'](holder, epoch)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 63, in train_epoch\n    \"import torch\\n\",\n                      \n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\notebooks\\model_c\\NB02_AllConstraints_v3_1_C.ipynb\", line 213, in compute_corridor_target_v31\n    \"            kernel = self.kernels[k:k+1].unsqueeze(0).expand(C, 1, 3, 3, 3)\\n\",\n                ^^^^^^^^^^^^^^^^^^\nNameError: name '_compute_mst_edges' is not defined\n"
+      }
+    ],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 80,
+    "wall_seconds": 42.686984400002984
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "1dfafa7eb0b01b5a0901e4f9f654854105ab648f",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M deploy/model_utils.py\n M nca/rollout.py\n?? NCA-Studio-Concept.html\n?? tests/test_rollout_controls.py"
+  },
+  "run_id": "20260922T225408Z_f67923028c9a",
+  "status": "failed"
+}

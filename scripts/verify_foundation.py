@@ -1,5 +1,6 @@
 """Record a complete foundation verification attempt and all test outcomes."""
 from contextlib import redirect_stdout, redirect_stderr
+import argparse
 from pathlib import Path
 import json
 import subprocess
@@ -13,10 +14,13 @@ from nca.experiments import RunStore, provenance, snapshot_source, write_once
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--parent-run", help="Link a fresh verification attempt to retained prior evidence")
+    args = parser.parse_args()
     store = RunStore(REPO / ".local-artifacts" / "runs")
     config = {"suite": "foundation_v1", "metric_version": "binary_v1",
               "training": False, "device": "cpu", "purpose": "regression verification"}
-    run_id = store.create("Foundation verification", "regression", config, 0, provenance(REPO))
+    run_id = store.create("Foundation verification", "regression", config, 0, provenance(REPO), parent_run=args.parent_run)
     directory = store.path(run_id)
     print(f"RUN_ID={run_id}", flush=True)
     snapshot = directory / "source-snapshot.zip"

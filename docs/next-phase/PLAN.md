@@ -60,3 +60,10 @@ validate module-mode/firing compatibility, and test historical-training parity
 against the notebook loop. These limitations were found in review after the
 existing suite passed; see CHANGELOG.md. Do not interpret passing historical
 default tests as validation of those ablations. E0 has not run.
+
+## E0 preparation accepted - 2026-09-23
+
+The preconditions above are addressed in rollout_v2 and the notebook-forward
+oracle. Run `20260922T225856Z_26be76516805` passes all 82 checks. D015 fixes the
+E0_v1 protocol; run it locally next. D014 keeps the prepared backup local and
+supersedes the earlier pending Drive-upload action; do not access Drive.

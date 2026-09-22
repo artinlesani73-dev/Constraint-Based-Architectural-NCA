@@ -1,4 +1,4 @@
-"""Shared rollout with named historical profiles, version rollout_v1.
+"""Shared rollout with named historical profiles, version rollout_v2.
 
 One implementation, every behavioural axis declared in a profile rather than
 implied by which file called it. The three historical profiles are reconstructed
@@ -38,7 +38,7 @@ import torch
 
 from nca.contract import MATERIAL_THRESHOLD_DEFAULT
 
-ROLLOUT_VERSION = "rollout_v1"
+ROLLOUT_VERSION = "rollout_v2"
 
 FIRING_MODES = ("none", "delta_mask", "state_blend")
 CORRIDOR_MASK_MODES = ("none", "seed_once", "every_step")
@@ -79,6 +79,8 @@ class RolloutProfile:
             raise ValueError("module_mode must be 'train' or 'eval'")
         if self.firing not in FIRING_MODES:
             raise ValueError(f"firing must be one of {FIRING_MODES}")
+        if (self.firing == "delta_mask") != (self.module_mode == "train"):
+            raise ValueError("delta_mask requires train mode; none/state_blend require eval mode")
         if self.corridor_mask not in CORRIDOR_MASK_MODES:
             raise ValueError(f"corridor_mask must be one of {CORRIDOR_MASK_MODES}")
         if self.rng_source not in RNG_SOURCES:
@@ -304,7 +306,8 @@ def run_rollout(model, seed_state, profile, corridor_target=None, steps=None,
     was_training = model.training
     model.train(profile.module_mode == "train")
     try:
-        with _scoped_config(model, {"update_scale": profile.update_scale}):
+        with _scoped_config(model, {"update_scale": profile.update_scale,
+                                   "fire_rate": profile.fire_rate}):
             if profile.corridor_seed_scale > 0:
                 state[:, structure_index] = torch.clamp(
                     state[:, structure_index]
@@ -353,7 +356,7 @@ def run_rollout(model, seed_state, profile, corridor_target=None, steps=None,
                     else:
                         # "delta_mask" is applied inside _step while module_mode is
                         # "train"; "none" leaves the step deterministic.
-                        state = model._step(state)
+                        state = model._step(state, generator=generator)
                         if profile.firing == "delta_mask":
                             applied["fired_steps"] += 1
 

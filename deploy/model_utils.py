@@ -299,7 +299,7 @@ class UrbanPavilionNCA(nn.Module):
             state = self._step(state)
         return state
 
-    def _step(self, state: torch.Tensor) -> torch.Tensor:
+    def _step(self, state: torch.Tensor, *, generator=None) -> torch.Tensor:
         B, C, D, H, W = state.shape
         cfg = self.config
         perception = self.perceive(state)
@@ -307,7 +307,8 @@ class UrbanPavilionNCA(nn.Module):
 
         # Only apply fire rate during training (original behavior)
         if self.training:
-            fire_mask = (torch.rand(B, 1, D, H, W, device=state.device) < cfg['fire_rate']).float()
+            fire_mask = (torch.rand(B, 1, D, H, W, device=state.device,
+                                    generator=generator) < cfg['fire_rate']).float()
             delta = delta * fire_mask
 
         grown_start = cfg['n_frozen']

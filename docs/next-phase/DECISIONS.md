@@ -161,3 +161,40 @@ The user authorized creation of `Constraint-Based-Architectural-NCA` in My Drive
 Only this exact folder and its actual descendants are in scope. Ask before every Drive action, including reads/listings/metadata, searches, downloads, verification, uploads, edits, moves, sharing and deletion. Describe exact targets and actions; only an explicitly approved bounded batch may combine operations. No whole-Drive discovery, outside-folder access, shortcut traversal outside the boundary, automatic backup or implicit approval for later verification. This applies to all access routes, including browser, scripts, sync and Colab. The full operational rule is in `AGENTS.md`.
 
 Creation is the only remote change this session. No subsequent folder read was performed because reads now require approval too. No upload or backup round trip is complete. This is a durable behavioral boundary, not a narrowed OAuth permission grant.
+
+## D014 - Keep the prepared milestone backup local
+
+Date: 2026-09-23. Source: explicit user instruction, "no. save them locally".
+
+The user declined uploading/verifying the M1 archive in Drive. Retain the ZIP and
+checksum in the local outputs folder. No Drive operation is authorized and do
+not repeat the declined upload automatically. This supersedes the pending-upload
+next-action wording in earlier handoffs. It does not revoke the dedicated-folder
+boundary or ask-before-every-operation rule for any future Drive work.
+
+## D015 - Freeze the first E0 diagnostic before seeing its recorded results
+
+Date: 2026-09-23. Status: implementation decision within the approved E0 plan.
+
+`E0_v1` uses the original Model C checkpoint and unchanged legacy corridor
+operator on all 6 reference and 12 legacy scenes. The three historical forward
+profiles use seeds 0, 1 and 2; six ablations use predetermined seed 0 only. Total:
+270 cases at 50 steps, training schedule position 60, material threshold 0.5,
+6-neighbor connectivity. Record counts at thresholds 0.3 and 0.7 as sensitivity
+indicators; connectivity is scored only at 0.5. No optimizer updates occur.
+
+The ablations change serving seed scale to 0.15, remove serving noise, remove
+serving masking, set training firing rate to 1, and compare serving state-blend
+and delta-mask firing at 0.65. The latter changes module mode solely to select
+the firing implementation; this model has no dropout or batch normalization.
+Single-seed ablations are preliminary diagnostic comparisons, not robust effect
+estimates. Historical training step sampling is held at its maximum 50 to match
+the other profiles; this is a matched forward replay, not historical aggregate
+reproduction. The notebook, historical scores, checkpoint and scene manifests
+are unchanged.
+
+All cases, continuous state fields, inputs/corridors, per-case metrics, timing,
+failed/unscorable outcomes, configuration and source snapshots are retained
+locally. Full learned-value comparisons against procedural/scaffold-only/direct
+optimization baselines remain E2. Geometric connectivity is not walkability or
+structural certification. No new constraint family is introduced.

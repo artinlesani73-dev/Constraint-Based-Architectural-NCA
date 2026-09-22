@@ -121,3 +121,16 @@ For orientation only, with no run ID and no standing as evidence: on
 profiles produced 3005, 362 and 1985 material voxels respectively. Legality was
 perfect in all three and no profile connected the entrances. E0 is what turns
 observations like this into a record, per scene, with full provenance.
+
+## rollout_v2 correction - 2026-09-23
+
+Version v2 applies the profile's `fire_rate` in the scoped model configuration,
+passes an explicit torch generator into internal delta masking, and rejects
+train/none, train/state_blend and eval/delta_mask combinations. Existing
+historical settings preserve their behavior. Tests now compare forward output
+against the notebook's model/perception/legality/corridor code and training-loop
+prefix, stopping before loss/backward/optimizer operations. The original
+notebook is unchanged. Shared-model concurrency remains M4 work.
+
+The earlier open question about a legacy scene set was resolved by D011; see
+SCENE_SETS.md. Prior unrecorded orientation numbers are not E0 results.
