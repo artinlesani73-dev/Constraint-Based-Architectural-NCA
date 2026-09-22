@@ -198,3 +198,23 @@ failed/unscorable outcomes, configuration and source snapshots are retained
 locally. Full learned-value comparisons against procedural/scaffold-only/direct
 optimization baselines remain E2. Geometric connectivity is not walkability or
 structural certification. No new constraint family is introduced.
+
+## D016 - Use the recorded baseline to repair targets before scaling
+
+Date: 2026-09-23. Basis: E0 `20260922T230120Z_76f3b4677e8f` and its explicit
+post-run target audit. This is an engineering priority within the approved plan,
+not a change to the project's constraint families or a decision to abandon NCA.
+
+All 270 cases completed. On legacy scenes, training and serving connect 10/12
+scenes per seed, evaluation 0/12, while the legal corridor target connects 12/12.
+No main profile connects a non-control reference scene, although permitted-space
+routes exist for all five. Both ground-only legal targets are disconnected.
+
+First fix the bounded vertical-envelope operation under a new version; then
+address legality/routing and height-band clipping as separately measured changes.
+Next repair loss semantics and gradients, and make a full comparison with
+procedural/scaffold-only/direct-optimization controls. Do not infer that more
+voxels, more channels or more training can resolve a disconnected or forbidden
+target. The target audit measures a spatial graph property only, not complete
+architectural feasibility. Do not change production defaults based on the
+single-seed ablations alone. Keep the generated evidence local per D014.

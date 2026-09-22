@@ -1,7 +1,9 @@
 # Resume the NCA next phase
 
 Last updated: 2026-09-23. Status: rollout controls and E0 reporting checks passed;
-E0 protocol is ready for a recorded local CPU run. No training has started.
+E0 run `20260922T230120Z_76f3b4677e8f` completed all 270 cases from commit
+`474bf53`, with no execution failures. All registered artifacts verified.
+Read E0_FINDINGS.md and its linked detailed report. No training has started.
 
 ## Authorization and storage
 
@@ -53,17 +55,43 @@ NCA-Studio-Concept.html. No Git push or deployment has been performed.
 
 ## Next actions
 
-1. Run `scripts/run_e0.py` locally and record its run ID. D015 freezes E0_v1:
-   270 cases, both scene sets, 50 steps, epoch position 60, three seeds for the
-   main profiles and seed 0 for six preliminary ablations. No optimizer updates.
-2. Verify the resulting archive and retain all fields, case results and failures.
-   Summarize both scene sets separately and compare ablations only to matched
-   seed-0 controls. Do not mix three-seed and one-seed denominators.
-3. Correct the legacy vertical-envelope dilation using a versioned operator.
-   Compare it on the same frozen scenes; do not silently change the E0 baseline.
-4. Repair and test loss semantics/gradients and create the corrected baseline.
-   Then prepare Colab preflight and recovery, agree a concrete compute cap and
-   backup plan, and only then ask the user to launch training.
+1. Implement the versioned bounded vertical-envelope correction described in
+   CORRIDOR_FIX_PLAN.md. Keep the original callable for E0 replay and record
+   target differences on both frozen scene sets.
+2. Correct target legality/routing interactions separately, including ground
+   entrances and the endpoint-based height clamp. D016 records why merely
+   removing forbidden target voxels is insufficient.
+3. Repair loss definitions, tensor shapes and gradients. Then compare the
+   corrected NCA with scaffold-only/procedural/direct-optimization controls.
+4. Prepare Colab preflight/recovery only after those gates, and agree the compute
+   cap and checkpoint backup procedure before any paid training. No user setup
+   is needed at the present stage. Keep archives local as requested.
+5. Product work can use the stable scene/result records and actual E0 cases to
+   build the design workspace; do not imply an improved trained model yet.
+
+## E0 evidence and interpretation
+
+- Run: `20260922T230120Z_76f3b4677e8f`; 270/270 completed, zero failed cases.
+  Report generation verified all registered artifacts against their hashes.
+- Findings: `docs/next-phase/E0_FINDINGS.md`; detailed report and post-run target
+  audit JSON in `docs/next-phase/reports/`, named with the run ID.
+- On legacy scenes, training and serving each connect 10/12 scenes at each of
+  three seeds; historical evaluation connects 0/12 and yields about 28 voxels
+  per scene. The legal corridor target itself connects all 12.
+- All main profiles fail to connect the five non-control reference scenes,
+  despite permitted-space connectivity. The sixth reference is intentionally
+  impossible. Both ground-only legal targets are disconnected, so fix target
+  routing as well as the bounded-envelope bug.
+- Single-seed ablations are diagnostic only. Serving without noise loses ten
+  legacy connections; removing its mask fills far more volume without gaining
+  connectivity. Do not promote a different default from these alone.
+- The audit uses recorded source-snapshot scenes, preserving exact provenance
+  even if a later Git checkout normalizes manifest line endings.
+- Source commit for E0: `474bf53`; the later local evidence commit adds reports
+  and the handoff. See Git log for its actual hash. A new local E0 backup is
+  prepared in the outputs directory as `NCA-E0-Backup-2026-09-23-<commit>.zip`,
+  with a checksum and a receipt under `.local-artifacts/milestones/`. Check the
+  receipt before claiming the backup complete; the old M1 archive stays intact.
 
 `run_e0.py --parent-run <id>` creates a fresh full retry linked to a retained
 attempt; it does not resume midway through a case or overwrite prior results.

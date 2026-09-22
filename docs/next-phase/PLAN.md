@@ -67,3 +67,13 @@ The preconditions above are addressed in rollout_v2 and the notebook-forward
 oracle. Run `20260922T225856Z_26be76516805` passes all 82 checks. D015 fixes the
 E0_v1 protocol; run it locally next. D014 keeps the prepared backup local and
 supersedes the earlier pending Drive-upload action; do not access Drive.
+
+## E0 completed - 2026-09-23
+
+M1 step 4 has a recorded 270-case diagnostic, run
+`20260922T230120Z_76f3b4677e8f`. Read E0_FINDINGS.md and D016. Main-profile
+comparisons use three seeds; single-seed ablations remain preliminary. The
+post-run target audit exposes both target conflicts and a limited scaffold
+connectivity advantage. M1 overall is not complete: the versioned corridor fix
+and architectural semantics/gradient work remain. Next implement the bounded
+operator, then measure legality/routing corrections separately before training.

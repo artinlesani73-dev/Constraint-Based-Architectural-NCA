@@ -1,0 +1,732 @@
+{
+  "analysis_version": "target_audit_v1",
+  "scenes": [
+    {
+      "input_artifact": {
+        "bytes": 131786,
+        "path": "artifacts/24e6471e916849f68be523bb8b67a802_legacy_easy_v1__legacy-easy-seed-000__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "11d3f9ac5a81a43287ee8b93b7bee2a9719b8c3d1b6a633073e011bd0ab5462e"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.0,
+        "illegal_voxels": 0,
+        "material_voxels": 300,
+        "nonempty": true,
+        "zero_illegal_voxels": true
+      },
+      "scene_id": "legacy-easy-seed-000",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 134391,
+        "path": "artifacts/21a55d488ae84209ba4cc34d4c15cf23_legacy_easy_v1__legacy-easy-seed-001__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "b7e631477f8d50e20d1999417bbb86e75431d78ee37af2a4f5a786736e837425"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.17829457364341086,
+        "illegal_voxels": 69,
+        "material_voxels": 387,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-001",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 135569,
+        "path": "artifacts/c3b926a74bbd4729baa5533ef3e4d7d6_legacy_easy_v1__legacy-easy-seed-002__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "4af54b72219be547378240646a914ea6aa8a2d4ff88a288c8e4f5aa2f61aef0e"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.0745697896749522,
+        "illegal_voxels": 78,
+        "material_voxels": 1046,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-002",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 138894,
+        "path": "artifacts/696780938dde4537b7d6c71120279aa8_legacy_easy_v1__legacy-easy-seed-003__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "79f19f7bf04c2dc83c803e86721c93862e70a1736c452370e816284d912d901c"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.0,
+        "illegal_voxels": 0,
+        "material_voxels": 897,
+        "nonempty": true,
+        "zero_illegal_voxels": true
+      },
+      "scene_id": "legacy-easy-seed-003",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 133891,
+        "path": "artifacts/ad1033b6407d4ef786884d8061072b25_legacy_easy_v1__legacy-easy-seed-004__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "f4a7c07564ca9dcd70f55df06b33b3beff4c59b8583d807dbf020be6f2cb961d"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.20415738678544915,
+        "illegal_voxels": 275,
+        "material_voxels": 1347,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-004",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 132378,
+        "path": "artifacts/73bd3f43d8ec4707bd45c6685d1a1854_legacy_easy_v1__legacy-easy-seed-005__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "9b167a65dacf67a8923780c32829c0b0507efd3dd32b0ee11567f6155bb45e41"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.4195961106955871,
+        "illegal_voxels": 561,
+        "material_voxels": 1337,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-005",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 131573,
+        "path": "artifacts/72f0df1f073c44439f4f110ff94ab7d4_legacy_easy_v1__legacy-easy-seed-006__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "c1e7e2a4da4217f25928070be1ff431e11f00f191a8b55ade00612ebd5465aff"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.0,
+        "illegal_voxels": 0,
+        "material_voxels": 1627,
+        "nonempty": true,
+        "zero_illegal_voxels": true
+      },
+      "scene_id": "legacy-easy-seed-006",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 133728,
+        "path": "artifacts/424e9c3d872b48c68f04f5b06a96c49f_legacy_easy_v1__legacy-easy-seed-007__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "aff5783f1778add8d21d62670388ed62b39241cd8050ac530e22500cfb651ec1"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.04691358024691358,
+        "illegal_voxels": 19,
+        "material_voxels": 405,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-007",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 136426,
+        "path": "artifacts/a5d4105d0a394d7596276ffa8110ad44_legacy_easy_v1__legacy-easy-seed-008__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "4cca14b87708fd6e6245be52c1e2a1685b2f21a4310d10f1443ae9e562ef19ea"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.16772554002541296,
+        "illegal_voxels": 132,
+        "material_voxels": 787,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-008",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 133343,
+        "path": "artifacts/f543038c53ac42179c9b427d5f7608f1_legacy_easy_v1__legacy-easy-seed-009__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "c3ba03c23bdd5b5b33b0c1e1f6485763fb80c09255b552dc12e49857e3b7311d"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.07890122735242548,
+        "illegal_voxels": 135,
+        "material_voxels": 1711,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-009",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 132621,
+        "path": "artifacts/a698d373b9fc484697e86f0dc6e04992_legacy_easy_v1__legacy-easy-seed-010__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "838c4e113698eac59eb468072f8be03bb096c0236ce08d3a0c9f1303bdbed45c"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.0,
+        "illegal_voxels": 0,
+        "material_voxels": 2099,
+        "nonempty": true,
+        "zero_illegal_voxels": true
+      },
+      "scene_id": "legacy-easy-seed-010",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 141089,
+        "path": "artifacts/8f9cbf248f9d452586c939f4d2ae8cd7_legacy_easy_v1__legacy-easy-seed-011__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "5a17f30d7f9a12598e6d8d9aa651870d53e1e3a37e5b73001ffe6c2f02933455"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_legacy_2": true
+        },
+        "source_id": "E_legacy_1",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.13610369805566144,
+        "illegal_voxels": 357,
+        "material_voxels": 2623,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "legacy-easy-seed-011",
+      "scene_set": "legacy_easy_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 142424,
+        "path": "artifacts/1de7dfccb661432e93f90e53372839e4_reference_v1__ref-01-ground-pair__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "2dff4bc5328b121cbf486979db063e59bde2d913c9be42816102d67e6a21139b"
+      },
+      "legal_target_connectivity": {
+        "all_connected": false,
+        "fraction_reached": 0.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_ground_west": false
+        },
+        "source_id": "E_ground_east",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_ground_west": true
+        },
+        "source_id": "E_ground_east",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.6848484848484848,
+        "illegal_voxels": 452,
+        "material_voxels": 660,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "ref-01-ground-pair",
+      "scene_set": "reference_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 145076,
+        "path": "artifacts/59b7e57acf824d589499fe295e79189d_reference_v1__ref-02-facade-pair-and-ground__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "8dea0ad8b45f3bcd3416d29d4d8194a19401389a6ddaead7325ca2273aea603d"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": true,
+          "E_ground_mid": true
+        },
+        "source_id": "E_facade_east",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": true,
+          "E_ground_mid": true
+        },
+        "source_id": "E_facade_east",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.12384086150164524,
+        "illegal_voxels": 414,
+        "material_voxels": 3343,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "ref-02-facade-pair-and-ground",
+      "scene_set": "reference_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 142872,
+        "path": "artifacts/5162ce0deed14abe96d20ea7a4ce3d09_reference_v1__ref-03-wide-gap__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "87d6d08dd38f51ff74d542ec34dc7d1c413bb1df6849b220f8e7fc8318133388"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": true,
+          "E_ground_west": true
+        },
+        "source_id": "E_facade_east",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": true,
+          "E_ground_west": true
+        },
+        "source_id": "E_facade_east",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.20432692307692307,
+        "illegal_voxels": 935,
+        "material_voxels": 4576,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "ref-03-wide-gap",
+      "scene_set": "reference_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 144054,
+        "path": "artifacts/88b481b353df4c4bb9cb2cd3bffafda5_reference_v1__ref-04-asymmetric-heights__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "15eef4fc082a91969e7514488cd553a14dbaf31bcd9583ffa62cbedfe53fc240"
+      },
+      "legal_target_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_tall": true,
+          "E_ground_gap": true
+        },
+        "source_id": "E_facade_low",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_tall": true,
+          "E_ground_gap": true
+        },
+        "source_id": "E_facade_low",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.13786906290115533,
+        "illegal_voxels": 537,
+        "material_voxels": 3895,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "ref-04-asymmetric-heights",
+      "scene_set": "reference_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 178668,
+        "path": "artifacts/82571cc5edf84881a56ea669beba0d73_reference_v1__ref-05-sealed-partition__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "134493b70e39ca7af21441e96bf6696015adfc81671796b6d872aabb9b7de312"
+      },
+      "legal_target_connectivity": {
+        "all_connected": false,
+        "fraction_reached": 0.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": false
+        },
+        "source_id": "E_facade_east",
+        "source_open": false
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": false,
+        "fraction_reached": 0.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_facade_west": false
+        },
+        "source_id": "E_facade_east",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": null,
+        "illegal_voxels": 0,
+        "material_voxels": 0,
+        "nonempty": false,
+        "zero_illegal_voxels": true
+      },
+      "scene_id": "ref-05-sealed-partition",
+      "scene_set": "reference_v1"
+    },
+    {
+      "input_artifact": {
+        "bytes": 126574,
+        "path": "artifacts/76a96825939840e69a0d3b174eff6326_reference_v1__ref-06-minimal-smoke__historical-training__seed-0.npz",
+        "role": "case_fields",
+        "sha256": "2f809d1274401d81c7baaeaaecc12f7d2c315885fffa60226e73f62983ec094d"
+      },
+      "legal_target_connectivity": {
+        "all_connected": false,
+        "fraction_reached": 0.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_ground_b": false
+        },
+        "source_id": "E_ground_a",
+        "source_open": true
+      },
+      "note": "Permitted-space connectivity is a spatial upper bound only, not architectural feasibility.",
+      "permitted_connectivity": {
+        "all_connected": true,
+        "fraction_reached": 1.0,
+        "metric_version": "binary_v1",
+        "neighborhood": 6,
+        "reached": {
+          "E_ground_b": true
+        },
+        "source_id": "E_ground_a",
+        "source_open": true
+      },
+      "raw_target_legality": {
+        "illegal_fraction": 0.4639175257731959,
+        "illegal_voxels": 180,
+        "material_voxels": 388,
+        "nonempty": true,
+        "zero_illegal_voxels": false
+      },
+      "scene_id": "ref-06-minimal-smoke",
+      "scene_set": "reference_v1"
+    }
+  ],
+  "source_run": "20260922T230120Z_76f3b4677e8f"
+}

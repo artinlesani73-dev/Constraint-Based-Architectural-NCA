@@ -134,3 +134,12 @@ notebook is unchanged. Shared-model concurrency remains M4 work.
 
 The earlier open question about a legacy scene set was resolved by D011; see
 SCENE_SETS.md. Prior unrecorded orientation numbers are not E0 results.
+
+### Clarification of the firing comparison
+
+The earlier statement that delta masking and state blending coincide only at
+rates 0 or 1 was too strong. With the same binary update masks they can also
+agree at intermediate rates when the previous state is already invariant under
+clamping and hard projection. Noise can break that condition. E0's comparisons
+measure the actual implementation; a conceptual distinction does not imply a
+large numerical difference in every configuration.

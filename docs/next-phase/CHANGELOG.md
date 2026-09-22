@@ -156,3 +156,48 @@ skips, smoke exit 0. Final expanded suite `20260922T225856Z_26be76516805`: 82
 passed with the same clean result, including E0 empty-output and denominator
 checks. The failed oracle setup attempt remains intact and linked; no experiment
 result was replaced. E0 is prepared but has not produced recorded results yet.
+
+### E0 started
+
+Run `20260922T230120Z_76f3b4677e8f`, source commit `474bf53`, started with the
+frozen 270-case E0_v1 matrix. Results are appended per case under its local run
+folder. Do not treat it as complete until result.json confirms completion.
+The source snapshot was captured before later report-writer/design-note edits.
+Added report generation from verified artifacts and a bounded corridor-fix plan;
+neither changes the operator used by the running baseline.
+
+## 2026-09-23 - E0 completed and retained locally
+
+Run `20260922T230120Z_76f3b4677e8f` completed all 270 cases, zero execution failures,
+in 1219.3 seconds total CPU wall time (including evaluation/storage; not a
+latency benchmark). Source commit: `474bf53`. Full states, seed states, corridor
+fields, material masks, case metrics, all settings, timing and source snapshot
+are retained in the run archive. No weights were updated. Original notebook,
+checkpoint, published historical scores and frozen scene files remain unchanged.
+
+Added `scripts/report_e0.py`, `nca/e0_analysis.py`, the detailed report and target
+analysis JSON, E0_FINDINGS.md and CORRIDOR_FIX_PLAN.md. The report reads verified
+artifact records and the recorded source snapshot rather than trusting current
+working files. All artifact hashes passed verification. The post-run target audit
+is labeled as such; it did not alter the predeclared E0 matrix. A fresh report
+render was reviewed against the raw group totals and per-seed/paired results.
+
+Key findings and next action are in D016. The old assertion that the two firing
+forms coincide only at rates 0 or 1 was too strong; a visible clarification now
+states their possible equivalence under invariant projection and identical masks.
+This documentation correction does not change the recorded experiment.
+
+The 82-test preflight and both earlier verification attempts remain preserved
+with verified artifact hashes. No need to rerun model tests for report-only
+additions. Historical Model C files have no diff against `ac913b9`. Reports stay
+ignored where required; the user studio concept and unrelated checksum file are
+not staged. All new evidence is preserved in a local commit and a local backup;
+no Drive operation, paid training, push or deployment was performed.
+
+### Final report verification
+
+The detailed report and target-audit JSON exactly match a fresh rendering from
+verified artifacts. Full continuous final-state hashes also match across all
+three historical-evaluation repeats for each of the 18 scenes. The corresponding
+verification receipt is stored beside the report. This confirms deterministic
+repeats, not three independent evaluation samples.
