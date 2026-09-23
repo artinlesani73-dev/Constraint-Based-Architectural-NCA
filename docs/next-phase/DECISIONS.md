@@ -352,3 +352,25 @@ gradient cases across all18 frozen scenes. Keep nine families and existing formu
 New facade/coverage/budget bounds expose incompatibility; passing is not sufficient.
 All coefficients remain explicit unit values for diagnosis only. No model training,
 production default, cloud operation or paid compute is authorized by this protocol.
+
+## D024 - T1 exposes joint conflicts and weak architectural success criteria
+
+2026-09-23. Run20260923T082527Z_845d2aa6aec0 completed432 target cases,
+72 bounds and36 direct occupancy probes. All123 tests pass. The joint mandatory
+facade bound reduces radius6/envelope necessary-compatible feasible scenes from
+17/17 to15/17; radius3/envelope falls to11/17. Never call prior necessary bounds
+sufficient. No loss-weight change can eliminate these exact zero-loss conflicts.
+
+Two radius6/envelope reference guides score zero on all nine terms despite
+one-voxel-wide segments. Current thickness discourages bulk, facade caps excess
+contact, access follows material, and support is geometric. They do not certify
+usable architecture. Independent saved-field verification reproduces all nine
+zero-loss configurations across the complete matrix.
+
+Keep the existing formulas and defaults unchanged for historical comparison.
+NEXT_EXPERIMENT_PLAN.md proposes explicit semantic alternatives before coefficient
+calibration and E2 procedural/direct/NCA controls. No new family is added. The
+user was asked whether output should primarily be usable pavilion/bridge or abstract
+material; do not silently choose while that answer is pending. An anchor exception
+is a proposed experiment, not an implemented exemption or approved final contract.
+All old scenes are development data now; future holdout scenes must be fresh.

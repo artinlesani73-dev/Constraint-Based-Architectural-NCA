@@ -113,3 +113,14 @@ fresh processes; this opens mechanics preparation, not paid training or Gate A.
 118 tests pass. Next audit all-nine-term feasibility on explicit geometry targets,
 calibrate loss/regularizer magnitudes and preregister E2 procedural/direct/NCA
 controls. CUDA/Colab recovery and an approved compute cap remain prerequisites.
+
+## T1 completed - 2026-09-23
+
+Run20260923T082527Z_845d2aa6aec0:432 geometry cases,72 joint bounds,36 gradient
+probes,123 regression tests pass. Read TARGET_AUDIT_FINDINGS.md and D024.
+Radius6/envelope necessary compatibility drops to15/17 feasible scenes after
+facade contact; simple guides can score zero on all nine terms. Final coefficient
+calibration is deferred until intended architectural semantics and contradictions
+are addressed, not replaced with arbitrary weights. NEXT_EXPERIMENT_PLAN.md
+specifies semantic fixtures/alternatives, gradient calibration and paired E2 arms.
+User representation preference is pending; current independent audit is complete.

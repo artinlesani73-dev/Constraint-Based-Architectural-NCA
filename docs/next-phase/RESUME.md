@@ -1,9 +1,10 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **L2 intervention comparisons and R1 exact CPU recovery
-are complete.** Read INTERVENTION_FINDINGS.md, D021/D022 and PLAN.md. Next audit
-all-nine-term target compatibility and physical budgets before calibrating a
-corrected research baseline. No paid training or production change is selected.
+Last updated 2026-09-23. **T1 target compatibility audit is complete.** Read
+TARGET_AUDIT_FINDINGS.md, NEXT_EXPERIMENT_PLAN.md and D023/D024. The audit found
+joint facade/budget conflicts and weak zero-loss geometry. Next resolve intended
+architectural semantics, then compare explicit alternatives before calibration.
+No paid training or production objective change is selected.
 
 ## Authorization and storage
 
@@ -26,17 +27,18 @@ Local commits are authorized. No remote push, deployment or cloud operation.
   profiles, 474bf53 rollout/E0 runner, 75402ff E0 evidence, 579031c corridor
   operators, 595c8e0 retry prep, 8501478 C1 evidence, fa66238 shared loss package,
   2e1e510 L1 evidence, 95431de interventions/recovery utilities, 6ee2ed8 L2 evidence
-  and R1 runner. The next evidence commit contains this handoff; inspect Git log.
+  and R1 runner. 2c356de L2/R1 evidence, f767975 T1 protocol/runner. The later T1 evidence commit
+  contains this handoff; inspect Git log.
 - All raw runs/source snapshots: .local-artifacts/runs/<run_id>/; small tracked
   summaries: experiments/records/<run_id>.json. Original 50-file snapshot remains
   in .local-artifacts/source-snapshots/. Reports do not replace raw artifacts.
 - Archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
   Preserve M1, E0, corridor and loss archives. New milestone archive:
-  NCA-Intervention-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
+  NCA-Target-Audit-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
   Verify .local-artifacts/milestones/<commit>-backup-receipt.json before claiming
   completion. Archives are local same-disk copies, not off-device backups.
-- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_interventions.py.
-  Requires completed L2/R1, creates a new full Git bundle and restore clone,
+- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_target_audit.py.
+  Requires completed T1, creates a new full Git bundle and restore clone,
   checks frozen scene hashes and every ZIP payload hash. Never overwrite archives
   or remove failed/partial evidence to rerun. Use a new attempt name if needed.
 
@@ -74,26 +76,47 @@ Local commits are authorized. No remote push, deployment or cloud operation.
   Failed first report publication (missing directory) preserved under
   .local-artifacts/analysis-attempts/20260923-l2-r1-report-01; fixed then published.
 
+## T1 completion and current decision
+
+- T1 `20260923T082527Z_845d2aa6aec0`, source f767975:432 static targets,72 joint
+  bounds,36 direct occupancy gradients. All18 scenes retained, no optimization.
+- Regression `20260923T082336Z_b8c43fcf7723`:123 passed,no failures/errors/skips,
+  checkpoint smoke exit0. Five added tests verify bound conflicts and candidates.
+- Adding mandatory-facade bounds reduces radius6/envelope compatibility from
+  17/17 feasible scenes to15/17 (legacy007/008 fail); radius3 reduces to11/17.
+- Simple guides in ground-pair/minimal references have zero nine-family penalties
+  under radius6/envelope despite one-voxel-wide segments. These are evidence of
+  weak architectural success criteria, not production success.
+- T1 full report and verification/rerender receipts: experiments/reports/T1-*.
+  Recomputed saved norms/cosines, volumes/bounds and all nine zero-loss witness
+  records; fresh render matches. No T1 attempt failed. No process remains active.
+- User was asked via asynchronous question whether the intended output is a
+  usable pavilion/bridge or abstract structural material. If an answer appears
+  in chat, record it and use it; otherwise that semantic choice remains pending.
+  Do not implement the proposed facade-anchor exemption by implication.
+
 ## Exact next actions
 
-1. Freeze a target compatibility audit across all 18 scenes using legal guide,
-   thick scaffold and explicit volumetric candidates. Evaluate all nine terms,
-   physical amounts, independent binary metrics and architecture interpretations.
-   Necessary capacity bounds alone do not prove joint objective feasibility.
-2. Resolve denominator/radius and intended material thickness deliberately. Keep
-   site/envelope alternatives explicit; no silent mass reduction or wider regions.
-   Pre-clamp coverage is a candidate; it does not repair access semantics by itself.
-3. Measure per-family magnitudes and gradient directions, integrate retained
-   regularizers and calibrate visible fixed coefficients on deterministic scene
-   coverage. Preregister E2 procedural scaffold/direct optimization/NCA controls,
-   longer horizons, damage/absent scaffolds and held-out evaluation.
-4. Extend checkpoint state to the actual research trainer, including sample pool,
-   CUDA RNG and AMP scaler if introduced. Test interruption on that environment.
-   R1 only certifies completed-update CPU boundaries after orderly process exit.
-   Copy fallback on filesystems without hard links is not atomic under power loss.
-5. Prepare a concrete small Colab pilot only after the above; ask for its compute
-   cap and any exact Drive operations before use. Bigger grids and the studio
-   redesign remain planned. No user setup is required for the next local audit.
+1. Read NEXT_EXPERIMENT_PLAN.md and the user's representation preference. Define
+   access/material/void and thickness meanings within existing nine families.
+   Keep historical formulas. Create adversarial architectural fixtures and explicit
+   scene/anchor masks before changing losses; never exempt the whole guide blindly.
+2. Compare current formulas against separately versioned facade-anchor or physical
+   budget alternatives, one factor at a time. Include both conflict scenes and the
+   sealed reference; preserve per-family residuals and physical units. No silent
+   expansion of envelopes or budget relaxation. Passing necessary bounds is not
+   sufficient; require constructive plausible witnesses and intended failure cases.
+3. Once semantics are selected, calibrate on under/in/over-budget states and actual
+   NCA parameter gradients. T1 direct occupancy probes do not determine weights;
+   envelope sparsity was inactive throughout them. Audit/port retained notebook
+   TV/density/cantilever regularizers with explicit meanings and ground boundaries.
+4. Preregister E2 procedural/direct-optimization/NCA/no-update comparisons and
+   fresh held-out scenes; all existing18 scenes are now development data. Evaluate
+   long rollouts and damage, not only short training horizons. No architecture or
+   grid-size change before a measurable corrected baseline.
+5. Extend actual trainer recovery to pool/CUDA/AMP state as applicable. Paid Colab
+   needs a concrete job and approved compute cap; every Drive action needs exact
+   approval. Studio work can use saved evidence once representation is decided.
 
 ## Commands and interruption recovery
 
@@ -124,8 +147,13 @@ that CPU lock over Colab CUDA. Local write/Git permissions may need renewal in a
 new task. Previous handoffs remain in Git/archives. This record supports resuming
 work after a limit reset; it does not automatically resume work or redeem credits.
 
-## Active T1 audit
+## T1 verification commands
 
-Prepared2026-09-23. Read TARGET_AUDIT_PROTOCOL.md and D023.123 tests passed in
-20260923T082336Z_b8c43fcf7723. Next run scripts/run_target_audit.py once; inspect
-active processes and records before retrying. Keep all attempts. No optimizer.
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T082527Z_845d2aa6aec0
+& .venv/Scripts/python.exe -c "from pathlib import Path; from scripts.report_target_audit import load,render; assert Path('experiments/reports/T1-target-audit.md').read_text(encoding='utf-8') == render(load())"
+```
+
+Do not rerun completed T1 without a new reason. If necessary, scripts/run_target_audit.py
+accepts `--parent-run 20260923T082527Z_845d2aa6aec0` for a retained fresh attempt.
+Report writers refuse overwrite; use in-memory rendering to reverify.

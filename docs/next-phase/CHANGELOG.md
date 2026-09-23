@@ -352,3 +352,19 @@ regression tests, frozen TARGET_AUDIT_PROTOCOL.md and scripts/run_target_audit.p
 Verification20260923T082336Z_b8c43fcf7723:123 tests pass,zero failures/errors/skips,
 checkpoint smoke exit0. The full audit records static losses and direct occupancy
 gradients, not learned quality. Original loss/model code remains intact.
+
+## 2026-09-23 - T1 completed and verified
+
+T1_v1 20260923T082527Z_845d2aa6aec0 (sourcef767975) completed432 static targets,
+72 joint-bound records and36 occupancy-gradient cases in35.91 seconds CPU.
+No optimization. Every scene, including sealed reference, retained. Added
+scripts/report_target_audit.py, full experiments/reports/T1-target-audit.md,
+verification and rerender receipts. Hashes, joint arithmetic, candidate volumes,
+saved norms/cosines independently checked; nine zero-loss witnesses recomputed
+exactly and fresh report rendering matches. No experiment/report attempt failed.
+
+TARGET_AUDIT_FINDINGS.md and D024 document facade/budget conflicts, weak zero-loss
+geometry and gradient-scale limitations. NEXT_EXPERIMENT_PLAN.md defines staged
+semantic repair, calibration and E2 controls without claiming final weights or
+paid-job readiness. Updated handoff and new local archive preserve all history.
+Original notebook/checkpoint/losses/production defaults remain unchanged; no cloud.
