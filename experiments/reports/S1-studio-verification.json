@@ -1,0 +1,68 @@
+{
+  "version": "studio_s1_qa_v1",
+  "date": "2026-09-24",
+  "training": false,
+  "regressions": [
+    "20260923T223300Z_af097d57765b",
+    "20260923T223757Z_6602b2cf16c8"
+  ],
+  "final_tests": 211,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "smoke_exit": 0,
+  "browser_checks": [
+    "Build ground-pair result: connected, in budget, nine families displayed.",
+    "Build sealed partition: disconnected, incompatible, retained with failures.",
+    "Reject building x-end=33; retain draft and disable Build.",
+    "Apply valid z-end=24; immutable saved scene revision.",
+    "Build edited scene; reload server and reopen saved card; z-end remains24.",
+    "Plan/elevation/axonometric controls and context visibility toggle work.",
+    "390x844 mobile layout: document width390, heading spacing corrected, no horizontal page overflow.",
+    "Final desktop screenshot1265px reviewed; actual facade/ground geometry.",
+    "JSON export exists in Downloads and parsed contents equal original record.",
+    "Final server save includes request.json, record.json and SHA256 receipt.",
+    "No browser warning/error logs observed."
+  ],
+  "retained_observations": [
+    "Initial direct Studio suite12 passed; complete suites211 passed twice.",
+    "One documentation patch failed exact text matching; no partial changes, corrected patch applied.",
+    "Export browser download-event wait timed out; actual file was downloaded and equality verified by reading it.",
+    "First external-cwd launcher saved request returned500 without durable failure payload. Server had no explicit exception logger. Added exception logging.",
+    "Reproduced outside-cwd sandbox save failure on port8002: attempt20260923T223918Z_8ff30d4eaf60, failure-record attempt20260923T223918Z_fd67cc1b5b04, WinError5 PermissionError at mkdir under .local-artifacts/studio. No data directory was created. This is a tool workspace permission restriction. Project-cwd server saves correctly. Both external-cwd servers stopped.",
+    "Initial four browser studies preceded request-before-compute persistence. Their completed payloads/receipts remain intact; final facade study includes request file.",
+    "Scientific code and historical serving files unchanged. No NCA training or model promotion.",
+    "Final evidence helper initially hit the same external-cwd WinError5 before writing; rerun from project cwd completed. Final UI-only fix keeps integrity alerts separate from transient status and refreshes the library after failed requests; Python source unchanged after final211-test run."
+  ],
+  "browser_study_ids": [
+    "20260923T222656Z_9518cc83c6bd",
+    "20260923T223115Z_1d41b3524110",
+    "20260923T223403Z_be34c866b7a7",
+    "20260923T223419Z_6b1b42479c59",
+    "20260923T223755Z_7f580c96ff6a"
+  ],
+  "source_archives": {
+    "0b0e633dd22663bfd50947fedc02498e54baa4ef7304c6f75b897735cf569a0d": {
+      "file": "source-0b0e633dd22663bfd50947fedc02498e54baa4ef7304c6f75b897735cf569a0d.zip",
+      "sha256": "38f78ca680455900ce2b8983d7d094164933b1f5774aeabad881822f879053b8"
+    },
+    "5aafedd44840892f427bd6231b7b41286948df3f8b4399bb3e39829b6558e860": {
+      "file": "source-5aafedd44840892f427bd6231b7b41286948df3f8b4399bb3e39829b6558e860.zip",
+      "sha256": "136279bcce6309c508bf2c9fe3dfb24c99f0b11c85067acdb86a473f19fa1aaf"
+    }
+  },
+  "screenshots": {
+    "desktop.jpg": "ade417027342c985362c6634ae12d8ce1635f8c7dc7a43c7845d350196b716e1",
+    "mobile.jpg": "f121fc1871cf0849b4ef3641c44fffcb7b98ae150cb09df9e29d95afb6dd2772"
+  },
+  "current_code_sha256": {
+    "deploy/studio.py": "5aafedd44840892f427bd6231b7b41286948df3f8b4399bb3e39829b6558e860",
+    "deploy/studio.html": "22bdc0689276be913dacb6507275b4ff8ebd3f6b12ae7c379c81fb18ef4813f2",
+    "deploy/static/js/studio.js": "c9abc1cbc8e12e57a73a79fd483af7b60a9eefb6e0ac6e92e99e618e6bfaa294",
+    "deploy/static/css/studio.css": "8e14f75634f63da44348018d1e3e8899e528fd057c89bbedca81eb6111cb35a7",
+    "deploy/run-studio.ps1": "69ebc1ea12eab20f8289816793147009331a8c5ebb00c41be12fc67fd688fee2",
+    "tests/test_studio.py": "931d61548711e33281c68f00207c154b05064c8805b8e4f0ae29eeab1c7d5ade"
+  },
+  "artifact_location": ".local-artifacts/studio-qa/S1-20260924",
+  "limits": "Fixed views and coordinate editing; no trained refiner, job cancellation, import or public deployment. Same-disk archive only."
+}

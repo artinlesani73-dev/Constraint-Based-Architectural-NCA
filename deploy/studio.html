@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCA / Studio</title><link rel="stylesheet" href="/static/css/studio.css"></head>
+<body>
+<header><a class="brand" href="/">NCA <span>/</span> STUDIO</a><div class="breadcrumb">DESIGN STUDIES <span>/</span> <b>Between buildings</b></div><span class="local">LOCAL WORKSPACE</span><button id="export" disabled>Export record ↗</button></header>
+<main>
+<aside class="left"><div class="eyebrow">01 / SCENE</div><h1>Between <br>buildings.</h1><p class="intro">Explore material connections in the spaces we already have.</p>
+<label class="field">Starting scene<select id="presets" aria-label="Starting scene"></select></label>
+<p id="description" class="muted"></p>
+<div class="section-title">Scene editor <span>VOXEL UNITS</span></div>
+<div id="editor"></div>
+<div class="actions"><button id="apply">Apply edits</button><button id="save-scene">Save scene</button></div>
+<div class="section-title">Layers</div>
+<label class="check"><input id="buildings" type="checkbox" checked> Existing buildings <i class="dot building"></i></label>
+<label class="check"><input id="material" type="checkbox" checked> Proposed material <i class="dot material"></i></label>
+<label class="check"><input id="entrances" type="checkbox" checked> Entrance regions <i class="dot entrance"></i></label>
+<label class="check"><input id="guide" type="checkbox"> Route guide <i class="dot guide"></i></label>
+<p class="footnote">32³ voxels · 0.8 m per voxel<br>25.6 m site width · Z is up</p>
+</aside>
+<section class="workspace" aria-label="Design viewport">
+<div class="toolbar"><div class="view-tabs" aria-label="View"><button data-view="iso" class="active" aria-pressed="true">Axonometric</button><button data-view="plan" aria-pressed="false">Plan</button><button data-view="elevation" aria-pressed="false">Elevation</button></div><span id="view-label">PARALLEL PROJECTION</span></div>
+<div class="drawing"><canvas id="canvas" aria-label="Voxel geometry drawing"></canvas><div class="drawing-caption"><span id="study-name">SCENE PREVIEW</span><strong id="scene-name">Loading workspace</strong><span id="drawing-note">Existing context · no generated material</span></div><div class="scale">GRID: 0.8 m / CELL</div></div>
+<div class="runbar"><div><span class="eyebrow">02 / CONSTRUCT</span><strong>Start with a connected scaffold.</strong><p>Deterministic planner · existing geometric constraints</p></div><button id="construct" class="primary" disabled>Build alternative <span>→</span></button></div>
+<div id="status" role="status" aria-live="polite">Loading the reference scenes…</div>
+<section class="library"><div class="section-title">Saved studies <span id="record-count">LOCAL ARCHIVE</span></div><p id="integrity-alert" role="alert" class="bad small" hidden></p><div id="records" class="cards"><p class="muted">Every completed study is saved here automatically.</p></div></section>
+</section>
+<aside class="right"><div class="eyebrow">03 / EVIDENCE</div><h2 id="result-title">A scene, before<br>a solution.</h2><p id="method" class="method">PREVIEW ONLY</p><p class="muted" id="evidence-note">Build an alternative to evaluate its geometry. A useful image is only the start.</p>
+<div id="summary" class="summary"></div>
+<div class="section-title">Nine constraint families</div><p class="muted small">Continuous proxy penalties. Lower is better; zero alone is not design validity.</p><dl id="families"></dl>
+<details><summary>What these checks mean</summary><p>Access measures connected material using six face neighbours. Support measures attachment to a geometric boundary. Neither establishes walkability or mechanical safety. Thickness penalizes bulk; it does not guarantee a minimum member width.</p><p>Material budget: 3–12% of the fixed permitted envelope. No learned refinement is available in this version.</p></details>
+<div class="provenance" id="provenance">Scene and result records stay on this computer. Export creates a portable JSON copy.</div>
+</aside>
+</main><footer><span>ARCHITECTURAL MATERIAL / FORM RESEARCH</span><span>STUDIO S1 <b>•</b> PROCEDURAL BASELINE</span></footer>
+<script src="/static/js/studio.js" defer></script></body></html>

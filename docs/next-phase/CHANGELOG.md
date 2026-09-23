@@ -800,3 +800,36 @@ passed; frozen source27416f3 unchanged. Added PERSISTENT_GUIDE_FINDINGS,
 LOCAL_PHASE_CLOSURE and D053. No further incremental local training queued.
 Final local results commit/full archive follows; milestone receipt records
 completion. All historical artifacts and private ignored reports preserved.
+
+
+## 2026-09-24 - Studio S1 and planner/refiner specification
+
+Added separate deploy/studio.py service, studio.html, dedicated CSS/JS and
+run-studio.ps1. Warm-paper interface follows the user concept with real procedural
+geometry, six scene presets, validated coordinate edits, three orthographic views,
+visibility controls, nine-family diagnostics, saved studies and JSON export.
+Canvas surface drawing has no remote dependencies and redraws only on changes.
+Historical service, original models and all nca scientific source remain unchanged.
+
+Appended design studies under .local-artifacts/studio with unique IDs, scene and
+source hashes, full voxel geometry/settings/diagnostics and hashed receipts.
+Submitted scene is persisted before computation; incomplete writes are surfaced,
+not removed. No delete/overwrite/Drive path. Added12 integration tests covering
+six presets, infeasibility, validation, determinism, persistence, corruption,
+concurrency rejection and error recording. Wrote PLANNER_REFINER_SPEC.md and
+STUDIO_S1.md; D054 records the scope and remaining product work.
+
+Verification20260923T223300Z_af097d57765b:211 pass, smoke0,95.93s.
+Final20260923T223757Z_6602b2cf16c8:211 pass, smoke0,96.61s after explicit
+failure logging. Browser checks include valid/invalid edits, failed feasibility,
+reopening across a server restart, export equality, layers/views and responsive
+layout. Full details, retained development observations and artifact/source hashes
+are in experiments/reports/S1-studio-verification.json.
+
+One exact-match documentation patch failed without partial edits. Mobile heading
+spacing corrected. A browser download-event timeout did not prevent export; the
+downloaded JSON was verified equal to the local record. External-cwd sandbox
+servers could read but not write the repo: confirmed WinError5. Project-cwd server
+works. Added exception logging so failure to preserve a failure is visible in logs;
+the denied attempts are retained in the QA report since their file writes failed.
+No training, checkpoint promotion, paid compute, Drive action, push or publication.

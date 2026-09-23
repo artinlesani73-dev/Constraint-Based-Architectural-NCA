@@ -834,3 +834,25 @@ direction, not an implemented or proven replacement.
 Read LOCAL_PHASE_CLOSURE.md and PERSISTENT_GUIDE_FINDINGS.md. No production
 promotion, paid compute, Drive access, push or deployment. Larger-grid and Studio
 work remain separate. All failures and earlier evidence preserved.
+
+
+## D054 - Start Studio with an evaluated procedural baseline
+
+2026-09-24. User authorized moving forward after local phase closure. Implement
+Studio S1 as a separate local service using the existing W1 procedural planner and
+nine-family diagnostics. No learned model promotion. Follow the supplied visual
+concept without changing or staging its user-owned HTML. Real scene coordinates,
+three fixed geometry views, layer toggles, immutable local scene/result records
+and JSON export are the first bounded M4 slice. No claim of a measured10x gain.
+
+PLANNER_REFINER_SPEC.md defines the next research hypothesis: planner-initialized,
+persistently conditioned NCA recovery/local refinement measured against fresh
+planner and direct-optimization controls. Freeze task/improvement target only
+after non-learning controls; no automatic additional training or paid compute.
+
+S1 reuses scene_v1, 32³, 0.8m, street_levels6, fixed radius-six envelope and
+budgeted_witness_v1. Joint connectivity/budget is distinct from all-family validity.
+Infeasible outputs and invalid contexts remain visible. All source versions used
+by browser studies are hash-matched and archived.211 regression checks pass.
+Storage is local with no Drive operation. S2 should address durable jobs and actual
+cancellation, revision-aware comparison and verified import before long rollouts.

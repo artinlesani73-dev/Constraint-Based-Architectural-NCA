@@ -335,3 +335,18 @@ passed; frozen source27416f3 unchanged. Added PERSISTENT_GUIDE_FINDINGS,
 LOCAL_PHASE_CLOSURE and D053. No further incremental local training queued.
 Final local results commit/full archive follows; milestone receipt records
 completion. All historical artifacts and private ignored reports preserved.
+
+
+## Current implementation - 2026-09-24, Studio S1
+
+The bounded F5 investigation is closed; earlier running/checklist notes above are
+historical. PLANNER_REFINER_SPEC.md is the next research specification. Studio S1
+completes the first M4 product slice: real procedural geometry, editable scene
+coordinates, saved revisions/results, fixed views and honest nine-family evidence.
+211 tests pass and browser interactions/responsive layout were checked. Read
+STUDIO_S1.md and S1-studio-verification.json. M4 overall remains incomplete.
+
+Next S2: versioned durable jobs with actual cancellation and restart visibility;
+revision-aware comparison; verified portable import. Establish those contracts
+before integrating long learned rollouts. New refinement learning remains gated
+on frozen edit tasks, control results, success criteria and compute/recovery approval.

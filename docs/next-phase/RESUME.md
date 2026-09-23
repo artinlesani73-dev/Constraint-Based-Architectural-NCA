@@ -1,5 +1,43 @@
 # Resume the NCA next phase
 
+## Current: Studio S1 implemented and verified - 2026-09-24
+
+Read STUDIO_S1.md, PLANNER_REFINER_SPEC.md, D054 and
+experiments/reports/S1-studio-verification.json. This heading supersedes older
+current/running entries below. No training or verification is active.
+
+New local Studio: http://127.0.0.1:8001. Server started in this session with PID30956,
+exec session17539. It may stop when the host/app closes; inspect listener/process
+before starting another. Use project cwd and `.venv/Scripts/python.exe -m uvicorn
+deploy.studio:app --host 127.0.0.1 --port 8001`, or deploy/run-studio.ps1. A sandbox
+launch from another cwd had WinError5 on repository writes; use the project cwd.
+Temporary diagnostic port8002 server and earlier servers were stopped.
+
+Final verification20260923T223757Z_6602b2cf16c8:211 passed,0fail/error/skip,
+smoke0,96.61s. Parent20260923T223300Z_af097d57765b also211passed. BrowserQA,
+screenshots and hash-matched source ZIPs for all saved-study versions are in
+.local-artifacts/studio-qa/S1-20260924. Each new study lives in
+.local-artifacts/studio/<id>/; five completed browser study records currently.
+Final facade result20260923T223755Z_7f580c96ff6a includes durable submitted request.
+Earlier four records are preserved and predate request-before-compute persistence.
+The JSON download equals20260923T223419Z_6b1b42479c59; it remains in Downloads.
+
+No scientific nca file, historical serving path, original model or reference scene
+changed. Reports remain ignored. User-owned NCA-Studio-Concept.html and old ZIP
+checksum remain unrelated untracked files. No Drive access, push or deployment.
+
+Next: S2 durable job lifecycle + real cancellation, then revision-aware comparison
+and verified import. This is a first Studio product slice, not completion of M4.
+Do not automatically resume F5 training or start Colab. The refiner specification
+requires task/control evidence and a frozen success criterion before learning.
+
+Local milestone commit is discoverable by title "Add local Studio with evaluated
+procedural studies and refinement specification". S1 incremental archive and
+receipt under .local-artifacts/milestones are produced after that commit and
+include the source bundle, new runs, all Studio data, screenshots and exact files.
+It supplements the verified full F5 archive listed below; retain both. Same disk
+is not an off-device backup. Check the receipt before claiming archive completion.
+
 ## Current: bounded local investigation COMPLETE - 2026-09-24
 
 No active training/verification. Read LOCAL_PHASE_CLOSURE.md,
