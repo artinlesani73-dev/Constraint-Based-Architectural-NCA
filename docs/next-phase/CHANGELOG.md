@@ -383,3 +383,15 @@ Verification20260923T084059Z_6280ed836d9f:129 tests pass,zero failures/errors/sk
 checkpoint smoke exit0. Checks include original parity without allowance, blanket
 penalty, finite differences, per-scene batching, metadata-only patch construction
 and unchanged budget bounds. No production default or optimizer change.
+
+## 2026-09-23 - A1 evidence verified; W1 prepared
+
+Added report_facade_comparison.py and A1 report/verification/rerender receipts.
+All432 target pairs reproduce prior values; other-eight-term equality, annotation
+masks, bound arithmetic and72 analytical quotient gradients rechecked. No failures.
+Added canonical LF checkout for hashed annotation JSON in .gitattributes.
+
+Added budgeted_witness_v1, three regression tests and W1 protocol/runner.
+Verification20260923T084753Z_489a9c4be020 passes132 tests,zero failures/errors/skips,
+checkpoint smoke exit0. Determinism, legal adjacency, unchanged guide, infeasible
+route refusal and absence of a binary mass within a fractional budget are tested.

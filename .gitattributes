@@ -1,2 +1,4 @@
 # Frozen scene hashes cover exact bytes; keep canonical LF on Windows checkouts.
 experiments/scenes/**/*.json text eol=lf
+# Frozen allowance annotations also hash exact bytes across Windows restores.
+experiments/annotations/**/*.json text eol=lf

@@ -166,3 +166,9 @@ User accepted proceeding with material generation. Read FACADE_PROTOCOL.md and
 D026.129 tests pass in20260923T084059Z_6280ed836d9f. Annotations frozen under
 experiments/annotations/facade_endpoint_v1. Run scripts/run_facade_comparison.py
 once; inspect active processes and run records before retrying. No optimizer.
+
+## Active W1 follow-up
+
+A1 completed20260923T084341Z_e37699e31f26 with verified report. Read D027 and
+WITNESS_PROTOCOL.md.132 tests pass. Run scripts/run_witnesses.py once; inspect
+processes/results before retrying. No optimizer or production change.

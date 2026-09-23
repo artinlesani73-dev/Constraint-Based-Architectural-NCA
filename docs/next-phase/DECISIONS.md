@@ -400,3 +400,18 @@ All18 annotation sidecars list cells/hashes and are independent of generated gui
 Only facade numerator changes; all-material denominator,15% cap and budgets remain.
 This is allowed attachment accounting, not mandatory attachment or safety assurance.
 See FACADE_PROTOCOL.md for paired matrix, controls and continuation checks.
+
+## D027 - A1 supports experimental facade allowance; W1 separate follow-up
+
+A1 20260923T084341Z_e37699e31f26 completed864 target-arm,144 control-arm,
+144 bound-arm and72 gradient-arm records. Radius6/envelope necessary compatibility
+improves15/17 to17/17 without budget changes. All18 facade blankets remain penalized;
+eight other terms and paired geometry/metrics match. Independent quotient gradients,
+annotations and bounds verified. Retain facade_endpoint_v1 for experimental baseline
+preparation, not production. Ratio dilution and thin-route successes remain visible.
+
+Only11/17 scenes have a zero-loss witness among A1's tested static candidates.
+WITNESS_PROTOCOL.md preregisters a separate W1 follow-up: fixed-budget deterministic
+legal growth from the guide, charged facade excluded from added cells, no new cores.
+This is a procedural objective-satisfaction baseline; it does not establish design
+quality or NCA value. No optimizer. Record every scene and explicit failure.
