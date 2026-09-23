@@ -1,0 +1,58 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T075113Z_d95fabaf3776",
+  "budget_cases": 108,
+  "budget_summary": {
+    "radius3/envelope": {
+      "cases": 18,
+      "compatible": 18,
+      "valid": 17
+    },
+    "radius3/site": {
+      "cases": 18,
+      "compatible": 3,
+      "valid": 3
+    },
+    "radius6/envelope": {
+      "cases": 18,
+      "compatible": 18,
+      "valid": 17
+    },
+    "radius6/site": {
+      "cases": 18,
+      "compatible": 13,
+      "valid": 12
+    },
+    "scaffold/envelope": {
+      "cases": 18,
+      "compatible": 9,
+      "valid": 8
+    },
+    "scaffold/site": {
+      "cases": 18,
+      "compatible": 0,
+      "valid": 0
+    }
+  },
+  "error": null,
+  "gradient_cases": 54,
+  "optimizer_updates": 0,
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "95431dede02c0559e88ec2f42825d7a3588264c4",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html"
+  },
+  "recovery_mechanics_gate": true,
+  "run_id": "20260923T075113Z_d95fabaf3776",
+  "seconds": 191.23010350001277,
+  "status": "completed",
+  "zero_controls": 9
+}
