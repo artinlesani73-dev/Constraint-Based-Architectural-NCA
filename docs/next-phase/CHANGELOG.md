@@ -771,3 +771,32 @@ Initial F5 regression20260923T211811Z_35187d4e6ff3 passed197 tests/smoke0. Revie
 
 F5 final preparation regression20260923T212031Z_48dcfddbfd4f passed199 tests, no failures/errors/skips, original-checkpoint smoke0,105.27s. Scientific code frozen after this pass. No training outcome yet.
 
+
+F5B20260923T212257Z_823a2b09b2dd passed exact12-update/24-evaluation F4 parity in141.65s. Reporter verified47 source hashes,36 fields,16 cursors and128 F4 controls. Source27416f3 unchanged. Conditioned recovery is next.
+
+
+F5R20260923T212734Z_efe016a02413 passed all11 exact restart checks in93.50s; reporter verified47 hashes,22 saved fields,10 cursors and128 F4 controls. Proceeding to fixed timing pilot with unchanged source/caps.
+
+
+F5P20260923T213256Z_42130eed3f5d completed351.21s. Timing-only estimate648.98/member2595.94/full admits unchanged900/member3600/full caps. All runtime limits met. Saved-evidence reporter underway before full launch.
+
+
+F5P reporter verified47 source hashes/96 fields/12 cursors/128 F4 controls and nonzero guide gradients. Full F5 20260923T214035Z_566da8c507c0 launched with unchanged source27416f3 and frozen limits. Final outcome not yet available.
+
+F5 full20260923T214035Z_566da8c507c0 completed1317.67s (21.96min),256 updates/56 boundary/72 final-grid records, all runtime caps met. Full saved-field/source/checkpoint verifier launched before trained-state recovery and closure.
+
+
+Full F5 reporter verified47 source hashes/376 fields/260 cursors/128 controls/eight final rollouts. F5L20260923T220548Z_fdd27bb79c92 completed77.01s with exact8-update/8-evaluation trained-state replay across all four models, all caps met. Post-hoc analysis and closure follow; no active training.
+
+
+
+## Local investigation closed after F5 - 2026-09-24
+
+Full20260923T214035Z_566da8c507c0 completed1317.67s,256 updates/120 unique evaluations,
+all caps met. Outcome66/72 connected,0/72 budget,0/72 joint.
+Verifier checks47 source hashes/376 fields/260 cursors/128 F4 controls/eight final
+rollouts. F5L20260923T220548Z_fdd27bb79c92 exact8-update/8-evaluation trained restart.199 tests
+passed; frozen source27416f3 unchanged. Added PERSISTENT_GUIDE_FINDINGS,
+LOCAL_PHASE_CLOSURE and D053. No further incremental local training queued.
+Final local results commit/full archive follows; milestone receipt records
+completion. All historical artifacts and private ignored reports preserved.

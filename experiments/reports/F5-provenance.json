@@ -1,0 +1,22 @@
+{
+  "Drive_operations": 0,
+  "F4_configuration_fields_exact": [
+    "recipes",
+    "training_scenes",
+    "training_seed",
+    "updates_per_member",
+    "rollout_steps",
+    "optimizer",
+    "evaluation",
+    "final_evaluation",
+    "horizon_schedule"
+  ],
+  "difference": "Persistent same-scaffold 384-weight guide branch; optimizer clipping includes new parameters",
+  "frozen_scientific_source_hashes": 47,
+  "historical_F4_source_hashes_unchanged": 41,
+  "paid_compute": false,
+  "recurrent_training_steps_per_member_both_arms": 1024,
+  "remote_push": false,
+  "run_id": "20260923T214035Z_566da8c507c0",
+  "source_commit": "27416f30141d6648d798380dfd7fcb191889f69f"
+}

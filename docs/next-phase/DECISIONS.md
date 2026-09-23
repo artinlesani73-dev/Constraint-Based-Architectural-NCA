@@ -812,3 +812,25 @@ original initialization. Regression, actual F4 parity, early recovery, timing
 pilot gate900/member3600/full before64 updates/member; late recovery preregistered.
 Judge joint budget/connectivity; if unsuccessful, end incremental local tests
 and review representation/NCA role. No outcome, promotion or paid compute yet.
+
+
+## D053 - Close the bounded local investigation after F5
+
+2026-09-24. F520260923T214035Z_566da8c507c0: 66/72 connected, 0/72 in budget,
+0/72 joint. Gains4/losses0 versus F4; all 199 tests,
+full saved-evidence verification and early/trained-state recovery pass.
+Persistent guidance did not produce a final design meeting connectivity and the
+material budget together. Close this local sequence of incremental loss and
+conditioning experiments. Do not launch another loss tweak, longer run or larger
+grid by default. Move to a representation and NCA-role review before new learning.
+
+Write the next design specification around a planner-provided valid scaffold
+and an NCA with a narrower refinement/recovery role. Compare that hybrid against
+the already strong procedural and direct-optimization controls. Retain the architectural material/form-generation scope already accepted in
+D026. Specify what learned refinement would add beyond those controls before
+changing representation or starting another training experiment. This is a proposed
+direction, not an implemented or proven replacement.
+
+Read LOCAL_PHASE_CLOSURE.md and PERSISTENT_GUIDE_FINDINGS.md. No production
+promotion, paid compute, Drive access, push or deployment. Larger-grid and Studio
+work remain separate. All failures and earlier evidence preserved.

@@ -323,3 +323,15 @@ timing pilot and conditional full comparison plus trained-state recovery. Then
 close with evidence and a decision: fresh-scene validation if promising, or
 representation/NCA-role review if joint connectivity/budget still fails.
 No automatic follow-on sequence of loss changes or larger-grid training.
+
+
+## Local investigation closed after F5 - 2026-09-24
+
+Full20260923T214035Z_566da8c507c0 completed1317.67s,256 updates/120 unique evaluations,
+all caps met. Outcome66/72 connected,0/72 budget,0/72 joint.
+Verifier checks47 source hashes/376 fields/260 cursors/128 F4 controls/eight final
+rollouts. F5L20260923T220548Z_fdd27bb79c92 exact8-update/8-evaluation trained restart.199 tests
+passed; frozen source27416f3 unchanged. Added PERSISTENT_GUIDE_FINDINGS,
+LOCAL_PHASE_CLOSURE and D053. No further incremental local training queued.
+Final local results commit/full archive follows; milestone receipt records
+completion. All historical artifacts and private ignored reports preserved.

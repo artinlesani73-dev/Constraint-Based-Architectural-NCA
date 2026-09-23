@@ -1,5 +1,99 @@
 # Resume the NCA next phase
 
+## Current: bounded local investigation COMPLETE - 2026-09-24
+
+No active training/verification. Read LOCAL_PHASE_CLOSURE.md,
+PERSISTENT_GUIDE_FINDINGS.md and D053. User asked to finish this local phase;
+implementation/regression, baseline parity, restart, timing pilot, full comparison
+and late recovery are all complete. Do not resume the superseded in-progress
+notes below or launch an automatic next local loss/conditioning experiment.
+
+F5 full20260923T214035Z_566da8c507c0: 66/72 connected,0/72 budget,0/72 joint,
+gains4/losses0 versus F4. Full256 updates/120 unique
+evaluations in1317.67s, all900/member3600/full caps met.
+Source27416f30141d6648d798380dfd7fcb191889f69f,47 hashes; all 41 historical F4 files unchanged.
+Final regression20260923T212031Z_48dcfddbfd4f:199 tests, no failures/errors/skips,
+smoke0. Initial197-test pass preserved. No scientific edits after final pass.
+
+B20260923T212257Z_823a2b09b2dd: exact12 F4 updates/24 evaluations.
+R20260923T212734Z_efe016a02413: all11 restart checks; five intermediate checkpoints also match.
+P20260923T213256Z_42130eed3f5d: timing gate admits frozen cap, guide gradients nonzero.
+L20260923T220548Z_fdd27bb79c92: trained update62->63->64 replay on all four models,
+eight updates/eight evaluations exact; no added training exposure.
+Full reporter rescored376 fields/260 cursors/128 F4 controls/eight final rollouts.
+
+Next: Write the next design specification around a planner-provided valid scaffold
+and an NCA with a narrower refinement/recovery role. Compare that hybrid against
+the already strong procedural and direct-optimization controls. Retain the architectural material/form-generation scope already accepted in
+D026. Specify what learned refinement would add beyond those controls before
+changing representation or starting another training experiment. This is a proposed
+direction, not an implemented or proven replacement.
+
+Scope the next phase explicitly. Product Studio redesign remains outstanding;
+neither this closure nor a passed regression is a production-quality claim.
+No Colab action is needed for this completed phase. No paid training is active.
+
+Evidence: experiments/reports/F5-*, F5B/F5R/F5P and F5L-verification.json;
+experiments/records/<ID>.json; .local-artifacts/runs/<ID>. Exact snapshots and
+all analysis scripts/receipts preserved. Final figure F5-horizons.png,48 aggregate
+points and image/source hashes checked, visually inspected. Source guards remain.
+
+Results commit message: "Close local NCA investigation with verified F5 conditioning results".
+Find its ID in Git. Archive in Codex cwd outputs/NCA-Persistent-Guide-Backup-
+2026-09-24-<commit7>.zip; sidecar .zip.sha256 and
+.local-artifacts/milestones/<commit7>-backup-receipt.json certify completion.
+Check receipt/hash; ZIP existence alone does not imply completion. Packaging
+script in Codex cwd work/package_nca_guide_training.py takes B,R,P,full IDs above.
+If interrupted, inspect process and files before retrying; never overwrite partial
+evidence. Fresh Git restore checks6 reference/12 legacy scenes/18 annotations and
+config values. Exact47-file source ZIP and working-tree-evidence retain original
+byte hashes even if Git normalizes JSON or Python line endings. Use NEW workspaces
+for exact historical recovery. No guard bypass or blind rerun of exclusive reports.
+
+Use .venv/Scripts/python.exe, CPU2 threads, Python3.12.14/torch2.8.0+cpu/numpy2.5.2;
+no pip in this venv. Plotting uses the existing isolated Codex .plot-deps only.
+Branch next-phase/foundations. Preserve unrelated NCA-Studio-Concept.html and
+untracked M1 archive sidecar. Private report md/pdf remain ignored. Local archives
+are not off-device backups. EVERY Drive operation requires explicit permission,
+only folder1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H and actual descendants. No push or
+publication occurred. Earlier experiment/resume history follows for provenance.
+
+
+## Current F5 full study RUNNING - 2026-09-23
+
+Full20260923T214035Z_566da8c507c0, active session17706. Frozen source27416f3,
+47 scientific hashes. Inspect process/result/logs before any retry. Worker900s,
+phase3600s.64 constant16 updates for each of four conditioned models. Do not
+edit hashed code/config or change allowances during this experiment.
+
+All gates complete and reporter-verified:
+- Final regression20260923T212031Z_48dcfddbfd4f:199 passed/smoke0.
+- B20260923T212257Z_823a2b09b2dd:12 updates/24 evals exact F4 parity,141.65s.
+- R20260923T212734Z_efe016a02413:11 exact recovery checks,93.50s.
+- P20260923T213256Z_42130eed3f5d:351.21s,47 hashes/96 fields/12 cursors,
+ 128 F4 controls verified. Timing2595.94s admitted3600 cap; all guide gradients
+ nonzero in pilot. Full settings unchanged. No outcome-based selection.
+
+After completion, project .venv/Scripts/python.exe:
+1. scripts/report_guide_training.py 20260923T214035Z_566da8c507c0
+2. scripts/check_guide_late_recovery.py 20260923T214035Z_566da8c507c0
+3. Codex cwd work/analyze_f5.py and work/analyze_f5_families.py; then
+ work/check_f5_provenance.py fullID. No edits to frozen scientific source.
+4. work/plot_f5.py using existing isolated plotting libraries, visually inspect
+ PNG then work/verify_f5_figure.py. No pip in project venv.
+5. Review full outcomes/limitations, then work/close_f5_phase.py B R P fullID
+ (IDs above), which writes findings/phase closure/D053/resume. Review its generated
+ interpretation against outcomes before committing. No model auto-promotion.
+6. Local results commit and work/package_nca_guide_training.py B R P fullID.
+ Builder requires completed F5L verification and verifies bundle/restore/all payloads.
+
+This is the final bounded experiment in the current local investigation. Close
+with an evidence-based decision: fresh validation if promising, otherwise review
+representation/NCA role before more training. Studio upgrade remains later work.
+No paid Colab, Drive operation, push or deployment. Previous4a94dbe archive verified.
+All raw evidence and failed attempts retained. Historical state notes follow.
+
+
 ## Current F5 preparation - 2026-09-23
 
 User authorized finishing the local investigation. New opt-in conditioning code
@@ -895,4 +989,22 @@ Full F4 20260923T202649Z_75034cca563c completed1321.78s,256 updates/56 boundary 
 Full verifier passed41 source hashes/376 fields/260 cursors/128 controls/eight final rollouts. F4L20260923T205434Z_c8136d2ce8e8 active session16782: four update62-to64 resumes, worker120/total360s. Inspect result before retry.
 
 F5 regression20260923T212031Z_48dcfddbfd4f passed199 tests/smoke0. Source freeze follows, then F5B actual-F4 parity. No scientific edits after this pass.
+
+
+F5B20260923T212257Z_823a2b09b2dd active session84781; source27416f3. Inspect result before retry. Then report_guide_training.py that ID; only after verification run recovery --parity-run that ID.
+
+
+F5B report passed. F5R20260923T212734Z_efe016a02413 active session62898; inspect result before retry. Next report_guide_training.py recoveryID, then pilot using B20260923T212257Z_823a2b09b2dd and this R ID.
+
+
+F5R report verified. F5P20260923T213256Z_42130eed3f5d active session97542, worker240/phase1200. Source27416f3. After completion report_guide_training.py pilotID and inspect timing admission. Full only if admitted <=900/member3600/total with B/R IDs above.
+
+
+F5 full completed1317.67s within caps. No active training. Full reporter launched; after it passes run check_guide_late_recovery.py fullID before post-hoc analysis and phase closure.
+
+
+F5 full reporter passed47 source hashes/376 fields/260 cursors/128 controls/eight final replays. Provenance check verifies all41 old F4 files unchanged. Trained-state F5L replay launched; inspect its result before closure.
+
+
+F5L20260923T220548Z_fdd27bb79c92 passed all trained-state checks in77.01s. Full scientific verification complete. Outcome analysis underway; next plot/QA, close_f5_phase.py, results commit and verified archive. No active training.
 
