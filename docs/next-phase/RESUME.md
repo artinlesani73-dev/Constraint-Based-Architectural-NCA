@@ -1,8 +1,9 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **C1 corridor corrections and comparison are complete.**
-Read CORRIDOR_FINDINGS.md, D017/D018, then LOSS_REPAIR_PLAN.md. The next work is
-compatible shared losses and batch/gradient checks. No paid training has started.
+Last updated 2026-09-23. **L1 loss mechanics and gradient diagnostics are complete;
+training remains gated.** Read LOSS_FINDINGS.md and D019/D020. Next resolve the
+material-region/budget contract and test a targeted gradient intervention on the
+measured ground-entry failure. No optimizer or paid training has started.
 
 ## Authorization and storage
 
@@ -23,19 +24,19 @@ No push, deployment or cloud access occurred in the corridor milestone.
 - Branch: next-phase/foundations. Historical baseline: ac913b9.
 - Milestones: b841991 foundations, ddc8100 contract, 1dfafa7 historical profiles,
   474bf53 rollout_v2/E0 runner, 75402ff E0 evidence, 579031c corridor operators,
-  595c8e0 short artifact paths/retry preparation. The later evidence commit adds
-  C1 reports and this handoff; inspect Git log for its actual hash.
+  595c8e0 corridor retry, 8501478 C1 evidence, fa66238 loss package/L1 protocol.
+  The later evidence commit adds L1 reports and this handoff; inspect Git log.
 - All raw runs/source snapshots: .local-artifacts/runs/<run_id>/;
   small tracked summaries: experiments/records/<run_id>.json.
 - Original 50-file snapshot: .local-artifacts/source-snapshots/.
 - Local archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
-  Keep the M1 archive (1dfafa7) and E0 archive (75402ff). The new archive is named
-  NCA-Corridor-Backup-2026-09-23-<evidence-commit>.zip, with a checksum and a receipt
+  Keep the M1 (1dfafa7), E0 (75402ff) and corridor (8501478) archives. New archive:
+  NCA-Loss-Backup-2026-09-23-<evidence-commit>.zip, with a checksum and a receipt
   .local-artifacts/milestones/<commit>-backup-receipt.json. Verify that receipt
   before claiming backup completion. These are local, same-disk copies.
 - Archive builder for this milestone:
-  C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_corridor.py.
-  It requires completed C1, creates a fresh Git bundle/restore directory, clones
+  C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_losses.py.
+  It requires completed L1, creates a fresh Git bundle/restore directory, clones
   the committed branch, checks frozen scene hashes and every ZIP payload hash.
   Never rerun over an existing archive or delete a prior one to clear the path.
 
@@ -88,23 +89,51 @@ narrow targets. Distinguish connection guidance from a material design envelope
 before training; do not silently weaken the budget. The underlying penalties
 are soft, so this is not proof that no architectural design is feasible.
 
+## Latest loss evidence and interpretation
+
+- geometry_losses_v1: nine per-scene continuous terms, separate coverage/envelope
+  masks, original 3%-12% mass limits/non-building denominator, explicit invalid
+  contexts and nonempty flags, strict reduction. Synthetic gradient and batch
+  checks pass. Do not reuse historical weights without calibration.
+- Regression 20260923T002822Z_8f68d5bbcaf7 passed 108 checks; final
+  20260923T003247Z_0ce597b29bc4 passed 109, zero failures/errors/skips and smoke 0.
+- L1 20260923T003413Z_1da1202e4a7f (source fa66238): 72 context checks, 3 model
+  gradient cases, 6 expected historical fine-tuner defects; completed in 29.25s.
+  Source/config/input states/full parameter and occupancy gradients are archived.
+  All artifact hashes, independent gradient norm/cosine recomputation and fresh
+  report/details render checks pass. Reports are in docs/next-phase/reports/.
+- Radius-three envelope: 3/18 valid contexts; radius-six: 12/18. Five feasible
+  scenes fail the radius-six capacity bound. All permitted space gives 17/18,
+  but removes meaningful spill restriction. No envelope is selected for training.
+- Legacy-alone and mixed gradient examples include a capacity-invalid scene;
+  individual terms were inspected diagnostically, never optimized. A nonzero
+  mixed-batch access gradient hides a zero gradient on the ground case.
+- Post-hoc 20260923T003906Z_da05c8eed3f6 exactly replays the ground case. The
+  two voxels carrying its access derivative have pre-clamp values -0.001280 and
+  -0.009346, are permitted and fired, then clamp to zero. The access parameter
+  gradient is zero. This is a local four-step attribution, not a general proof.
+- Ground/legality zero model gradients are expected after hard projection.
+  Finite-hop max/min access/support remain nonsmooth spatial proxies. Architectural
+  access semantics and usefulness on other horizons/seeds remain unresolved.
+
 ## Exact next actions
 
-1. Read LOSS_REPAIR_PLAN.md. Extract a versioned shared loss package with
-   per-scene normalization, valid B=1/B>1 shapes, corrected zero-background
-   surrogates, explicit infeasible/empty cases and binary evaluation kept separate.
-   Freeze coverage/envelope/mass-budget semantics before optimizer experiments.
-2. Verify intended gradients, finite differences away from nonsmooth ties,
-   model-gradient contribution, and objective conflicts. Do not demand nonzero
-   gradients from redundant post-projection penalties.
-3. Prepare a tiny local optimizer/recovery check only after those definitions;
-   preserve full model/optimizer/scheduler/RNG/scenes/update-count state and test
-   interrupted versus uninterrupted continuation. Keep architecture fixed first.
-4. Complete E2 scaffold/procedural/direct-optimization comparisons, then agree
-   paid Colab cap and an explicitly approved artifact/backup procedure.
-5. Product work uses stable scene/result contracts; shared-model concurrency,
-   job cancellation and interface redesign remain M4. Larger grids follow
-   measured correctness/memory/latency gates. No user setup is needed now.
+1. Define explicit candidate material-region and mass-budget contracts, recording
+   the intended denominator and lower bound. Compare their necessary feasibility
+   on the frozen scenes. Do not silently lower 3% or widen regions to force a pass.
+2. Test a separately versioned local gradient intervention on the recorded dead
+   ground case: legal pre-clamp guidance versus a smooth material-state candidate.
+   Keep hard legality and historical code intact. Verify useful derivatives at
+   the failed cells and weights, finite differences, binary outcomes, and matched
+   controls. Do not slip in a straight-through gradient without its own explicit
+   justification or treat it as the exact derivative.
+3. Check longer horizons, other seeds and damaged/zero-route states, then integrate
+   retained regularizers and calibrate objective magnitudes. No adaptive weighting
+   should conceal incompatible definitions.
+4. After these gates, implement a tiny local optimizer/interruption-recovery test
+   saving model/optimizer/scheduler/RNG/scenes/update count. Then complete E2
+   procedural/scaffold/direct-optimization controls and agree a paid Colab cap.
+5. Product work and larger grids remain planned; no user setup is needed now.
 
 ## Commands and interruption recovery
 
@@ -112,13 +141,13 @@ From the repo root in PowerShell:
 
 ```powershell
 & .venv/Scripts/python.exe scripts/verify_foundation.py
-& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T000945Z_3cbdc3603a12
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T003413Z_1da1202e4a7f
 ```
 
-Completed C1 does not need rerunning. If new changes justify a matched repeat:
+Completed L1/C1 do not need rerunning. If new changes justify a loss-diagnostic repeat:
 
 ```powershell
-& .venv/Scripts/python.exe scripts/run_corridor_comparison.py --parent-run 20260923T000945Z_3cbdc3603a12
+& .venv/Scripts/python.exe scripts/run_loss_diagnostics.py --parent-run 20260923T003413Z_1da1202e4a7f
 ```
 
 This creates a fresh complete attempt; it does not skip/resume cases from an old
@@ -131,13 +160,3 @@ Python 3.12.14, CPU torch 2.8.0, NumPy 2.5.2; requirements-cpu.lock.txt. Do not
 install the CPU lock over Colab CUDA. Local write/Git permissions may need renewal
 in a new task. Historical handoffs remain in Git/milestone archives. This handoff
 does not automatically resume work or redeem credits after a usage reset.
-
-## Active loss milestone - 2026-09-23
-
-geometry_losses_v1 and the L1_v1 runner are implemented; read LOSS_PROTOCOL.md
-and D019. Initial verification 20260923T002822Z_8f68d5bbcaf7 passed 108 checks.
-Verification 20260923T003247Z_0ce597b29bc4 now passes all 109 checks. Next run
-scripts/run_loss_diagnostics.py locally. This performs no optimizer updates.
-Inspect run records before retrying; --parent-run creates a fresh linked attempt.
-After L1, document all gradient/context findings, refresh this handoff and make a
-new local backup. Do not select a training envelope or start paid training yet.

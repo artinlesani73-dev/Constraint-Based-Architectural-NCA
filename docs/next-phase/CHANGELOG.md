@@ -275,3 +275,30 @@ addition passed in 20260923T003247Z_0ce597b29bc4: 109 tests, zero failures/error
 LOSS_PROTOCOL.md and scripts/run_loss_diagnostics.py: 72 context cases, three
 short real-model gradient cases, six expected historical fine-tuner defect checks.
 No optimizer updates. D019 records the scope and unresolved semantic limits.
+
+## 2026-09-23 - L1 complete; real gradient limitation isolated
+
+L1 20260923T003413Z_1da1202e4a7f completed the preregistered 72 objective contexts,
+three real-model gradient cases and six historical defect checks in 29.25 seconds,
+from commit fa66238. No optimizer updates. Final regression
+20260923T003247Z_0ce597b29bc4 passed 109 tests, zero errors/failures/skips, smoke 0.
+
+Added scripts/report_loss_diagnostics.py and LOSS_FINDINGS.md with complete
+per-scene details. Artifact hashes verify; independent saved-array norm/cosine
+recomputation and a fresh report/details render agree. Fixed radius-six envelopes
+satisfy necessary bounds on 13/18 scenes; only 12 have valid contexts including
+route feasibility. The five other feasible scenes remain capacity conflicts.
+Historical fine-tuner shape errors and disconnected surface gradients are
+confirmed at B=1 and B=2, recorded as expected historical defects.
+
+Added scripts/trace_access_gradient.py. Its post-hoc run
+20260923T003906Z_da05c8eed3f6 exactly replays L1's ground-reference output and
+records the two active derivative cells before clamping. Both are legal and fired
+but strictly negative before the lower clamp, explaining the zero parameter
+gradient in this four-step case. This is local attribution, not a general claim
+or an extra preregistered L1 comparison. Source/fields/results are preserved.
+
+D020 keeps training gated on objective compatibility and useful derivatives.
+No model changes or optimizer/recovery/training claims. Original notebook,
+checkpoint, scenes and production defaults stay intact. Local milestone/archive
+and refreshed handoff preserve progress; no cloud access or remote publication.

@@ -88,3 +88,13 @@ but the original checkpoint still fails on reference scenes. Gate A remains
 incomplete. Next follow LOSS_REPAIR_PLAN.md: establish compatible objective
 semantics and a versioned shared loss package with batch/gradient checks before
 any optimizer experiment. The interface and scaling milestones remain planned.
+
+## Shared loss mechanics measured - 2026-09-23
+
+M2 now has geometry_losses_v1 and L1_v1 diagnostics. All 109 regression checks
+pass; L1 records 72 contexts, three model-gradient cases and six historical defect
+checks. Read LOSS_FINDINGS.md and D019/D020. Gate A remains open: five feasible
+scenes conflict with the tested radius-six envelope/mass floor, and a measured
+ground-access gradient is blocked by the lower material clamp. Next explicitly
+resolve objective regions/budgets and test a bounded gradient intervention before
+optimizer/recovery work. No Colab job or model architecture change is selected.

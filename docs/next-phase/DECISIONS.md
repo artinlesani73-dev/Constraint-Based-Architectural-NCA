@@ -281,3 +281,24 @@ training or widened to satisfy a budget. Preserve all outcomes, including zero
 gradients, tied/finite-horizon surrogate limitations and historical failures.
 See LOSS_PROTOCOL.md for formulas and the frozen matrix. Correctness tests and
 short real-model derivatives are not evidence of trained architectural quality.
+
+## D020 - Keep the training gate open after measured loss diagnostics
+
+Date: 2026-09-23. Evidence: L1 20260923T003413Z_1da1202e4a7f and the separately
+labeled post-hoc clamp replay 20260923T003906Z_da05c8eed3f6.
+
+Shared loss mechanics pass 109 tests, and all 72 contexts/three model-gradient/
+six historical checks complete. This is not enough to train responsibly: a fixed
+six-voxel envelope still cannot accommodate the old mass floor on five feasible
+scenes, and the ground-reference access loss has no parameter gradient. Exact
+replay identifies two permitted, fired voxels with negative pre-clamp values;
+the lower hard clamp kills the available final-step access derivative there.
+A nonzero mixed-batch gradient would hide that failed scene.
+
+Do not select an envelope, lower the volume floor, add a straight-through gradient,
+or change the model by implication. Next compare explicit objective-region/budget
+alternatives and separately version a local pre-clamp-guidance versus smooth-state
+gradient intervention. Preserve hard legality and independent binary metrics.
+Only afterward calibrate weights, integrate retained regularizers, test optimizer
+recovery and request a bounded Colab allowance. Architectural access semantics
+remain open. Full details and limitations are in LOSS_FINDINGS.md.

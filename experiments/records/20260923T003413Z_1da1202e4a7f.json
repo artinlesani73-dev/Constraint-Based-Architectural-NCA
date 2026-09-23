@@ -1,0 +1,607 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T003413Z_1da1202e4a7f",
+  "context_cases": 72,
+  "drive_backup": "not_uploaded",
+  "envelope_summary": {
+    "permitted-control": {
+      "budget_compatible": 18,
+      "cases": 18,
+      "route_feasible": 17,
+      "valid_contexts": 17
+    },
+    "radius3": {
+      "budget_compatible": 3,
+      "cases": 18,
+      "route_feasible": 17,
+      "valid_contexts": 3
+    },
+    "radius6": {
+      "budget_compatible": 13,
+      "cases": 18,
+      "route_feasible": 17,
+      "valid_contexts": 12
+    },
+    "scaffold": {
+      "budget_compatible": 0,
+      "cases": 18,
+      "route_feasible": 17,
+      "valid_contexts": 0
+    }
+  },
+  "error": null,
+  "historical_checks": 6,
+  "historical_outcomes": [
+    {
+      "batch_size": 1,
+      "class": "ThicknessLoss",
+      "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_loss_diagnostics.py\", line 184, in main\n    value = module(p, torch.ones_like(p)) if name == 'PorosityLoss' else module(p)\n                                                                         ^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1773, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1784, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\finetune_porosity.py\", line 84, in forward\n    eroded = -F.max_pool3d(-eroded.unsqueeze(0).unsqueeze(0), 3, 1, 1).squeeze()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\_jit_internal.py\", line 627, in fn\n    return if_false(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\functional.py\", line 917, in _max_pool3d\n    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: non-empty 4D or 5D (batch mode) tensor expected for input\n",
+      "expected_historical_defect": true,
+      "input_shape": [
+        1,
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "forward_error"
+    },
+    {
+      "batch_size": 2,
+      "class": "ThicknessLoss",
+      "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_loss_diagnostics.py\", line 184, in main\n    value = module(p, torch.ones_like(p)) if name == 'PorosityLoss' else module(p)\n                                                                         ^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1773, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1784, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\finetune_porosity.py\", line 84, in forward\n    eroded = -F.max_pool3d(-eroded.unsqueeze(0).unsqueeze(0), 3, 1, 1).squeeze()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\_jit_internal.py\", line 627, in fn\n    return if_false(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\functional.py\", line 917, in _max_pool3d\n    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: non-empty 4D or 5D (batch mode) tensor expected for input\n",
+      "expected_historical_defect": true,
+      "input_shape": [
+        2,
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "forward_error"
+    },
+    {
+      "batch_size": 1,
+      "class": "PorosityLoss",
+      "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_loss_diagnostics.py\", line 184, in main\n    value = module(p, torch.ones_like(p)) if name == 'PorosityLoss' else module(p)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1773, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1784, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\finetune_porosity.py\", line 189, in forward\n    eroded = -F.max_pool3d(-eroded.unsqueeze(0).unsqueeze(0), 3, 1, 1).squeeze(0).squeeze(0)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\_jit_internal.py\", line 627, in fn\n    return if_false(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\functional.py\", line 917, in _max_pool3d\n    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: non-empty 4D or 5D (batch mode) tensor expected for input\n",
+      "expected_historical_defect": true,
+      "input_shape": [
+        1,
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "forward_error"
+    },
+    {
+      "batch_size": 2,
+      "class": "PorosityLoss",
+      "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_loss_diagnostics.py\", line 184, in main\n    value = module(p, torch.ones_like(p)) if name == 'PorosityLoss' else module(p)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1773, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1784, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\finetune_porosity.py\", line 189, in forward\n    eroded = -F.max_pool3d(-eroded.unsqueeze(0).unsqueeze(0), 3, 1, 1).squeeze(0).squeeze(0)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\_jit_internal.py\", line 627, in fn\n    return if_false(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\torch\\nn\\functional.py\", line 917, in _max_pool3d\n    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: non-empty 4D or 5D (batch mode) tensor expected for input\n",
+      "expected_historical_defect": true,
+      "input_shape": [
+        2,
+        7,
+        7,
+        7
+      ],
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "forward_error"
+    },
+    {
+      "batch_size": 1,
+      "class": "SurfaceAreaLoss",
+      "expected_historical_defect": true,
+      "input_shape": [
+        1,
+        7,
+        7,
+        7
+      ],
+      "requires_grad": false,
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "disconnected_gradient",
+      "value": 1.6428570747375488
+    },
+    {
+      "batch_size": 2,
+      "class": "SurfaceAreaLoss",
+      "expected_historical_defect": true,
+      "input_shape": [
+        2,
+        7,
+        7,
+        7
+      ],
+      "requires_grad": false,
+      "source_sha256": "0b212c600d4d3937de515ef275803efa7ed6b423f784333b29c5805dee645594",
+      "status": "disconnected_gradient",
+      "value": 1.9285714626312256
+    }
+  ],
+  "limits": "Software and gradient diagnosis only. Necessary context checks do not certify all objectives jointly feasible. No envelope selected, no optimizer, no quality claim.",
+  "model_cases": 3,
+  "model_gradients": [
+    {
+      "batch_size": 1,
+      "gradient_norms": {
+        "access": {
+          "occupancy_l2": 1.0,
+          "parameter_l2": 0.9004015196479099,
+          "unused_parameters": []
+        },
+        "coverage": {
+          "occupancy_l2": 0.21320072270948692,
+          "parameter_l2": 1.0837206740242074,
+          "unused_parameters": []
+        },
+        "facade": {
+          "occupancy_l2": 1.322324217809537,
+          "parameter_l2": 0.7633382560275722,
+          "unused_parameters": []
+        },
+        "ground": {
+          "occupancy_l2": 0.01538643683096813,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "legality": {
+          "occupancy_l2": 0.010416666744277128,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "sparsity": {
+          "occupancy_l2": 0.00600019200362856,
+          "parameter_l2": 0.005206937329883177,
+          "unused_parameters": []
+        },
+        "spill": {
+          "occupancy_l2": 0.0054380166460762346,
+          "parameter_l2": 2.9993142767961453e-05,
+          "unused_parameters": []
+        },
+        "support": {
+          "occupancy_l2": 1.5100428680897484,
+          "parameter_l2": 0.9054719748747961,
+          "unused_parameters": []
+        },
+        "thickness": {
+          "occupancy_l2": 3.6639060194520017,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        }
+      },
+      "parameter_gradient_cosines": {
+        "access": {
+          "access": 0.999999999999999,
+          "coverage": 0.7886506374451634,
+          "facade": -0.16513859967997663,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.6247161725138477,
+          "spill": -0.3972634621488415,
+          "support": 0.6047685832955598,
+          "thickness": null
+        },
+        "coverage": {
+          "access": 0.7886506374451634,
+          "coverage": 0.9999999999999997,
+          "facade": -0.48843764058778694,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.8715991457023059,
+          "spill": -0.3994931754224832,
+          "support": 0.878589995078546,
+          "thickness": null
+        },
+        "facade": {
+          "access": -0.16513859967997663,
+          "coverage": -0.48843764058778694,
+          "facade": 0.9999999999999976,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.5561946089630264,
+          "spill": -0.2301766771748444,
+          "support": -0.6086765039069312,
+          "thickness": null
+        },
+        "ground": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "legality": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "sparsity": {
+          "access": 0.6247161725138477,
+          "coverage": 0.8715991457023059,
+          "facade": -0.5561946089630264,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.9999999999999972,
+          "spill": -0.46860846566196274,
+          "support": 0.996136642442655,
+          "thickness": null
+        },
+        "spill": {
+          "access": -0.3972634621488415,
+          "coverage": -0.3994931754224832,
+          "facade": -0.2301766771748444,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.46860846566196274,
+          "spill": 1.0000000000000018,
+          "support": -0.4266812311427536,
+          "thickness": null
+        },
+        "support": {
+          "access": 0.6047685832955598,
+          "coverage": 0.878589995078546,
+          "facade": -0.6086765039069312,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.996136642442655,
+          "spill": -0.4266812311427536,
+          "support": 0.9999999999999988,
+          "thickness": null
+        },
+        "thickness": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        }
+      },
+      "scenes": [
+        "legacy-easy-seed-000"
+      ]
+    },
+    {
+      "batch_size": 1,
+      "gradient_norms": {
+        "access": {
+          "occupancy_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "coverage": {
+          "occupancy_l2": 0.1666666679084301,
+          "parameter_l2": 0.7000816218182497,
+          "unused_parameters": []
+        },
+        "facade": {
+          "occupancy_l2": 0.9990439680823034,
+          "parameter_l2": 5.328752127583787,
+          "unused_parameters": []
+        },
+        "ground": {
+          "occupancy_l2": 0.01618809714812979,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "legality": {
+          "occupancy_l2": 0.009199511112711589,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "sparsity": {
+          "occupancy_l2": 0.006354107264367194,
+          "parameter_l2": 0.02142467991298708,
+          "unused_parameters": []
+        },
+        "spill": {
+          "occupancy_l2": 0.005714122506181116,
+          "parameter_l2": 0.014329290827057164,
+          "unused_parameters": []
+        },
+        "support": {
+          "occupancy_l2": 1.7846777783449723,
+          "parameter_l2": 2.8030783017137217,
+          "unused_parameters": []
+        },
+        "thickness": {
+          "occupancy_l2": 3.3329620069480743,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        }
+      },
+      "parameter_gradient_cosines": {
+        "access": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "coverage": {
+          "access": null,
+          "coverage": 0.999999999999997,
+          "facade": -0.5234210890579195,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.8028950292662458,
+          "spill": -0.5629959048169829,
+          "support": -0.10706725996544203,
+          "thickness": null
+        },
+        "facade": {
+          "access": null,
+          "coverage": -0.5234210890579195,
+          "facade": 0.9999999999999988,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.9120184831020357,
+          "spill": 0.997186965232848,
+          "support": 0.8798870952379717,
+          "thickness": null
+        },
+        "ground": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "legality": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "sparsity": {
+          "access": null,
+          "coverage": 0.8028950292662458,
+          "facade": -0.9120184831020357,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.9999999999999998,
+          "spill": -0.9334632552283089,
+          "support": -0.633149921707559,
+          "thickness": null
+        },
+        "spill": {
+          "access": null,
+          "coverage": -0.5629959048169829,
+          "facade": 0.997186965232848,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.9334632552283089,
+          "spill": 0.9999999999999978,
+          "support": 0.8627811865661595,
+          "thickness": null
+        },
+        "support": {
+          "access": null,
+          "coverage": -0.10706725996544203,
+          "facade": 0.8798870952379717,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.633149921707559,
+          "spill": 0.8627811865661595,
+          "support": 0.999999999999997,
+          "thickness": null
+        },
+        "thickness": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        }
+      },
+      "scenes": [
+        "ref-01-ground-pair"
+      ]
+    },
+    {
+      "batch_size": 2,
+      "gradient_norms": {
+        "access": {
+          "occupancy_l2": 0.5038911083445287,
+          "parameter_l2": 0.44994122572880496,
+          "unused_parameters": []
+        },
+        "coverage": {
+          "occupancy_l2": 0.13530735969963573,
+          "parameter_l2": 0.7911783406797223,
+          "unused_parameters": []
+        },
+        "facade": {
+          "occupancy_l2": 0.8235194903269912,
+          "parameter_l2": 2.7310845942288653,
+          "unused_parameters": []
+        },
+        "ground": {
+          "occupancy_l2": 0.01116688102863394,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "legality": {
+          "occupancy_l2": 0.006948704029785783,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        },
+        "sparsity": {
+          "occupancy_l2": 0.004369696305450996,
+          "parameter_l2": 0.012474749518010888,
+          "unused_parameters": []
+        },
+        "spill": {
+          "occupancy_l2": 0.003944084845012974,
+          "parameter_l2": 0.00694946128105472,
+          "unused_parameters": []
+        },
+        "support": {
+          "occupancy_l2": 1.1854430951294914,
+          "parameter_l2": 1.3034773603120615,
+          "unused_parameters": []
+        },
+        "thickness": {
+          "occupancy_l2": 2.4990540614708685,
+          "parameter_l2": 0.0,
+          "unused_parameters": []
+        }
+      },
+      "parameter_gradient_cosines": {
+        "access": {
+          "access": 0.9999999999999984,
+          "coverage": 0.7323258046365902,
+          "facade": -0.39897187586577937,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.547731968351202,
+          "spill": -0.4134233895103351,
+          "support": -0.05790089678659545,
+          "thickness": null
+        },
+        "coverage": {
+          "access": 0.7323258046365902,
+          "coverage": 0.9999999999999979,
+          "facade": -0.5822260548615252,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.8097039266207503,
+          "spill": -0.576396415334986,
+          "support": 0.037536641480729195,
+          "thickness": null
+        },
+        "facade": {
+          "access": -0.39897187586577937,
+          "coverage": -0.5822260548615252,
+          "facade": 1.0000000000000007,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.8959322900949601,
+          "spill": 0.9913520509913737,
+          "support": 0.7063068954137987,
+          "thickness": null
+        },
+        "ground": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "legality": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        },
+        "sparsity": {
+          "access": 0.547731968351202,
+          "coverage": 0.8097039266207503,
+          "facade": -0.8959322900949601,
+          "ground": null,
+          "legality": null,
+          "sparsity": 0.9999999999999982,
+          "spill": -0.9052076929774137,
+          "support": -0.3573865998643037,
+          "thickness": null
+        },
+        "spill": {
+          "access": -0.4134233895103351,
+          "coverage": -0.576396415334986,
+          "facade": 0.9913520509913737,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.9052076929774137,
+          "spill": 0.9999999999999978,
+          "support": 0.7130352644964928,
+          "thickness": null
+        },
+        "support": {
+          "access": -0.05790089678659545,
+          "coverage": 0.037536641480729195,
+          "facade": 0.7063068954137987,
+          "ground": null,
+          "legality": null,
+          "sparsity": -0.3573865998643037,
+          "spill": 0.7130352644964928,
+          "support": 0.9999999999999976,
+          "thickness": null
+        },
+        "thickness": {
+          "access": null,
+          "coverage": null,
+          "facade": null,
+          "ground": null,
+          "legality": null,
+          "sparsity": null,
+          "spill": null,
+          "support": null,
+          "thickness": null
+        }
+      },
+      "scenes": [
+        "legacy-easy-seed-000",
+        "ref-01-ground-pair"
+      ]
+    }
+  ],
+  "optimizer_updates": 0,
+  "protocol": "L1_v1",
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "fa66238b59252eaae08904f29a303677cd49e708",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html"
+  },
+  "run_id": "20260923T003413Z_1da1202e4a7f",
+  "status": "completed",
+  "wall_seconds": 29.24563119999948
+}

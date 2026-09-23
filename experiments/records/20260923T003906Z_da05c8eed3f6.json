@@ -1,0 +1,50 @@
+{
+  "access_parameter_gradient_l2": 0.0,
+  "active_access_derivative_cells": [
+    {
+      "bzyx": [
+        0,
+        0,
+        15,
+        9
+      ],
+      "final_occupancy": 0.0,
+      "fired": true,
+      "legality": 1.0,
+      "occupancy_gradient": -0.1249999850988388,
+      "raw_structure_before_clamp": -0.0012798942625522614
+    },
+    {
+      "bzyx": [
+        0,
+        1,
+        15,
+        9
+      ],
+      "final_occupancy": 0.0,
+      "fired": true,
+      "legality": 1.0,
+      "occupancy_gradient": -0.1249999850988388,
+      "raw_structure_before_clamp": -0.009346317499876022
+    }
+  ],
+  "all_active_cells_strictly_below_clamp": true,
+  "fields": {
+    "bytes": 501101,
+    "path": "artifacts/df791a7fc50f43609230b07e3118cf36_raw.npz",
+    "role": "attribution_fields",
+    "sha256": "6a66ab9d96c9dbef3d46ce7114098d1c0d6031b035184144c4e505dbca14dd46"
+  },
+  "full_state_bitwise_equal": true,
+  "input_fields": {
+    "bytes": 376089,
+    "path": "artifacts/3b2d7282d048459babe6caaf6f717ef8_grad-01.npz",
+    "role": "fields",
+    "sha256": "4f6f2d7651df5b0f2cb46ddc8ef843944572a0352c179099943b1ce86919ae93"
+  },
+  "input_run": "20260923T003413Z_1da1202e4a7f",
+  "interpretation": "Exact replay attributes the zero final-step derivative at these cells to the lower hard clamp, if raw values are strictly negative. This does not justify a particular replacement parameterization or establish behavior at longer horizons.",
+  "post_hoc": true,
+  "run_id": "20260923T003906Z_da05c8eed3f6",
+  "status": "completed"
+}
