@@ -563,3 +563,17 @@ Added opt-in component_bottleneck_v2 and independent binary component BFS; neith
 changes existing losses or serving. Added semantic/gradient/threshold fixtures,
 a frozen277-field/12-gradient diagnostic and per-process caps. Preserve exact
 source fields and parameter vectors, including zero gradients. Results pending.
+
+A2 verification20260923T123338Z_6b51ce24b725 passed158 tests with zero failures,
+errors or skips; smoke0. Implementation/protocol committedfac46ff before execution.
+A2 20260923T123641Z_98bf30045a6f completed277 replays/12 gradient cases,397.78s,
+zero optimizer updates, no failures/timeouts. All277 candidate scores/BFS results
+recomputed;72 parameter vectors/72 last-raw derivatives/432 cosines checked.
+All12 raw/projected model fields reproduce their saved source results exactly.
+27 source hashes match snapshot. Added explicit original-checkpoint/config
+crosscheck against F1's recorded metadata. No historical artifact overwritten.
+
+Documented ACCESS_AUDIT_FINDINGS.md/D039 and ACCESS_TRAINING_PLAN.md. Candidate
+restores access parameter gradients in four fitted16-step cases but not original
+disconnected states. Eight score reductions and30 increases are rescoring only;
+all277 binary labels remain equal. No training or candidate promotion followed.

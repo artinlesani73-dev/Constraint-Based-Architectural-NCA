@@ -1,14 +1,12 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **A2 access audit preparation is active.**
-Read ACCESS_AUDIT_PROTOCOL.md/D038. Inspect new run records before retrying.
-Previous milestone: F1 repeated-scene study and verification are complete.
-Read FITTING_FINDINGS.md/D037 and ACCESS_ALIGNMENT_PLAN.md. No active process at
-handoff.151 tests pass. At50 growth steps three of four final models connect,
-none at16; no evaluated boundary is connected AND in budget. No model promoted.
-Next audit point-source versus entrance-region semantics and actual access/
-coverage parameter gradients before changing architecture or scaling training.
-All local records/checkpoints retained; no Drive operation or paid compute.
+Last updated 2026-09-23. **A2 access audit and verification are complete.**
+Read ACCESS_AUDIT_FINDINGS.md/D039, then ACCESS_TRAINING_PLAN.md.158 tests pass.
+No active process at handoff. No optimizer updates in A2. Candidate restores
+access gradients on four fitted16-step cases but remains opt-in. No model promoted.
+Next implement baseline parity, candidate-loop recovery and timing admission for
+an access-only comparison against F1. Keep architecture and other objectives fixed.
+All evidence remains local; no Drive access, paid compute or production change.
 
 ## Authorization and storage
 
@@ -389,3 +387,52 @@ in memory. It adds an initial-baseline equality check beyond the immutable F1R/P
 publication version. Do not overwrite those reports to add later checks. F1 viewer
 not created; previous D1 viewer unchanged, with visual browser QA still blocked.
 Next task: ACCESS_ALIGNMENT_PLAN.md; no user Colab action needed yet.
+
+
+## A2 completed evidence and continuation
+
+- Sourcefac46ff implements opt-in nca/access.py, independent binary BFS, seven
+  semantic/derivative tests, fixed A2 config and capped audit runner. No legacy
+  objective/evaluator or deployment defaults changed.
+- Regression20260923T123338Z_6b51ce24b725:158 tests, zero failures/errors/skips,
+  original-checkpoint smoke0. No access/runner/config change after this pass.
+- A2 20260923T123641Z_98bf30045a6f:277 replays,12 gradient cases,397.78s, no
+  failures/timeouts, zero optimizer updates. Caps600 replay/120 per gradient/900
+  total. Every worker completed. Reports experiments/reports/A2-*.
+- Verification recomputed277 candidate values and independent binary results;
+  checked72 parameter vectors,72 last-raw derivatives and432 cosines;12 saved
+  raw/material forwards match.27 source hashes verified. Explicit original model
+  config/checkpoint digest matches F1 in A2-provenance-crosscheck.json.
+- Access v1 parameter norms zero12/12. Candidate nonzero4/12: all four fitted
+  16-step cases, norms7.37-18.69 and positive coverage cosines0.712-0.803. Original
+  four cases remain zero; coverage remains nonzero. Final50-step candidate norms
+  zero: three already-connected/zero-loss, one disconnected. Do not claim all
+  dead gradients fixed, use raw-field gradients as parameter gradients, or infer
+  Adam outcomes. Two full objective cosine changes are negative.
+- Binary labels match277/277. Source semantics lower8 F1 losses; worst reduction
+  raises30 K2/control losses. No measured hop-removal benefit. All17 W1 access
+  losses remain zero and all34 D1 access values unchanged. Saved geometry unchanged.
+- Next ACCESS_TRAINING_PLAN.md proposes matching F1 with an access-only version.
+  Before running: exact baseline parity, actual-loop completed-update recovery,
+  profiled timing gate and frozen caps. No new training run has started.
+- Candidate uses detached CPU topology selection plus critical-voxel gathering;
+  not smooth or GPU-ready. Tie behavior is explicit. Do not simply seed multiple
+  disconnected source pieces. Keep nine families and existing budgets.
+- Backup builder in Codex cwd:work/package_nca_access.py <A2-run-id>. Outputs
+  outputs/NCA-Access-Backup-2026-09-23-<commit>.zip and.sha256; receipt in
+  .local-artifacts/milestones/<commit>-backup-receipt.json. Verify receipt before
+  claiming completion. Includes all prior local evidence and source snapshots.
+  Same-disk archive only, no off-device backup claimed.
+- Adding nca/access.py changes historical broad code-hash manifests. Resume old
+  optimizers from their exact source snapshots; do not bypass metadata checks.
+  A2 loading frozen weights for diagnostics is not checkpoint resume.
+
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T123641Z_98bf30045a6f
+```
+
+Report writers refuse overwrite. report_access_audit.verify(run) rechecks evidence
+in memory; render can be used without publishing over existing artifacts. Before
+any interrupted-run retry inspect result/status, logs and processes, retain all
+partial evidence and use a new linked attempt. There is no automatic A2 partial
+coordinator resume. No need to repeat this completed audit without a new reason.

@@ -598,3 +598,27 @@ merging unrelated source origins; topology selection is CPU-only and nonsmooth.
 Explicitly separate source/reducer/hop-limit changes using intermediate replays.
 Keep all old definitions and report changes; do not promote the candidate or
 change production. Caps600s replay/120s per gradient/900s total.
+
+
+## D039 - Access correction merits a controlled learning test, not promotion
+
+2026-09-23. A2 20260923T123641Z_98bf30045a6f completed277 saved-field replays
+and12 actual gradient cases in397.78s, zero optimizer updates or failures.158
+tests pass. Candidate component_bottleneck_v2 preserves all277 binary labels,
+lowers access loss on8 F1 fields through source semantics, raises30 K2/control
+losses through worst-destination scoring, and produces no hop-removal improvement.
+All17 W1 controls retain zero access loss; D1 scores remain unchanged.
+
+Old access parameter gradients are exactly zero in12/12 model cases. Candidate
+gradients are nonzero in all four final F1 cases at16 growth steps (norms7.37-18.69),
+with positive coverage cosines0.712-0.803. They remain zero at the original
+checkpoints; coverage supplies a nonzero bootstrap signal. At50 steps three
+final models already score zero candidate access, while the fourth remains
+disconnected. Lower rescored loss is not improved geometry.
+
+Keep candidate opt-in. Follow ACCESS_TRAINING_PLAN.md: prove baseline parity,
+verify candidate actual-loop restart and timing gate, then compare one access
+family change against F1 with matching architecture/scenes/coefficients/exposure.
+Candidate materially rotates total gradients (two fitted16-step cosines negative),
+so measure budget outcomes rather than assuming improvement from derivatives.
+No model/recipe/production switch, paid training, Drive access or deployment.

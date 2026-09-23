@@ -212,3 +212,20 @@ semantics without introducing disconnected multiple origins, then trace actual
 parameter gradients and isolate one learning intervention. Preserve all previous
 contracts/reports, budget limits and nine families. Scaling/holdouts/deployment
 remain planned; no Colab setup or paid run is needed for this next local audit.
+
+
+## A2 completed; access-only learning comparison next - 2026-09-23
+
+Read ACCESS_AUDIT_FINDINGS.md/D039. A2 replays277 fields and12 actual-model
+gradient cases without training.158 tests pass. Old access parameter gradients
+are zero in12/12 cases; component_bottleneck_v2 restores them in all four fitted
+16-step cases, with coverage-aligned directions. Original disconnected cases
+still need existing pre-clamp coverage guidance. All277 binary labels match;
+eight access-score reductions and30 increases are semantic rescoring, not better
+generated geometry. No model or production objective promoted.
+
+Next follow ACCESS_TRAINING_PLAN.md: opt-in access-only objective, baseline parity
+against F1, actual-loop CPU recovery and timing admission before proposed matched
+64-update comparison. Other eight families, regularizers, recipes, architecture
+and scenes unchanged. Evaluate both definitions and joint connectivity/budget.
+Candidate is CPU-only; GPU/Colab recovery and spending approval remain pending.
