@@ -1,15 +1,52 @@
 # Resume the NCA next phase
 
-## Active F3 implementation - 2026-09-23
+## Current completed F3 milestone - 2026-09-23
 
-User approved advancing after H1. Added versioned mixed-horizon session/runner,
-all-field verifier and four guard tests; no scientific run yet. Read
-HORIZON_TRAINING_PROTOCOL.md/D045. Next: regression, source commit, constant16
-F2 parity, actual16/50/16 recovery, timing-only pilot and conditional full study.
-Full local cap3600s/member1200s. Update here with run IDs before proceeding.
-No Drive, paid compute, push or production action.
+Read HORIZON_TRAINING_FINDINGS.md and D046, then ACCESS_RECOVERY_PLAN.md.
+F3 full20260923T160713Z_cc33850561b8 completed1722.77s,256 updates and120 unique
+evaluations. All376 fields rescored,260 checkpoint/schedule cursors verified,
+37 source hashes checked, eight initial fields/eight final rollouts exact.
+No active training/diagnostic process. All elapsed caps met; sourcec0a44b1.
 
-## Current completed H1 milestone - 2026-09-23
+Result: mass decreases in72/72 matched final cases, but all59 F2 connections are
+lost, none gained. F3 has0 connected or jointly successful final cases. All12
+16-step final cases are in budget; all60 longer ones exceed it. Candidate access
+loss1 in72/72; saved critical raw voxel negative in51, exactly0 in21. This is
+saved-field/last-clamp evidence, not a new full parameter-gradient experiment.
+Do not adopt F3 or scale it. Next: actual failed-state gradient audit, then frozen-
+field evaluation of a pre-clamp maximin access-loss extension. Freeze protocol,
+cases and allowance first. No further training approved by scientific readiness.
+
+Regression20260923T155421Z_8e4d3bfc6919 passed172 tests/zero errors/failures/skips,
+smoke0. F3B20260923T155551Z_dc2ea609facf exact12-update/24-evaluation F2 parity;
+F3R20260923T155836Z_10e9dbf37b62 exact11 restart checks plus five intermediate
+checkpoint comparisons. F3P20260923T160209Z_e292a696d594 verified96 unique fields,
+3246.25s estimate admitted3600s. F3L20260923T184328Z_418e31921193 replays all four
+models' updates63/64 and eight evaluations exactly in118.04s;38 hashes/eight
+cursors checked. Late wrapper added separately; frozen37 scientific hashes unchanged.
+
+Reports experiments/reports/F3*-{evidence,summary,verification}.json and
+F3-horizon-training.md; F3-outcomes.json, F3-critical-cells.json and F3-horizons.png
+with figure receipts. Post-hoc scripts/receipts under analysis-attempts. Commands
+already completed: scripts/report_horizon_training.py <full-ID>,
+scripts/check_horizon_late_recovery.py <full-ID>. Do not rerun for cleaner records.
+If recovering another interrupted attempt, inspect processes/result/logs first;
+retain its status and use linked new IDs with exact source ZIPs and metadata.
+
+Final local archive: Codex cwd outputs/NCA-Horizon-Training-Backup-2026-09-23-
+<results-commit>.zip plus .zip.sha256; authoritative completion receipt at
+.local-artifacts/milestones/<results-commit>-backup-receipt.json. Verify receipt;
+absence means archival work remains. Builder work/package_nca_horizon.py takes
+B,R,P,full IDs above in that order and includes every run, including F3L, and
+prior evidence/private reports. Full Git bundle/fresh restore and payload hashes
+checked by builder. Same-disk copy, not off-device backup. No Drive access.
+
+The initial F3L escalation timed out before process creation (tool waiting6632.2s),
+then a normal authorized local retry succeeded. This did not affect completed
+F3 timing. Plot-library access failures resolved with scoped elevated execution.
+No paid compute, push, production/default change or promoted model.
+
+## Previous completed H1 milestone - 2026-09-23
 
 H1 full `20260923T150119Z_f7b304516723` completed in 603.78 seconds, all elapsed
 caps met; source `3acdefd`. No active training/diagnostic process. Zero optimizer
@@ -609,3 +646,17 @@ scripts/report_growth_audit.py on that ID, document findings/next decision,
 commit and use work/package_nca_growth.py <pilot ID> <full ID> in Codex cwd.
 
 F3 preparation regression20260923T155421Z_8e4d3bfc6919 passed172 tests, zero failures/errors/skips, smoke0. Source commit precedes first parity run; no code changes after pass.
+
+F3B parity20260923T155551Z_dc2ea609facf active session6198; sourcec0a44b1. After completion verify with scripts/report_horizon_training.py, then recovery with this parity ID. No full training admitted yet.
+
+F3B fully verified37 source hashes/36 fields/16 checkpoint cursors/56 F2 and72 H1 controls. F3R20260923T155836Z_10e9dbf37b62 active session59301; inspect completion before reporter and pilot.
+
+F3R20260923T155836Z_10e9dbf37b62 completed100.23s,8 updates/14 evaluations; all11 exact restart checks pass. Reporter session82087 active. Next F3P with parity20260923T155551Z_dc2ea609facf and this recovery ID; full remains gated.
+
+F3R fully verified. F3P20260923T160209Z_e292a696d594 active session37543; sourcec0a44b1. All31 H1 source files still byte-identical; new objective/evaluation ASTs match F2 exactly. Full training requires pilot admission and report verification.
+
+F3P20260923T160209Z_e292a696d594 completed223.38s,8 updates/24 boundaries/72 grid records. Timing-only estimate3246.25s total/811.56s member admits3600/1200 caps. Reporter session91389 active; full may start only after successful verification.
+
+Supplement F3L registered while full active, before final outcome review: scripts/check_horizon_late_recovery.py <full-ID> repeats62->63->64 for all4models, checks complete checkpoint/trace/field equality and cursors. Run after full verification; no added learned exposure. Wrapper separate hash, core37 hashes unchanged.
+
+Full F3 verification passed376 fields/260 cursors/8 exact final rollouts,37 source hashes. Late launch escalation timed out before process creation (tool reported6632.2s); no study time affected. Normal authorized local retry succeeded: F3L20260923T184328Z_418e31921193 active session66685. Post-hoc F3-outcomes.json saved:72/72 mass reductions,59 connectivity losses,0 gains,0 joint final/boundary successes.

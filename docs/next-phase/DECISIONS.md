@@ -697,3 +697,26 @@ full-grid timing pilot, then conditional64 updates/model. Local cap3600s total,
 exposure changes;2112 versus1024 recurrent steps/model is unequal compute. Keep
 all9 families, budgets, recipes, initialization/scenes and failed attempts.
 No automatic promotion, Drive operation or paid compute.
+
+## D046 - Reject F3 promotion; diagnose the clipped access signal
+
+2026-09-23. Completed F3 reduces mass in72/72 matched final cases but loses all59
+F2 connections and gains none. Zero joint success across120 unique evaluations.
+All12 final16-step cases meet budget, all60 longer cases exceed it; all72 have
+candidate access loss1. Selected raw bottleneck is negative in51 and exactly0
+in21. Negative values block the selected signal through the final clamp; zero
+cases need actual autograd, and this does not prove whole-trajectory causation.
+
+Do not adopt mixed16/50 training or infer the NCA concept is disproved. Keep F2
+as a connectivity research control, also not promotion-ready. Follow
+ACCESS_RECOVERY_PLAN.md: bounded actual-gradient audit and frozen-field checks of
+raw maximin loss max(0,1-b_raw), retaining projected binary connectivity, budgets,
+architecture and9 families. If justified, isolate access on constant16 F2 later;
+do not combine with F3, pools, a new margin or longer training now.
+
+Full256 updates/120 evaluations verified:376 fields/260 cursors/37 source hashes,
+eight final rollouts exact. F3L supplementary trained-state replay was registered
+while full study ran, before final outcome review; updates63/64 and evaluations
+match exactly for all four models. No added learned exposure. All scientific
+caps met. Approval-launch timeout and plot-access failures remain documented
+separately. Preserve the negative result and all evidence; no model promoted.

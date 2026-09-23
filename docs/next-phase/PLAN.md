@@ -257,3 +257,18 @@ regression pass. Next HORIZON_TRAINING_PLAN.md isolates alternating16/50 trainin
 implement schedule, prove F2 parity and mixed-horizon restart, profile/freeze
 compute caps before the proposed64-update comparison. Hold objectives, recipes,
 scenes and architecture fixed. This is not yet training or a model promotion.
+
+## F3 completed; access-gradient recovery diagnostic next - 2026-09-23
+
+F3's64-update mixed16/50 schedule reduces material but loses all59 matched F2
+connections. No joint success in120 unique evaluations. Read
+HORIZON_TRAINING_FINDINGS.md/D046.172 core tests pass; all376 saved fields and
+260 checkpoint cursors verified, final rollouts and trained-state restart exact.
+Do not promote F3 or automatically increase training duration/grid size.
+
+Next ACCESS_RECOVERY_PLAN.md: actual gradients at failed bottlenecks, then a
+research-only pre-clamp maximin access-loss extension on frozen fields. Selected
+critical raw material is negative in51/72 finals, exactly0 in21; distinguish
+measured clipping from unmeasured parameter gradients. Preserve binary semantics,
+budgets, architecture and9 families. New learning needs its own parity/recovery/
+timing gates; larger grids, fresh holdouts and production UI remain later work.

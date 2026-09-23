@@ -2,6 +2,9 @@
 
 Prepared 2026-09-23 from H1; not executed. Read GROWTH_AUDIT_FINDINGS.md and D044.
 
+Historical proposal retained. F3 has since completed; see
+HORIZON_TRAINING_FINDINGS.md and D046. The schedule was not adopted.
+
 ## Question and isolated intervention
 
 Does alternating short and long growth during optimization improve joint entrance
