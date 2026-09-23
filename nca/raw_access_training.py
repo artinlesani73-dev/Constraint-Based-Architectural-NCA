@@ -112,8 +112,8 @@ class Session(F1Session):
             candidate_totals={r:float(weighted_total(values,c['family_weights'],c['regularizer_weights']))
                 for r,c in read_json(REPO/PROPOSAL)['recipes'].items()})
         raw_access,raw_details=raw_component_access(torch.from_numpy(fields['raw']),ctx.permitted,ctx.endpoints)
-        _,raw_values,_=objective_pair(state,torch.from_numpy(fields['raw']),ctx,self.config,
-            self.contexts[self.metadata['scene']][1],LossSpec(),RAW)
+        # All other terms are identical; reuse their tensors and reduction order.
+        raw_values={**values,'terms':{**values['terms'],'access':raw_access},'objective_version':RAW}
         row.update(raw_access=float(raw_access[0]),raw_details=raw_details[0],
             raw_totals={r:float(weighted_total(raw_values,c['family_weights'],c['regularizer_weights']))
                 for r,c in read_json(REPO/PROPOSAL)['recipes'].items()})

@@ -61,3 +61,14 @@ Runs use CPU two threads and deterministic algorithms. Failed attempts get new
 linked IDs; snapshots, all results and decisions remain. Update RESUME at each
 gate. Finish with a local commit and verified full archive. No paid compute,
 Drive operation, deployment or remote push is authorized by this protocol.
+
+
+## Efficiency revision after first pilot, before full outcomes
+
+D050 retains the first completed pilot and its failed2409.50s admission. The
+second version reuses unchanged evaluation tensors for raw totals, avoiding one
+redundant objective computation. No training objective/step/forward change.
+New regression and B2/R2/P2 are required; compare all second-pilot outputs and
+checkpoint states to first-pilot evidence. No case/cap/weight/admission change.
+The original exact41-file source snapshot remains the recovery authority for
+first-version runs. Report prefixes distinguish versions and never overwrite.

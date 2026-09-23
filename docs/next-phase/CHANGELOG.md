@@ -730,3 +730,11 @@ F2/F3/A3 source unchanged. Added guards for objective-only change, source/cursor
 drift, mismatched-objective recovery and timing completeness. No F4 outcome yet.
 
 F4 preparation regression20260923T195529Z_9f4db82ab94f passed186 tests, no failures/errors/skips, original-checkpoint smoke0,83.35s. Source freeze follows; no scientific edits after passing suite.
+
+F4B20260923T195731Z_c19895c6c745 passed exact12-update/24-evaluation F2 parity in142.85s; reporter verified41 source hashes and128 historical controls. F4R20260923T200110Z_961286a9e4b3 passed all11 actual-loop restart checks in91.25s; reporting before timing pilot.
+
+First F4P20260923T200402Z_b794e30d69ba completed8 updates/24 boundary/72 grid records in328.52s. Timing estimate2409.4967s exceeds frozen2400 cap by9.50s, so no full run admitted. All evidence retained. Identified redundant recomputation of unchanged objective terms for raw scoring; an explicit efficiency revision and new gates will be required before reconsideration.
+
+D050 efficiency revision after verified first pilot: reuse unchanged evaluation terms for raw totals; add exact recomputation regression. Reporter accepts a validated separate prefix to preserve both source versions. Training step, objectives and config unchanged. New gates required.
+
+Efficiency revision regression20260923T201206Z_4b81a6dabfa4 passed187 tests, no failures/errors/skips, smoke0,86.46s. All original gates and first rejected admission retained. New source frozen after this pass.

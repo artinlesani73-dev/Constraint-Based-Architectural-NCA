@@ -763,3 +763,16 @@ other science fixed. Correct draft boundary4 to actual F2 boundary3. Cap900s
 per full member/2400s overall; timing-only1.5 safety-factor admission. Preregister
 late62->63->64 recovery for all four models. Preserve every result; no paid
 compute, Drive operation, promotion or remote push.
+
+
+## D050 - Preserve failed timing admission; remove redundant evaluation work
+
+2026-09-23. F4P20260923T200402Z_b794e30d69ba scientifically complete/verified,
+but estimated2409.50s>2400s. No full run started. Reuse already computed unchanged
+terms when adding raw access to evaluation; retain exact float tensors/reduction
+order. This edits no training step/objective or forward model. Add exact
+recomputation regression, then new source commit and fresh B2/R2/P2 linked gates.
+Preserve original reports under F4B/F4R/F4P; new reports F4B2/F4R2/F4P2. Compare
+second pilot's entire traces/fields/checkpoints to the first, excluding declared
+source identity. All41 hashed files remain fixed within each version. Caps,
+selection and admission equation unchanged; no timing-only repeat of old code.

@@ -11,6 +11,7 @@ from nca.access_training import make_metadata as f2_metadata,objective_pair as f
 from nca.recovery import save_checkpoint
 from nca.sensitivity import contexts
 from nca.losses import LossSpec
+from nca.objective import weighted_total
 
 
 class RawTrainingTests(unittest.TestCase):
@@ -67,3 +68,16 @@ class RawTrainingTests(unittest.TestCase):
             for invalid in ([],[-1],[float('nan')]):
                 groups=[[1] for _ in range(4)];groups[i]=invalid
                 with self.assertRaises(ValueError):cost_gate(*groups)
+
+    def test_reused_evaluation_terms_match_full_recomputation(self):
+        from nca.experiments import read_json
+        from nca.raw_access_training import PROPOSAL
+        s=Session(self.meta());row,fields=s.score(3,2)
+        name=s.metadata['scene'];ctx,allow=s.contexts[name]
+        state=s.inputs[name]['seed'].clone();state[:,s.config['ch_structure']]=torch.from_numpy(fields['material'])
+        with torch.no_grad():
+            _,reference,details=objective_pair(state,torch.from_numpy(fields['raw']),ctx,s.config,allow,LossSpec(),RAW)
+            self.assertEqual(row['raw_access'],float(reference['terms']['access'][0]))
+            self.assertEqual(row['raw_details'],details[0])
+            for name,c in read_json(REPO/PROPOSAL)['recipes'].items():
+                self.assertEqual(row['raw_totals'][name],float(weighted_total(reference,c['family_weights'],c['regularizer_weights'])))

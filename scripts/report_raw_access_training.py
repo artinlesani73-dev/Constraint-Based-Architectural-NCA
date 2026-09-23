@@ -181,7 +181,9 @@ def render(run,p,training,evaluation,grid,controls,h1,checks):
 
 if __name__=='__main__':
     run=sys.argv[1];result=verify(run);p,training,evaluation,grid,controls,h1,checks=result
-    prefix={'parity':'F4B','recovery':'F4R','pilot':'F4P','study':'F4'}[p['mode']];out=REPO/'experiments/reports'
+    prefix=sys.argv[2] if len(sys.argv)>2 else {'parity':'F4B','recovery':'F4R','pilot':'F4P','study':'F4'}[p['mode']]
+    if not prefix.replace('-','').isalnum():raise ValueError('Invalid report prefix')
+    out=REPO/'experiments/reports'
     with (out/(prefix+'-raw-access-training.md')).open('x',encoding='utf-8') as f:f.write(render(run,*result))
     write_once(out/(prefix+'-verification.json'),dict(run_id=run,**checks))
     write_once(out/(prefix+'-evidence.json'),dict(run_id=run,training=training,evaluation=evaluation,final_grid=grid,F2_controls=controls,H1_F2_controls=h1))

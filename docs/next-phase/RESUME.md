@@ -738,3 +738,21 @@ Full A3 20260923T193403Z_ac42a8cca390 active session9272; scientific source08a6d
 F4 regression20260923T195529Z_9f4db82ab94f active session43932. Inspect result/logs before retry. Scientific implementation complete, no training gate launched yet.
 
 F4 regression20260923T195529Z_9f4db82ab94f completed186 tests, zero failures/errors/skips, smoke0,83.35s. Scientific code frozen; next source commit then F4B.
+
+F4B20260923T195731Z_c19895c6c745 active session31869; source12357e8. Inspect result before reporter, then recovery. Full training remains gated.
+
+F4B20260923T195731Z_c19895c6c745 completed142.85s,12 exact F2 update matches and24 evaluation matches including full checkpoint/RNG trees. Reporter active session29357. After verified report launch F4R with this parity ID.
+
+F4B reporter passed41 source hashes/36 fields/16 cursors/56 F2 boundary and72 H1 controls. F4R20260923T200110Z_961286a9e4b3 active session51304. Verify before pilot.
+
+F4R20260923T200110Z_961286a9e4b3 completed91.25s,8 actual updates/14 evaluations, all11 restart checks exact. Reporter session10108 active. Next pilot after successful verification.
+
+F4R reporter passed41 source hashes/22 fields/10 cursors, all11 recovery checks. F4P20260923T200402Z_b794e30d69ba active session49762. Scientific source unchanged12357e8. Full requires pilot timing admission and verified report.
+
+First F4P20260923T200402Z_b794e30d69ba completed328.52s; estimate2409.50s exceeds2400s allowance, NOT admitted. No full training started. Reporter session93938 active. Preserve this pilot. Next semantics-preserving removal of redundant raw evaluation loss recomputation, then fresh source/regression/parity/recovery/pilot linked to first gates; caps unchanged.
+
+First pilot fully verified but not admitted. D050 removes redundant evaluation recomputation; no objective/training change. Next new regression/source commit, linked B2/R2/P2. Use reporter prefixes F4B2/F4R2/F4P2; old source runs cannot resume with changed hashes.
+
+Efficiency-revision regression20260923T201206Z_4b81a6dabfa4 active session50349. After pass commit new source, launch parity with --parent-run 20260923T195731Z_c19895c6c745 and use F4B2 report prefix.
+
+Efficiency regression20260923T201206Z_4b81a6dabfa4 passed187 tests, no failures/errors/skips, smoke0,86.46s. No scientific edits after pass. Next preserve revised source and repeat B2/R2/P2 with parent links; independently compare full pilot evidence using work/verify_f4_efficiency.py <old-pilot> <new-pilot> before full training.
