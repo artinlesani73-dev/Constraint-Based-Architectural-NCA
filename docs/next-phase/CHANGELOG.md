@@ -405,3 +405,12 @@ replay and recomputed nine-family values/binary metrics match all18 records.
 FACADE_FINDINGS.md combines A1/W1 outcomes and limits. D028 selects the opt-in
 experimental contract for calibration preparation. No optimization or learned-
 quality claim. Updated plan/handoff and verified local archive preserve evidence.
+
+## 2026-09-23 - K1 and retained regularizers prepared
+
+Added nca/regularizers.py, five meaningful tests and REGULARIZER_AUDIT.md.
+Verification20260923T092058Z_bba721fc054d passes137 tests,zero failures/errors/skips,
+checkpoint smoke0. Includes extracted-notebook value/gradient parity, batch checks,
+boundary finite differences, ground/floating/no-wrap cases and binarization intent.
+Added CALIBRATION_PROTOCOL.md and scripts/run_calibration.py; all raw per-family
+parameter gradients and source/coefficients are preserved for K1. No optimizer.

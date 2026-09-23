@@ -201,3 +201,10 @@ Report writers refuse overwrite; use in-memory rendering to reverify.
 Fresh repeats, only if justified, use scripts/run_facade_comparison.py or
 scripts/run_witnesses.py with --parent-run and the relevant previous run ID.
 They preserve prior evidence; they do not resume an unfinished case in place.
+
+## Active K1 calibration diagnostic
+
+Read CALIBRATION_PROTOCOL.md,D029,REGULARIZER_AUDIT.md.137 tests passed in
+20260923T092058Z_bba721fc054d. Run scripts/run_calibration.py once.71 model cases
+and51 budget probes; potentially several minutes CPU. Inspect current processes
+and partial run records before any retry. No optimizer or paid compute.

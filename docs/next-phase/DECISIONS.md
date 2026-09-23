@@ -432,3 +432,15 @@ comparator, not architectural quality or a training target that NCA should simpl
 memorize. Ratio dilution, weak thin-strand success and geometric support limits
 remain. Next measure actual parameter gradients and retained regularizers before
 coefficients/training. Paid compute and cloud operations remain gated.
+
+## D029 - K1 actual model gradients and regularizer provenance
+
+2026-09-23. User authorized continuing calibration. REGULARIZER_AUDIT.md confirms
+checkpoint weights match notebook trainer; port density-binarization and TV sum
+faithfully, retain notebook cantilever diagnostically and test an explicit fixed-
+boundary alternative within support regularization. No new constraint family.
+CALIBRATION_PROTOCOL.md freezes71 model-gradient and51 budget-probe cases, multiple
+seeds/horizons, pre-clamp saturation and original50-step examples.137 tests pass.
+No optimizer update or coefficient selection before outcomes. Original artifacts
+and production defaults remain unchanged; sealed reference explicitly excluded
+from feasible-scene calibration and retained in previous diagnostics.
