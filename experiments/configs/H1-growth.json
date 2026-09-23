@@ -1,0 +1,22 @@
+{
+  "protocol": "H1_proposal_v1",
+  "fitting_run": "20260923T112646Z_dcd0601d0655",
+  "access_training_run": "20260923T143002Z_55aeaac95580",
+  "access_audit_run": "20260923T123641Z_98bf30045a6f",
+  "scenes": ["ref-01-ground-pair", "ref-06-minimal-smoke"],
+  "horizons": [16, 24, 32, 40, 50, 64],
+  "firing_seeds": [0, 1, 2],
+  "gradient_horizons": [16, 50],
+  "gradient_firing_seed": 2,
+  "pilot_sources": ["F2-mass_3-r0", "F2-mass_3-r1"],
+  "pilot_firing_seeds": [2],
+  "pilot_gradient_sources": ["F2-mass_3-r0"],
+  "growth_worker_cap_seconds": 180,
+  "gradient_worker_cap_seconds": 120,
+  "pilot_total_cap_seconds": 600,
+  "study_total_cap_seconds": 1500,
+  "admission": "1.5 * (30 * max(single-seed growth worker elapsed) + 8 * max(gradient worker elapsed)); includes process startup, scoring and evidence. Must be <=1500s.",
+  "optimizer_updates": 0,
+  "paid_compute": false,
+  "scope": "Development-scene growth/firing diagnostic; no training, holdout claim or production promotion"
+}

@@ -657,3 +657,12 @@ compliance. Do not rerun all models for a cleaner-looking timing or hide the par
 After original-source verification/recovery, add explicit elapsed-cap checks even
 when a worker returns success, with a delayed-success regression. Future source
 identity changes; historical recovery must use registered exact source ZIPs.
+
+## D043 - Freeze H1 growth/firing and actual-gradient audit
+
+2026-09-23. User approved advancing after F2. H1-growth.json and
+GROWTH_AUDIT_PROTOCOL.md fix180 frozen-model growth fields (10 sources,6 horizons,
+3 firing seeds),8 new F2 gradient cases and12 reused verified A2 controls. No
+optimizer updates. Require historical anchor equality, timing-only pilot and
+explicit elapsed caps (1500s full). Keep all joint-budget failures, zero gradients,
+source hashes and timing interruptions. No production/architecture/budget change.

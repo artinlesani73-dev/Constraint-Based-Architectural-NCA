@@ -1,5 +1,19 @@
 # Resume the NCA next phase
 
+## Current H1 work - 2026-09-23
+
+H1 implementation/protocol ready; regression20260923T145719Z_37715b17ba45 passed
+168 tests, zero failures/errors/skips, smoke0. Read GROWTH_AUDIT_PROTOCOL.md/D043.
+Commit source, run scripts/run_growth_audit.py --mode pilot, verify with
+scripts/report_growth_audit.py <pilot-run>, then only if admitted run
+scripts/run_growth_audit.py --mode study --pilot-run <pilot-run> and report it.
+No optimizer updates. Fixed180 growth fields/8 new gradients/12 reused A2 cases.
+Preserve all attempts; inspect processes/result/logs before retry. Caps unchanged.
+Previous F2 milestone/archive is complete; do not rerun it. H1 archive builder in
+Codex cwd:work/package_nca_growth.py <pilot-run> <study-run>. Local only.
+
+## Previous completed F2 milestone
+
 Last updated 2026-09-23. **F2 learning comparison, verification and recovery complete.**
 Read ACCESS_TRAINING_FINDINGS.md/D041-D042 then GROWTH_STABILITY_PLAN.md.
 Final connectivity improves0->2/4 at16steps,3->4/4 at50, but no joint budget success.

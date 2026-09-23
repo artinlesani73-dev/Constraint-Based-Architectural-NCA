@@ -623,3 +623,16 @@ errors/skips, original-checkpoint smoke0. Final crosscheck verifies all56 binary
 labels agree, all8 matched final masses increase, all final binary illegal/blocked/
 unsupported voxel counts0, and only the timeout runner differs from historical
 32-file source. No further code changes after the passing regression.
+
+## 2026-09-23 - H1 preparation
+
+Added frozen-weight source validation, dual-definition scoring, sampled geometry
+transitions, saved parameter/raw-gradient vectors, a fixed timing pilot/full
+coordinator and all-field verifier/reporter. Added four tests for transition
+semantics, zero/conflicting gradient statistics, pilot admission and delayed-success
+timeout enforcement. Original objectives/model/training code unchanged. No H1 run
+yet; regression and timing admission required before full execution.
+
+H1 preparation regression20260923T145719Z_37715b17ba45 passed168 tests, zero
+failures/errors/skips; original-checkpoint smoke0. Hashed diagnostic code/config
+will remain frozen through pilot and full run. No scientific run started yet.
