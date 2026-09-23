@@ -343,3 +343,12 @@ are mechanics-only. The sample sequence covered two of the three available scene
 No GPU/Colab or abrupt power-loss certification. Next inspect all-nine-term target
 compatibility and architectural material amounts, then calibrate and preregister
 E2 controls before a bounded training pilot. Preserve every attempt and archive.
+
+## D023 - Preregister T1 geometry compatibility before calibration
+
+2026-09-23: user authorized continuing with the target audit. TARGET_AUDIT_PROTOCOL.md
+freezes432 static geometry cases,72 necessary joint bounds and36 direct occupancy
+gradient cases across all18 frozen scenes. Keep nine families and existing formulas.
+New facade/coverage/budget bounds expose incompatibility; passing is not sufficient.
+All coefficients remain explicit unit values for diagnosis only. No model training,
+production default, cloud operation or paid compute is authorized by this protocol.

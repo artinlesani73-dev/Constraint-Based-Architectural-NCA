@@ -344,3 +344,11 @@ INTERVENTION_FINDINGS.md, D022 and RESUME record physical-budget implications,
 unchanged projected-access failure, smooth background-mass issue, CPU recovery
 limits and next actions. Original artifacts and user files remain intact. Local
 Git milestone and hash-verified recovery archive preserve progress; no cloud use.
+
+## 2026-09-23 - T1 audit prepared
+
+Added target_candidates and analytical joint bounds in nca/target_audit.py, five
+regression tests, frozen TARGET_AUDIT_PROTOCOL.md and scripts/run_target_audit.py.
+Verification20260923T082336Z_b8c43fcf7723:123 tests pass,zero failures/errors/skips,
+checkpoint smoke exit0. The full audit records static losses and direct occupancy
+gradients, not learned quality. Original loss/model code remains intact.

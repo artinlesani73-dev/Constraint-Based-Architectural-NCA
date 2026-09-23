@@ -123,3 +123,9 @@ Python3.12.14, CPU torch2.8.0, NumPy2.5.2; requirements-cpu.lock.txt. Do not ins
 that CPU lock over Colab CUDA. Local write/Git permissions may need renewal in a
 new task. Previous handoffs remain in Git/archives. This record supports resuming
 work after a limit reset; it does not automatically resume work or redeem credits.
+
+## Active T1 audit
+
+Prepared2026-09-23. Read TARGET_AUDIT_PROTOCOL.md and D023.123 tests passed in
+20260923T082336Z_b8c43fcf7723. Next run scripts/run_target_audit.py once; inspect
+active processes and records before retrying. Keep all attempts. No optimizer.
