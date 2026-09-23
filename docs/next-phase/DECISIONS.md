@@ -752,3 +752,14 @@ Post-audit infeasible-graph zero-anchor overflow fixed with a regression. It
 affects no A3 field; old exact source is preserved. The first post-hoc gradient-
 subtraction tolerance failure and receipt-write permission error are retained;
 no frozen experimental criterion was changed. Read RAW_ACCESS_FINDINGS.md.
+
+
+## D049 - Freeze constant16 raw-access learning comparison
+
+2026-09-23. User approved advancing after A3. Freeze F4-raw-access-training.json
+and RAW_ACCESS_TRAINING_PROTOCOL.md: F2 parity, actual raw-loop recovery, timing
+pilot and conditional64 updates/model at constant16. Only access changes; all
+other science fixed. Correct draft boundary4 to actual F2 boundary3. Cap900s
+per full member/2400s overall; timing-only1.5 safety-factor admission. Preregister
+late62->63->64 recovery for all four models. Preserve every result; no paid
+compute, Drive operation, promotion or remote push.

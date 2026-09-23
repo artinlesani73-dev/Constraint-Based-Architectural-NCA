@@ -1,6 +1,17 @@
 # Resume the NCA next phase
 
-## Current completed A3 diagnostic - 2026-09-23
+## Current F4 preparation - 2026-09-23
+
+Read RAW_ACCESS_TRAINING_PROTOCOL.md/D049. Source implemented, no F4 run yet.
+Next full regression, source commit, then scripts/run_raw_access_training.py
+--mode parity. Verify with scripts/report_raw_access_training.py <ID>; next
+--mode recovery --parity-run <B>; then --mode pilot --parity-run <B>
+--recovery-run <R>. Only after verified timing admission use --mode study
+--parity-run <B> --recovery-run <R> --pilot-run <P>. Finally verify full and
+scripts/check_raw_access_late_recovery.py <full-ID>. Use project .venv Python.
+No paid compute/Drive/push. Previous archive878d5f2 receipt exists and verified.
+
+## Previous completed A3 diagnostic - 2026-09-23
 
 Read RAW_ACCESS_FINDINGS.md/D048, then RAW_ACCESS_TRAINING_PLAN.md. A3 full
 20260923T193403Z_ac42a8cca390 completed336.74s:231 fields/eight actual F3 gradient
@@ -723,3 +734,7 @@ A3P20260923T193037Z_0e72e1207fb9 active session59351; source08a6d85. Inspect res
 A3P20260923T193037Z_0e72e1207fb9 completed111.09s and verified35 source hashes/25 fields/2 gradient cases/2 bounded probe fields. Timing estimate1038.85s admits1500 cap. All37 historical F3 code hashes unchanged. Next full A3 with exact pilot identity.
 
 Full A3 20260923T193403Z_ac42a8cca390 active session9272; scientific source08a6d85 and identical pilot protocol hashes. Inspect result/logs before retry; after completion run reporter, work/analyze_a3.py, findings/decision, results commit and work/package_nca_raw_access.py <pilot-ID> <full-ID>.
+
+F4 regression20260923T195529Z_9f4db82ab94f active session43932. Inspect result/logs before retry. Scientific implementation complete, no training gate launched yet.
+
+F4 regression20260923T195529Z_9f4db82ab94f completed186 tests, zero failures/errors/skips, smoke0,83.35s. Scientific code frozen; next source commit then F4B.

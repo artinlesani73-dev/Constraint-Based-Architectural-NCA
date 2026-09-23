@@ -292,3 +292,10 @@ Next RAW_ACCESS_TRAINING_PLAN.md proposes one access-family change against
 constant16 F2, requiring parity, true-loop recovery and timing gates. No new
 training has occurred here and no model is promoted. Larger grids, fresh-scene
 validation and production Studio remain later work.
+
+
+## F4 execution - 2026-09-23
+
+Follow RAW_ACCESS_TRAINING_PROTOCOL.md/D049: regression and source freeze, F4B
+parity, F4R recovery, F4P timing pilot, conditional bounded F4 then F4L. Preserve
+all outputs and judge joint connectivity/budget, not raw-loss improvement.

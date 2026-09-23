@@ -721,3 +721,12 @@ retained; current raw_access.py differs by this fix. Follow-up full regression
 20260923T194258Z_d2f3798c93b4 was launched; inspect result before claiming pass.
 
 Follow-up regression20260923T194258Z_d2f3798c93b4 passed181 tests, no failures/errors/skips, smoke0,80.57s. Results commit and full verified local archive follow. No code changes after this pass.
+
+
+F4 preparation2026-09-23: added explicit raw-objective training identity, fixed16
+training path, triple-definition evaluation, baseline parity and early/late
+recovery runners, timing admission and full saved-evidence verifier. Existing
+F2/F3/A3 source unchanged. Added guards for objective-only change, source/cursor
+drift, mismatched-objective recovery and timing completeness. No F4 outcome yet.
+
+F4 preparation regression20260923T195529Z_9f4db82ab94f passed186 tests, no failures/errors/skips, original-checkpoint smoke0,83.35s. Source freeze follows; no scientific edits after passing suite.

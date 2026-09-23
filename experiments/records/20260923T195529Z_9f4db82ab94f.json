@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T195529Z_9f4db82ab94f",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 186,
+    "wall_seconds": 83.3542379999999
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "878d5f22ce9d6f97bab48bc88d8ae11cb1704ad0",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/CHANGELOG.md\n M docs/next-phase/DECISIONS.md\n M docs/next-phase/PLAN.md\n M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/RAW_ACCESS_TRAINING_PROTOCOL.md\n?? experiments/configs/F4-raw-access-training.json\n?? nca/raw_access_training.py\n?? scripts/check_raw_access_late_recovery.py\n?? scripts/report_raw_access_training.py\n?? scripts/run_raw_access_training.py\n?? tests/test_raw_access_training.py"
+  },
+  "run_id": "20260923T195529Z_9f4db82ab94f",
+  "status": "completed"
+}
