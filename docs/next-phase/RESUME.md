@@ -1,6 +1,8 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **D1 direct-control recovery, pilot and full comparison
+Last updated 2026-09-23. F1 preparation is in progress; inspect latest run records
+and running processes before retrying. FITTING_PROTOCOL.md fixes the next gates.
+Previous milestone: **D1 direct-control recovery, pilot and full comparison
 are complete and verified.** Read DIRECT_FINDINGS.md/D035.147 tests pass. Both
 recipes connect17/17; weight30 in-budget12/17, weight3 in-budget10/17. No model is
 promoted. Next prepare bounded NCA repeated single-scene fitting. No active process

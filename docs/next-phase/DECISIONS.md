@@ -550,3 +550,15 @@ paid training. Do not silently alter the3% floor to convert D1 failures to passe
 Added a local saved-evidence viewer for17 scenes x13 variants. All221 voxel sets/
 metrics match sources and JS syntax passes. Browser file-URL security policy blocked
 visual/interaction verification; no workaround attempted. This is not deployment.
+
+
+## D036 - Freeze repeated single-scene fitting before architecture changes
+
+2026-09-23. User authorized continuing local work after D1. FITTING_PROTOCOL.md
+and F1-fitting.json specify four independently fitted models (ground-pair and
+minimal-smoke, both existing recipes), one seed,64 updates each. Reuse K2 step
+unchanged; only repeat scene exposure. Actual-loop recovery and a timing-only
+pilot must admit the600s member/1800s total caps before the full study. Evaluate
+all fixed boundaries at16/50 steps with separate RNG; preserve all outcomes.
+No claim of generalization, final coefficient selection or architecture failure.
+No paid run, cloud operation or production/default change.

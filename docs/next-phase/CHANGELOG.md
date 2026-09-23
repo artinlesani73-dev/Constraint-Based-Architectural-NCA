@@ -523,3 +523,12 @@ final objective/geometry rescoring. No NCA optimizer, cloud or paid operation.
   matches D1R/D1P/D1 reports; no scientific result or report was overwritten.
 - New full direct archive includes viewer and QA artifacts in addition to all prior
   run/source evidence and Git history. Receipt under.local-artifacts/milestones.
+
+
+## 2026-09-23 - F1 repeated-scene fitting preparation
+
+Added fitting Session inheriting the unchanged K2 step, strict metadata, separate
+evaluation RNG and raw saturation diagnostics. Added fixed F1 protocol/config,
+immutable recovery/pilot/study runner with timing admission and process caps, and
+guards for unchanged optimizer step, drift, evaluation RNG and timing rejection.
+Tests and experiments pending; no scientific outcome presumed.
