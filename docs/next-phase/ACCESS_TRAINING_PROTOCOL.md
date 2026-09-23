@@ -64,3 +64,15 @@ coefficient choice. Keep original/F1/D1/W1 evidence. No production promotion,
 paid compute, Drive operation, architecture change, larger grid or added family.
 The next decision follows joint outcomes and horizon behavior, not lower rescored
 loss alone. All findings/decisions must be archived locally before handoff.
+
+## F2L supplementary recovery check (registered while F2 is running)
+
+Before inspecting final outcomes, add a fixed recovery diagnostic for ALL four
+members: resume each update63 checkpoint in a fresh process and reproduce update64
+plus its16/50-step evaluations. Compare full checkpoint trees, traces and fields
+exactly against uninterrupted F2. No added exposure or quality-based selection.
+Each worker cap120s. This tests trained states beyond the early three-update gate;
+it does not prove nonzero access gradients for every replay or certify abrupt
+writes/GPU. New immutable run, source snapshot and verification; original F2
+training code/config/caps remain frozen. Wrapper check_access_late_recovery.py
+adds no nca module and does not change the32 hashed F2 source files.

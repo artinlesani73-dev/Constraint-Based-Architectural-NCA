@@ -453,3 +453,28 @@ Commit prepared implementation, then use .venv/Scripts/python.exe:
 Inspect immutable result.json before retry. New attempts use --parent-run; never
 overwrite outputs or run a completed matrix again. Report writers are exclusive.
 Source snapshot bytes, not a potentially normalized Git checkout, govern resume.
+
+F2 source commit5e57bcc. Parity run20260923T135153Z_388dadf703b2 is active;
+inspect result.json/processes before any retry. Regression passed163 tests.
+
+F2B20260923T135153Z_388dadf703b2 completed114.65s:12 updates/24 evaluations
+exactly match F1 including full checkpoint state;36 fields rescored,56 controls
+rescored under both definitions,32 source hashes and8 original fields verified.
+F2R20260923T135424Z_5e2993d3e18e active; inspect before retry. No source changes.
+
+F2R20260923T135424Z_5e2993d3e18e completed70.28s:8 actual updates/14 evaluations,
+11 exact recovery checks.22 fields rescored;56 F1 controls and32 source hashes
+verified. Pilot20260923T135623Z_cc3691d8cc81 active; caps/config unchanged.
+
+F2P20260923T135623Z_cc3691d8cc81 completed74.98s:8 updates/24 evaluations,
+32 saved fields rescored. Estimate1334.37s admits1800s full cap;333.59s/member
+below600s. Full F220260923T135818Z_5520d5d80cec active, session2232. Preserve
+source5e57bcc/code manifest unchanged. Before retry inspect process and result.
+
+F2L wrapper prepared during active F2, before inspecting final outcomes. It will
+repeat update63->64 for all four models, exact full-checkpoint/trace/field and
+final16/50 evaluation comparison. No schedule extension or quality selection.
+Syntax check passed; execution pending completed F2. Training source manifest
+unchanged. Run scripts/check_access_late_recovery.py <completed-F2-run> after
+F2 verifier; preserve all output. Backup helper work/package_nca_access_training.py
+in Codex cwd takes F2B,F2R,F2P,F2,F2L IDs and includes every earlier local artifact.

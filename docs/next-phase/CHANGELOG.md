@@ -589,3 +589,8 @@ Results and regression status will be recorded separately after execution.
 
 F2 regression20260923T134911Z_c3c1cd97dbdb passed163 tests, zero failures/errors/
 skips and original-checkpoint smoke0. No hashed code change after this pass.
+
+Registered supplementary F2L recovery while F2 was running, before viewing final
+outcomes: repeat update63->64 and evaluations for every member. Wrapper uses the
+unchanged validated worker and exact checkpoint-tree comparison; syntax checked.
+It adds no training exposure and does not alter32 frozen F2 source hashes.
