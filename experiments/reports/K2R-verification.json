@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "prefix_checkpoint": true,
+    "repeat_checkpoint": true,
+    "repeat_fields": true,
+    "repeat_traces": true,
+    "resumed_checkpoint": true,
+    "resumed_fields": true,
+    "resumed_traces": true
+  },
+  "executions": 8,
+  "full_scene_order_recorded": [
+    "legacy-easy-seed-002",
+    "legacy-easy-seed-010",
+    "legacy-easy-seed-003",
+    "legacy-easy-seed-011",
+    "legacy-easy-seed-000",
+    "legacy-easy-seed-004",
+    "legacy-easy-seed-007",
+    "legacy-easy-seed-005",
+    "ref-06-minimal-smoke",
+    "ref-01-ground-pair",
+    "ref-02-facade-pair-and-ground",
+    "legacy-easy-seed-006",
+    "legacy-easy-seed-009",
+    "ref-03-wide-gap",
+    "legacy-easy-seed-008",
+    "legacy-easy-seed-001",
+    "ref-04-asymmetric-heights"
+  ],
+  "logical_updates": 3,
+  "rollout_steps": 16,
+  "run_id": "20260923T102414Z_eaec7bd1510e"
+}

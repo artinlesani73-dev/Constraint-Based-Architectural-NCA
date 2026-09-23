@@ -157,3 +157,21 @@ Implement/test the actual K2 loop and run it locally next. Keep no-update and W1
 controls, all per-family failures, and separate fresh holdouts for later E2.
 No evidence yet warrants scaling, architecture changes or a better-model claim.
 Studio work and larger environment diversity remain planned milestones.
+
+
+## K2 completed; direct-material comparator next - 2026-09-23
+
+Read SENSITIVITY_FINDINGS.md/D033.144 tests pass; actual-loop recovery has seven
+exact passing checks. K2 completes68 optimizer updates and187 matched evaluations.
+Neither coefficient setting provides joint success: weight30 retains10/17 connected
+and15/17 over budget at50 steps; weight3 gives11-12/17 connected but17/17 over
+budget. All five feasible reference scenes remain disconnected. W1 remains17/17
+connected/in-budget, while offering no architectural-quality certificate.
+
+Next prepare and profile E2 direct-material optimization under the same semantics
+on legacy008, ground-pair and minimal-smoke, before freezing a full17-scene matched
+protocol. This separates objective/optimization difficulty from recurrent-model
+limitations; per-scene optimization is not generalizing inference. Preserve both
+K2 settings as controls, original defaults and all failures.17 updates do not prove
+convergence or model-concept failure. No larger/paid run or architecture change is
+selected. Fresh holdouts, recovery/conditioning and studio/scaling remain planned.

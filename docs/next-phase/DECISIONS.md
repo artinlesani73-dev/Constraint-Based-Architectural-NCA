@@ -489,3 +489,25 @@ explicit Adam defaults, constant learning rate, completed-update checkpoints,
 both totals and original/W1 controls. Three-update actual-loop recovery precedes
 the four17-update runs. The frozen K2 proposal is unchanged. No paid compute,
 cloud access, architecture change or production switch is authorized by this test.
+
+
+## D033 - K2 completed; neither weight setting is promoted
+
+2026-09-23. K2R20260923T102414Z_eaec7bd1510e passes all seven exact actual-loop
+CPU recovery checks (three logical/eight executed updates). K2
+20260923T102524Z_f5e1cc169dea completes68 training updates and187 evaluations.
+144 tests pass. Registered snapshots/checkpoints, all255 saved objective fields,
+all187 evaluation metrics and both scoring totals are verified and report rerenders.
+
+At50 steps weight30 connects10/17 with15/17 over budget; weight3 connects12/17
+(seed0) or11/17(seed1), with17/17 over budget. Original checkpoint connects10/17,
+17/17 over budget; static W1 connects17/17,0/17 over budget. All five feasible
+reference scenes remain disconnected in every recurrent arm. Weight3 improves
+16-step coverage versus weight30 in all17 scenes for both seeds, but no16-step
+binary connections. This supports a coverage/mass tradeoff, not a validated recipe.
+
+Promote neither checkpoint nor coefficient. Next prepare/profile the missing E2
+direct-material optimizer with the same objectives, then freeze a bounded matched
+comparison. Do not infer architecture failure from17 updates or solve several
+factors at once. No paid run, Drive access, push or serving change. See
+SENSITIVITY_FINDINGS.md; raw per-scene failures and all previous evidence retained.

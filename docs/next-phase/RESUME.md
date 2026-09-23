@@ -1,10 +1,10 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **K1 calibration and R2 composed-objective CPU recovery
-are complete. K2 is a frozen proposal, not an executed experiment.** Read
-CALIBRATION_FINDINGS.md, SENSITIVITY_PLAN.md and D031. 141 tests pass. Next implement
-the local K2 trainer/coordinator and test recovery of its actual loop, then run
-the fixed comparison. No active process at this handoff; no user setup needed.
+Last updated 2026-09-23. **K2 actual-loop recovery and the full local sensitivity
+comparison are complete and verified.** Read SENSITIVITY_FINDINGS.md and D033.
+144 tests pass;68 optimizer updates and187 evaluation cases are preserved.
+Neither coefficient/model is promoted. Next prepare/profile the E2 direct-material
+optimization control. No active process at handoff and no user setup required.
 
 ## Authorization and storage
 
@@ -33,11 +33,11 @@ Local commits are authorized. No remote push, deployment or cloud operation.
   summaries: experiments/records/<run_id>.json. Original 50-file snapshot remains
   in .local-artifacts/source-snapshots/. Reports do not replace raw artifacts.
 - Archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
-  Preserve M1, E0, corridor and loss archives. New milestone archive:
+  Preserve M1, E0, corridor and loss archives. Earlier facade milestone archive:
   NCA-Facade-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
   Verify .local-artifacts/milestones/<commit>-backup-receipt.json before claiming
   completion. Archives are local same-disk copies, not off-device backups.
-- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_facade.py.
+- Earlier facade builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_facade.py.
   Requires completed A1/W1, creates a new full Git bundle and restore clone,
   checks frozen scene/annotation hashes and every ZIP payload hash. Never overwrite archives
   or remove failed/partial evidence to rerun. Use a new attempt name if needed.
@@ -127,26 +127,26 @@ Local commits are authorized. No remote push, deployment or cloud operation.
 
 ## Exact next actions
 
-1. Read CALIBRATION_FINDINGS.md/D031 and experiments/configs/K2-sensitivity.json.
-   Do not rerun completed K1 or reask the accepted material-generation scope.
-2. Implement a local K2 trainer/coordinator: mapped_30 versus mass_3, seeds 0/1,
-   17 updates each, recorded full scene order, 16-step rollouts, Adam1e-4, clip1,
-   constant scheduler, original checkpoint initialization. Only sparsity differs.
-   Checkpoint every completed update; include actual scene position/RNG/config/
-   source hashes. R2's miniature StepLR harness is NOT the K2-loop resume test.
-3. Verify interruption/resume with this actual loop before executing the four
-   runs. Per-run CPU cap900s; preserve partial/interrupted runs and every attempt.
-   Profile wall time and enforce the cap without claiming incomplete work complete.
-4. Execute the fixed local comparison (68 logical updates total). Evaluate all17
-   development scenes at16/50 steps with firing seed2; include original-checkpoint
-   no-update and W1 controls. Report per-family values and binary failures, not
-   just total loss. Do not choose final weights from local gradient estimates.
-5. Prepare later matched E2 direct-optimization/NCA comparisons and freeze fresh
-   geometry holdouts before their outputs are seen. Existing18 scenes are development
-   data. Architecture, larger grids/diversity and studio remain future milestones.
-6. Refresh docs, commit and verify a new local archive. Paid Colab requires concrete
-   configuration/compute cap and GPU recovery; every Drive operation needs exact
-   approval. Local work needs no new scope confirmation. No agents without authorization.
+1. Read SENSITIVITY_FINDINGS.md/D033. Do not rerun completed K1/K2/K2R or restart
+   the accepted material-generation scope question. No recipe has been promoted.
+2. Prepare the missing E2 direct-material optimizer with identical nine-family,
+   regularizer, envelope and facade semantics. Profile/verify a tiny local control
+   on legacy008, ground-pair and minimal-smoke. Specify raw/material parameterization,
+   initialization, legal projection, step size and recorded per-family gradients.
+   Preserve W1 as an explicit procedural/initialization control, never NCA output.
+3. Use measured runtime to preregister a bounded matched comparison on all17
+   feasible development scenes. Record optimization steps/time per scene; a direct
+   per-scene solve is not generalizing inference. Compare original and both K2
+   models under common scoring and binary metrics. Keep failed cases.
+4. Decide from that evidence whether objective/optimization work or a controlled
+   NCA recovery/conditioning experiment comes next. Do not change architecture,
+   schedule and geometry distribution together.17-update K2 is not convergence.
+5. Freeze fresh geometry holdouts before their outputs. Existing18 scenes remain
+   development data. Studio implementation, diversity and grid scaling are planned;
+   the studio may use preserved fixtures with truthful material/metric labels.
+6. Document, commit and verify a new local archive at each milestone. Paid Colab
+   needs a concrete config/cap and GPU recovery. Every Drive action needs explicit
+   permission. No agents without authorization; local work can continue directly.
 
 ## Commands and interruption recovery
 
@@ -223,7 +223,7 @@ They preserve prior evidence; they do not resume an unfinished case in place.
   projected access remains blocked; thickness inactive; neither recipe finalized.
 - Reports: experiments/reports/K1-calibration.md,R2-recovery.md and verification/
   rerender receipts. K2 config and directional estimates are tracked, not outcomes.
-- Latest full backup pattern: outputs/NCA-Calibration-Backup-2026-09-23-<commit>.zip
+- Earlier calibration archive: outputs/NCA-Calibration-Backup-2026-09-23-<commit>.zip
   in the Codex cwd above, plus .zip.sha256; receipt in repo.local-artifacts/milestones.
   Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_calibration.py
   with R2 run ID as argument. It verifies all ZIP payloads, a fresh Git restore,
@@ -244,9 +244,43 @@ in memory, comparing with the saved reports. Only repeat an experiment for a new
 reason, with a linked new run ID. Inspect processes and partial result records
 before any retry. K1 and R2 are complete; neither should be restarted now.
 
-## K2 preparation in progress - 2026-09-23
+## K2/K2R completed evidence and current restore commands
 
-Added nca/sensitivity.py, scripts/run_sensitivity.py and three drift/matching
-regressions. Read K2_PROTOCOL.md and D032. Actual-loop K2R must pass before study.
-No run started at this entry; inspect later run records/processes before retrying.
-Do not edit the loop/runner or hashed modules between recovery gate and study.
+- K2R20260923T102414Z_eaec7bd1510e, source33f6858:three logical/eight executed
+  actual16-step loop updates, all seven exact checkpoint/trace/field checks pass.
+  Constant learning rate and complete17-scene order are checkpoint metadata.
+- K2 20260923T102524Z_f5e1cc169dea, source33f6858:four17-update members,68 total,
+  187 matched evaluations, no failed/timed-out process. Runtime505.98s including
+  overhead. All four members initialized from the original checkpoint.
+- Latest regression20260923T102104Z_15b3cd2f4fd5:144 tests,zero failures/errors/
+  skips,checkpoint smoke0. No hashed training code changed after this pass/gate.
+- All68 checkpoint boundaries verified; all255 saved training/evaluation fields
+  rescored, all187 binary metrics/common totals match. Snapshot hashes verified.
+  Report fresh rerender matches. Reports and verification/aggregate/transition
+  receipts: experiments/reports/K2-* and K2R-*.
+- Weight3 improves coverage versus30, but at50steps11-12/17 connected and17/17
+  over budget. Weight30:10/17 connected,15/17 over budget. Original:10/17 and17/17.
+  W1 static:17/17 and0/17. All five feasible reference scenes remain disconnected
+  for every recurrent model. No checkpoint or coefficient is selected for promotion.
+- K2-sensitivity.json remains the historical frozen proposal (its prepared_not_run
+  label is not current execution status). Use immutable new run records for outcomes.
+- Latest full archive pattern: outputs/NCA-Sensitivity-Backup-2026-09-23-<commit>.zip
+  plus.zip.sha256 in the Codex cwd. Receipt:.local-artifacts/milestones/<commit>-
+  backup-receipt.json. Builder:work/package_nca_sensitivity.py in that cwd, arguments
+  K2R run ID then K2 run ID. It preserves prior artifacts and Git history, verifies
+  every payload hash, fresh Git clone, frozen scenes/annotations/config and exact
+  K2R source snapshot bytes. Includes its own builder. Same-disk local archive only.
+- Core recovery is CPU completed-update/ordinary-exit only. No timeout occurred.
+  Linked interrupted-run imports (--resume-run) are implemented but not exercised
+  by this successful study; abrupt/mid-write failure, CUDA and Colab uncertified.
+  Never rerun a completed study via resume; never bypass a failed integrity check.
+
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T102414Z_eaec7bd1510e
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T102524Z_f5e1cc169dea
+```
+
+scripts/report_sensitivity.py refuses overwriting published results. Recheck with
+verify(run) and render(run,protocol,training,evaluation) in memory. Preserve all
+older reports; repeat experiments only for a concrete new reason with a linked
+new run ID. Exact source snapshots are required if Git changed Python line endings.

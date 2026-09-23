@@ -1,0 +1,445 @@
+{
+  "groups": [
+    {
+      "blocked_voxels": 0,
+      "branch": "W1_procedural",
+      "cases": 17,
+      "connected": 17,
+      "empty": 0,
+      "eroded_core_voxels": 0,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.03553826394764816,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0004631491268382353,
+        "density_binary": 0.0,
+        "tv": 0.0046067065696286805
+      },
+      "mean_terms": {
+        "access": 0.0,
+        "coverage": 0.0,
+        "facade": 0.0,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 0.0,
+        "spill": 0.0,
+        "support": 0.0,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 43.11764705882353,
+        "0.5": 43.11764705882353,
+        "0.7": 43.11764705882353
+      },
+      "mean_totals": {
+        "mapped_30": 0.006922452162732096,
+        "mass_3": 0.006922452162732096
+      },
+      "over_budget": 0,
+      "scorable": 17,
+      "steps": null,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mapped_30-s0",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 271,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.18528558313846588,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0009167843878351371,
+        "density_binary": 0.0007637843792669146,
+        "tv": 0.012538174550761194
+      },
+      "mean_terms": {
+        "access": 0.3655095626326168,
+        "coverage": 0.26220904465983896,
+        "facade": 0.046268884749973524,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.000633707817863,
+        "spill": 0.0,
+        "support": 0.10897929791141958,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 282.2352941176471,
+        "0.5": 269.52941176470586,
+        "0.7": 227.88235294117646
+      },
+      "mean_totals": {
+        "mapped_30": 43.410818324369544,
+        "mass_3": 16.393707808326273
+      },
+      "over_budget": 15,
+      "scorable": 17,
+      "steps": 16,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mapped_30-s0",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 737,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.21440139018437443,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0010034897748161765,
+        "density_binary": 3.444205610910157e-07,
+        "tv": 0.010811775881687509
+      },
+      "mean_terms": {
+        "access": 0.3235294117647059,
+        "coverage": 0.17215565022300272,
+        "facade": 0.06422070632962619,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.8436592992614298,
+        "spill": 0.0,
+        "support": 0.0,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 282.47058823529414,
+        "0.5": 282.47058823529414,
+        "0.7": 282.47058823529414
+      },
+      "mean_totals": {
+        "mapped_30": 65.12464859906365,
+        "mass_3": 15.345847648732802
+      },
+      "over_budget": 15,
+      "scorable": 17,
+      "steps": 50,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mapped_30-s1",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 284,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.18625796060351765,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0009165735596873085,
+        "density_binary": 0.0007428974829107413,
+        "tv": 0.012543456985012573
+      },
+      "mean_terms": {
+        "access": 0.36244909903582406,
+        "coverage": 0.2611655216006672,
+        "facade": 0.04783840828082141,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.0263488187509424,
+        "spill": 0.0,
+        "support": 0.10503293091759962,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 282.2352941176471,
+        "0.5": 271.29411764705884,
+        "0.7": 231.7058823529412
+      },
+      "mean_totals": {
+        "mapped_30": 44.09434004390941,
+        "mass_3": 16.38292340671315
+      },
+      "over_budget": 15,
+      "scorable": 17,
+      "steps": 16,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mapped_30-s1",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 737,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.21439397641841104,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0010034897748161765,
+        "density_binary": 0.0,
+        "tv": 0.010808897601878819
+      },
+      "mean_terms": {
+        "access": 0.3235294117647059,
+        "coverage": 0.1721882732475505,
+        "facade": 0.06422070632962619,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.8434940050630009,
+        "spill": 0.0,
+        "support": 0.0,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 282.47058823529414,
+        "0.5": 282.47058823529414,
+        "0.7": 282.47058823529414
+      },
+      "mean_totals": {
+        "mapped_30": 65.120501574348,
+        "mass_3": 15.346163314931532
+      },
+      "over_budget": 15,
+      "scorable": 17,
+      "steps": 50,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mass_3-s0",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 562,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.20993370781926549,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0009584047930890365,
+        "density_binary": 0.0006928025318569887,
+        "tv": 0.013310933814329259
+      },
+      "mean_terms": {
+        "access": 0.29208343519883995,
+        "coverage": 0.19357308142763727,
+        "facade": 0.08136526276083554,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.5052427688942236,
+        "spill": 0.00032431938384166537,
+        "support": 0.07970411615336642,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 285.88235294117646,
+        "0.5": 280.2352941176471,
+        "0.7": 261.52941176470586
+      },
+      "mean_totals": {
+        "mapped_30": 55.85743735818302,
+        "mass_3": 15.215882287305945
+      },
+      "over_budget": 16,
+      "scorable": 17,
+      "steps": 16,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mass_3-s0",
+      "cases": 17,
+      "connected": 12,
+      "empty": 0,
+      "eroded_core_voxels": 737,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.27398462155286,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0010034897748161765,
+        "density_binary": 5.266292913909317e-06,
+        "tv": 0.01689109137720045
+      },
+      "mean_terms": {
+        "access": 0.20588235294117646,
+        "coverage": 0.1415666788816452,
+        "facade": 0.17066529480849996,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 4.211507646476521,
+        "spill": 0.002640965093365487,
+        "support": 0.00036510329878450753,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 363.88235294117646,
+        "0.5": 363.70588235294116,
+        "0.7": 363.3529411764706
+      },
+      "mean_totals": {
+        "mapped_30": 134.7701571969425,
+        "mass_3": 21.05944763912874
+      },
+      "over_budget": 17,
+      "scorable": 17,
+      "steps": 50,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mass_3-s1",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 579,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.20651040576836643,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0009581818645956981,
+        "density_binary": 0.0005578990428201744,
+        "tv": 0.012773174135123981
+      },
+      "mean_terms": {
+        "access": 0.3017111666062299,
+        "coverage": 0.19637824397753267,
+        "facade": 0.06803514852243311,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.4829170241680592,
+        "spill": 0.00018096083829946378,
+        "support": 0.06795262413866379,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 283.47058823529414,
+        "0.5": 280.29411764705884,
+        "0.7": 262.0
+      },
+      "mean_totals": {
+        "mapped_30": 55.17036875556497,
+        "mass_3": 15.13160917338203
+      },
+      "over_budget": 16,
+      "scorable": 17,
+      "steps": 16,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "mass_3-s1",
+      "cases": 17,
+      "connected": 11,
+      "empty": 0,
+      "eroded_core_voxels": 737,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.26804516070029316,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0010034897748161765,
+        "density_binary": 4.515332351301742e-05,
+        "tv": 0.01667070309357608
+      },
+      "mean_terms": {
+        "access": 0.2647058823529412,
+        "coverage": 0.1473082336871063,
+        "facade": 0.16689901842790492,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 3.7942294127800884,
+        "spill": 0.002429666874163291,
+        "support": 0.0028490477022440996,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 358.11764705882354,
+        "0.5": 356.6470588235294,
+        "0.7": 354.70588235294116
+      },
+      "mean_totals": {
+        "mapped_30": 123.25452176262351,
+        "mass_3": 20.810331106185913
+      },
+      "over_budget": 17,
+      "scorable": 17,
+      "steps": 50,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "original_checkpoint",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 543,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.2126162293202737,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0009575111103271518,
+        "density_binary": 0.0007835873240016072,
+        "tv": 0.013746153727612075
+      },
+      "mean_terms": {
+        "access": 0.3134251447284923,
+        "coverage": 0.20567740478059826,
+        "facade": 0.09764751266030704,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 1.5402791269589216,
+        "spill": 0.0005059821175082642,
+        "support": 0.09075914257589508,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 290.7647058823529,
+        "0.5": 279.94117647058823,
+        "0.7": 262.0
+      },
+      "mean_totals": {
+        "mapped_30": 57.787766961490405,
+        "mass_3": 16.200231972862692
+      },
+      "over_budget": 17,
+      "scorable": 17,
+      "steps": 16,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    },
+    {
+      "blocked_voxels": 0,
+      "branch": "original_checkpoint",
+      "cases": 17,
+      "connected": 10,
+      "empty": 0,
+      "eroded_core_voxels": 737,
+      "illegal_voxels": 0,
+      "mean_mass_ratio": 0.28006887874182534,
+      "mean_regularizers": {
+        "cantilever_boundary": 0.0010034897748161765,
+        "density_binary": 7.0609924157050795e-06,
+        "tv": 0.01745029426563312
+      },
+      "mean_terms": {
+        "access": 0.3235294117647059,
+        "coverage": 0.1509114829275538,
+        "facade": 0.1766698115012225,
+        "ground": 0.0,
+        "legality": 0.0,
+        "sparsity": 4.710415671853458,
+        "spill": 0.00294930296128287,
+        "support": 0.0003284256895045366,
+        "thickness": 0.0
+      },
+      "mean_threshold_counts": {
+        "0.3": 371.88235294117646,
+        "0.5": 371.7647058823529,
+        "0.7": 371.4117647058824
+      },
+      "mean_totals": {
+        "mapped_30": 151.8037457185633,
+        "mass_3": 24.622522508396823
+      },
+      "over_budget": 17,
+      "scorable": 17,
+      "steps": 50,
+      "under_budget": 0,
+      "unsupported_voxels": 0
+    }
+  ],
+  "run_id": "20260923T102524Z_f5e1cc169dea"
+}

@@ -460,3 +460,29 @@ will recompute all saved objectives and evaluation geometry metrics.
 Verification20260923T102104Z_15b3cd2f4fd5:144 tests,zero failures/errors/skips,
 checkpoint smoke0. Actual-loop recovery and study have not run at this entry.
 Original proposal, notebook/checkpoint and serving path unchanged.
+
+
+## 2026-09-23 - Actual K2 sensitivity comparison completed and verified
+
+- K2R20260923T102414Z_eaec7bd1510e, source33f6858:actual16-step training loop,
+  constant rate and frozen scene order; three logical/eight executed updates in
+  four fresh processes. All seven exact recovery comparisons pass independently.
+- K2 20260923T102524Z_f5e1cc169dea:four17-update CPU trials,68 total,187 evaluations
+  including original/W1 controls. No timeout/failure. Complete study505.98s.
+- Verified all68 checkpoint metadata/update boundaries, recomputed all255 saved
+  objective fields and all187 binary evaluation metrics/both common recipe totals.
+  Verified exact snapshot hashes and fresh report rendering. Added descriptive
+  per-scene transitions, explicitly post-hoc, with no new optimizer run.
+- Expanded the report's binary support/bulk/threshold summary; this report-only
+  change was outside training source hashes and was checked by actual report
+  generation/recomputation. Core training source is unchanged after144-test pass.
+- Recorded D033:neither setting promoted. Weight3's long-horizon gains are confined
+  to legacy004/008; all five feasible reference scenes still fail connectivity.
+  The stronger weight controls mass better but15/17 cases remain over budget.
+- Added SENSITIVITY_FINDINGS.md and refreshed handoff/plans. Frozen historical
+  K2-sensitivity.json remains unchanged, including prepared_not_run status; actual
+  execution/result status lives in the new immutable run records, not a rewritten
+  proposal. No direct-material optimization, GPU training or studio change yet.
+- All evidence is preserved for a new verified local sensitivity archive. Linked
+  interrupted-run imports and forced/mid-write failures were not exercised; K2R
+  proves orderly completed-update continuation only. No remote/paid operations.

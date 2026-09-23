@@ -82,6 +82,9 @@ def aggregate(rows):
             'illegal_voxels':sum(r['metrics']['legality']['illegal_voxels'] for r in items),
             'blocked_voxels':sum(r['metrics']['ground']['blocked_voxels'] for r in items),
             'empty':sum(r['metrics']['legality']['material_voxels']==0 for r in items),
+            'unsupported_voxels':sum(r['metrics']['support']['unsupported_voxels'] for r in items),
+            'mean_threshold_counts':{t:float(np.mean([r['metrics']['threshold_material_counts'][t] for r in items])) for t in ('0.3','0.5','0.7')},
+            'eroded_core_voxels':sum(r['metrics']['thickness_proxy']['core_voxels'] for r in items),
             'over_budget':sum(r['mass_ratio']>.120001 for r in items),
             'under_budget':sum(r['mass_ratio']<.029999 for r in items),
             'mean_mass_ratio':float(np.mean([r['mass_ratio'] for r in items])),
@@ -105,6 +108,9 @@ def render(run,protocol,training,evaluation):
     lines+=['','Totals use the SAME coefficient set down each column. Lowering a coefficient alone must not be called an improvement. Some zero family residuals arise from hard projection or inactivity.','',
         '## Retained regularizers','', '| Model | Steps | Density/binarization | TV | Boundary cantilever |','|---|---:|---:|---:|---:|']
     for g in groups:lines.append(f'| {g["branch"]} | {g["steps"] or "static"} | {g["mean_regularizers"]["density_binary"]:.6g} | {g["mean_regularizers"]["tv"]:.6g} | {g["mean_regularizers"]["cantilever_boundary"]:.6g} |')
+    lines+=['','## Binary support and threshold sensitivity','', '| Model | Steps | Unsupported voxels total | Radius1 eroded core voxels total | Mean material count >.3 | >.5 | >.7 |','|---|---:|---:|---:|---:|---:|---:|']
+    for g in groups:lines.append(f'| {g["branch"]} | {g["steps"] or "static"} | {g["unsupported_voxels"]} | {g["eroded_core_voxels"]} | {g["mean_threshold_counts"]["0.3"]:.6g} | {g["mean_threshold_counts"]["0.5"]:.6g} | {g["mean_threshold_counts"]["0.7"]:.6g} |')
+    lines+=['','Binary radius1 erosion is an independent bulk proxy; the training thickness term uses radius2. Neither is a minimum-thickness or mechanical certification. Unsupported means disconnected from the declared geometric support boundary.']
     lines+=['','## Paired per-scene tradeoffs: mass_3 versus mapped_30','', '| Training seed | Steps | Coverage lower / higher / equal | Sparsity lower / higher / equal | Connectivity gained / lost |','|---:|---:|---|---|---|']
     lookup={(r['branch'],r['scene'],r['steps']):r for r in evaluation}
     for seed in (0,1):
