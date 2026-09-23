@@ -218,3 +218,21 @@ voxels, more channels or more training can resolve a disconnected or forbidden
 target. The target audit measures a spatial graph property only, not complete
 architectural feasibility. Do not change production defaults based on the
 single-seed ablations alone. Keep the generated evidence local per D014.
+
+## D017 - Separate the bounded envelope repair from the legal-routing intervention
+
+Date: 2026-09-23. Implementation within D016 and the user's instruction to proceed.
+
+Preserve the original v31 corridor callable and all deployed defaults. Add
+corridor_bounded_v1 changing only the vertical expansion; add corridor_legal_v1
+as a separate procedural target using the existing permitted field and explicit
+entrance IDs. The legal version uses exact six-neighbor paths, a deterministic
+minimum spanning forest, bounded thickening, and explicit infeasibility. Remove
+its legacy endpoint-height clamp so ground accesses can reach legal elevated
+space. No new constraint family or trained weight is introduced. This is spatial
+connectivity only; headroom, deck and mechanical semantics remain unresolved.
+
+CORRIDOR_PROTOCOL.md freezes C1_v1: 54 target audits and 108 forward cases, all
+18 development scenes, seed 0, 50 steps, original checkpoint, two historical
+profiles. Legacy cases must reproduce saved E0 fields exactly. Single-seed
+outcomes do not justify a production default or an architectural-quality claim.

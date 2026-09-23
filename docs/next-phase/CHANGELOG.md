@@ -201,3 +201,20 @@ verified artifacts. Full continuous final-state hashes also match across all
 three historical-evaluation repeats for each of the 18 scenes. The corresponding
 verification receipt is stored beside the report. This confirms deterministic
 repeats, not three independent evaluation samples.
+
+## 2026-09-23 - Versioned corridor corrections, preflight
+
+Added nca/corridor.py with corridor_bounded_v1, preserving the original operator
+as an unchanged oracle, and the separately versioned nca/legal_corridor.py.
+Legal routing operates on explicit entrance IDs and the existing permitted
+six-neighbor graph, records paths and infeasibility, and avoids the ground-route
+height clipping conflict. scripts/run_corridor_comparison.py implements the
+predeclared C1_v1 matrix and immutable per-case evidence (CORRIDOR_PROTOCOL.md).
+
+Regression run 20260923T000140Z_a7ff7de54684 passed all 94 tests with no failures,
+errors or skips; checkpoint smoke exit 0. Twelve added checks cover bounded
+extent/window oracle/reversal/batch isolation, radius-zero legacy parity,
+obstacle detours, paths longer than 64 updates, diagonal disconnection, touching
+IDs, blocked/ambiguous endpoints, illegal or isolated dilation, and real-scene
+batch parity/input preservation. These are geometry/software checks, not model
+training results. Historical source/checkpoint/scenes remain unchanged.

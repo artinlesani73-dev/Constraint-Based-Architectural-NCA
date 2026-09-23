@@ -124,3 +124,12 @@ ROLLOUT_PROFILES.md and SCENE_SETS.md. Inspect Git status and unfinished artifac
 before continuing. Historical handoffs remain recoverable from Git history and
 milestone archives. This handoff does not automatically resume a session or
 redeem credits when a usage limit resets.
+
+## Active corridor implementation - 2026-09-23
+
+The bounded and legal-routing operators are implemented separately. Read
+CORRIDOR_PROTOCOL.md and D017. Preflight 20260923T000140Z_a7ff7de54684 passes 94
+checks. Next run scripts/run_corridor_comparison.py locally (54 targets, 108
+single-seed forward cases); no training. Inspect its newest run before retrying
+and use --parent-run for a fresh linked retry. Preserve all intermediate records.
+Then write the comparison report, update this handoff and archive the milestone.
