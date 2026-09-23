@@ -532,3 +532,26 @@ evaluation RNG and raw saturation diagnostics. Added fixed F1 protocol/config,
 immutable recovery/pilot/study runner with timing admission and process caps, and
 guards for unchanged optimizer step, drift, evaluation RNG and timing rejection.
 Tests and experiments pending; no scientific outcome presumed.
+
+F1 preparation verification:20260923T112028Z_f4b86bdcf231 passes151 tests,
+zero failures/errors/skips and smoke exit0. Source commit1c61b33. F1R
+20260923T112316Z_f34a421f8302 passes11 exact comparisons across8 optimizer
+executions and14 evaluations. All22 saved fields rescored. F1P
+20260923T112500Z_8e1a30c320b8 passes8 updates/24 evaluations; all32 fields
+rescored. Its timing-only estimate1546.47s admits the unchanged full256-update
+study under1800s total/600s per member. Active run20260923T112646Z_dcd0601d0655.
+
+During full execution, strengthened the report verifier to compare every initial
+field and score exactly against the saved K2 original checkpoint control. This
+report-only check does not alter training/config/source hashes or admission.
+Existing F1R/F1P reports remain immutable; their original checks remain valid.
+
+F1 completed20260923T112646Z_dcd0601d0655:256 updates/56 evaluations,860.27s,
+zero failures/timeouts. Verified312 fields,256 checkpoint boundaries,56 metrics,
+eight exact original-baseline fields and eight exact final checkpoint rollouts.
+Preserved complete F1 reports and a post-hoc descriptive/source audit with its
+script under.local-artifacts/analysis-attempts/F1-summary-<run_id>. No optimizer
+change in that audit. Three final long-horizon connections, no joint-budget
+success; fixed-source/region-source mismatch documented as next work, D037.
+All256 updates clipped; parameter movement4.40%-5.53% is descriptive only.
+No experiment or analysis attempt failed this milestone. No model promoted.

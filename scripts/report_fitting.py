@@ -102,9 +102,24 @@ def verify(run, replay=True):
             row=case['final']
             controls.append(dict(row,branch='D1_'+case['recipe'],scene=case['scene'],steps=None,
                 totals_under_both_recipes=row['totals'],source_run=p['source_direct_run']))
+    # Certify that the new scoring path starts at the preserved K2 baseline.
+    initial_matches=0
+    for row in evaluation:
+        t=row['trace']
+        if t['update'] != 0:
+            continue
+        original=next(c for c in controls if c['branch']=='original_checkpoint'
+            and c['scene']==t['scene'] and c['steps']==t['steps'])
+        for key in ('terms','regularizers','mass_ratio','metrics','totals_under_both_recipes'):
+            assert original[key]==t[key]
+        with np.load(d/row['fields']['path'],allow_pickle=False) as a, np.load(
+            STORE.path(original['source_run'])/original['fields']['path'],allow_pickle=False) as b:
+            assert a.files==b.files and all(np.array_equal(a[k],b[k]) for k in a.files)
+        initial_matches+=1
     checks.update(source_hashes_verified=len(meta['code_sha256']),saved_fields_rescored=len(training)+len(evaluation),
         training_checkpoints_verified=len(training),evaluation_metrics_verified=len(evaluation),
-        final_checkpoint_rollouts_replayed=replayed,controls_reused=len(controls))
+        final_checkpoint_rollouts_replayed=replayed,controls_reused=len(controls),
+        initial_fields_exactly_match_K2_original=initial_matches)
     if mode in ('pilot','study'):
         checks['cost_admission']=pilot_gate(run if mode=='pilot' else protocol['pilot_gate'])
     return protocol,training,evaluation,controls,checks

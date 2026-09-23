@@ -562,3 +562,27 @@ pilot must admit the600s member/1800s total caps before the full study. Evaluate
 all fixed boundaries at16/50 steps with separate RNG; preserve all outcomes.
 No claim of generalization, final coefficient selection or architecture failure.
 No paid run, cloud operation or production/default change.
+
+
+## D037 - Repeated fitting gains connections; align access semantics before redesign
+
+2026-09-23. F1 20260923T112646Z_dcd0601d0655 completed256 updates/56 evaluations
+in860.27s, no failures/timeouts. Source1c61b33. At50 growth steps, three of four
+final models connect (both mass_3 cases and mapped_30 minimal-smoke); none meets
+the3%-12% material budget. At16 steps none connects. No recorded boundary is both
+connected and in budget.151 regression tests pass;312 fields rescored and all
+eight final checkpoint rollouts replay exactly. Initial fields match K2 exactly.
+
+The post-hoc source audit finds all56 fixed access-source voxels empty; access
+loss stays1 although three final fields connect through other occupied voxels
+of the source entrance region. The loss's fixed-point source and evaluator's
+connected-region source are different contracts. Negative/raw-zero source counts
+are28/28; this does not by itself establish actual parameter-gradient causation.
+
+Promote no recipe/checkpoint. Repeated exposure demonstrates some learnability,
+not convergence or generalization. Before architecture changes, follow
+ACCESS_ALIGNMENT_PLAN.md: replay source semantics, trace access/coverage gradients,
+freeze a consistent single-source interpretation and test one change at a time.
+Do not remove the fragmented-source safeguard, inflate budgets or add families.
+No paid training, cloud access, push or production switch. Full findings and all
+failures/tradeoffs are in FITTING_FINDINGS.md and F1 reports.

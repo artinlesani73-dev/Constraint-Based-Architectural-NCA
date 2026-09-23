@@ -1,12 +1,12 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. F1 preparation is in progress; inspect latest run records
-and running processes before retrying. FITTING_PROTOCOL.md fixes the next gates.
-Previous milestone: **D1 direct-control recovery, pilot and full comparison
-are complete and verified.** Read DIRECT_FINDINGS.md/D035.147 tests pass. Both
-recipes connect17/17; weight30 in-budget12/17, weight3 in-budget10/17. No model is
-promoted. Next prepare bounded NCA repeated single-scene fitting. No active process
-at handoff. Local viewer data/syntax verified; browser visual/interaction QA blocked.
+Last updated 2026-09-23. **F1 repeated-scene study and verification are complete.**
+Read FITTING_FINDINGS.md/D037 and ACCESS_ALIGNMENT_PLAN.md. No active process at
+handoff.151 tests pass. At50 growth steps three of four final models connect,
+none at16; no evaluated boundary is connected AND in budget. No model promoted.
+Next audit point-source versus entrance-region semantics and actual access/
+coverage parameter gradients before changing architecture or scaling training.
+All local records/checkpoints retained; no Drive operation or paid compute.
 
 ## Authorization and storage
 
@@ -342,3 +342,48 @@ then render with that returned verification object (not a key-reordered receipt)
 The D1 config remains frozen. To reproduce older K2 recovery, restore its exact source
 snapshot: adding a new nca module changes that runner's broad code hash manifest.
 No repeating completed experiments without a new reason and linked run ID.
+
+
+## F1 completed evidence and restore instructions
+
+- Source1c61b33: F1 fixed config/runner and unchanged inherited K2 training step.
+  Regression20260923T112028Z_f4b86bdcf231:151 tests, zero failures/errors/skips,
+  checkpoint smoke0. No training source/config changes after this pass.
+- F1R20260923T112316Z_f34a421f8302:three logical/eight executed updates,14
+  evaluations;11 exact CPU recovery comparisons.22 saved fields rescored.71.03s.
+- F1P20260923T112500Z_8e1a30c320b8:eight updates/24 evaluations,82.25s; all32
+  fields rescored. Estimate1546.47s admitted unchanged1800s total/600s member caps.
+- F1 20260923T112646Z_dcd0601d0655:256 updates/56 evaluations,860.27s, zero
+  failures/timeouts. All312 fields rescored,256 checkpoints checked,56 metrics
+  verified, eight baseline fields and eight final checkpoint rollouts match exactly.
+- Reports experiments/reports/F1-*,F1P-*,F1R-*; raw runs/source snapshots remain
+  .local-artifacts/runs/<run_id>. F1-outcomes.json is post-hoc descriptive evidence;
+  its exact script/result are in .local-artifacts/analysis-attempts/F1-summary-<run>.
+  All56 fixed access sources empty, access1; three final regions nevertheless
+  connect. Raw source negative28/zero28; gradient causation remains unmeasured.
+- Full final50-step mass ratios: mapped30 ground.201082/minimal.254653; mass3
+  ground.287250/minimal.305969. Only mapped30 ground remains disconnected. All
+  final16-step cases disconnected and over budget. Preserve every earlier boundary.
+- Backup builder in Codex cwd:work/package_nca_fitting.py. Args F1R ID,F1P ID,
+  F1 study ID. Archive outputs/NCA-Fitting-Backup-2026-09-23-<commit>.zip plus
+  .sha256; receipt .local-artifacts/milestones/<commit>-backup-receipt.json.
+  Verify receipt before claiming completion. Includes all prior evidence, exact
+  snapshots, private reports/primer and Git history. Same-disk only, not off-device.
+- Recovery supports completed CPU updates into a NEW run/branch with identical
+  metadata, not an automatic whole-study resume coordinator. Before retry inspect
+  result.json, logs, complete record/checkpoint boundaries and live processes. Never
+  rerun completed work or bypass hashes. CUDA/AMP/abrupt writes remain uncertified.
+  To recover historical runs use exact source ZIPs; adding nca/fitting.py changes
+  older runners' broad source inventories. Git may normalize Python line endings.
+
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T112316Z_f34a421f8302
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T112500Z_8e1a30c320b8
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T112646Z_dcd0601d0655
+```
+
+Report writers refuse overwrites. Current report_fitting.verify can recheck results
+in memory. It adds an initial-baseline equality check beyond the immutable F1R/P
+publication version. Do not overwrite those reports to add later checks. F1 viewer
+not created; previous D1 viewer unchanged, with visual browser QA still blocked.
+Next task: ACCESS_ALIGNMENT_PLAN.md; no user Colab action needed yet.

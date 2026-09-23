@@ -197,3 +197,18 @@ isolate one conditioning/perception change. Fresh holdouts and scaling remain la
 Local evidence viewer now contains real saved geometry; data/syntax verified, but
 browser file-URL policy blocked visual/interactive verification. Live deployment,
 worker jobs/cancellation, scene editing and production UI remain planned.
+
+
+## F1 completed; access-source alignment next - 2026-09-23
+
+Read FITTING_FINDINGS.md/D037. Repeated single-scene fitting completes256 updates
+and56 evaluations; three of four final models connect at50 steps, none at16,
+and no evaluated boundary is jointly connected/in-budget.151 tests pass,312
+fields rescored and eight final checkpoint rollouts replay exactly. No promotion.
+The source audit exposes fixed-point access loss versus connected-region binary
+evaluation: all56 fixed sources empty, while three final regions connect.
+Next follow ACCESS_ALIGNMENT_PLAN.md before architecture changes. Reconcile
+semantics without introducing disconnected multiple origins, then trace actual
+parameter gradients and isolate one learning intervention. Preserve all previous
+contracts/reports, budget limits and nine families. Scaling/holdouts/deployment
+remain planned; no Colab setup or paid run is needed for this next local audit.
