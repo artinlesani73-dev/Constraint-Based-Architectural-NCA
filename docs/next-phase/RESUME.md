@@ -1,12 +1,13 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **A2 access audit and verification are complete.**
-Read ACCESS_AUDIT_FINDINGS.md/D039, then ACCESS_TRAINING_PLAN.md.158 tests pass.
-No active process at handoff. No optimizer updates in A2. Candidate restores
-access gradients on four fitted16-step cases but remains opt-in. No model promoted.
-Next implement baseline parity, candidate-loop recovery and timing admission for
-an access-only comparison against F1. Keep architecture and other objectives fixed.
-All evidence remains local; no Drive access, paid compute or production change.
+Last updated 2026-09-23. **F2 implementation prepared; gates pending.**
+Read ACCESS_TRAINING_PROTOCOL.md/D040 and ACCESS_TRAINING_PLAN.md. Regression
+attempt20260923T134911Z_c3c1cd97dbdb is running; inspect result/log and processes
+before continuing. A2 complete and preserved; do not rerun it. F2 source/config
+must be committed after regression passes, then run parity, recovery, pilot and
+study in that order. Only an admitted pilot permits the64-update matrix.
+Keep architecture and other objectives fixed. All evidence remains local;
+no Drive access, paid compute, production change or model promotion.
 
 ## Authorization and storage
 
@@ -436,3 +437,19 @@ in memory; render can be used without publishing over existing artifacts. Before
 any interrupted-run retry inspect result/status, logs and processes, retain all
 partial evidence and use a new linked attempt. There is no automatic A2 partial
 coordinator resume. No need to repeat this completed audit without a new reason.
+
+## F2 current execution instructions
+
+Regression20260923T134911Z_c3c1cd97dbdb completed:163 passed, smoke0.
+Commit prepared implementation, then use .venv/Scripts/python.exe:
+- scripts/run_access_training.py --mode parity
+- scripts/report_access_training.py <parity-run>
+- scripts/run_access_training.py --mode recovery --parity-run <parity-run>
+- scripts/report_access_training.py <recovery-run>
+- scripts/run_access_training.py --mode pilot --parity-run <parity-run> --recovery-run <recovery-run>
+- scripts/report_access_training.py <pilot-run>
+- If admitted: scripts/run_access_training.py --mode study --parity-run <parity-run> --recovery-run <recovery-run> --pilot-run <pilot-run>
+- scripts/report_access_training.py <study-run>
+Inspect immutable result.json before retry. New attempts use --parent-run; never
+overwrite outputs or run a completed matrix again. Report writers are exclusive.
+Source snapshot bytes, not a potentially normalized Git checkout, govern resume.

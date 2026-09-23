@@ -577,3 +577,15 @@ Documented ACCESS_AUDIT_FINDINGS.md/D039 and ACCESS_TRAINING_PLAN.md. Candidate
 restores access parameter gradients in four fitted16-step cases but not original
 disconnected states. Eight score reductions and30 increases are rescoring only;
 all277 binary labels remain equal. No training or candidate promotion followed.
+
+## 2026-09-23 - F2 implementation prepared
+
+Added opt-in access-only Session, strict F1 configuration matching, dual-definition
+scoring, exact historical baseline parity gate, actual-loop recovery and fixed
+pilot/study coordinator. Added verifier for all fields/checkpoints, common F1
+rescoring and final forward replay. Added five isolation/RNG/metadata/cost tests.
+F2 protocol/config frozen before execution; no baseline/production code changed.
+Results and regression status will be recorded separately after execution.
+
+F2 regression20260923T134911Z_c3c1cd97dbdb passed163 tests, zero failures/errors/
+skips and original-checkpoint smoke0. No hashed code change after this pass.

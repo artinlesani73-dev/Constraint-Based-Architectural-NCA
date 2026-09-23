@@ -622,3 +622,13 @@ family change against F1 with matching architecture/scenes/coefficients/exposure
 Candidate materially rotates total gradients (two fitted16-step cosines negative),
 so measure budget outcomes rather than assuming improvement from derivatives.
 No model/recipe/production switch, paid training, Drive access or deployment.
+
+## D040 - Isolate the access-only learning comparison
+
+2026-09-23. User approved advancing after A2. Freeze F2-access-training.json
+and ACCESS_TRAINING_PROTOCOL.md before execution. Four models match F1 exactly
+except the component_bottleneck_v2 access family. Require exact old-baseline
+parity, actual candidate CPU recovery and timing-only admission before256 updates.
+Retain both definitions and joint connectivity/mass at every fixed boundary.
+Caps600s/member1800s/full; no paid/cloud/production action. One seed/two scenes
+remain diagnostic; no automatic promotion or simultaneous architecture change.
