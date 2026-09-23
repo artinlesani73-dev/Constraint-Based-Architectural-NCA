@@ -1,5 +1,18 @@
 # Resume the NCA next phase
 
+## Current F5 preparation - 2026-09-23
+
+User authorized finishing the local investigation. New opt-in conditioning code
+and protocol exist; no F5 experiment has run. Read PERSISTENT_GUIDE_PROTOCOL.md
+and D052. Next full regression, source freeze, then run_guide_training.py modes
+parity, recovery, pilot, study with matching --parity-run/--recovery-run/--pilot-run.
+Verify each with report_guide_training.py <ID>. Full worker900/phase3600 cap,
+64 updates x four models, same F4 science. Final check_guide_late_recovery.py <full>.
+Do not edit frozen code between gates; preserve every attempt. Close local phase
+with results/decision/resume/verified archive. No paid Colab/Drive/push/deployment.
+Previous archive4a94dbe is complete and verified; source F4 artifacts remain.
+
+
 ## Current completed F4 milestone - 2026-09-23
 
 No active training or verification process. Read RAW_ACCESS_TRAINING_FINDINGS.md,
@@ -880,3 +893,6 @@ Full F4 20260923T202649Z_75034cca563c active session75488, source373968d,41 froz
 Full F4 20260923T202649Z_75034cca563c completed1321.78s,256 updates/56 boundary evaluations plus72 final-grid records (8 reused). All phase/worker caps met. Full reporter active session16575. Next F4L after verifier passes; do not rerun training.
 
 Full verifier passed41 source hashes/376 fields/260 cursors/128 controls/eight final rollouts. F4L20260923T205434Z_c8136d2ce8e8 active session16782: four update62-to64 resumes, worker120/total360s. Inspect result before retry.
+
+F5 regression20260923T212031Z_48dcfddbfd4f passed199 tests/smoke0. Source freeze follows, then F5B actual-F4 parity. No scientific edits after this pass.
+

@@ -759,3 +759,15 @@ Final local commit/full archive preparation follows. Archive success is recorded
 in the milestone backup receipt, including all payload hashes, fresh Git restore,
 6 reference/12 legacy scenes,18 annotations and41 exact F4 source snapshot hashes.
 No Drive/off-device copy, paid training, push or deployment.
+
+
+F5 preparation: added versioned persistent scaffold branch, owned scene-bound
+static perception cache, conditioned rollout/training, F4 parity and early/late
+recovery runners, saved-field/source verifier and regression tests. Original
+backbone, historical source/defaults and nine families unchanged. Protocol D052
+freezes caps and closure decision before F5 outcomes. No F5 run yet.
+
+Initial F5 regression20260923T211811Z_35187d4e6ff3 passed197 tests/smoke0. Review added explicit rejection of legacy forward/grow calls that would omit conditioning, plus conditioned evaluation RNG test. Follow-up regression required before source freeze; first pass retained.
+
+F5 final preparation regression20260923T212031Z_48dcfddbfd4f passed199 tests, no failures/errors/skips, original-checkpoint smoke0,105.27s. Scientific code frozen after this pass. No training outcome yet.
+

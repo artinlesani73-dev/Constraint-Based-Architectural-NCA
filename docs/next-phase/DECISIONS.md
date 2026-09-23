@@ -802,3 +802,13 @@ before learning. Missing context is a hypothesis, not a proven cause. No new
 training under the proposal yet. No model/default promotion, paid compute,
 Drive operation, remote push or deployment. Review representation/NCA role if
 this bounded test fails before more loss tweaking or scaling.
+
+
+## D052 - Freeze one final bounded local architecture comparison
+
+2026-09-23. User asked to finish this phase. Follow PERSISTENT_GUIDE_PROTOCOL.md
+and F5-persistent-guide.json: same-scaffold384-weight branch, unchanged F4 science,
+original initialization. Regression, actual F4 parity, early recovery, timing
+pilot gate900/member3600/full before64 updates/member; late recovery preregistered.
+Judge joint budget/connectivity; if unsuccessful, end incremental local tests
+and review representation/NCA role. No outcome, promotion or paid compute yet.

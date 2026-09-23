@@ -314,3 +314,12 @@ Use F4 as an unpromoted research control; original initialization for both arms.
 No second loss change or bigger grids. No conditioning training has started.
 M4 Studio redesign remains outstanding; F4 is a research milestone, not a UI or
 production release. Preserve exact evidence and archive receipts before resuming.
+
+
+## Finish local investigation with F5 - 2026-09-23
+
+Execute PERSISTENT_GUIDE_PROTOCOL.md/D052 through regression, parity, recovery,
+timing pilot and conditional full comparison plus trained-state recovery. Then
+close with evidence and a decision: fresh-scene validation if promising, or
+representation/NCA-role review if joint connectivity/budget still fails.
+No automatic follow-on sequence of loss changes or larger-grid training.
