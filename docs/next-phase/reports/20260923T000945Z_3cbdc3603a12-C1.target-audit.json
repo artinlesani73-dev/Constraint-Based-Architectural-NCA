@@ -1,0 +1,5683 @@
+[
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_east": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 4074,
+      "path": "artifacts/39b8d03d6ff94a8eae9fa43868cf7933_fields-0cb5b4d3f0ce54e13cde.npz",
+      "role": "case_fields",
+      "sha256": "f8381608b11e17a7e83b140579d03f8ca0ec1e358eb05af005993ec008cda3c8"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": false
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.6848484848484848,
+      "illegal_voxels": 452,
+      "material_voxels": 660,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": true
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+    "scene_id": "ref-01-ground-pair",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.5739820000017062,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      0,
+      3
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_east": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 4074,
+      "path": "artifacts/39b8d03d6ff94a8eae9fa43868cf7933_fields-0cb5b4d3f0ce54e13cde.npz",
+      "role": "case_fields",
+      "sha256": "f8381608b11e17a7e83b140579d03f8ca0ec1e358eb05af005993ec008cda3c8"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": false
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.6848484848484848,
+      "illegal_voxels": 452,
+      "material_voxels": 660,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": true
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+    "scene_id": "ref-01-ground-pair",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.6075846000167076,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      0,
+      3
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 130,
+        "removed": 524
+      },
+      "legacy": {
+        "added": 130,
+        "removed": 524
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_east": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 4074,
+      "path": "artifacts/39b8d03d6ff94a8eae9fa43868cf7933_fields-0cb5b4d3f0ce54e13cde.npz",
+      "role": "case_fields",
+      "sha256": "f8381608b11e17a7e83b140579d03f8ca0ec1e358eb05af005993ec008cda3c8"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": true
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 266,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_west": true
+      },
+      "source_id": "E_ground_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 36,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 21,
+          "path_zyx": [
+            [
+              1,
+              14,
+              21
+            ],
+            [
+              1,
+              14,
+              20
+            ],
+            [
+              1,
+              14,
+              19
+            ],
+            [
+              2,
+              14,
+              19
+            ],
+            [
+              3,
+              14,
+              19
+            ],
+            [
+              4,
+              14,
+              19
+            ],
+            [
+              5,
+              14,
+              19
+            ],
+            [
+              6,
+              14,
+              19
+            ],
+            [
+              6,
+              14,
+              18
+            ],
+            [
+              6,
+              14,
+              17
+            ],
+            [
+              6,
+              14,
+              16
+            ],
+            [
+              6,
+              14,
+              15
+            ],
+            [
+              6,
+              14,
+              14
+            ],
+            [
+              6,
+              14,
+              13
+            ],
+            [
+              6,
+              14,
+              12
+            ],
+            [
+              5,
+              14,
+              12
+            ],
+            [
+              4,
+              14,
+              12
+            ],
+            [
+              3,
+              14,
+              12
+            ],
+            [
+              2,
+              14,
+              12
+            ],
+            [
+              1,
+              14,
+              12
+            ],
+            [
+              1,
+              14,
+              11
+            ],
+            [
+              1,
+              14,
+              10
+            ]
+          ],
+          "source": "E_ground_east",
+          "target": "E_ground_west"
+        }
+      ],
+      "endpoint_ids": [
+        "E_ground_east",
+        "E_ground_west"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 266,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+    "scene_id": "ref-01-ground-pair",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.2531460000027437,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      0,
+      8
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 277,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_mid": 8
+    },
+    "fields": {
+      "bytes": 4991,
+      "path": "artifacts/8c842f048a6f43f9bdf6025b95d900cd_fields-98397533e3020d908b1b.npz",
+      "role": "case_fields",
+      "sha256": "269138092152031f6f8348cfef760de025d79a2fb57cc7282b08eb512fe8fa3d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.12384086150164524,
+      "illegal_voxels": 414,
+      "material_voxels": 3343,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1",
+    "scene_id": "ref-02-facade-pair-and-ground",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.6920538999838755,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      0,
+      19
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 277
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_mid": 8
+    },
+    "fields": {
+      "bytes": 4991,
+      "path": "artifacts/8c842f048a6f43f9bdf6025b95d900cd_fields-98397533e3020d908b1b.npz",
+      "role": "case_fields",
+      "sha256": "269138092152031f6f8348cfef760de025d79a2fb57cc7282b08eb512fe8fa3d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.13470319634703196,
+      "illegal_voxels": 413,
+      "material_voxels": 3066,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1",
+    "scene_id": "ref-02-facade-pair-and-ground",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.7114964000065811,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      0,
+      19
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 30,
+        "removed": 2615
+      },
+      "legacy": {
+        "added": 30,
+        "removed": 2892
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_mid": 8
+    },
+    "fields": {
+      "bytes": 4991,
+      "path": "artifacts/8c842f048a6f43f9bdf6025b95d900cd_fields-98397533e3020d908b1b.npz",
+      "role": "case_fields",
+      "sha256": "269138092152031f6f8348cfef760de025d79a2fb57cc7282b08eb512fe8fa3d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 481,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_mid": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 55,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 15,
+          "path_zyx": [
+            [
+              10,
+              14,
+              9
+            ],
+            [
+              9,
+              14,
+              9
+            ],
+            [
+              8,
+              14,
+              9
+            ],
+            [
+              7,
+              14,
+              9
+            ],
+            [
+              6,
+              14,
+              9
+            ],
+            [
+              6,
+              14,
+              10
+            ],
+            [
+              6,
+              14,
+              11
+            ],
+            [
+              6,
+              14,
+              12
+            ],
+            [
+              6,
+              14,
+              13
+            ],
+            [
+              5,
+              14,
+              13
+            ],
+            [
+              4,
+              14,
+              13
+            ],
+            [
+              3,
+              14,
+              13
+            ],
+            [
+              2,
+              14,
+              13
+            ],
+            [
+              1,
+              14,
+              13
+            ],
+            [
+              1,
+              14,
+              14
+            ],
+            [
+              1,
+              14,
+              15
+            ]
+          ],
+          "source": "E_facade_west",
+          "target": "E_ground_mid"
+        },
+        {
+          "length_edges": 18,
+          "path_zyx": [
+            [
+              16,
+              14,
+              22
+            ],
+            [
+              15,
+              14,
+              22
+            ],
+            [
+              14,
+              14,
+              22
+            ],
+            [
+              13,
+              14,
+              22
+            ],
+            [
+              12,
+              14,
+              22
+            ],
+            [
+              11,
+              14,
+              22
+            ],
+            [
+              11,
+              14,
+              21
+            ],
+            [
+              11,
+              14,
+              20
+            ],
+            [
+              11,
+              14,
+              19
+            ],
+            [
+              11,
+              14,
+              18
+            ],
+            [
+              11,
+              14,
+              17
+            ],
+            [
+              11,
+              14,
+              16
+            ],
+            [
+              11,
+              14,
+              15
+            ],
+            [
+              11,
+              14,
+              14
+            ],
+            [
+              11,
+              14,
+              13
+            ],
+            [
+              11,
+              14,
+              12
+            ],
+            [
+              11,
+              14,
+              11
+            ],
+            [
+              11,
+              14,
+              10
+            ],
+            [
+              11,
+              14,
+              9
+            ]
+          ],
+          "source": "E_facade_east",
+          "target": "E_facade_west"
+        }
+      ],
+      "endpoint_ids": [
+        "E_facade_east",
+        "E_facade_west",
+        "E_ground_mid"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 481,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1",
+    "scene_id": "ref-02-facade-pair-and-ground",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.3305200999893714,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      0,
+      19
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 203,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 5353,
+      "path": "artifacts/662745b243a248b484db5a2ab38038e4_fields-9aa3f3d3ed65e39f6c41.npz",
+      "role": "case_fields",
+      "sha256": "978de6f1d0514758ae3f5709e4afcc0e769621e9de4721e1c8d22f4e70f91f6b"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.20432692307692307,
+      "illegal_voxels": 935,
+      "material_voxels": 4576,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "dfb73448c78cb38e1bdb9b6381331b805a1dd8a2ddcecda58fc4dc0daa31e96f",
+    "scene_id": "ref-03-wide-gap",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.7072929999849293,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      0,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 203
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 5353,
+      "path": "artifacts/662745b243a248b484db5a2ab38038e4_fields-9aa3f3d3ed65e39f6c41.npz",
+      "role": "case_fields",
+      "sha256": "978de6f1d0514758ae3f5709e4afcc0e769621e9de4721e1c8d22f4e70f91f6b"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.2138120283558198,
+      "illegal_voxels": 935,
+      "material_voxels": 4373,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "dfb73448c78cb38e1bdb9b6381331b805a1dd8a2ddcecda58fc4dc0daa31e96f",
+    "scene_id": "ref-03-wide-gap",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.7352911999914795,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      0,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 30,
+        "removed": 3922
+      },
+      "legacy": {
+        "added": 30,
+        "removed": 4125
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8,
+      "E_ground_west": 8
+    },
+    "fields": {
+      "bytes": 5353,
+      "path": "artifacts/662745b243a248b484db5a2ab38038e4_fields-9aa3f3d3ed65e39f6c41.npz",
+      "role": "case_fields",
+      "sha256": "978de6f1d0514758ae3f5709e4afcc0e769621e9de4721e1c8d22f4e70f91f6b"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 481,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": true,
+        "E_ground_west": true
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 51,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 7,
+          "path_zyx": [
+            [
+              8,
+              15,
+              7
+            ],
+            [
+              7,
+              15,
+              7
+            ],
+            [
+              6,
+              15,
+              7
+            ],
+            [
+              5,
+              15,
+              7
+            ],
+            [
+              4,
+              15,
+              7
+            ],
+            [
+              3,
+              15,
+              7
+            ],
+            [
+              2,
+              15,
+              7
+            ],
+            [
+              1,
+              15,
+              7
+            ]
+          ],
+          "source": "E_facade_west",
+          "target": "E_ground_west"
+        },
+        {
+          "length_edges": 22,
+          "path_zyx": [
+            [
+              14,
+              15,
+              24
+            ],
+            [
+              13,
+              15,
+              24
+            ],
+            [
+              12,
+              15,
+              24
+            ],
+            [
+              11,
+              15,
+              24
+            ],
+            [
+              10,
+              15,
+              24
+            ],
+            [
+              9,
+              15,
+              24
+            ],
+            [
+              9,
+              15,
+              23
+            ],
+            [
+              9,
+              15,
+              22
+            ],
+            [
+              9,
+              15,
+              21
+            ],
+            [
+              9,
+              15,
+              20
+            ],
+            [
+              9,
+              15,
+              19
+            ],
+            [
+              9,
+              15,
+              18
+            ],
+            [
+              9,
+              15,
+              17
+            ],
+            [
+              9,
+              15,
+              16
+            ],
+            [
+              9,
+              15,
+              15
+            ],
+            [
+              9,
+              15,
+              14
+            ],
+            [
+              9,
+              15,
+              13
+            ],
+            [
+              9,
+              15,
+              12
+            ],
+            [
+              9,
+              15,
+              11
+            ],
+            [
+              9,
+              15,
+              10
+            ],
+            [
+              9,
+              15,
+              9
+            ],
+            [
+              9,
+              15,
+              8
+            ],
+            [
+              9,
+              15,
+              7
+            ]
+          ],
+          "source": "E_facade_east",
+          "target": "E_facade_west"
+        }
+      ],
+      "endpoint_ids": [
+        "E_facade_east",
+        "E_facade_west",
+        "E_ground_west"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 481,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "dfb73448c78cb38e1bdb9b6381331b805a1dd8a2ddcecda58fc4dc0daa31e96f",
+    "scene_id": "ref-03-wide-gap",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.32287669999641366,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      0,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 1468,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_low": 8,
+      "E_facade_tall": 8,
+      "E_ground_gap": 8
+    },
+    "fields": {
+      "bytes": 5345,
+      "path": "artifacts/e454f62a852a4e1d93de7b960aa30a0e_fields-0839e126e854c6f25e65.npz",
+      "role": "case_fields",
+      "sha256": "ebf6b8141a32b644d886619a8ddba66d194553cc1a00eb1ec8127815d08d3e2d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.13786906290115533,
+      "illegal_voxels": 537,
+      "material_voxels": 3895,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "0aab0b502265acd45702a5c9f80e0f4b1d80478c704c135854a416405f10f588",
+    "scene_id": "ref-04-asymmetric-heights",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.747658499982208,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      0,
+      23
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 1468
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_low": 8,
+      "E_facade_tall": 8,
+      "E_ground_gap": 8
+    },
+    "fields": {
+      "bytes": 5345,
+      "path": "artifacts/e454f62a852a4e1d93de7b960aa30a0e_fields-0839e126e854c6f25e65.npz",
+      "role": "case_fields",
+      "sha256": "ebf6b8141a32b644d886619a8ddba66d194553cc1a00eb1ec8127815d08d3e2d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.22126081582200247,
+      "illegal_voxels": 537,
+      "material_voxels": 2427,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "0aab0b502265acd45702a5c9f80e0f4b1d80478c704c135854a416405f10f588",
+    "scene_id": "ref-04-asymmetric-heights",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.7871700999967288,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      0,
+      23
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 208,
+        "removed": 1986
+      },
+      "legacy": {
+        "added": 92,
+        "removed": 3338
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_low": 8,
+      "E_facade_tall": 8,
+      "E_ground_gap": 8
+    },
+    "fields": {
+      "bytes": 5345,
+      "path": "artifacts/e454f62a852a4e1d93de7b960aa30a0e_fields-0839e126e854c6f25e65.npz",
+      "role": "case_fields",
+      "sha256": "ebf6b8141a32b644d886619a8ddba66d194553cc1a00eb1ec8127815d08d3e2d"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 649,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_tall": true,
+        "E_ground_gap": true
+      },
+      "source_id": "E_facade_low",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 69,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 20,
+          "path_zyx": [
+            [
+              12,
+              20,
+              21
+            ],
+            [
+              11,
+              20,
+              21
+            ],
+            [
+              10,
+              20,
+              21
+            ],
+            [
+              9,
+              20,
+              21
+            ],
+            [
+              8,
+              20,
+              21
+            ],
+            [
+              7,
+              20,
+              21
+            ],
+            [
+              6,
+              20,
+              21
+            ],
+            [
+              6,
+              19,
+              21
+            ],
+            [
+              6,
+              18,
+              21
+            ],
+            [
+              6,
+              17,
+              21
+            ],
+            [
+              6,
+              16,
+              21
+            ],
+            [
+              6,
+              16,
+              20
+            ],
+            [
+              6,
+              16,
+              19
+            ],
+            [
+              6,
+              16,
+              18
+            ],
+            [
+              5,
+              16,
+              18
+            ],
+            [
+              4,
+              16,
+              18
+            ],
+            [
+              3,
+              16,
+              18
+            ],
+            [
+              2,
+              16,
+              18
+            ],
+            [
+              1,
+              16,
+              18
+            ],
+            [
+              1,
+              16,
+              17
+            ],
+            [
+              1,
+              16,
+              16
+            ]
+          ],
+          "source": "E_facade_low",
+          "target": "E_ground_gap"
+        },
+        {
+          "length_edges": 27,
+          "path_zyx": [
+            [
+              13,
+              20,
+              21
+            ],
+            [
+              13,
+              19,
+              21
+            ],
+            [
+              13,
+              18,
+              21
+            ],
+            [
+              13,
+              17,
+              21
+            ],
+            [
+              13,
+              16,
+              21
+            ],
+            [
+              13,
+              15,
+              21
+            ],
+            [
+              13,
+              14,
+              21
+            ],
+            [
+              13,
+              13,
+              21
+            ],
+            [
+              13,
+              12,
+              21
+            ],
+            [
+              13,
+              11,
+              21
+            ],
+            [
+              13,
+              11,
+              20
+            ],
+            [
+              13,
+              11,
+              19
+            ],
+            [
+              13,
+              11,
+              18
+            ],
+            [
+              13,
+              11,
+              17
+            ],
+            [
+              13,
+              11,
+              16
+            ],
+            [
+              13,
+              11,
+              15
+            ],
+            [
+              13,
+              11,
+              14
+            ],
+            [
+              13,
+              11,
+              13
+            ],
+            [
+              13,
+              11,
+              12
+            ],
+            [
+              13,
+              11,
+              11
+            ],
+            [
+              13,
+              11,
+              10
+            ],
+            [
+              14,
+              11,
+              10
+            ],
+            [
+              15,
+              11,
+              10
+            ],
+            [
+              16,
+              11,
+              10
+            ],
+            [
+              17,
+              11,
+              10
+            ],
+            [
+              18,
+              11,
+              10
+            ],
+            [
+              19,
+              11,
+              10
+            ],
+            [
+              20,
+              11,
+              10
+            ]
+          ],
+          "source": "E_facade_low",
+          "target": "E_facade_tall"
+        }
+      ],
+      "endpoint_ids": [
+        "E_facade_low",
+        "E_facade_tall",
+        "E_ground_gap"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 649,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "0aab0b502265acd45702a5c9f80e0f4b1d80478c704c135854a416405f10f588",
+    "scene_id": "ref-04-asymmetric-heights",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.340141799999401,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      0,
+      23
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 0,
+      "E_facade_west": 0
+    },
+    "fields": {
+      "bytes": 3531,
+      "path": "artifacts/6042f0326b7e4b10a0e29577b125c658_fields-6e9cd49e7006201fe750.npz",
+      "role": "case_fields",
+      "sha256": "8a4643d70df76db455d6928adc70a10196d664021d72fab4cb985dbf686e7526"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": false
+    },
+    "legality": {
+      "illegal_fraction": null,
+      "illegal_voxels": 0,
+      "material_voxels": 0,
+      "nonempty": false,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "e08eefa43c41d6a989277bc7f236543276e75fced359012eef699e416c952677",
+    "scene_id": "ref-05-sealed-partition",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.5192156000121031,
+    "version": "legacy_v31",
+    "z_range_inclusive": null
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 0,
+      "E_facade_west": 0
+    },
+    "fields": {
+      "bytes": 3531,
+      "path": "artifacts/6042f0326b7e4b10a0e29577b125c658_fields-6e9cd49e7006201fe750.npz",
+      "role": "case_fields",
+      "sha256": "8a4643d70df76db455d6928adc70a10196d664021d72fab4cb985dbf686e7526"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": false
+    },
+    "legality": {
+      "illegal_fraction": null,
+      "illegal_voxels": 0,
+      "material_voxels": 0,
+      "nonempty": false,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "e08eefa43c41d6a989277bc7f236543276e75fced359012eef699e416c952677",
+    "scene_id": "ref-05-sealed-partition",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.5973213000106625,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": null
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 144,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 144,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_facade_east": 8,
+      "E_facade_west": 8
+    },
+    "fields": {
+      "bytes": 3531,
+      "path": "artifacts/6042f0326b7e4b10a0e29577b125c658_fields-6e9cd49e7006201fe750.npz",
+      "role": "case_fields",
+      "sha256": "8a4643d70df76db455d6928adc70a10196d664021d72fab4cb985dbf686e7526"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 144,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_facade_west": false
+      },
+      "source_id": "E_facade_east",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": false,
+      "blocked_endpoints": [],
+      "centerline_voxels": 16,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [],
+      "endpoint_ids": [
+        "E_facade_east",
+        "E_facade_west"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "infeasible",
+      "target_voxels": 144,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "e08eefa43c41d6a989277bc7f236543276e75fced359012eef699e416c952677",
+    "scene_id": "ref-05-sealed-partition",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.07631279999623075,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      8,
+      13
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_a": 8,
+      "E_ground_b": 8
+    },
+    "fields": {
+      "bytes": 3670,
+      "path": "artifacts/ec14f319a3634eebafc61f09e09fa356_fields-a3de472ad600e52965e4.npz",
+      "role": "case_fields",
+      "sha256": "3d1425d4042f09c9e55a0d758399a3b9a57d9aa8dc98e160ad26c86c28c18702"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": false
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.4639175257731959,
+      "illegal_voxels": 180,
+      "material_voxels": 388,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": true
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+    "scene_id": "ref-06-minimal-smoke",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.5722965000022668,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      0,
+      3
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_a": 8,
+      "E_ground_b": 8
+    },
+    "fields": {
+      "bytes": 3670,
+      "path": "artifacts/ec14f319a3634eebafc61f09e09fa356_fields-a3de472ad600e52965e4.npz",
+      "role": "case_fields",
+      "sha256": "3d1425d4042f09c9e55a0d758399a3b9a57d9aa8dc98e160ad26c86c28c18702"
+    },
+    "legal_connectivity": {
+      "all_connected": false,
+      "fraction_reached": 0.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": false
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.4639175257731959,
+      "illegal_voxels": 180,
+      "material_voxels": 388,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": true
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+    "scene_id": "ref-06-minimal-smoke",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.6073252999922261,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      0,
+      3
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 94,
+        "removed": 252
+      },
+      "legacy": {
+        "added": 94,
+        "removed": 252
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_ground_a": 8,
+      "E_ground_b": 8
+    },
+    "fields": {
+      "bytes": 3670,
+      "path": "artifacts/ec14f319a3634eebafc61f09e09fa356_fields-a3de472ad600e52965e4.npz",
+      "role": "case_fields",
+      "sha256": "3d1425d4042f09c9e55a0d758399a3b9a57d9aa8dc98e160ad26c86c28c18702"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": true
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 230,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_ground_b": true
+      },
+      "source_id": "E_ground_a",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 32,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 17,
+          "path_zyx": [
+            [
+              1,
+              15,
+              12
+            ],
+            [
+              1,
+              15,
+              13
+            ],
+            [
+              1,
+              15,
+              14
+            ],
+            [
+              2,
+              15,
+              14
+            ],
+            [
+              3,
+              15,
+              14
+            ],
+            [
+              4,
+              15,
+              14
+            ],
+            [
+              5,
+              15,
+              14
+            ],
+            [
+              6,
+              15,
+              14
+            ],
+            [
+              6,
+              15,
+              15
+            ],
+            [
+              6,
+              15,
+              16
+            ],
+            [
+              6,
+              15,
+              17
+            ],
+            [
+              5,
+              15,
+              17
+            ],
+            [
+              4,
+              15,
+              17
+            ],
+            [
+              3,
+              15,
+              17
+            ],
+            [
+              2,
+              15,
+              17
+            ],
+            [
+              1,
+              15,
+              17
+            ],
+            [
+              1,
+              15,
+              18
+            ],
+            [
+              1,
+              15,
+              19
+            ]
+          ],
+          "source": "E_ground_a",
+          "target": "E_ground_b"
+        }
+      ],
+      "endpoint_ids": [
+        "E_ground_a",
+        "E_ground_b"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 230,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+    "scene_id": "ref-06-minimal-smoke",
+    "scene_set": "reference_v1",
+    "seed_builder": "deploy.model_utils.UrbanSceneGenerator",
+    "target_seconds": 0.2786404000071343,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      0,
+      8
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 63,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3766,
+      "path": "artifacts/bd4801846f5347408599d4b5b855ba52_fields-6799e1a93f3a8442a68d.npz",
+      "role": "case_fields",
+      "sha256": "9af492ffdc1c590e37b8374bbacb2dd6674318bcd29c0446f4c1fc898fa1012e"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 300,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+    "scene_id": "legacy-easy-seed-000",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.7783153000054881,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      6,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 63
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3766,
+      "path": "artifacts/bd4801846f5347408599d4b5b855ba52_fields-6799e1a93f3a8442a68d.npz",
+      "role": "case_fields",
+      "sha256": "9af492ffdc1c590e37b8374bbacb2dd6674318bcd29c0446f4c1fc898fa1012e"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 237,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+    "scene_id": "legacy-easy-seed-000",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.6551455000007991,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      6,
+      14
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 45,
+        "removed": 114
+      },
+      "legacy": {
+        "added": 36,
+        "removed": 168
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3766,
+      "path": "artifacts/bd4801846f5347408599d4b5b855ba52_fields-6799e1a93f3a8442a68d.npz",
+      "role": "case_fields",
+      "sha256": "9af492ffdc1c590e37b8374bbacb2dd6674318bcd29c0446f4c1fc898fa1012e"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 168,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 22,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 7,
+          "path_zyx": [
+            [
+              8,
+              7,
+              22
+            ],
+            [
+              8,
+              6,
+              22
+            ],
+            [
+              8,
+              5,
+              22
+            ],
+            [
+              8,
+              4,
+              22
+            ],
+            [
+              9,
+              4,
+              22
+            ],
+            [
+              10,
+              4,
+              22
+            ],
+            [
+              11,
+              4,
+              22
+            ],
+            [
+              12,
+              4,
+              22
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 168,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+    "scene_id": "legacy-easy-seed-000",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.27591630001552403,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      6,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 42,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3836,
+      "path": "artifacts/dedbad471cea4061b90218bf1745e9e3_fields-bad3c9d7aebd829fe04a.npz",
+      "role": "case_fields",
+      "sha256": "59b394c3e3a42472f97da79a3594cbb00bb8c1ca3a3a458f02624c3de0de25f0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.17829457364341086,
+      "illegal_voxels": 69,
+      "material_voxels": 387,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+    "scene_id": "legacy-easy-seed-001",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.6087136999994982,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      3,
+      13
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 42
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3836,
+      "path": "artifacts/dedbad471cea4061b90218bf1745e9e3_fields-bad3c9d7aebd829fe04a.npz",
+      "role": "case_fields",
+      "sha256": "59b394c3e3a42472f97da79a3594cbb00bb8c1ca3a3a458f02624c3de0de25f0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.2,
+      "illegal_voxels": 69,
+      "material_voxels": 345,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+    "scene_id": "legacy-easy-seed-001",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.6047440000111237,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      3,
+      13
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 14,
+        "removed": 189
+      },
+      "legacy": {
+        "added": 14,
+        "removed": 231
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3836,
+      "path": "artifacts/dedbad471cea4061b90218bf1745e9e3_fields-bad3c9d7aebd829fe04a.npz",
+      "role": "case_fields",
+      "sha256": "59b394c3e3a42472f97da79a3594cbb00bb8c1ca3a3a458f02624c3de0de25f0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 170,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 23,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 8,
+          "path_zyx": [
+            [
+              10,
+              7,
+              21
+            ],
+            [
+              9,
+              7,
+              21
+            ],
+            [
+              8,
+              7,
+              21
+            ],
+            [
+              7,
+              7,
+              21
+            ],
+            [
+              7,
+              6,
+              21
+            ],
+            [
+              7,
+              5,
+              21
+            ],
+            [
+              7,
+              4,
+              21
+            ],
+            [
+              7,
+              3,
+              21
+            ],
+            [
+              7,
+              2,
+              21
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 170,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+    "scene_id": "legacy-easy-seed-001",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.27148339999257587,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      4,
+      13
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 54,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4223,
+      "path": "artifacts/9b4a2adcb8504cd9a21c6f6be72962fd_fields-afe7492d0848596f8ef5.npz",
+      "role": "case_fields",
+      "sha256": "74d91e9889e135baccc8e5c7114e56dcfb2aced79a9479154bb99606d99c00d3"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0745697896749522,
+      "illegal_voxels": 78,
+      "material_voxels": 1046,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+    "scene_id": "legacy-easy-seed-002",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5877905999950599,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 54
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4223,
+      "path": "artifacts/9b4a2adcb8504cd9a21c6f6be72962fd_fields-afe7492d0848596f8ef5.npz",
+      "role": "case_fields",
+      "sha256": "74d91e9889e135baccc8e5c7114e56dcfb2aced79a9479154bb99606d99c00d3"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.07862903225806452,
+      "illegal_voxels": 78,
+      "material_voxels": 992,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+    "scene_id": "legacy-easy-seed-002",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.6029335999919567,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 153,
+        "removed": 755
+      },
+      "legacy": {
+        "added": 153,
+        "removed": 809
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4223,
+      "path": "artifacts/9b4a2adcb8504cd9a21c6f6be72962fd_fields-afe7492d0848596f8ef5.npz",
+      "role": "case_fields",
+      "sha256": "74d91e9889e135baccc8e5c7114e56dcfb2aced79a9479154bb99606d99c00d3"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 390,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 38,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 23,
+          "path_zyx": [
+            [
+              8,
+              9,
+              21
+            ],
+            [
+              8,
+              8,
+              21
+            ],
+            [
+              8,
+              7,
+              21
+            ],
+            [
+              8,
+              6,
+              21
+            ],
+            [
+              8,
+              5,
+              21
+            ],
+            [
+              8,
+              4,
+              21
+            ],
+            [
+              8,
+              3,
+              21
+            ],
+            [
+              8,
+              2,
+              21
+            ],
+            [
+              8,
+              1,
+              21
+            ],
+            [
+              8,
+              1,
+              20
+            ],
+            [
+              8,
+              1,
+              19
+            ],
+            [
+              8,
+              1,
+              18
+            ],
+            [
+              8,
+              1,
+              17
+            ],
+            [
+              8,
+              1,
+              16
+            ],
+            [
+              8,
+              1,
+              15
+            ],
+            [
+              8,
+              1,
+              14
+            ],
+            [
+              8,
+              1,
+              13
+            ],
+            [
+              8,
+              1,
+              12
+            ],
+            [
+              8,
+              1,
+              11
+            ],
+            [
+              8,
+              1,
+              10
+            ],
+            [
+              9,
+              1,
+              10
+            ],
+            [
+              10,
+              1,
+              10
+            ],
+            [
+              11,
+              1,
+              10
+            ],
+            [
+              12,
+              1,
+              10
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 390,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+    "scene_id": "legacy-easy-seed-002",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.24312140000984073,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      6,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 10,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4056,
+      "path": "artifacts/ed8a06712ae74bbdb4357787dd7a1a2d_fields-e506677e6571f8cf519f.npz",
+      "role": "case_fields",
+      "sha256": "9ce4aba5739786bbbc3c9eeb026461bf001c043c7d9671fd90f0c73f203c7efa"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 897,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb",
+    "scene_id": "legacy-easy-seed-003",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5703039999934845,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      9,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 10
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4056,
+      "path": "artifacts/ed8a06712ae74bbdb4357787dd7a1a2d_fields-e506677e6571f8cf519f.npz",
+      "role": "case_fields",
+      "sha256": "9ce4aba5739786bbbc3c9eeb026461bf001c043c7d9671fd90f0c73f203c7efa"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 887,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb",
+    "scene_id": "legacy-easy-seed-003",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.602342400001362,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      9,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 138,
+        "removed": 648
+      },
+      "legacy": {
+        "added": 138,
+        "removed": 658
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4056,
+      "path": "artifacts/ed8a06712ae74bbdb4357787dd7a1a2d_fields-e506677e6571f8cf519f.npz",
+      "role": "case_fields",
+      "sha256": "9ce4aba5739786bbbc3c9eeb026461bf001c043c7d9671fd90f0c73f203c7efa"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 377,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 34,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 19,
+          "path_zyx": [
+            [
+              13,
+              9,
+              21
+            ],
+            [
+              13,
+              8,
+              21
+            ],
+            [
+              13,
+              7,
+              21
+            ],
+            [
+              13,
+              6,
+              21
+            ],
+            [
+              13,
+              5,
+              21
+            ],
+            [
+              13,
+              4,
+              21
+            ],
+            [
+              13,
+              3,
+              21
+            ],
+            [
+              13,
+              2,
+              21
+            ],
+            [
+              13,
+              1,
+              21
+            ],
+            [
+              13,
+              1,
+              20
+            ],
+            [
+              13,
+              1,
+              19
+            ],
+            [
+              13,
+              1,
+              18
+            ],
+            [
+              13,
+              1,
+              17
+            ],
+            [
+              13,
+              1,
+              16
+            ],
+            [
+              13,
+              1,
+              15
+            ],
+            [
+              13,
+              1,
+              14
+            ],
+            [
+              13,
+              1,
+              13
+            ],
+            [
+              13,
+              1,
+              12
+            ],
+            [
+              13,
+              1,
+              11
+            ],
+            [
+              13,
+              1,
+              10
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 377,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb",
+    "scene_id": "legacy-easy-seed-003",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2433759999985341,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      10,
+      16
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 192,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4292,
+      "path": "artifacts/e452dbcdc88f42149168d0637168f9ed_fields-2c51499b2be4ffca75d3.npz",
+      "role": "case_fields",
+      "sha256": "c809015086b1dc4d4fa9e50fb87ec235829b1fc911150e5935343df91a220dc0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.20415738678544915,
+      "illegal_voxels": 275,
+      "material_voxels": 1347,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046",
+    "scene_id": "legacy-easy-seed-004",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5689805999863893,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      1,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 192
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4292,
+      "path": "artifacts/e452dbcdc88f42149168d0637168f9ed_fields-2c51499b2be4ffca75d3.npz",
+      "role": "case_fields",
+      "sha256": "c809015086b1dc4d4fa9e50fb87ec235829b1fc911150e5935343df91a220dc0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.23809523809523808,
+      "illegal_voxels": 275,
+      "material_voxels": 1155,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046",
+    "scene_id": "legacy-easy-seed-004",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5784608999965712,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      1,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 29,
+        "removed": 950
+      },
+      "legacy": {
+        "added": 28,
+        "removed": 1141
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 4,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4292,
+      "path": "artifacts/e452dbcdc88f42149168d0637168f9ed_fields-2c51499b2be4ffca75d3.npz",
+      "role": "case_fields",
+      "sha256": "c809015086b1dc4d4fa9e50fb87ec235829b1fc911150e5935343df91a220dc0"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 234,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 32,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 21,
+          "path_zyx": [
+            [
+              5,
+              1,
+              9
+            ],
+            [
+              5,
+              2,
+              9
+            ],
+            [
+              5,
+              3,
+              9
+            ],
+            [
+              6,
+              3,
+              9
+            ],
+            [
+              6,
+              3,
+              10
+            ],
+            [
+              6,
+              3,
+              11
+            ],
+            [
+              6,
+              3,
+              12
+            ],
+            [
+              6,
+              3,
+              13
+            ],
+            [
+              6,
+              3,
+              14
+            ],
+            [
+              6,
+              3,
+              15
+            ],
+            [
+              6,
+              3,
+              16
+            ],
+            [
+              6,
+              3,
+              17
+            ],
+            [
+              6,
+              3,
+              18
+            ],
+            [
+              6,
+              3,
+              19
+            ],
+            [
+              6,
+              3,
+              20
+            ],
+            [
+              6,
+              3,
+              21
+            ],
+            [
+              6,
+              4,
+              21
+            ],
+            [
+              7,
+              4,
+              21
+            ],
+            [
+              8,
+              4,
+              21
+            ],
+            [
+              9,
+              4,
+              21
+            ],
+            [
+              10,
+              4,
+              21
+            ],
+            [
+              11,
+              4,
+              21
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 234,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046",
+    "scene_id": "legacy-easy-seed-004",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.27048910001758486,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      2,
+      14
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4151,
+      "path": "artifacts/a83bf6e5f5e648898c5763a435ce77a5_fields-f4bdc7edadbcb9e60310.npz",
+      "role": "case_fields",
+      "sha256": "09f5ffed184c3b0ac931cdc1b600671e37293c260a6c22513afaae2e6b275070"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.4195961106955871,
+      "illegal_voxels": 561,
+      "material_voxels": 1337,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "b4e86078c538799c348435fd6613da1114ec25efefdd8e77c7369b626bc304db",
+    "scene_id": "legacy-easy-seed-005",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.549843700020574,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      3,
+      9
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4151,
+      "path": "artifacts/a83bf6e5f5e648898c5763a435ce77a5_fields-f4bdc7edadbcb9e60310.npz",
+      "role": "case_fields",
+      "sha256": "09f5ffed184c3b0ac931cdc1b600671e37293c260a6c22513afaae2e6b275070"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.4195961106955871,
+      "illegal_voxels": 561,
+      "material_voxels": 1337,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "b4e86078c538799c348435fd6613da1114ec25efefdd8e77c7369b626bc304db",
+    "scene_id": "legacy-easy-seed-005",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5883655000070576,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      3,
+      9
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 69,
+        "removed": 1124
+      },
+      "legacy": {
+        "added": 69,
+        "removed": 1124
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 6
+    },
+    "fields": {
+      "bytes": 4151,
+      "path": "artifacts/a83bf6e5f5e648898c5763a435ce77a5_fields-f4bdc7edadbcb9e60310.npz",
+      "role": "case_fields",
+      "sha256": "09f5ffed184c3b0ac931cdc1b600671e37293c260a6c22513afaae2e6b275070"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 282,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 36,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 23,
+          "path_zyx": [
+            [
+              6,
+              10,
+              23
+            ],
+            [
+              6,
+              9,
+              23
+            ],
+            [
+              6,
+              8,
+              23
+            ],
+            [
+              6,
+              7,
+              23
+            ],
+            [
+              6,
+              6,
+              23
+            ],
+            [
+              6,
+              5,
+              23
+            ],
+            [
+              6,
+              4,
+              23
+            ],
+            [
+              6,
+              3,
+              23
+            ],
+            [
+              6,
+              2,
+              23
+            ],
+            [
+              6,
+              2,
+              22
+            ],
+            [
+              6,
+              2,
+              21
+            ],
+            [
+              6,
+              2,
+              20
+            ],
+            [
+              6,
+              2,
+              19
+            ],
+            [
+              6,
+              2,
+              18
+            ],
+            [
+              6,
+              2,
+              17
+            ],
+            [
+              6,
+              2,
+              16
+            ],
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              6,
+              2,
+              14
+            ],
+            [
+              6,
+              2,
+              13
+            ],
+            [
+              6,
+              2,
+              12
+            ],
+            [
+              6,
+              2,
+              11
+            ],
+            [
+              6,
+              2,
+              10
+            ],
+            [
+              6,
+              2,
+              9
+            ],
+            [
+              6,
+              2,
+              8
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 282,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "b4e86078c538799c348435fd6613da1114ec25efefdd8e77c7369b626bc304db",
+    "scene_id": "legacy-easy-seed-005",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.27824869999312796,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      3,
+      9
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4295,
+      "path": "artifacts/da32813b51c74e51b4162aa51ac82e11_fields-8d147661491faa49df46.npz",
+      "role": "case_fields",
+      "sha256": "79db68c46c42b4d057e889c1ee23f06225be3c4ddcad7b825d454185cbd8852c"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 1627,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "34e7643e89e562f62330f21437899eb50bc6e2afd710d4e5b018afaab1ae69cf",
+    "scene_id": "legacy-easy-seed-006",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5320907999994233,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      11,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4295,
+      "path": "artifacts/da32813b51c74e51b4162aa51ac82e11_fields-8d147661491faa49df46.npz",
+      "role": "case_fields",
+      "sha256": "79db68c46c42b4d057e889c1ee23f06225be3c4ddcad7b825d454185cbd8852c"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 1627,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "34e7643e89e562f62330f21437899eb50bc6e2afd710d4e5b018afaab1ae69cf",
+    "scene_id": "legacy-easy-seed-006",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5503820000158157,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      11,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 34,
+        "removed": 1280
+      },
+      "legacy": {
+        "added": 34,
+        "removed": 1280
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4295,
+      "path": "artifacts/da32813b51c74e51b4162aa51ac82e11_fields-8d147661491faa49df46.npz",
+      "role": "case_fields",
+      "sha256": "79db68c46c42b4d057e889c1ee23f06225be3c4ddcad7b825d454185cbd8852c"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 381,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 33,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 18,
+          "path_zyx": [
+            [
+              14,
+              9,
+              8
+            ],
+            [
+              14,
+              8,
+              8
+            ],
+            [
+              14,
+              7,
+              8
+            ],
+            [
+              14,
+              6,
+              8
+            ],
+            [
+              14,
+              6,
+              9
+            ],
+            [
+              14,
+              6,
+              10
+            ],
+            [
+              14,
+              6,
+              11
+            ],
+            [
+              14,
+              6,
+              12
+            ],
+            [
+              14,
+              6,
+              13
+            ],
+            [
+              14,
+              6,
+              14
+            ],
+            [
+              14,
+              6,
+              15
+            ],
+            [
+              14,
+              6,
+              16
+            ],
+            [
+              14,
+              6,
+              17
+            ],
+            [
+              14,
+              6,
+              18
+            ],
+            [
+              14,
+              6,
+              19
+            ],
+            [
+              14,
+              6,
+              20
+            ],
+            [
+              14,
+              6,
+              21
+            ],
+            [
+              14,
+              6,
+              22
+            ],
+            [
+              14,
+              6,
+              23
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 381,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "34e7643e89e562f62330f21437899eb50bc6e2afd710d4e5b018afaab1ae69cf",
+    "scene_id": "legacy-easy-seed-006",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.26906289998441935,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      11,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 49,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3903,
+      "path": "artifacts/ccdd07809bc0440bb81bdc666c4a8361_fields-5e89afbcb35dd0254f44.npz",
+      "role": "case_fields",
+      "sha256": "ab63d84bdb7741cdcb48b3aaf982ee393ac43c328efb27cd55d9288753e64d28"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.04691358024691358,
+      "illegal_voxels": 19,
+      "material_voxels": 405,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d2255cf8c3a2b8dc65a8f85794deb081db567eac7208b2cd4b53799bc26d253e",
+    "scene_id": "legacy-easy-seed-007",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5642067000153475,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 49
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3903,
+      "path": "artifacts/ccdd07809bc0440bb81bdc666c4a8361_fields-5e89afbcb35dd0254f44.npz",
+      "role": "case_fields",
+      "sha256": "ab63d84bdb7741cdcb48b3aaf982ee393ac43c328efb27cd55d9288753e64d28"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.05337078651685393,
+      "illegal_voxels": 19,
+      "material_voxels": 356,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d2255cf8c3a2b8dc65a8f85794deb081db567eac7208b2cd4b53799bc26d253e",
+    "scene_id": "legacy-easy-seed-007",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5986802000261378,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 25,
+        "removed": 201
+      },
+      "legacy": {
+        "added": 25,
+        "removed": 250
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3903,
+      "path": "artifacts/ccdd07809bc0440bb81bdc666c4a8361_fields-5e89afbcb35dd0254f44.npz",
+      "role": "case_fields",
+      "sha256": "ab63d84bdb7741cdcb48b3aaf982ee393ac43c328efb27cd55d9288753e64d28"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 180,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 22,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 7,
+          "path_zyx": [
+            [
+              9,
+              9,
+              8
+            ],
+            [
+              9,
+              8,
+              8
+            ],
+            [
+              9,
+              7,
+              8
+            ],
+            [
+              9,
+              6,
+              8
+            ],
+            [
+              9,
+              5,
+              8
+            ],
+            [
+              9,
+              4,
+              8
+            ],
+            [
+              10,
+              4,
+              8
+            ],
+            [
+              11,
+              4,
+              8
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 180,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "d2255cf8c3a2b8dc65a8f85794deb081db567eac7208b2cd4b53799bc26d253e",
+    "scene_id": "legacy-easy-seed-007",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2844994999759365,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      6,
+      14
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 152,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3857,
+      "path": "artifacts/059f22cc49ca4912b81d03ddca3dcb71_fields-3e4c3ccb66f370a322dd.npz",
+      "role": "case_fields",
+      "sha256": "973c6aada99b801662ea98420c82b858ef3aa50e2e33fa5fab65fde2f20d15b2"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.16772554002541296,
+      "illegal_voxels": 132,
+      "material_voxels": 787,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "bb91817e955a9a5f6bd9ad0c43eaf9eb37562ddf48f9634411c016b2e0cc2cd2",
+    "scene_id": "legacy-easy-seed-008",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5681368999939878,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      2,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 152
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3857,
+      "path": "artifacts/059f22cc49ca4912b81d03ddca3dcb71_fields-3e4c3ccb66f370a322dd.npz",
+      "role": "case_fields",
+      "sha256": "973c6aada99b801662ea98420c82b858ef3aa50e2e33fa5fab65fde2f20d15b2"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.2078740157480315,
+      "illegal_voxels": 132,
+      "material_voxels": 635,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "bb91817e955a9a5f6bd9ad0c43eaf9eb37562ddf48f9634411c016b2e0cc2cd2",
+    "scene_id": "legacy-easy-seed-008",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5869227999937721,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      2,
+      14
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 529
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 681
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 4,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 3857,
+      "path": "artifacts/059f22cc49ca4912b81d03ddca3dcb71_fields-3e4c3ccb66f370a322dd.npz",
+      "role": "case_fields",
+      "sha256": "973c6aada99b801662ea98420c82b858ef3aa50e2e33fa5fab65fde2f20d15b2"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 106,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 17,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 6,
+          "path_zyx": [
+            [
+              5,
+              3,
+              9
+            ],
+            [
+              6,
+              3,
+              9
+            ],
+            [
+              7,
+              3,
+              9
+            ],
+            [
+              8,
+              3,
+              9
+            ],
+            [
+              9,
+              3,
+              9
+            ],
+            [
+              10,
+              3,
+              9
+            ],
+            [
+              11,
+              3,
+              9
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 106,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "bb91817e955a9a5f6bd9ad0c43eaf9eb37562ddf48f9634411c016b2e0cc2cd2",
+    "scene_id": "legacy-easy-seed-008",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2398074000084307,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      2,
+      14
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 50,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4404,
+      "path": "artifacts/e1b764aef0f949018f478a289d6eb719_fields-aa9fe331fef481d8ae7e.npz",
+      "role": "case_fields",
+      "sha256": "eb1276e48af8fc3f52eff61219e57c3b1b8fe20e88aabb0939fcdb07ed1b10dc"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.07890122735242548,
+      "illegal_voxels": 135,
+      "material_voxels": 1711,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d3d1383caa7b8027e768b67cc9e7d7dee5586ad5d45164056da0792436af3b5e",
+    "scene_id": "legacy-easy-seed-009",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5629733000241686,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 50
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4404,
+      "path": "artifacts/e1b764aef0f949018f478a289d6eb719_fields-aa9fe331fef481d8ae7e.npz",
+      "role": "case_fields",
+      "sha256": "eb1276e48af8fc3f52eff61219e57c3b1b8fe20e88aabb0939fcdb07ed1b10dc"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.08127633955448525,
+      "illegal_voxels": 135,
+      "material_voxels": 1661,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "d3d1383caa7b8027e768b67cc9e7d7dee5586ad5d45164056da0792436af3b5e",
+    "scene_id": "legacy-easy-seed-009",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5846963000076357,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      5,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 59,
+        "removed": 1309
+      },
+      "legacy": {
+        "added": 59,
+        "removed": 1359
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4404,
+      "path": "artifacts/e1b764aef0f949018f478a289d6eb719_fields-aa9fe331fef481d8ae7e.npz",
+      "role": "case_fields",
+      "sha256": "eb1276e48af8fc3f52eff61219e57c3b1b8fe20e88aabb0939fcdb07ed1b10dc"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 411,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 37,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 22,
+          "path_zyx": [
+            [
+              9,
+              8,
+              9
+            ],
+            [
+              9,
+              7,
+              9
+            ],
+            [
+              9,
+              6,
+              9
+            ],
+            [
+              9,
+              5,
+              9
+            ],
+            [
+              9,
+              4,
+              9
+            ],
+            [
+              9,
+              3,
+              9
+            ],
+            [
+              9,
+              2,
+              9
+            ],
+            [
+              9,
+              2,
+              10
+            ],
+            [
+              9,
+              2,
+              11
+            ],
+            [
+              9,
+              2,
+              12
+            ],
+            [
+              9,
+              2,
+              13
+            ],
+            [
+              9,
+              2,
+              14
+            ],
+            [
+              9,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              16
+            ],
+            [
+              9,
+              2,
+              17
+            ],
+            [
+              9,
+              2,
+              18
+            ],
+            [
+              9,
+              2,
+              19
+            ],
+            [
+              9,
+              2,
+              20
+            ],
+            [
+              9,
+              2,
+              21
+            ],
+            [
+              9,
+              2,
+              22
+            ],
+            [
+              10,
+              2,
+              22
+            ],
+            [
+              11,
+              2,
+              22
+            ],
+            [
+              12,
+              2,
+              22
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 411,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "d3d1383caa7b8027e768b67cc9e7d7dee5586ad5d45164056da0792436af3b5e",
+    "scene_id": "legacy-easy-seed-009",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2691785999923013,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      6,
+      15
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 70,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4467,
+      "path": "artifacts/4638cb521abe459e994e18ffac4d2c21_fields-4cfefbfa96e18ceb79f5.npz",
+      "role": "case_fields",
+      "sha256": "03125859df4de52dc85c786403a4a2e00a6009e7f7f63df19136b8499d00dcdd"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 2099,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "cc3e63b5062e13da7dd244f4324629bf10f713bdd2b8d44db21257755644ccbf",
+    "scene_id": "legacy-easy-seed-010",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.6167314000194892,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      7,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 70
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4467,
+      "path": "artifacts/4638cb521abe459e994e18ffac4d2c21_fields-4cfefbfa96e18ceb79f5.npz",
+      "role": "case_fields",
+      "sha256": "03125859df4de52dc85c786403a4a2e00a6009e7f7f63df19136b8499d00dcdd"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 2029,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "cc3e63b5062e13da7dd244f4324629bf10f713bdd2b8d44db21257755644ccbf",
+    "scene_id": "legacy-easy-seed-010",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5673604999901727,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      7,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 53,
+        "removed": 1680
+      },
+      "legacy": {
+        "added": 53,
+        "removed": 1750
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4467,
+      "path": "artifacts/4638cb521abe459e994e18ffac4d2c21_fields-4cfefbfa96e18ceb79f5.npz",
+      "role": "case_fields",
+      "sha256": "03125859df4de52dc85c786403a4a2e00a6009e7f7f63df19136b8499d00dcdd"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 402,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 36,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 21,
+          "path_zyx": [
+            [
+              11,
+              7,
+              8
+            ],
+            [
+              11,
+              6,
+              8
+            ],
+            [
+              11,
+              5,
+              8
+            ],
+            [
+              11,
+              4,
+              8
+            ],
+            [
+              11,
+              3,
+              8
+            ],
+            [
+              11,
+              3,
+              9
+            ],
+            [
+              11,
+              3,
+              10
+            ],
+            [
+              11,
+              3,
+              11
+            ],
+            [
+              11,
+              3,
+              12
+            ],
+            [
+              11,
+              3,
+              13
+            ],
+            [
+              11,
+              3,
+              14
+            ],
+            [
+              11,
+              3,
+              15
+            ],
+            [
+              11,
+              3,
+              16
+            ],
+            [
+              11,
+              3,
+              17
+            ],
+            [
+              11,
+              3,
+              18
+            ],
+            [
+              11,
+              3,
+              19
+            ],
+            [
+              11,
+              3,
+              20
+            ],
+            [
+              11,
+              3,
+              21
+            ],
+            [
+              11,
+              3,
+              22
+            ],
+            [
+              11,
+              3,
+              23
+            ],
+            [
+              12,
+              3,
+              23
+            ],
+            [
+              13,
+              3,
+              23
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 402,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "cc3e63b5062e13da7dd244f4324629bf10f713bdd2b8d44db21257755644ccbf",
+    "scene_id": "legacy-easy-seed-010",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2596563999832142,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      8,
+      16
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 317,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 0
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4766,
+      "path": "artifacts/e03c16554ed243d3bf59aa12ab596ceb_fields-d22660d71d9088fdaf6f.npz",
+      "role": "case_fields",
+      "sha256": "290c0fa224ef36245fa146e78f6367c4a051cd10688720b4209a0b07ec6e5524"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.13610369805566144,
+      "illegal_voxels": 357,
+      "material_voxels": 2623,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934",
+    "scene_id": "legacy-easy-seed-011",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5442225000006147,
+    "version": "legacy_v31",
+    "z_range_inclusive": [
+      3,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 0,
+        "removed": 0
+      },
+      "legacy": {
+        "added": 0,
+        "removed": 317
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 8,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4766,
+      "path": "artifacts/e03c16554ed243d3bf59aa12ab596ceb_fields-d22660d71d9088fdaf6f.npz",
+      "role": "case_fields",
+      "sha256": "290c0fa224ef36245fa146e78f6367c4a051cd10688720b4209a0b07ec6e5524"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.15481352992194275,
+      "illegal_voxels": 357,
+      "material_voxels": 2306,
+      "nonempty": true,
+      "zero_illegal_voxels": false
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "scene_hash": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934",
+    "scene_id": "legacy-easy-seed-011",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.5935740999993868,
+    "version": "corridor_bounded_v1",
+    "z_range_inclusive": [
+      3,
+      17
+    ]
+  },
+  {
+    "differences": {
+      "bounded": {
+        "added": 45,
+        "removed": 2108
+      },
+      "legacy": {
+        "added": 45,
+        "removed": 2425
+      }
+    },
+    "entrance_contact_voxels": {
+      "E_legacy_1": 4,
+      "E_legacy_2": 8
+    },
+    "fields": {
+      "bytes": 4766,
+      "path": "artifacts/e03c16554ed243d3bf59aa12ab596ceb_fields-d22660d71d9088fdaf6f.npz",
+      "role": "case_fields",
+      "sha256": "290c0fa224ef36245fa146e78f6367c4a051cd10688720b4209a0b07ec6e5524"
+    },
+    "legal_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "legality": {
+      "illegal_fraction": 0.0,
+      "illegal_voxels": 0,
+      "material_voxels": 243,
+      "nonempty": true,
+      "zero_illegal_voxels": true
+    },
+    "permitted_connectivity": {
+      "all_connected": true,
+      "fraction_reached": 1.0,
+      "metric_version": "binary_v1",
+      "neighborhood": 6,
+      "reached": {
+        "E_legacy_2": true
+      },
+      "source_id": "E_legacy_1",
+      "source_open": true
+    },
+    "radius_zero_parity": true,
+    "router": {
+      "all_endpoints_connected": true,
+      "blocked_endpoints": [],
+      "centerline_voxels": 31,
+      "corridor_width": 1,
+      "discarded_isolated_dilation_voxels": 0,
+      "edges": [
+        {
+          "length_edges": 20,
+          "path_zyx": [
+            [
+              6,
+              9,
+              9
+            ],
+            [
+              6,
+              9,
+              10
+            ],
+            [
+              6,
+              9,
+              11
+            ],
+            [
+              6,
+              9,
+              12
+            ],
+            [
+              6,
+              9,
+              13
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              15
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              9,
+              17
+            ],
+            [
+              6,
+              9,
+              18
+            ],
+            [
+              6,
+              9,
+              19
+            ],
+            [
+              6,
+              9,
+              20
+            ],
+            [
+              6,
+              9,
+              21
+            ],
+            [
+              6,
+              9,
+              22
+            ],
+            [
+              7,
+              9,
+              22
+            ],
+            [
+              8,
+              9,
+              22
+            ],
+            [
+              9,
+              9,
+              22
+            ],
+            [
+              10,
+              9,
+              22
+            ],
+            [
+              11,
+              9,
+              22
+            ],
+            [
+              12,
+              9,
+              22
+            ],
+            [
+              13,
+              9,
+              22
+            ]
+          ],
+          "source": "E_legacy_1",
+          "target": "E_legacy_2"
+        }
+      ],
+      "endpoint_ids": [
+        "E_legacy_1",
+        "E_legacy_2"
+      ],
+      "height_clip": null,
+      "neighborhood": 6,
+      "note": "A legal spatial scaffold; not walking clearance or structural safety.",
+      "operator": "corridor_legal_v1",
+      "status": "connected",
+      "target_voxels": 243,
+      "vertical_envelope": 1
+    },
+    "scene_hash": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934",
+    "scene_id": "legacy-easy-seed-011",
+    "scene_set": "legacy_easy_v1",
+    "seed_builder": "nca.legacy_scenes.legacy_seed_state",
+    "target_seconds": 0.2981502000184264,
+    "version": "corridor_legal_v1",
+    "z_range_inclusive": [
+      6,
+      16
+    ]
+  }
+]

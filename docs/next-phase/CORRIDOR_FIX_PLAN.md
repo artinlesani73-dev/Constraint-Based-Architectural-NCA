@@ -1,4 +1,8 @@
-# The next corridor correction
+# The corridor correction design
+
+Status update: implemented and measured in C1_v1. Read CORRIDOR_FINDINGS.md.
+
+The original design below is retained for provenance.
 
 Prepared during E0_v1 on 2026-09-23. This is an implementation design, not a
 completed correction or a new experiment result. The running baseline still uses

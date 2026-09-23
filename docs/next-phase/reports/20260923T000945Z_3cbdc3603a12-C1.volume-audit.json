@@ -1,0 +1,199 @@
+{
+  "analysis": "C1_volume_compatibility_posthoc_v1",
+  "constructor_cell_zero_based": 24,
+  "definition_cell_zero_based": 18,
+  "historical_defaults": {
+    "max_ratio": 0.12,
+    "min_ratio": 0.03,
+    "squared": true,
+    "under_coef": 1.0
+  },
+  "interpretation": "For occupancy in [0,1], filling the legal target gives the largest zero-spill mass. Where that mass is below the historical floor, zero spill and zero lower-volume penalty cannot coexist. These are competing soft objectives, not a proof that no feasible architectural design exists. No weights or thresholds were changed.",
+  "notebook": "notebooks/model_c/NB02_AllConstraints_v3_1_C.ipynb",
+  "notebook_sha256": "2df99ed18a4d0f6d764cbd0aeaf133ee89a916cdec684d6ad80f172a58fcdea6",
+  "pre_registered": false,
+  "rows": [
+    {
+      "historical_available_voxels": 27776.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 168,
+      "max_zero_spill_mass_ratio": 0.006048387096774193,
+      "minimum_extra_mass_to_meet_floor": 665.28,
+      "scene_id": "legacy-easy-seed-000",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 26972.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 170,
+      "max_zero_spill_mass_ratio": 0.006302832567106629,
+      "minimum_extra_mass_to_meet_floor": 639.16,
+      "scene_id": "legacy-easy-seed-001",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 26704.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 390,
+      "max_zero_spill_mass_ratio": 0.014604553624925104,
+      "minimum_extra_mass_to_meet_floor": 411.12,
+      "scene_id": "legacy-easy-seed-002",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 25478.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 377,
+      "max_zero_spill_mass_ratio": 0.014797079833581913,
+      "minimum_extra_mass_to_meet_floor": 387.3399999999999,
+      "scene_id": "legacy-easy-seed-003",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 27413.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 234,
+      "max_zero_spill_mass_ratio": 0.008536096012840623,
+      "minimum_extra_mass_to_meet_floor": 588.39,
+      "scene_id": "legacy-easy-seed-004",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 27952.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 282,
+      "max_zero_spill_mass_ratio": 0.010088723526044648,
+      "minimum_extra_mass_to_meet_floor": 556.56,
+      "scene_id": "legacy-easy-seed-005",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 28400.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 381,
+      "max_zero_spill_mass_ratio": 0.013415492957746479,
+      "minimum_extra_mass_to_meet_floor": 471.0,
+      "scene_id": "legacy-easy-seed-006",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 27056.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 180,
+      "max_zero_spill_mass_ratio": 0.006652868125369604,
+      "minimum_extra_mass_to_meet_floor": 631.68,
+      "scene_id": "legacy-easy-seed-007",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 26153.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 106,
+      "max_zero_spill_mass_ratio": 0.0040530723052804645,
+      "minimum_extra_mass_to_meet_floor": 678.5899999999999,
+      "scene_id": "legacy-easy-seed-008",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 27776.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 411,
+      "max_zero_spill_mass_ratio": 0.014796947004608294,
+      "minimum_extra_mass_to_meet_floor": 422.28,
+      "scene_id": "legacy-easy-seed-009",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 28246.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 402,
+      "max_zero_spill_mass_ratio": 0.014232103660695319,
+      "minimum_extra_mass_to_meet_floor": 445.38,
+      "scene_id": "legacy-easy-seed-010",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 25560.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 243,
+      "max_zero_spill_mass_ratio": 0.009507042253521126,
+      "minimum_extra_mass_to_meet_floor": 523.8,
+      "scene_id": "legacy-easy-seed-011",
+      "scene_set": "legacy_easy_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 24768.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 266,
+      "max_zero_spill_mass_ratio": 0.010739664082687339,
+      "minimum_extra_mass_to_meet_floor": 477.03999999999996,
+      "scene_id": "ref-01-ground-pair",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 24768.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 481,
+      "max_zero_spill_mass_ratio": 0.019420219638242895,
+      "minimum_extra_mass_to_meet_floor": 262.03999999999996,
+      "scene_id": "ref-02-facade-pair-and-ground",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 25568.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 481,
+      "max_zero_spill_mass_ratio": 0.018812578222778473,
+      "minimum_extra_mass_to_meet_floor": 286.03999999999996,
+      "scene_id": "ref-03-wide-gap",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 25568.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 649,
+      "max_zero_spill_mass_ratio": 0.025383291614518147,
+      "minimum_extra_mass_to_meet_floor": 118.03999999999996,
+      "scene_id": "ref-04-asymmetric-heights",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 12288.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 144,
+      "max_zero_spill_mass_ratio": 0.01171875,
+      "minimum_extra_mass_to_meet_floor": 224.64,
+      "scene_id": "ref-05-sealed-partition",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    },
+    {
+      "historical_available_voxels": 29408.0,
+      "historical_min_ratio": 0.03,
+      "legal_target_voxels": 230,
+      "max_zero_spill_mass_ratio": 0.007821001088139282,
+      "minimum_extra_mass_to_meet_floor": 652.24,
+      "scene_id": "ref-06-minimal-smoke",
+      "scene_set": "reference_v1",
+      "zero_spill_below_volume_floor": true
+    }
+  ],
+  "run_id": "20260923T000945Z_3cbdc3603a12",
+  "source_snapshot": "artifacts/2b2d4e754e504fe48cf7f3991418cc6d_source-snapshot.zip"
+}

@@ -236,3 +236,23 @@ CORRIDOR_PROTOCOL.md freezes C1_v1: 54 target audits and 108 forward cases, all
 18 development scenes, seed 0, 50 steps, original checkpoint, two historical
 profiles. Legacy cases must reproduce saved E0 fields exactly. Single-seed
 outcomes do not justify a production default or an architectural-quality claim.
+
+## D018 - Resolve objective compatibility before retraining on legal scaffolds
+
+Date: 2026-09-23. Evidence: completed C1_v1 and its labeled post-hoc volume audit.
+
+The legal router connects all 17 feasible frozen scenes with zero forbidden
+voxels. The original checkpoint still connects no reference scene under either
+forward profile; serving drops from 10/12 to 9/12 on legacy scenes. Do not promote
+new production defaults or claim a trained-model improvement from the target fix.
+
+The legal targets' maximum zero-spill mass is 0.405%-2.538% of the notebook's
+non-building denominator, below its actual trainer's 3% lower budget on all 18
+scenes. The old spill and lower-volume penalties therefore cannot both be zero
+with these targets. Do not conceal this by silently weakening the volume floor.
+Distinguish the procedural connection scaffold from a material design envelope,
+version objective definitions, and check gradients/batching before changing
+architecture or paying for training. LOSS_REPAIR_PLAN.md records the next gate.
+The audit is post-hoc, not an additional preregistered C1 arm. These remain spatial
+proxies within the nine existing families, not verified architectural access or
+structural safety. Preserve every failed attempt and keep archives local.

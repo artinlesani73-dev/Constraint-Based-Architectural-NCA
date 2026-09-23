@@ -23,7 +23,7 @@ def load_verified(run_id):
     if final['status'] != 'completed':
         raise ValueError('Cannot report an incomplete or failed comparison as complete')
     items = defaultdict(list)
-    for path in (directory / 'events').glob('*.json'):
+    for path in sorted((directory / 'events').glob('*.json')):
         event = read_json(path)
         if event['kind'] == 'artifact' and event['details']['role'] in ('target_record', 'case_record', 'summary', 'protocol'):
             items[event['details']['role']].append(read_json(directory / event['details']['path']))

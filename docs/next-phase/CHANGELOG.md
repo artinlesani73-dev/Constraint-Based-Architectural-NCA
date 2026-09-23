@@ -230,3 +230,30 @@ archive-path failure, not a model-quality result. Changed this runner's payload
 and case filenames to short deterministic SHA-256 prefixes; full case IDs stay
 inside records. Retry gets a fresh run linked to this retained attempt. No
 historical file or record is shortened in place.
+
+## 2026-09-23 - C1 complete and objective conflict documented
+
+Linked retry 20260923T000945Z_3cbdc3603a12 completed all 54 targets and 108 forward
+cases from source commit 595c8e0 in 343.54 seconds. All 36 legacy cases match E0
+bitwise; all registered artifact hashes verify. Both new target versions are
+measured separately. See CORRIDOR_FINDINGS.md, the full per-scene report, target
+JSON and verification receipt. Report generation consumes registered copies;
+fresh renders exactly match the saved report and audit JSON.
+
+Added scripts/audit_corridor_budget.py and a labeled post-hoc volume audit using
+the recorded source notebook and arrays. All 18 legal targets fit less mass than
+the historical 3% lower bound, exposing a conflict with zero spill. A first parser
+attempt rejected the extra standalone demonstration constructor in notebook cell
+20; source/error retained under .local-artifacts/analysis-attempts/20260923-c1-volume-parser-01.
+The corrected parser selects the actual trainer initializer (cell 24). This did
+not rerun or alter C1. Source-only/geometry findings and measured model limitations
+are distinguished in D018 and LOSS_REPAIR_PLAN.md.
+
+The original checkpoint does not benefit in reference-scene connectivity; legal
+routing loses one legacy serving connection. No production defaults changed and
+no quality gain is claimed for the checkpoint. The 94-test preflight remains the
+applicable operator regression result; subsequent edits concern evidence naming
+and reporting, exercised by the completed retry and report re-render checks.
+Preserved the original notebook/checkpoint and user files; report stays ignored.
+Milestone receives a local commit and verified local recovery archive. No Drive
+access, paid training, push or deployment occurred.

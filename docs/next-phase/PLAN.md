@@ -77,3 +77,14 @@ post-run target audit exposes both target conflicts and a limited scaffold
 connectivity advantage. M1 overall is not complete: the versioned corridor fix
 and architectural semantics/gradient work remain. Next implement the bounded
 operator, then measure legality/routing corrections separately before training.
+
+## Corridor corrections completed - 2026-09-23
+
+M1 step 5 is implemented and measured under corridor_bounded_v1, with the separate
+corridor_legal_v1 routing intervention. C1_v1 records 54 targets and 108 matched
+cases (20260923T000945Z_3cbdc3603a12); 94 regression checks pass. See D017/D018,
+CORRIDOR_FINDINGS.md and the full report. All 17 feasible targets connect legally,
+but the original checkpoint still fails on reference scenes. Gate A remains
+incomplete. Next follow LOSS_REPAIR_PLAN.md: establish compatible objective
+semantics and a versioned shared loss package with batch/gradient checks before
+any optimizer experiment. The interface and scaling milestones remain planned.
