@@ -44,6 +44,14 @@ def load(run=RUN):
         assert math.isclose(expected,row['terms']['sparsity'],rel_tol=1e-5,abs_tol=1e-7)
         g=row['sparsity_gradient_sum']
         assert g<0 if ratio<.03 else (g>0 if ratio>.12 else g==0)
+        with np.load(d/row['input_fields']['path'],allow_pickle=False) as inp,np.load(d/row['fields']['path'],allow_pickle=False) as fields:
+            budget=(inp['seed'][:,r['protocol'][0]['config']['ch_existing']]<.5)
+            denominator=inp['envelope'].sum();gradient=fields['sparsity_gradient'].astype(np.float64)
+            slope=-1. if ratio<.03 else 300*(row['mass_ratio']-.12) if ratio>.12 else 0.
+            expected_gradient=budget*slope/denominator
+            assert np.allclose(gradient,expected_gradient,rtol=1e-5,atol=1e-10)
+            assert math.isclose(np.linalg.norm(gradient),row['sparsity_gradient_l2'],rel_tol=1e-9,abs_tol=1e-12)
+
     return r
 
 

@@ -61,7 +61,7 @@ def main():
                 grad,=torch.autograd.grad(terms['sparsity'].sum(),p)
                 ref=arrays(f'p{len(probes):02d}',{'occupancy':p,'sparsity_gradient':grad})
                 row={**common,'ratio':ratio,'terms':{k:float(v[0].detach()) for k,v in terms.items()},'fields':ref,
-                     'sparsity_gradient_l2':float(grad.double().norm()),'sparsity_gradient_sum':float(grad.sum()),'mass_ratio':float((p*ctx.budget).sum()/ctx.envelope.sum())}
+                     'sparsity_gradient_l2':float(grad.double().norm()),'sparsity_gradient_sum':float(grad.sum()),'mass_ratio':float(((p*ctx.budget).sum()/ctx.envelope.sum()).detach())}
                 probes.append(row);record(f'p{len(probes):02d}',row,'probe_record')
                 del terms,p,grad
             configs=[(seed,h) for seed in (0,1) for h in (4,16)]

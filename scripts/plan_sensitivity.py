@@ -30,7 +30,7 @@ def build(records):
                          'negative_gradient_direction_dot':dots})
     config={'protocol':'K2_proposal_v1','status':'prepared_not_run','source_calibration_run':RUN,'recipes':recipes,
             'purpose':'One-factor local mass-coefficient sensitivity on corrected terms; not a validated final recipe',
-            'training_seeds':[0,1],'training_scenes':protocol['included_scenes'],'updates_per_run':17,'rollout_steps':8,
+            'training_seeds':[0,1],'training_scenes':protocol['included_scenes'],'updates_per_run':17,'rollout_steps':16,
             'optimizer':{'type':'Adam','lr':1e-4,'clip_grad_norm':1.},'scheduler':'constant',
             'expected_training_runs':4,'expected_logical_updates':68,
             'evaluation':{'scene_set':'same17 development scenes','firing_seed':2,'horizons':[16,50],
@@ -41,7 +41,7 @@ def build(records):
                      'Only sparsity coefficient differs between arms; both keep all nine families positive.',
                      'Historical cantilever is excluded from the research recipe; boundary-aware version is explicit.',
                      'These recipes probe sensitivity, not final weight selection or holdout generalization.',
-                     'Clipped raw-gradient direction estimates below are not Adam update predictions.']}
+                     'Raw-gradient direction estimates below are not Adam update predictions.']}
     return config,rows
 
 
@@ -55,7 +55,7 @@ def render(config,rows):
             count=lambda n:sum(r['negative_gradient_direction_dot'][n]>1e-12 for r in selected)
             lines.append(f'| {recipe} | {steps} | {len(selected)} | {np.median([r["combined_gradient_l2"] for r in selected]):.7g} | {count("coverage")} | {count("sparsity")} |')
     lines+=['','Signs describe an infinitesimal step along the negative combined gradient. They do not model Adam, finite-step effects, future states or actual learning. Zero/inactive term gradients do not count as improving.','',
-        'The proposed experiment uses two recipes x two training seeds,17 updates each, every calibration scene once in a recorded deterministic order, eight-step rollouts, Adam1e-4 and norm clipping1. Evaluate all17 development scenes at16/50 steps with firing seed2 and retain checkpoint/W1 baselines. This is68 logical training updates, not a paid pilot or geometry generalization test.',
+        'The proposed experiment uses two recipes x two training seeds,17 updates each, every calibration scene once in a recorded deterministic order, 16-step rollouts, Adam1e-4 and norm clipping1. Evaluate all17 development scenes at16/50 steps with firing seed2 and retain checkpoint/W1 baselines. This is68 logical training updates, not a paid pilot or geometry generalization test.',
         '', 'Before execution verify exact CPU restart with the full composed objective, coefficients and scene order in metadata. Checkpoint every update; cap each run at900 seconds and preserve an interrupted result if reached. No automatic Drive or Colab use. Do not select a final recipe solely from the directional table; retain per-family outcomes and failure cases.']
     return '\n'.join(lines)+'\n'
 
