@@ -1,10 +1,10 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **K2 actual-loop recovery and the full local sensitivity
-comparison are complete and verified.** Read SENSITIVITY_FINDINGS.md and D033.
-144 tests pass;68 optimizer updates and187 evaluation cases are preserved.
-Neither coefficient/model is promoted. Next prepare/profile the E2 direct-material
-optimization control. No active process at handoff and no user setup required.
+Last updated 2026-09-23. **D1 direct-control recovery, pilot and full comparison
+are complete and verified.** Read DIRECT_FINDINGS.md/D035.147 tests pass. Both
+recipes connect17/17; weight30 in-budget12/17, weight3 in-budget10/17. No model is
+promoted. Next prepare bounded NCA repeated single-scene fitting. No active process
+at handoff. Local viewer data/syntax verified; browser visual/interaction QA blocked.
 
 ## Authorization and storage
 
@@ -127,26 +127,29 @@ Local commits are authorized. No remote push, deployment or cloud operation.
 
 ## Exact next actions
 
-1. Read SENSITIVITY_FINDINGS.md/D033. Do not rerun completed K1/K2/K2R or restart
-   the accepted material-generation scope question. No recipe has been promoted.
-2. Prepare the missing E2 direct-material optimizer with identical nine-family,
-   regularizer, envelope and facade semantics. Profile/verify a tiny local control
-   on legacy008, ground-pair and minimal-smoke. Specify raw/material parameterization,
-   initialization, legal projection, step size and recorded per-family gradients.
-   Preserve W1 as an explicit procedural/initialization control, never NCA output.
-3. Use measured runtime to preregister a bounded matched comparison on all17
-   feasible development scenes. Record optimization steps/time per scene; a direct
-   per-scene solve is not generalizing inference. Compare original and both K2
-   models under common scoring and binary metrics. Keep failed cases.
-4. Decide from that evidence whether objective/optimization work or a controlled
-   NCA recovery/conditioning experiment comes next. Do not change architecture,
-   schedule and geometry distribution together.17-update K2 is not convergence.
-5. Freeze fresh geometry holdouts before their outputs. Existing18 scenes remain
-   development data. Studio implementation, diversity and grid scaling are planned;
-   the studio may use preserved fixtures with truthful material/metric labels.
-6. Document, commit and verify a new local archive at each milestone. Paid Colab
-   needs a concrete config/cap and GPU recovery. Every Drive action needs explicit
-   permission. No agents without authorization; local work can continue directly.
+1. Read DIRECT_FINDINGS.md/D035. Do not rerun K1/K2/D1 or reask the accepted
+   material-generation scope. Direct reference connectivity is now demonstrated,
+   but joint objective/architectural success and NCA fitting remain unresolved.
+2. Profile/preregister repeated single-scene NCA fitting on ground-pair and
+   minimal-smoke. Keep checkpoint/architecture, objectives, weak initial scaffold
+   and both weight recipes fixed. Proposed64 updates per scene/recipe is a candidate,
+   not an already executed/approved paid schedule. Use measured timing to freeze
+   a bounded CPU cap and intermediate evaluation boundaries before outcomes.
+3. Verify actual-loop checkpoint recovery for repeated exposure. Save every update,
+   firing RNG, scene position and source hashes. Evaluate at16/50 growth steps and
+   compare original/D1/W1 controls. No solved-D1 initialization or new reconstruction
+   family. This is fitting capacity, not unseen-geometry or convergence proof.
+4. If it fits, isolate mixed-scene scheduling/recovery then fresh holdout evaluation.
+   If it does not, inspect saturation/gradients before one conditioning/perception
+   change. Do not alter architecture, objectives and distribution together.
+5. Viewer:assets/experiment_viewer.html and scripts/build_result_viewer.py. Existing
+   generated artifact has verified221 fields/metrics and JS syntax, but browser URL
+   policy BLOCKED local-file preview. Do not claim visual/interaction checks passed,
+   or bypass that browser-policy restriction. User can inspect the saved artifact.
+   Live studio jobs/cancellation/editing/deployment remain separate planned work.
+6. Update records, commit and verify a local archive. Paid Colab requires concrete
+   config/cap and GPU recovery; EVERY Drive action needs specific approval. Local
+   work needs no new scope confirmation. No agents without explicit authorization.
 
 ## Commands and interruption recovery
 
@@ -264,7 +267,7 @@ before any retry. K1 and R2 are complete; neither should be restarted now.
   for every recurrent model. No checkpoint or coefficient is selected for promotion.
 - K2-sensitivity.json remains the historical frozen proposal (its prepared_not_run
   label is not current execution status). Use immutable new run records for outcomes.
-- Latest full archive pattern: outputs/NCA-Sensitivity-Backup-2026-09-23-<commit>.zip
+- Earlier K2 archive: outputs/NCA-Sensitivity-Backup-2026-09-23-<commit>.zip
   plus.zip.sha256 in the Codex cwd. Receipt:.local-artifacts/milestones/<commit>-
   backup-receipt.json. Builder:work/package_nca_sensitivity.py in that cwd, arguments
   K2R run ID then K2 run ID. It preserves prior artifacts and Git history, verifies
@@ -285,10 +288,55 @@ verify(run) and render(run,protocol,training,evaluation) in memory. Preserve all
 older reports; repeat experiments only for a concrete new reason with a linked
 new run ID. Exact source snapshots are required if Git changed Python line endings.
 
-## Direct-control preparation in progress
+## D1 completed evidence and current restore commands
 
-Read DIRECT_PROTOCOL.md/D034. Added nca/direct.py and scripts/run_direct.py with
-exact per-scene raw parameters, checkpoints and recovery/pilot/full modes. D1-direct
-config preregisters32 full updates and a cost-admission gate. No direct experiment
-has started at this entry; inspect new records/processes before any retry. Never
-edit hashed training source between the direct recovery gate, pilot and full run.
+- Source042b7c8 adds exact raw-field optimization and fixed D1 protocol. Latest
+  regression20260923T104700Z_c4dc9a0d6f64:147 tests,zero failures/errors/skips,smoke0.
+  No direct source/config change after the pass/recovery/pilot/full execution.
+- D1R20260923T105015Z_484cf36351d7:four logical/ten executed updates,ground-pair,
+  mass_3,seven exact full-checkpoint/trace/field-gradient comparisons.19.21s.
+- D1P20260923T105120Z_4d1e4d2d20d6:six cases x8 updates=48,39.84s. p90 update
+  0.33365s,5s startup allowance,conservative full estimate799.51s<900s cap. Timing,
+  not quality, admitted the unchanged32-update/34-case full matrix.
+- D1 20260923T105246Z_ab0d4a430b4c:34 cases/1088 updates,484.44s,zero failures or
+  timeouts. All1088 checkpoints/projections/norms checked; all68 initial/final
+  scored states rescored. Intermediate objectives preserved but not all rescored.
+- Both direct recipes connect17/17 from initial0/17 binary-connected weak scaffolds.
+  Weight30 has12/17 in-budget,zero over-cap andfive under-floor legacy cases
+  (003,006,009,010,011). Weight3 has10/17 in-budget,one under-floor(000),six over-cap
+  (003,006,010,011,wide-gap,asymmetric-heights). All five references connect; weight30
+  keeps all five in budget. Continuous residuals remain, no architectural certification.
+- D1 reports, aggregates, per-case budget failures and verification/rerender receipts:
+  experiments/reports/D1-*,D1P-*,D1R-*. Scientific fields/checkpoints/source snapshots
+  stay in .local-artifacts/runs/<run_id>. No scientific attempt failed.
+- One report-rerender check failed from receipt dictionary order, preserved in
+  .local-artifacts/analysis-attempts/D1-viewer-qa-20260923/rerender-attempt-1.json.
+  Fresh verifier output rerenders all three reports exactly; no report overwritten.
+- Viewer:.local-artifacts/viewers/D1-20260923T105246Z_ab0d4a430b4c/index.html.
+  17 scenes/13 variants/221 fields. All exact binary coordinates/metrics verified;
+  JS syntax passes. Browser file-URL policy blocked preview; visual/interaction QA
+  remains unverified. Manifest and QA in experiments/reports/D1-viewer-*. Original
+  user NCA-Studio-Concept.html untouched. Viewer is a local evidence preview only.
+- Latest archive:outputs/NCA-Direct-Backup-2026-09-23-<commit>.zip plus.sha256 in
+  Codex cwd, receipt:.local-artifacts/milestones/<commit>-backup-receipt.json.
+  Builder:work/package_nca_direct.py in Codex cwd; args:D1R ID,D1P ID,D1 full ID.
+  Includes all prior runs/history plus viewer/QA, private reports and primer.
+  Checks every payload hash,fresh Git clone,scenes/annotations,D1 config and exact
+  D1R source snapshot hashes. Same-disk local copy; no off-device backup claimed.
+- Recovery boundary is ordinary completed CPU updates. Resume into a NEW run/branch
+  with identical source/runtime/scene metadata and a verified checkpoint. Runner
+  supports worker --resume, not an automatic full-matrix continuation coordinator.
+  Inspect completed update records before retry; never overwrite or bypass integrity.
+  CUDA,AMP,abrupt/mid-write timeout recovery remain uncertified.
+
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T105015Z_484cf36351d7
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T105120Z_4d1e4d2d20d6
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T105246Z_ab0d4a430b4c
+```
+
+Report writers refuse overwrites. For fresh rerender use scripts.report_direct.verify
+then render with that returned verification object (not a key-reordered receipt).
+The D1 config remains frozen. To reproduce older K2 recovery, restore its exact source
+snapshot: adding a new nca module changes that runner's broad code hash manifest.
+No repeating completed experiments without a new reason and linked run ID.

@@ -497,3 +497,29 @@ gradient regressions added. Run20260923T104700Z_c4dc9a0d6f64 passes147 tests,
 zero failures/errors/skips,checkpoint smoke0. Actual direct recovery/pilot pending.
 Report verifier prepared for full checkpoint/projection/norm checks and initial/
 final objective/geometry rescoring. No NCA optimizer, cloud or paid operation.
+
+
+## 2026-09-23 - D1 completed and saved-result viewer prepared
+
+- D1R20260923T105015Z_484cf36351d7:four logical/ten executed direct updates,
+  seven exact fresh-process CPU recovery checks pass. Source042b7c8.
+- D1P20260923T105120Z_4d1e4d2d20d6:six cases/48 updates,39.84s; verified pilot
+  p90 timing0.33365s admits frozen full run under799.51s estimate/900s cap.
+- D1 20260923T105246Z_ab0d4a430b4c:34 cases/1088 direct updates,484.44s, no failed
+  or timed-out cases. Verified every checkpoint/projection/saved gradient norm and
+  all68 initial/final scored states. Intermediate objectives retained, not all rescored.
+- Both recipes connect17/17. Weight30 has12 in-budget and5 below floor; weight3 has
+  10 in-budget,1 below floor,6 above cap. All five references connect; weight30 keeps
+  each in budget. Recorded all per-case failures and D035 without promoting a model.
+- Added DIRECT_FINDINGS.md, refreshed plans/handoff. No NCA weights, original
+  checkpoint or serving defaults changed. No new family, paid training or cloud work.
+- Added assets/experiment_viewer.html and scripts/build_result_viewer.py. Generated
+  standalone local HTML from221 registered result fields, all17 scenes/13 variants.
+  Coordinates/metrics verified and JS syntax passes. Browser URL policy blocked
+  file preview; visual/interaction QA explicitly unverified. Original concept unchanged.
+- Initial report-rerender assertion failed because sorted JSON receipt key order
+  differed from verifier output order. Attempt preserved in analysis-attempts/
+  D1-viewer-qa-20260923/rerender-attempt-1.json. Fresh verifier-backed rendering now
+  matches D1R/D1P/D1 reports; no scientific result or report was overwritten.
+- New full direct archive includes viewer and QA artifacts in addition to all prior
+  run/source evidence and Git history. Receipt under.local-artifacts/milestones.

@@ -175,3 +175,25 @@ limitations; per-scene optimization is not generalizing inference. Preserve both
 K2 settings as controls, original defaults and all failures.17 updates do not prove
 convergence or model-concept failure. No larger/paid run or architecture change is
 selected. Fresh holdouts, recovery/conditioning and studio/scaling remain planned.
+
+
+## D1 completed; NCA fitting capacity diagnostic next - 2026-09-23
+
+Read DIRECT_FINDINGS.md/D035.147 tests pass; exact direct-loop CPU recovery passes.
+Full D1:34 cases/1088 updates. Both recipes connect all17, including all five
+reference cases. Weight30 is in-budget12/17 (all five references), weight3 in-budget
+10/17. Keep under-floor/over-cap and continuous-objective residuals visible.
+Direct per-scene fitting has more freedom and different compute; this is not an
+architecture-failure proof or learned generalization result. W1 remains the simple
+numerical comparator. Neither coefficient/model is promoted.
+
+Next profile/freeze a repeated single-scene NCA fitting test on ground-pair and
+minimal-smoke, retaining both recipes, checkpoint/architecture/objectives and weak
+initialization. Candidate64 updates, intermediate evaluations and16/50-step growth
+checks; exact schedule/compute cap require a recorded timing/recovery gate. No
+solved-field initialization or added reconstruction constraint. If fitting works,
+test scheduling/recovery/generalization; if not, inspect gradient/saturation then
+isolate one conditioning/perception change. Fresh holdouts and scaling remain later.
+Local evidence viewer now contains real saved geometry; data/syntax verified, but
+browser file-URL policy blocked visual/interactive verification. Live deployment,
+worker jobs/cancellation, scene editing and production UI remain planned.

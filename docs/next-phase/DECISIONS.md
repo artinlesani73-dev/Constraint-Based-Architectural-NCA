@@ -523,3 +523,30 @@ eight updates. Admit the frozen34-case32-update full comparison only if the stat
 conservative pilot estimate fits900 seconds; no tuning from pilot quality scores.
 Direct per-scene optimization has more freedom and a different compute budget than
 K2's17 shared-weight updates. No architectural/generalization or paid-work claim.
+
+
+## D035 - Direct optimization recovers reference connectivity; test NCA fitting next
+
+2026-09-23. D1R20260923T105015Z_484cf36351d7 passes seven exact CPU recovery
+checks. D1P20260923T105120Z_4d1e4d2d20d6 completes48 updates; timing-only estimate
+799.51s admits the frozen full matrix. D1 20260923T105246Z_ab0d4a430b4c completes
+34 cases/1088 updates in484.44s, no failures/timeouts.147 tests pass. All checkpoint/
+projection/norm checks and initial/final objective/geometry verification pass.
+
+Both direct recipes connect17/17 from weak scaffolds. Weight30 is in-budget12/17
+(all five feasible references included), with five legacy under-floor cases and
+no over-cap case. Weight3 is in-budget10/17, with one under-floor and six over-cap.
+This is not all-nine-family or architectural success; graded residuals remain.
+Direct per-scene freedom, learning rate and compute differ from K2. It demonstrates
+recoverable connections under the contract, not a unique diagnosis of NCA failure.
+
+Retain D1 as comparator; promote no coefficient/model. Next profile/preregister
+NCA repeated single-scene fitting on ground-pair/minimal-smoke under both existing
+recipes, unchanged architecture/objectives and weak initialization. Test fitting
+before conditioning/perception changes; keep initial/direct/W1 controls and all
+failures. Candidate64 updates per case requires timing/recovery gates, not automatic
+paid training. Do not silently alter the3% floor to convert D1 failures to passes.
+
+Added a local saved-evidence viewer for17 scenes x13 variants. All221 voxel sets/
+metrics match sources and JS syntax passes. Browser file-URL security policy blocked
+visual/interaction verification; no workaround attempted. This is not deployment.

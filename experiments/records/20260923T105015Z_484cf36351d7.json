@@ -1,0 +1,33 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T105015Z_484cf36351d7",
+  "cases": 4,
+  "checks": {
+    "prefix_checkpoint": true,
+    "repeat_checkpoint": true,
+    "repeat_fields": true,
+    "repeat_trace": true,
+    "resumed_checkpoint": true,
+    "resumed_fields": true,
+    "resumed_trace": true
+  },
+  "error": null,
+  "mode": "recovery",
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "042b7c8535bc5468c3e8012ade30a998bb51437b",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html"
+  },
+  "recorded_updates": 10,
+  "run_id": "20260923T105015Z_484cf36351d7",
+  "seconds": 19.20590380000067,
+  "status": "completed"
+}
