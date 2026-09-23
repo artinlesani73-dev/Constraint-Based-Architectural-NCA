@@ -389,3 +389,14 @@ Keep material connectivity for the proposed next controlled comparison; resolve
 facade/budget contradictions and show learned value over procedural targets before
 scaling. Do not claim structural safety. Update NEXT_EXPERIMENT_PLAN.md and handoff
 with any later user steering; no production formulas were changed in this milestone.
+
+## D026 - Proceed with material generation and a bounded endpoint allowance
+
+2026-09-23. User said 'ok go on' after the material-generation recommendation.
+Proceed with that near-term scope; usability remains a separate longer-term goal.
+A1_v1 freezes one-factor facade_endpoint_v1 comparison: exact typed facade entrance
+cells touching declared buildings, intersected with permitted space, no dilation.
+All18 annotation sidecars list cells/hashes and are independent of generated guides.
+Only facade numerator changes; all-material denominator,15% cap and budgets remain.
+This is allowed attachment accounting, not mandatory attachment or safety assurance.
+See FACADE_PROTOCOL.md for paired matrix, controls and continuation checks.

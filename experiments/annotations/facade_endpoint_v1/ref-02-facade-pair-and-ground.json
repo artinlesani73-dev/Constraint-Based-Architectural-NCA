@@ -1,0 +1,63 @@
+{
+  "allowance_voxels": 8,
+  "mask_sha256": "391281bc1a2c72c235ff7d5b5513020b497e60734c5f41090d614e55a70761a7",
+  "patches": [
+    {
+      "cells_zyx": [
+        [
+          16,
+          14,
+          23
+        ],
+        [
+          16,
+          15,
+          23
+        ],
+        [
+          17,
+          14,
+          23
+        ],
+        [
+          17,
+          15,
+          23
+        ]
+      ],
+      "count": 4,
+      "entrance_id": "E_facade_east"
+    },
+    {
+      "cells_zyx": [
+        [
+          10,
+          14,
+          8
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          11,
+          14,
+          8
+        ],
+        [
+          11,
+          15,
+          8
+        ]
+      ],
+      "count": 4,
+      "entrance_id": "E_facade_west"
+    }
+  ],
+  "rule": "facade entrance intersection with six-neighbor building shell and permitted region; no dilation",
+  "scene_canonical_sha256": "89d4c05bb4f724f85360c458a273a7a020ac18ed4e107cc2396680894e2509b2",
+  "scene_id": "ref-02-facade-pair-and-ground",
+  "source_scene_hash": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1",
+  "version": "facade_endpoint_v1"
+}

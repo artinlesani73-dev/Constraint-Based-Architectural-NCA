@@ -159,3 +159,10 @@ work after a limit reset; it does not automatically resume work or redeem credit
 Do not rerun completed T1 without a new reason. If necessary, scripts/run_target_audit.py
 accepts `--parent-run 20260923T082527Z_845d2aa6aec0` for a retained fresh attempt.
 Report writers refuse overwrite; use in-memory rendering to reverify.
+
+## Active A1 comparison
+
+User accepted proceeding with material generation. Read FACADE_PROTOCOL.md and
+D026.129 tests pass in20260923T084059Z_6280ed836d9f. Annotations frozen under
+experiments/annotations/facade_endpoint_v1. Run scripts/run_facade_comparison.py
+once; inspect active processes and run records before retrying. No optimizer.

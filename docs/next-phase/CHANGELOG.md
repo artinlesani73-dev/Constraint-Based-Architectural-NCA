@@ -374,3 +374,12 @@ D025 and the plan recommend architectural material generation first, usability
 separately, with usable pavilion/bridge retained as the longer-term goal. Recorded
 as recommendation rather than an invented user decision. No implementation scope
 or production contract was changed by that clarification.
+
+## 2026-09-23 - A1 facade allowance prepared
+
+Added nca/facade.py, six regression tests, FACADE_PROTOCOL.md,18 frozen scene-derived
+annotation sidecars and manifest, and scripts/run_facade_comparison.py.
+Verification20260923T084059Z_6280ed836d9f:129 tests pass,zero failures/errors/skips,
+checkpoint smoke exit0. Checks include original parity without allowance, blanket
+penalty, finite differences, per-scene batching, metadata-only patch construction
+and unchanged budget bounds. No production default or optimizer change.

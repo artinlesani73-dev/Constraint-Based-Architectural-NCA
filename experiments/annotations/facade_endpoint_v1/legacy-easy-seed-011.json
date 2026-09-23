@@ -1,0 +1,53 @@
+{
+  "allowance_voxels": 6,
+  "mask_sha256": "73f77e37172e6ac436173abc4e732fc690979ab2eb54ea2f24213642e30da946",
+  "patches": [
+    {
+      "cells_zyx": [
+        [
+          6,
+          8,
+          8
+        ],
+        [
+          6,
+          9,
+          8
+        ]
+      ],
+      "count": 2,
+      "entrance_id": "E_legacy_1"
+    },
+    {
+      "cells_zyx": [
+        [
+          13,
+          9,
+          23
+        ],
+        [
+          13,
+          10,
+          23
+        ],
+        [
+          14,
+          9,
+          23
+        ],
+        [
+          14,
+          10,
+          23
+        ]
+      ],
+      "count": 4,
+      "entrance_id": "E_legacy_2"
+    }
+  ],
+  "rule": "facade entrance intersection with six-neighbor building shell and permitted region; no dilation",
+  "scene_canonical_sha256": "3f9cf027291fc67875e272837c212a5ec68c823bf7a1ff6cbde6a0425dff768f",
+  "scene_id": "legacy-easy-seed-011",
+  "source_scene_hash": "0152568b76aeac8bfc742b22cf5beee845d0dacfebabfe197780433e38489934",
+  "version": "facade_endpoint_v1"
+}
