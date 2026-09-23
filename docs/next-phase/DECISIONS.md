@@ -321,3 +321,25 @@ hard_preclamp for a local recovery-mechanics test only. R1 compares separate
 processes, full optimizer/scheduler/model and four RNG streams, plus repeated
 continuation. It is not a calibrated nine-family research trainer or approval for
 paid compute. Original artifacts and every attempt remain preserved locally.
+
+## D022 - L2/R1 evidence supports mechanics, not a production objective
+
+Date: 2026-09-23. Completed L2 20260923T075113Z_d95fabaf3776 and gated R1
+20260923T075727Z_2233c0e51b9a. See INTERVENTION_FINDINGS.md and the full report.
+All 21 hard-forward pairs match; pre-clamp coverage restores both measured dead
+cell derivatives. Projected access still has the original zero gradient in that
+case. Smooth-state derivatives improve but diffuse background mass rises sharply
+without improved binary connectivity in this matrix. Keep smoothing experimental.
+
+The radius6/envelope contract is necessary-valid for 17/18 scenes, excluding the
+sealed reference; radius3/envelope also passes. Its material allowance is only
+2.04%-10.65% of the original site's allowance. Select neither contract nor radius
+as the research/production default based on this bound alone. Pre-clamp guidance
+and radius6/envelope were used only for the preregistered CPU recovery diagnostic.
+
+R1's four logical updates match exactly across fresh-process restart and repeat
+restart, including full checkpoint trees, trace and outputs. Unit loss weights
+are mechanics-only. The sample sequence covered two of the three available scenes.
+No GPU/Colab or abrupt power-loss certification. Next inspect all-nine-term target
+compatibility and architectural material amounts, then calibrate and preregister
+E2 controls before a bounded training pilot. Preserve every attempt and archive.

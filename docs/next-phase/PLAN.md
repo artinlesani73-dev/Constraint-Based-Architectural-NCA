@@ -98,3 +98,18 @@ scenes conflict with the tested radius-six envelope/mass floor, and a measured
 ground-access gradient is blocked by the lower material clamp. Next explicitly
 resolve objective regions/budgets and test a bounded gradient intervention before
 optimizer/recovery work. No Colab job or model architecture change is selected.
+
+## L2/R1 completed - 2026-09-23
+
+Read INTERVENTION_FINDINGS.md and D022. L2 measured 108 explicit budget cases,
+54 gradient cases and nine absent-scaffold controls. Pre-clamp coverage restores
+the known blocked derivative while matching hard forward states exactly; smooth
+material adds diffuse occupancy without binary benefit in the tested matrix.
+Envelope budgeting is compatible by necessary bounds but cuts absolute material
+allowance to 2.04%-10.65% of site budgeting. It is not the production choice.
+
+R1 proves exact completed-update CPU recovery over four logical Adam updates in
+fresh processes; this opens mechanics preparation, not paid training or Gate A.
+118 tests pass. Next audit all-nine-term feasibility on explicit geometry targets,
+calibrate loss/regularizer magnitudes and preregister E2 procedural/direct/NCA
+controls. CUDA/Colab recovery and an approved compute cap remain prerequisites.

@@ -1,172 +1,125 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **L1 loss mechanics and gradient diagnostics are complete;
-training remains gated.** Read LOSS_FINDINGS.md and D019/D020. Next resolve the
-material-region/budget contract and test a targeted gradient intervention on the
-measured ground-entry failure. No optimizer or paid training has started.
+Last updated 2026-09-23. **L2 intervention comparisons and R1 exact CPU recovery
+are complete.** Read INTERVENTION_FINDINGS.md, D021/D022 and PLAN.md. Next audit
+all-nine-term target compatibility and physical budgets before calibrating a
+corrected research baseline. No paid training or production change is selected.
 
 ## Authorization and storage
 
-The user approved implementation, preservation of all decisions/results, nine
-existing constraint families, research and product improvement, and local
-archives. The user declined Drive upload (D014). No Drive access is authorized;
-AGENTS.md requires approval BEFORE EVERY operation, even reads, and scope is
-only folder 1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H and actual descendants.
+The user approved local implementation, preservation of every decision/result,
+the nine existing constraint families, and local archives. The user declined
+Drive upload (D014). AGENTS.md requires explicit approval BEFORE EVERY Drive
+operation including reads, and only within folder
+1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H and actual descendants. Do not access Drive.
 
-Paid Colab is available, but a GPU-hour cap and a job have not been approved.
-Private NCA-Next-Phase-Report files remain ignored. Preserve the user's untracked
+Paid Colab is available; no job or GPU-hour cap has been approved. Private
+NCA-Next-Phase-Report files remain Git-ignored. Preserve the user's untracked
 NCA-Studio-Concept.html and NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256.
-No push, deployment or cloud access occurred in the corridor milestone.
+Local commits are authorized. No remote push, deployment or cloud operation.
 
 ## Checkout and durable evidence
 
 - Repo: C:/LAB/ai-aec-playground/PROJECTS/Constraint-Based-Architectural-NCA.
-- Branch: next-phase/foundations. Historical baseline: ac913b9.
-- Milestones: b841991 foundations, ddc8100 contract, 1dfafa7 historical profiles,
-  474bf53 rollout_v2/E0 runner, 75402ff E0 evidence, 579031c corridor operators,
-  595c8e0 corridor retry, 8501478 C1 evidence, fa66238 loss package/L1 protocol.
-  The later evidence commit adds L1 reports and this handoff; inspect Git log.
-- All raw runs/source snapshots: .local-artifacts/runs/<run_id>/;
-  small tracked summaries: experiments/records/<run_id>.json.
-- Original 50-file snapshot: .local-artifacts/source-snapshots/.
-- Local archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
-  Keep the M1 (1dfafa7), E0 (75402ff) and corridor (8501478) archives. New archive:
-  NCA-Loss-Backup-2026-09-23-<evidence-commit>.zip, with a checksum and a receipt
-  .local-artifacts/milestones/<commit>-backup-receipt.json. Verify that receipt
-  before claiming backup completion. These are local, same-disk copies.
-- Archive builder for this milestone:
-  C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_losses.py.
-  It requires completed L1, creates a fresh Git bundle/restore directory, clones
-  the committed branch, checks frozen scene hashes and every ZIP payload hash.
-  Never rerun over an existing archive or delete a prior one to clear the path.
+- Branch: next-phase/foundations. Original baseline: ac913b9.
+- Milestones: b841991 foundations, ddc8100 scene contract, 1dfafa7 historical
+  profiles, 474bf53 rollout/E0 runner, 75402ff E0 evidence, 579031c corridor
+  operators, 595c8e0 retry prep, 8501478 C1 evidence, fa66238 shared loss package,
+  2e1e510 L1 evidence, 95431de interventions/recovery utilities, 6ee2ed8 L2 evidence
+  and R1 runner. The next evidence commit contains this handoff; inspect Git log.
+- All raw runs/source snapshots: .local-artifacts/runs/<run_id>/; small tracked
+  summaries: experiments/records/<run_id>.json. Original 50-file snapshot remains
+  in .local-artifacts/source-snapshots/. Reports do not replace raw artifacts.
+- Archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
+  Preserve M1, E0, corridor and loss archives. New milestone archive:
+  NCA-Intervention-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
+  Verify .local-artifacts/milestones/<commit>-backup-receipt.json before claiming
+  completion. Archives are local same-disk copies, not off-device backups.
+- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_interventions.py.
+  Requires completed L2/R1, creates a new full Git bundle and restore clone,
+  checks frozen scene hashes and every ZIP payload hash. Never overwrite archives
+  or remove failed/partial evidence to rerun. Use a new attempt name if needed.
 
-## Verified implementation and experiments
+## Completed evidence: do not rerun without a reason
 
-- scene_v1: 6 reference + 12 legacy scenes, raw/canonical hashes frozen.
-  Legacy scenes MUST use nca.legacy_scenes.legacy_seed_state; the deployed
-  generator handles below-street facade anchors differently.
-- rollout_v2 carries explicit firing/RNG controls and notebook-forward parity.
-  E0 20260922T230120Z_76f3b4677e8f completed 270 cases. Read E0_FINDINGS.md.
-- corridor_bounded_v1 changes only the cascading depth expansion; original
-  centroid/distance/height-clamp/building-mask logic is retained.
-- corridor_legal_v1 separately routes explicit IDs through permitted space using
-  exact six-neighbor BFS and a deterministic shortest-path spanning forest.
-  It retains bounded thickening, rejects ambiguous endpoint pieces, records
-  infeasible partial forests and removes the endpoint-based height clip.
-- The original corridor callable, notebook/checkpoint and production defaults
-  remain unchanged. No model architecture or learned weight changed.
-- Regression 20260923T000140Z_a7ff7de54684: 94 passed, no failures/errors/skips,
-  checkpoint smoke exit 0. Tests cover real scene batches and geometric defects.
-- Failed C1 20260923T000715Z_1e06516e9763 retained: 54 target records and 7
-  registered rollouts before Windows long evidence filenames stopped publication.
-  Its attempted eighth case could not publish a record. Short stable filenames
-  fix the runner; full descriptions remain inside JSON.
-- Linked retry **20260923T000945Z_3cbdc3603a12**: 54 target records, 108/108 forward
-  cases, no failures/unscorable cases, 343.54 seconds CPU. Source commit 595c8e0.
-  36/36 legacy final fields match E0 bitwise; radius-zero parity passes all 18
-  scenes. Registered artifacts verify and fresh report/audit renders match.
-- One failed post-hoc notebook parser attempt is preserved with its source/error
-  under .local-artifacts/analysis-attempts/20260923-c1-volume-parser-01. It counted
-  a demonstration constructor as well as the trainer; corrected audit selects
-  the actual trainer. This did not modify/re-run the completed experiment.
-
-## What the results mean
-
-Legal targets connect 12/12 legacy + 5/6 reference scenes, with zero forbidden
-voxels. The sixth reference is intentionally impossible and flagged accordingly.
-Bounded expansion alone retains the two ground-target disconnections.
-
-The old checkpoint still connects 0/6 reference scenes with either profile and
-any target. On legacy scenes, training-profile connectivity stays 10/12; serving
-falls from 10/12 to 9/12 with legal targets (seed 0). Do not promote defaults or
-claim a trained-model improvement. The legal scaffold is a useful procedural
-control; spatial connectivity is not walkability or mechanical safety.
-
-The labeled post-hoc volume audit shows all legal targets hold at most
-0.405%-2.538% of the historical non-building denominator, below its 3% lower
-budget. Zero spill and zero lower-volume penalty cannot coexist with those
-narrow targets. Distinguish connection guidance from a material design envelope
-before training; do not silently weaken the budget. The underlying penalties
-are soft, so this is not proof that no architectural design is feasible.
-
-## Latest loss evidence and interpretation
-
-- geometry_losses_v1: nine per-scene continuous terms, separate coverage/envelope
-  masks, original 3%-12% mass limits/non-building denominator, explicit invalid
-  contexts and nonempty flags, strict reduction. Synthetic gradient and batch
-  checks pass. Do not reuse historical weights without calibration.
-- Regression 20260923T002822Z_8f68d5bbcaf7 passed 108 checks; final
-  20260923T003247Z_0ce597b29bc4 passed 109, zero failures/errors/skips and smoke 0.
-- L1 20260923T003413Z_1da1202e4a7f (source fa66238): 72 context checks, 3 model
-  gradient cases, 6 expected historical fine-tuner defects; completed in 29.25s.
-  Source/config/input states/full parameter and occupancy gradients are archived.
-  All artifact hashes, independent gradient norm/cosine recomputation and fresh
-  report/details render checks pass. Reports are in docs/next-phase/reports/.
-- Radius-three envelope: 3/18 valid contexts; radius-six: 12/18. Five feasible
-  scenes fail the radius-six capacity bound. All permitted space gives 17/18,
-  but removes meaningful spill restriction. No envelope is selected for training.
-- Legacy-alone and mixed gradient examples include a capacity-invalid scene;
-  individual terms were inspected diagnostically, never optimized. A nonzero
-  mixed-batch access gradient hides a zero gradient on the ground case.
-- Post-hoc 20260923T003906Z_da05c8eed3f6 exactly replays the ground case. The
-  two voxels carrying its access derivative have pre-clamp values -0.001280 and
-  -0.009346, are permitted and fired, then clamp to zero. The access parameter
-  gradient is zero. This is a local four-step attribution, not a general proof.
-- Ground/legality zero model gradients are expected after hard projection.
-  Finite-hop max/min access/support remain nonsmooth spatial proxies. Architectural
-  access semantics and usefulness on other horizons/seeds remain unresolved.
+- Frozen scene_v1: six reference and 12 legacy scenes with raw/canonical hashes.
+  Legacy inputs MUST use legacy_seed_state; deployed generation differs at facade
+  anchors below street. Production defaults and original checkpoint remain intact.
+- rollout_v2: explicit RNG/fire controls and original notebook-forward parity.
+  E0 20260922T230120Z_76f3b4677e8f:270 cases. E0_FINDINGS.md.
+- corridor_bounded_v1 and corridor_legal_v1: bounded growth and separately versioned
+  legal six-neighbor routing. C1 20260923T000945Z_3cbdc3603a12:54 targets/108 cases.
+  CORRIDOR_FINDINGS.md. Failed long-path attempt 20260923T000715Z_1e06516e9763
+  retained; short filenames fixed publication, not model behavior.
+- geometry_losses_v1: nine shared terms, strict context and batch validation.
+  L1 20260923T003413Z_1da1202e4a7f:72 contexts, three model gradients and six
+  historical defect checks. LOSS_FINDINGS.md. Post-hoc clamp attribution
+  20260923T003906Z_da05c8eed3f6 exactly replays the dead ground derivative.
+- L2 20260923T075113Z_d95fabaf3776:108 budget,54 gradient,nine zero-scaffold
+  cases; no optimizer. All 21 hard pairs match. Pre-clamp coverage derivatives
+  reach the two failed cells; projected access is still blocked in that case.
+  Smooth state introduces background mass without binary connectivity gains.
+  Radius6/envelope necessary-valid17/18 versus site12/18, but only2.04%-10.65%
+  of the site's physical allowance. Radius3/envelope also passes17/18.
+- R1 20260923T075727Z_2233c0e51b9a:four logical updates, ten executed across
+  four processes; all seven exact recovery checks pass. Full checkpoint, RNG,
+  losses and fields match. Nine unit coefficients are mechanics-only. Random
+  sampling covered two of the three available scenes; no legacy optimization.
+- Verification 20260923T074748Z_68688d661ffd:118 tests,zero failures/errors/skips,
+  checkpoint smoke exit0. Linked failed fixture attempt20260923T074523Z_f2efaaf7f135
+  retained. Core code unchanged after pass; R1 exercises its separate-process path.
+- experiments/reports/L2-R1-interventions.md is reconstructed from registered,
+  hash-verified artifacts. Saved gradient norms, hard-pair/frozen fields, recovery
+  checkpoint trees/traces/arrays independently rechecked; fresh render equals file.
+  Failed first report publication (missing directory) preserved under
+  .local-artifacts/analysis-attempts/20260923-l2-r1-report-01; fixed then published.
 
 ## Exact next actions
 
-1. Define explicit candidate material-region and mass-budget contracts, recording
-   the intended denominator and lower bound. Compare their necessary feasibility
-   on the frozen scenes. Do not silently lower 3% or widen regions to force a pass.
-2. Test a separately versioned local gradient intervention on the recorded dead
-   ground case: legal pre-clamp guidance versus a smooth material-state candidate.
-   Keep hard legality and historical code intact. Verify useful derivatives at
-   the failed cells and weights, finite differences, binary outcomes, and matched
-   controls. Do not slip in a straight-through gradient without its own explicit
-   justification or treat it as the exact derivative.
-3. Check longer horizons, other seeds and damaged/zero-route states, then integrate
-   retained regularizers and calibrate objective magnitudes. No adaptive weighting
-   should conceal incompatible definitions.
-4. After these gates, implement a tiny local optimizer/interruption-recovery test
-   saving model/optimizer/scheduler/RNG/scenes/update count. Then complete E2
-   procedural/scaffold/direct-optimization controls and agree a paid Colab cap.
-5. Product work and larger grids remain planned; no user setup is needed now.
+1. Freeze a target compatibility audit across all 18 scenes using legal guide,
+   thick scaffold and explicit volumetric candidates. Evaluate all nine terms,
+   physical amounts, independent binary metrics and architecture interpretations.
+   Necessary capacity bounds alone do not prove joint objective feasibility.
+2. Resolve denominator/radius and intended material thickness deliberately. Keep
+   site/envelope alternatives explicit; no silent mass reduction or wider regions.
+   Pre-clamp coverage is a candidate; it does not repair access semantics by itself.
+3. Measure per-family magnitudes and gradient directions, integrate retained
+   regularizers and calibrate visible fixed coefficients on deterministic scene
+   coverage. Preregister E2 procedural scaffold/direct optimization/NCA controls,
+   longer horizons, damage/absent scaffolds and held-out evaluation.
+4. Extend checkpoint state to the actual research trainer, including sample pool,
+   CUDA RNG and AMP scaler if introduced. Test interruption on that environment.
+   R1 only certifies completed-update CPU boundaries after orderly process exit.
+   Copy fallback on filesystems without hard links is not atomic under power loss.
+5. Prepare a concrete small Colab pilot only after the above; ask for its compute
+   cap and any exact Drive operations before use. Bigger grids and the studio
+   redesign remain planned. No user setup is required for the next local audit.
 
 ## Commands and interruption recovery
 
 From the repo root in PowerShell:
 
 ```powershell
-& .venv/Scripts/python.exe scripts/verify_foundation.py
-& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T003413Z_1da1202e4a7f
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T075113Z_d95fabaf3776
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T075727Z_2233c0e51b9a
 ```
 
-Completed L1/C1 do not need rerunning. If new changes justify a loss-diagnostic repeat:
+Report writers use exclusive creation. To reverify without overwriting:
 
 ```powershell
-& .venv/Scripts/python.exe scripts/run_loss_diagnostics.py --parent-run 20260923T003413Z_1da1202e4a7f
+& .venv/Scripts/python.exe -c "from pathlib import Path; from scripts.report_interventions import render; assert Path('experiments/reports/L2-R1-interventions.md').read_text(encoding='utf-8') == render()"
 ```
 
-This creates a fresh complete attempt; it does not skip/resume cases from an old
-run. Inspect result.json and registered artifacts before retrying an interrupted
-command. Missing finalization means incomplete, not success. Report writers use
-exclusive creation; do not overwrite prior reports to rerender them. The render
-and analyze functions can compare outputs in memory.
+Run scripts/verify_foundation.py only when code changes warrant repeating the
+suite; it archives a fresh result. Before any retry inspect processes, result.json
+and artifacts. Missing finalization means incomplete, not success. L2 repeats use
+`--parent-run 20260923T075113Z_d95fabaf3776`; R1 uses
+`--gate-run 20260923T075113Z_d95fabaf3776` and
+`--parent-run 20260923T075727Z_2233c0e51b9a`. These create new complete attempts and preserve
+old runs; they are not automatic case-skipping resume commands. R1 worker-level
+continuation is orchestrated by its coordinator; do not manually overwrite branches.
 
-Python 3.12.14, CPU torch 2.8.0, NumPy 2.5.2; requirements-cpu.lock.txt. Do not
-install the CPU lock over Colab CUDA. Local write/Git permissions may need renewal
-in a new task. Historical handoffs remain in Git/milestone archives. This handoff
-does not automatically resume work or redeem credits after a usage reset.
-
-## Active L2/R1 work - 2026-09-23
-
-Read INTERVENTION_PROTOCOL.md and D021. Material/budget candidates and CPU
-checkpoint utilities are implemented. Verification 20260923T074523Z_f2efaaf7f135
-failed one test-fixture mapping-type comparison; retained. Linked retry
-20260923T074748Z_68688d661ffd is the next verification result to inspect.
-After passing, run scripts/run_interventions.py. Only its explicit recovery gate
-may authorize the prescribed tiny CPU optimizer/recovery diagnostic. No Colab.
-Inspect active run records/processes before retrying. Preserve all partial data.
+Python3.12.14, CPU torch2.8.0, NumPy2.5.2; requirements-cpu.lock.txt. Do not install
+that CPU lock over Colab CUDA. Local write/Git permissions may need renewal in a
+new task. Previous handoffs remain in Git/archives. This record supports resuming
+work after a limit reset; it does not automatically resume work or redeem credits.

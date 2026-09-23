@@ -319,3 +319,28 @@ failures/errors/skips; checkpoint smoke exit 0. The added tests cover hard-forwa
 and RNG parity, finite differences for both interventions, explicit budget changes,
 spill accounting, hard legality, exact optimizer/scheduler/four-RNG continuation,
 no-overwrite checkpoints, metadata rejection and truncated-file rejection.
+
+## 2026-09-23 - L2 interventions and R1 recovery completed
+
+L2 20260923T075113Z_d95fabaf3776 completed 108 budget, 54 gradient and nine
+absent-scaffold cases in 191.23 seconds CPU, with no optimizer updates. Artifacts
+retain all fields/gradients, physical budgets and individual metrics. The gate
+permitted only the prescribed recovery test. Source commit 95431de.
+
+Added scripts/run_recovery_smoke.py (6ee2ed8). R1
+20260923T075727Z_2233c0e51b9a completed in 23.94 seconds CPU. Four logical
+updates (ten executions across uninterrupted, prefix, resumed, repeat branches)
+pass seven exact checkpoint/trace/field comparisons. No trained-quality claim.
+
+Added scripts/report_interventions.py and experiments/reports/L2-R1-interventions.md.
+It verifies registered artifact hashes and independently recomputes gradient norms,
+hard-pair equality and full recovery comparisons. Fresh reconstruction matches the
+saved report. First report publication failed because experiments/reports did not
+exist; source and failure explanation are retained in
+.local-artifacts/analysis-attempts/20260923-l2-r1-report-01. Added explicit directory
+creation before exclusive publication; no experiment was repeated or altered.
+
+INTERVENTION_FINDINGS.md, D022 and RESUME record physical-budget implications,
+unchanged projected-access failure, smooth background-mass issue, CPU recovery
+limits and next actions. Original artifacts and user files remain intact. Local
+Git milestone and hash-verified recovery archive preserve progress; no cloud use.
