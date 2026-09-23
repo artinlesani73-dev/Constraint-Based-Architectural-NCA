@@ -479,3 +479,13 @@ CPU recovery: four logical updates, ten executions, all seven exact checks and
 all three scenes. Independent checkpoint/field/trace verification passes.
 141 regression tests pass. No CUDA/pool/abrupt-write recovery claim. Read
 CALIBRATION_FINDINGS.md; all raw evidence and source snapshots are preserved.
+
+## D032 - Execute fixed K2 with its actual-loop recovery gate
+
+2026-09-23. User agreed to the proposed next local comparison. K2_PROTOCOL.md
+freezes implementation details before outputs: shared seed-specific permutations,
+explicit Adam defaults, constant learning rate, completed-update checkpoints,
+900-second wall cap per training member, matched evaluation of both recipes under
+both totals and original/W1 controls. Three-update actual-loop recovery precedes
+the four17-update runs. The frozen K2 proposal is unchanged. No paid compute,
+cloud access, architecture change or production switch is authorized by this test.

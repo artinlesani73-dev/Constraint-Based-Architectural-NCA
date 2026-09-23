@@ -243,3 +243,10 @@ Report writers refuse overwrite. For revalidation use load/render or verify/rend
 in memory, comparing with the saved reports. Only repeat an experiment for a new
 reason, with a linked new run ID. Inspect processes and partial result records
 before any retry. K1 and R2 are complete; neither should be restarted now.
+
+## K2 preparation in progress - 2026-09-23
+
+Added nca/sensitivity.py, scripts/run_sensitivity.py and three drift/matching
+regressions. Read K2_PROTOCOL.md and D032. Actual-loop K2R must pass before study.
+No run started at this entry; inspect later run records/processes before retrying.
+Do not edit the loop/runner or hashed modules between recovery gate and study.

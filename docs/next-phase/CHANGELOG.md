@@ -447,3 +447,16 @@ They will consume completed K1 evidence; no partial outcome is published as fina
 - No paid training, cloud access, push, deployment or performance-improvement
   claim. Preserve all earlier runs and local archives; new verified calibration
   archive receipt is in .local-artifacts/milestones/<commit>-backup-receipt.json.
+
+## 2026-09-23 - K2 actual-loop implementation and preregistration
+
+Added explicit CPU sensitivity Session with shared recipe/seed scene order,
+constant learning rate and strict source/config/runtime/input metadata. Added
+fresh-process recovery gate, four-member training/evaluation coordinator,
+per-update immutable checkpoints, retained logs and linked interrupted-run imports.
+K2_PROTOCOL.md preregisters exact evaluation and time caps. New report verifier
+will recompute all saved objectives and evaluation geometry metrics.
+
+Verification20260923T102104Z_15b3cd2f4fd5:144 tests,zero failures/errors/skips,
+checkpoint smoke0. Actual-loop recovery and study have not run at this entry.
+Original proposal, notebook/checkpoint and serving path unchanged.
