@@ -2,3 +2,6 @@
 experiments/scenes/**/*.json text eol=lf
 # Frozen allowance annotations also hash exact bytes across Windows restores.
 experiments/annotations/**/*.json text eol=lf
+
+# Frozen training proposals have exact-byte checkpoint metadata hashes.
+experiments/configs/**/*.json text eol=lf

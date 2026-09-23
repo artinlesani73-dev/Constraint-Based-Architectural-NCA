@@ -140,3 +140,20 @@ and original-facade ablation. Architectural quality validation is still required
 a trivial procedural zero-loss output sets a baseline rather than proving value.
 Do not restart Stage A or request the same scope approval again unless new evidence
 or user steering changes the decision. No paid training has been authorized.
+
+
+## K1/R2 completed; K2 prepared - 2026-09-23
+
+Read CALIBRATION_FINDINGS.md and D031. Actual gradients and regularizer provenance
+are now measured: K1 has 71 model cases and 51 budget probes; 141 tests pass.
+The historical cantilever skips the bottom three layers; REGULARIZER_AUDIT.md
+supersedes any earlier suggestion that it directly penalized cells at z=0.
+Research-objective CPU recovery passes all seven exact checks in R2.
+
+Stage B coefficient selection remains open. K2-sensitivity.json freezes an
+isolated sparsity-weight comparison (30 versus 3), two seeds and 17 updates per
+run, 16-step rollouts, 900-second CPU cap per run. It is prepared, not executed.
+Implement/test the actual K2 loop and run it locally next. Keep no-update and W1
+controls, all per-family failures, and separate fresh holdouts for later E2.
+No evidence yet warrants scaling, architecture changes or a better-model claim.
+Studio work and larger environment diversity remain planned milestones.

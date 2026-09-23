@@ -1,11 +1,10 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **A1 facade comparison and W1 constructive baseline are
-complete.** Read FACADE_FINDINGS.md and D026-D028. User accepted material/form
-generation as the near-term scope. The experimental facade allowance resolves the
-measured budget conflicts, and W1 supplies17 connected zero-loss witnesses.
-Next: actual model-gradient and retained-regularizer calibration preparation,
-then small matched E2 controls. No paid training or production switch.
+Last updated 2026-09-23. **K1 calibration and R2 composed-objective CPU recovery
+are complete. K2 is a frozen proposal, not an executed experiment.** Read
+CALIBRATION_FINDINGS.md, SENSITIVITY_PLAN.md and D031. 141 tests pass. Next implement
+the local K2 trainer/coordinator and test recovery of its actual loop, then run
+the fixed comparison. No active process at this handoff; no user setup needed.
 
 ## Authorization and storage
 
@@ -128,26 +127,26 @@ Local commits are authorized. No remote push, deployment or cloud operation.
 
 ## Exact next actions
 
-1. Read FACADE_FINDINGS.md/D028. Do not repeat completed A1/W1 or restart the scope
-   question. Move to the actual model-gradient and regularizer calibration stage.
-2. Freeze a small calibration protocol across all17 feasible development scenes,
-   multiple firing seeds and short/long horizons. Include under/in/over-budget
-   direct probes, actual NCA parameter derivatives, pre-clamp coverage saturation,
-   explicit fixed coefficients and per-family residuals. No inverse-zero-norm
-   weighting. Keep hard legality/ground expected zero gradients visible.
-3. Audit original notebook TV/density/cantilever definitions/checkpoint recipe;
-   port retained regularizers with numerical/batch checks and correct ground/
-   support handling. Fine-tuner density cap is not binarization. Do not import
-   unrelated porosity/surface objectives. Keep originals intact.
-4. Select a bounded coefficient sensitivity experiment; prepare matched no-update,
-   W1 procedural, direct-optimization and NCA controls. Define learned value beyond
-   matching a guide: edit recovery, long-horizon stability and held-out geometry.
-   Existing18 scenes are development data; freeze fresh holdouts before outputs.
-5. Extend actual trainer recovery to pool/CUDA/AMP state if used. Paid Colab still
-   requires a concrete job and compute cap; EVERY Drive operation needs exact
-   approval. Local calibration/preparation needs no user setup. Studio work can
-   use saved fixtures and truthful material/metric labels in parallel conceptually,
-   but do not spawn agents without explicit authorization.
+1. Read CALIBRATION_FINDINGS.md/D031 and experiments/configs/K2-sensitivity.json.
+   Do not rerun completed K1 or reask the accepted material-generation scope.
+2. Implement a local K2 trainer/coordinator: mapped_30 versus mass_3, seeds 0/1,
+   17 updates each, recorded full scene order, 16-step rollouts, Adam1e-4, clip1,
+   constant scheduler, original checkpoint initialization. Only sparsity differs.
+   Checkpoint every completed update; include actual scene position/RNG/config/
+   source hashes. R2's miniature StepLR harness is NOT the K2-loop resume test.
+3. Verify interruption/resume with this actual loop before executing the four
+   runs. Per-run CPU cap900s; preserve partial/interrupted runs and every attempt.
+   Profile wall time and enforce the cap without claiming incomplete work complete.
+4. Execute the fixed local comparison (68 logical updates total). Evaluate all17
+   development scenes at16/50 steps with firing seed2; include original-checkpoint
+   no-update and W1 controls. Report per-family values and binary failures, not
+   just total loss. Do not choose final weights from local gradient estimates.
+5. Prepare later matched E2 direct-optimization/NCA comparisons and freeze fresh
+   geometry holdouts before their outputs are seen. Existing18 scenes are development
+   data. Architecture, larger grids/diversity and studio remain future milestones.
+6. Refresh docs, commit and verify a new local archive. Paid Colab requires concrete
+   configuration/compute cap and GPU recovery; every Drive operation needs exact
+   approval. Local work needs no new scope confirmation. No agents without authorization.
 
 ## Commands and interruption recovery
 
@@ -202,20 +201,45 @@ Fresh repeats, only if justified, use scripts/run_facade_comparison.py or
 scripts/run_witnesses.py with --parent-run and the relevant previous run ID.
 They preserve prior evidence; they do not resume an unfinished case in place.
 
-## Active K1 calibration diagnostic
+## K1/R2 completed evidence and current restore commands
 
-Read CALIBRATION_PROTOCOL.md,D029,REGULARIZER_AUDIT.md.137 tests passed in
-20260923T092058Z_bba721fc054d. Run scripts/run_calibration.py once.71 model cases
-and51 budget probes; potentially several minutes CPU. Inspect current processes
-and partial run records before any retry. No optimizer or paid compute.
+- K1 `20260923T092355Z_f657f2f3bdb9`, sourcef56932c:71 model-gradient cases,
+  51 budget probes, zero optimizer updates, all independently verified. Recomputed
+  composed objective exactly on all71 saved fields. It took1631.61s including one
+  unexplained410.99s outlier; do not rerun for a timing benchmark. Logged scalar
+  warning was harmless and a later detach-only logging fix is documented.
+- R2 `20260923T095240Z_652e01d22fee`, source0fca1b8:four logical/ten executed
+  updates across four fresh processes, three scenes, all seven exact recovery
+  checks. Independent full checkpoint/trace/array checks pass. CPU orderly
+  completed-update boundary only; no CUDA/AMP/pool/abrupt-write or K2-loop claim.
+- Verification137tests:20260923T092058Z_bba721fc054d; latest141tests:
+  20260923T092752Z_fa771e070c3d,zero failures/errors/skips,checkpoint smoke0.
+- Intermediate source commits: f56932c regularizers/K1,82b5485 objective/recovery
+  preparation,0fca1b8 K1evidence/K2proposal. Final evidence commit follows; inspect
+  Git log and matching backup receipt. All prior milestone history is preserved.
+- Main finding: at16steps historical numeric coefficients on corrected formulas
+  give coverage-improving negative-raw-gradient directions in2/34 cases versus
+  18/34 with only sparsity30->3. This is NOT predicted Adam learning. Ground-pair
+  projected access remains blocked; thickness inactive; neither recipe finalized.
+- Reports: experiments/reports/K1-calibration.md,R2-recovery.md and verification/
+  rerender receipts. K2 config and directional estimates are tracked, not outcomes.
+- Latest full backup pattern: outputs/NCA-Calibration-Backup-2026-09-23-<commit>.zip
+  in the Codex cwd above, plus .zip.sha256; receipt in repo.local-artifacts/milestones.
+  Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_calibration.py
+  with R2 run ID as argument. It verifies all ZIP payloads, a fresh Git restore,
+  scenes/annotations/config hashes and registered R2 exact-source snapshot bytes.
+  Preserve earlier backups. Same-disk archive only, not off-device protection.
+- A restored Git checkout may normalize Python line endings and fail exact code
+  hashes. Use the registered source_snapshot ZIP from the relevant run, extracted
+  into a NEW workspace, for exact source-byte recovery. Never replace historical
+  artifacts or silently bypass metadata checks. Environment versions also must match.
 
-## In-flight K1 state
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T092355Z_f657f2f3bdb9
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T095240Z_652e01d22fee
+```
 
-Run20260923T092355Z_f657f2f3bdb9, sourcef56932c, is the active71-case diagnostic.
-Check its result.json/process state before retrying. Scalar logging emitted a
-PyTorch requires-grad-to-float warning in the direct-probe mass-ratio field;
-this is logging only, not an exception or changed derivative. Do not edit the
-running runner/modules until completion. Additional independent objective-adapter
-work passed141 tests in20260923T092752Z_fa771e070c3d and is not part of K1's code
-snapshot. No optimizer/paid compute. Reports and K2 proposal scripts are prepared
-but must only consume completed, verified K1 evidence.
+Report writers refuse overwrite. For revalidation use load/render or verify/render
+in memory, comparing with the saved reports. Only repeat an experiment for a new
+reason, with a linked new run ID. Inspect processes and partial result records
+before any retry. K1 and R2 are complete; neither should be restarted now.

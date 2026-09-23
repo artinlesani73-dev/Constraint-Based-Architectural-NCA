@@ -458,3 +458,24 @@ prepared for four logical CPU updates after completed K1 and a saved K2 proposal
 It cycles all three diagnostic scenes and preserves source/proposal hashes and
 coefficients in metadata. This is recovery preparation, not a full training pilot.
 K1 is still active in20260923T092355Z_f657f2f3bdb9; no outcomes are presumed.
+
+
+## D031 - K1 measured; isolate budget coefficient before larger training
+
+2026-09-23. K1 20260923T092355Z_f657f2f3bdb9 completed 71 actual parameter-gradient
+cases and 51 budget probes. At 16 steps sparsity has median gradient norm 12.7824
+versus coverage 1.4032. Historical numeric coefficients mapped to corrected
+formulas give a coverage-improving raw direction in 2/34 cases; reducing only
+sparsity 30 to 3 gives 18/34. This is a local derivative comparison, not Adam
+learning evidence. Ground-pair access remains blocked; thickness remains inactive.
+
+Freeze mapped_30 and mass_3 in K2-sensitivity.json for a local 68-update comparison
+(two seeds, 17 updates per recipe/seed, 16-step rollouts, per-run 900-second cap).
+Do not select final coefficients or change architecture from these gradients.
+K2 is prepared, not run; implement and test its actual resumable loop next.
+
+R2 20260923T095240Z_652e01d22fee verifies the combined objective's completed-update
+CPU recovery: four logical updates, ten executions, all seven exact checks and
+all three scenes. Independent checkpoint/field/trace verification passes.
+141 regression tests pass. No CUDA/pool/abrupt-write recovery claim. Read
+CALIBRATION_FINDINGS.md; all raw evidence and source snapshots are preserved.

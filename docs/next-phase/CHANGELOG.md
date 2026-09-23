@@ -423,3 +423,27 @@ selection, incompatible-context refusal and pre-clamp saturation. Verification
 Prepared verified report/proposal writers and gated R2 composed-objective recovery
 runner/protocol. These additions are independent of K1's preserved source snapshot.
 They will consume completed K1 evidence; no partial outcome is published as final.
+
+
+## 2026-09-23 - K1 completed, K2 frozen proposal and R2 exact CPU recovery
+
+- Completed K1 20260923T092355Z_f657f2f3bdb9: 71 model-gradient cases and 51 budget
+  probes. Independently checked saved vectors/norms/cosines, raw coverage and
+  analytic budget derivatives; recomputed all 71 composed objective records.
+- Recorded historical regularizer provenance and checkpoint coefficients. Added
+  explicit research_objective_v1 with complete nine-family/three-regularizer
+  weights and joint context validation. Original training/serving remain intact.
+- Preserved the 137-test and 141-test successful runs. K1's harmless scalar logging
+  warning is retained; later logging uses detach without changing derivatives.
+- Prepared fixed K2 mapped_30 versus mass_3 proposal and directional estimates.
+  The future trainer is not implemented or run; the proposal now fixes 16-step
+  rollouts because four-step budget gradients were inactive. See D031.
+- Completed R2 20260923T095240Z_652e01d22fee at source 0fca1b8: four logical/ten
+  executed updates in four CPU processes, all seven exact recovery checks pass.
+  Independently verified registered checkpoint trees, traces and field arrays.
+- Added CALIBRATION_FINDINGS.md and refreshed resume/plan. Enforced LF for frozen
+  experiment configuration JSON so its byte hash survives Windows Git restore.
+  Exact Python source bytes remain recoverable from registered run snapshots.
+- No paid training, cloud access, push, deployment or performance-improvement
+  claim. Preserve all earlier runs and local archives; new verified calibration
+  archive receipt is in .local-artifacts/milestones/<commit>-backup-receipt.json.
