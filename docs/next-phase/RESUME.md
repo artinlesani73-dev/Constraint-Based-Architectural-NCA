@@ -1,6 +1,16 @@
 # Resume the NCA next phase
 
-## Current completed F3 milestone - 2026-09-23
+## Current A3 preparation - 2026-09-23
+
+Read RAW_ACCESS_AUDIT_PROTOCOL.md and D047. Source/config implemented; no pilot
+or full audit yet. Next: full foundation regression, local source commit, then
+.venv/Scripts/python.exe scripts/run_raw_access_audit.py --mode pilot
+Verify with scripts/report_raw_access_audit.py <pilot-ID>. Only after successful
+verification and timing admission execute --mode study --pilot-run <pilot-ID>.
+No optimizer updates, paid compute, Drive access or remote push. Preserve all
+prior outcomes. Prior F3 archive c5183a9 receipt verified at start of this task.
+
+## Previous completed F3 milestone - 2026-09-23
 
 Read HORIZON_TRAINING_FINDINGS.md and D046, then ACCESS_RECOVERY_PLAN.md.
 F3 full20260923T160713Z_cc33850561b8 completed1722.77s,256 updates and120 unique
@@ -660,3 +670,7 @@ F3P20260923T160209Z_e292a696d594 completed223.38s,8 updates/24 boundaries/72 gri
 Supplement F3L registered while full active, before final outcome review: scripts/check_horizon_late_recovery.py <full-ID> repeats62->63->64 for all4models, checks complete checkpoint/trace/field equality and cursors. Run after full verification; no added learned exposure. Wrapper separate hash, core37 hashes unchanged.
 
 Full F3 verification passed376 fields/260 cursors/8 exact final rollouts,37 source hashes. Late launch escalation timed out before process creation (tool reported6632.2s); no study time affected. Normal authorized local retry succeeded: F3L20260923T184328Z_418e31921193 active session66685. Post-hoc F3-outcomes.json saved:72/72 mass reductions,59 connectivity losses,0 gains,0 joint final/boundary successes.
+
+A3 regression20260923T192815Z_f7cdbff9cc00 active session61518. Inspect result and log before retry; no diagnostic run yet.
+
+A3 regression20260923T192815Z_f7cdbff9cc00 completed180 tests, zero failures/errors/skips, smoke0,84.62s. Next source commit then timing pilot; scientific code frozen.

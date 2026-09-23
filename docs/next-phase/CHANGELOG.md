@@ -687,3 +687,13 @@ Full F3 completed1722.77s, all elapsed caps met. Reporter verified376 unique fie
 F3L20260923T184328Z_418e31921193 completed118.04s: all8 trained-state updates and8 evaluations match full checkpoint/trace/field trees,8 cursors and38 source hashes checked. Saved F3-outcomes and critical-cell inspections with their exact scripts:72 mass reductions,59 connection losses,0 gains;51 negative/21 zero critical raw values, all72 access losses1. No new parameter-gradient experiment in that post-hoc inspection.
 
 Chart attempts: initial normal execution denied reading matplotlib; after explicit read permission two normal attempts imported an incomplete namespace and lacked matplotlib.use. Folder metadata read also denied. No chart artifact had been created. Scoped elevated rendering succeeded using existing isolated libraries; all48 plotted points/hashes verified and chart visually inspected. Training environment unchanged. Added HORIZON_TRAINING_FINDINGS, ACCESS_RECOVERY_PLAN, D046 and final RESUME/PLAN updates. Preserve the negative result; no model promoted. Local results commit and full archive follow; completion recorded in milestone receipt.
+
+
+A3 preparation 2026-09-23: added signed raw maximin loss, separate exact forward
+trace, frozen231-field registry, six-term actual gradient audit, weighted
+conflicts and reversible two-sided local probes. Added full artifact verifier,
+protocol and regression coverage; historical access/rollout sources unchanged.
+A preparation command used unavailable generic python and made no changes;
+retried with the project interpreter. No experiment outcome yet.
+
+A3 preparation regression20260923T192815Z_f7cdbff9cc00 passed180 tests with no failures/errors/skips and original-checkpoint smoke0 in84.62s. No scientific code changes after verification.

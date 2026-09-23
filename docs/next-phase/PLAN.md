@@ -272,3 +272,12 @@ critical raw material is negative in51/72 finals, exactly0 in21; distinguish
 measured clipping from unmeasured parameter gradients. Preserve binary semantics,
 budgets, architecture and9 families. New learning needs its own parity/recovery/
 timing gates; larger grids, fresh holdouts and production UI remain later work.
+
+
+## A3 diagnostic execution - 2026-09-23
+
+Follow RAW_ACCESS_AUDIT_PROTOCOL.md/D047. Run complete regression, preserve source
+commit, then pilot and verify it. Full audit is conditional on timing admission
+and exact source/config equality. Interpret actual parameter gradients and local
+probes before proposing any new learning. Update findings/RESUME and archive all
+evidence including failures. Current task adds no optimizer updates.

@@ -720,3 +720,14 @@ while full study ran, before final outcome review; updates63/64 and evaluations
 match exactly for all four models. No added learned exposure. All scientific
 caps met. Approval-launch timeout and plot-access failures remain documented
 separately. Preserve the negative result and all evidence; no model promoted.
+
+
+## D047 - Freeze the A3 raw-access diagnostic
+
+2026-09-23. User approved advancing after F3. Freeze A3-raw-access.json and
+RAW_ACCESS_AUDIT_PROTOCOL.md: 231 frozen fields, eight actual F3 gradient cases,
+reversible +/-0.0001-L2 parameter probes, no optimizer updates. Pilot25 fields/2
+gradients gates1500-second full CPU audit by timing only. Candidate stays opt-in;
+existing objective, forward, architecture, nine families and budgets unchanged.
+Preserve zero gradients and unsuccessful probes. No training/promotion, paid
+compute, Drive operation or push is part of A3.

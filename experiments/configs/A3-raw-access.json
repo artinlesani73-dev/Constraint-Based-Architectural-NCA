@@ -1,0 +1,19 @@
+{
+  "protocol": "A3_raw_access_v1",
+  "F3_run": "20260923T160713Z_cc33850561b8",
+  "H1_run": "20260923T150119Z_f7b304516723",
+  "W1_run": "20260923T084933Z_eb2603cd79f7",
+  "D1_run": "20260923T105246Z_ab0d4a430b4c",
+  "pilot_per_group": 5,
+  "pilot_branch": "mass_3-r0",
+  "gradient_horizons": [16, 50],
+  "firing_seed": 2,
+  "parameter_probe_l2": 0.0001,
+  "replay_worker_cap_seconds": 300,
+  "gradient_worker_cap_seconds": 120,
+  "pilot_total_cap_seconds": 600,
+  "study_total_cap_seconds": 1500,
+  "safety_factor": 1.5,
+  "optimizer_updates": 0,
+  "scope": "Frozen development evidence; research-only raw access candidate; no training or promotion"
+}
