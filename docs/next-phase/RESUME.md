@@ -1,5 +1,14 @@
 # Resume the NCA next phase
 
+## Active F3 implementation - 2026-09-23
+
+User approved advancing after H1. Added versioned mixed-horizon session/runner,
+all-field verifier and four guard tests; no scientific run yet. Read
+HORIZON_TRAINING_PROTOCOL.md/D045. Next: regression, source commit, constant16
+F2 parity, actual16/50/16 recovery, timing-only pilot and conditional full study.
+Full local cap3600s/member1200s. Update here with run IDs before proceeding.
+No Drive, paid compute, push or production action.
+
 ## Current completed H1 milestone - 2026-09-23
 
 H1 full `20260923T150119Z_f7b304516723` completed in 603.78 seconds, all elapsed
@@ -598,3 +607,5 @@ Estimated989.49s admits1500s cap. H1 full20260923T150119Z_f7b304516723 active,
 session10499. All source/config unchanged from3acdefd. After completion run
 scripts/report_growth_audit.py on that ID, document findings/next decision,
 commit and use work/package_nca_growth.py <pilot ID> <full ID> in Codex cwd.
+
+F3 preparation regression20260923T155421Z_8e4d3bfc6919 passed172 tests, zero failures/errors/skips, smoke0. Source commit precedes first parity run; no code changes after pass.

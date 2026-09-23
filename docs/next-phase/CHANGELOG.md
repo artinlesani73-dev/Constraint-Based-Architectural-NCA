@@ -2,6 +2,16 @@
 
 Append meaningful changes, including failures and unresolved limitations. Historical documentation remains intact.
 
+## 2026-09-23 - F3 implementation
+
+Added separate horizon_training session, runner, all-field verifier, frozen
+proposal/protocol and four schedule/timing/metadata guard tests. Existing F2 code,
+original checkpoint and production defaults untouched. Checkpoints identify full
+schedule and completed cursor; a separate record states the next horizon.
+Final-grid boundary reuse is explicit. Local cap3600s, gated on parity, actual
+recovery and timing. No scientific run yet. An initial documentation patch failed
+on a mismatched CHANGELOG heading; checked files before applying corrected patch.
+
 ## 2026-09-13 - M0 foundation implementation
 
 - Created `next-phase/foundations` from ac913b9; preserved 50 original files in a hash-verified local archive at `.local-artifacts/source-snapshots/before-next-phase-20260913T192856Z/`.
@@ -665,3 +675,5 @@ Finish with a local results commit and full verified archive; milestone receipt
 records archive identity/hash, payload count and restore checks. Archive includes
 all prior evidence and private reports while reports remain Git-ignored. No
 Drive operation, paid compute, production/default change or remote push.
+
+F3 regression20260923T155421Z_8e4d3bfc6919 passed172 tests, zero failures/errors/skips, original-checkpoint smoke0. Freeze scientific code/config after this pass before parity/recovery/pilot.

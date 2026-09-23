@@ -687,3 +687,13 @@ mixed-horizon recovery and freeze a timing allowance before full execution. No
 pool, architecture or budget change simultaneously. Preserve no-success outcome,
 all raw evidence and individual failures. F3 remains unexecuted; no promotion,
 paid training, Drive access, deployment or remote push.
+
+## D045 - Isolate mixed-horizon training
+
+2026-09-23. User approved advancing after H1. Freeze F3-horizon-training.json and
+HORIZON_TRAINING_PROTOCOL.md: constant16 parity, strict16/50/16 CPU recovery,
+full-grid timing pilot, then conditional64 updates/model. Local cap3600s total,
+1200s/member, timing-only admission with1.5 safety factor. Only training horizon
+exposure changes;2112 versus1024 recurrent steps/model is unequal compute. Keep
+all9 families, budgets, recipes, initialization/scenes and failed attempts.
+No automatic promotion, Drive operation or paid compute.
