@@ -555,3 +555,11 @@ change in that audit. Three final long-horizon connections, no joint-budget
 success; fixed-source/region-source mismatch documented as next work, D037.
 All256 updates clipped; parameter movement4.40%-5.53% is descriptive only.
 No experiment or analysis attempt failed this milestone. No model promoted.
+
+
+## 2026-09-23 - A2 access audit preparation
+
+Added opt-in component_bottleneck_v2 and independent binary component BFS; neither
+changes existing losses or serving. Added semantic/gradient/threshold fixtures,
+a frozen277-field/12-gradient diagnostic and per-process caps. Preserve exact
+source fields and parameter vectors, including zero gradients. Results pending.

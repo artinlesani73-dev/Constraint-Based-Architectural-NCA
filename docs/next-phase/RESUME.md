@@ -1,6 +1,8 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **F1 repeated-scene study and verification are complete.**
+Last updated 2026-09-23. **A2 access audit preparation is active.**
+Read ACCESS_AUDIT_PROTOCOL.md/D038. Inspect new run records before retrying.
+Previous milestone: F1 repeated-scene study and verification are complete.
 Read FITTING_FINDINGS.md/D037 and ACCESS_ALIGNMENT_PLAN.md. No active process at
 handoff.151 tests pass. At50 growth steps three of four final models connect,
 none at16; no evaluated boundary is connected AND in budget. No model promoted.

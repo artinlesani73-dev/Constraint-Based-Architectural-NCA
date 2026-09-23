@@ -1,0 +1,22 @@
+{
+  "protocol": "A2_proposal_v1",
+  "fitting_run": "20260923T112646Z_dcd0601d0655",
+  "sensitivity_run": "20260923T102524Z_f5e1cc169dea",
+  "direct_run": "20260923T105246Z_ab0d4a430b4c",
+  "gradient_scenes": ["ref-01-ground-pair", "ref-06-minimal-smoke"],
+  "replay_cases": 277,
+  "gradient_cases": 12,
+  "firing_seed": 2,
+  "optimizer_updates": 0,
+  "replay_cap_seconds": 600,
+  "gradient_case_cap_seconds": 120,
+  "total_cap_seconds": 900,
+  "device": "cpu",
+  "threads": 2,
+  "paid_compute": false,
+  "candidate": "component_bottleneck_v2",
+  "candidate_changes_within_access": ["best single connected component touching all regions", "worst destination rather than mean", "unbounded spatial paths rather than 64 hops"],
+  "attribution_replays": ["fixed source, mean destination, 64 hops (v1)", "fixed source, worst destination, 64 hops", "fixed source, worst destination, unbounded", "one component across regions, worst destination, unbounded (candidate)"],
+  "gradient_terms": ["access_v1", "access_v2", "coverage", "sparsity", "total_v1", "total_v2"],
+  "notes": ["Keep v1 metrics and all saved evidence.", "Candidate CPU topology search is not a smooth relaxation or a GPU trainer.", "Deterministic critical-voxel subgradient; compare gradient directions, not hypothetical optimizer outcomes.", "No new constraint family, production change, optimizer step or coefficient tuning."]
+}

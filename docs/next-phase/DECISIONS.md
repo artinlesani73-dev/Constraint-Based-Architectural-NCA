@@ -586,3 +586,15 @@ freeze a consistent single-source interpretation and test one change at a time.
 Do not remove the fragmented-source safeguard, inflate budgets or add families.
 No paid training, cloud access, push or production switch. Full findings and all
 failures/tradeoffs are in FITTING_FINDINGS.md and F1 reports.
+
+
+## D038 - Audit a shared single-component entrance contract
+
+2026-09-23. User authorized the next local access/gradient audit. A2-access.json
+and ACCESS_AUDIT_PROTOCOL.md freeze277 saved-field replays and12 gradient cases,
+no optimizer. Experimental component_bottleneck_v2 requires one actual component
+to touch every entrance region. A deterministic critical-voxel derivative avoids
+merging unrelated source origins; topology selection is CPU-only and nonsmooth.
+Explicitly separate source/reducer/hop-limit changes using intermediate replays.
+Keep all old definitions and report changes; do not promote the candidate or
+change production. Caps600s replay/120s per gradient/900s total.
