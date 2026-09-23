@@ -299,3 +299,18 @@ validation and production Studio remain later work.
 Follow RAW_ACCESS_TRAINING_PROTOCOL.md/D049: regression and source freeze, F4B
 parity, F4R recovery, F4P timing pilot, conditional bounded F4 then F4L. Preserve
 all outputs and judge joint connectivity/budget, not raw-loss improvement.
+
+
+## F4 complete; persistent conditioning proposed - 2026-09-23
+
+F4 full20260923T202649Z_75034cca563c completed1321.78s within frozen caps.
+Raw access gains3 connections, loses0:62/72 versus59/72. Both arms0/72 joint
+and0/72 in-budget. Full verifier and early/trained-state recovery passed;
+187 regression tests. Read RAW_ACCESS_TRAINING_FINDINGS.md and D051.
+
+Next implement the bounded PERSISTENT_GUIDE_PLAN.md architecture comparison,
+starting with parity/gradient/context-binding tests and a frozen protocol.
+Use F4 as an unpromoted research control; original initialization for both arms.
+No second loss change or bigger grids. No conditioning training has started.
+M4 Studio redesign remains outstanding; F4 is a research milestone, not a UI or
+production release. Preserve exact evidence and archive receipts before resuming.

@@ -1,0 +1,22 @@
+{
+  "Drive_operations": 0,
+  "F2_configuration_fields_exact": [
+    "recipes",
+    "training_scenes",
+    "training_seed",
+    "updates_per_member",
+    "rollout_steps",
+    "optimizer",
+    "evaluation"
+  ],
+  "first_pilot_rejection_preserved": true,
+  "frozen_scientific_source_hashes": 41,
+  "historical_H1_source_hashes_unchanged": 31,
+  "objective_difference": "Only access uses raw maximin hinge; verified by regression and baseline parity",
+  "paid_compute": false,
+  "recurrent_training_steps_per_member_both_arms": 1024,
+  "remote_push": false,
+  "run_id": "20260923T202649Z_75034cca563c",
+  "second_pilot_equivalence": "experiments/reports/F4-efficiency-parity.json",
+  "source_commit": "373968d0cdd79618753338bafaf2a3b74710489d"
+}

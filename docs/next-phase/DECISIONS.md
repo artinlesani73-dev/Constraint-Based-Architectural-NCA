@@ -776,3 +776,29 @@ Preserve original reports under F4B/F4R/F4P; new reports F4B2/F4R2/F4P2. Compare
 second pilot's entire traces/fields/checkpoints to the first, excluding declared
 source identity. All41 hashed files remain fixed within each version. Caps,
 selection and admission equation unchanged; no timing-only repeat of old code.
+
+
+## D051 - Keep F4 as a research control; test persistent guide conditioning
+
+2026-09-23. Verified full F4 20260923T202649Z_75034cca563c retains all59 F2
+connections and gains3, reaching62/72. Neither arm has a final in-budget case or
+joint success. No joint success across120 unique F4 evaluations. Material falls
+in30 matched cases, rises38, unchanged4. All four trajectories differ at update2;
+all256 gradients clipped. Do not promote either model or infer generalization.
+
+Late recovery20260923T205434Z_c8136d2ce8e8 exactly reproduces eight updates and
+eight evaluations from four trained checkpoints. Full verification:41 source
+hashes/376 fields/260 cursors/128 controls/eight final rollouts.187 regression
+tests pass; all timing caps met. Both source versions and rejected first pilot
+admission preserved, with complete cross-version pilot parity.
+
+Next PERSISTENT_GUIDE_PLAN.md proposes only an architecture-conditioning change:
+expose the same corridor_legal_v1 scaffold each update through a zero-initialized
+384-weight guide branch. F4 is the fixed raw-objective/constant16 research
+control; F2 remains an additional reference. Both arms start from original
+Model C. No loss, budget, scene, channel-count, horizon or pool change in that
+comparison. Require parity, gradient, context-binding, restart and timing gates
+before learning. Missing context is a hypothesis, not a proven cause. No new
+training under the proposal yet. No model/default promotion, paid compute,
+Drive operation, remote push or deployment. Review representation/NCA role if
+this bounded test fails before more loss tweaking or scaling.

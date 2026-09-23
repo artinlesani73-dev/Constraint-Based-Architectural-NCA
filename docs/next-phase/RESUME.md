@@ -1,6 +1,112 @@
 # Resume the NCA next phase
 
-## Current F4 preparation - 2026-09-23
+## Current completed F4 milestone - 2026-09-23
+
+No active training or verification process. Read RAW_ACCESS_TRAINING_FINDINGS.md,
+D051 and PERSISTENT_GUIDE_PLAN.md before further work. F4 full
+20260923T202649Z_75034cca563c completed1321.78s,256 updates/120 unique evaluations,
+all900/member and2400/total caps met. Outcome62/72 connected vs59/72 F2,
+gains3/losses0, zero in-budget/joint final cases in either arm. No promotion.
+
+Full verifier passed41 source hashes,376 fields,260 cursors,128 F2/H1 controls
+and eight final rollouts. Early recovery passed; F4L20260923T205434Z_c8136d2ce8e8
+replayed four update62->63->64 checkpoints exactly:8 updates/8 evaluations in
+83.58s, all caps met.187-test regression20260923T201206Z_4b81a6dabfa4 passed with
+zero failures/errors/skips, smoke0. Scientific source373968d unchanged afterwards.
+
+Final source gates: B2 20260923T201413Z_628ce760d88c, R2
+20260923T201744Z_ef6c479ec7f8, P2 20260923T202008Z_206b3f6adb5f. P2 timing
+2356.91 admitted2400. First-source12357e8 B/R/P retained, including rejected
+P20260923T200402Z_b794e30d69ba forecast2409.50>2400. D050 removes redundant
+evaluation work; pilot traces/fields/full state exact between source versions.
+All31 historical H1 hashes unchanged. No source/cap/outcome guard bypass.
+
+Evidence: experiments/reports/F4-*.json and F4L-verification.json, F4B2/F4R2/F4P2
+reports, experiments/records/<ID>.json; raw .local-artifacts/runs/<ID>.
+Post-hoc scripts/receipts in .local-artifacts/analysis-attempts/F4-*.
+Final figure F4-horizons-v2.png,48 points checked and visually inspected; v1 kept.
+
+### Exact next step
+
+Implement PERSISTENT_GUIDE_PLAN.md as one bounded architecture test. Keep the F4
+raw objective, constant16 horizon, original Model C initialization for both arms,
+two scenes, two recipes and64 updates/member. Separate versioned guide branch:
+same scaffold, four cached perception features, zero-initialized4->96 projection
+before first ReLU (384 added weights); preserve eight total state/four evolving channels.
+First implement/test null/zero-branch parity, backbone vs guide gradients, context
+binding, RNG preservation, checkpoint migration and actual-loop recovery; freeze
+protocol/config/source and compute caps before any learning. Do not train from
+F4's final weights, alter losses/weights/scenes, or scale resolution concurrently.
+F4 remains a research control, F2 additional reference, neither production-ready.
+If bounded conditioning fails, review representation and role vs W1/D1 controls.
+No conditioning training is active or already implemented.
+
+Use project .venv/Scripts/python.exe (3.12.14, torch2.8.0+cpu, numpy2.5.2).
+This venv has no pip; do not modify it for plotting. Git branch
+next-phase/foundations. Preserve unrelated NCA-Studio-Concept.html and the
+untracked M1 archive sidecar. Private NCA-Next-Phase-Report md/pdf stay ignored.
+
+### Archive completion and interruption recovery
+
+The final local results commit uses message "Record F4 raw-access learning
+results and persistent-guide next step". Determine its ID from Git rather than
+this file. Full archive builder in Codex cwd work/package_nca_raw_access_training.py
+takes the B2,R2,P2,full IDs above. A successful archive is named
+outputs/NCA-Raw-Access-Training-Backup-2026-09-23-<commit7>.zip in Codex cwd,
+with .zip.sha256 and .local-artifacts/milestones/<commit7>-backup-receipt.json.
+Check the receipt and matching hash before treating archive completion as true.
+It verifies a fresh Git restore,6 reference/12 legacy scenes,18 annotations,
+41 exact snapshot source hashes and every archived payload. Preserve all old
+archives. If interrupted during packaging, inspect process/files; never overwrite
+partial evidence. Use a separately named linked packaging attempt if necessary.
+
+For historical optimizer replay extract that run's exact source ZIP into a NEW
+workspace; Git checkout line endings may differ. Existing reporters use exclusive
+outputs, so do not blindly rerun them. Inspect completed result.json first.
+
+All work local. Same-disk archive is not an off-device backup. Drive requires
+explicit approval for EVERY operation, only folder1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H.
+No paid Colab, Drive access, push, production checkpoint change or deployment.
+
+
+## Historical in-progress F4 checkpoint - superseded below
+
+Full20260923T202649Z_75034cca563c active session75488. Source373968d,41 frozen
+scientific hashes. Inspect result/process/logs before any retry. Worker900s,
+full2400s,64 constant16 updates/model across four members. Do not edit hashed
+code/config while running, change caps or restart from zero after interruption.
+
+First source12357e8: B20260923T195731Z_c19895c6c745 exact12/24 in142.85s;
+R20260923T200110Z_961286a9e4b3 all11 recovery checks in91.25s;
+P20260923T200402Z_b794e30d69ba completed328.52s but timing2409.50>2400 NOT
+admitted. All first-source reports retained F4B/F4R/F4P. D050 removes one
+redundant evaluation recomputation, changes no objective/step/cases/caps.
+
+Revised source373968d: regression20260923T201206Z_4b81a6dabfa4 passed187 tests,
+zero failures/errors/skips, smoke0. B2 20260923T201413Z_628ce760d88c exact12/24
+in134.59s; R2 20260923T201744Z_ef6c479ec7f8 all11 checks in85.55s;
+P2 20260923T202008Z_206b3f6adb5f completed295.22s, timing2356.91 admits2400.
+All reporter verifications passed41 hashes and saved fields/controls.
+F4-efficiency-parity.json verifies all8 updates/24 boundary/72 grid records
+and full checkpoint/RNG states exact between pilots;96 unique fields. Training
+step AST unchanged. New gate reports use F4B2/F4R2/F4P2 prefixes.
+
+After full completion, project .venv/Scripts/python.exe:
+- scripts/report_raw_access_training.py 20260923T202649Z_75034cca563c
+- scripts/check_raw_access_late_recovery.py 20260923T202649Z_75034cca563c
+- Codex cwd work/analyze_f4.py (after full evidence report exists)
+- work/plot_f4.py, visually inspect figure, then work/verify_f4_figure.py.
+Plotting uses isolated Codex cwd .plot-deps; do not install in project venv.
+Preserve all failures, document final outcome/next decision and source provenance,
+commit locally and archive with work/package_nca_raw_access_training.py B2 R2 P2
+fullID (IDs above). Builder requires F4L-verification.json and includes every
+previous run/private report; validates bundle/restore/source/payload hashes.
+
+Primary outcome joint component connectivity/material budget, not raw loss.
+No paid compute, Drive operation, production promotion or remote push. Previous
+full local archive878d5f2 receipt exists; same-disk copy only.
+
+## Previous F4 preparation - 2026-09-23
 
 Read RAW_ACCESS_TRAINING_PROTOCOL.md/D049. Source implemented, no F4 run yet.
 Next full regression, source commit, then scripts/run_raw_access_training.py
@@ -756,3 +862,21 @@ First pilot fully verified but not admitted. D050 removes redundant evaluation r
 Efficiency-revision regression20260923T201206Z_4b81a6dabfa4 active session50349. After pass commit new source, launch parity with --parent-run 20260923T195731Z_c19895c6c745 and use F4B2 report prefix.
 
 Efficiency regression20260923T201206Z_4b81a6dabfa4 passed187 tests, no failures/errors/skips, smoke0,86.46s. No scientific edits after pass. Next preserve revised source and repeat B2/R2/P2 with parent links; independently compare full pilot evidence using work/verify_f4_efficiency.py <old-pilot> <new-pilot> before full training.
+
+F4B2 20260923T201413Z_628ce760d88c active session30253; revised source373968d. Use report_raw_access_training.py <ID> F4B2. Then fresh recovery linked to oldR and fresh pilot linked to oldP. All caps unchanged; only two of41 scientific source hashes changed (evaluation reuse and report prefix).
+
+F4B2 20260923T201413Z_628ce760d88c completed134.59s with exact12/24 F2 parity. Reporter session37901 active. Next --mode recovery --parity-run thisID --parent-run 20260923T200110Z_961286a9e4b3; report prefix F4R2.
+
+F4B2 fully verified41 hashes/36 fields/16 cursors. F4R2 20260923T201744Z_ef6c479ec7f8 active session28631; next report with F4R2 prefix, then P2 linked to first pilot.
+
+F4R2 20260923T201744Z_ef6c479ec7f8 completed85.55s, all11 restart checks pass. Reporter session59569 active. Next P2 --parity-run 20260923T201413Z_628ce760d88c --recovery-run 20260923T201744Z_ef6c479ec7f8 --parent-run 20260923T200402Z_b794e30d69ba.
+
+F4R2 reporter passed. F4P2 20260923T202008Z_206b3f6adb5f active session11377, revised source373968d. Report with F4P2 prefix, then work/verify_f4_efficiency.py 20260923T200402Z_b794e30d69ba 20260923T202008Z_206b3f6adb5f. Full only if verified and timing-admitted.
+
+F4P2 20260923T202008Z_206b3f6adb5f completed295.22s; estimate2356.91s admits unchanged2400 cap. Cross-version pilot check passed all8 updates/24 boundary/72 grid records and full checkpoint trees, plus identical step AST;96 unique fields. Reporter active session12997. Full may start only after report verifies.
+
+Full F4 20260923T202649Z_75034cca563c active session75488, source373968d,41 frozen hashes. All B2/R2/P2 and cross-pilot equivalence gates passed; full admitted2356.91s under2400 cap. After completed: report_raw_access_training.py <full-ID>, check_raw_access_late_recovery.py <full-ID>, work/analyze_f4.py, findings/decision/provenance/plot and verified archive. Never restart from zero or change caps if interrupted; inspect completed records/processes first.
+
+Full F4 20260923T202649Z_75034cca563c completed1321.78s,256 updates/56 boundary evaluations plus72 final-grid records (8 reused). All phase/worker caps met. Full reporter active session16575. Next F4L after verifier passes; do not rerun training.
+
+Full verifier passed41 source hashes/376 fields/260 cursors/128 controls/eight final rollouts. F4L20260923T205434Z_c8136d2ce8e8 active session16782: four update62-to64 resumes, worker120/total360s. Inspect result before retry.

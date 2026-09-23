@@ -1,0 +1,17 @@
+{
+  "all_traces_fields_and_checkpoint_states_exact": true,
+  "caps_and_admission_equation_unchanged": true,
+  "changed_source_files": [
+    "nca/raw_access_training.py",
+    "scripts/report_raw_access_training.py"
+  ],
+  "counts": {
+    "evaluation_record": 24,
+    "horizon_evaluation": 72,
+    "training_update": 8
+  },
+  "first_pilot": "20260923T200402Z_b794e30d69ba",
+  "identical_training_step_AST": true,
+  "note": "Grid overlaps retained; 96 unique fields, not104 independent fields. First pilot failed timing admission and remains preserved.",
+  "second_pilot": "20260923T202008Z_206b3f6adb5f"
+}

@@ -738,3 +738,24 @@ First F4P20260923T200402Z_b794e30d69ba completed8 updates/24 boundary/72 grid re
 D050 efficiency revision after verified first pilot: reuse unchanged evaluation terms for raw totals; add exact recomputation regression. Reporter accepts a validated separate prefix to preserve both source versions. Training step, objectives and config unchanged. New gates required.
 
 Efficiency revision regression20260923T201206Z_4b81a6dabfa4 passed187 tests, no failures/errors/skips, smoke0,86.46s. All original gates and first rejected admission retained. New source frozen after this pass.
+
+Revised gates: F4B2 20260923T201413Z_628ce760d88c exact12/24 in134.59s; F4R2 20260923T201744Z_ef6c479ec7f8 all11 recovery checks in85.55s. F4P2 20260923T202008Z_206b3f6adb5f completed295.22s, timing2356.91s admits2400. Cross-version pilot checks all traces/fields/full checkpoint trees exact (8 updates/24 boundary/72 grid,96 unique fields), training step AST identical. Only evaluation reuse/report prefix source files differ. First rejected admission preserved.
+
+Full F4 20260923T202649Z_75034cca563c completed1321.78s,256 updates and full evaluation matrix; all caps met. Scientific source unchanged373968d. Full saved-field/checkpoint verifier started before late recovery and final interpretation.
+
+
+F4 full verification passed41 source hashes,376 unique fields,260 checkpoint
+cursors,56 F2/72 H1 controls and eight final rollouts. F4L trained-state recovery
+20260923T205434Z_c8136d2ce8e8 completed83.58s: eight updates/eight evaluations exact,
+all caps met. Post-hoc paired analysis checks256 F2/F4 checkpoint pairs and five
+early recovery checkpoint pairs; all31 historical H1 source hashes unchanged.
+Result62/72 connected vs59/72, gains3/losses0; zero budget/joint success. Added
+RAW_ACCESS_TRAINING_FINDINGS, PERSISTENT_GUIDE_PLAN and D051. No code/config change
+after187-test regression. Two figure renders retained; v2 separates annotations,
+visually inspected and48 aggregates/hash checks passed. Runtime uses existing
+isolated plotting dependencies; project training environment unchanged.
+
+Final local commit/full archive preparation follows. Archive success is recorded
+in the milestone backup receipt, including all payload hashes, fresh Git restore,
+6 reference/12 legacy scenes,18 annotations and41 exact F4 source snapshot hashes.
+No Drive/off-device copy, paid training, push or deployment.
