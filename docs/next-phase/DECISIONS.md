@@ -302,3 +302,22 @@ gradient intervention. Preserve hard legality and independent binary metrics.
 Only afterward calibrate weights, integrate retained regularizers, test optimizer
 recovery and request a bounded Colab allowance. Architectural access semantics
 remain open. Full details and limitations are in LOSS_FINDINGS.md.
+
+## D021 - Explicit L2 candidates and a conditional CPU recovery test
+
+Date: 2026-09-23. User authorized the two local experiments followed by a tiny
+interruption-and-resume test when the measured gates permit it.
+
+L2_v1 keeps hard-projected forward dynamics as the control, tests legal pre-clamp
+coverage guidance with the same forward output, and separately tests a smooth
+material update. A changed coverage readout is not a claim that the original
+projected access derivative is fixed. Compare site and envelope denominators
+explicitly; unchanged 3%-12% fractions mean different absolute physical budgets.
+No envelope is silently expanded, no fraction silently lowered, no new family.
+
+INTERVENTION_PROTOCOL.md preregisters 108 budget cases, 54 gradient cases and
+nine absent-scaffold controls. Its stated gate may select radius6/envelope and
+hard_preclamp for a local recovery-mechanics test only. R1 compares separate
+processes, full optimizer/scheduler/model and four RNG streams, plus repeated
+continuation. It is not a calibrated nine-family research trainer or approval for
+paid compute. Original artifacts and every attempt remain preserved locally.

@@ -1,0 +1,43 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T074523Z_f2efaaf7f135",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [
+      {
+        "id": "test_recovery.RecoveryTests.test_refuses_overwrite_and_wrong_config_before_model_mutation",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\tests\\test_recovery.py\", line 50, in test_refuses_overwrite_and_wrong_config_before_model_mutation\n    self.assertTrue(tree_equal(original,fresh[0].state_dict()))\nAssertionError: False is not true\n"
+      }
+    ],
+    "failures": 1,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 118,
+    "wall_seconds": 49.79708389998996
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "2e1e5107f9ee652d975d4dae8b60a1cd853504b8",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? nca/interventions.py\n?? nca/recovery.py\n?? tests/test_interventions.py\n?? tests/test_recovery.py"
+  },
+  "run_id": "20260923T074523Z_f2efaaf7f135",
+  "status": "failed"
+}

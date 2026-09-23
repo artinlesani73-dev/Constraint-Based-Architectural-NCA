@@ -160,3 +160,13 @@ Python 3.12.14, CPU torch 2.8.0, NumPy 2.5.2; requirements-cpu.lock.txt. Do not
 install the CPU lock over Colab CUDA. Local write/Git permissions may need renewal
 in a new task. Historical handoffs remain in Git/milestone archives. This handoff
 does not automatically resume work or redeem credits after a usage reset.
+
+## Active L2/R1 work - 2026-09-23
+
+Read INTERVENTION_PROTOCOL.md and D021. Material/budget candidates and CPU
+checkpoint utilities are implemented. Verification 20260923T074523Z_f2efaaf7f135
+failed one test-fixture mapping-type comparison; retained. Linked retry
+20260923T074748Z_68688d661ffd is the next verification result to inspect.
+After passing, run scripts/run_interventions.py. Only its explicit recovery gate
+may authorize the prescribed tiny CPU optimizer/recovery diagnostic. No Colab.
+Inspect active run records/processes before retrying. Preserve all partial data.

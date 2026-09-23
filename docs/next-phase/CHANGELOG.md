@@ -302,3 +302,20 @@ D020 keeps training gated on objective compatibility and useful derivatives.
 No model changes or optimizer/recovery/training claims. Original notebook,
 checkpoint, scenes and production defaults stay intact. Local milestone/archive
 and refreshed handoff preserve progress; no cloud access or remote publication.
+
+## 2026-09-23 - L2/R1 preparation and retained verification failure
+
+Added explicit material interventions, budget contracts and CPU checkpoint
+recovery utilities; originals remain intact. L2/R1 protocol is in
+INTERVENTION_PROTOCOL.md. A first verification, 20260923T074523Z_f2efaaf7f135,
+ran 118 tests with one fixture failure and no errors: the immutability assertion
+passed a plain dict and an OrderedDict to the deliberately type-exact checkpoint
+comparator. The model rejection path had returned before mutation. Corrected
+the fixture to deep-copy the original ordered state dictionary, preserving the
+strict comparison. Failed evidence remains intact; verification retry is linked.
+
+Linked verification 20260923T074748Z_68688d661ffd passed all 118 tests with no
+failures/errors/skips; checkpoint smoke exit 0. The added tests cover hard-forward
+and RNG parity, finite differences for both interventions, explicit budget changes,
+spill accounting, hard legality, exact optimizer/scheduler/four-RNG continuation,
+no-overwrite checkpoints, metadata rejection and truncated-file rejection.
