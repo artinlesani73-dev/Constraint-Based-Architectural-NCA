@@ -1,0 +1,47 @@
+{
+  "F1_controls_rescored_both_definitions": 56,
+  "baseline_parity": true,
+  "continuation_parent": "20260923T135818Z_5520d5d80cec",
+  "cost_admission": {
+    "admitted": true,
+    "estimated_member_seconds": 333.59291412016023,
+    "estimated_total_seconds": 1334.371656480641,
+    "max_evaluation_pair_seconds": 3.853160400001798,
+    "p90_update_seconds": 2.9753617700014727,
+    "safety_factor": 1.5,
+    "startup_allowance_seconds": 5.0
+  },
+  "elapsed_caps_compliant": false,
+  "evaluation_metrics_verified": 56,
+  "evaluation_record_exact_F1_matches": 24,
+  "final_checkpoint_rollouts_replayed": 8,
+  "imported_evaluation_record_verified": 54,
+  "imported_training_update_verified": 254,
+  "initial_fields_exactly_match_F1": 8,
+  "newly_executed_training_updates": 2,
+  "overall_elapsed_cap_met": false,
+  "prefix_checkpoint": true,
+  "repeat_checkpoint": true,
+  "repeat_evaluation_fields": true,
+  "repeat_evaluation_traces": true,
+  "repeat_fields": true,
+  "repeat_traces": true,
+  "resumed_checkpoint": true,
+  "resumed_evaluation_fields": true,
+  "resumed_evaluation_traces": true,
+  "resumed_fields": true,
+  "resumed_traces": true,
+  "run_id": "20260923T143002Z_55aeaac95580",
+  "saved_fields_rescored": 312,
+  "source_hashes_verified": 32,
+  "successful_workers": 4,
+  "training_checkpoints_verified": 256,
+  "training_update_exact_F1_matches": 12,
+  "worker_elapsed_cap_overruns": [
+    {
+      "cap_seconds": 600,
+      "member": "mass_3-r0",
+      "seconds": 1137.7414810000046
+    }
+  ]
+}

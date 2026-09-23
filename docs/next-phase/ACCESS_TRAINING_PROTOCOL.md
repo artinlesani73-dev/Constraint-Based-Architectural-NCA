@@ -76,3 +76,22 @@ it does not prove nonzero access gradients for every replay or certify abrupt
 writes/GPU. New immutable run, source snapshot and verification; original F2
 training code/config/caps remain frozen. Wrapper check_access_late_recovery.py
 adds no nca module and does not change the32 hashed F2 source files.
+
+## Linked completion after the recorded interruption
+
+Parent F220260923T135818Z_5520d5d80cec stopped at its overall cap with254 recorded
+updates/54 evaluations: three complete models and fourth update62. Preserve its
+interrupted status, logs and any unregistered partial files. The third member's
+elapsed1137.74s>600s remains a timing deviation; a long system delay is observed,
+not a measured active-CPU correction. Do not rerun completed models for timing.
+
+Freeze a separate120-second continuation for only the fourth model's updates63/64
+and final evaluations, using the verified completed62 checkpoint, same source/
+metadata/RNG/optimizer. Import254 completed training and54 evaluation records with
+hash-checked copies into a NEW child run. Keep the failed parent's process/result
+records and cumulative elapsed. Verify the complete256/56 matrix afterwards.
+This completes planned scientific evidence; it does not erase the interruption,
+raise the original cap or establish a clean timing benchmark. Source snapshot and
+wrapper hash retained. No paid compute or extra training exposure. An unrecorded
+partial update in the killed worker may be repeated; do not count it as a saved
+checkpoint. F2L will then check all four final updates on the assembled child.

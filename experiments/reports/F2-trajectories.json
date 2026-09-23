@@ -1,0 +1,1854 @@
+{
+  "interpretation": "Post-hoc exact trajectory comparison. Partial access loss does not prove nonzero parameter gradients. Training field is before update; checkpoint is after.",
+  "members": {
+    "mapped_30-r0": {
+      "final": {
+        "F1": [
+          {
+            "candidate_access": 0.9145256876945496,
+            "candidate_details": {
+              "critical_zyx": [
+                2,
+                14,
+                22
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 4,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 28.6966552734375,
+              "mass_3": 28.300739288330078
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.12988722324371338,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": false
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 103,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 103,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.06796116504854369,
+                "core_voxels": 7,
+                "material_voxels": 103,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 123,
+                "0.5": 103,
+                "0.7": 97
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 5,
+              "guide_voxels": 36,
+              "permitted_above_one": 46,
+              "permitted_below_zero": 13476
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003555835864972323,
+              "density_binary": 0.0006787215243093669,
+              "tv": 0.007587894797325134
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.5727114081382751,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.01466358546167612,
+              "spill": 7.516558184761379e-07,
+              "support": 0.02620686963200569,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 29.978769302368164,
+              "mass_3": 29.582853317260742
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 1.0,
+            "candidate_details": {
+              "critical_zyx": [
+                1,
+                13,
+                8
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 7,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 54.688262939453125,
+              "mass_3": 28.062435150146484
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.20108191668987274,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": false
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 186,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 186,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.043010752688172046,
+                "core_voxels": 8,
+                "material_voxels": 186,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 187,
+                "0.5": 186,
+                "0.7": 183
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 9,
+              "guide_voxels": 36,
+              "permitted_above_one": 113,
+              "permitted_below_zero": 13507
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003662109375,
+              "density_binary": 5.498322570929304e-05,
+              "tv": 0.01293480396270752
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.40356314182281494,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.9861416816711426,
+              "spill": 0.0,
+              "support": 0.0,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 54.688262939453125,
+              "mass_3": 28.062435150146484
+            },
+            "update": 64
+          }
+        ],
+        "F2": [
+          {
+            "candidate_access": 0.7950734496116638,
+            "candidate_details": {
+              "critical_zyx": [
+                1,
+                13,
+                22
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 5,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 27.778099060058594,
+              "mass_3": 26.34004020690918
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.13884346187114716,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": false
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 106,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 106,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.0660377358490566,
+                "core_voxels": 7,
+                "material_voxels": 106,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 142,
+                "0.5": 106,
+                "0.7": 96
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 5,
+              "guide_voxels": 36,
+              "permitted_above_one": 46,
+              "permitted_below_zero": 13453
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.00035540276439860463,
+              "density_binary": 0.0008178908028639853,
+              "tv": 0.008185936138033867
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.5616411566734314,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.05326142534613609,
+              "spill": 2.823630666171084e-06,
+              "support": 0.025079697370529175,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 30.85199737548828,
+              "mass_3": 29.413938522338867
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                13,
+                19
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 65.06295776367188,
+              "mass_3": 14.909391403198242
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.2312816083431244,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": true
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 212,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 212,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.03773584905660377,
+                "core_voxels": 8,
+                "material_voxels": 212,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 216,
+                "0.5": 212,
+                "0.7": 212
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 7,
+              "guide_voxels": 36,
+              "permitted_above_one": 135,
+              "permitted_below_zero": 13486
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003662109375,
+              "density_binary": 5.3157113143242896e-05,
+              "tv": 0.013819077983498573
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.37283849716186523,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 1.8575395345687866,
+              "spill": 0.0,
+              "support": 0.0,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 80.06295776367188,
+              "mass_3": 29.909391403198242
+            },
+            "update": 64
+          }
+        ]
+      },
+      "first_postupdate_weight_difference": 51,
+      "first_preupdate_field_difference": 52,
+      "gradient_clipped_updates": 64,
+      "updates_with_partial_access_loss": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "mapped_30-r1": {
+      "final": {
+        "F1": [
+          {
+            "candidate_access": 0.7888915538787842,
+            "candidate_details": {
+              "critical_zyx": [
+                1,
+                14,
+                20
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 4,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 27.381505966186523,
+              "mass_3": 26.852005004882812
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.13143418729305267,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": false
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 74,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 74,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.05405405405405406,
+                "core_voxels": 4,
+                "material_voxels": 74,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 114,
+                "0.5": 74,
+                "0.7": 63
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 5,
+              "guide_voxels": 32,
+              "permitted_above_one": 32,
+              "permitted_below_zero": 16139
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 0.0008558382978662848,
+              "tv": 0.006892763078212738
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.5916905999183655,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.01961110532283783,
+              "spill": 1.4160109458316583e-06,
+              "support": 0.019754832610487938,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 30.548133850097656,
+              "mass_3": 30.018632888793945
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                14,
+                17
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 89.77020263671875,
+              "mass_3": 16.337581634521484
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.25465330481529236,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": true
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 190,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 190,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.021052631578947368,
+                "core_voxels": 4,
+                "material_voxels": 190,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 190,
+                "0.5": 190,
+                "0.7": 189
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 7,
+              "guide_voxels": 32,
+              "permitted_above_one": 117,
+              "permitted_below_zero": 16251
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 3.0067720217630267e-05,
+              "tv": 0.012254498898983002
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.32599949836730957,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 2.719726800918579,
+              "spill": 0.0,
+              "support": 0.0020086029544472694,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 104.77020263671875,
+              "mass_3": 31.337581634521484
+            },
+            "update": 64
+          }
+        ],
+        "F2": [
+          {
+            "candidate_access": 0.7202719449996948,
+            "candidate_details": {
+              "critical_zyx": [
+                3,
+                14,
+                20
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 5,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 26.907304763793945,
+              "mass_3": 26.206008911132812
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.13315899670124054,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": false
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 72,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 72,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.05555555555555555,
+                "core_voxels": 4,
+                "material_voxels": 72,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 128,
+                "0.5": 72,
+                "0.7": 60
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 5,
+              "guide_voxels": 32,
+              "permitted_above_one": 27,
+              "permitted_below_zero": 16142
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 0.0009097436559386551,
+              "tv": 0.006929424591362476
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.6055545210838318,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.025973889976739883,
+              "spill": 0.0,
+              "support": 0.02193591371178627,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 31.103225708007812,
+              "mass_3": 30.401931762695312
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                14,
+                17
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 95.30970764160156,
+              "mass_3": 16.88393211364746
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.2591559886932373,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": true
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 193,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 193,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.02072538860103627,
+                "core_voxels": 4,
+                "material_voxels": 193,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 193,
+                "0.5": 193,
+                "0.7": 193
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 7,
+              "guide_voxels": 32,
+              "permitted_above_one": 121,
+              "permitted_below_zero": 16249
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 7.225411081890343e-06,
+              "tv": 0.012181384488940239
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.32622212171554565,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 2.904658317565918,
+              "spill": 0.0,
+              "support": 0.0002751984284259379,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 110.30970764160156,
+              "mass_3": 31.88393211364746
+            },
+            "update": 64
+          }
+        ]
+      },
+      "first_postupdate_weight_difference": 40,
+      "first_preupdate_field_difference": 41,
+      "gradient_clipped_updates": 64,
+      "updates_with_partial_access_loss": [
+        40,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "mass_3-r0": {
+      "final": {
+        "F1": [
+          {
+            "candidate_access": 0.5607874989509583,
+            "candidate_details": {
+              "critical_zyx": [
+                2,
+                13,
+                22
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 8,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 37.78950119018555,
+              "mass_3": 19.93983268737793
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.18638768792152405,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": false
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 161,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 161,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.043478260869565216,
+                "core_voxels": 7,
+                "material_voxels": 161,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 220,
+                "0.5": 161,
+                "0.7": 117
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 2,
+              "guide_voxels": 36,
+              "permitted_above_one": 51,
+              "permitted_below_zero": 13438
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003562419442459941,
+              "density_binary": 0.00116386276204139,
+              "tv": 0.010992812924087048
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.3757399022579193,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.6610987782478333,
+              "spill": 7.33052388568467e-07,
+              "support": 0.016867918893694878,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 44.377689361572266,
+              "mass_3": 26.52802085876465
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                13,
+                19
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 133.0357666015625,
+              "mass_3": 19.747085571289062
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.2872498631477356,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": true
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 265,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 265,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.03018867924528302,
+                "core_voxels": 8,
+                "material_voxels": 265,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 265,
+                "0.5": 265,
+                "0.7": 264
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 6,
+              "guide_voxels": 36,
+              "permitted_above_one": 167,
+              "permitted_below_zero": 13458
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003662109375,
+              "density_binary": 2.1450032363645732e-05,
+              "tv": 0.014666061848402023
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.28571560978889465,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 4.195877552032471,
+              "spill": 0.0,
+              "support": 0.0,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 148.0357666015625,
+              "mass_3": 34.7470817565918
+            },
+            "update": 64
+          }
+        ],
+        "F2": [
+          {
+            "candidate_access": 0.34913426637649536,
+            "candidate_details": {
+              "critical_zyx": [
+                3,
+                13,
+                11
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 6,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 60.83080291748047,
+              "mass_3": 18.853696823120117
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.22180725634098053,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": true
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 215,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 215,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.037209302325581395,
+                "core_voxels": 8,
+                "material_voxels": 215,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 256,
+                "0.5": 215,
+                "0.7": 160
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 0,
+              "guide_voxels": 36,
+              "permitted_above_one": 58,
+              "permitted_below_zero": 13416
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003568942192941904,
+              "density_binary": 0.0011484208516776562,
+              "tv": 0.013055193237960339
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 16,
+            "terms": {
+              "access": 0.9653257727622986,
+              "coverage": 0.353047639131546,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 1.554707646369934,
+              "spill": 4.330336014390923e-05,
+              "support": 0.0133751779794693,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 70.07367706298828,
+              "mass_3": 28.09657096862793
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                13,
+                19
+              ],
+              "entrance_ids": [
+                "E_ground_east",
+                "E_ground_west"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 2,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 180.6345672607422,
+              "mass_3": 24.52658462524414
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.3163292706012726,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_west": true
+                },
+                "source_id": "E_ground_east",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 3816
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 291,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 291,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.027491408934707903,
+                "core_voxels": 8,
+                "material_voxels": 291,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 292,
+                "0.5": 291,
+                "0.7": 291
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 6,
+              "guide_voxels": 36,
+              "permitted_above_one": 188,
+              "permitted_below_zero": 13438
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0003662109375,
+              "density_binary": 1.3207792108005378e-05,
+              "tv": 0.01528975646942854
+            },
+            "scene": "ref-01-ground-pair",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.286188542842865,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 5.7817769050598145,
+              "spill": 0.00016149871225934476,
+              "support": 0.0006677612545900047,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 195.6345672607422,
+              "mass_3": 39.52658462524414
+            },
+            "update": 64
+          }
+        ]
+      },
+      "first_postupdate_weight_difference": 34,
+      "first_preupdate_field_difference": 35,
+      "gradient_clipped_updates": 64,
+      "updates_with_partial_access_loss": [
+        34,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "mass_3-r1": {
+      "final": {
+        "F1": [
+          {
+            "candidate_access": 0.5083662271499634,
+            "candidate_details": {
+              "critical_zyx": [
+                2,
+                15,
+                20
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": false,
+              "components_touching_all_entrances": 0,
+              "material_components": 9,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 36.22018814086914,
+              "mass_3": 21.218034744262695
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.1808624267578125,
+            "metrics": {
+              "connectivity": {
+                "all_connected": false,
+                "fraction_reached": 0.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": false
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 123,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 123,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.032520325203252036,
+                "core_voxels": 4,
+                "material_voxels": 123,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 179,
+                "0.5": 123,
+                "0.7": 81
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 4,
+              "guide_voxels": 32,
+              "permitted_above_one": 36,
+              "permitted_below_zero": 16126
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 0.0011418965877965093,
+              "tv": 0.009311497211456299
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.4724462926387787,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 0.5556353330612183,
+              "spill": 1.1622006468314794e-07,
+              "support": 0.012717192061245441,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 43.594696044921875,
+              "mass_3": 28.592540740966797
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                14,
+                17
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 163.73989868164062,
+              "mass_3": 23.67249870300293
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.3059692084789276,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": true
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 227,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 227,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.01762114537444934,
+                "core_voxels": 4,
+                "material_voxels": 227,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 229,
+                "0.5": 227,
+                "0.7": 227
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 7,
+              "guide_voxels": 32,
+              "permitted_above_one": 147,
+              "permitted_below_zero": 16222
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 2.518506153137423e-05,
+              "tv": 0.01306697353720665
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.32350975275039673,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 5.187681674957275,
+              "spill": 0.0,
+              "support": 0.0010710781207308173,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 178.73989868164062,
+              "mass_3": 38.6724967956543
+            },
+            "update": 64
+          }
+        ],
+        "F2": [
+          {
+            "candidate_access": 0.2948625683784485,
+            "candidate_details": {
+              "critical_zyx": [
+                2,
+                15,
+                20
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 4,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 68.60547637939453,
+              "mass_3": 20.62360954284668
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.22884564101696014,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": true
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 179,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 179,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.0223463687150838,
+                "core_voxels": 4,
+                "material_voxels": 179,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 219,
+                "0.5": 179,
+                "0.7": 132
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 1,
+              "guide_voxels": 32,
+              "permitted_above_one": 47,
+              "permitted_below_zero": 16105
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 0.0010698779951781034,
+              "tv": 0.011445199139416218
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 16,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.43138644099235535,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 1.7771060466766357,
+              "spill": 4.152838755544508e-06,
+              "support": 0.00874191801995039,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 79.18254089355469,
+              "mass_3": 31.200672149658203
+            },
+            "update": 64
+          },
+          {
+            "candidate_access": 0.0,
+            "candidate_details": {
+              "critical_zyx": [
+                6,
+                14,
+                17
+              ],
+              "entrance_ids": [
+                "E_ground_a",
+                "E_ground_b"
+              ],
+              "legal_route_exists": true,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_metrics": {
+              "all_connected": true,
+              "components_touching_all_entrances": 1,
+              "material_components": 1,
+              "threshold": 0.5,
+              "version": "component_bottleneck_v2"
+            },
+            "candidate_totals": {
+              "mapped_30": 214.05723571777344,
+              "mass_3": 28.179996490478516
+            },
+            "firing_seed": 2,
+            "mass_ratio": 0.3342326283454895,
+            "metrics": {
+              "connectivity": {
+                "all_connected": true,
+                "fraction_reached": 1.0,
+                "metric_version": "binary_v1",
+                "neighborhood": 6,
+                "reached": {
+                  "E_ground_b": true
+                },
+                "source_id": "E_ground_a",
+                "source_open": true,
+                "status": "scored"
+              },
+              "ground": {
+                "blocked_voxels": 0,
+                "open_fraction": 1.0,
+                "protected_voxels": 4308
+              },
+              "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+              "legality": {
+                "illegal_fraction": 0.0,
+                "illegal_voxels": 0,
+                "material_voxels": 248,
+                "nonempty": true,
+                "zero_illegal_voxels": true
+              },
+              "metric_version": "binary_v1",
+              "support": {
+                "interpretation": "geometric connectivity only",
+                "material_voxels": 248,
+                "nonempty": true,
+                "supported_fraction": 1.0,
+                "unsupported_voxels": 0
+              },
+              "thickness_proxy": {
+                "core_fraction": 0.016129032258064516,
+                "core_voxels": 4,
+                "material_voxels": 248,
+                "nonempty": true,
+                "radius_voxels": 1
+              },
+              "threshold": 0.5,
+              "threshold_material_counts": {
+                "0.3": 251,
+                "0.5": 248,
+                "0.7": 248
+              }
+            },
+            "raw_saturation": {
+              "guide_below_zero": 6,
+              "guide_voxels": 32,
+              "permitted_above_one": 161,
+              "permitted_below_zero": 16206
+            },
+            "regularizers": {
+              "cantilever_boundary": 0.0,
+              "density_binary": 4.267520489520393e-05,
+              "tv": 0.013242961838841438
+            },
+            "scene": "ref-06-minimal-smoke",
+            "steps": 50,
+            "terms": {
+              "access": 1.0,
+              "coverage": 0.2999125123023987,
+              "facade": 0.0,
+              "ground": 0.0,
+              "legality": 0.0,
+              "sparsity": 6.884342670440674,
+              "spill": 3.400435161893256e-05,
+              "support": 0.00186684331856668,
+              "thickness": 0.0
+            },
+            "totals_under_both_recipes": {
+              "mapped_30": 229.05723571777344,
+              "mass_3": 43.179996490478516
+            },
+            "update": 64
+          }
+        ]
+      },
+      "first_postupdate_weight_difference": 30,
+      "first_preupdate_field_difference": 31,
+      "gradient_clipped_updates": 64,
+      "updates_with_partial_access_loss": [
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    }
+  },
+  "run_id": "20260923T143002Z_55aeaac95580",
+  "source_fitting_run": "20260923T112646Z_dcd0601d0655"
+}

@@ -69,11 +69,16 @@ def launch(run, label, command, cap):
         except BaseException:
             process.kill(); process.wait(); raise
     STORE.attach(run, log, 'worker_log')
-    record(run, 'process-' + label, {'label': label, 'seconds': time.perf_counter() - tick,
-        'returncode': code, 'timed_out': timed_out, 'cap_seconds': cap}, 'process_record')
-    print(f'{label}: exit={code}, seconds={time.perf_counter()-tick:.2f}', flush=True)
-    if timed_out:
-        raise TimeoutError(label + ' exceeded cap; completed records retained')
+    elapsed = time.perf_counter() - tick
+    elapsed_cap_exceeded = elapsed > cap
+    record(run, 'process-' + label, {'label': label, 'seconds': elapsed,
+        'returncode': code, 'timed_out': timed_out, 'cap_seconds': cap,
+        'elapsed_cap_exceeded': elapsed_cap_exceeded}, 'process_record')
+    print(f'{label}: exit={code}, seconds={elapsed:.2f}', flush=True)
+    # OS waits may exclude suspended time. Do not advance after an elapsed overrun,
+    # even when wait() reports a successful process rather than a timeout.
+    if timed_out or elapsed_cap_exceeded:
+        raise TimeoutError(label + ' exceeded elapsed cap; completed records retained')
     if code:
         raise RuntimeError(label + ' failed; see ' + str(log))
 

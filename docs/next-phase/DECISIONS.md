@@ -632,3 +632,28 @@ parity, actual candidate CPU recovery and timing-only admission before256 update
 Retain both definitions and joint connectivity/mass at every fixed boundary.
 Caps600s/member1800s/full; no paid/cloud/production action. One seed/two scenes
 remain diagnostic; no automatic promotion or simultaneous architecture change.
+
+## D041 - Retain the access gain; target growth and budget next
+
+2026-09-23. F2 linked completion20260923T143002Z_55aeaac95580 preserves256 planned
+updates/56 evaluations. Final connectivity improves0->2/4 at16steps and3->4/4 at50,
+but all eight final masses increase and no boundary is jointly connected/in-budget.
+Full field/checkpoint rescoring and eight exact final replays pass. F2L reproduces
+all four trained-state final updates and eight evaluations exactly. One seed/two
+seen scenes; no promotion or generalization claim. Preserve component access as
+an opt-in research candidate; do not relax budgets or scale unresolved growth.
+Next GROWTH_STABILITY_PLAN.md: bounded frozen-model horizon/firing sensitivity and
+actual gradient tradeoffs, then ONE evidence-selected training intervention.
+
+## D042 - Preserve the interrupted study and reject elapsed-time overruns
+
+2026-09-23. Parent F220260923T135818Z_5520d5d80cec had a1137.74s member against
+600s cap during a long observed system delay; wait returned success. Cause not
+confirmed, active CPU time unmeasured. Overall cap stopped fourth member after62,
+254 total updates/54 evaluations. Preserve interrupted status and timing deviation.
+Separate120s continuation imported verified completed evidence and ran only missing
+updates63/64 plus final evaluations (18.99s); cumulative1820.10s is not original-cap
+compliance. Do not rerun all models for a cleaner-looking timing or hide the parent.
+After original-source verification/recovery, add explicit elapsed-cap checks even
+when a worker returns success, with a delayed-success regression. Future source
+identity changes; historical recovery must use registered exact source ZIPs.

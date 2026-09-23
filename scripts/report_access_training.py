@@ -35,11 +35,29 @@ def verify(run,replay=True):
     with zipfile.ZipFile(d/source) as z:
         for name,expected in meta['code_sha256'].items():
             assert hashlib.sha256(z.read(name)).hexdigest()==expected,name
+        if 'continuation' in protocol:
+            assert hashlib.sha256(z.read('scripts/continue_access_training.py')).hexdigest()==protocol['continuation']['wrapper_sha256']
     _,inputs=load_inputs(REPO);ctxs=contexts(inputs,cfg,p['training_scenes'])
     for m in members.values():
         name=m['scene'];assert inputs[name]['scene_hash']==m['scene_hashes'][name]
         assert inputs[name]['source_fields']['sha256']==m['input_field_hashes'][name]
     training=records(run,'training_update');evaluation=records(run,'evaluation_record')
+    if 'continuation' in protocol:
+        parent=protocol['continuation']['parent_run']
+        assert not STORE.verify(parent) and read_json(STORE.path(parent)/'result.json')['status']=='interrupted'
+        previous=records(parent,'protocol')[0]
+        assert previous=={k:v for k,v in protocol.items() if k!='continuation'}
+        for role,rows in [('training_update',training),('evaluation_record',evaluation)]:
+            key=lambda r:(r['branch'],r['trace']['update'],r['trace']['steps'])
+            current={key(r):r for r in rows}
+            inherited=records(parent,role)
+            for old in inherited:
+                row=current[key(old)]
+                assert {k:v for k,v in row.items() if k not in ('fields','checkpoint')}=={k:v for k,v in old.items() if k not in ('fields','checkpoint')}
+                assert all(row[k]['sha256']==old[k]['sha256'] for k in ('fields','checkpoint'))
+            checks['imported_'+role+'_verified']=len(inherited)
+        checks['continuation_parent']=parent
+        checks['newly_executed_training_updates']=len(training)-len(records(parent,'training_update'))
     if mode=='recovery':
         schedule={'whole':[1,2,3],'prefix':[1],'resumed':[2,3],'repeat':[2,3]}
         bounds={'whole':[0,1,3],'prefix':[0,1],'resumed':[3],'repeat':[3]}
@@ -125,10 +143,16 @@ def verify(run,replay=True):
                 replayed+=1
     processes=records(run,'process_record')
     assert len(processes)==4 and all(r['returncode']==0 and not r['timed_out'] for r in processes)
+    summary=records(run,'summary')[0]
+    overruns=[{'member':r['label'],'seconds':r['seconds'],'cap_seconds':r['cap_seconds']}
+        for r in processes if r['seconds']>r['cap_seconds']]
+    total_ok=mode!='study' or summary['seconds']<=p['study_cap_seconds']
     checks.update(source_hashes_verified=len(meta['code_sha256']),saved_fields_rescored=len(training)+len(evaluation),
         training_checkpoints_verified=len(training),evaluation_metrics_verified=len(evaluation),
         final_checkpoint_rollouts_replayed=replayed,F1_controls_rescored_both_definitions=len(controls),
-        initial_fields_exactly_match_F1=initial_matches,successful_workers=len(processes))
+        initial_fields_exactly_match_F1=initial_matches,successful_workers=len(processes),
+        worker_elapsed_cap_overruns=overruns,overall_elapsed_cap_met=total_ok,
+        elapsed_caps_compliant=not overruns and total_ok)
     if mode in ('pilot','study'):checks['cost_admission']=pilot_gate(run if mode=='pilot' else protocol['pilot_gate'])
     return protocol,training,evaluation,controls,checks
 
@@ -148,7 +172,7 @@ def aggregate(rows):
 def render(run,protocol,training,evaluation,controls,checks):
     lines=['# F2 '+protocol['mode']+': access-only training','',f'Run `{run}`.',
         '', 'Only the access family changes. Same original checkpoint, two development scenes, one training seed, optimizer, 16-step rollout and coefficients as F1. Both access definitions and both common recipe totals are retained. F1 controls are reused only after exact short baseline parity; this is not a new 64-update old-objective run.',
-        '',f'{len(training)} executed optimizer updates; {len(evaluation)} evaluations. All saved fields rescored and checkpoint metadata/counters checked. Final study checkpoints are replayed at both growth horizons. Formula rescoring shares the implementation; binary component connectivity uses independent BFS.',
+        '',f'{len(training)} recorded optimizer updates; {len(evaluation)} evaluations. Imported versus newly executed updates are distinguished in verification for linked continuations. All saved fields rescored and checkpoint metadata/counters checked. Final study checkpoints are replayed at both growth horizons. Formula rescoring shares the implementation; binary component connectivity uses independent BFS.',
         '', '## Every evaluation and paired historical control','',
         '| Arm | Member | Update | Growth | Old connected | Component connected | Mass/envelope | Joint component/budget | Old access | New access | Coverage | Sparsity | Old total30 | New total30 | Old total3 | New total3 |',
         '|---|---|---:|---:|---|---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|']
@@ -162,6 +186,8 @@ def render(run,protocol,training,evaluation,controls,checks):
     for row in training:
         t=row['trace'];lines.append(f'| {row["branch"]} | {t["update"]} | {t["total_loss"]:.8g} | {t["gradient_norm_before_clip"]:.8g} | {t["terms"]["access"]:.8g} | {row["seconds"]:.3f} |')
     lines+=['','Training fields precede the update; checkpoints follow it. Evaluation follows its named update. CPU recovery covers completed update boundaries, not GPU/AMP or abrupt writes. Three early recovery steps may not exercise a nonzero access parameter gradient; do not overstate that gate.','',
+        ('Linked completion of interrupted parent '+protocol['continuation']['parent_run']+'. The parent remains interrupted; copied records are hash-verified and only missing planned updates are executed. Cumulative elapsed includes the parent; no clean timing claim.' if 'continuation' in protocol else 'No imported training records in this run.'), '',
+        'Timing compliance is checked separately from process completion. A completed worker can exceed its elapsed cap if its timeout does not fire during a system pause. Any overrun below is a protocol deviation; do not relabel elapsed time as active compute or claim a clean timing benchmark.', '',
         '## Verification','', '```json',json.dumps(checks,indent=2),'```','',
         'One seed/two development scenes cannot establish generalization. Semantic rescoring alone is not geometry improvement. No production model or coefficient is promoted by this diagnostic.']
     return '\n'.join(lines)+'\n'

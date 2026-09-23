@@ -1,6 +1,9 @@
 """Isolation, metadata and RNG guards for the access-only learning intervention."""
 import copy
 import unittest
+from pathlib import Path
+import tempfile
+from unittest.mock import patch,MagicMock
 import torch
 from deploy.checkpoints import load_model_c
 from nca.access_training import (REPO,Session,make_metadata,objective_pair,cost_gate,LEGACY,CANDIDATE)
@@ -8,6 +11,7 @@ from nca.fitting import make_metadata as f1_metadata
 from nca.losses import LossSpec
 from scripts.diagnostic_inputs import load_inputs
 from scripts.run_access_training import parity_metadata_equal
+import scripts.run_access_training as runner
 
 
 class AccessTrainingGuards(unittest.TestCase):
@@ -58,6 +62,25 @@ class AccessTrainingGuards(unittest.TestCase):
         self.assertFalse(cost_gate([1.],[100.],[1.])['admitted'])
         for v in ([],[-1.],[float('nan')]):
             with self.assertRaises(ValueError):cost_gate(v,[1.],[1.])
+
+    def test_elapsed_cap_catches_successful_wait_after_system_delay(self):
+        for elapsed,exceeded in ((2.,False),(601.,True)):
+            with self.subTest(elapsed=elapsed),tempfile.TemporaryDirectory() as tmp:
+                process=MagicMock();process.wait.return_value=0
+                with patch.object(runner.STORE,'path',return_value=Path(tmp)), \
+                     patch.object(runner.STORE,'attach'),patch.object(runner,'record') as record, \
+                     patch.object(runner.subprocess,'Popen',return_value=process), \
+                     patch.object(runner.time,'perf_counter',side_effect=[0.,elapsed]):
+                    if exceeded:
+                        with self.assertRaisesRegex(TimeoutError,'elapsed cap'):
+                            runner.launch('mock','worker',[],600.)
+                    else:runner.launch('mock','worker',[],600.)
+                    saved=record.call_args.args[2]
+                    self.assertEqual(saved['seconds'],elapsed)
+                    self.assertEqual(saved['elapsed_cap_exceeded'],exceeded)
+                    self.assertFalse(saved['timed_out'])
+                    self.assertEqual(saved['returncode'],0)
+                    self.assertTrue((Path(tmp)/'worker.log').is_file())
 
 
 if __name__=='__main__':unittest.main()

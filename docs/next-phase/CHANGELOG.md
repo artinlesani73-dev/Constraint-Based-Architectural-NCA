@@ -594,3 +594,32 @@ Registered supplementary F2L recovery while F2 was running, before viewing final
 outcomes: repeat update63->64 and evaluations for every member. Wrapper uses the
 unchanged validated worker and exact checkpoint-tree comparison; syntax checked.
 It adds no training exposure and does not alter32 frozen F2 source hashes.
+
+F2 provenance crosscheck:28 shared source files exactly match F1;32 current
+source hashes and original config/checkpoint match. One analysis archive mkdir
+failed with WinError5 (again after permission renewal). Approved local operation
+completed preservation; original report compared unchanged, no overwrite. Both
+attempt/script and final receipt retained under analysis-attempts/F2-provenance-
+20260923T135818Z_5520d5d80cec. Scientific training unaffected.
+
+F2B12/24 exact parity; F2R8/14 with11 exact recovery checks; F2P8/24 admitted full
+matrix on1334.37s estimate. Parent full run hit a timing deviation and overall
+interruption at254/54. Linked continuation copied all308 records with equal hashes
+and executed2 missing updates/final2 evaluations, producing complete256/56 matrix.
+All312 fields rescored,256 checkpoints and56 metrics checked,56 F1 controls dual-
+rescored,8 initial fields and8 final checkpoint rollouts exact;32 source hashes.
+F2L4 actual final updates/8 evaluations reproduce full checkpoint trees/traces/
+fields in38.96s. Post-hoc trajectories/analysis code archived. No model promoted.
+
+Recorded all timing/permission incidents without discarding results. After F2L,
+fixed worker timeout accounting: a success return with elapsed time beyond cap
+now records elapsed_cap_exceeded and stops the coordinator. Added a regression
+for delayed-success and normal completion. Historical source manifests intentionally
+differ after this fix; exact archived source is required for old optimizer resume.
+Added ACCESS_TRAINING_FINDINGS.md, GROWTH_STABILITY_PLAN.md and decisions D041/D042.
+
+Post-fix regression20260923T143444Z_3c97b03e720e passed164 tests, zero failures/
+errors/skips, original-checkpoint smoke0. Final crosscheck verifies all56 binary
+labels agree, all8 matched final masses increase, all final binary illegal/blocked/
+unsupported voxel counts0, and only the timeout runner differs from historical
+32-file source. No further code changes after the passing regression.

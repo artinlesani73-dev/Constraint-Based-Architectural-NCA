@@ -229,3 +229,19 @@ against F1, actual-loop CPU recovery and timing admission before proposed matche
 64-update comparison. Other eight families, regularizers, recipes, architecture
 and scenes unchanged. Evaluate both definitions and joint connectivity/budget.
 Candidate is CPU-only; GPU/Colab recovery and spending approval remain pending.
+
+## F2 complete through linked continuation - 2026-09-23
+
+Read ACCESS_TRAINING_FINDINGS.md/D041-D042. Access-only training improves final
+connectivity0/4->2/4 at16 growth steps and3/4->4/4 at50. No one of56 evaluations
+meets connectivity AND3%-12% mass budget; all final masses increase versus F1.
+Retain research candidate, promote no model. Complete256/56 evidence rescored,
+eight final rollouts and four final-update recovery checks exact.
+
+A long system delay exposed a timeout-accounting defect; parent study remains
+interrupted254/54. Linked completion runs only the last two updates and preserves
+all imported hashes and failure records. Timing protocol violated, not a clean
+performance benchmark. Explicit elapsed checks and regression added after study.
+Next GROWTH_STABILITY_PLAN.md: inspect horizon/firing stability and objective
+tradeoffs before selecting one schedule/pool or other intervention. Keep budgets,
+architecture and nine families until evidence warrants an isolated change.

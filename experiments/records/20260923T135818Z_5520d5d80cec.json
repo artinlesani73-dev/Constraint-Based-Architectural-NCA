@@ -1,0 +1,49 @@
+{
+  "admission": {
+    "admitted": true,
+    "estimated_member_seconds": 333.59291412016023,
+    "estimated_total_seconds": 1334.371656480641,
+    "max_evaluation_pair_seconds": 3.853160400001798,
+    "p90_update_seconds": 2.9753617700014727,
+    "safety_factor": 1.5,
+    "startup_allowance_seconds": 5.0
+  },
+  "artifact_location": ".local-artifacts/runs/20260923T135818Z_5520d5d80cec",
+  "checks": {
+    "baseline_parity": true,
+    "evaluation_record_exact_F1_matches": 24,
+    "prefix_checkpoint": true,
+    "repeat_checkpoint": true,
+    "repeat_evaluation_fields": true,
+    "repeat_evaluation_traces": true,
+    "repeat_fields": true,
+    "repeat_traces": true,
+    "resumed_checkpoint": true,
+    "resumed_evaluation_fields": true,
+    "resumed_evaluation_traces": true,
+    "resumed_fields": true,
+    "resumed_traces": true,
+    "training_update_exact_F1_matches": 12
+  },
+  "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_access_training.py\", line 232, in main\n    launch(run,branch,['--worker','--run-id',run,'--branch',branch,'--stop-after',str(stop)],cap)\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_access_training.py\", line 76, in launch\n    raise TimeoutError(label + ' exceeded cap; completed records retained')\nTimeoutError: mass_3-r1 exceeded cap; completed records retained\n",
+  "evaluation_cases": 54,
+  "mode": "study",
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "5e57bcc39645b81cf9c76d5f543ae65efd40f4f0",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? experiments/records/20260923T135153Z_388dadf703b2.json\n?? experiments/records/20260923T135424Z_5e2993d3e18e.json\n?? experiments/records/20260923T135623Z_cc3691d8cc81.json\n?? experiments/reports/F2B-access-training.md\n?? experiments/reports/F2B-evaluations.json\n?? experiments/reports/F2B-summary.json\n?? experiments/reports/F2B-verification.json\n?? experiments/reports/F2P-access-training.md\n?? experiments/reports/F2P-evaluations.json\n?? experiments/reports/F2P-summary.json\n?? experiments/reports/F2P-verification.json\n?? experiments/reports/F2R-access-training.md\n?? experiments/reports/F2R-evaluations.json\n?? experiments/reports/F2R-summary.json\n?? experiments/reports/F2R-verification.json"
+  },
+  "recorded_updates": 254,
+  "run_id": "20260923T135818Z_5520d5d80cec",
+  "seconds": 1801.108234400017,
+  "status": "interrupted"
+}

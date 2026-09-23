@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T143444Z_3c97b03e720e",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 164,
+    "wall_seconds": 50.277834899985464
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "5b9c19c25202ab35130e71527cda8172a2e4a581",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/ACCESS_TRAINING_PROTOCOL.md\n M docs/next-phase/CHANGELOG.md\n M docs/next-phase/RESUME.md\n M scripts/report_access_training.py\n M scripts/run_access_training.py\n M tests/test_access_training.py\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? experiments/records/20260923T135153Z_388dadf703b2.json\n?? experiments/records/20260923T135424Z_5e2993d3e18e.json\n?? experiments/records/20260923T135623Z_cc3691d8cc81.json\n?? experiments/records/20260923T135818Z_5520d5d80cec.json\n?? experiments/records/20260923T143002Z_55aeaac95580.json\n?? experiments/records/20260923T143228Z_73318ff99c0b.json\n?? experiments/reports/F2-access-training.md\n?? experiments/reports/F2-evaluations.json\n?? experiments/reports/F2-provenance-crosscheck.json\n?? experiments/reports/F2-summary.json\n?? experiments/reports/F2-trajectories.json\n?? experiments/reports/F2-verification.json\n?? experiments/reports/F2B-access-training.md\n?? experiments/reports/F2B-evaluations.json\n?? experiments/reports/F2B-summary.json\n?? experiments/reports/F2B-verification.json\n?? experiments/reports/F2L-verification.json\n?? experiments/reports/F2P-access-training.md\n?? experiments/reports/F2P-evaluations.json\n?? experiments/reports/F2P-summary.json\n?? experiments/reports/F2P-verification.json\n?? experiments/reports/F2R-access-training.md\n?? experiments/reports/F2R-evaluations.json\n?? experiments/reports/F2R-summary.json\n?? experiments/reports/F2R-verification.json\n?? scripts/continue_access_training.py"
+  },
+  "run_id": "20260923T143444Z_3c97b03e720e",
+  "status": "completed"
+}

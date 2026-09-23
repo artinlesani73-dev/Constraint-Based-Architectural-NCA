@@ -1,0 +1,43 @@
+{
+  "admission": {
+    "admitted": true,
+    "estimated_member_seconds": 333.59291412016023,
+    "estimated_total_seconds": 1334.371656480641,
+    "max_evaluation_pair_seconds": 3.853160400001798,
+    "p90_update_seconds": 2.9753617700014727,
+    "safety_factor": 1.5,
+    "startup_allowance_seconds": 5.0
+  },
+  "checks": {
+    "complete_evaluation_matrix": true,
+    "complete_training_matrix": true,
+    "imported_evaluations": 54,
+    "imported_training_updates": 254,
+    "newly_executed_updates": 2
+  },
+  "continuation_seconds": 18.99189010000555,
+  "error": null,
+  "evaluation_cases": 56,
+  "mode": "study",
+  "parent_run": "20260923T135818Z_5520d5d80cec",
+  "parent_seconds": 1801.108234400017,
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "5b9c19c25202ab35130e71527cda8172a2e4a581",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/ACCESS_TRAINING_PROTOCOL.md\n M docs/next-phase/CHANGELOG.md\n M docs/next-phase/RESUME.md\n M scripts/report_access_training.py\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? experiments/records/20260923T135153Z_388dadf703b2.json\n?? experiments/records/20260923T135424Z_5e2993d3e18e.json\n?? experiments/records/20260923T135623Z_cc3691d8cc81.json\n?? experiments/records/20260923T135818Z_5520d5d80cec.json\n?? experiments/reports/F2-provenance-crosscheck.json\n?? experiments/reports/F2B-access-training.md\n?? experiments/reports/F2B-evaluations.json\n?? experiments/reports/F2B-summary.json\n?? experiments/reports/F2B-verification.json\n?? experiments/reports/F2P-access-training.md\n?? experiments/reports/F2P-evaluations.json\n?? experiments/reports/F2P-summary.json\n?? experiments/reports/F2P-verification.json\n?? experiments/reports/F2R-access-training.md\n?? experiments/reports/F2R-evaluations.json\n?? experiments/reports/F2R-summary.json\n?? experiments/reports/F2R-verification.json\n?? scripts/continue_access_training.py"
+  },
+  "recorded_updates": 256,
+  "run_id": "20260923T143002Z_55aeaac95580",
+  "seconds": 1820.1001245000225,
+  "status": "completed",
+  "timing_note": "Cumulative elapsed includes interrupted parent. This is not a cap-compliant fresh study."
+}

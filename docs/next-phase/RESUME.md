@@ -1,13 +1,20 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **F2 implementation prepared; gates pending.**
-Read ACCESS_TRAINING_PROTOCOL.md/D040 and ACCESS_TRAINING_PLAN.md. Regression
-attempt20260923T134911Z_c3c1cd97dbdb is running; inspect result/log and processes
-before continuing. A2 complete and preserved; do not rerun it. F2 source/config
-must be committed after regression passes, then run parity, recovery, pilot and
-study in that order. Only an admitted pilot permits the64-update matrix.
-Keep architecture and other objectives fixed. All evidence remains local;
-no Drive access, paid compute, production change or model promotion.
+Last updated 2026-09-23. **F2 learning comparison, verification and recovery complete.**
+Read ACCESS_TRAINING_FINDINGS.md/D041-D042 then GROWTH_STABILITY_PLAN.md.
+Final connectivity improves0->2/4 at16steps,3->4/4 at50, but no joint budget success.
+Parent20260923T135818Z_5520d5d80cec remains interrupted254/54 with a timing
+violation. Child20260923T143002Z_55aeaac95580 imported254/54 and executed remaining
+2/2. Complete256/56 matrix rescored; eight final rollouts exact. Cumulative1820.10s
+is not cap compliant. F2L20260923T143228Z_73318ff99c0b exactly repeats all four
+final updates/eight evaluations. No active training process. No model promoted.
+Elapsed-time guard repaired AFTER evidence/recovery; regression
+20260923T143444Z_3c97b03e720e passes164 tests, zero failures/errors/skips, smoke0.
+Historical32-file source differs now only in scripts/run_access_training.py;
+use original source snapshots for optimizer/forward replay with strict metadata.
+Next work is the bounded growth diagnostic. Verify the milestone archive receipt
+described below; a missing receipt means archival verification still needs completion.
+No Drive access, paid compute, production change or remote push.
 
 ## Authorization and storage
 
@@ -478,3 +485,67 @@ Syntax check passed; execution pending completed F2. Training source manifest
 unchanged. Run scripts/check_access_late_recovery.py <completed-F2-run> after
 F2 verifier; preserve all output. Backup helper work/package_nca_access_training.py
 in Codex cwd takes F2B,F2R,F2P,F2,F2L IDs and includes every earlier local artifact.
+
+F2 timing deviation discovered during execution: mass_3-r0 process completed
+with seconds1137.741481, cap600, returncode0, timed_outfalse, coinciding with a
+929.8s tool-return delay. System suspend is plausible but unconfirmed; active CPU
+seconds not measured, so do not subtract the delay or call it a clean benchmark.
+Original wait(timeout) did not enforce elapsed cap across the observed pause.
+Keep entire run; remaining member started within original overall allowance.
+Reporter now exposes elapsed-cap compliance separately from process completion.
+After preserving/verifying original F2 and F2L, repair post-wait cap checks and
+regress the failure with a simulated delayed successful process; historical
+recovery must use the exact original source ZIP after that fix.
+
+Parent F220260923T135818Z_5520d5d80cec finalized interrupted at1801.11s,
+254 recorded updates/54 evaluations. Final member stopped after recorded62.
+Linked completion20260923T143002Z_55aeaac95580 imported all254/54 with equal
+field/checkpoint hashes and executed only63/64 plus final2 evaluations in18.99s
+(coordinator),12.31s worker. Cumulative elapsed1820.10s, NOT original cap compliant.
+Scientific matrix complete256/56; full verifier active session24556. Next F2L on
+child ID, trajectory analysis on child ID, then timeout fix/regression/docs/archive.
+Do not rerun the original matrix or overwrite its interrupted outcome.
+
+## F2 completed evidence, source recovery and archive
+
+- Source5e57bcc implements F2;5b9c19c registers trained-state recovery. Final
+  evidence/timeout-fix commit follows; inspect Git log and matching backup receipt.
+- F2B20260923T135153Z_388dadf703b2, F2R20260923T135424Z_5e2993d3e18e,
+  F2P20260923T135623Z_cc3691d8cc81 completed and verified. Never repeat for no reason.
+- Parent20260923T135818Z_5520d5d80cec stays interrupted. Third member elapsed
+ 1137.74s>600 despite no process timeout; system-delay cause not established.
+  Overall cap stopped fourth after62. All partial files/logs preserved.
+- Child20260923T143002Z_55aeaac95580 completes only63/64 and final evaluations,
+  imports308 previous records with equal hashes, complete256/56.19s continuation,
+  cumulative1820.10s. This is not a cap-compliant performance result.
+- F2L20260923T143228Z_73318ff99c0b: four63->64 actual updates plus eight evaluation
+  replays, exact full checkpoint/trace/fields.38.96s. Early recovery11 checks also
+  pass. Abrupt writes/GPU/AMP remain uncertified; actual parent timeout and linked
+  completed-boundary continuation are separately evidenced.
+- Full verification312 fields/256 checkpoints/56 metrics,56 F1 dual-definition
+  controls,32 snapshot hashes,8 original fields and8 final rollouts. Old/new binary
+  labels match56/56; all eight final masses increase; final binary illegal,
+  blocked-ground and unsupported counts total0. No all-nine-family/architecture claim.
+- Post-hoc trajectories differ from F1 weights first at51/40/34/30 by member,
+  fields one update later. Both post-hoc helpers and permission-error receipt are
+  in .local-artifacts/analysis-attempts/F2-*; reports F2-* preserve every outcome.
+- Elapsed-cap fix changes ONLY scripts/run_access_training.py among historical
+ 32 source hashes. Latest regression20260923T143444Z_3c97b03e720e:164 pass, smoke0.
+  For exact historical Session/recovery replay, extract registered source ZIP
+  into a NEW workspace and use matching runtime/artifacts. Do not bypass hashes.
+  Current report_access_training.verify(run,replay=False) can inspect saved data;
+  replay=True needs the original source identity. Earlier F2B/R/P reports predate
+  added timing/continuation report fields; preserve their published versions.
+- continue_access_training.py is deliberately bounded to one unfinished F2 member,
+  at least60 completed updates, at most4 missing,120s worker. It rejects completed
+  parents and source drift. It was exercised62->64 before the timeout source edit;
+  do not invoke it now on completed work or bypass its historical source guard.
+- Backup builder in Codex cwd:work/package_nca_access_training.py F2B F2R F2P F2child
+  F2L. It also includes the interrupted parent, all earlier raw runs/source archives,
+  analysis, viewer, private reports/primer, full Git bundle and prior receipts.
+  Output:outputs/NCA-Access-Training-Backup-2026-09-23-<commit>.zip plus.sha256;
+  receipt:.local-artifacts/milestones/<commit>-backup-receipt.json. Verify receipt
+  before claiming completion. Same-disk local copy only; no Drive operation.
+- Next GROWTH_STABILITY_PLAN.md: profile/freeze a no-training growth/firing audit,
+  actual gradient tradeoffs, then choose ONE learning change. No larger/paid run,
+  architecture redesign or automatic candidate promotion. Studio remains planned.
