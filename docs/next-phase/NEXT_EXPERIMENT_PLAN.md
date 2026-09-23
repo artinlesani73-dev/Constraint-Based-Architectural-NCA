@@ -124,3 +124,19 @@ circulation, show raw objective tradeoffs and failed/infeasible cases, and make
 baseline comparisons inspectable. The studio redesign can proceed on saved
 fixtures once this distinction is decided; it need not wait for a large GPU run.
 Archive every attempt and update RESUME.md before ending a milestone.
+
+## A1/W1 implementation update
+
+User accepted proceeding on the recommended material-generation scope. Read
+FACADE_FINDINGS.md and D026-D028. The scene-derived facade allowance is implemented
+and measured. Radius6/envelope plus facade_endpoint_v1 is selected only as the
+experimental baseline for calibration preparation. W1 gives a connected zero-loss
+witness on each of17 feasible scenes; the sealed reference remains invalid.
+The numerical consistency check is now supported by examples, not only bounds.
+
+Proceed to Stage B's actual parameter-gradient/regularizer measurements, then a
+small preregistered matched E2 comparison. Retain the W1 constructive baseline
+and original-facade ablation. Architectural quality validation is still required;
+a trivial procedural zero-loss output sets a baseline rather than proving value.
+Do not restart Stage A or request the same scope approval again unless new evidence
+or user steering changes the decision. No paid training has been authorized.

@@ -395,3 +395,13 @@ Added budgeted_witness_v1, three regression tests and W1 protocol/runner.
 Verification20260923T084753Z_489a9c4be020 passes132 tests,zero failures/errors/skips,
 checkpoint smoke exit0. Determinism, legal adjacency, unchanged guide, infeasible
 route refusal and absence of a binary mass within a fractional budget are tested.
+
+## 2026-09-23 - W1 completed; experimental baseline and handoff preserved
+
+W1 20260923T084933Z_eb2603cd79f7 (source2965502) completed18 scenes in4.90s CPU,
+17 connected zero-loss witnesses, one retained incompatible sealed reference.
+Added report_witnesses.py and W1 report/verification; independent ordered-addition
+replay and recomputed nine-family values/binary metrics match all18 records.
+FACADE_FINDINGS.md combines A1/W1 outcomes and limits. D028 selects the opt-in
+experimental contract for calibration preparation. No optimization or learned-
+quality claim. Updated plan/handoff and verified local archive preserve evidence.

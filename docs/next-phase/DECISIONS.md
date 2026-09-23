@@ -415,3 +415,20 @@ WITNESS_PROTOCOL.md preregisters a separate W1 follow-up: fixed-budget determini
 legal growth from the guide, charged facade excluded from added cells, no new cores.
 This is a procedural objective-satisfaction baseline; it does not establish design
 quality or NCA value. No optimizer. Record every scene and explicit failure.
+
+## D028 - A1/W1 experimental baseline selected for calibration preparation
+
+2026-09-23. A1 removes the two recorded facade/budget conflicts under unchanged
+radius6/envelope3%-12%; all18 facade blankets remain penalized. W1
+20260923T084933Z_eb2603cd79f7 constructs17 independently verified connected
+zero-loss witnesses; sealed reference remains incompatible.132 tests pass.
+
+Select facade_endpoint_v1 plus the explicit radius6/envelope contract for the
+next experimental calibration and small matched-baseline preparation. This choice
+retains the already-disclosed physical budget change relative to site budgeting;
+it does not retrospectively claim original physical intent or switch production.
+Keep original facade as an ablation. Nine families remain. W1 is a procedural
+comparator, not architectural quality or a training target that NCA should simply
+memorize. Ratio dilution, weak thin-strand success and geometric support limits
+remain. Next measure actual parameter gradients and retained regularizers before
+coefficients/training. Paid compute and cloud operations remain gated.

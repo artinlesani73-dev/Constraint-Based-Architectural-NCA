@@ -1,10 +1,11 @@
 # Resume the NCA next phase
 
-Last updated 2026-09-23. **T1 target compatibility audit is complete.** Read
-TARGET_AUDIT_FINDINGS.md, NEXT_EXPERIMENT_PLAN.md and D023/D024. The audit found
-joint facade/budget conflicts and weak zero-loss geometry. Recommended next scope: architectural material/form generation with usability
-evaluated separately; compare explicit facade/budget alternatives before calibration.
-No paid training or production objective change is selected.
+Last updated 2026-09-23. **A1 facade comparison and W1 constructive baseline are
+complete.** Read FACADE_FINDINGS.md and D026-D028. User accepted material/form
+generation as the near-term scope. The experimental facade allowance resolves the
+measured budget conflicts, and W1 supplies17 connected zero-loss witnesses.
+Next: actual model-gradient and retained-regularizer calibration preparation,
+then small matched E2 controls. No paid training or production switch.
 
 ## Authorization and storage
 
@@ -34,12 +35,12 @@ Local commits are authorized. No remote push, deployment or cloud operation.
   in .local-artifacts/source-snapshots/. Reports do not replace raw artifacts.
 - Archive outputs: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/.
   Preserve M1, E0, corridor and loss archives. New milestone archive:
-  NCA-Target-Audit-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
+  NCA-Facade-Backup-2026-09-23-<evidence-commit>.zip plus .zip.sha256.
   Verify .local-artifacts/milestones/<commit>-backup-receipt.json before claiming
   completion. Archives are local same-disk copies, not off-device backups.
-- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_target_audit.py.
-  Requires completed T1, creates a new full Git bundle and restore clone,
-  checks frozen scene hashes and every ZIP payload hash. Never overwrite archives
+- Builder: C:/Users/artin/Documents/Codex/2026-09-06/cre/work/package_nca_facade.py.
+  Requires completed A1/W1, creates a new full Git bundle and restore clone,
+  checks frozen scene/annotation hashes and every ZIP payload hash. Never overwrite archives
   or remove failed/partial evidence to rerun. Use a new attempt name if needed.
 
 ## Completed evidence: do not rerun without a reason
@@ -97,28 +98,56 @@ Local commits are authorized. No remote push, deployment or cloud operation.
   final architectural specification. Retain material-connectivity access for the
   proposed next comparison; do not claim walkability or mechanical safety.
 
+## A1/W1 completed: current state
+
+- User said 'ok go on' after the material-generation recommendation. Proceed on
+  that accepted working scope; do not ask the same representation question again.
+  Usability remains a separate longer-term goal; no walkability/safety claims.
+- A1 `20260923T084341Z_e37699e31f26`, source2d543de:864 target-arm,144 control-arm,
+  144 bound-arm and72 gradient-arm records. Other eight terms unchanged; all18
+  facade blankets penalized; radius6/envelope necessary compatibility17/17 feasible.
+- `facade_endpoint_v1`: exact named facade entrance cells intersected with direct
+  building-face neighbors and permitted space, no dilation, no target dependence.
+  Sidecars/manifest in experiments/annotations/facade_endpoint_v1; LF is enforced
+  for their hashed bytes. Reconstructed all18 masks independently in report checks.
+- W1 `20260923T084933Z_eb2603cd79f7`, source2965502:17 connected zero-loss witnesses,
+  one incompatible sealed reference. Ordered legal cell additions replayed; all
+  nine terms and binary metrics exactly recomputed. Radius6/envelope unchanged.
+- `budgeted_witness_v1`: simple deterministic procedural comparator, no learning.
+  Some extra material satisfies a floor/dilutes contact; not architectural quality.
+- Latest verification `20260923T084753Z_489a9c4be020`:132 tests,zero failures/errors/
+  skips, checkpoint smoke0. Earlier facade-only verification
+  `20260923T084059Z_6280ed836d9f`:129 passed. All attempts preserved; none failed.
+- Reports and verification/rerender receipts: experiments/reports/A1-* and W1-*.
+  All A1 saved gradients independently checked against quotient derivatives.
+  No optimizer update in A1/W1, no active processes at this handoff.
+- D028 selects radius6/envelope and facade_endpoint_v1 only for experimental
+  calibration/baseline preparation. Preserve original facade as ablation and
+  original production defaults. All nine families retained; prior physical-budget
+  reduction is explicitly accepted for experimentation, not silently relabeled.
+
 ## Exact next actions
 
-1. Read NEXT_EXPERIMENT_PLAN.md and the latest user steering. Define
-   access/material/void and thickness meanings within existing nine families.
-   Keep historical formulas. Create adversarial architectural fixtures and explicit
-   scene/anchor masks before changing losses; never exempt the whole guide blindly.
-2. Compare current formulas against separately versioned facade-anchor or physical
-   budget alternatives, one factor at a time. Include both conflict scenes and the
-   sealed reference; preserve per-family residuals and physical units. No silent
-   expansion of envelopes or budget relaxation. Passing necessary bounds is not
-   sufficient; require constructive plausible witnesses and intended failure cases.
-3. Once semantics are selected, calibrate on under/in/over-budget states and actual
-   NCA parameter gradients. T1 direct occupancy probes do not determine weights;
-   envelope sparsity was inactive throughout them. Audit/port retained notebook
-   TV/density/cantilever regularizers with explicit meanings and ground boundaries.
-4. Preregister E2 procedural/direct-optimization/NCA/no-update comparisons and
-   fresh held-out scenes; all existing18 scenes are now development data. Evaluate
-   long rollouts and damage, not only short training horizons. No architecture or
-   grid-size change before a measurable corrected baseline.
-5. Extend actual trainer recovery to pool/CUDA/AMP state as applicable. Paid Colab
-   needs a concrete job and approved compute cap; every Drive action needs exact
-   approval. Studio work can use saved evidence once representation is decided.
+1. Read FACADE_FINDINGS.md/D028. Do not repeat completed A1/W1 or restart the scope
+   question. Move to the actual model-gradient and regularizer calibration stage.
+2. Freeze a small calibration protocol across all17 feasible development scenes,
+   multiple firing seeds and short/long horizons. Include under/in/over-budget
+   direct probes, actual NCA parameter derivatives, pre-clamp coverage saturation,
+   explicit fixed coefficients and per-family residuals. No inverse-zero-norm
+   weighting. Keep hard legality/ground expected zero gradients visible.
+3. Audit original notebook TV/density/cantilever definitions/checkpoint recipe;
+   port retained regularizers with numerical/batch checks and correct ground/
+   support handling. Fine-tuner density cap is not binarization. Do not import
+   unrelated porosity/surface objectives. Keep originals intact.
+4. Select a bounded coefficient sensitivity experiment; prepare matched no-update,
+   W1 procedural, direct-optimization and NCA controls. Define learned value beyond
+   matching a guide: edit recovery, long-horizon stability and held-out geometry.
+   Existing18 scenes are development data; freeze fresh holdouts before outputs.
+5. Extend actual trainer recovery to pool/CUDA/AMP state if used. Paid Colab still
+   requires a concrete job and compute cap; EVERY Drive operation needs exact
+   approval. Local calibration/preparation needs no user setup. Studio work can
+   use saved fixtures and truthful material/metric labels in parallel conceptually,
+   but do not spawn agents without explicit authorization.
 
 ## Commands and interruption recovery
 
@@ -160,15 +189,15 @@ Do not rerun completed T1 without a new reason. If necessary, scripts/run_target
 accepts `--parent-run 20260923T082527Z_845d2aa6aec0` for a retained fresh attempt.
 Report writers refuse overwrite; use in-memory rendering to reverify.
 
-## Active A1 comparison
+## A1/W1 verification commands
 
-User accepted proceeding with material generation. Read FACADE_PROTOCOL.md and
-D026.129 tests pass in20260923T084059Z_6280ed836d9f. Annotations frozen under
-experiments/annotations/facade_endpoint_v1. Run scripts/run_facade_comparison.py
-once; inspect active processes and run records before retrying. No optimizer.
+```powershell
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T084341Z_e37699e31f26
+& .venv/Scripts/python.exe scripts/experiment.py verify 20260923T084933Z_eb2603cd79f7
+& .venv/Scripts/python.exe -c "from pathlib import Path; from scripts.report_facade_comparison import load,render; assert Path('experiments/reports/A1-facade-comparison.md').read_text(encoding='utf-8') == render(load())"
+& .venv/Scripts/python.exe -c "from pathlib import Path; from scripts.report_witnesses import load,render; assert Path('experiments/reports/W1-witnesses.md').read_text(encoding='utf-8') == render(load())"
+```
 
-## Active W1 follow-up
-
-A1 completed20260923T084341Z_e37699e31f26 with verified report. Read D027 and
-WITNESS_PROTOCOL.md.132 tests pass. Run scripts/run_witnesses.py once; inspect
-processes/results before retrying. No optimizer or production change.
+Fresh repeats, only if justified, use scripts/run_facade_comparison.py or
+scripts/run_witnesses.py with --parent-run and the relevant previous run ID.
+They preserve prior evidence; they do not resume an unfinished case in place.

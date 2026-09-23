@@ -126,3 +126,17 @@ specifies semantic fixtures/alternatives, gradient calibration and paired E2 arm
 User is unsure and asked for advice. Recommend material/form generation first,
 with usability evaluated separately; keep usable pavilion/bridge as the longer-term
 goal. The independent audit is complete; final architectural specification is open.
+
+## A1/W1 completed - 2026-09-23
+
+User accepted architectural material generation as near-term scope. A1
+20260923T084341Z_e37699e31f26 isolates a scene-derived facade endpoint allowance;
+other eight terms unchanged, all18 facade-blanket controls penalized, radius-six
+necessary compatibility17/17 feasible scenes. W1
+20260923T084933Z_eb2603cd79f7 provides17 independently replayed constructive
+zero-loss witnesses and retains sealed-reference infeasibility.132 tests pass.
+
+Read FACADE_FINDINGS.md and D026-D028. Select the explicit experimental contract
+for actual model-gradient/regularizer calibration preparation and matched E2
+controls. This closes the measured numerical contradiction, not architectural
+quality validation. Production defaults stay unchanged; next work is local.
