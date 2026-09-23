@@ -123,4 +123,6 @@ facade contact; simple guides can score zero on all nine terms. Final coefficien
 calibration is deferred until intended architectural semantics and contradictions
 are addressed, not replaced with arbitrary weights. NEXT_EXPERIMENT_PLAN.md
 specifies semantic fixtures/alternatives, gradient calibration and paired E2 arms.
-User representation preference is pending; current independent audit is complete.
+User is unsure and asked for advice. Recommend material/form generation first,
+with usability evaluated separately; keep usable pavilion/bridge as the longer-term
+goal. The independent audit is complete; final architectural specification is open.

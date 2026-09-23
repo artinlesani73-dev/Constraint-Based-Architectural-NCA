@@ -374,3 +374,18 @@ user was asked whether output should primarily be usable pavilion/bridge or abst
 material; do not silently choose while that answer is pending. An anchor exception
 is a proposed experiment, not an implemented exemption or approved final contract.
 All old scenes are development data now; future holdout scenes must be fresh.
+
+## D025 - Feasible recommended scope after user uncertainty
+
+2026-09-23. User did not choose a representation and asked which direction is more
+feasible from the earlier plan. Recommend architectural material/form generation
+first, evaluating usability separately and retaining usable pavilion/bridge as the
+longer-term goal. Existing state/losses directly represent material. Reinterpreting
+it immediately as usable circulation would require explicit floor/void/clearance
+semantics and validation beyond current evidence. This is an assistant recommendation,
+not a user-approved architectural specification or cancellation of usability goals.
+
+Keep material connectivity for the proposed next controlled comparison; resolve
+facade/budget contradictions and show learned value over procedural targets before
+scaling. Do not claim structural safety. Update NEXT_EXPERIMENT_PLAN.md and handoff
+with any later user steering; no production formulas were changed in this milestone.

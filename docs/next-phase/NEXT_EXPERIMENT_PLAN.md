@@ -5,9 +5,30 @@ approval for Colab. T1 proves objective contradictions in some scenes and weak
 zero-loss witnesses in others. Research and product quality both need a better
 success definition before changing the model architecture or scaling grids.
 
+## Recommended near-term scope after user clarification
+
+The user is unsure which representation to choose and asked what is more feasible
+from the prior plan. Recommend architectural form/material generation first, with
+usability evaluated separately. Keep usable pavilion/bridge design as the longer-term
+objective. The existing single material field and evaluated routing/support proxies
+support the first scope directly. Usable circulation requires explicit floor/void/
+clearance interpretation that current evidence does not validate.
+
+This keeps the previous corrected-baseline-first plan: demonstrate learned value,
+resolve contradictory facade/material budgets, evaluate recurrent stability and
+site diversity, then scale and improve the studio. Do not equate this scope with
+arbitrary sculpture or structural certification. Keep spatial scale/entrances/
+protected street and attachment context explicit. A zero-loss procedural guide is
+a baseline to surpass, not sufficient evidence of learned architectural value.
+
+This is the recommended working direction; the user has not chosen a final design
+specification. No user permission is needed to preserve the completed audit or
+prepare comparisons, but record later user steering before changing that intent.
+
 ## Stage A: choose and test the meaning of existing objectives
 
-Resolve the user's representation preference first. For a usable pavilion/bridge,
+Use the recommended material-generation scope for preparation; keep any final
+semantic choice explicit and incorporate subsequent user steering. For a usable pavilion/bridge,
 access should evaluate traversable space and its relationship to material/decks;
 for abstract structural material, retain material connectivity and make later
 usability validation explicit. Both stay within the existing access family.
@@ -30,8 +51,8 @@ For the facade/budget contradiction, compare these explicit alternatives:
 | Declared anchor exception | Exempt only explicitly annotated required contact zones from excessive-facade penalty; preserve cap outside them | Masks independent of target generator, scene hashes, facade-blanket negative controls, no blanket guide exemption |
 | Physical material budget | Express allowance in explicit volume/geometry terms rather than fraction of arbitrary envelope | Per-scene physical specification and rationale, all-nine-term bounds, no post-hoc budget chosen merely to pass |
 
-Recommendation: first test a declared anchor interpretation if usable connected
-architecture is intended. Required attachment should not automatically count as
+Recommendation: first test a declared anchor interpretation for architectural
+material generation, while retaining material connectivity as access. Required attachment should not automatically count as
 unwanted facade occupation. This is a proposal, not an implemented exemption.
 Use a one-factor comparison before combining changes. Evaluate all18 existing
 scenes, keeping the sealed reference, plus separately versioned adversarial scenes.

@@ -98,7 +98,11 @@ and compare explicit facade/budget semantics; then sample under/in/over-budget
 states, actual model parameter gradients and retained regularizers. Preserve nine
 families. Paid Colab, larger grids and interface deployment remain separate gates.
 
-The user's intended representation was requested in this task: usable pavilion/
-bridge versus abstract connected material. Until answered, keep both branches of
-the plan explicit and do not implement an architectural semantic choice by default.
+The user answered that they are unsure and requested the more feasible direction
+based on the prior plan. Recommendation: use architectural material/form generation
+as the next research milestone, with usability evaluated separately and a usable
+pavilion/bridge retained as the longer-term goal. This follows the existing material
+state and keeps the nine families coherent without prematurely adding floor/void/
+clearance semantics. It is an assistant recommendation, not user approval of a
+final architectural specification. Do not claim walkability or structural safety.
 All work and evidence remain local; no Drive access, paid compute or publication.

@@ -2,8 +2,8 @@
 
 Last updated 2026-09-23. **T1 target compatibility audit is complete.** Read
 TARGET_AUDIT_FINDINGS.md, NEXT_EXPERIMENT_PLAN.md and D023/D024. The audit found
-joint facade/budget conflicts and weak zero-loss geometry. Next resolve intended
-architectural semantics, then compare explicit alternatives before calibration.
+joint facade/budget conflicts and weak zero-loss geometry. Recommended next scope: architectural material/form generation with usability
+evaluated separately; compare explicit facade/budget alternatives before calibration.
 No paid training or production objective change is selected.
 
 ## Authorization and storage
@@ -90,14 +90,16 @@ Local commits are authorized. No remote push, deployment or cloud operation.
 - T1 full report and verification/rerender receipts: experiments/reports/T1-*.
   Recomputed saved norms/cosines, volumes/bounds and all nine zero-loss witness
   records; fresh render matches. No T1 attempt failed. No process remains active.
-- User was asked via asynchronous question whether the intended output is a
-  usable pavilion/bridge or abstract structural material. If an answer appears
-  in chat, record it and use it; otherwise that semantic choice remains pending.
-  Do not implement the proposed facade-anchor exemption by implication.
+- User answered they are unsure about usable pavilion/bridge versus abstract
+  material and asked which is more feasible from the prior plan. Recommendation:
+  architectural material/form generation first, usability evaluated separately,
+  usable pavilion/bridge as the longer-term goal. This is advice, not a user-approved
+  final architectural specification. Retain material-connectivity access for the
+  proposed next comparison; do not claim walkability or mechanical safety.
 
 ## Exact next actions
 
-1. Read NEXT_EXPERIMENT_PLAN.md and the user's representation preference. Define
+1. Read NEXT_EXPERIMENT_PLAN.md and the latest user steering. Define
    access/material/void and thickness meanings within existing nine families.
    Keep historical formulas. Create adversarial architectural fixtures and explicit
    scene/anchor masks before changing losses; never exempt the whole guide blindly.

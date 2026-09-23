@@ -368,3 +368,9 @@ geometry and gradient-scale limitations. NEXT_EXPERIMENT_PLAN.md defines staged
 semantic repair, calibration and E2 controls without claiming final weights or
 paid-job readiness. Updated handoff and new local archive preserve all history.
 Original notebook/checkpoint/losses/production defaults remain unchanged; no cloud.
+
+User clarified uncertainty about the intended representation and requested advice.
+D025 and the plan recommend architectural material generation first, usability
+separately, with usable pavilion/bridge retained as the longer-term goal. Recorded
+as recommendation rather than an invented user decision. No implementation scope
+or production contract was changed by that clarification.
