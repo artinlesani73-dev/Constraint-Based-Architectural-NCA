@@ -218,3 +218,15 @@ obstacle detours, paths longer than 64 updates, diagonal disconnection, touching
 IDs, blocked/ambiguous endpoints, illegal or isolated dilation, and real-scene
 batch parity/input preservation. These are geometry/software checks, not model
 training results. Historical source/checkpoint/scenes remain unchanged.
+
+### Retained C1 attempt and Windows evidence-path repair
+
+C1 attempt 20260923T000715Z_1e06516e9763 finalized as failed after all 54 target
+records and 7 registered rollout records. A long scene/profile/version filename,
+combined with the run directory and immutable-publication suffix, exceeded the
+Windows path limit. The attempted eighth case could not publish its case record;
+its available artifacts and the outer traceback remain retained. This is an
+archive-path failure, not a model-quality result. Changed this runner's payload
+and case filenames to short deterministic SHA-256 prefixes; full case IDs stay
+inside records. Retry gets a fresh run linked to this retained attempt. No
+historical file or record is shortened in place.

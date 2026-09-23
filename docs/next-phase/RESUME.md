@@ -133,3 +133,8 @@ checks. Next run scripts/run_corridor_comparison.py locally (54 targets, 108
 single-seed forward cases); no training. Inspect its newest run before retrying
 and use --parent-run for a fresh linked retry. Preserve all intermediate records.
 Then write the comparison report, update this handoff and archive the milestone.
+
+C1 attempt 20260923T000715Z_1e06516e9763 FAILED due to Windows long evidence
+filenames after 54 targets/7 recorded rollouts. Retained intact. Runner filenames
+now use short stable hashes (full IDs remain in JSON). Next retry with
+--parent-run 20260923T000715Z_1e06516e9763; inspect latest run before starting.

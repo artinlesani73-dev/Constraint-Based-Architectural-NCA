@@ -1,0 +1,155 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T000715Z_1e06516e9763",
+  "drive_backup": "not_uploaded",
+  "e0_bitwise_equal_cases": 3,
+  "error": "Traceback (most recent call last):\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_corridor_comparison.py\", line 197, in main\n    attach_record(cid, row, 'case_record')\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\scripts\\run_corridor_comparison.py\", line 90, in attach_record\n    write_once(path, record)\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\nca\\experiments.py\", line 42, in write_once\n    with temporary.open(\"xb\") as stream:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\artin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\LAB\\\\ai-aec-playground\\\\PROJECTS\\\\Constraint-Based-Architectural-NCA\\\\.local-artifacts\\\\runs\\\\20260923T000715Z_1e06516e9763\\\\cases\\\\.reference_v1__ref-02-facade-pair-and-ground__historical-training__corridor_bounded_v1__seed-0.json.cb8506ee8db54487945feece018fd3c8.tmp'\n",
+  "groups": [
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 1,
+      "completed": 1,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 1,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 12,
+      "mean_material_voxels": 12.0,
+      "mean_rollout_seconds": 2.7411475999979302,
+      "min_material_voxels": 12,
+      "profile": "historical-serving__corridor_bounded_v1",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    },
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 1,
+      "completed": 1,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 1,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 62,
+      "mean_material_voxels": 62.0,
+      "mean_rollout_seconds": 2.7193073999951594,
+      "min_material_voxels": 62,
+      "profile": "historical-serving__corridor_legal_v1",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    },
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 1,
+      "completed": 1,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 1,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 12,
+      "mean_material_voxels": 12.0,
+      "mean_rollout_seconds": 2.792593599995598,
+      "min_material_voxels": 12,
+      "profile": "historical-serving__legacy_v31",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    },
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 1,
+      "completed": 1,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 1,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 359,
+      "mean_material_voxels": 359.0,
+      "mean_rollout_seconds": 2.4944584000040777,
+      "min_material_voxels": 359,
+      "profile": "historical-training__corridor_bounded_v1",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    },
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 1,
+      "completed": 1,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 1,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 454,
+      "mean_material_voxels": 454.0,
+      "mean_rollout_seconds": 2.3235113999980967,
+      "min_material_voxels": 454,
+      "profile": "historical-training__corridor_legal_v1",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    },
+    {
+      "blocked_protected_voxels_total": 0,
+      "cases": 2,
+      "completed": 2,
+      "connected_cases": 0,
+      "connectivity_scored_cases": 2,
+      "connectivity_unscorable_cases": 0,
+      "empty_cases": 0,
+      "failed": 0,
+      "illegal_voxels_total": 0,
+      "max_material_voxels": 3054,
+      "mean_material_voxels": 1706.5,
+      "mean_rollout_seconds": 2.4721948000078555,
+      "min_material_voxels": 359,
+      "profile": "historical-training__legacy_v31",
+      "scene_set": "reference_v1",
+      "seeds": [
+        0
+      ],
+      "unsupported_voxels_total": 0
+    }
+  ],
+  "limits": "Single-seed development diagnosis of one historical checkpoint. Target correctness does not establish learned architectural quality. No training or production promotion.",
+  "protocol": "C1_v1",
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "579031cf2f5bb0686f4a1feca69cecc6c14c3278",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html"
+  },
+  "recorded_cases": 7,
+  "recorded_targets": 54,
+  "run_id": "20260923T000715Z_1e06516e9763",
+  "status": "failed",
+  "wall_seconds": 86.03072730000713
+}

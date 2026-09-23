@@ -3,6 +3,7 @@
 Local only. A retry is a fresh linked run; existing evidence is never replaced.
 """
 import argparse
+from hashlib import sha256
 import json
 from pathlib import Path
 import random
@@ -79,14 +80,14 @@ def main():
     started = time.perf_counter()
     status, error = 'completed', None
     def attach_arrays(name, **arrays):
-        path = directory / (name + '.npz')
+        path = directory / ('fields-' + sha256(name.encode()).hexdigest()[:20] + '.npz')
         with path.open('xb') as stream:
             np.savez_compressed(stream, **arrays)
         reference = store.attach(run, path, 'case_fields')
         path.unlink()  # verified registered copy persists
         return reference
     def attach_record(name, record, role):
-        path = directory / 'cases' / (name + '.json')
+        path = directory / 'cases' / ('case-' + sha256(name.encode()).hexdigest()[:20] + '.json')
         write_once(path, record)
         store.attach(run, path, role)
     try:
