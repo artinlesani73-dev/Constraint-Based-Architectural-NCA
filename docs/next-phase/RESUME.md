@@ -208,3 +208,14 @@ Read CALIBRATION_PROTOCOL.md,D029,REGULARIZER_AUDIT.md.137 tests passed in
 20260923T092058Z_bba721fc054d. Run scripts/run_calibration.py once.71 model cases
 and51 budget probes; potentially several minutes CPU. Inspect current processes
 and partial run records before any retry. No optimizer or paid compute.
+
+## In-flight K1 state
+
+Run20260923T092355Z_f657f2f3bdb9, sourcef56932c, is the active71-case diagnostic.
+Check its result.json/process state before retrying. Scalar logging emitted a
+PyTorch requires-grad-to-float warning in the direct-probe mass-ratio field;
+this is logging only, not an exception or changed derivative. Do not edit the
+running runner/modules until completion. Additional independent objective-adapter
+work passed141 tests in20260923T092752Z_fa771e070c3d and is not part of K1's code
+snapshot. No optimizer/paid compute. Reports and K2 proposal scripts are prepared
+but must only consume completed, verified K1 evidence.

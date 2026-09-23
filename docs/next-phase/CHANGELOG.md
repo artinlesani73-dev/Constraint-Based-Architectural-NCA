@@ -414,3 +414,12 @@ checkpoint smoke0. Includes extracted-notebook value/gradient parity, batch chec
 boundary finite differences, ground/floating/no-wrap cases and binarization intent.
 Added CALIBRATION_PROTOCOL.md and scripts/run_calibration.py; all raw per-family
 parameter gradients and source/coefficients are preserved for K1. No optimizer.
+
+## 2026-09-23 - Research objective composition prepared during K1
+
+Added nca/objective.py and four tests: complete coefficients, explicit regularizer
+selection, incompatible-context refusal and pre-clamp saturation. Verification
+20260923T092752Z_fa771e070c3d passes141 tests,zero failures/errors/skips,smoke0.
+Prepared verified report/proposal writers and gated R2 composed-objective recovery
+runner/protocol. These additions are independent of K1's preserved source snapshot.
+They will consume completed K1 evidence; no partial outcome is published as final.

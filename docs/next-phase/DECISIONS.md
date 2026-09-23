@@ -444,3 +444,17 @@ seeds/horizons, pre-clamp saturation and original50-step examples.137 tests pass
 No optimizer update or coefficient selection before outcomes. Original artifacts
 and production defaults remain unchanged; sealed reference explicitly excluded
 from feasible-scene calibration and retained in previous diagnostics.
+
+## D030 - Explicit composed objective and gated recovery preparation
+
+2026-09-23. Added research_objective_v1 as an opt-in composition of the D028
+contract and retained regularizers. Require exactly nine positive family weights
+and three nonnegative regularizer weights; reject omitted families, unknown keys
+and joint-invalid contexts. Historical cantilever remains diagnostic, not silently
+summed with the boundary candidate. No production defaults change.
+
+Verification20260923T092752Z_fa771e070c3d passes141 tests. R2 recovery protocol is
+prepared for four logical CPU updates after completed K1 and a saved K2 proposal.
+It cycles all three diagnostic scenes and preserves source/proposal hashes and
+coefficients in metadata. This is recovery preparation, not a full training pilot.
+K1 is still active in20260923T092355Z_f657f2f3bdb9; no outcomes are presumed.
