@@ -697,3 +697,27 @@ A preparation command used unavailable generic python and made no changes;
 retried with the project interpreter. No experiment outcome yet.
 
 A3 preparation regression20260923T192815Z_f7cdbff9cc00 passed180 tests with no failures/errors/skips and original-checkpoint smoke0 in84.62s. No scientific code changes after verification.
+
+A3P20260923T193037Z_0e72e1207fb9 passed fixed25-field/2-gradient pilot and complete verifier;111.09s, timing-only1038.85s estimate admits1500s. Exact historical F3 source hashes37/37 preserved. Full audit proceeds without changing selection/caps/code.
+
+
+A3 full20260923T193403Z_ac42a8cca390 completed336.74s,231 fields/eight gradient
+cases/12 probes, zero optimizer updates. Verifier passed35 source hashes,48
+parameter vectors/48 last-raw arrays, exact forward parity and all elapsed caps.
+Restored6/8 gradients; two zero cases traced through earlier clamps/non-firing.
+All six access-descent probes improve access loss; three improve total, three
+worsen total. No binary connection repaired. All prior37 F3 sources unchanged.
+
+Post-hoc summary first failed on a float32 cancellation tolerance; original
+script/receipt retained in A3-summary-attempt-1. Receipt write from Codex cwd was
+access-denied; retry from authorized repo succeeded. Final summary reports
+scale-aware residual diagnostics; this is not a changed preregistered gate.
+Added RAW_ACCESS_FINDINGS, RAW_ACCESS_TRAINING_PLAN and D048.
+
+Post-audit extreme finite-value check reproduced nonfinite infeasible fallback
+from raw.sum()*0. Replaced only that zero anchor with one finite scalar times0;
+new regression, no actual audit case affected. Exact35-file diagnostic snapshot
+retained; current raw_access.py differs by this fix. Follow-up full regression
+20260923T194258Z_d2f3798c93b4 was launched; inspect result before claiming pass.
+
+Follow-up regression20260923T194258Z_d2f3798c93b4 passed181 tests, no failures/errors/skips, smoke0,80.57s. Results commit and full verified local archive follow. No code changes after this pass.

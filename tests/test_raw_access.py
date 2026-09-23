@@ -36,6 +36,12 @@ class RawAccessTests(unittest.TestCase):
         self.assertIsNone(d[0]['critical_zyx']);self.assertEqual(float(l.detach()),1)
         self.assertEqual(float(torch.autograd.grad(l.sum(),x)[0].norm()),0)
 
+    def test_impossible_graph_extreme_finite_values_do_not_overflow_zero(self):
+        x,m,e=self.fixture([torch.finfo(torch.float64).max]*3);m[0,0,1]=False
+        l,d=raw_component_access(x[None],m[None],[e])
+        self.assertEqual(float(l.detach()),1);self.assertFalse(d[0]['legal_route_exists'])
+        self.assertTrue(torch.equal(torch.autograd.grad(l.sum(),x)[0],torch.zeros_like(x)))
+
     def test_multi_entrance_and_stable_ties(self):
         x,m,e=self.fixture([0,0,0]);c=np.zeros(x.shape,dtype=bool);c[0,0,1]=True;e['c']=c
         b,d=raw_component_strength(x,m,e);self.assertEqual(float(b.detach()),0)

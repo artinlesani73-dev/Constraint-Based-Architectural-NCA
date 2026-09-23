@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T194258Z_d2f3798c93b4",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 181,
+    "wall_seconds": 80.57488560001366
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "08a6d8569d2e78e3e209c5dbf7f8a26c14ec6bd4",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/CHANGELOG.md\n M docs/next-phase/RESUME.md\n M nca/raw_access.py\n M tests/test_raw_access.py\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? experiments/records/20260923T193037Z_0e72e1207fb9.json\n?? experiments/records/20260923T193403Z_ac42a8cca390.json\n?? experiments/reports/A3-20260923T193403Z_ac42a8cca390-evidence.json\n?? experiments/reports/A3-20260923T193403Z_ac42a8cca390-outcomes.json\n?? experiments/reports/A3-20260923T193403Z_ac42a8cca390-verification.json\n?? experiments/reports/A3P-20260923T193037Z_0e72e1207fb9-evidence.json\n?? experiments/reports/A3P-20260923T193037Z_0e72e1207fb9-verification.json"
+  },
+  "run_id": "20260923T194258Z_d2f3798c93b4",
+  "status": "completed"
+}

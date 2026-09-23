@@ -1,6 +1,49 @@
 # Resume the NCA next phase
 
-## Current A3 preparation - 2026-09-23
+## Current completed A3 diagnostic - 2026-09-23
+
+Read RAW_ACCESS_FINDINGS.md/D048, then RAW_ACCESS_TRAINING_PLAN.md. A3 full
+20260923T193403Z_ac42a8cca390 completed336.74s:231 fields/eight actual F3 gradient
+cases/12 reversible probe fields, zero optimizer updates, all caps met. Full
+verifier passed35 source hashes,48 parameter vectors/48 last-raw arrays and
+all saved-field/trace checks. No active diagnostic/training process.
+
+Pilot20260923T193037Z_0e72e1207fb9 completed111.09s and verified25 fields/two
+gradient cases/two probes. Timing1038.85s admitted1500 cap. Source08a6d85.
+Initial regression20260923T192815Z_f7cdbff9cc00 passed180 tests/smoke0.
+
+Outcome: old access parameter gradients0/8 nonzero; candidate6/8 nonzero.
+All six descent probes reduce candidate access, but repair no binary connection.
+Total improves3/worsens3; all four50-step gradients conflict with sparsity.
+Two16-step ground-pair cases remain blocked behind earlier clamps/non-firing.
+Candidate remains opt-in. Next prepare F4 against constant16 F2, one access
+change only, original initialization/scenes/recipes/64 updates; actual-loop
+parity, early/trained-state recovery and timing gates before any full training.
+
+Reports experiments/reports/A3-<full-ID>-{verification,evidence,outcomes}.json
+and corresponding A3P pilot reports. Raw artifacts .local-artifacts/runs/<ID>.
+Post-hoc script/receipt .local-artifacts/analysis-attempts/A3-<full-ID>; failed
+first float32 consistency tolerance retained in A3-summary-attempt-1. No
+scientific gate/outcome was altered.
+
+After audit, fixed infeasible fallback overflow in nca/raw_access.py only; no
+audited case affected. All37 historical F3 files still match. Current diagnostic
+source identity differs from the recorded35-file source snapshot in that one
+file, so exact repetitions require extracting the registered source ZIP into a
+NEW workspace. Do not bypass pilot source equality or historical recovery guards.
+Follow-up full regression20260923T194258Z_d2f3798c93b4 passed181 tests, zero
+failures/errors/skips, original-checkpoint smoke0,80.57s. No active processes.
+
+Final archive builder in Codex cwd work/package_nca_raw_access.py takes pilot
+and full IDs above. Output outputs/NCA-Raw-Access-Backup-2026-09-23-<commit>.zip
+and SHA256 sidecar; completion receipt .local-artifacts/milestones/
+<commit>-backup-receipt.json. Absence means archive remains to be completed.
+Includes all previous evidence/private reports, source snapshots, analysis
+attempts, full Git bundle, fresh restore and payload-hash checks. Same-disk copy;
+no off-device backup yet. Every Drive operation still needs explicit permission.
+No paid compute, remote push, production change or promoted model.
+
+## Previous A3 preparation - 2026-09-23
 
 Read RAW_ACCESS_AUDIT_PROTOCOL.md and D047. Source/config implemented; no pilot
 or full audit yet. Next: full foundation regression, local source commit, then
@@ -674,3 +717,9 @@ Full F3 verification passed376 fields/260 cursors/8 exact final rollouts,37 sour
 A3 regression20260923T192815Z_f7cdbff9cc00 active session61518. Inspect result and log before retry; no diagnostic run yet.
 
 A3 regression20260923T192815Z_f7cdbff9cc00 completed180 tests, zero failures/errors/skips, smoke0,84.62s. Next source commit then timing pilot; scientific code frozen.
+
+A3P20260923T193037Z_0e72e1207fb9 active session59351; source08a6d85. Inspect result/logs before retry. Full audit remains gated by pilot verification and frozen timing admission.
+
+A3P20260923T193037Z_0e72e1207fb9 completed111.09s and verified35 source hashes/25 fields/2 gradient cases/2 bounded probe fields. Timing estimate1038.85s admits1500 cap. All37 historical F3 code hashes unchanged. Next full A3 with exact pilot identity.
+
+Full A3 20260923T193403Z_ac42a8cca390 active session9272; scientific source08a6d85 and identical pilot protocol hashes. Inspect result/logs before retry; after completion run reporter, work/analyze_a3.py, findings/decision, results commit and work/package_nca_raw_access.py <pilot-ID> <full-ID>.

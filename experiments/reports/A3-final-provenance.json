@@ -1,0 +1,15 @@
+{
+  "audit_hashes": 35,
+  "audited_source_commit": "08a6d8569d2e78e3e209c5dbf7f8a26c14ec6bd4",
+  "errors": 0,
+  "failures": 0,
+  "final_regression": "20260923T194258Z_d2f3798c93b4",
+  "historical_F3_hashes_unchanged": 37,
+  "post_audit_changed_sources": [
+    "nca/raw_access.py"
+  ],
+  "reason": "Overflow-safe zero derivative for infeasible graph; all231 audited graphs feasible; exact source snapshots retained",
+  "skips": 0,
+  "smoke_exit_code": 0,
+  "tests": 181
+}

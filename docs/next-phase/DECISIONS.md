@@ -731,3 +731,24 @@ gradients gates1500-second full CPU audit by timing only. Candidate stays opt-in
 existing objective, forward, architecture, nine families and budgets unchanged.
 Preserve zero gradients and unsuccessful probes. No training/promotion, paid
 compute, Drive operation or push is part of A3.
+
+
+## D048 - Keep raw access opt-in; prepare a constant16 learning comparison
+
+2026-09-23. A3 verifies231 saved fields, eight actual F3 gradient cases and12
+reversible probe fields; no optimizer updates, all caps met. Existing projected
+access gradients are zero8/8; raw access restores6/8. All six descent probes
+reduce raw access loss, but all remain disconnected; total improves3/worsens3.
+Two16-step ground-pair states remain blocked by earlier clamps/non-firing.
+Four50-step access/sparsity cosines are negative. Do not call this learned or
+geometric improvement, do not adopt F3 horizons or alter material allowances.
+
+Follow RAW_ACCESS_TRAINING_PLAN.md: propose F4 with only access changed against
+constant16 F2. Preserve original initialization, two scenes, recipes,64 updates,
+9 families and architecture; require actual-loop parity/recovery/timing gates.
+No candidate promotion, paid training, Drive access, deployment or push.
+
+Post-audit infeasible-graph zero-anchor overflow fixed with a regression. It
+affects no A3 field; old exact source is preserved. The first post-hoc gradient-
+subtraction tolerance failure and receipt-write permission error are retained;
+no frozen experimental criterion was changed. Read RAW_ACCESS_FINDINGS.md.

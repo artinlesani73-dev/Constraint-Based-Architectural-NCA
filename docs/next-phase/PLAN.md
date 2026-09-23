@@ -281,3 +281,14 @@ commit, then pilot and verify it. Full audit is conditional on timing admission
 and exact source/config equality. Interpret actual parameter gradients and local
 probes before proposing any new learning. Update findings/RESUME and archive all
 evidence including failures. Current task adds no optimizer updates.
+
+
+## A3 completed; F4 preparation next - 2026-09-23
+
+Read RAW_ACCESS_FINDINGS.md/D048: semantic checks231/231 pass; parameter signal
+restored6/8 with6/6 favorable access probes, but no repaired connectivity and
+two persistent zero states. Preserve partial success and material conflicts.
+Next RAW_ACCESS_TRAINING_PLAN.md proposes one access-family change against
+constant16 F2, requiring parity, true-loop recovery and timing gates. No new
+training has occurred here and no model is promoted. Larger grids, fresh-scene
+validation and production Studio remain later work.

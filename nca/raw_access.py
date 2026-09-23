@@ -47,7 +47,7 @@ def raw_component_strength(material, permitted, endpoints):
             return material.reshape(-1)[index],{'version':VERSION,'critical_zyx':[int(x) for x in np.unravel_index(index,shape)],
                 'legal_route_exists':True,'entrance_ids':[name for name,_ in regions]}
     # Even all legal cells cannot connect the regions; retain a zero gradient.
-    return material.sum()*0.,{'version':VERSION,'critical_zyx':None,'legal_route_exists':False,
+    return material.reshape(-1)[0]*0.,{'version':VERSION,'critical_zyx':None,'legal_route_exists':False,
         'entrance_ids':[name for name,_ in regions]}
 
 

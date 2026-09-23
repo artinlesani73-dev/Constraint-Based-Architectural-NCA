@@ -1,0 +1,2524 @@
+{
+  "gradients": [
+    {
+      "cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v2": null,
+          "total_v3": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v2": null,
+          "total_v3": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 1.0,
+          "sparsity": null,
+          "total_v2": 0.9861133060964511,
+          "total_v3": 0.9861133060964511
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v2": null,
+          "total_v3": null
+        },
+        "total_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9861133060964511,
+          "sparsity": null,
+          "total_v2": 1.0000000000000002,
+          "total_v3": 1.0000000000000002
+        },
+        "total_v3": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9861133060964511,
+          "sparsity": null,
+          "total_v2": 1.0000000000000002,
+          "total_v3": 1.0000000000000002
+        }
+      },
+      "fields": {
+        "bytes": 1609793,
+        "path": "artifacts/5ce4b816e04d44859d48633392a63477_g-mass_3-r0-h16.npz",
+        "role": "fields",
+        "sha256": "e6965541b824375f1804a0a5bfa421b72789613e272d015bdfeb99cc944cee80"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 2.217551697933413,
+          "value": 0.7141545414924622
+        },
+        "sparsity": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "total_v2": {
+          "last_raw_l2": 31.903029657339466,
+          "parameter_l2": 56.526323974298954,
+          "value": 33.13284683227539
+        },
+        "total_v3": {
+          "last_raw_l2": 31.903044453939273,
+          "parameter_l2": 56.526323974298954,
+          "value": 33.13284683227539
+        }
+      },
+      "optimizer_updates": 0,
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "probes": [],
+      "projected_details": {
+        "critical_zyx": [
+          0,
+          14,
+          21
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "raw_details": {
+        "critical_zyx": [
+          0,
+          15,
+          21
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "source_id": "mass_3-r0",
+      "steps": 16,
+      "traces": {
+        "access_v2": {
+          "delta_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "access_v3": {
+          "delta_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "v2_critical": {
+          "fired": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          "raw": [
+            0.12201452255249023,
+            0.08904211223125458,
+            0.08904211223125458,
+            0.05065831169486046,
+            0.006190016865730286,
+            -0.04436160624027252,
+            0.0,
+            -0.05210546404123306,
+            -0.0525859072804451,
+            0.0,
+            -0.053408633917570114,
+            0.0,
+            0.0,
+            -0.05387475714087486,
+            -0.054419249296188354,
+            0.0
+          ],
+          "zyx": [
+            0,
+            14,
+            21
+          ]
+        },
+        "v3_critical": {
+          "fired": [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          "raw": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.12655916810035706,
+            0.12655916810035706,
+            0.09832410514354706,
+            0.09832410514354706,
+            0.06482890248298645,
+            0.06482890248298645,
+            0.06482890248298645,
+            0.026056848466396332,
+            -0.018408063799142838,
+            0.0,
+            0.0,
+            -0.0483795665204525,
+            -0.048970215022563934,
+            0.0
+          ],
+          "zyx": [
+            0,
+            15,
+            21
+          ]
+        }
+      },
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9999999999999999,
+          "other_terms": 0.9861133061063315,
+          "sparsity": null
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9861133061063315,
+          "other_terms": 1.0000000000000002,
+          "sparsity": null
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 0.0,
+        "coverage": 55.43879269968885,
+        "other_terms": 56.526323974298954,
+        "sparsity": 0.0
+      }
+    },
+    {
+      "cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v2": null,
+          "total_v3": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0,
+          "coverage": 0.38142335452142245,
+          "sparsity": -0.32795511784793985,
+          "total_v2": -0.23118945833945223,
+          "total_v3": 0.04477691707965195
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.38142335452142245,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.6831744993719696,
+          "total_v2": -0.5374423049723958,
+          "total_v3": -0.4442290941621734
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.32795511784793985,
+          "coverage": -0.6831744993719696,
+          "sparsity": 1.0,
+          "total_v2": 0.9803858940650403,
+          "total_v3": 0.914136984354592
+        },
+        "total_v2": {
+          "access_v2": null,
+          "access_v3": -0.23118945833945223,
+          "coverage": -0.5374423049723958,
+          "sparsity": 0.9803858940650403,
+          "total_v2": 1.0,
+          "total_v3": 0.961580981122023
+        },
+        "total_v3": {
+          "access_v2": null,
+          "access_v3": 0.04477691707965195,
+          "coverage": -0.4442290941621734,
+          "sparsity": 0.914136984354592,
+          "total_v2": 0.961580981122023,
+          "total_v3": 1.0000000000000002
+        }
+      },
+      "fields": {
+        "bytes": 5882326,
+        "path": "artifacts/cdd9aa4ac38845a199475c39f0590a53_g-mass_3-r0-h50.npz",
+        "role": "fields",
+        "sha256": "eb35514f0e1db98182d62a690fcea5383d8636b769c1cda968a3c38ceda99464"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.4099968157875526,
+          "value": 1.010563850402832
+        },
+        "coverage": {
+          "last_raw_l2": 0.13608276450184995,
+          "parameter_l2": 0.2102171263892794,
+          "value": 0.6960850954055786
+        },
+        "sparsity": {
+          "last_raw_l2": 0.359170914588627,
+          "parameter_l2": 8.773399730135981,
+          "value": 0.024948593229055405
+        },
+        "total_v2": {
+          "last_raw_l2": 25.02676209626011,
+          "parameter_l2": 22.379979674819232,
+          "value": 32.502349853515625
+        },
+        "total_v3": {
+          "last_raw_l2": 29.177711031244414,
+          "parameter_l2": 21.7955355272643,
+          "value": 32.66080856323242
+        }
+      },
+      "optimizer_updates": 0,
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0105226039886475,
+          "actual_parameter_l2": 9.999818737470366e-05,
+          "mass_ratio": 0.1329711675643921,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 32.66069412231445
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0106042623519897,
+          "actual_parameter_l2": 9.999833566144432e-05,
+          "mass_ratio": 0.13282181322574615,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 32.6608772277832
+        }
+      ],
+      "projected_details": {
+        "critical_zyx": [
+          5,
+          13,
+          11
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "raw_details": {
+        "critical_zyx": [
+          6,
+          13,
+          10
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "source_id": "mass_3-r0",
+      "steps": 50,
+      "traces": {
+        "access_v2": {
+          "delta_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_l2": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "access_v3": {
+          "delta_l2": [
+            0.0034152203656681594,
+            0.005845866788936346,
+            0.006366945679684762,
+            0.006642211328692809,
+            0.006330853162191927,
+            0.003663955541109804,
+            0.006027056942259037,
+            0.00270871456151316,
+            0.002857331191447108,
+            0.00529380848447479,
+            0.005417365241988215,
+            0.005364853937618352,
+            0.005345928927701135,
+            0.005206479654972958,
+            0.005013149821578203,
+            0.0024367922829662,
+            0.005046097026084207,
+            0.004818097740244392,
+            0.002437617184461918,
+            0.004919028530197815,
+            0.008264930467024431,
+            0.005765799054062522,
+            0.006288343940445722,
+            0.002196183875355838,
+            0.003893998578828302,
+            0.001741599807398413,
+            0.004401286756959405,
+            0.005064687623719325,
+            0.00475959991594487,
+            0.004635694575543506,
+            0.004583412206421612,
+            0.004248369407369639,
+            0.004358153577066238,
+            0.0019873344597514625,
+            0.004165580256620558,
+            0.004192071890884974,
+            0.003975829226057517,
+            0.0016244632130168837,
+            0.002025916774323761,
+            0.002233669229807892,
+            0.003952603100379263,
+            0.002055954133831902,
+            0.0038061705657528315,
+            0.0018745014062007106,
+            0.003843006785822238,
+            0.0037627589615753703,
+            0.003623875602184396,
+            0.003598239073355072,
+            0.0014794627842676298,
+            0.10000000149011612
+          ],
+          "raw_l2": [
+            0.04372362983961182,
+            0.0436435203056368,
+            0.03850129316316553,
+            0.031852036730795,
+            0.026372833547300138,
+            0.021783626190306528,
+            0.017819171982129595,
+            0.016784213575487244,
+            0.013805533885122664,
+            0.011962951335017267,
+            0.011972638863494445,
+            0.009733290263035148,
+            0.00860743096290586,
+            0.007869845161119693,
+            0.006375188078469087,
+            0.005561767032731354,
+            0.08340834206403012,
+            0.08329960853884537,
+            0.08330676373832507,
+            0.08319316125643958,
+            0.06497017768656206,
+            0.050908202306416024,
+            0.04008049903796793,
+            0.040107983275662194,
+            0.031766469299269906,
+            0.03175945424006135,
+            0.03164857720322267,
+            0.02510317079178978,
+            0.019906460777148784,
+            0.01584789024140685,
+            0.012625968957679421,
+            0.01014689671740563,
+            0.008209965302423705,
+            0.008322927276002557,
+            0.00811596710136308,
+            0.006622511109063202,
+            0.006556536835027642,
+            0.0067105780398858126,
+            0.00563456745741563,
+            0.0048019897181194185,
+            0.003897402680009349,
+            0.0036204980653878087,
+            0.0032971961015571746,
+            0.003155202616736775,
+            0.002786717704253166,
+            0.002768325886630789,
+            0.003061950290925626,
+            0.002853730343560363,
+            1.2243646743062098,
+            1.0
+          ]
+        },
+        "v2_critical": {
+          "fired": [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "raw": [
+            0.14975562691688538,
+            0.14975562691688538,
+            0.14975562691688538,
+            0.15001675486564636,
+            0.1503329873085022,
+            0.15044109523296356,
+            0.15048334002494812,
+            0.15044738352298737,
+            0.15037472546100616,
+            0.15037472546100616,
+            0.15037472546100616,
+            0.15050341188907623,
+            0.15050341188907623,
+            0.1506032943725586,
+            0.15047083795070648,
+            0.14928902685642242,
+            0.147428497672081,
+            0.14442101120948792,
+            0.13978211581707,
+            0.13390111923217773,
+            0.12679895758628845,
+            0.12679895758628845,
+            0.11791083216667175,
+            0.11791083216667175,
+            0.10717789828777313,
+            0.09389158338308334,
+            0.07823987305164337,
+            0.059055209159851074,
+            0.03605429083108902,
+            0.008322883397340775,
+            -0.024602066725492477,
+            -0.03503265976905823,
+            -0.03557771071791649,
+            0.0,
+            -0.03593166172504425,
+            0.0,
+            0.0,
+            -0.03600945696234703,
+            0.0,
+            -0.036090314388275146,
+            0.0,
+            -0.03604969009757042,
+            -0.03660259768366814,
+            0.0,
+            -0.0366707406938076,
+            -0.03734904155135155,
+            0.0,
+            0.0,
+            0.0,
+            -0.03713345527648926
+          ],
+          "zyx": [
+            5,
+            13,
+            11
+          ]
+        },
+        "v3_critical": {
+          "fired": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "raw": [
+            0.0,
+            -0.0024059743154793978,
+            -0.0027535625267773867,
+            -0.00275279744528234,
+            -0.002846833085641265,
+            0.0,
+            -0.002355702221393585,
+            0.0,
+            0.0,
+            -0.0009263915126211941,
+            -0.0017914542695507407,
+            -0.00215181615203619,
+            -0.002459762617945671,
+            -0.0029810015112161636,
+            -0.0033896842505782843,
+            0.0,
+            -0.003930451348423958,
+            -0.004587893839925528,
+            0.0,
+            -0.004399911500513554,
+            -0.004703034181147814,
+            0.0,
+            -0.0044824047945439816,
+            0.0,
+            0.0,
+            0.0,
+            -0.003630769671872258,
+            -0.004337522201240063,
+            -0.004484416916966438,
+            -0.00466254772618413,
+            -0.005049433559179306,
+            -0.0053423745557665825,
+            -0.006247432436794043,
+            0.0,
+            -0.006710508372634649,
+            -0.007041860371828079,
+            -0.007506148423999548,
+            0.0,
+            0.0,
+            0.0,
+            -0.00769710261374712,
+            0.0,
+            -0.008186472579836845,
+            0.0,
+            -0.008368540555238724,
+            -0.008614196442067623,
+            -0.009088777005672455,
+            -0.00973185058683157,
+            0.0,
+            -0.010563801974058151
+          ],
+          "zyx": [
+            6,
+            13,
+            10
+          ]
+        }
+      },
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0000000000000002,
+          "coverage": 0.3814233534392807,
+          "other_terms": -0.23118948539325343,
+          "sparsity": -0.3279551149366824
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.3814233534392807,
+          "coverage": 1.0000000000000002,
+          "other_terms": -0.5374423150961674,
+          "sparsity": -0.683174500186601
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": -0.23118948539325343,
+          "coverage": -0.5374423150961674,
+          "other_terms": 1.0000000000000002,
+          "sparsity": 0.9803858981256539
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.3279551149366824,
+          "coverage": -0.683174500186601,
+          "other_terms": 0.9803858981256539,
+          "sparsity": 0.9999999999999999
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 6.149952204836021,
+        "coverage": 5.255428177262314,
+        "other_terms": 22.37997652103266,
+        "sparsity": 26.320199121182856
+      }
+    }
+  ],
+  "replay": [
+    {
+      "index": 0,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 2,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            1,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.0,
+        "raw_details": {
+          "critical_zyx": [
+            1,
+            17,
+            9
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 87611,
+          "path": "artifacts/3088a7d411174183825490c2633b49c8_original-r0-s0-h16.npz",
+          "role": "fields",
+          "sha256": "77313ef09e7149161bd507d1939b27a0fca4583d4f2df0de4d855bdbd5f9203f"
+        },
+        "group": "original",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 1,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 30,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.049793004989624,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            5,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.049793045967817307,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            15,
+            21
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 86845,
+          "path": "artifacts/0c00e7bd97d64fb3b5a381e8ddb51882_original-r0-s0-h24.npz",
+          "role": "fields",
+          "sha256": "e6d83e11fbea3f02b631562d57857dc9a17d06901916a030108ee069252bcba4"
+        },
+        "group": "original",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 2,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0521420240402222,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            5,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.05214206501841545,
+        "raw_details": {
+          "critical_zyx": [
+            0,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85774,
+          "path": "artifacts/1a39b29a433048d7aabb6bd7f09248a0_original-r0-s0-h32.npz",
+          "role": "fields",
+          "sha256": "c287749cb1aed9130ebef32a07b61727037fdeb53de678cf025fbc14956f2568"
+        },
+        "group": "original",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 3,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0596239566802979,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            5,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.05962400510907173,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            15,
+            9
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85436,
+          "path": "artifacts/94d723101d934eaf974389526803757a_original-r0-s0-h40.npz",
+          "role": "fields",
+          "sha256": "96d111d0d03ca26e726d40ca83ccac771a22afe23be4ba853c443ecd4c6b8a40"
+        },
+        "group": "original",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 4,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            5,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.0,
+        "raw_details": {
+          "critical_zyx": [
+            5,
+            14,
+            12
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85558,
+          "path": "artifacts/fe4ad88a3e87494faeceb072a35f759a_original-r0-s0-h50.npz",
+          "role": "fields",
+          "sha256": "ae48002530a5054395e77c50323a806eba13cff36e2ffa10f95fafbe8e97da86"
+        },
+        "group": "original",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 36,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 7,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.7698797583580017,
+        "loss_v3": 0.7698797583580017,
+        "projected_bottleneck": 0.2301202267408371,
+        "projected_details": {
+          "critical_zyx": [
+            1,
+            13,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.2301202267408371,
+        "raw_details": {
+          "critical_zyx": [
+            1,
+            13,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 86339,
+          "path": "artifacts/847a603ca85343c8869dd4ba00b30be6_F2-mapped_30-r0-s0-h16.npz",
+          "role": "fields",
+          "sha256": "fdb80cd1edbcba618a1a59719cb905a53f97fa3183694a45ca39829f027fdb71"
+        },
+        "group": "F2",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 37,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 8,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.6557826995849609,
+        "loss_v3": 0.6557826995849609,
+        "projected_bottleneck": 0.34421730041503906,
+        "projected_details": {
+          "critical_zyx": [
+            2,
+            14,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.34421730041503906,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            14,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85345,
+          "path": "artifacts/58c5094b4c9443c09ecff3825f7a3683_F2-mapped_30-r0-s0-h24.npz",
+          "role": "fields",
+          "sha256": "8143b2bda4f9db86e4baf7b192e0637662a8b8a44bb47eb7e78892369ca2e874"
+        },
+        "group": "F2",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 38,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 4,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.17980468273162842,
+        "loss_v3": 0.17980468273162842,
+        "projected_bottleneck": 0.8201953172683716,
+        "projected_details": {
+          "critical_zyx": [
+            1,
+            13,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.8201953172683716,
+        "raw_details": {
+          "critical_zyx": [
+            1,
+            13,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85037,
+          "path": "artifacts/e895f933887046b3802815bb395e7301_F2-mapped_30-r0-s0-h32.npz",
+          "role": "fields",
+          "sha256": "ded9a9072ea29a895d47d747291f65e27406c0e1fcc7f50c89d2f98360d6ebf3"
+        },
+        "group": "F2",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 39,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 3,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            14,
+            11
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85261,
+          "path": "artifacts/302cd59c6fe548b1a2426fdc15c8bfce_F2-mapped_30-r0-s0-h40.npz",
+          "role": "fields",
+          "sha256": "a77db6e6f9619195f55e2be05852e4d74c27d11c54a7f6abe612efa935221f5e"
+        },
+        "group": "F2",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 40,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            1,
+            14,
+            22
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85246,
+          "path": "artifacts/0393b3d7a48546aeb84143969d863377_F2-mapped_30-r0-s0-h50.npz",
+          "role": "fields",
+          "sha256": "3aabfe1793930faecf2b994845fbe1291051b030c3e6d0d944bcd9bc670102bd"
+        },
+        "group": "F2",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T150119Z_f7b304516723"
+      }
+    },
+    {
+      "index": 108,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 3,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            0,
+            14,
+            21
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.0,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            15,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 86198,
+          "path": "artifacts/b47d0ecf82e84188b361938a13cea0d0_g-mapped_30-r0-u64-s0-h16.npz",
+          "role": "fields",
+          "sha256": "77b3a191e4e74acdffc62e05757b858d65ace40c8c19a079c7811b114eae9ec3"
+        },
+        "group": "F3",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T160713Z_cc33850561b8"
+      }
+    },
+    {
+      "index": 109,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 3,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.044825792312622,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            1,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.04482574388384819,
+        "raw_details": {
+          "critical_zyx": [
+            2,
+            15,
+            21
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85176,
+          "path": "artifacts/b3819d6760694558a0737f91067ce95b_g-mapped_30-r0-u64-s0-h24.npz",
+          "role": "fields",
+          "sha256": "7874319b4d31056e590f8ac8087b30949d5474cce9c47231dfacd4f63309d16c"
+        },
+        "group": "F3",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T160713Z_cc33850561b8"
+      }
+    },
+    {
+      "index": 110,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0423412322998047,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            1,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.042341265827417374,
+        "raw_details": {
+          "critical_zyx": [
+            0,
+            13,
+            10
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 84700,
+          "path": "artifacts/f7b948c2a6b548ac8a58ef4d221256d2_g-mapped_30-r0-u64-s0-h32.npz",
+          "role": "fields",
+          "sha256": "d1e372ce7a58797cd85db0832fa10258870cc13f8a0471d56ec6929d63d2aa47"
+        },
+        "group": "F3",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T160713Z_cc33850561b8"
+      }
+    },
+    {
+      "index": 111,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0519659519195557,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            4,
+            13,
+            11
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": -0.05196591094136238,
+        "raw_details": {
+          "critical_zyx": [
+            0,
+            13,
+            9
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 84936,
+          "path": "artifacts/9026b81ee1144ed88e5fda23ada71c50_g-mapped_30-r0-u64-s0-h40.npz",
+          "role": "fields",
+          "sha256": "8e3dc49387abd0e369339001e7671f720d879fe31c70aef9bf1a532b91ccccd9"
+        },
+        "group": "F3",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T160713Z_cc33850561b8"
+      }
+    },
+    {
+      "index": 112,
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "score": {
+        "binary": {
+          "all_connected": false,
+          "components_touching_all_entrances": 0,
+          "material_components": 5,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 1.0,
+        "loss_v3": 1.0,
+        "projected_bottleneck": 0.0,
+        "projected_details": {
+          "critical_zyx": [
+            4,
+            13,
+            11
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 0.0,
+        "raw_details": {
+          "critical_zyx": [
+            6,
+            12,
+            11
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 85109,
+          "path": "artifacts/8b1297757c7c47f9a9e3140222b7f4e0_g-mapped_30-r0-u64-s0-h50.npz",
+          "role": "fields",
+          "sha256": "deb229e2a70170fe8b57097c63e0cef2e004b918da23bfa1686110f661a08a3f"
+        },
+        "group": "F3",
+        "raw_kind": "network_preclamp",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T160713Z_cc33850561b8"
+      }
+    },
+    {
+      "index": 180,
+      "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            12,
+            4,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            12,
+            4,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 1275,
+          "path": "artifacts/6df3f3e522f646389fab9d1230e57fcf_f00.npz",
+          "role": "fields",
+          "sha256": "3ddf766ef459689f114e3ca416fa3b926a08e63c2393979f1e4d3e4cfed99d93"
+        },
+        "group": "W1",
+        "raw_kind": "material_as_raw_control",
+        "scene": "legacy-easy-seed-000",
+        "source_run": "20260923T084933Z_eb2603cd79f7"
+      }
+    },
+    {
+      "index": 181,
+      "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            10,
+            7,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            10,
+            7,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 1252,
+          "path": "artifacts/84d2138db01949d8a76a2809ed375277_f01.npz",
+          "role": "fields",
+          "sha256": "aa28ab42e76955353aaf87f9355b7ddafe9a86939ea07e002460d6ff6bc5fd10"
+        },
+        "group": "W1",
+        "raw_kind": "material_as_raw_control",
+        "scene": "legacy-easy-seed-001",
+        "source_run": "20260923T084933Z_eb2603cd79f7"
+      }
+    },
+    {
+      "index": 182,
+      "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            12,
+            1,
+            10
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            12,
+            1,
+            10
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 1388,
+          "path": "artifacts/e826ef109aab4061b439a5d6e1ad861f_f02.npz",
+          "role": "fields",
+          "sha256": "b9e011678775639725eead17e22f62ec5df90884d13bcea460fd8c67f79b1c10"
+        },
+        "group": "W1",
+        "raw_kind": "material_as_raw_control",
+        "scene": "legacy-easy-seed-002",
+        "source_run": "20260923T084933Z_eb2603cd79f7"
+      }
+    },
+    {
+      "index": 183,
+      "scene_hash": "d4daee3de258cd2a3d3db9f2dc20509135495b79eb437cbb62e32dcf8b8c51cb",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            13,
+            9,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            13,
+            9,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 1372,
+          "path": "artifacts/5920315ae78f4fcc9db6f3f2719b371f_f03.npz",
+          "role": "fields",
+          "sha256": "2c78546ebef0cfbf02b406c833a7c34b9ea8d11abfbec1fc20aaf66cdadd18ce"
+        },
+        "group": "W1",
+        "raw_kind": "material_as_raw_control",
+        "scene": "legacy-easy-seed-003",
+        "source_run": "20260923T084933Z_eb2603cd79f7"
+      }
+    },
+    {
+      "index": 184,
+      "scene_hash": "007489b26131bbaa33d7c674eefa9a343f147dda9d7adbd31c081930a722a046",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            11,
+            4,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.0,
+        "raw_details": {
+          "critical_zyx": [
+            11,
+            4,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 1310,
+          "path": "artifacts/807fb51d5b7244f88bf8825fb86ebf2a_f04.npz",
+          "role": "fields",
+          "sha256": "1c994ec590dc7cfb825632998d02402b4ece72457e1ebf7cd77babbb97a809b7"
+        },
+        "group": "W1",
+        "raw_kind": "material_as_raw_control",
+        "scene": "legacy-easy-seed-004",
+        "source_run": "20260923T084933Z_eb2603cd79f7"
+      }
+    },
+    {
+      "index": 197,
+      "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            12,
+            4,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.173767328262329,
+        "raw_details": {
+          "critical_zyx": [
+            8,
+            7,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 2913,
+          "path": "artifacts/d9365e7992c445fcb927bd79f945185a_c00r0-final.npz",
+          "role": "fields",
+          "sha256": "cc328244303a5345b0138ba02b4ed05537eeecc8b41646ed5468282401aa0c40"
+        },
+        "group": "D1",
+        "raw_kind": "direct_parameter_raw",
+        "scene": "legacy-easy-seed-000",
+        "source_run": "20260923T105246Z_ab0d4a430b4c"
+      }
+    },
+    {
+      "index": 198,
+      "scene_hash": "a663a4675a2e972087c1aa709d0caa184599a53b45b8bce789b54a7d200b41a4",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            12,
+            4,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.2498741149902344,
+        "raw_details": {
+          "critical_zyx": [
+            11,
+            4,
+            22
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 2762,
+          "path": "artifacts/24bd9e19ad8f45e1a39e3e29ac0e6c19_c00r1-final.npz",
+          "role": "fields",
+          "sha256": "1db6a553ce1eceed6e26fc9d2f9db67024cd0ab4d9909dc37d572f4d415e37f8"
+        },
+        "group": "D1",
+        "raw_kind": "direct_parameter_raw",
+        "scene": "legacy-easy-seed-000",
+        "source_run": "20260923T105246Z_ab0d4a430b4c"
+      }
+    },
+    {
+      "index": 199,
+      "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": false,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            10,
+            7,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.157613754272461,
+        "raw_details": {
+          "critical_zyx": [
+            10,
+            7,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 2686,
+          "path": "artifacts/066d529c784747edb080e7c4501ad22d_c01r0-final.npz",
+          "role": "fields",
+          "sha256": "6a5f856d1f39dcea72483ff09e9a63948aba376dc402438575abf98a57a27604"
+        },
+        "group": "D1",
+        "raw_kind": "direct_parameter_raw",
+        "scene": "legacy-easy-seed-001",
+        "source_run": "20260923T105246Z_ab0d4a430b4c"
+      }
+    },
+    {
+      "index": 200,
+      "scene_hash": "cf062b1e56895d8c8b1fff3bf31373183bbae5e2d6295a82ac1c899e9bf8e088",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            10,
+            7,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.3965282440185547,
+        "raw_details": {
+          "critical_zyx": [
+            7,
+            4,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 2674,
+          "path": "artifacts/069a55bf6a4a4a7bb11eb78d944846a1_c01r1-final.npz",
+          "role": "fields",
+          "sha256": "64c62a9bd5929a66ed772a318291885f678d865de9005defa1b199f854b348c4"
+        },
+        "group": "D1",
+        "raw_kind": "direct_parameter_raw",
+        "scene": "legacy-easy-seed-001",
+        "source_run": "20260923T105246Z_ab0d4a430b4c"
+      }
+    },
+    {
+      "index": 201,
+      "scene_hash": "86b15b30078ceb86ca20aacad9f19d18b672449e187872b4ecc97ee4aa961dd8",
+      "score": {
+        "binary": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "binary_unchanged": true,
+        "clamp_identity": true,
+        "critical_route_changed": true,
+        "loss_v2": 0.0,
+        "loss_v3": 0.0,
+        "projected_bottleneck": 1.0,
+        "projected_details": {
+          "critical_zyx": [
+            12,
+            1,
+            10
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "raw_bottleneck": 1.3819738626480103,
+        "raw_details": {
+          "critical_zyx": [
+            8,
+            8,
+            21
+          ],
+          "entrance_ids": [
+            "E_legacy_1",
+            "E_legacy_2"
+          ],
+          "legal_route_exists": true,
+          "version": "raw_component_bottleneck_v3"
+        }
+      },
+      "source": {
+        "fields": {
+          "bytes": 3633,
+          "path": "artifacts/2392cdb4f1a949d2b68ef6fd1528655f_c02r0-final.npz",
+          "role": "fields",
+          "sha256": "910cf38fac311e754012d561a69c3ec39070e65ce5f9ce3724056fd76f62d18e"
+        },
+        "group": "D1",
+        "raw_kind": "direct_parameter_raw",
+        "scene": "legacy-easy-seed-002",
+        "source_run": "20260923T105246Z_ab0d4a430b4c"
+      }
+    }
+  ],
+  "run_id": "20260923T193037Z_0e72e1207fb9"
+}

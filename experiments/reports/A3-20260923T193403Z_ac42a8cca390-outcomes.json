@@ -1,0 +1,2318 @@
+{
+  "analysis_script_sha256": "ba4b1611ce71c0995334bfe69f05202956fdbac69e25d148725f5fcc99018c44",
+  "candidate_zero_parameter_gradients": 2,
+  "downward_probes": 6,
+  "downward_probes_improved_access": 6,
+  "gradients": [
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            16
+          ]
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            15,
+            16
+          ]
+        }
+      },
+      "critical_history": {
+        "fired": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "raw": [
+          0.1183045506477356,
+          0.08101382851600647,
+          0.08101382851600647,
+          0.08101382851600647,
+          0.08101382851600647,
+          0.08101382851600647,
+          0.03779835253953934,
+          -0.011967722326517105,
+          -0.05471152067184448,
+          -0.05568767338991165,
+          0.0,
+          -0.05651169642806053,
+          -0.05737162381410599,
+          -0.05835823342204094,
+          0.0,
+          0.0
+        ],
+        "zyx": [
+          1,
+          15,
+          9
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 1.3466784697535121,
+          "value": 0.7249724268913269
+        },
+        "sparsity": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "total_v2": {
+          "last_raw_l2": 32.015552085406334,
+          "parameter_l2": 39.444987870022636,
+          "value": 33.40190124511719
+        },
+        "total_v3": {
+          "last_raw_l2": 31.882029491311354,
+          "parameter_l2": 39.444987870022636,
+          "value": 33.40190124511719
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          0,
+          14,
+          21
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [],
+      "raw_bottleneck": 0.0,
+      "raw_critical": {
+        "critical_zyx": [
+          1,
+          15,
+          9
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mapped_30-r0",
+      "steps": 16,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 7.523534441133961e-05,
+        "reference_scale": 78.88997574004527,
+        "residual_l2": 0.0,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.0,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9999999999999998,
+          "other_terms": 0.9958139278293378,
+          "sparsity": null
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9958139278293378,
+          "other_terms": 1.0,
+          "sparsity": null
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 0.0,
+        "coverage": 33.66696182818418,
+        "other_terms": 39.444987870022636,
+        "sparsity": 0.0
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": []
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -6.270408630371094e-05,
+      "candidate_descent_total_change": 0.014923095703125,
+      "critical_history": {
+        "fired": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          0.0,
+          -0.0030735626351088285,
+          -0.0034381623845547438,
+          -0.003498063189908862,
+          -0.0036607400979846716,
+          0.0,
+          -0.003273195121437311,
+          0.0,
+          0.0,
+          -0.0021069173235446215,
+          -0.003002212615683675,
+          -0.00338018243201077,
+          -0.0037614398170262575,
+          -0.004337357822805643,
+          -0.004849493969231844,
+          0.0,
+          -0.005637605208903551,
+          -0.006425666157156229,
+          0.0,
+          -0.00649248156696558,
+          -0.0068937926553189754,
+          0.0,
+          -0.006761461496353149,
+          0.0,
+          0.0,
+          0.0,
+          -0.006131465081125498,
+          -0.006861803587526083,
+          -0.007132468279451132,
+          -0.007414094638079405,
+          -0.007836036384105682,
+          -0.008151761256158352,
+          -0.009049600921571255,
+          0.0,
+          -0.009340236894786358,
+          -0.00968701671808958,
+          -0.010184061713516712,
+          0.0,
+          0.0,
+          0.0,
+          -0.010416683740913868,
+          0.0,
+          -0.010961276479065418,
+          0.0,
+          -0.011204369366168976,
+          -0.011456822045147419,
+          -0.011937601491808891,
+          -0.01269830297678709,
+          0.0,
+          -0.013451687060296535
+        ],
+        "zyx": [
+          6,
+          13,
+          10
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.6428118364733513,
+          "value": 1.0134516954421997
+        },
+        "coverage": {
+          "last_raw_l2": 0.13608276450184995,
+          "parameter_l2": 0.13679898328570142,
+          "value": 0.6977832317352295
+        },
+        "sparsity": {
+          "last_raw_l2": 0.3107662157897428,
+          "parameter_l2": 9.282749932630859,
+          "value": 0.018677178770303726
+        },
+        "total_v2": {
+          "last_raw_l2": 33.11589083588523,
+          "parameter_l2": 277.7931524542882,
+          "value": 33.0145149230957
+        },
+        "total_v3": {
+          "last_raw_l2": 36.354672682535146,
+          "parameter_l2": 272.27332932382814,
+          "value": 33.21628952026367
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          4,
+          14,
+          11
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.013388991355896,
+          "actual_parameter_l2": 9.999864264211952e-05,
+          "mass_ratio": 0.13131627440452576,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 33.2312126159668
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.013517141342163,
+          "actual_parameter_l2": 9.999864264211952e-05,
+          "mass_ratio": 0.13099068403244019,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 33.20060729980469
+        }
+      ],
+      "raw_bottleneck": -0.013451687060296535,
+      "raw_critical": {
+        "critical_zyx": [
+          6,
+          13,
+          10
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mapped_30-r0",
+      "steps": 50,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.00053377979202196,
+        "reference_scale": 559.7086593252166,
+        "residual_l2": 3.378735617045003e-05,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.03470991839513681,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0,
+          "coverage": 0.28530515796873557,
+          "other_terms": -0.5841335618348404,
+          "sparsity": -0.5856110970542923
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.28530515796873557,
+          "coverage": 1.0000000000000002,
+          "other_terms": -0.2775930112968284,
+          "sparsity": -0.28889051720483455
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": -0.5841335618348404,
+          "coverage": -0.2775930112968284,
+          "other_terms": 1.0,
+          "sparsity": 0.9999306162494399
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.5856110970542923,
+          "coverage": -0.28889051720483455,
+          "other_terms": 0.9999306162494399,
+          "sparsity": 1.0000000000000002
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 9.642177568885103,
+        "coverage": 3.4199745805301314,
+        "other_terms": 277.7931500477415,
+        "sparsity": 278.482498328479
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            16
+          ]
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -4.792213439941406e-05,
+      "candidate_descent_total_change": -0.004993438720703125,
+      "critical_history": {
+        "fired": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          0.0,
+          -0.012355280108749866,
+          -0.01305385585874319,
+          -0.013506201095879078,
+          0.0,
+          0.0,
+          -0.014515876770019531,
+          -0.015095055103302002,
+          -0.015821386128664017,
+          0.0,
+          -0.016811788082122803,
+          -0.017414884641766548,
+          -0.017841313034296036,
+          -0.01853325217962265,
+          0.0,
+          -0.01907339133322239
+        ],
+        "zyx": [
+          0,
+          18,
+          20
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.479254352456744,
+          "value": 1.0190733671188354
+        },
+        "coverage": {
+          "last_raw_l2": 0.16535945694153692,
+          "parameter_l2": 2.677393302346294,
+          "value": 0.7768605351448059
+        },
+        "sparsity": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "total_v2": {
+          "last_raw_l2": 40.01576788478397,
+          "parameter_l2": 66.84434854332986,
+          "value": 34.62592697143555
+        },
+        "total_v3": {
+          "last_raw_l2": 40.14410260244769,
+          "parameter_l2": 71.65106251023215,
+          "value": 34.91202926635742
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          0,
+          15,
+          17
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.019025444984436,
+          "actual_parameter_l2": 9.999915117866853e-05,
+          "mass_ratio": 0.11693919450044632,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 34.90703582763672
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0191212892532349,
+          "actual_parameter_l2": 9.999915117866853e-05,
+          "mass_ratio": 0.11670154333114624,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 34.917022705078125
+        }
+      ],
+      "raw_bottleneck": -0.01907339133322239,
+      "raw_critical": {
+        "critical_zyx": [
+          0,
+          18,
+          20
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mapped_30-r1",
+      "steps": 16,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.00013893529830966145,
+        "reference_scale": 145.68422634041318,
+        "residual_l2": 5.897903537470529e-06,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.1075455941542603,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 0.9999999999999999,
+          "coverage": 0.6414453793370734,
+          "other_terms": 0.6389055051394519,
+          "sparsity": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.6414453793370734,
+          "coverage": 1.0,
+          "other_terms": 0.9928339234901691,
+          "sparsity": null
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": 0.6389055051394519,
+          "coverage": 0.9928339234901691,
+          "other_terms": 1.0000000000000002,
+          "sparsity": null
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 7.188815263392018,
+        "coverage": 66.93483237718968,
+        "other_terms": 66.84434931923468,
+        "sparsity": 0.0
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": []
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -4.971027374267578e-05,
+      "candidate_descent_total_change": 0.18330764770507812,
+      "critical_history": {
+        "fired": [
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          -0.012270115315914154,
+          0.0,
+          -0.012947392649948597,
+          0.0,
+          0.0,
+          0.0,
+          -0.013636673800647259,
+          -0.013907849788665771,
+          0.0,
+          -0.014582437463104725,
+          -0.015191479586064816,
+          -0.015638595446944237,
+          -0.016430115327239037,
+          0.0,
+          -0.0172896645963192,
+          -0.018151095137000084,
+          0.0,
+          0.0,
+          -0.019016453996300697,
+          -0.019418779760599136,
+          0.0,
+          -0.019913971424102783,
+          -0.020787183195352554,
+          0.0,
+          -0.021390212699770927,
+          -0.02182900160551071,
+          -0.022361159324645996,
+          -0.023004429414868355,
+          0.0,
+          -0.023195140063762665,
+          0.0,
+          -0.023118849843740463,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.023781241849064827,
+          -0.024245157837867737,
+          0.0,
+          -0.02538963593542576,
+          0.0,
+          0.0,
+          0.0,
+          -0.02572537399828434,
+          -0.026208901777863503,
+          0.0,
+          -0.02702171914279461,
+          0.0,
+          -0.027566511183977127
+        ],
+        "zyx": [
+          0,
+          18,
+          13
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.49618621716341044,
+          "value": 1.0275665521621704
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 0.12087173095055226,
+          "value": 0.7763316035270691
+        },
+        "sparsity": {
+          "last_raw_l2": 2.3610392212380287,
+          "parameter_l2": 113.68030561340022,
+          "value": 0.5889621376991272
+        },
+        "total_v2": {
+          "last_raw_l2": 93.30911864337443,
+          "parameter_l2": 3414.3319308043674,
+          "value": 52.09492111206055
+        },
+        "total_v3": {
+          "last_raw_l2": 94.50709826252908,
+          "parameter_l2": 3410.393081736577,
+          "value": 52.508419036865234
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          1,
+          14,
+          17
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0275168418884277,
+          "actual_parameter_l2": 0.00010000132316359286,
+          "mass_ratio": 0.18298637866973877,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 52.69172668457031
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0276161432266235,
+          "actual_parameter_l2": 0.00010000132316359286,
+          "mass_ratio": 0.1823384314775467,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 52.32761764526367
+        }
+      ],
+      "raw_bottleneck": -0.027566511183977127,
+      "raw_critical": {
+        "critical_zyx": [
+          0,
+          18,
+          13
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mapped_30-r1",
+      "steps": 50,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.006515663117170334,
+        "reference_scale": 6832.167805798395,
+        "residual_l2": 0.0003354140385814181,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.0021798682066672117,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0000000000000002,
+          "coverage": 0.291993936957028,
+          "other_terms": -0.5299787338685099,
+          "sparsity": -0.5301821826457339
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.291993936957028,
+          "coverage": 1.0,
+          "other_terms": 0.18579704711164335,
+          "sparsity": 0.18528786298537536
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": -0.5299787338685099,
+          "coverage": 0.18579704711164335,
+          "other_terms": 0.9999999999999999,
+          "sparsity": 0.9999980178505585
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.5301821826457339,
+          "coverage": 0.18528786298537536,
+          "other_terms": 0.9999980178505585,
+          "sparsity": 0.9999999999999999
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 7.442793263173015,
+        "coverage": 3.0217932740015057,
+        "other_terms": 3414.331765750306,
+        "sparsity": 3410.4091822629775
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            16
+          ]
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            16
+          ]
+        }
+      },
+      "critical_history": {
+        "fired": [
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false
+        ],
+        "raw": [
+          0.15000000596046448,
+          0.15000000596046448,
+          0.12655916810035706,
+          0.12655916810035706,
+          0.09832410514354706,
+          0.09832410514354706,
+          0.06482890248298645,
+          0.06482890248298645,
+          0.06482890248298645,
+          0.026056848466396332,
+          -0.018408063799142838,
+          0.0,
+          0.0,
+          -0.0483795665204525,
+          -0.048970215022563934,
+          0.0
+        ],
+        "zyx": [
+          0,
+          15,
+          21
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 2.217551697933413,
+          "value": 0.7141545414924622
+        },
+        "sparsity": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "total_v2": {
+          "last_raw_l2": 31.903029657339466,
+          "parameter_l2": 56.526323974298954,
+          "value": 33.13284683227539
+        },
+        "total_v3": {
+          "last_raw_l2": 31.903044453939273,
+          "parameter_l2": 56.526323974298954,
+          "value": 33.13284683227539
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          0,
+          14,
+          21
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [],
+      "raw_bottleneck": 0.0,
+      "raw_critical": {
+        "critical_zyx": [
+          0,
+          15,
+          21
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mass_3-r0",
+      "steps": 16,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.00010781540913740173,
+        "reference_scale": 113.05264794859791,
+        "residual_l2": 0.0,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.0,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9999999999999999,
+          "other_terms": 0.9861133061063315,
+          "sparsity": null
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": 0.9861133061063315,
+          "other_terms": 1.0000000000000002,
+          "sparsity": null
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 0.0,
+        "coverage": 55.43879269968885,
+        "other_terms": 56.526323974298954,
+        "sparsity": 0.0
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": []
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -4.124641418457031e-05,
+      "candidate_descent_total_change": -0.00011444091796875,
+      "critical_history": {
+        "fired": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          0.0,
+          -0.0024059743154793978,
+          -0.0027535625267773867,
+          -0.00275279744528234,
+          -0.002846833085641265,
+          0.0,
+          -0.002355702221393585,
+          0.0,
+          0.0,
+          -0.0009263915126211941,
+          -0.0017914542695507407,
+          -0.00215181615203619,
+          -0.002459762617945671,
+          -0.0029810015112161636,
+          -0.0033896842505782843,
+          0.0,
+          -0.003930451348423958,
+          -0.004587893839925528,
+          0.0,
+          -0.004399911500513554,
+          -0.004703034181147814,
+          0.0,
+          -0.0044824047945439816,
+          0.0,
+          0.0,
+          0.0,
+          -0.003630769671872258,
+          -0.004337522201240063,
+          -0.004484416916966438,
+          -0.00466254772618413,
+          -0.005049433559179306,
+          -0.0053423745557665825,
+          -0.006247432436794043,
+          0.0,
+          -0.006710508372634649,
+          -0.007041860371828079,
+          -0.007506148423999548,
+          0.0,
+          0.0,
+          0.0,
+          -0.00769710261374712,
+          0.0,
+          -0.008186472579836845,
+          0.0,
+          -0.008368540555238724,
+          -0.008614196442067623,
+          -0.009088777005672455,
+          -0.00973185058683157,
+          0.0,
+          -0.010563801974058151
+        ],
+        "zyx": [
+          6,
+          13,
+          10
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.4099968157875526,
+          "value": 1.010563850402832
+        },
+        "coverage": {
+          "last_raw_l2": 0.13608276450184995,
+          "parameter_l2": 0.2102171263892794,
+          "value": 0.6960850954055786
+        },
+        "sparsity": {
+          "last_raw_l2": 0.359170914588627,
+          "parameter_l2": 8.773399730135981,
+          "value": 0.024948593229055405
+        },
+        "total_v2": {
+          "last_raw_l2": 25.02676209626011,
+          "parameter_l2": 22.379979674819232,
+          "value": 32.502349853515625
+        },
+        "total_v3": {
+          "last_raw_l2": 29.177711031244414,
+          "parameter_l2": 21.7955355272643,
+          "value": 32.66080856323242
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          5,
+          13,
+          11
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0105226039886475,
+          "actual_parameter_l2": 9.999818737470366e-05,
+          "mass_ratio": 0.1329711675643921,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 32.66069412231445
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0106042623519897,
+          "actual_parameter_l2": 9.999833566144432e-05,
+          "mass_ratio": 0.13282181322574615,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 32.6608772277832
+        }
+      ],
+      "raw_bottleneck": -0.010563801974058151,
+      "raw_critical": {
+        "critical_zyx": [
+          6,
+          13,
+          10
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mass_3-r0",
+      "steps": 50,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 4.799410453415476e-05,
+        "reference_scale": 50.32546743889682,
+        "residual_l2": 5.728771994149965e-06,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.27479708028541977,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0000000000000002,
+          "coverage": 0.3814233534392807,
+          "other_terms": -0.23118948539325343,
+          "sparsity": -0.3279551149366824
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.3814233534392807,
+          "coverage": 1.0000000000000002,
+          "other_terms": -0.5374423150961674,
+          "sparsity": -0.683174500186601
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": -0.23118948539325343,
+          "coverage": -0.5374423150961674,
+          "other_terms": 1.0000000000000002,
+          "sparsity": 0.9803858981256539
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.3279551149366824,
+          "coverage": -0.683174500186601,
+          "other_terms": 0.9803858981256539,
+          "sparsity": 0.9999999999999999
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 6.149952204836021,
+        "coverage": 5.255428177262314,
+        "other_terms": 22.37997652103266,
+        "sparsity": 26.320199121182856
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": []
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -4.839897155761719e-05,
+      "candidate_descent_total_change": -0.003993988037109375,
+      "critical_history": {
+        "fired": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          0.0,
+          -0.012573043815791607,
+          -0.013280071318149567,
+          -0.013746862299740314,
+          0.0,
+          0.0,
+          -0.014789707958698273,
+          -0.015382899902760983,
+          -0.016170712187886238,
+          0.0,
+          -0.0171763114631176,
+          -0.017828024923801422,
+          -0.01830337569117546,
+          -0.019023513421416283,
+          0.0,
+          -0.01963241957128048
+        ],
+        "zyx": [
+          0,
+          18,
+          20
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.48360658763017345,
+          "value": 1.0196324586868286
+        },
+        "coverage": {
+          "last_raw_l2": 0.16535945694153692,
+          "parameter_l2": 2.145787651452955,
+          "value": 0.7886375188827515
+        },
+        "sparsity": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "total_v2": {
+          "last_raw_l2": 39.00529059031803,
+          "parameter_l2": 53.870108134462804,
+          "value": 34.920860290527344
+        },
+        "total_v3": {
+          "last_raw_l2": 41.7901028239361,
+          "parameter_l2": 58.54971539513984,
+          "value": 35.21534729003906
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          0,
+          15,
+          19
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.019584059715271,
+          "actual_parameter_l2": 9.9999955632391e-05,
+          "mass_ratio": 0.11154183000326157,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 35.21135330200195
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0196807384490967,
+          "actual_parameter_l2": 9.999995563760181e-05,
+          "mass_ratio": 0.11131902039051056,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 35.219329833984375
+        }
+      ],
+      "raw_bottleneck": -0.01963241957128048,
+      "raw_critical": {
+        "critical_zyx": [
+          0,
+          18,
+          20
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mass_3-r1",
+      "steps": 16,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.0001141299435403198,
+        "reference_scale": 119.67392234405524,
+        "residual_l2": 5.633058534758396e-06,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.13465907506169905,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 1.0000000000000002,
+          "coverage": 0.6099397061794688,
+          "other_terms": 0.6057882473785462,
+          "sparsity": null
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.6099397061794688,
+          "coverage": 1.0,
+          "other_terms": 0.9895042712272542,
+          "sparsity": null
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": 0.6057882473785462,
+          "coverage": 0.9895042712272542,
+          "other_terms": 1.0000000000000002,
+          "sparsity": null
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 7.254098819263453,
+        "coverage": 53.644690910816195,
+        "other_terms": 53.870107276020704,
+        "sparsity": 0.0
+      }
+    },
+    {
+      "access_trace": {
+        "access_v2": {
+          "nonzero_delta_steps": [],
+          "nonzero_raw_steps": [
+            49,
+            50
+          ]
+        },
+        "access_v3": {
+          "nonzero_delta_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "nonzero_raw_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "candidate_descent_loss_change": -4.947185516357422e-05,
+      "candidate_descent_total_change": 0.004634857177734375,
+      "critical_history": {
+        "fired": [
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "raw": [
+          -0.01249969843775034,
+          0.0,
+          -0.01319060381501913,
+          0.0,
+          0.0,
+          0.0,
+          -0.013887876644730568,
+          -0.014209263026714325,
+          0.0,
+          -0.014897716231644154,
+          -0.015543143264949322,
+          -0.016062816604971886,
+          -0.016884129494428635,
+          0.0,
+          -0.01777997799217701,
+          -0.018759848549962044,
+          0.0,
+          0.0,
+          -0.0196751207113266,
+          -0.020153751596808434,
+          0.0,
+          -0.02064034901559353,
+          -0.02159302309155464,
+          0.0,
+          -0.022259486839175224,
+          -0.022750606760382652,
+          -0.023317094892263412,
+          -0.023999396711587906,
+          0.0,
+          -0.02424158714711666,
+          0.0,
+          -0.02421821467578411,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.02483467198908329,
+          -0.025344325229525566,
+          0.0,
+          -0.026500428095459938,
+          0.0,
+          0.0,
+          0.0,
+          -0.02685895562171936,
+          -0.02738213911652565,
+          0.0,
+          -0.028200218454003334,
+          0.0,
+          -0.028734588995575905
+        ],
+        "zyx": [
+          0,
+          18,
+          13
+        ]
+      },
+      "norms": {
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v3": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.49534155259436347,
+          "value": 1.028734564781189
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 0.13944199000146093,
+          "value": 0.7769597172737122
+        },
+        "sparsity": {
+          "last_raw_l2": 1.2533819221210827,
+          "parameter_l2": 30.490304351934252,
+          "value": 0.16599594056606293
+        },
+        "total_v2": {
+          "last_raw_l2": 35.16735002273531,
+          "parameter_l2": 89.8627947821892,
+          "value": 34.931331634521484
+        },
+        "total_v3": {
+          "last_raw_l2": 35.2965047872552,
+          "parameter_l2": 85.66150606269811,
+          "value": 35.36235427856445
+        }
+      },
+      "old_critical": {
+        "critical_zyx": [
+          3,
+          16,
+          13
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "probes": [
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.0286850929260254,
+          "actual_parameter_l2": 9.999868027552934e-05,
+          "mass_ratio": 0.15345191955566406,
+          "requested_parameter_l2": 0.0001,
+          "sign": -1,
+          "total_v3": 35.36698913574219
+        },
+        {
+          "access_v2": 1.0,
+          "access_v3": 1.028784155845642,
+          "actual_parameter_l2": 9.999868027475339e-05,
+          "mass_ratio": 0.15308097004890442,
+          "requested_parameter_l2": 0.0001,
+          "sign": 1,
+          "total_v3": 35.35775375366211
+        }
+      ],
+      "raw_bottleneck": -0.028734588995575905,
+      "raw_critical": {
+        "critical_zyx": [
+          0,
+          18,
+          13
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "raw_component_bottleneck_v3"
+      },
+      "source": "mass_3-r1",
+      "steps": 50,
+      "total_gradient_delta_check": {
+        "note": "Post-hoc float32 cancellation check, not an admission gate; first attempt preserved",
+        "posthoc_tolerance": 0.00017447893333155662,
+        "reference_scale": 182.95442413380277,
+        "residual_l2": 1.2776850394735349e-05,
+        "within_tolerance": true
+      },
+      "weighted_access_to_other_norm_ratio": 0.08268298521477699,
+      "weighted_cosines": {
+        "access_v2": {
+          "access_v2": null,
+          "access_v3": null,
+          "coverage": null,
+          "other_terms": null,
+          "sparsity": null
+        },
+        "access_v3": {
+          "access_v2": null,
+          "access_v3": 0.9999999999999999,
+          "coverage": 0.6115517653956406,
+          "other_terms": -0.5935623602748226,
+          "sparsity": -0.604102324411978
+        },
+        "coverage": {
+          "access_v2": null,
+          "access_v3": 0.6115517653956406,
+          "coverage": 1.0,
+          "other_terms": -0.5484972059024588,
+          "sparsity": -0.5747110574094689
+        },
+        "other_terms": {
+          "access_v2": null,
+          "access_v3": -0.5935623602748226,
+          "coverage": -0.5484972059024588,
+          "other_terms": 0.9999999999999999,
+          "sparsity": 0.999498001447761
+        },
+        "sparsity": {
+          "access_v2": null,
+          "access_v3": -0.604102324411978,
+          "coverage": -0.5747110574094689,
+          "other_terms": 0.999498001447761,
+          "sparsity": 1.0
+        }
+      },
+      "weighted_norms": {
+        "access_v2": 0.0,
+        "access_v3": 7.430123296482076,
+        "coverage": 3.4860497494709417,
+        "other_terms": 89.86278467306929,
+        "sparsity": 91.47091318092166
+      }
+    }
+  ],
+  "groups": {
+    "D1": {
+      "connected": 34,
+      "count": 34,
+      "critical_cell_changes": 30,
+      "loss_extension_count": 0,
+      "loss_v3_range": [
+        0.0,
+        0.02792257070541382
+      ],
+      "raw_negative": 0,
+      "raw_positive": 34,
+      "raw_zero": 0
+    },
+    "F2": {
+      "connected": 59,
+      "count": 72,
+      "critical_cell_changes": 47,
+      "loss_extension_count": 0,
+      "loss_v3_range": [
+        0.0,
+        0.8071496486663818
+      ],
+      "raw_negative": 0,
+      "raw_positive": 72,
+      "raw_zero": 0
+    },
+    "F3": {
+      "connected": 0,
+      "count": 72,
+      "critical_cell_changes": 68,
+      "loss_extension_count": 43,
+      "loss_v3_range": [
+        1.0,
+        1.0623369216918945
+      ],
+      "raw_negative": 43,
+      "raw_positive": 0,
+      "raw_zero": 29
+    },
+    "W1": {
+      "connected": 17,
+      "count": 17,
+      "critical_cell_changes": 0,
+      "loss_extension_count": 0,
+      "loss_v3_range": [
+        0.0,
+        0.0
+      ],
+      "raw_negative": 0,
+      "raw_positive": 17,
+      "raw_zero": 0
+    },
+    "original": {
+      "connected": 0,
+      "count": 36,
+      "critical_cell_changes": 35,
+      "loss_extension_count": 23,
+      "loss_v3_range": [
+        1.0,
+        1.0760046243667603
+      ],
+      "raw_negative": 23,
+      "raw_positive": 0,
+      "raw_zero": 13
+    }
+  },
+  "optimizer_updates": 0,
+  "restored_parameter_gradients": 6,
+  "run_id": "20260923T193403Z_ac42a8cca390"
+}
