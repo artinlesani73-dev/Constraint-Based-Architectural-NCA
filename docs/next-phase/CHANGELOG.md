@@ -636,3 +636,32 @@ yet; regression and timing admission required before full execution.
 H1 preparation regression20260923T145719Z_37715b17ba45 passed168 tests, zero
 failures/errors/skips; original-checkpoint smoke0. Hashed diagnostic code/config
 will remain frozen through pilot and full run. No scientific run started yet.
+
+Chart preparation: matplotlib installed in isolated Codex cwd .plot-deps using
+bundled Python, leaving repo .venv unchanged. Project Python lacks pip; that first
+installer attempt exited before any install. Bundled installer succeeded. Chart
+reads report JSON only and records rendering-library versions separately from
+scientific environment. No diagnostic source change or training-dependency change.
+
+
+## 2026-09-23 - H1 completed and findings preserved
+
+Source3acdefd. Pilot20260923T145912Z_17b1d18f5b10 completed73.50s; timing-only
+989.49s estimate admitted1500s. Full20260923T150119Z_f7b304516723 completed603.78s,
+all worker/full caps met; zero optimizer updates, no failures. Verified31 source
+hashes,180 fields,150 transitions,20 exact historical anchors,20 exact gradient
+forward fields,120 parameter/120 raw vectors,720 cosines and10 unchanged models.
+Eight new F2 gradients,12 reused A2 controls. All no-success results retained.
+
+Added complete H1/H1P reports and raw-evidence references, post-hoc outcome JSON,
+four-panel chart with source/image hashes, rendering receipt and visual QA.
+Analysis/figure scripts preserved in local analysis-attempts. Added measured
+GROWTH_AUDIT_FINDINGS.md, proposed HORIZON_TRAINING_PLAN.md and D044; updated
+PLAN/RESUME. No scientific source change after168 passing tests. One documentation
+patch used an incorrect DECISIONS context and failed; existing files inspected
+before completing updates. No scientific artifact altered by that patch.
+
+Finish with a local results commit and full verified archive; milestone receipt
+records archive identity/hash, payload count and restore checks. Archive includes
+all prior evidence and private reports while reports remain Git-ignored. No
+Drive operation, paid compute, production/default change or remote push.

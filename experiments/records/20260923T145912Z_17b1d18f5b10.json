@@ -1,0 +1,34 @@
+{
+  "admission": {
+    "admitted": true,
+    "cap_seconds": 1500,
+    "estimated_seconds": 989.4872613011103,
+    "max_gradient_worker_seconds": 35.55805240001064,
+    "max_growth_worker_seconds": 12.506458500021836,
+    "safety_factor": 1.5
+  },
+  "cap_seconds": 600,
+  "error": null,
+  "growth_cases": 12,
+  "mode": "pilot",
+  "new_gradient_cases": 2,
+  "optimizer_updates": 0,
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "3acdefdf77de261dd980fc24863193b9b49ef669",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html"
+  },
+  "reused_gradient_cases": 12,
+  "run_id": "20260923T145912Z_17b1d18f5b10",
+  "seconds": 73.49773730000015,
+  "status": "completed"
+}

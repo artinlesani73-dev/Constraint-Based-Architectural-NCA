@@ -245,3 +245,15 @@ performance benchmark. Explicit elapsed checks and regression added after study.
 Next GROWTH_STABILITY_PLAN.md: inspect horizon/firing stability and objective
 tradeoffs before selecting one schedule/pool or other intervention. Keep budgets,
 architecture and nine families until evidence warrants an isolated change.
+
+
+## H1 completed; mixed training horizons next - 2026-09-23
+
+Read GROWTH_AUDIT_FINDINGS.md/D044. Frozen-model audit:180 fields, no joint
+connectivity/budget success, eight new/12 reused gradient cases, no optimizer.
+F2 connections persist across sampled horizons but mass exceeds budget. Long
+rollouts expose a useful material-reduction gradient. Verification and168-test
+regression pass. Next HORIZON_TRAINING_PLAN.md isolates alternating16/50 training:
+implement schedule, prove F2 parity and mixed-horizon restart, profile/freeze
+compute caps before the proposed64-update comparison. Hold objectives, recipes,
+scenes and architecture fixed. This is not yet training or a model promotion.

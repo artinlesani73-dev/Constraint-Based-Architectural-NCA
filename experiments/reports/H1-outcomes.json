@@ -1,0 +1,562 @@
+{
+  "run_id": "20260923T150119Z_f7b304516723",
+  "by_arm": {
+    "original": {
+      "16": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 1,
+        "joint": 0,
+        "min_mass": 0.11928125470876694,
+        "max_mass": 0.16563723981380463
+      },
+      "24": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.2096163034439087,
+        "max_mass": 0.2940467298030853
+      },
+      "32": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.3197782039642334,
+        "max_mass": 0.4418536424636841
+      },
+      "40": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.3624148666858673,
+        "max_mass": 0.487130731344223
+      },
+      "50": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.36949995160102844,
+        "max_mass": 0.49344179034233093
+      },
+      "64": {
+        "cases": 6,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.3709677457809448,
+        "max_mass": 0.4945334196090698
+      }
+    },
+    "F1": {
+      "16": {
+        "cases": 12,
+        "connected": 0,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.12680812180042267,
+        "max_mass": 0.1883518248796463
+      },
+      "24": {
+        "cases": 12,
+        "connected": 6,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.15202492475509644,
+        "max_mass": 0.26010826230049133
+      },
+      "32": {
+        "cases": 12,
+        "connected": 7,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.17393235862255096,
+        "max_mass": 0.2954314351081848
+      },
+      "40": {
+        "cases": 12,
+        "connected": 9,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.19062219560146332,
+        "max_mass": 0.30206215381622314
+      },
+      "50": {
+        "cases": 12,
+        "connected": 9,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.19838778674602509,
+        "max_mass": 0.3059692084789276
+      },
+      "64": {
+        "cases": 12,
+        "connected": 9,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.20093218982219696,
+        "max_mass": 0.30913978815078735
+      }
+    },
+    "F2": {
+      "16": {
+        "cases": 12,
+        "connected": 6,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.1285650134086609,
+        "max_mass": 0.22884564101696014
+      },
+      "24": {
+        "cases": 12,
+        "connected": 7,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.1738443821668625,
+        "max_mass": 0.30270981788635254
+      },
+      "32": {
+        "cases": 12,
+        "connected": 10,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.20572993159294128,
+        "max_mass": 0.3243209421634674
+      },
+      "40": {
+        "cases": 12,
+        "connected": 12,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.22318825125694275,
+        "max_mass": 0.33039477467536926
+      },
+      "50": {
+        "cases": 12,
+        "connected": 12,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.23117849230766296,
+        "max_mass": 0.3342326283454895
+      },
+      "64": {
+        "cases": 12,
+        "connected": 12,
+        "in_budget": 0,
+        "joint": 0,
+        "min_mass": 0.23476527631282806,
+        "max_mass": 0.33901989459991455
+      }
+    }
+  },
+  "joint_cases": [],
+  "connection_loss_trajectories": [],
+  "mass_increases_first_to_last": 30,
+  "trajectories": 30,
+  "firing_sensitive_connectivity": [
+    {
+      "cases": 3,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.22806499898433685,
+      "mass_min": 0.2232288271188736,
+      "source_id": "F1-mapped_30-r1",
+      "steps": 32
+    },
+    {
+      "cases": 3,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.21074338257312775,
+      "mass_min": 0.20572993159294128,
+      "source_id": "F2-mapped_30-r0",
+      "steps": 32
+    },
+    {
+      "cases": 3,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.18629571795463562,
+      "mass_min": 0.18132248520851135,
+      "source_id": "F2-mapped_30-r1",
+      "steps": 24
+    }
+  ],
+  "F2_gradients": [
+    {
+      "access_sparsity_cosine": -0.7741496587192386,
+      "coverage_sparsity_cosine": -0.8669804782106313,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 14.738261434090985,
+          "value": 0.7950734496116638
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 5.151570881093568,
+          "value": 0.5616411566734314
+        },
+        "sparsity": {
+          "last_raw_l2": 0.5293179958722092,
+          "parameter_l2": 10.143605693846508,
+          "value": 0.05326142534613609
+        },
+        "total_v1": {
+          "last_raw_l2": 38.265808612233606,
+          "parameter_l2": 204.19796084628052,
+          "value": 30.85199737548828
+        },
+        "total_v2": {
+          "last_raw_l2": 40.94438922905888,
+          "parameter_l2": 173.06023447667258,
+          "value": 27.778099060058594
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mapped_30-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.32221153309260636,
+      "total_sparsity_cosine": 0.12842903600121447,
+      "weighted_parameter_norms": {
+        "access": 221.07392151136477,
+        "coverage": 128.7892720273392,
+        "sparsity": 304.3081708153953
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.8106710957880461,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.10015420284242887,
+          "parameter_l2": 28.236083700408596,
+          "value": 0.37283849716186523
+        },
+        "sparsity": {
+          "last_raw_l2": 3.100240256918564,
+          "parameter_l2": 230.9983201397868,
+          "value": 1.8575395345687866
+        },
+        "total_v1": {
+          "last_raw_l2": 105.84723946578404,
+          "parameter_l2": 6371.339215930367,
+          "value": 80.06295776367188
+        },
+        "total_v2": {
+          "last_raw_l2": 106.74333925749845,
+          "parameter_l2": 6371.339215930367,
+          "value": 65.06295776367188
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mapped_30-r0",
+      "steps": 50,
+      "total_old_new_cosine": 0.9999999999999998,
+      "total_sparsity_cosine": 0.9978954586584443,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 705.9020925102149,
+        "sparsity": 6929.9496041936045
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.9214728265655655,
+      "coverage_sparsity_cosine": -0.8822652959087961,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 9.702117898001731,
+          "value": 0.7202719449996948
+        },
+        "coverage": {
+          "last_raw_l2": 0.16535945694153692,
+          "parameter_l2": 4.91263796237498,
+          "value": 0.6055545210838318
+        },
+        "sparsity": {
+          "last_raw_l2": 0.5014426214265078,
+          "parameter_l2": 8.60254699081309,
+          "value": 0.025973889976739883
+        },
+        "total_v1": {
+          "last_raw_l2": 46.84307957905494,
+          "parameter_l2": 155.06155593571427,
+          "value": 31.103225708007812
+        },
+        "total_v2": {
+          "last_raw_l2": 49.138077013205745,
+          "parameter_l2": 73.31556027969962,
+          "value": 26.907304763793945
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mapped_30-r1",
+      "steps": 16,
+      "total_old_new_cosine": 0.36239683003089956,
+      "total_sparsity_cosine": 0.12959757657426071,
+      "weighted_parameter_norms": {
+        "access": 145.53176847002595,
+        "coverage": 122.8159490593745,
+        "sparsity": 258.0764097243927
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.530342409495545,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 0.12258473803258216,
+          "value": 0.32622212171554565
+        },
+        "sparsity": {
+          "last_raw_l2": 5.242727988912414,
+          "parameter_l2": 23.40302759826026,
+          "value": 2.904658317565918
+        },
+        "total_v1": {
+          "last_raw_l2": 172.94367862874088,
+          "parameter_l2": 703.5833494709024,
+          "value": 110.30970764160156
+        },
+        "total_v2": {
+          "last_raw_l2": 172.9449821096297,
+          "parameter_l2": 703.5833494709024,
+          "value": 95.30970764160156
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mapped_30-r1",
+      "steps": 50,
+      "total_old_new_cosine": 0.9999999999999999,
+      "total_sparsity_cosine": 0.9999837114797785,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 3.064618450814554,
+        "sparsity": 702.0908279478077
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.8948260548993894,
+      "coverage_sparsity_cosine": -0.8883835791314726,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 12.424989350771357,
+          "value": 0.9653257727622986
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 7.739820838270522,
+          "value": 0.34913426637649536
+        },
+        "coverage": {
+          "last_raw_l2": 0.13321754330679025,
+          "parameter_l2": 5.415405061177848,
+          "value": 0.353047639131546
+        },
+        "sparsity": {
+          "last_raw_l2": 2.864585444771156,
+          "parameter_l2": 64.87876606561943,
+          "value": 1.554707646369934
+        },
+        "total_v1": {
+          "last_raw_l2": 27.60357988989096,
+          "parameter_l2": 189.54686380711894,
+          "value": 28.09657096862793
+        },
+        "total_v2": {
+          "last_raw_l2": 27.223607888675073,
+          "parameter_l2": 80.86567604571498,
+          "value": 18.853696823120117
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.5209557060657387,
+      "total_sparsity_cosine": -0.3328015027683094,
+      "weighted_parameter_norms": {
+        "access": 116.09731257405784,
+        "coverage": 135.3851265294462,
+        "sparsity": 194.6362981968583
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.5748438679251988,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.0878410467702551,
+          "parameter_l2": 0.08684681348041609,
+          "value": 0.286188542842865
+        },
+        "sparsity": {
+          "last_raw_l2": 5.467752228276768,
+          "parameter_l2": 121.89764299126882,
+          "value": 5.7817769050598145
+        },
+        "total_v1": {
+          "last_raw_l2": 26.21302829886298,
+          "parameter_l2": 376.550250274526,
+          "value": 39.52658462524414
+        },
+        "total_v2": {
+          "last_raw_l2": 29.96563459585918,
+          "parameter_l2": 376.550250274526,
+          "value": 24.52658462524414
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r0",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9996584208376386,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 2.1711703370104023,
+        "sparsity": 365.6929289738065
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.847145401957974,
+      "coverage_sparsity_cosine": -0.907569020620701,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 9.611959487194243,
+          "value": 0.2948625683784485
+        },
+        "coverage": {
+          "last_raw_l2": 0.14986973510352247,
+          "parameter_l2": 5.67715460510062,
+          "value": 0.43138644099235535
+        },
+        "sparsity": {
+          "last_raw_l2": 4.151665639064227,
+          "parameter_l2": 75.91221628044778,
+          "value": 1.7771060466766357
+        },
+        "total_v1": {
+          "last_raw_l2": 30.973424680011178,
+          "parameter_l2": 115.03236500505156,
+          "value": 31.200672149658203
+        },
+        "total_v2": {
+          "last_raw_l2": 34.35718906585957,
+          "parameter_l2": 99.93349139858715,
+          "value": 20.62360954284668
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r1",
+      "steps": 16,
+      "total_old_new_cosine": 0.10575614027106954,
+      "total_sparsity_cosine": -0.23786449820787411,
+      "weighted_parameter_norms": {
+        "access": 144.17939230791364,
+        "coverage": 141.9288651275155,
+        "sparsity": 227.73664884134334
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.5633412827954031,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 23.406279342499868,
+          "value": 0.2999125123023987
+        },
+        "sparsity": {
+          "last_raw_l2": 8.072641550109216,
+          "parameter_l2": 451.5589676587249,
+          "value": 6.884342670440674
+        },
+        "total_v1": {
+          "last_raw_l2": 36.73876634611155,
+          "parameter_l2": 1133.7692011691497,
+          "value": 43.179996490478516
+        },
+        "total_v2": {
+          "last_raw_l2": 36.670364532553286,
+          "parameter_l2": 1133.7692011691497,
+          "value": 28.179996490478516
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r1",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9046715584152141,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 585.1569835624967,
+        "sparsity": 1354.6769029761747
+      }
+    }
+  ],
+  "evidence_sha256": "8f1caa1a024a685868c2ad65d216a42066bacb0f612439080c56268d5cba5781"
+}

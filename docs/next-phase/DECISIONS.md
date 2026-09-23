@@ -666,3 +666,24 @@ GROWTH_AUDIT_PROTOCOL.md fix180 frozen-model growth fields (10 sources,6 horizon
 optimizer updates. Require historical anchor equality, timing-only pilot and
 explicit elapsed caps (1500s full). Keep all joint-budget failures, zero gradients,
 source hashes and timing interruptions. No production/architecture/budget change.
+
+
+## D044 - Test longer training exposure after H1
+
+2026-09-23. H1 20260923T150119Z_f7b304516723 completes180 growth evaluations,
+eight new F2 gradients and12 reused A2 controls with zero optimizer updates.
+No joint budget/connectivity successes; all144 fitted fields exceed12% mass.
+F2 connects all tested seeds from40steps onward with no sampled connection loss.
+At50steps candidate access gradients vanish while total parameter gradients align
+with sparsity reduction (cosines0.905 to approximately1). At16steps access/coverage
+oppose sparsity; mass_3 total gradients also conflict. These are local derivatives,
+not a forecast of Adam behavior or proof of causation. All evidence verified;
+168 tests pass and all H1 elapsed caps met.
+
+Follow HORIZON_TRAINING_PLAN.md: propose alternating16/50 training with unchanged
+F2 objectives, original initialization, two scenes, recipes and64 updates. This
+more than doubles recurrent training work (2112 versus1024 steps/model), so prove
+mixed-horizon recovery and freeze a timing allowance before full execution. No
+pool, architecture or budget change simultaneously. Preserve no-success outcome,
+all raw evidence and individual failures. F3 remains unexecuted; no promotion,
+paid training, Drive access, deployment or remote push.

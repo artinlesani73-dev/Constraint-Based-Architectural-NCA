@@ -1,16 +1,41 @@
 # Resume the NCA next phase
 
-## Current H1 work - 2026-09-23
+## Current completed H1 milestone - 2026-09-23
 
-H1 implementation/protocol ready; regression20260923T145719Z_37715b17ba45 passed
-168 tests, zero failures/errors/skips, smoke0. Read GROWTH_AUDIT_PROTOCOL.md/D043.
-Commit source, run scripts/run_growth_audit.py --mode pilot, verify with
-scripts/report_growth_audit.py <pilot-run>, then only if admitted run
-scripts/run_growth_audit.py --mode study --pilot-run <pilot-run> and report it.
-No optimizer updates. Fixed180 growth fields/8 new gradients/12 reused A2 cases.
-Preserve all attempts; inspect processes/result/logs before retry. Caps unchanged.
-Previous F2 milestone/archive is complete; do not rerun it. H1 archive builder in
-Codex cwd:work/package_nca_growth.py <pilot-run> <study-run>. Local only.
+H1 full `20260923T150119Z_f7b304516723` completed in 603.78 seconds, all elapsed
+caps met; source `3acdefd`. No active training/diagnostic process. Zero optimizer
+updates. All 180 fields rescored, 150 transitions checked, 20 historical anchors
+exact, 20 gradient forward fields exact, 120 parameter/120 raw vectors and 720
+cosines verified, 31 source hashes and 10 unchanged model-weight checks pass.
+Eight new F2 gradient cases and 12 verified A2 controls; reused is not rerun.
+Pilot `20260923T145912Z_17b1d18f5b10` completed in 73.50s; timing estimate 989.49s
+admitted the 1500s cap. Regression `20260923T145719Z_37715b17ba45`: 168 tests,
+zero failures/errors/skips, original-checkpoint smoke0. No code changes afterward.
+
+Read GROWTH_AUDIT_FINDINGS.md and D044, then HORIZON_TRAINING_PLAN.md. No joint
+connectivity/budget success in 180 fields; all 144 fitted-model fields over budget.
+F2 connects all tested seeds from40steps onward; no sampled connection loss.
+Long-horizon total gradients align with material reduction, motivating an isolated
+alternating16/50 training comparison. This is a proposed F3, not an executed run.
+Next: implement fixed schedule, prove constant16 F2 parity, verify actual mixed
+16/50/16 restart, profile/freeze caps, then run only if the admission gate passes.
+No paid training, model promotion or new architecture/constraint/budget change.
+
+Reports: experiments/reports/H1{,P}-growth.md, corresponding evidence/summary/
+verification JSON, H1-outcomes.json and H1-growth.png with figure receipts.
+Post-hoc scripts and receipts are under .local-artifacts/analysis-attempts/.
+Verifier command (already completed; outputs refuse overwrite):
+`.venv/Scripts/python.exe scripts/report_growth_audit.py 20260923T150119Z_f7b304516723`.
+Do not rerun completed diagnostics to obtain cleaner records. Inspect processes,
+result.json and logs before recovery; failed/new attempts retain linked identities.
+
+Archive builder in Codex cwd: `work/package_nca_growth.py
+20260923T145912Z_17b1d18f5b10 20260923T150119Z_f7b304516723`, using project Python.
+After the results commit, expect outputs/NCA-Growth-Backup-2026-09-23-<commit>.zip
+and .zip.sha256 in the Codex cwd, with .local-artifacts/milestones/<commit>-
+backup-receipt.json. Check that receipt for verified completion; absence means
+archiving remains pending. Full Git bundle, all prior raw runs, analyses, private
+reports and primer are retained. These are same-disk copies. No Drive access.
 
 ## Previous completed F2 milestone
 
@@ -563,3 +588,13 @@ Do not rerun the original matrix or overwrite its interrupted outcome.
 - Next GROWTH_STABILITY_PLAN.md: profile/freeze a no-training growth/firing audit,
   actual gradient tradeoffs, then choose ONE learning change. No larger/paid run,
   architecture redesign or automatic candidate promotion. Studio remains planned.
+
+H1 source commit3acdefd. Pilot20260923T145912Z_17b1d18f5b10 active, session81037.
+Inspect result/log/process state before retry. Diagnostic source/config frozen.
+
+H1P20260923T145912Z_17b1d18f5b10 completed73.50s:12 fields/2 new gradients,
+12 reused controls,31 source hashes; all scalar/vector/anchor checks pass.
+Estimated989.49s admits1500s cap. H1 full20260923T150119Z_f7b304516723 active,
+session10499. All source/config unchanged from3acdefd. After completion run
+scripts/report_growth_audit.py on that ID, document findings/next decision,
+commit and use work/package_nca_growth.py <pilot ID> <full ID> in Codex cwd.

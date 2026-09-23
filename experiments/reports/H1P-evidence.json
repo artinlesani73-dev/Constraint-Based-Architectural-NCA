@@ -1,0 +1,4043 @@
+{
+  "gradients": [
+    {
+      "candidate": {
+        "critical_zyx": [
+          3,
+          13,
+          11
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": 1.0000000000000002,
+          "access_v2": 0.5018375683659536,
+          "coverage": 0.7487328693239781,
+          "sparsity": -0.6355840550618436,
+          "total_v1": 0.8590941597460023,
+          "total_v2": 0.42942549952085685
+        },
+        "access_v2": {
+          "access_v1": 0.5018375683659536,
+          "access_v2": 0.9999999999999999,
+          "coverage": 0.7612521492642882,
+          "sparsity": -0.8948260548993894,
+          "total_v1": 0.10934011966387956,
+          "total_v2": 0.5353633878378764
+        },
+        "coverage": {
+          "access_v1": 0.7487328693239781,
+          "access_v2": 0.7612521492642882,
+          "coverage": 1.0,
+          "sparsity": -0.8883835791314726,
+          "total_v1": 0.5285388970126523,
+          "total_v2": 0.606156807689567
+        },
+        "sparsity": {
+          "access_v1": -0.6355840550618436,
+          "access_v2": -0.8948260548993894,
+          "coverage": -0.8883835791314726,
+          "sparsity": 1.0,
+          "total_v1": -0.21884911241004468,
+          "total_v2": -0.3328015027683094
+        },
+        "total_v1": {
+          "access_v1": 0.8590941597460023,
+          "access_v2": 0.10934011966387956,
+          "coverage": 0.5285388970126523,
+          "sparsity": -0.21884911241004468,
+          "total_v1": 1.0000000000000002,
+          "total_v2": 0.5209557060657387
+        },
+        "total_v2": {
+          "access_v1": 0.42942549952085685,
+          "access_v2": 0.5353633878378764,
+          "coverage": 0.606156807689567,
+          "sparsity": -0.3328015027683094,
+          "total_v1": 0.5209557060657387,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T145912Z_17b1d18f5b10",
+      "fields": {
+        "bytes": 378387,
+        "path": "artifacts/af1a5d90506c4a30944fcb472911e0ea_g-F2-mass_3-r0-h16.npz",
+        "role": "fields",
+        "sha256": "1bba745c4ea423d7b876f175369042a17a019877537c2ad3467b085c96bae7f9"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 12.424989350771357,
+          "value": 0.9653257727622986
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 7.739820838270522,
+          "value": 0.34913426637649536
+        },
+        "coverage": {
+          "last_raw_l2": 0.13321754330679025,
+          "parameter_l2": 5.415405061177848,
+          "value": 0.353047639131546
+        },
+        "sparsity": {
+          "last_raw_l2": 2.864585444771156,
+          "parameter_l2": 64.87876606561943,
+          "value": 1.554707646369934
+        },
+        "total_v1": {
+          "last_raw_l2": 27.60357988989096,
+          "parameter_l2": 189.54686380711894,
+          "value": 28.09657096862793
+        },
+        "total_v2": {
+          "last_raw_l2": 27.223607888675073,
+          "parameter_l2": 80.86567604571498,
+          "value": 18.853696823120117
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": false,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "source_id": "F2-mass_3-r0",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          6,
+          13,
+          19
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.5748438679251988,
+          "total_v1": -0.5673668117282336,
+          "total_v2": -0.5673668117282336
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.5748438679251988,
+          "sparsity": 1.0,
+          "total_v1": 0.9996584208376386,
+          "total_v2": 0.9996584208376386
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.5673668117282336,
+          "sparsity": 0.9996584208376386,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.5673668117282336,
+          "sparsity": 0.9996584208376386,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T145912Z_17b1d18f5b10",
+      "fields": {
+        "bytes": 290799,
+        "path": "artifacts/fe087f5eb31a4cb39939281016cf6b04_g-F2-mass_3-r0-h50.npz",
+        "role": "fields",
+        "sha256": "5334ac02125d07fb3afea49003ee7c66877afaa94bf37b69535f7c0ac6de2522"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.0878410467702551,
+          "parameter_l2": 0.08684681348041609,
+          "value": 0.286188542842865
+        },
+        "sparsity": {
+          "last_raw_l2": 5.467752228276768,
+          "parameter_l2": 121.89764299126882,
+          "value": 5.7817769050598145
+        },
+        "total_v1": {
+          "last_raw_l2": 26.21302829886298,
+          "parameter_l2": 376.550250274526,
+          "value": 39.52658462524414
+        },
+        "total_v2": {
+          "last_raw_l2": 29.96563459585918,
+          "parameter_l2": 376.550250274526,
+          "value": 24.52658462524414
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": false,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "source_id": "F2-mass_3-r0",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          4,
+          13,
+          11
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": null,
+        "fields": {
+          "bytes": 87386,
+          "path": "artifacts/1ecc4d21619a42a19363e520bf1ec493_e-original_checkpoint-12-16.npz",
+          "role": "fields",
+          "sha256": "a4dee854e2ce025f991c098cd66ede3eaf5117c061bc9d5af4e200600ea7d0f5"
+        },
+        "label": "original",
+        "recipe": "mapped_30",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T102524Z_f5e1cc169dea",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.6044704731218301,
+          "total_v1": -0.5659138093549662,
+          "total_v2": -0.5659138093549662
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.6044704731218301,
+          "sparsity": 1.0000000000000002,
+          "total_v1": 0.998705697340976,
+          "total_v2": 0.998705697340976
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.5659138093549662,
+          "sparsity": 0.998705697340976,
+          "total_v1": 0.9999999999999999,
+          "total_v2": 0.9999999999999999
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.5659138093549662,
+          "sparsity": 0.998705697340976,
+          "total_v1": 0.9999999999999999,
+          "total_v2": 0.9999999999999999
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 299056,
+        "path": "artifacts/12f1ab163e504750922dd78e0a1f41b7_g00.npz",
+        "role": "fields",
+        "sha256": "e63c50d89561cfa9d17b14181983c7ee85a2390a5b8a5179e9beb87dc0b270b2"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 0,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.1521451559961159,
+          "parameter_l2": 2.159521178409404,
+          "value": 0.7813445925712585
+        },
+        "sparsity": {
+          "last_raw_l2": 1.1598961917238217,
+          "parameter_l2": 59.7726309778692,
+          "value": 0.25067251920700073
+        },
+        "total_v1": {
+          "last_raw_l2": 50.79264696836147,
+          "parameter_l2": 1972.1505940894356,
+          "value": 46.75688171386719
+        },
+        "total_v2": {
+          "last_raw_l2": 50.713446559993535,
+          "parameter_l2": 1972.1505940894356,
+          "value": 46.75688171386719
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "original-r0",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          5,
+          13,
+          10
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": null,
+        "fields": {
+          "bytes": 86060,
+          "path": "artifacts/dc816ede00e8417c99ac00c46503fa55_e-original_checkpoint-12-50.npz",
+          "role": "fields",
+          "sha256": "4be0925cea23d1ed3b29abbe5ba526b5277b95455759c8dfa3bbed3347f8f772"
+        },
+        "label": "original",
+        "recipe": "mapped_30",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T102524Z_f5e1cc169dea",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.43861936732791157,
+          "total_v1": -0.4383944899518422,
+          "total_v2": -0.4383944899518422
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.43861936732791157,
+          "sparsity": 0.9999999999999999,
+          "total_v1": 0.9999979731750495,
+          "total_v2": 0.9999979731750495
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.4383944899518422,
+          "sparsity": 0.9999979731750495,
+          "total_v1": 1.0000000000000002,
+          "total_v2": 1.0000000000000002
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.4383944899518422,
+          "sparsity": 0.9999979731750495,
+          "total_v1": 1.0000000000000002,
+          "total_v2": 1.0000000000000002
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 295842,
+        "path": "artifacts/218f08599b114bf9ad23bdca607c1d3b_g01.npz",
+        "role": "fields",
+        "sha256": "0dcc5b5acd3008bf78129442d306687a3515b99ec3919d3c7addf3253e8d49d8"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 1,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.2165063251365414,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.13608276450184995,
+          "parameter_l2": 0.15593838759655032,
+          "value": 0.703013002872467
+        },
+        "sparsity": {
+          "last_raw_l2": 10.312765856923265,
+          "parameter_l2": 1276.0808241224522,
+          "value": 20.565282821655273
+        },
+        "total_v1": {
+          "last_raw_l2": 314.15900963115234,
+          "parameter_l2": 38342.07708557656,
+          "value": 655.2008666992188
+        },
+        "total_v2": {
+          "last_raw_l2": 314.1954222534232,
+          "parameter_l2": 38342.07708557656,
+          "value": 655.2008666992188
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "original-r0",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          3,
+          16,
+          13
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": null,
+        "fields": {
+          "bytes": 85413,
+          "path": "artifacts/2ed1441455ce45a2b2e5b2ded4095355_e-original_checkpoint-16-16.npz",
+          "role": "fields",
+          "sha256": "a6c2f2e63bfdfd2b2238329e7b0897046beb2aa157facc5919504da5a05fc71d"
+        },
+        "label": "original",
+        "recipe": "mapped_30",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T102524Z_f5e1cc169dea",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.6715447692457456,
+          "total_v1": -0.3234609086406144,
+          "total_v2": -0.3234609086406144
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.6715447692457456,
+          "sparsity": 1.0,
+          "total_v1": 0.9017071842960096,
+          "total_v2": 0.9017071842960096
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.3234609086406144,
+          "sparsity": 0.9017071842960096,
+          "total_v1": 1.0000000000000002,
+          "total_v2": 1.0000000000000002
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.3234609086406144,
+          "sparsity": 0.9017071842960096,
+          "total_v1": 1.0000000000000002,
+          "total_v2": 1.0000000000000002
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 296904,
+        "path": "artifacts/37ef8bcc369a4591bc7954d9211a5ea7_g02.npz",
+        "role": "fields",
+        "sha256": "8c8c6590601da7cc874178f86d8965933f5b0fdd6ab72b43e582b675102c96fc"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 2,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.17399263633843817,
+          "parameter_l2": 2.6720489380047185,
+          "value": 0.8752022981643677
+        },
+        "sparsity": {
+          "last_raw_l2": 0.1609935076182072,
+          "parameter_l2": 4.88670310216153,
+          "value": 0.0026589289773255587
+        },
+        "total_v1": {
+          "last_raw_l2": 35.01956423779601,
+          "parameter_l2": 307.80373436168077,
+          "value": 41.04912567138672
+        },
+        "total_v2": {
+          "last_raw_l2": 34.94435368043754,
+          "parameter_l2": 307.80373436168077,
+          "value": 41.04912567138672
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "original-r1",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          5,
+          14,
+          12
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": null,
+        "fields": {
+          "bytes": 84499,
+          "path": "artifacts/5e0615f0bdb74084b5f8c1e97bb4c52f_e-original_checkpoint-16-50.npz",
+          "role": "fields",
+          "sha256": "ad2c8f872e0c9c99aac407d810c9cc311dfb9a43dbf1b7c6c67f6cbd9d87d996"
+        },
+        "label": "original",
+        "recipe": "mapped_30",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T102524Z_f5e1cc169dea",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.4917875545237349,
+          "total_v1": -0.491781252654007,
+          "total_v2": -0.491781252654007
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.4917875545237349,
+          "sparsity": 1.0000000000000002,
+          "total_v1": 0.999998546215712,
+          "total_v2": 0.999998546215712
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.491781252654007,
+          "sparsity": 0.999998546215712,
+          "total_v1": 0.9999999999999998,
+          "total_v2": 0.9999999999999998
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.491781252654007,
+          "sparsity": 0.999998546215712,
+          "total_v1": 0.9999999999999998,
+          "total_v2": 0.9999999999999998
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 294341,
+        "path": "artifacts/93fe364db0604808a604b551167da8b7_g03.npz",
+        "role": "fields",
+        "sha256": "062cf1f9f693056eae815ab0606696e4f09421b83c43e8840fe9b16b03b437a3"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 3,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.2165063251365414,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 0.12372197944406799,
+          "value": 0.781663179397583
+        },
+        "sparsity": {
+          "last_raw_l2": 9.48168603263059,
+          "parameter_l2": 298.603750638254,
+          "value": 9.5006103515625
+        },
+        "total_v1": {
+          "last_raw_l2": 293.26349657795413,
+          "parameter_l2": 8883.794782787225,
+          "value": 324.3115539550781
+        },
+        "total_v2": {
+          "last_raw_l2": 293.29058188886904,
+          "parameter_l2": 8883.794782787225,
+          "value": 324.3115539550781
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "original-r1",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          2,
+          14,
+          22
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191439,
+          "path": "artifacts/c38f6b2d0159432f825663eea2e36bbc_mapped_30-r0-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "08ebda319132707c836c4a6a389b9f6d9644515bc8d69d8f6b63fd37e59861b9"
+        },
+        "fields": {
+          "bytes": 85932,
+          "path": "artifacts/bd4294722df444e9b45193a7a1183c74_e-mapped_30-r0-u64-h16.npz",
+          "role": "fields",
+          "sha256": "221dd93eb62ff08bf7bde75762d1c493dab2c7e3b227f1509482d7d07db2fc4b"
+        },
+        "label": "mapped_30-r0",
+        "recipe": "mapped_30",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": 1.0,
+          "coverage": 0.712390795031403,
+          "sparsity": -0.8265374045785916,
+          "total_v1": -0.2744339378677561,
+          "total_v2": 0.9234468485693818
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": 0.712390795031403,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.8735118227069262,
+          "total_v1": 0.19502363390238983,
+          "total_v2": 0.8136941695536416
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": -0.8265374045785916,
+          "coverage": -0.8735118227069262,
+          "sparsity": 0.9999999999999998,
+          "total_v1": 0.3065544310083205,
+          "total_v2": -0.7314495130274713
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": -0.2744339378677561,
+          "coverage": 0.19502363390238983,
+          "sparsity": 0.3065544310083205,
+          "total_v1": 0.9999999999999998,
+          "total_v2": 0.11556839614349972
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": 0.9234468485693818,
+          "coverage": 0.8136941695536416,
+          "sparsity": -0.7314495130274713,
+          "total_v1": 0.11556839614349972,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 336508,
+        "path": "artifacts/ba4bf9bacf66460e8f66d711eccbb2e3_g04.npz",
+        "role": "fields",
+        "sha256": "ba9f7fe583193ad737b8385533f720a12d2cc817e5173aff738a4cc6a593aed6"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 4,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 11.549477831187083,
+          "value": 0.9145256876945496
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 5.208993534063879,
+          "value": 0.5727114081382751
+        },
+        "sparsity": {
+          "last_raw_l2": 0.2773059438890193,
+          "parameter_l2": 4.573600849079267,
+          "value": 0.01466358546167612
+        },
+        "total_v1": {
+          "last_raw_l2": 32.6555384689647,
+          "parameter_l2": 66.92601216386767,
+          "value": 29.978769302368164
+        },
+        "total_v2": {
+          "last_raw_l2": 35.77469424020694,
+          "parameter_l2": 167.71444954524318,
+          "value": 28.6966552734375
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "F1-mapped_30-r0",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          1,
+          13,
+          8
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191439,
+          "path": "artifacts/c38f6b2d0159432f825663eea2e36bbc_mapped_30-r0-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "08ebda319132707c836c4a6a389b9f6d9644515bc8d69d8f6b63fd37e59861b9"
+        },
+        "fields": {
+          "bytes": 85829,
+          "path": "artifacts/dd2e4e5b8e8d427eb3cdbe3788cbe128_e-mapped_30-r0-u64-h50.npz",
+          "role": "fields",
+          "sha256": "b01c22577aa9b420e3840ea1bb9f32a4057dcc97af12ea40e2729d96278d8a23"
+        },
+        "label": "mapped_30-r0",
+        "recipe": "mapped_30",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0,
+          "sparsity": 0.014026212533555779,
+          "total_v1": 0.014262758755503648,
+          "total_v2": 0.014262758755503648
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.014026212533555779,
+          "sparsity": 1.0,
+          "total_v1": 0.9999999717700256,
+          "total_v2": 0.9999999717700256
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.014262758755503648,
+          "sparsity": 0.9999999717700256,
+          "total_v1": 0.9999999999999999,
+          "total_v2": 0.9999999999999999
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.014262758755503648,
+          "sparsity": 0.9999999717700256,
+          "total_v1": 0.9999999999999999,
+          "total_v2": 0.9999999999999999
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 294276,
+        "path": "artifacts/75f27bb21265440eaeb5e14c5b4cf33d_g05.npz",
+        "role": "fields",
+        "sha256": "e3d9b8cf5f860c93ff592f0dfdd6c6f27a0c8853047f471619cfa65a893b2a6e"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 5,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.10393492818476281,
+          "parameter_l2": 0.07686283335816256,
+          "value": 0.40356314182281494
+        },
+        "sparsity": {
+          "last_raw_l2": 2.2590486591085455,
+          "parameter_l2": 270.6502369421057,
+          "value": 0.9861416816711426
+        },
+        "total_v1": {
+          "last_raw_l2": 82.63317778433957,
+          "parameter_l2": 8120.291728067044,
+          "value": 54.688262939453125
+        },
+        "total_v2": {
+          "last_raw_l2": 82.60237641551836,
+          "parameter_l2": 8120.291728067044,
+          "value": 54.688262939453125
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "F1-mapped_30-r0",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          1,
+          14,
+          20
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191567,
+          "path": "artifacts/9a406395c6f14752bc2dc2d80b107706_mapped_30-r1-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "104e101ee4a46c5284b340c0fdac5d8a40070b8a3ba65c9bd43b111372508d9b"
+        },
+        "fields": {
+          "bytes": 84789,
+          "path": "artifacts/c35753f2be2149eda4229b3b3c4cb1b9_e-mapped_30-r1-u64-h16.npz",
+          "role": "fields",
+          "sha256": "7847e3699ef682db7923f5525e51e819b7100ab5d0d73e7f36a1eb5a00a3baa1"
+        },
+        "label": "mapped_30-r1",
+        "recipe": "mapped_30",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": 1.0,
+          "coverage": 0.8029631725997468,
+          "sparsity": -0.7720440397694139,
+          "total_v1": -0.6149316290470168,
+          "total_v2": 0.8833871239370279
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": 0.8029631725997468,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.8902512432767754,
+          "total_v1": -0.6465579727771998,
+          "total_v2": 0.6185257280795282
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": -0.7720440397694139,
+          "coverage": -0.8902512432767754,
+          "sparsity": 1.0000000000000002,
+          "total_v1": 0.9227315439328667,
+          "total_v2": -0.41578620072786676
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": -0.6149316290470168,
+          "coverage": -0.6465579727771998,
+          "sparsity": 0.9227315439328667,
+          "total_v1": 1.0000000000000002,
+          "total_v2": -0.173659205021439
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": 0.8833871239370279,
+          "coverage": 0.6185257280795282,
+          "sparsity": -0.41578620072786676,
+          "total_v1": -0.173659205021439,
+          "total_v2": 1.0000000000000002
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 334346,
+        "path": "artifacts/7ab9500976db4c8cb20a278b6a9fa801_g06.npz",
+        "role": "fields",
+        "sha256": "b24e99509f173b7ccadae968ec7707a06c27078f174db9cb8be74a021aca8b9d"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 6,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 18.694533100527003,
+          "value": 0.7888915538787842
+        },
+        "coverage": {
+          "last_raw_l2": 0.15934435979977452,
+          "parameter_l2": 4.471279076531158,
+          "value": 0.5916905999183655
+        },
+        "sparsity": {
+          "last_raw_l2": 0.43566746065527856,
+          "parameter_l2": 7.478034835660341,
+          "value": 0.01961110532283783
+        },
+        "total_v1": {
+          "last_raw_l2": 45.382433377950704,
+          "parameter_l2": 133.44378129325486,
+          "value": 30.548133850097656
+        },
+        "total_v2": {
+          "last_raw_l2": 47.75419004344541,
+          "parameter_l2": 224.5439129559733,
+          "value": 27.381505966186523
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "F1-mapped_30-r1",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          6,
+          14,
+          17
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191567,
+          "path": "artifacts/9a406395c6f14752bc2dc2d80b107706_mapped_30-r1-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "104e101ee4a46c5284b340c0fdac5d8a40070b8a3ba65c9bd43b111372508d9b"
+        },
+        "fields": {
+          "bytes": 84278,
+          "path": "artifacts/10c033c979fd4f378493ab95ae876228_e-mapped_30-r1-u64-h50.npz",
+          "role": "fields",
+          "sha256": "1088f83f2d2ca9076a032fe0f74410b2bda0af75e8564e9594d6ae30399da589"
+        },
+        "label": "mapped_30-r1",
+        "recipe": "mapped_30",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0,
+          "sparsity": -0.6213059543525885,
+          "total_v1": -0.6205255262309781,
+          "total_v2": -0.6205255262309781
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.6213059543525885,
+          "sparsity": 1.0,
+          "total_v1": 0.9999994034214599,
+          "total_v2": 0.9999994034214599
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.6205255262309781,
+          "sparsity": 0.9999994034214599,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.6205255262309781,
+          "sparsity": 0.9999994034214599,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 290306,
+        "path": "artifacts/8567b9f6829347c89c51da6c7a9e9a23_g07.npz",
+        "role": "fields",
+        "sha256": "5042770eefaf7cf942ffbe0a386a6b59e419224de31067fa1598765ff558bed0"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 7,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 0.09248850729816734,
+          "value": 0.32599949836730957
+        },
+        "sparsity": {
+          "last_raw_l2": 5.073669587557683,
+          "parameter_l2": 59.96805095284035,
+          "value": 2.719726800918579
+        },
+        "total_v1": {
+          "last_raw_l2": 168.1448168869557,
+          "parameter_l2": 1797.599740007952,
+          "value": 104.77020263671875
+        },
+        "total_v2": {
+          "last_raw_l2": 168.14558005680016,
+          "parameter_l2": 1797.599740007952,
+          "value": 89.77020263671875
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "F1-mapped_30-r1",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          2,
+          13,
+          22
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191439,
+          "path": "artifacts/5a6f170034014495a31c15c863405462_mass_3-r0-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "e5dfd14b8254c5db95b6c4a10f52c4b3a5be2ef9f37a56fccbf3a7ad6d7a7f51"
+        },
+        "fields": {
+          "bytes": 86292,
+          "path": "artifacts/418c5885a2c245c0af65df49cd8ded0e_e-mass_3-r0-u64-h16.npz",
+          "role": "fields",
+          "sha256": "f965989e30ba16beab9e72728e1ef3c4b5a579563c8c47b9bd4c222a5707278d"
+        },
+        "label": "mass_3-r0",
+        "recipe": "mass_3",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": 1.0000000000000002,
+          "coverage": 0.7819932572316016,
+          "sparsity": -0.9068229072202261,
+          "total_v1": -0.12917602615278923,
+          "total_v2": 0.8831871306685489
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": 0.7819932572316016,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.898569304801729,
+          "total_v1": 0.38433360190754734,
+          "total_v2": 0.9202082030343899
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": -0.9068229072202261,
+          "coverage": -0.898569304801729,
+          "sparsity": 1.0,
+          "total_v1": 0.059465292336626986,
+          "total_v2": -0.8281734095869854
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": -0.12917602615278923,
+          "coverage": 0.38433360190754734,
+          "sparsity": 0.059465292336626986,
+          "total_v1": 1.0,
+          "total_v2": 0.35100456961963517
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": 0.8831871306685489,
+          "coverage": 0.9202082030343899,
+          "sparsity": -0.8281734095869854,
+          "total_v1": 0.35100456961963517,
+          "total_v2": 0.9999999999999999
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 334747,
+        "path": "artifacts/15a68c2177ea4f2f9236163ff17ab850_g08.npz",
+        "role": "fields",
+        "sha256": "88727b28be1e5616bc7d4907dd3afec05f374dce52a9e50d1cbee31843661cb1"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 8,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 7.370560753941059,
+          "value": 0.5607874989509583
+        },
+        "coverage": {
+          "last_raw_l2": 0.13888888992369175,
+          "parameter_l2": 5.013884243553323,
+          "value": 0.3757399022579193
+        },
+        "sparsity": {
+          "last_raw_l2": 1.8660988201791553,
+          "parameter_l2": 39.65144701957084,
+          "value": 0.6610987782478333
+        },
+        "total_v1": {
+          "last_raw_l2": 22.70214957612935,
+          "parameter_l2": 55.377671775238355,
+          "value": 26.52802085876465
+        },
+        "total_v2": {
+          "last_raw_l2": 27.102629994020585,
+          "parameter_l2": 117.081597206008,
+          "value": 19.93983268737793
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "F1-mass_3-r0",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          6,
+          13,
+          19
+        ],
+        "entrance_ids": [
+          "E_ground_east",
+          "E_ground_west"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191439,
+          "path": "artifacts/5a6f170034014495a31c15c863405462_mass_3-r0-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "e5dfd14b8254c5db95b6c4a10f52c4b3a5be2ef9f37a56fccbf3a7ad6d7a7f51"
+        },
+        "fields": {
+          "bytes": 85377,
+          "path": "artifacts/0df23aa85b8a4fc19637b89c33b06385_e-mass_3-r0-u64-h50.npz",
+          "role": "fields",
+          "sha256": "60781f51f2da82225034b1709fc0139f4ae4d0d647de502bd2b634fbe07bbcdb"
+        },
+        "label": "mass_3-r0",
+        "recipe": "mass_3",
+        "scene": "ref-01-ground-pair",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 1.0,
+          "sparsity": -0.19098907392864214,
+          "total_v1": -0.16193549473406815,
+          "total_v2": -0.16193549473406815
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.19098907392864214,
+          "sparsity": 1.0,
+          "total_v1": 0.9995643704227506,
+          "total_v2": 0.9995643704227506
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.16193549473406815,
+          "sparsity": 0.9995643704227506,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.16193549473406815,
+          "sparsity": 0.9995643704227506,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 291630,
+        "path": "artifacts/f707d45a0c504d61988a51c75718980a_g09.npz",
+        "role": "fields",
+        "sha256": "7ae1e1911820d1592881cc2c31b96e432f660d8922ddf558d4b00fb5b357260f"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 9,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.0878410467702551,
+          "parameter_l2": 0.13598728249023845,
+          "value": 0.28571560978889465
+        },
+        "sparsity": {
+          "last_raw_l2": 4.658211251712256,
+          "parameter_l2": 37.87272353341901,
+          "value": 4.195877552032471
+        },
+        "total_v1": {
+          "last_raw_l2": 24.82315433334761,
+          "parameter_l2": 113.07205277548121,
+          "value": 34.7470817565918
+        },
+        "total_v2": {
+          "last_raw_l2": 28.765578400343248,
+          "parameter_l2": 113.07205277548121,
+          "value": 19.747085571289062
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-01-ground-pair",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "source_id": "F1-mass_3-r0",
+      "steps": 50
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          2,
+          15,
+          20
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191567,
+          "path": "artifacts/3eba665da9834db598c9fc52dc37ac9d_mass_3-r1-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "4a95f4081032a08b9cb95037e3b9e5a913b55dc70614f7297ae51dcbd51ac0a5"
+        },
+        "fields": {
+          "bytes": 84881,
+          "path": "artifacts/8c8f4975b623490fb974e483aa70c4e3_e-mass_3-r1-u64-h16.npz",
+          "role": "fields",
+          "sha256": "47760131a182e6b090eca249f07e9a5adb9c71d3ba8d7bb1606075e0793d875f"
+        },
+        "label": "mass_3-r1",
+        "recipe": "mass_3",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 16
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": 1.0,
+          "coverage": 0.7770443777298492,
+          "sparsity": -0.8508186450673951,
+          "total_v1": -0.37408782925905215,
+          "total_v2": 0.9462402143715046
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": 0.7770443777298492,
+          "coverage": 1.0000000000000002,
+          "sparsity": -0.9007353351641806,
+          "total_v1": -0.03483063860715799,
+          "total_v2": 0.8245091428319383
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": -0.8508186450673951,
+          "coverage": -0.9007353351641806,
+          "sparsity": 1.0,
+          "total_v1": 0.46529055964155935,
+          "total_v2": -0.7538034477905302
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": -0.37408782925905215,
+          "coverage": -0.03483063860715799,
+          "sparsity": 0.46529055964155935,
+          "total_v1": 1.0,
+          "total_v2": -0.053997894739651935
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": 0.9462402143715046,
+          "coverage": 0.8245091428319383,
+          "sparsity": -0.7538034477905302,
+          "total_v1": -0.053997894739651935,
+          "total_v2": 1.0000000000000002
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 332183,
+        "path": "artifacts/6c2c73a7478346e9ba906c0d0b1cd847_g10.npz",
+        "role": "fields",
+        "sha256": "d1b211f1249e0071d29cf64a901196873c46c2b1e893586802924351f7a5e4e3"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 10,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 11.576850501737585,
+          "value": 0.5083662271499634
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 4.574538289523802,
+          "value": 0.4724462926387787
+        },
+        "sparsity": {
+          "last_raw_l2": 2.3201591111680933,
+          "parameter_l2": 43.93319978346188,
+          "value": 0.5556353330612183
+        },
+        "total_v1": {
+          "last_raw_l2": 30.686520466552555,
+          "parameter_l2": 56.2526281843837,
+          "value": 28.592540740966797
+        },
+        "total_v2": {
+          "last_raw_l2": 34.124426138881944,
+          "parameter_l2": 161.27971905982184,
+          "value": 21.218034744262695
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "F1-mass_3-r1",
+      "steps": 16
+    },
+    {
+      "candidate": {
+        "critical_zyx": [
+          6,
+          14,
+          17
+        ],
+        "entrance_ids": [
+          "E_ground_a",
+          "E_ground_b"
+        ],
+        "legal_route_exists": true,
+        "version": "component_bottleneck_v2"
+      },
+      "case": {
+        "checkpoint": {
+          "bytes": 191567,
+          "path": "artifacts/3eba665da9834db598c9fc52dc37ac9d_mass_3-r1-u64.pt",
+          "role": "training_checkpoint",
+          "sha256": "4a95f4081032a08b9cb95037e3b9e5a913b55dc70614f7297ae51dcbd51ac0a5"
+        },
+        "fields": {
+          "bytes": 83948,
+          "path": "artifacts/79f601709ba9478d95e44e290b5e5ce3_e-mass_3-r1-u64-h50.npz",
+          "role": "fields",
+          "sha256": "3abacf00cacffa39c990830ff37918bad23fa640e1b5a72bbe33d3d60b8b2521"
+        },
+        "label": "mass_3-r1",
+        "recipe": "mass_3",
+        "scene": "ref-06-minimal-smoke",
+        "source_run": "20260923T112646Z_dcd0601d0655",
+        "steps": 50
+      },
+      "cosines": {
+        "access_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "access_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": null,
+          "sparsity": null,
+          "total_v1": null,
+          "total_v2": null
+        },
+        "coverage": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.9999999999999998,
+          "sparsity": -0.006830230037425499,
+          "total_v1": 0.02693052985218731,
+          "total_v2": 0.02693052985218731
+        },
+        "sparsity": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": -0.006830230037425499,
+          "sparsity": 1.0,
+          "total_v1": 0.9992695836482851,
+          "total_v2": 0.9992695836482851
+        },
+        "total_v1": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.02693052985218731,
+          "sparsity": 0.9992695836482851,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        },
+        "total_v2": {
+          "access_v1": null,
+          "access_v2": null,
+          "coverage": 0.02693052985218731,
+          "sparsity": 0.9992695836482851,
+          "total_v1": 1.0,
+          "total_v2": 1.0
+        }
+      },
+      "evidence_run": "20260923T123641Z_98bf30045a6f",
+      "fields": {
+        "bytes": 288707,
+        "path": "artifacts/be590b7faca04f38ab66625f4e5fd93a_g11.npz",
+        "role": "fields",
+        "sha256": "3f3d5291d66db0f94ed0171c01e8de09ce90e8f9a6fce3373a5e6159d9f1a9d5"
+      },
+      "firing_seed": 2,
+      "frozen_weights_unchanged": true,
+      "index": 11,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 0.13021385101894073,
+          "value": 0.32350975275039673
+        },
+        "sparsity": {
+          "last_raw_l2": 7.006826260291203,
+          "parameter_l2": 29.661013327264854,
+          "value": 5.187681674957275
+        },
+        "total_v1": {
+          "last_raw_l2": 34.764929583929515,
+          "parameter_l2": 91.00619763529426,
+          "value": 38.6724967956543
+        },
+        "total_v2": {
+          "last_raw_l2": 34.691395353917564,
+          "parameter_l2": 91.00619763529426,
+          "value": 23.67249870300293
+        }
+      },
+      "parameter_layout": [
+        {
+          "elements": 3072,
+          "name": "update_net.0.weight",
+          "shape": [
+            96,
+            32,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.0.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 9216,
+          "name": "update_net.2.weight",
+          "shape": [
+            96,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 96,
+          "name": "update_net.2.bias",
+          "shape": [
+            96
+          ]
+        },
+        {
+          "elements": 384,
+          "name": "update_net.4.weight",
+          "shape": [
+            4,
+            96,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "elements": 4,
+          "name": "update_net.4.bias",
+          "shape": [
+            4
+          ]
+        }
+      ],
+      "reused": true,
+      "saved_forward_exact": true,
+      "scene": "ref-06-minimal-smoke",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "source_id": "F1-mass_3-r1",
+      "steps": 50
+    }
+  ],
+  "growth": [
+    {
+      "anchor_exact": true,
+      "change": null,
+      "fields": {
+        "bytes": 86677,
+        "path": "artifacts/05d83c581489419a96defee66043feeb_F2-mass_3-r0-s2-h16.npz",
+        "role": "fields",
+        "sha256": "42aef5b846391c7c921affb1fe6a7fff2d7e4db67298a851f7496f4655181db4"
+      },
+      "firing_seed": 2,
+      "previous_horizon": null,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.34913426637649536,
+        "candidate_details": {
+          "critical_zyx": [
+            3,
+            13,
+            11
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 6,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.22180725634098053,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 215,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 215,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.037209302325581395,
+            "core_voxels": 8,
+            "material_voxels": 215,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 256,
+            "0.5": 215,
+            "0.7": 160
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 0,
+          "guide_voxels": 36,
+          "permitted_above_one": 58,
+          "permitted_below_zero": 13416
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003568942192941904,
+          "density_binary": 0.0011484208516776562,
+          "tv": 0.013055193237960339
+        },
+        "terms": {
+          "access": 0.9653257727622986,
+          "coverage": 0.353047639131546,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 1.554707646369934,
+          "spill": 4.330336014390923e-05,
+          "support": 0.0133751779794693,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 70.07367706298828,
+          "mass_3": 28.09657096862793
+        },
+        "totals_v2": {
+          "mapped_30": 60.83080291748047,
+          "mass_3": 18.853696823120117
+        }
+      },
+      "seconds": 0.9176308999885805,
+      "source_id": "F2-mass_3-r0",
+      "steps": 16
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 61.87880056607537,
+        "binary_added": 52,
+        "binary_iou": 0.8052434456928839,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 85638,
+        "path": "artifacts/f1203ac33e594113adc30ba57f585f8e_F2-mass_3-r0-s2-h24.npz",
+        "role": "fields",
+        "sha256": "f1e877466c4916391b9cd4057e269a5dd4a797155e16e0c5d6cb2743dfbb2a0b"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 16,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 3,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.28641489148139954,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 267,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 267,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.0299625468164794,
+            "core_voxels": 8,
+            "material_voxels": 267,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 273,
+            "0.5": 267,
+            "0.7": 253
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 5,
+          "guide_voxels": 36,
+          "permitted_above_one": 139,
+          "permitted_below_zero": 13523
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003662109375,
+          "density_binary": 0.00033813685877248645,
+          "tv": 0.014901729300618172
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.28302881121635437,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 4.154087066650391,
+          "spill": 9.644585225032642e-05,
+          "support": 0.00015354464994743466,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 146.7197265625,
+          "mass_3": 34.55936813354492
+        },
+        "totals_v2": {
+          "mapped_30": 131.7197265625,
+          "mass_3": 19.559370040893555
+        }
+      },
+      "seconds": 1.1153207000170369,
+      "source_id": "F2-mass_3-r0",
+      "steps": 24
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 17.84689977299422,
+        "binary_added": 14,
+        "binary_iou": 0.9501779359430605,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 84992,
+        "path": "artifacts/e31a6767a6184f39b208d387b17e4068_F2-mass_3-r0-s2-h32.npz",
+        "role": "fields",
+        "sha256": "71873d612187d81a1cdc5ca6c839120d970c55dbdacb3020057aa014db16af9b"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 24,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 2,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.30525514483451843,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 281,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 281,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.028469750889679714,
+            "core_voxels": 8,
+            "material_voxels": 281,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 289,
+            "0.5": 281,
+            "0.7": 276
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 6,
+          "guide_voxels": 36,
+          "permitted_above_one": 183,
+          "permitted_below_zero": 13445
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003662109375,
+          "density_binary": 0.0001341048046015203,
+          "tv": 0.015169883146882057
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.28447335958480835,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 5.14792013168335,
+          "spill": 0.00014006199489813298,
+          "support": 0.0004554389452096075,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 176.57400512695312,
+          "mass_3": 37.580142974853516
+        },
+        "totals_v2": {
+          "mapped_30": 161.57400512695312,
+          "mass_3": 22.580141067504883
+        }
+      },
+      "seconds": 1.3989721999969333,
+      "source_id": "F2-mass_3-r0",
+      "steps": 32
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 7.2783978674560785,
+        "binary_added": 9,
+        "binary_iou": 0.9689655172413794,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 84770,
+        "path": "artifacts/15b2b2b28fe245fa94235b29935459ce_F2-mass_3-r0-s2-h40.npz",
+        "role": "fields",
+        "sha256": "810a98b5028d8538b4258d43061cbe24aedc71c79cee4c64fcc4450ef34e915a"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 32,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 2,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.3130709230899811,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 290,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 290,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.027586206896551724,
+            "core_voxels": 8,
+            "material_voxels": 290,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 290,
+            "0.5": 290,
+            "0.7": 286
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 7,
+          "guide_voxels": 36,
+          "permitted_above_one": 179,
+          "permitted_below_zero": 13393
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003662109375,
+          "density_binary": 4.9374441005056724e-05,
+          "tv": 0.015301398932933807
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.2867187261581421,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 5.591456890106201,
+          "spill": 0.00016149871225934476,
+          "support": 0.0009199740597978234,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 189.9403533935547,
+          "mass_3": 38.97101593017578
+        },
+        "totals_v2": {
+          "mapped_30": 174.9403533935547,
+          "mass_3": 23.971017837524414
+        }
+      },
+      "seconds": 1.7280529999989085,
+      "source_id": "F2-mass_3-r0",
+      "steps": 40
+    },
+    {
+      "anchor_exact": true,
+      "change": {
+        "absolute_material_change_sum": 3.0041538774967194,
+        "binary_added": 1,
+        "binary_iou": 0.9965635738831615,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 85271,
+        "path": "artifacts/9db7dfe345204c3a9959840923fc7b11_F2-mass_3-r0-s2-h50.npz",
+        "role": "fields",
+        "sha256": "83d60cad72f915fb940ed13b6f777df9dcf75671898c6f9ac6f439ca47df4514"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 40,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 2,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.3163292706012726,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 291,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 291,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.027491408934707903,
+            "core_voxels": 8,
+            "material_voxels": 291,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 292,
+            "0.5": 291,
+            "0.7": 291
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 6,
+          "guide_voxels": 36,
+          "permitted_above_one": 188,
+          "permitted_below_zero": 13438
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003662109375,
+          "density_binary": 1.3207792108005378e-05,
+          "tv": 0.01528975646942854
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.286188542842865,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 5.7817769050598145,
+          "spill": 0.00016149871225934476,
+          "support": 0.0006677612545900047,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 195.6345672607422,
+          "mass_3": 39.52658462524414
+        },
+        "totals_v2": {
+          "mapped_30": 180.6345672607422,
+          "mass_3": 24.52658462524414
+        }
+      },
+      "seconds": 2.064273399999365,
+      "source_id": "F2-mass_3-r0",
+      "steps": 50
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 1.3444169163703918,
+        "binary_added": 2,
+        "binary_iou": 0.9931740614334471,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 85210,
+        "path": "artifacts/1ab5c8a5b3684c9b9e95db28707d7535_F2-mass_3-r0-s2-h64.npz",
+        "role": "fields",
+        "sha256": "d9910e41b112346ec87455a64684153234e719d96eba0e583c430738ed897df5"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 50,
+      "scene": "ref-01-ground-pair",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            13,
+            19
+          ],
+          "entrance_ids": [
+            "E_ground_east",
+            "E_ground_west"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 2,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.31778740882873535,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_west": true
+            },
+            "source_id": "E_ground_east",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 3816
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 293,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 293,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.027303754266211604,
+            "core_voxels": 8,
+            "material_voxels": 293,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 293,
+            "0.5": 293,
+            "0.7": 293
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 9,
+          "guide_voxels": 36,
+          "permitted_above_one": 188,
+          "permitted_below_zero": 13438
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0003662109375,
+          "density_binary": 0.0,
+          "tv": 0.015278478153049946
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.29189419746398926,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 5.867978572845459,
+          "spill": 0.00016149871225934476,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 198.35784912109375,
+          "mass_3": 39.92243576049805
+        },
+        "totals_v2": {
+          "mapped_30": 183.35784912109375,
+          "mass_3": 24.922435760498047
+        }
+      },
+      "seconds": 2.5292456000170205,
+      "source_id": "F2-mass_3-r0",
+      "steps": 64
+    },
+    {
+      "anchor_exact": true,
+      "change": null,
+      "fields": {
+        "bytes": 85361,
+        "path": "artifacts/8bbe71b0b58c4137a069113b6113b4cf_F2-mass_3-r1-s2-h16.npz",
+        "role": "fields",
+        "sha256": "2dd0c533f5c81e1eb84f709fcf7e6b8166f4c4df120e49d2469ec9a74e480c69"
+      },
+      "firing_seed": 2,
+      "previous_horizon": null,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.2948625683784485,
+        "candidate_details": {
+          "critical_zyx": [
+            2,
+            15,
+            20
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 4,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.22884564101696014,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 179,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 179,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.0223463687150838,
+            "core_voxels": 4,
+            "material_voxels": 179,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 219,
+            "0.5": 179,
+            "0.7": 132
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 1,
+          "guide_voxels": 32,
+          "permitted_above_one": 47,
+          "permitted_below_zero": 16105
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 0.0010698779951781034,
+          "tv": 0.011445199139416218
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.43138644099235535,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 1.7771060466766357,
+          "spill": 4.152838755544508e-06,
+          "support": 0.00874191801995039,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 79.18254089355469,
+          "mass_3": 31.200672149658203
+        },
+        "totals_v2": {
+          "mapped_30": 68.60547637939453,
+          "mass_3": 20.62360954284668
+        }
+      },
+      "seconds": 0.7643701000197325,
+      "source_id": "F2-mass_3-r1",
+      "steps": 16
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 55.769744044402614,
+        "binary_added": 49,
+        "binary_iou": 0.7850877192982456,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 84442,
+        "path": "artifacts/3d7d2a6f465e4561a2ba9e3cf603dc67_F2-mass_3-r1-s2-h24.npz",
+        "role": "fields",
+        "sha256": "59c4867702fa48942396cd15282ba23b8251704a9a2a50dcfaea6a727c9c9d87"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 16,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            14,
+            18
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.3017911911010742,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 228,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 228,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.017543859649122806,
+            "core_voxels": 4,
+            "material_voxels": 228,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 234,
+            "0.5": 228,
+            "0.7": 216
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 3,
+          "guide_voxels": 32,
+          "permitted_above_one": 124,
+          "permitted_below_zero": 16228
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 0.0003038533322978765,
+          "tv": 0.013053886592388153
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.31728681921958923,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 4.957204818725586,
+          "spill": 9.338216841570102e-06,
+          "support": 0.000186938836122863,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 171.66400146484375,
+          "mass_3": 37.81947708129883
+        },
+        "totals_v2": {
+          "mapped_30": 156.66400146484375,
+          "mass_3": 22.81947898864746
+        }
+      },
+      "seconds": 1.096582700003637,
+      "source_id": "F2-mass_3-r1",
+      "steps": 24
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 15.62597992643714,
+        "binary_added": 12,
+        "binary_iou": 0.95,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 83597,
+        "path": "artifacts/365cf0996a5d43f9ab5590986079c699_F2-mass_3-r1-s2-h32.npz",
+        "role": "fields",
+        "sha256": "f9a7c31dcb3d3c195dbebf2496b60e3e2d424608cafef48f99d9015d46169d5d"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 24,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            14,
+            17
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.32173192501068115,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 240,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 240,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.016666666666666666,
+            "core_voxels": 4,
+            "material_voxels": 240,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 243,
+            "0.5": 240,
+            "0.7": 234
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 9,
+          "guide_voxels": 32,
+          "permitted_above_one": 158,
+          "permitted_below_zero": 16176
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 0.0001312607928412035,
+          "tv": 0.012952679768204689
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.31840962171554565,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 6.104365348815918,
+          "spill": 2.60493834502995e-05,
+          "support": 0.00046159548219293356,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 206.10890197753906,
+          "mass_3": 41.2910270690918
+        },
+        "totals_v2": {
+          "mapped_30": 191.10890197753906,
+          "mass_3": 26.291025161743164
+        }
+      },
+      "seconds": 1.3579354000103194,
+      "source_id": "F2-mass_3-r1",
+      "steps": 32
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 6.2839804366230965,
+        "binary_added": 5,
+        "binary_iou": 0.9795918367346939,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 83337,
+        "path": "artifacts/0c2d4f1e686b4fbdb4f5fbbacfd31a8b_F2-mass_3-r1-s2-h40.npz",
+        "role": "fields",
+        "sha256": "1b3a26e056495cefbbca85ca4191b0dfbcb80a2aefc1c4bbe2572ba719a88a25"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 32,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            14,
+            17
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.32979074120521545,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 245,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 245,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.0163265306122449,
+            "core_voxels": 4,
+            "material_voxels": 245,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 247,
+            "0.5": 245,
+            "0.7": 243
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 6,
+          "guide_voxels": 32,
+          "permitted_above_one": 154,
+          "permitted_below_zero": 16161
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 5.365721517591737e-05,
+          "tv": 0.013080267235636711
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.31183457374572754,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 6.601822853088379,
+          "spill": 3.400435161893256e-05,
+          "support": 0.0009024209575727582,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 220.87185668945312,
+          "mass_3": 42.62264633178711
+        },
+        "totals_v2": {
+          "mapped_30": 205.87185668945312,
+          "mass_3": 27.622644424438477
+        }
+      },
+      "seconds": 1.7125011000025552,
+      "source_id": "F2-mass_3-r1",
+      "steps": 40
+    },
+    {
+      "anchor_exact": true,
+      "change": {
+        "absolute_material_change_sum": 3.304758757352829,
+        "binary_added": 3,
+        "binary_iou": 0.9879032258064516,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 83772,
+        "path": "artifacts/54dffd426bfe4472b0c5cc557000fb68_F2-mass_3-r1-s2-h50.npz",
+        "role": "fields",
+        "sha256": "898a5e334c2a9aa10e1305070c9ebe7ca987bc3e2e400c7fb5256d281c88b5a3"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 40,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            14,
+            17
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.3342326283454895,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 248,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 248,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.016129032258064516,
+            "core_voxels": 4,
+            "material_voxels": 248,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 251,
+            "0.5": 248,
+            "0.7": 248
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 6,
+          "guide_voxels": 32,
+          "permitted_above_one": 161,
+          "permitted_below_zero": 16206
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 4.267520489520393e-05,
+          "tv": 0.013242961838841438
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.2999125123023987,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 6.884342670440674,
+          "spill": 3.400435161893256e-05,
+          "support": 0.00186684331856668,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 229.05723571777344,
+          "mass_3": 43.179996490478516
+        },
+        "totals_v2": {
+          "mapped_30": 214.05723571777344,
+          "mass_3": 28.179996490478516
+        }
+      },
+      "seconds": 2.006350999989081,
+      "source_id": "F2-mass_3-r1",
+      "steps": 50
+    },
+    {
+      "anchor_exact": null,
+      "change": {
+        "absolute_material_change_sum": 3.561738282442093,
+        "binary_added": 5,
+        "binary_iou": 0.9802371541501976,
+        "binary_removed": 0
+      },
+      "fields": {
+        "bytes": 84063,
+        "path": "artifacts/70d9d08ee8bf4b868cef604eabe0df72_F2-mass_3-r1-s2-h64.npz",
+        "role": "fields",
+        "sha256": "fdefbc9d9bff8c348ef1eee69d64bdabcb7d6daeba0e51aa7634e4b902b78e86"
+      },
+      "firing_seed": 2,
+      "previous_horizon": 50,
+      "scene": "ref-06-minimal-smoke",
+      "score": {
+        "candidate_access": 0.0,
+        "candidate_details": {
+          "critical_zyx": [
+            6,
+            14,
+            17
+          ],
+          "entrance_ids": [
+            "E_ground_a",
+            "E_ground_b"
+          ],
+          "legal_route_exists": true,
+          "version": "component_bottleneck_v2"
+        },
+        "candidate_metrics": {
+          "all_connected": true,
+          "components_touching_all_entrances": 1,
+          "material_components": 1,
+          "threshold": 0.5,
+          "version": "component_bottleneck_v2"
+        },
+        "mass_ratio": 0.33901989459991455,
+        "metrics": {
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_ground_b": true
+            },
+            "source_id": "E_ground_a",
+            "source_open": true,
+            "status": "scored"
+          },
+          "ground": {
+            "blocked_voxels": 0,
+            "open_fraction": 1.0,
+            "protected_voxels": 4308
+          },
+          "interpretation": "Spatial connectivity and geometric proxies; not walkability or structural safety.",
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 253,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "metric_version": "binary_v1",
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 253,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "thickness_proxy": {
+            "core_fraction": 0.015810276679841896,
+            "core_voxels": 4,
+            "material_voxels": 253,
+            "nonempty": true,
+            "radius_voxels": 1
+          },
+          "threshold": 0.5,
+          "threshold_material_counts": {
+            "0.3": 253,
+            "0.5": 253,
+            "0.7": 251
+          }
+        },
+        "raw_saturation": {
+          "guide_below_zero": 4,
+          "guide_voxels": 32,
+          "permitted_above_one": 163,
+          "permitted_below_zero": 16133
+        },
+        "regularizers": {
+          "cantilever_boundary": 0.0,
+          "density_binary": 1.4373666999745183e-05,
+          "tv": 0.013349584303796291
+        },
+        "terms": {
+          "access": 1.0,
+          "coverage": 0.28828996419906616,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 7.1954569816589355,
+          "spill": 3.400435161893256e-05,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "totals_v1": {
+          "mapped_30": 238.085205078125,
+          "mass_3": 43.807865142822266
+        },
+        "totals_v2": {
+          "mapped_30": 223.085205078125,
+          "mass_3": 28.807863235473633
+        }
+      },
+      "seconds": 2.6229802000161726,
+      "source_id": "F2-mass_3-r1",
+      "steps": 64
+    }
+  ],
+  "run_id": "20260923T145912Z_17b1d18f5b10"
+}

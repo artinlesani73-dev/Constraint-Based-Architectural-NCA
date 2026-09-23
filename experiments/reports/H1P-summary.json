@@ -1,0 +1,805 @@
+{
+  "by_source_and_horizon": [
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.22180725634098053,
+      "mass_min": 0.22180725634098053,
+      "source_id": "F2-mass_3-r0",
+      "steps": 16
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.28641489148139954,
+      "mass_min": 0.28641489148139954,
+      "source_id": "F2-mass_3-r0",
+      "steps": 24
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.30525514483451843,
+      "mass_min": 0.30525514483451843,
+      "source_id": "F2-mass_3-r0",
+      "steps": 32
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.3130709230899811,
+      "mass_min": 0.3130709230899811,
+      "source_id": "F2-mass_3-r0",
+      "steps": 40
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.3163292706012726,
+      "mass_min": 0.3163292706012726,
+      "source_id": "F2-mass_3-r0",
+      "steps": 50
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.31778740882873535,
+      "mass_min": 0.31778740882873535,
+      "source_id": "F2-mass_3-r0",
+      "steps": 64
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.22884564101696014,
+      "mass_min": 0.22884564101696014,
+      "source_id": "F2-mass_3-r1",
+      "steps": 16
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.3017911911010742,
+      "mass_min": 0.3017911911010742,
+      "source_id": "F2-mass_3-r1",
+      "steps": 24
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.32173192501068115,
+      "mass_min": 0.32173192501068115,
+      "source_id": "F2-mass_3-r1",
+      "steps": 32
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.32979074120521545,
+      "mass_min": 0.32979074120521545,
+      "source_id": "F2-mass_3-r1",
+      "steps": 40
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.3342326283454895,
+      "mass_min": 0.3342326283454895,
+      "source_id": "F2-mass_3-r1",
+      "steps": 50
+    },
+    {
+      "cases": 1,
+      "connected": 1,
+      "in_budget": 0,
+      "joint": 0,
+      "mass_max": 0.33901989459991455,
+      "mass_min": 0.33901989459991455,
+      "source_id": "F2-mass_3-r1",
+      "steps": 64
+    }
+  ],
+  "gradients": [
+    {
+      "access_sparsity_cosine": -0.8948260548993894,
+      "coverage_sparsity_cosine": -0.8883835791314726,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 12.424989350771357,
+          "value": 0.9653257727622986
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 7.739820838270522,
+          "value": 0.34913426637649536
+        },
+        "coverage": {
+          "last_raw_l2": 0.13321754330679025,
+          "parameter_l2": 5.415405061177848,
+          "value": 0.353047639131546
+        },
+        "sparsity": {
+          "last_raw_l2": 2.864585444771156,
+          "parameter_l2": 64.87876606561943,
+          "value": 1.554707646369934
+        },
+        "total_v1": {
+          "last_raw_l2": 27.60357988989096,
+          "parameter_l2": 189.54686380711894,
+          "value": 28.09657096862793
+        },
+        "total_v2": {
+          "last_raw_l2": 27.223607888675073,
+          "parameter_l2": 80.86567604571498,
+          "value": 18.853696823120117
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.5209557060657387,
+      "total_sparsity_cosine": -0.3328015027683094,
+      "weighted_parameter_norms": {
+        "access": 116.09731257405784,
+        "coverage": 135.3851265294462,
+        "sparsity": 194.6362981968583
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.5748438679251988,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.0878410467702551,
+          "parameter_l2": 0.08684681348041609,
+          "value": 0.286188542842865
+        },
+        "sparsity": {
+          "last_raw_l2": 5.467752228276768,
+          "parameter_l2": 121.89764299126882,
+          "value": 5.7817769050598145
+        },
+        "total_v1": {
+          "last_raw_l2": 26.21302829886298,
+          "parameter_l2": 376.550250274526,
+          "value": 39.52658462524414
+        },
+        "total_v2": {
+          "last_raw_l2": 29.96563459585918,
+          "parameter_l2": 376.550250274526,
+          "value": 24.52658462524414
+        }
+      },
+      "reused": false,
+      "source_id": "F2-mass_3-r0",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9996584208376386,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 2.1711703370104023,
+        "sparsity": 365.6929289738065
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.6044704731218301,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.1521451559961159,
+          "parameter_l2": 2.159521178409404,
+          "value": 0.7813445925712585
+        },
+        "sparsity": {
+          "last_raw_l2": 1.1598961917238217,
+          "parameter_l2": 59.7726309778692,
+          "value": 0.25067251920700073
+        },
+        "total_v1": {
+          "last_raw_l2": 50.79264696836147,
+          "parameter_l2": 1972.1505940894356,
+          "value": 46.75688171386719
+        },
+        "total_v2": {
+          "last_raw_l2": 50.713446559993535,
+          "parameter_l2": 1972.1505940894356,
+          "value": 46.75688171386719
+        }
+      },
+      "reused": true,
+      "source_id": "original-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.9999999999999999,
+      "total_sparsity_cosine": 0.998705697340976,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 53.9880294602351,
+        "sparsity": 1793.178929336076
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.43861936732791157,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.2165063251365414,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.13608276450184995,
+          "parameter_l2": 0.15593838759655032,
+          "value": 0.703013002872467
+        },
+        "sparsity": {
+          "last_raw_l2": 10.312765856923265,
+          "parameter_l2": 1276.0808241224522,
+          "value": 20.565282821655273
+        },
+        "total_v1": {
+          "last_raw_l2": 314.15900963115234,
+          "parameter_l2": 38342.07708557656,
+          "value": 655.2008666992188
+        },
+        "total_v2": {
+          "last_raw_l2": 314.1954222534232,
+          "parameter_l2": 38342.07708557656,
+          "value": 655.2008666992188
+        }
+      },
+      "reused": true,
+      "source_id": "original-r0",
+      "steps": 50,
+      "total_old_new_cosine": 1.0000000000000002,
+      "total_sparsity_cosine": 0.9999979731750495,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 3.898459689913758,
+        "sparsity": 38282.42472367357
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.6715447692457456,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.17399263633843817,
+          "parameter_l2": 2.6720489380047185,
+          "value": 0.8752022981643677
+        },
+        "sparsity": {
+          "last_raw_l2": 0.1609935076182072,
+          "parameter_l2": 4.88670310216153,
+          "value": 0.0026589289773255587
+        },
+        "total_v1": {
+          "last_raw_l2": 35.01956423779601,
+          "parameter_l2": 307.80373436168077,
+          "value": 41.04912567138672
+        },
+        "total_v2": {
+          "last_raw_l2": 34.94435368043754,
+          "parameter_l2": 307.80373436168077,
+          "value": 41.04912567138672
+        }
+      },
+      "reused": true,
+      "source_id": "original-r1",
+      "steps": 16,
+      "total_old_new_cosine": 1.0000000000000002,
+      "total_sparsity_cosine": 0.9017071842960096,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 66.80122345011796,
+        "sparsity": 146.60109306484588
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.4917875545237349,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.2165063251365414,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 0.12372197944406799,
+          "value": 0.781663179397583
+        },
+        "sparsity": {
+          "last_raw_l2": 9.48168603263059,
+          "parameter_l2": 298.603750638254,
+          "value": 9.5006103515625
+        },
+        "total_v1": {
+          "last_raw_l2": 293.26349657795413,
+          "parameter_l2": 8883.794782787225,
+          "value": 324.3115539550781
+        },
+        "total_v2": {
+          "last_raw_l2": 293.29058188886904,
+          "parameter_l2": 8883.794782787225,
+          "value": 324.3115539550781
+        }
+      },
+      "reused": true,
+      "source_id": "original-r1",
+      "steps": 50,
+      "total_old_new_cosine": 0.9999999999999998,
+      "total_sparsity_cosine": 0.999998546215712,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 3.0930494861016995,
+        "sparsity": 8958.11251914762
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.8265374045785916,
+      "coverage_sparsity_cosine": -0.8735118227069262,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 11.549477831187083,
+          "value": 0.9145256876945496
+        },
+        "coverage": {
+          "last_raw_l2": 0.14958791242380856,
+          "parameter_l2": 5.208993534063879,
+          "value": 0.5727114081382751
+        },
+        "sparsity": {
+          "last_raw_l2": 0.2773059438890193,
+          "parameter_l2": 4.573600849079267,
+          "value": 0.01466358546167612
+        },
+        "total_v1": {
+          "last_raw_l2": 32.6555384689647,
+          "parameter_l2": 66.92601216386767,
+          "value": 29.978769302368164
+        },
+        "total_v2": {
+          "last_raw_l2": 35.77469424020694,
+          "parameter_l2": 167.71444954524318,
+          "value": 28.6966552734375
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mapped_30-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.11556839614349972,
+      "total_sparsity_cosine": -0.7314495130274713,
+      "weighted_parameter_norms": {
+        "access": 173.24216746780624,
+        "coverage": 130.224838351597,
+        "sparsity": 137.208025472378
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": 0.014026212533555779,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.10393492818476281,
+          "parameter_l2": 0.07686283335816256,
+          "value": 0.40356314182281494
+        },
+        "sparsity": {
+          "last_raw_l2": 2.2590486591085455,
+          "parameter_l2": 270.6502369421057,
+          "value": 0.9861416816711426
+        },
+        "total_v1": {
+          "last_raw_l2": 82.63317778433957,
+          "parameter_l2": 8120.291728067044,
+          "value": 54.688262939453125
+        },
+        "total_v2": {
+          "last_raw_l2": 82.60237641551836,
+          "parameter_l2": 8120.291728067044,
+          "value": 54.688262939453125
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mapped_30-r0",
+      "steps": 50,
+      "total_old_new_cosine": 0.9999999999999999,
+      "total_sparsity_cosine": 0.9999999717700256,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 1.921570833954064,
+        "sparsity": 8119.507108263171
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.7720440397694139,
+      "coverage_sparsity_cosine": -0.8902512432767754,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 18.694533100527003,
+          "value": 0.7888915538787842
+        },
+        "coverage": {
+          "last_raw_l2": 0.15934435979977452,
+          "parameter_l2": 4.471279076531158,
+          "value": 0.5916905999183655
+        },
+        "sparsity": {
+          "last_raw_l2": 0.43566746065527856,
+          "parameter_l2": 7.478034835660341,
+          "value": 0.01961110532283783
+        },
+        "total_v1": {
+          "last_raw_l2": 45.382433377950704,
+          "parameter_l2": 133.44378129325486,
+          "value": 30.548133850097656
+        },
+        "total_v2": {
+          "last_raw_l2": 47.75419004344541,
+          "parameter_l2": 224.5439129559733,
+          "value": 27.381505966186523
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mapped_30-r1",
+      "steps": 16,
+      "total_old_new_cosine": -0.173659205021439,
+      "total_sparsity_cosine": -0.41578620072786676,
+      "weighted_parameter_norms": {
+        "access": 280.41799650790506,
+        "coverage": 111.78197691327895,
+        "sparsity": 224.34104506981024
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.6213059543525885,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 0.09248850729816734,
+          "value": 0.32599949836730957
+        },
+        "sparsity": {
+          "last_raw_l2": 5.073669587557683,
+          "parameter_l2": 59.96805095284035,
+          "value": 2.719726800918579
+        },
+        "total_v1": {
+          "last_raw_l2": 168.1448168869557,
+          "parameter_l2": 1797.599740007952,
+          "value": 104.77020263671875
+        },
+        "total_v2": {
+          "last_raw_l2": 168.14558005680016,
+          "parameter_l2": 1797.599740007952,
+          "value": 89.77020263671875
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mapped_30-r1",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9999994034214599,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 2.3122126824541835,
+        "sparsity": 1799.0415285852105
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.9068229072202261,
+      "coverage_sparsity_cosine": -0.898569304801729,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 7.370560753941059,
+          "value": 0.5607874989509583
+        },
+        "coverage": {
+          "last_raw_l2": 0.13888888992369175,
+          "parameter_l2": 5.013884243553323,
+          "value": 0.3757399022579193
+        },
+        "sparsity": {
+          "last_raw_l2": 1.8660988201791553,
+          "parameter_l2": 39.65144701957084,
+          "value": 0.6610987782478333
+        },
+        "total_v1": {
+          "last_raw_l2": 22.70214957612935,
+          "parameter_l2": 55.377671775238355,
+          "value": 26.52802085876465
+        },
+        "total_v2": {
+          "last_raw_l2": 27.102629994020585,
+          "parameter_l2": 117.081597206008,
+          "value": 19.93983268737793
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mass_3-r0",
+      "steps": 16,
+      "total_old_new_cosine": 0.35100456961963517,
+      "total_sparsity_cosine": -0.8281734095869854,
+      "weighted_parameter_norms": {
+        "access": 110.55841130911588,
+        "coverage": 125.34710608883309,
+        "sparsity": 118.95434105871252
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.19098907392864214,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.17677667422321264,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.0878410467702551,
+          "parameter_l2": 0.13598728249023845,
+          "value": 0.28571560978889465
+        },
+        "sparsity": {
+          "last_raw_l2": 4.658211251712256,
+          "parameter_l2": 37.87272353341901,
+          "value": 4.195877552032471
+        },
+        "total_v1": {
+          "last_raw_l2": 24.82315433334761,
+          "parameter_l2": 113.07205277548121,
+          "value": 34.7470817565918
+        },
+        "total_v2": {
+          "last_raw_l2": 28.765578400343248,
+          "parameter_l2": 113.07205277548121,
+          "value": 19.747085571289062
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mass_3-r0",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9995643704227506,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 3.399682062255961,
+        "sparsity": 113.61817060025703
+      }
+    },
+    {
+      "access_sparsity_cosine": -0.8508186450673951,
+      "coverage_sparsity_cosine": -0.9007353351641806,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 1.0,
+          "parameter_l2": 11.576850501737585,
+          "value": 0.5083662271499634
+        },
+        "coverage": {
+          "last_raw_l2": 0.15309310892394862,
+          "parameter_l2": 4.574538289523802,
+          "value": 0.4724462926387787
+        },
+        "sparsity": {
+          "last_raw_l2": 2.3201591111680933,
+          "parameter_l2": 43.93319978346188,
+          "value": 0.5556353330612183
+        },
+        "total_v1": {
+          "last_raw_l2": 30.686520466552555,
+          "parameter_l2": 56.2526281843837,
+          "value": 28.592540740966797
+        },
+        "total_v2": {
+          "last_raw_l2": 34.124426138881944,
+          "parameter_l2": 161.27971905982184,
+          "value": 21.218034744262695
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mass_3-r1",
+      "steps": 16,
+      "total_old_new_cosine": -0.053997894739651935,
+      "total_sparsity_cosine": -0.7538034477905302,
+      "weighted_parameter_norms": {
+        "access": 173.65275752606377,
+        "coverage": 114.36345723809505,
+        "sparsity": 131.79959935038565
+      }
+    },
+    {
+      "access_sparsity_cosine": null,
+      "coverage_sparsity_cosine": -0.006830230037425499,
+      "norms": {
+        "access_v1": {
+          "last_raw_l2": 0.1249999850988388,
+          "parameter_l2": 0.0,
+          "value": 1.0
+        },
+        "access_v2": {
+          "last_raw_l2": 0.0,
+          "parameter_l2": 0.0,
+          "value": 0.0
+        },
+        "coverage": {
+          "last_raw_l2": 0.09882117688026186,
+          "parameter_l2": 0.13021385101894073,
+          "value": 0.32350975275039673
+        },
+        "sparsity": {
+          "last_raw_l2": 7.006826260291203,
+          "parameter_l2": 29.661013327264854,
+          "value": 5.187681674957275
+        },
+        "total_v1": {
+          "last_raw_l2": 34.764929583929515,
+          "parameter_l2": 91.00619763529426,
+          "value": 38.6724967956543
+        },
+        "total_v2": {
+          "last_raw_l2": 34.691395353917564,
+          "parameter_l2": 91.00619763529426,
+          "value": 23.67249870300293
+        }
+      },
+      "reused": true,
+      "source_id": "F1-mass_3-r1",
+      "steps": 50,
+      "total_old_new_cosine": 1.0,
+      "total_sparsity_cosine": 0.9992695836482851,
+      "weighted_parameter_norms": {
+        "access": 0.0,
+        "coverage": 3.255346275473518,
+        "sparsity": 88.98303998179456
+      }
+    }
+  ],
+  "run_id": "20260923T145912Z_17b1d18f5b10",
+  "trajectories": [
+    {
+      "connected_horizons": [
+        16,
+        24,
+        32,
+        40,
+        50,
+        64
+      ],
+      "connection_lost_between_samples": false,
+      "consecutive_sampled_joint_pairs": 0,
+      "firing_seed": 2,
+      "joint_horizons": [],
+      "mass_change_first_to_last": 0.09598015248775482,
+      "source_id": "F2-mass_3-r0"
+    },
+    {
+      "connected_horizons": [
+        16,
+        24,
+        32,
+        40,
+        50,
+        64
+      ],
+      "connection_lost_between_samples": false,
+      "consecutive_sampled_joint_pairs": 0,
+      "firing_seed": 2,
+      "joint_horizons": [],
+      "mass_change_first_to_last": 0.1101742535829544,
+      "source_id": "F2-mass_3-r1"
+    }
+  ]
+}

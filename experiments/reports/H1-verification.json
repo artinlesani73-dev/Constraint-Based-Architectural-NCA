@@ -1,0 +1,25 @@
+{
+  "admission": {
+    "admitted": true,
+    "cap_seconds": 1500,
+    "estimated_seconds": 989.4872613011103,
+    "max_gradient_worker_seconds": 35.55805240001064,
+    "max_growth_worker_seconds": 12.506458500021836,
+    "safety_factor": 1.5
+  },
+  "cosines_verified": 720,
+  "elapsed_caps_met": true,
+  "exact_historical_anchors": 20,
+  "frozen_model_weight_checks": 10,
+  "gradient_forward_fields_exact": 20,
+  "growth_fields_rescored": 180,
+  "last_raw_vectors_verified": 120,
+  "new_gradient_cases": 8,
+  "optimizer_updates": 0,
+  "parameter_vectors_verified": 120,
+  "reused_gradient_cases": 12,
+  "run_id": "20260923T150119Z_f7b304516723",
+  "sampled_transitions_verified": 150,
+  "scope": "Shared formulas rescore all fields; independent BFS evaluates connectivity. Backprop vectors recorded; norms/cosines recomputed, not independent differentiation.",
+  "source_hashes_verified": 31
+}
