@@ -131,3 +131,13 @@ Python 3.12.14, CPU torch 2.8.0, NumPy 2.5.2; requirements-cpu.lock.txt. Do not
 install the CPU lock over Colab CUDA. Local write/Git permissions may need renewal
 in a new task. Historical handoffs remain in Git/milestone archives. This handoff
 does not automatically resume work or redeem credits after a usage reset.
+
+## Active loss milestone - 2026-09-23
+
+geometry_losses_v1 and the L1_v1 runner are implemented; read LOSS_PROTOCOL.md
+and D019. Initial verification 20260923T002822Z_8f68d5bbcaf7 passed 108 checks.
+Verification 20260923T003247Z_0ce597b29bc4 now passes all 109 checks. Next run
+scripts/run_loss_diagnostics.py locally. This performs no optimizer updates.
+Inspect run records before retrying; --parent-run creates a fresh linked attempt.
+After L1, document all gradient/context findings, refresh this handoff and make a
+new local backup. Do not select a training envelope or start paid training yet.

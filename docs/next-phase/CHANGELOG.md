@@ -257,3 +257,21 @@ and reporting, exercised by the completed retry and report re-render checks.
 Preserved the original notebook/checkpoint and user files; report stays ignored.
 Milestone receives a local commit and verified local recovery archive. No Drive
 access, paid training, push or deployment occurred.
+
+## 2026-09-23 - Shared loss mechanics and L1 preparation
+
+Added nca/losses.py (geometry_losses_v1), separate from the historical notebook
+and fine-tuner. All nine families return [B] terms; context and empty-material
+flags are explicit, and strict means refuse incompatible contexts. Distinguishes
+coverage guide from material envelope, retains original mass bounds/denominator,
+uses zero-padded zero-background thickness and single-source six-neighbor
+bottleneck reach. Fixed masks/context are verified before gradients are computed.
+No trained checkpoint, production default or new constraint family changed.
+
+Initial verification 20260923T002822Z_8f68d5bbcaf7 passed 108 tests, no failures,
+errors or skips and smoke exit 0. A subsequent addition checks scene-adapter
+certification of guide connectivity and rejects missing entrance coverage. This
+addition passed in 20260923T003247Z_0ce597b29bc4: 109 tests, zero failures/errors/skips, smoke exit 0. Added the preregistered
+LOSS_PROTOCOL.md and scripts/run_loss_diagnostics.py: 72 context cases, three
+short real-model gradient cases, six expected historical fine-tuner defect checks.
+No optimizer updates. D019 records the scope and unresolved semantic limits.

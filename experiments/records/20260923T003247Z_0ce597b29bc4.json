@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260923T003247Z_0ce597b29bc4",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 109,
+    "wall_seconds": 44.29175770000438
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "850147891384970687427770964df396602b306d",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/LOSS_PROTOCOL.md\n?? experiments/records/20260923T002822Z_8f68d5bbcaf7.json\n?? nca/losses.py\n?? scripts/run_loss_diagnostics.py\n?? tests/test_losses.py"
+  },
+  "run_id": "20260923T003247Z_0ce597b29bc4",
+  "status": "completed"
+}

@@ -256,3 +256,28 @@ architecture or paying for training. LOSS_REPAIR_PLAN.md records the next gate.
 The audit is post-hoc, not an additional preregistered C1 arm. These remain spatial
 proxies within the nine existing families, not verified architectural access or
 structural safety. Preserve every failed attempt and keep archives local.
+
+## D019 - Version loss mechanics and diagnose envelopes without selecting a trainer
+
+Date: 2026-09-23. Authorized continuation of D018 and LOSS_REPAIR_PLAN.md.
+
+Add geometry_losses_v1 with explicit coverage and material-envelope inputs,
+per-scene reduction, zero-background thickness, six-neighbor single-source
+material reach, geometric support, and unchanged 3%-12% mass limits using the
+historical non-building denominator. Nine named families remain represented.
+The access/coverage meanings are explicitly spatial material diagnostics; this
+is not a resolution of architectural void/deck/headroom semantics. No production
+trainer or new weights are introduced. Historical files remain intact.
+
+Necessary compatibility checks reject impossible target/envelope/budget contexts
+at strict batch reduction. Empty material is flagged separately because it can
+be an initial state. Context checks do not prove every objective can be jointly
+zero. A source is a single fixed legal entrance voxel, avoiding multi-origin
+self-seeding. The scene adapter independently checks six-neighbor guide reach.
+
+L1_v1 compares fixed radius-three and radius-six material envelopes with the C1
+scaffold and full permitted-space controls; none is automatically selected for
+training or widened to satisfy a budget. Preserve all outcomes, including zero
+gradients, tied/finite-horizon surrogate limitations and historical failures.
+See LOSS_PROTOCOL.md for formulas and the frozen matrix. Correctness tests and
+short real-model derivatives are not evidence of trained architectural quality.
