@@ -511,3 +511,15 @@ direct-material optimizer with the same objectives, then freeze a bounded matche
 comparison. Do not infer architecture failure from17 updates or solve several
 factors at once. No paid run, Drive access, push or serving change. See
 SENSITIVITY_FINDINGS.md; raw per-scene failures and all previous evidence retained.
+
+## D034 - Direct-field control with fixed objective and cost admission
+
+2026-09-23. User authorized the next local comparator. DIRECT_PROTOCOL.md and
+D1-direct.json freeze a raw voxel parameterization, exact hard projection, shared
+nine-family/three-regularizer objective, two existing recipes, Adam0.05 and weak
+scaffold initialization. W1 remains a static control, never hidden initialization.
+Verify four-update actual-loop recovery, then profile three scenes/two recipes for
+eight updates. Admit the frozen34-case32-update full comparison only if the stated
+conservative pilot estimate fits900 seconds; no tuning from pilot quality scores.
+Direct per-scene optimization has more freedom and a different compute budget than
+K2's17 shared-weight updates. No architectural/generalization or paid-work claim.

@@ -284,3 +284,11 @@ scripts/report_sensitivity.py refuses overwriting published results. Recheck wit
 verify(run) and render(run,protocol,training,evaluation) in memory. Preserve all
 older reports; repeat experiments only for a concrete new reason with a linked
 new run ID. Exact source snapshots are required if Git changed Python line endings.
+
+## Direct-control preparation in progress
+
+Read DIRECT_PROTOCOL.md/D034. Added nca/direct.py and scripts/run_direct.py with
+exact per-scene raw parameters, checkpoints and recovery/pilot/full modes. D1-direct
+config preregisters32 full updates and a cost-admission gate. No direct experiment
+has started at this entry; inspect new records/processes before any retry. Never
+edit hashed training source between the direct recovery gate, pilot and full run.

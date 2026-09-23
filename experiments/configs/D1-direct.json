@@ -1,0 +1,89 @@
+{
+  "checkpoints": "every completed update; all fields, gradients and results retained",
+  "full_admission": "1.5 * (34 * max(5, max pilot session setup seconds + 3) + 34 * 32 * pilot p90 update seconds) <= 900",
+  "full_case_cap_seconds": 120,
+  "full_total_cap_seconds": 900,
+  "full_updates": 32,
+  "initialization": "same .15 legal scaffold as NCA, no witness initialization",
+  "interpretation": "Per-scene optimizer with many free variables, no learned generalization or matched NCA training budget",
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "clip_grad_norm": 1.0,
+    "eps": 1e-08,
+    "lr": 0.05,
+    "scheduler": "constant",
+    "type": "Adam",
+    "weight_decay": 0.0
+  },
+  "paid_compute": false,
+  "pilot_scenes": [
+    "legacy-easy-seed-008",
+    "ref-01-ground-pair",
+    "ref-06-minimal-smoke"
+  ],
+  "pilot_updates": 8,
+  "pilot_worker_cap_seconds": 120,
+  "protocol": "D1_direct_v1",
+  "recipes": {
+    "mapped_30": {
+      "family_weights": {
+        "access": 15.0,
+        "coverage": 25.0,
+        "facade": 10.0,
+        "ground": 35.0,
+        "legality": 30.0,
+        "sparsity": 30.0,
+        "spill": 25.0,
+        "support": 8.0,
+        "thickness": 30.0
+      },
+      "regularizer_weights": {
+        "cantilever_boundary": 5.0,
+        "density_binary": 3.0,
+        "tv": 1.0
+      }
+    },
+    "mass_3": {
+      "family_weights": {
+        "access": 15.0,
+        "coverage": 25.0,
+        "facade": 10.0,
+        "ground": 35.0,
+        "legality": 30.0,
+        "sparsity": 3.0,
+        "spill": 25.0,
+        "support": 8.0,
+        "thickness": 30.0
+      },
+      "regularizer_weights": {
+        "cantilever_boundary": 5.0,
+        "density_binary": 3.0,
+        "tv": 1.0
+      }
+    }
+  },
+  "scenes": [
+    "legacy-easy-seed-000",
+    "legacy-easy-seed-001",
+    "legacy-easy-seed-002",
+    "legacy-easy-seed-003",
+    "legacy-easy-seed-004",
+    "legacy-easy-seed-005",
+    "legacy-easy-seed-006",
+    "legacy-easy-seed-007",
+    "legacy-easy-seed-008",
+    "legacy-easy-seed-009",
+    "legacy-easy-seed-010",
+    "legacy-easy-seed-011",
+    "ref-01-ground-pair",
+    "ref-02-facade-pair-and-ground",
+    "ref-03-wide-gap",
+    "ref-04-asymmetric-heights",
+    "ref-06-minimal-smoke"
+  ],
+  "source_comparison_run": "20260923T102524Z_f5e1cc169dea",
+  "witness_run": "20260923T084933Z_eb2603cd79f7"
+}

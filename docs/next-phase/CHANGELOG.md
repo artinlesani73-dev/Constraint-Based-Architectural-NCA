@@ -486,3 +486,14 @@ Original proposal, notebook/checkpoint and serving path unchanged.
 - All evidence is preserved for a new verified local sensitivity archive. Linked
   interrupted-run imports and forced/mid-write failures were not exercised; K2R
   proves orderly completed-update continuation only. No remote/paid operations.
+
+## 2026-09-23 - D1 direct optimizer and frozen comparison preparation
+
+Added nca/direct.py and separate direct recovery/pilot/full runner, preserving all
+original NCA code and objectives. Exact hard projection, unbounded raw variables,
+weak-scaffold initialization and explicit Adam settings. DIRECT_PROTOCOL.md and
+D1-direct.json freeze the pilot and timing-only full admission. Three field/
+gradient regressions added. Run20260923T104700Z_c4dc9a0d6f64 passes147 tests,
+zero failures/errors/skips,checkpoint smoke0. Actual direct recovery/pilot pending.
+Report verifier prepared for full checkpoint/projection/norm checks and initial/
+final objective/geometry rescoring. No NCA optimizer, cloud or paid operation.
