@@ -1,5 +1,55 @@
 # Resume the NCA next phase
 
+## Current: MG3 complete; live mass integration next - 2026-09-24
+
+Read CONTACT_BUDGET_FINDINGS.md, STUDIO_MASSING_INTEGRATION_PLAN.md and D066.
+Run20260924T140750Z_5d36c2bf3bdc:36/45 pass,36/36 nonblocked. Nine blocked failures retained.
+Both MG2 failures repaired;43 fields and all45 initial routes unchanged. No MG1
+or MG2 regressions. All36 requests met (0–8 cells extra),100% bulk. Frozen gate met.
+This is procedural generation; no new NCA training or live integration yet.
+
+Regression20260924T140546Z_7d07393758df:310pass, smoke0. Independent45 exact replays,135 scores,
+135 bulk masks,16,873 growth decisions and150 Python snapshot matches verify.
+Regression ran before benchmark. No execution failure, reroll or timeout.
+All case fields, contexts, source, route and proposal traces retained under
+.local-artifacts/runs/<run-id>. Both experiment records and verification reports
+are tracked. No benchmark, regression or verification process remains active.
+
+Next implement the versioned experimental mass mode per the integration plan:
+inspect existing durable jobs/schema, bind requests/results and preserve old
+material records, add real jobs and independent evaluation, UI save/compare,
+typed import/export and replay, then relevant tests/browser QA. Do not rerun
+unchanged MG3 science just to resume. Before any new attempt, inspect records;
+justified retries use scripts/run_budget_generation.py --parent-run 20260924T140750Z_5d36c2bf3bdc.
+Do not start paid training, access Drive or silently use legacy material metrics.
+
+Gallery http://127.0.0.1:8001/static/budget/index.html,45 exact MG2/MG3 pairs.
+Desktop/mobile, all selections and slice/layer controls checked. Browser bindings
+agent/browser/tab(id2)/viewport exist if session survives; viewport reset. No server
+restart this milestone. Existing server continues old live material workflow.
+Helpers in Codex cwd work/:implement_mg3,prepare_mg3,verify_mg3,build_mg3_gallery,
+finalize_mg3,package_mg3.py. Exclusive writes: inspect before rerunning.
+QA outputs/mg3-qa. Some gallery refinements were applied after its initial builder;
+use archived gallery-source.zip or committed files for exact recovery.
+
+Local commit title: "Enforce facade contact budget during mass growth".
+Archive outputs/NCA-MG3-Backup-2026-09-24-<commit7>.zip; check sibling receipt
+and .local-artifacts/milestones/<commit7>-mg3-backup-receipt.json for completion.
+Packaging verifies each payload and restores bundled Git HEAD. Preserve all MG2,
+MD1,MO1,MG1 and earlier archives. Same disk, not off-device backup. Private reports
+stay unchanged and ignored; two unrelated user files remain untracked. No push.
+
+
+## Historical start note: MG3 budgeted growth - 2026-09-24 (completed above)
+
+User authorized CONTACT_BUDGET_NEXT_PLAN. New separate budgeted_contact_growth_v1,
+seven focused tests pass. Read CONTACT_BUDGET_PROTOCOL and MG3-budget.json. Old
+generators/evaluator unchanged. Full regression next, then45-case fixed comparison
+via scripts/run_budget_generation.py. Inspect live run records before retrying.
+All growth decisions saved; deferred candidates reconsider only after positive
+growth, zero-delta origins expand once, exhausted feasibility ends explicitly.
+No model training, live integration, paid compute or Drive access yet.
+
 ## Current: MG2 complete; live promotion held - 2026-09-24
 
 Read CONTACT_GENERATION_FINDINGS.md, CONTACT_GENERATION_PROTOCOL.md and D065.

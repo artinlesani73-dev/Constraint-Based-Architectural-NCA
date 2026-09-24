@@ -1,0 +1,81 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T140750Z_5d36c2bf3bdc",
+  "config": {
+    "candidate_seconds_cap": 15.0,
+    "comparison_run": "20260924T133657Z_f4c92840c7c0",
+    "contact_weight": 12.0,
+    "contexts": [
+      "aligned",
+      "wide_gap",
+      "offset_interfaces",
+      "blocked_gap",
+      "partial_obstruction"
+    ],
+    "cube_m": 2.4,
+    "evaluator": "massing_targets_v1",
+    "generator": "budgeted_contact_growth_v1",
+    "parent_run": "20260924T133657Z_f4c92840c7c0",
+    "promotion_rule": "All36 nonblocked cases pass unchanged MT1, preserve all27 MG1 and34 MG2 passes, all36 meet requested count with less than one cube overshoot, no timeout; blocked cases retained separately.",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "source_run": "20260924T113023Z_24298393f2a5",
+    "study_seconds_cap": 600.0,
+    "threads": 2,
+    "training": false,
+    "version": "MG3_v1",
+    "volume_requests": [
+      0.16,
+      0.24,
+      0.32
+    ]
+  },
+  "drive_backup": "pending",
+  "interpretation": "Fixed procedural development comparison, no held-out generalization. All failures retained; MT1 and cost12 unchanged; global facade budget enforced during growth.",
+  "metrics": {
+    "baseline_regressions": [],
+    "evaluation_seconds": 6.6465685000875965,
+    "generated": 45,
+    "generation_seconds": 7.076101100014057,
+    "open_total": 36,
+    "open_valid": 36,
+    "previous_regressions": [],
+    "previous_repairs": [
+      "partial_obstruction__v24__s2",
+      "partial_obstruction__v32__s2"
+    ],
+    "repairs": [
+      "partial_obstruction__v16__s0",
+      "partial_obstruction__v16__s1",
+      "partial_obstruction__v16__s2",
+      "partial_obstruction__v24__s0",
+      "partial_obstruction__v24__s1",
+      "partial_obstruction__v24__s2",
+      "partial_obstruction__v32__s0",
+      "partial_obstruction__v32__s1",
+      "partial_obstruction__v32__s2"
+    ],
+    "studio_promotion_gate": true,
+    "unexecuted": [],
+    "valid_generated": 36,
+    "wall_seconds": 33.24823989998549
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "698f64ae9c0d185e52bafac731eb78b393896895",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/DECISIONS.md\n M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/CONTACT_BUDGET_PROTOCOL.md\n?? experiments/configs/MG3-budget.json\n?? experiments/records/20260924T140546Z_7d07393758df.json\n?? nca/budget_mass_generator.py\n?? scripts/run_budget_generation.py\n?? tests/test_budget_mass_generator.py"
+  },
+  "run_id": "20260924T140750Z_5d36c2bf3bdc",
+  "status": "completed"
+}

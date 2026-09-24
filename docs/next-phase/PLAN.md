@@ -1,5 +1,14 @@
 # Next-phase implementation plan
 
+## Active milestone - MG3 complete; interactive mass Studio next, 2026-09-24
+
+36/36 nonblocked and36/45 overall pass with no MG1/MG2 regressions. Two failures
+repaired,43 fields unchanged.310 regressions and independent full replay verify.
+Read CONTACT_BUDGET_FINDINGS and STUDIO_MASSING_INTEGRATION_PLAN. Implement the
+versioned experimental live workflow with durable jobs, honest failures and
+replayable saved alternatives. Existing live material workflow remains unchanged
+until that implementation. No paid training or new constraints admitted.
+
 ## Active milestone - MG2 complete; contact-budget growth next, 2026-09-24
 
 Read CONTACT_GENERATION_FINDINGS.md and D065.34/45 pass vs27/45, no baseline

@@ -1064,3 +1064,25 @@ An exploratory read of deploy/jobs.py failed because the actual file is
 deploy/studio_jobs.py; corrected read, no edit. Old live generator, all historical
 galleries, original model and private reports unchanged. No server restart, Drive,
 paid compute, push or public deployment. All evidence backed up locally.
+
+
+## 2026-09-24 - MG3 growth budget and Studio admission
+
+Added separate budgeted_contact_growth_v1 with unique-cell contact accounting,
+deferred frontier reconsideration after positive growth, finite zero-delta transit
+and explicit failed/stalled outcomes. Seven focused tests, frozen protocol/config
+and45-case MG1/MG2/MG3 comparison. Run20260924T140750Z_5d36c2bf3bdc:36/45pass,36/36open,
+no regressions, two repairs,43 unchanged fields. Regression20260924T140546Z_7d07393758df:310pass.
+Exact replay,135 scores/bulk masks and16,873 independent decision checks pass.
+No science execution failed; no coefficient/threshold changes or rerolls.
+
+Added45-pair budget gallery with previous MG2 results, failure states, precise
+contact ratios and changed-cell counts; linked from Studio. Projection checked
+against archived evidence; desktop/mobile/selectors/slices/layers verified.
+Clarified repeated deferred checks and singular-cell captions. Initial mobile
+screenshot had a stale compositor frame; fresh capture retained too. Exploratory
+root CHANGELOG read failed (actual path docs/next-phase/CHANGELOG.md); no edit.
+Added findings, next-product plan, D066 outcome, resume and recovery instructions.
+No live generator/server restart, Drive, paid compute, push or publication.
+Private report files and original model unchanged. Verified local archive is
+incremental and same-disk; preserve the complete earlier archive chain.

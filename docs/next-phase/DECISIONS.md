@@ -1102,3 +1102,23 @@ hashes and303 tests verify. Growth trace identifies global contact-budget
 exceedance after an initially compliant completed route. Proposed MG3 applies
 that existing family's global budget to each growth addition, with finite
 deferred-frontier handling; see CONTACT_BUDGET_NEXT_PLAN, not implemented yet.
+
+
+## D066 - Enforce the existing facade budget during growth
+
+2026-09-24. User authorized proceeding after MG2. Implement one separately versioned
+generator per CONTACT_BUDGET_PROTOCOL/MG3-budget.json. Keep complete MG2 route and
+cost12, then admit cube growth by exact unique-cell global contact accounting.
+Deferred proposals are reconsidered after real growth only; finite stalls retained.
+Same45 members, same36/36 nonblocked gate and request fidelity, no MG1/MG2 valid
+regressions. No parameter sweep, threshold relaxation, new family or NCA training.
+
+
+D066 outcome: run20260924T140750Z_5d36c2bf3bdc completes45 cases,36/36 nonblocked pass;
+9 blocked remain failed. Both MG2 failures repaired without regressions;43 fields
+and all45 routes unchanged. Same nine families, cost12 and15% facade threshold.
+310 tests,45 exact replays,135 scores/bulk masks,16,873 independent growth checks
+and150 Python source matches verify. Frozen Studio admission gate met. Proceed
+to planned versioned experimental live mass workflow, preserving material history
+and all evidence. This does not admit paid training or prove unseen-site success.
+See CONTACT_BUDGET_FINDINGS and STUDIO_MASSING_INTEGRATION_PLAN.
