@@ -2,6 +2,12 @@
 
 ## Active direction - D058, 2026-09-24
 
+MA1 completion comparison is now implemented; see MASSING_AUDIT_FINDINGS.md and
+D059. Eleven controls/33 records/83 audit checks/260 regression tests; all pass
+after a retained expected-domain-count correction. Next: versioned massing
+objective acceptance examples across several scenes, before new learning.
+The following D058 paragraph records the earlier plan, now partly completed.
+
 Generate overall building mass; develop interiors and construction later.
 MASSING_BRIEF.md supersedes the material/void target in historical entries below
 and VOLUMETRIC_NEXT_PHASE.md. Next: versioned massing contract, saved original/

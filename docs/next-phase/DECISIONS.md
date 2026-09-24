@@ -929,3 +929,25 @@ classifier. Compare original/derived fields before choosing a filling rule or
 direct generation. Audit access, coverage, budget and thickness within the same
 nine families. No automatic training, paid compute, Drive access or publication.
 This milestone changes documentation only.
+
+## D059 - Preserve completion as a control; design the massing objective next
+
+2026-09-24. User authorized the original/filled comparison after confirming D058.
+MA1 implements massing_v1 diagnostic semantics, a candidate-independent physical
+region and identity/source-cavity/vertical-gap operations with preserved parents,
+requested additions, filtered additions and rejected cells. All historical loss
+definitions and scores remain available; no new budget or legality limit adopted.
+
+Run20260924T095133Z_b7015ab62f05:33 records and83 checks pass. First attempt retained
+as failed due to expected-domain count omitting36 historical anchor cells; corrected
+count3492 without changing any output or score. Regression260passes; exact replay
+and source verification pass. No learned-model or generalization claim.
+
+Vertical completion maps shells, detached plates and separated blocks to the same
+1296-cell mass. It cannot choose which gaps were intentional; filling also leaves
+flat sources flat. Recommend direct building occupancy for the next control design,
+keeping completion as a named ablation and evaluating both raw and final outputs.
+Define mass-scale/depth, distribution, interface and volume-budget meanings inside
+the existing nine families before new learning. Same-scene observations do not
+freeze numerical thresholds. Follow MASSING_AUDIT_FINDINGS.md. No automatic paid
+training, Drive access, remote push or publication.

@@ -2,6 +2,10 @@
 
 Accepted 2026-09-24, D058. This is the current research brief.
 
+Implementation update: MA1 implements the versioned diagnostic region and paired
+completion comparison below. See MASSING_AUDIT_FINDINGS.md and D059. The nine-family
+massing objective and acceptance thresholds remain next work; no training started.
+
 ## Confirmed meaning
 
 The user suggested filling the blue cells after generation or during it. Asked
@@ -55,7 +59,8 @@ More bracketed void is no longer a primary success criterion for the new brief.
    an NCA trial. Compare direct mass generation with a documented completion step,
    using equivalent final-output evaluation and separately retained raw outputs.
 
-These steps are planned, not implemented. Filling is not yet the chosen generation
+Steps1-3 and the initial old-score audit in4 are implemented as MA1; the remaining
+objective/acceptance/control work is planned. Filling is not the chosen generation
 method. No numerical budget, depth threshold, loss, channel count or training
 configuration is frozen here. Keep nine families; no tenth constraint.
 

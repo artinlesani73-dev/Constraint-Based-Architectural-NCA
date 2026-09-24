@@ -903,3 +903,29 @@ documentation diff and private-report ignore rules; no regression rerun needed.
 Two initial multi-file patches failed on unmatched final contexts; status checks
 confirmed neither applied any edits. Corrected with a guarded document update.
 Local commit/document archive only; no Drive operation, push or paid training.
+
+## 2026-09-24 - MA1 building-mass completion comparison
+
+Added separate massing_v1 semantics, fixed physical opportunity-region diagnostics,
+source-only cavity filling and bounded vertical-gap completion. Source cells are
+preserved; proposed/added/rejected cells and source violations remain explicit.
+Added12 tests; all260 regressions pass. Two audit attempts retain all33 records
+each. Initial expected3456-cell domain omitted36 old anchor allowances; corrected
+recipe3492, linked retry passes83 checks with identical geometry and metrics.
+All33 final operations, masks, mass reports and old nine-family scores replay
+exactly.131 relevant Python source files match tests and audit. Old models, losses,
+checkpoints, reference scenes and VA1/SP1 study JSON remain unchanged.
+
+Added paired gallery:11 sources,3 operations, added-volume highlighting, full/
+cutaway geometry and true sections. Browser checked33 selector combinations,
+display toggles, desktop and390px mobile; green legend now correctly changes when
+highlighting is off. Updated Studio links and historical interpretation notices.
+Recorded D059, protocol, findings, verification and resumable next steps.
+
+Browser screenshot write into repo was denied; workspace save and exact copy
+preserved evidence. First verification-helper replay used an incorrect checkpoint
+path after successful geometry checks; corrected to authoritative notebook path,
+retaining failed helper. Immediate post-resize/navigation snapshots can show old
+state; destination and final layout were verified after settling. One exploratory
+file search used nonexistent paths; corrected by listing repository paths.
+No paid training, Drive access, push, publication or historical evidence deletion.

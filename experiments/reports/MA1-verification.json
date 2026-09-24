@@ -1,0 +1,72 @@
+{
+  "VA1_study_unchanged": true,
+  "all_83_checks_pass": true,
+  "all_geometry_masks_operations_massing_and_nine_family_reports_exact": true,
+  "browser": {
+    "all_33_selector_counts": true,
+    "controls_checked": [
+      "source",
+      "method",
+      "vertical_slice",
+      "horizontal_slice",
+      "axonometric",
+      "cutaway",
+      "highlight_additions",
+      "context"
+    ],
+    "desktop_and_mobile_visual_review": true,
+    "mobile_document_width": 390,
+    "mobile_table_widths": [
+      358.8125,
+      358.8125
+    ],
+    "mobile_viewport": 390,
+    "observations": [
+      "Immediate DOM read after viewport change returned earlier dimensions; subsequent read and screenshot confirmed390px.",
+      "Direct browser screenshot write into repository was denied; saved in authorized workspace then copied unchanged.",
+      "Green legend corrected to All occupied cells when highlighting is off."
+    ],
+    "console_warn_error_entries": 0,
+    "navigation_verified": [
+      "Studio to MA1",
+      "VA1 to MA1",
+      "MA1 to VA1 via direct navigation; first click during viewport reset did not leave MA1"
+    ]
+  },
+  "failed_and_corrected_run_geometry_and_metrics_identical": true,
+  "failed_attempt": "20260924T094943Z_1d6ed517bc60",
+  "historical_anchor_cells_below_street_in_domain": 36,
+  "limitation": "Analytical controls on one scene; no massing acceptance gate, learned generator, training or changed objective.",
+  "parent_run": "20260924T085504Z_36c834017633",
+  "parent_study_sha256": "12cf80c42f545b5202aca2f4ac920ff642f3a22e7743b1048ac2eac5392c82ea",
+  "qa_files": {
+    "desktop-cutaway.png": "f67601b340dfb08f58f951d27b70564df352da7432e65dbe60dc0d77f2daad22",
+    "detached-plates-section.png": "40f62d258314c3f5496fb1a9897f0c7d6391731f56bb9edab04ac20dcead46b6",
+    "final-gallery-source.zip": "09ae2a7a0d49d3916243c4444bb4b5533f0c71b7f6260568d64af2e6f1f95879",
+    "full-mass.png": "3392a6a4a3518b537222a81e38fbe669b45346193b5ad00fe703a606b1a81947",
+    "mobile.png": "c775c0f09a4df45782ae4e44feaec24b3d0d9b2a9bc0a5fb0201165c88b8bebd",
+    "selector-checks.json": "5882188b5b780594efa741b7b96fe99774ffb2b32b3634617dc29dfc63952b51",
+    "final-full-mass.png": "d0678e13029df65683845e825c6e59e85e6c03c96369044b75c069fa04ad02e8"
+  },
+  "regression_run": "20260924T094603Z_66da5a9b1158",
+  "replayed_records": 33,
+  "runstore_manifests_verified": [
+    "20260924T095133Z_b7015ab62f05",
+    "20260924T094943Z_1d6ed517bc60",
+    "20260924T094603Z_66da5a9b1158",
+    "20260924T085504Z_36c834017633"
+  ],
+  "served_study_exact": true,
+  "source_checks": {
+    "20260924T094603Z_66da5a9b1158": {
+      "current_python_files_match": 131,
+      "verified_snapshot_members": 586
+    },
+    "20260924T095133Z_b7015ab62f05": {
+      "current_python_files_match": 131,
+      "verified_snapshot_members": 591
+    }
+  },
+  "study_run": "20260924T095133Z_b7015ab62f05",
+  "verification_helper_first_attempt": "After all33 replays and source checks, a hardcoded deploy/models checkpoint path was absent. Corrected to authoritative notebooks/model_c path; failed helper source retained. No scientific run changed."
+}

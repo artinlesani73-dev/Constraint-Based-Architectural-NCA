@@ -1,5 +1,63 @@
 # Resume the NCA next phase
 
+## Current: MA1 massing comparison complete - 2026-09-24
+
+D058 remains the brief: building volume now, interiors and construction later.
+Read MASSING_AUDIT_FINDINGS.md and MASSING_AUDIT_PROTOCOL.md. MA1 is an analytic
+completion comparison, not a trained generator or frozen massing objective.
+
+Successful study20260924T095133Z_b7015ab62f05:11 fields,33 records,83 checks pass,
+14.07s CPU. Failed parent20260924T094943Z_1d6ed517bc60 retained: expected domain
+count3456 omitted36 old anchor allowances; corrected3492. All geometry and metrics
+are identical across attempts. Regression20260924T094603Z_66da5a9b1158:260passed,
+0fail/error/skip,smoke0,103.44s. Exact replay of all33 operations/masks/mass reports/
+nine-family scores passes.131 science/input Python files match tested source.
+Run manifests, source ZIPs, parent VA1 bytes and checkpoint hash verify. No loss,
+model or historical scene edits. Private reports remain ignored.
+
+Gallery http://127.0.0.1:8001/static/massing/index.html. Source vs derived mass,
+three completion rules,11 controls, additions toggle, cutaway and two true slices.
+All33 selector counts checked; desktop/mobile layout checked. Studio and historical
+galleries link the new brief; original VA1/SP1 study data are unchanged. Server
+PID20784/session91597 remains the existing owned server; no restart was needed.
+No study/test/training job active. Inspect process state before restarting it.
+
+Next bounded work: a versioned nine-family massing objective contract and acceptance
+examples across several scenes. Prioritize direct mass occupancy; keep completion
+as explicit comparison, with raw/final outputs. Address budget, thickness/depth,
+coverage/distribution and access/interface meanings before procedural/direct-
+optimization baselines and any NCA trial. Do not restart incremental F5 training,
+increase grid size or launch Colab by default.
+
+Reproduction: `.venv/Scripts/python.exe scripts/run_massing_audit.py --parent-run
+20260924T095133Z_b7015ab62f05` creates a fresh linked attempt; it does not overwrite
+history or update the gallery automatically. Full regression command remains
+`.venv/Scripts/python.exe scripts/verify_foundation.py --parent-run
+20260924T094603Z_66da5a9b1158`. Do not rerun merely to continue documentation.
+
+Evidence: experiments/reports/MA1-verification.json and
+.local-artifacts/massing-qa/MA1-20260924. Local commit title: "Add preserved building
+mass completion comparison and objective audit". Post-commit archive in Codex cwd
+outputs/NCA-Massing-MA1-Backup-2026-09-24-<commit7>.zip; receipt under
+.local-artifacts/milestones/<commit7>-massing-ma1-backup-receipt.json. Inspect it
+before claiming backup completion. Helpers in Codex cwd work: verify_massing_ma1.py,
+verify_massing_ma1_failed_path.py and package_massing_ma1.py. Archive writes are
+exclusive; inspect existing files before retrying. Retain VA1 and older archives
+for historical raw data/private reports. Same-disk copy is not off-device backup.
+No Drive operation, paid compute, push or publication. Unrelated files untracked.
+
+## In progress: MA1 massing comparison - 2026-09-24
+
+Implementing D058 via MASSING_AUDIT_PROTOCOL.md, nca/massing.py and the new
+static/massing gallery. Regression20260924T094603Z_66da5a9b1158:260 tests pass,
+smoke0, no skips. First MA1 run20260924T094943Z_1d6ed517bc60 failed one expected
+domain-count check: actual3492 versus expected3456, due to36 historical anchor
+allowances. All other82 checks passed. Recipe expectation corrected; preserve
+failed run and link fresh attempt. No science implementation changed after tests.
+Viewer implementation is pending browser verification and successful study data.
+Before retrying inspect records/processes; do not overwrite run evidence. No
+training, Drive operation or push. Completion entry will supersede this note.
+
 ## Current: building-mass interpretation confirmed - 2026-09-24
 
 Read D058 and MASSING_BRIEF.md first. The user confirmed generating overall
