@@ -55,7 +55,13 @@ def main():
         nonlocal sequence
         write_once(directory / 'progress' / f'{sequence:06d}.json', {'stage': stage})
         sequence += 1
-    computed = plan_scene(request['scene'], request['provenance']['config'], progress=progress)
+    if request['kind'] == 'mass_result':
+        from deploy.studio_mass import generate
+        computed = generate(request['mass_request'], progress=progress)
+    elif request['kind'] == 'result':
+        computed = plan_scene(request['scene'], request['provenance']['config'], progress=progress)
+    else:
+        raise ValueError('Unsupported worker request kind')
     record = {**request, **computed}
     progress('Saving candidate')
     write_once(directory / 'candidate.json', {'record': record, 'sha256': sha256(encode(record)).hexdigest()})

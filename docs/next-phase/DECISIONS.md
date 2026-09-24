@@ -1122,3 +1122,25 @@ and150 Python source matches verify. Frozen Studio admission gate met. Proceed
 to planned versioned experimental live mass workflow, preserving material history
 and all evidence. This does not admit paid training or prove unseen-site success.
 See CONTACT_BUDGET_FINDINGS and STUDIO_MASSING_INTEGRATION_PLAN.
+
+
+## D067 - MS1 live building-mass Studio
+
+2026-09-24. User authorized integration after MG3. Reuse durable queue/worker
+lifecycle with typed mass requests and a separate mass record store. Fixed five
+MG3 contexts and three volume requests; integer seeds, unchanged generator/MT1.
+Archive source bytes, input identity and full growth trace. Replay-check typed
+imports and preserve failed outputs. New experimental mass page; old scaffold
+workflow remains readable. Test real workers, cancellation/restart/retry, exact
+MG3 matching, transport integrity and browser save/compare. No paid training,
+new constraints, Drive access, push or public hosting.
+
+
+D067 outcome: MS1 implemented with separate typed mass storage and shared durable
+worker lifecycle.320 regression tests pass; acceptance20260924T145347Z_03b4d20a69f7 verifies
+three live browser jobs against MG3, source archives, exports and comparison.
+All152 Python files and4 new runtime assets match tested snapshot. Existing
+material workflow passes regression. Same generation and nine-family semantics.
+Keep scope explicit: five fixed sites,32-cubed grid,0.8m cells,16/24/32% requests;
+other seeds exploratory. Next broader context/scaling evaluation needs its own
+frozen protocol. Do not treat product integration as new scientific generalization.

@@ -1086,3 +1086,29 @@ Added findings, next-product plan, D066 outcome, resume and recovery instruction
 No live generator/server restart, Drive, paid compute, push or publication.
 Private report files and original model unchanged. Verified local archive is
 incremental and same-disk; preserve the complete earlier archive chain.
+
+
+## 2026-09-24 - MS1 live mass generation
+
+Added typed studio_mass_v1 API, frozen MG3 context source, separate mass stores,
+real worker dispatch and parameter/source-bound recovery/retries. Portable source
+exports and replay-checked imports preserve decisions and reject cross-type or
+forged results. Shared queue lifecycle preserves old material records. New live
+page offers site/volume/seed controls, automatic saving, result evidence, slices,
+cutaway, history, comparisons and import/export. Root workspace links to it.
+
+Ten focused tests pass (681.656s unusual host/tool wait, not performance evidence).
+Full regression20260924T144654Z_f7338d28b9ac:320pass in168.536s, smoke0,total174.564s.
+Acceptance20260924T145347Z_03b4d20a69f7:three real browser outputs exactly match MG3;
+all source/trace/export/history checks pass. Mobile/desktop, comparison, reload,
+export preparation verified; API roundtrip tested, OS import picker not automated.
+Added findings,user guide,D067 outcome,plan/resume. No scientific retuning or reroll.
+
+Operational exceptions retained: initial read used nonnumeric TotalCount; Windows
+rg glob failed; unprivileged process query denied and scoped escalation succeeded.
+Old server's idle queue verified before restart. Stop-Process null-reference error;
+first new server correctly refused existing store lock. Verified PID terminated
+using runtime; replacement started as29824/session23049. No deletion to bypass
+ownership. No paid compute, Drive, push or public hosting. Private reports unchanged.
+Archive retains all new live records/jobs, source bytes, test/browser evidence and
+Git bundle; same-disk incremental backup, not off-device protection.

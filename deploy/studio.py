@@ -165,7 +165,8 @@ async def lifespan(app):
     torch.set_num_threads(2)
     app.state.config, _, checkpoint = load_model_c(device='cpu')
     sources = list((ROOT / 'nca').glob('*.py')) + list((ROOT / 'deploy').glob('studio*.py')) + [
-                ROOT / 'deploy/model_utils.py', ROOT / 'deploy/checkpoints.py']
+                ROOT / 'deploy/model_utils.py', ROOT / 'deploy/checkpoints.py', ROOT / 'deploy/mass_contexts.json']
+    sources += list((ROOT / 'deploy/static/live').glob('*'))
     app.state.provenance = {
         'checkpoint_config_source_sha256': sha256(checkpoint.read_bytes()).hexdigest(),
         'checkpoint_weights_used': False, 'config': app.state.config,
@@ -175,7 +176,11 @@ async def lifespan(app):
     from deploy.studio_jobs import JobManager
     app.state.jobs = JobManager(STORE, app.state.provenance)
     try:
-        yield
+        app.state.mass_jobs = JobManager(STORE.parent / (STORE.name + '-mass'), app.state.provenance)
+        try:
+            yield
+        finally:
+            app.state.mass_jobs.close()
     finally:
         app.state.jobs.close()
 
@@ -196,7 +201,8 @@ async def bounded_local_requests(request, call_next):
         chunks = []
         async for chunk in request.stream():
             size += len(chunk)
-            limit = 2_000_000 if request.url.path == '/api/studio/import' else 100_000
+            limit = (20_000_000 if request.url.path == '/api/mass/import' else
+                     2_000_000 if request.url.path == '/api/studio/import' else 100_000)
             if size > limit:
                 return JSONResponse({'detail': 'Scene request too large'}, status_code=413)
             chunks.append(chunk)
@@ -341,3 +347,7 @@ def compare_records(a: str, b: str):
         return compare(record(a), record(b))
     except (ValueError, KeyError, TypeError) as error:
         raise HTTPException(422, str(error)) from error
+
+
+from deploy.studio_mass import router as mass_router
+app.include_router(mass_router)

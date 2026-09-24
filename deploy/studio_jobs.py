@@ -107,7 +107,7 @@ class JobManager:
         return {'id': job_id, 'scene': request['scene'], 'scene_hash': request['scene_hash'],
                 'created_at': request['created_at'], 'parent_job': request.get('parent_job'),
                 'state': last['state'], 'stage': stage, 'detail': last,
-                'history': events}
+                'history': events, 'kind': request['kind'], 'mass_request': request.get('mass_request')}
 
     def list(self):
         with self.lock:
@@ -128,7 +128,9 @@ class JobManager:
                 continue
             try:
                 record = read_record(self.store, job['id'])
-                if record.get('job_id') != job['id'] or record['scene_hash'] != job['scene_hash']:
+                request = json.loads((self.directory(job['id']) / 'request.json').read_bytes())
+                if (any(record.get(key) != request.get(key) for key in
+                        ('id', 'scene', 'scene_hash', 'job_id', 'provenance', 'version', 'kind', 'mass_request'))):
                     raise ValueError('Unrelated result')
             except (OSError, ValueError, KeyError, TypeError):
                 append_event(self.directory(job['id']), 'interrupted',
@@ -137,7 +139,7 @@ class JobManager:
                 append_event(self.directory(job['id']), 'completed', result_id=record['id'],
                              reason='Recovered a fully published result')
 
-    def submit(self, scene, scene_hash, parent_job=None):
+    def submit(self, scene, scene_hash, parent_job=None, *, mass_request=None):
         with self.lock:
             if sum(j['state'] not in TERMINAL for j in self.list()['jobs']) >= 4:
                 raise ValueError('The local queue is full (four pending studies)')
@@ -154,6 +156,12 @@ class JobManager:
                        'version': 'studio_s2', 'kind': 'result', 'scene': scene,
                        'scene_hash': scene_hash, 'job_id': job_id,
                        'parent_job': parent_job, 'provenance': self.provenance}
+            if mass_request is not None:
+                from deploy.studio_mass import checked_request, context_for
+                settings = checked_request(mass_request)
+                if context_for(settings['scene_case'])['scene'] != scene:
+                    raise ValueError('Mass request scene mismatch')
+                request.update(version='studio_mass_v1', kind='mass_result', mass_request=settings)
             write_once(directory / 'request.json', request)
             # Keep the exact source bytes used for a submitted study, not hashes alone.
             with zipfile.ZipFile(directory / 'source.zip', 'x', zipfile.ZIP_DEFLATED) as archive:
@@ -168,7 +176,7 @@ class JobManager:
     def retry(self, job_id):
         with self.lock:
             job = self.read(job_id)
-            return self.submit(job['scene'], job['scene_hash'], parent_job=job_id)
+            return self.submit(job['scene'], job['scene_hash'], parent_job=job_id, mass_request=job.get('mass_request'))
 
     def release_process(self):
         if self.process:
@@ -195,9 +203,11 @@ class JobManager:
             if wrapped['sha256'] != sha256(encode(record)).hexdigest():
                 raise ValueError('Worker candidate failed integrity verification')
             request = json.loads((directory / 'request.json').read_bytes())
-            for key in ('id', 'scene', 'scene_hash', 'job_id', 'provenance'):
+            for key in ('id', 'scene', 'scene_hash', 'job_id', 'provenance', 'version', 'kind'):
                 if record[key] != request[key]:
                     raise ValueError('Worker candidate does not match its submitted request')
+            if record.get('mass_request') != request.get('mass_request'):
+                raise ValueError('Worker changed the mass parameters')
             save_record(self.store, record)
             append_event(directory, 'completed', result_id=record['id'])
         except Exception as error:

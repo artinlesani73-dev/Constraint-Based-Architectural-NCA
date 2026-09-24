@@ -1,5 +1,60 @@
 # Resume the NCA next phase
 
+## Current: MS1 live mass Studio complete - 2026-09-24
+
+Read STUDIO_MASSING_FINDINGS.md, STUDIO_MASSING_USER_GUIDE.md and D067.
+URL http://127.0.0.1:8001/static/live/index.html. Real procedural mass generation,
+fixed five sites,16/24/32% requests, bounded integer seeds. Automatic saving,
+durable cancel/retry/restart, nine-family evidence, compare and typed import/export
+with replay/source verification. Old material workflow remains at /.
+
+Regression 20260924T144654Z_f7338d28b9ac:320pass, smoke0. New focused tests10pass.
+Acceptance 20260924T145347Z_03b4d20a69f7:3 browser-generated records exactly match MG3;
+2 positive partial cases and1 blocked failure.273 added/0 removed between24/32%.
+All152 Python files plus4 new UI/data files match regression snapshot; all job
+source archives and portable exports verify. No active regression/test process.
+
+Records/job evidence: .local-artifacts/studio-mass and studio-mass-jobs.
+Live IDs20260924T144914Z_800512d53ad5,20260924T144941Z_e60cce65a38e,
+20260924T145002Z_6fbc4db10ce8. All terminal. Four legacy jobs remain terminal.
+Source fixture deploy/mass_contexts.json is MG3's exact five contexts; no runtime
+dependency on archived runs. Worker snapshots include the new live UI/data.
+Source edits require restart before new submissions. Retry keeps all parameters.
+
+Local server restarted after idle check; last known PID29824/session23049,
+python -m uvicorn deploy.studio:app --host127.0.0.1 --port8001 --no-access-log.
+Recheck identity/queues before stopping; never act on saved PID alone.
+First Stop-Process failed; first replacement refused existing store lock. Runtime
+termination of verified old PID20784 then successful startup; no evidence deletion.
+Browser bindings agent/browser/tab2/viewport survive if session does; viewport
+reset and deliverable marked. QA outputs/ms1-qa. API verified import/export; OS
+file picker not automated. No Drive, paid compute, push or public deployment.
+
+Next: user reviews live alternatives. Plan and freeze an unseen-context evaluation
+separate from a larger-grid resource/scaling study, with explicit physical units,
+seeds, caps, request fidelity/diversity metrics and all nine families unchanged.
+Do not immediately train or silently loosen the existing site/grid bounds. No new
+scientific run is frozen yet; inspect findings before choosing the next experiment.
+Do not rerun unchanged regression/acceptance just to resume documentation.
+
+Codex cwd helpers: work/implement_ms1.py,build_ms1_ui.py,verify_ms1.py,
+finalize_ms1.py,package_ms1.py. Exclusive writes; do not blindly rerun. Helpers
+are authoring history, while committed source and job snapshots are exact state.
+Local commit title: "Add live building-mass generation to Studio".
+Archive outputs/NCA-MS1-Backup-2026-09-24-<commit7>.zip; completion verified by
+sibling receipt and .local-artifacts/milestones/<commit7>-ms1-backup-receipt.json.
+Preserve MG3/MG2/MD1/MO1/MG1 and older archives. Same disk, not off-device backup.
+Private report hashes unchanged/ignored. Two unrelated user files remain untracked.
+
+
+## Historical MS1 start note - 2026-09-24 (completed above)
+
+User authorized STUDIO_MASSING_INTEGRATION_PLAN. D067 records scope. Backend and
+new mass page under construction. Do not restart old server until source/tests
+are coherent and active jobs checked. Full regression/browser QA/archive pending.
+Codex helper work/implement_ms1.py creates files exclusively; inspect before rerun.
+
+
 ## Current: MG3 complete; live mass integration next - 2026-09-24
 
 Read CONTACT_BUDGET_FINDINGS.md, STUDIO_MASSING_INTEGRATION_PLAN.md and D066.

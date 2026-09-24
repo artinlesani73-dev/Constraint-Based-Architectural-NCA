@@ -1,5 +1,15 @@
 # Next-phase implementation plan
 
+## Active milestone - MS1 complete; live review and broader evaluation next
+
+2026-09-24. Live mass workflow at /static/live/index.html. D067 and
+STUDIO_MASSING_FINDINGS record scope and limitations.320 tests pass; three real
+browser jobs exactly match MG3. Durable records, comparisons, replay-checked
+portable source/geometry and old-workflow compatibility verified. User guide ready.
+Next freeze an unseen-context study separately from larger-grid resource/scaling
+checks; preserve nine families, physical units and all failures. Numerical study
+spec not yet frozen. No automatic paid NCA training or custom-site UI expansion.
+
 ## Active milestone - MG3 complete; interactive mass Studio next, 2026-09-24
 
 36/36 nonblocked and36/45 overall pass with no MG1/MG2 regressions. Two failures

@@ -1,0 +1,53 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T145347Z_03b4d20a69f7",
+  "config": {
+    "browser_jobs": [
+      "20260924T144914Z_800512d53ad5",
+      "20260924T144941Z_e60cce65a38e",
+      "20260924T145002Z_6fbc4db10ce8"
+    ],
+    "device": "cpu",
+    "regression": "20260924T144654Z_f7338d28b9ac",
+    "training": false,
+    "version": "MS1_acceptance_v1"
+  },
+  "drive_backup": "pending",
+  "metrics": {
+    "browser_generated": 3,
+    "exact_MG3_matches": 3,
+    "failed_live_outputs_retained": 1,
+    "legacy_jobs": 4,
+    "live_exports_verified": 3,
+    "new_focused_tests": 10,
+    "passed_live_outputs": 2,
+    "python_source_matches": 152,
+    "records": [
+      {
+        "case": "partial_obstruction__v24__s2",
+        "field_sha256": "965ae88f916322bd04028624aab26cd340e347285e8ddf226e22efe221956d31",
+        "id": "20260924T144914Z_800512d53ad5",
+        "pass": true,
+        "status": "target_reached"
+      },
+      {
+        "case": "partial_obstruction__v32__s2",
+        "field_sha256": "2a4e9cee829c259426edf64e296d44d2a5f0020220390f0b962f7be744e04b94",
+        "id": "20260924T144941Z_e60cce65a38e",
+        "pass": true,
+        "status": "target_reached"
+      },
+      {
+        "case": "blocked_gap__v32__s2",
+        "field_sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+        "id": "20260924T145002Z_6fbc4db10ce8",
+        "pass": false,
+        "status": "no_cube_route"
+      }
+    ],
+    "regression": "20260924T144654Z_f7338d28b9ac",
+    "regression_tests": 320,
+    "runtime_source_matches": 156
+  },
+  "run_id": "20260924T145347Z_03b4d20a69f7",
+  "status": "completed"
+}
