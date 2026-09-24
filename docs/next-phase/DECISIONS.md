@@ -1005,3 +1005,30 @@ criteria. Current MT1 examples are controls, not trained generation or generaliz
 Document review-only changes and verify original hashes, ignored files, PDF and
 local archive. No science code, checkpoint, objective, threshold or gallery changed;
 no regression rerun needed. No paid compute, Drive operation, push or publication.
+
+
+## D062 - Freeze MG1 procedural mass generation comparison
+
+2026-09-24. User authorized proceeding after R2. Follow MASS_GENERATION_PROTOCOL
+and MG1-procedural.json: five development contexts, seeds0/1/2, requests16/24/32%,
+45 generator outputs plus four separately labeled analytical challenges. Connect
+legal 2.4m cubes, then grow around the route with seeded variation. Preserve every
+route/final field and selection trace, including empty/failed/partial outcomes.
+No evaluator-score feedback, threshold tuning or hidden clipping. Request mismatch
+is recorded separately from nine-family validity. Candidate cap15s, cooperative
+study cap600s with boundary checks. CPU only. No new loss or NCA training.
+
+Use independent unchanged MT1 evaluation and valid-only pairwise diversity at each
+scene/request, with cross-request groups clearly separate. Completion requires full
+retained matrix and verification; no passing rate is presupposed. Failed regression
+20260924T112005Z_e9860ed79bdf retained; test metadata-copy correction has no generator
+change. New gallery is evidence presentation; arbitrary-site Studio integration
+remains separate. No paid Colab, Drive operation, push or public hosting.
+
+
+MG1 outcome for D062: run20260924T113023Z_24298393f2a5 completed45 requests plus4 analytical
+challenges, 27/45 generated fields meet MT1. See MASS_GENERATION_FINDINGS for
+context-specific failures and valid-only diversity. Thresholds and algorithm were
+not tuned after results. Final287regressions pass;45 exact generated replays and49
+rescored fields verify. Two preserved regression errors were test-fixture metadata
+handling. R2-B preparation is next; no new optimizer/model/paid training selected.

@@ -1,5 +1,13 @@
 # Next-phase implementation plan
 
+## Active milestone - MG1 / R2-A complete, 2026-09-24
+
+Read MASS_GENERATION_FINDINGS.md and D062. Five development contexts,45 generated
+requests and4 challenges retained; 27/45 meet MT1 pilot checks.287regressions pass.
+Next R2-B: separately versioned continuous-objective endpoint/gradient tests and
+bounded direct-optimization protocol. Preserve failures and all old definitions.
+Gallery is static evidence; mass-generation Studio job integration remains separate.
+
 ## Governing update - R2 / D061, 2026-09-24
 
 Read RESEARCH_BRIEF_R2.md. The user approved a revised review based on findings.

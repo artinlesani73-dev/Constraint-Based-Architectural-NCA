@@ -977,3 +977,29 @@ The addendum synthesizes local evidence, without new research/benchmark claims.
 Documentation/PDF integrity and visual checks accompany the milestone archive;
 latest scientific regression remains 275 passes. No model, code, losses, viewer,
 old records or private original report edits. No Drive access, paid training or push.
+
+
+## 2026-09-24 - MG1 procedural mass alternatives
+
+Added cube_route_growth_v1, fixed45-request matrix/four challenges, immutable run
+runner and12meaningful tests. Retained two regression failures due to new test
+metadata copying/comparison; corrected type-aware test, final287pass. No science
+change after benchmark; full fields, routes, selection traces and scores retained.
+Study20260924T113023Z_24298393f2a5: 27/45 generated fields pass unchanged MT1. Independent
+verification replayed45 generated outputs and rescored all49 fields. Added protocol,
+findings,D062,resume/plan and static gallery linked from Studio. No trained output.
+
+Gallery builder initially assumed inline CSS; failed before writing gallery files,
+then used existing shared styles. An exploratory search used nonexistent static
+Studio paths; corrected to deploy/studio.html. CIM process inspection was denied;
+Get-Process and existing browser tab sufficed without restarting server. Initial
+gallery inspection before data publication correctly showed unavailable-study state.
+Final browser QA and archive receipts record completed checks. No paid compute,
+Drive operation, remote push, historical-model/loss/report deletion or replacement.
+
+
+MG1 gallery final QA:49 selectors/nine family rows, three views, keyboard slice,
+cutaway/growth/context and390px mobile checked. Final warn/error logs empty.
+Two full-page screenshot attempts failed; taller viewport screenshots succeeded.
+Record the limitation rather than claiming full-page captures. Facade-aware
+procedural comparison remains a candidate for fair R2-B controls; no retuning.

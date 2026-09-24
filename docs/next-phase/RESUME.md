@@ -1,5 +1,53 @@
 # Resume the NCA next phase
 
+## Current: MG1 procedural comparison complete - 2026-09-24
+
+Read MASS_GENERATION_FINDINGS.md/PROTOCOL.md, RESEARCH_BRIEF_R2.md and D062.
+Run20260924T113023Z_24298393f2a5:45 generated requests,4 separate challenges, all retained;
+27/45 generator outputs meet unchanged MT1 pilot checks. See per-context/request
+breakdown before interpreting the denominator. No NCA training or all-site claim.
+Final regression20260924T112636Z_ea40cf77f2f4:287pass, smoke0. Two parent regression errors
+were test-fixture metadata handling, preserved with source; generator unchanged.
+Verification replays45 routes/final fields and rescored49 fields exactly.
+
+Gallery http://127.0.0.1:8001/static/generation/index.html uses saved study data,
+not arbitrary-scene generation. Existing server was not restarted. Inspect live
+processes before new compute. No active benchmark/regression is left by completion.
+Next: R2-B continuous-objective specification and endpoint/gradient tests before
+bounded direct-optimization comparison; preserve failed procedural outcomes and
+provisional MT1 limitations. Do not change acceptance thresholds to raise pass rate.
+
+New linked attempts only: `.venv/Scripts/python.exe scripts/run_mass_generation.py
+--parent-run 20260924T113023Z_24298393f2a5`; this never publishes viewer data automatically.
+Latest full regression: `.venv/Scripts/python.exe scripts/verify_foundation.py
+--parent-run 20260924T112636Z_ea40cf77f2f4`. Do not rerun just to resume.
+Evidence: experiments/reports/MG1-verification.json, immutable run directory and
+Codex cwd outputs/mg1-qa. Helpers in Codex cwd work: verify_mg1.py, finalize_mg1.py,
+build_mg1_gallery.py, package_mg1.py. Some writes are exclusive; inspect before retry.
+Local commit title: "Add procedural building-mass alternatives and audited MG1 comparison".
+Archive outputs/NCA-MG1-Backup-2026-09-24-<commit7>.zip; sibling receipt JSON.
+Retain all earlier archives; this is incremental and same-disk, not off-device.
+Reports remain ignored; unrelated two user files untracked. No Drive, paid compute,
+remote push or publication.
+
+## In progress: MG1 procedural mass alternatives - 2026-09-24
+
+User authorized R2-A. Read MASS_GENERATION_PROTOCOL.md and MG1-procedural.json.
+Implemented cube_route_growth_v1, five development contexts, 45 requests and four
+separate evaluator probes. No model, old losses or MT1 thresholds changed.
+First regression 20260924T112005Z_e9860ed79bdf: 287 tests, one test-fixture error
+(copy called on text metadata), zero failures and smoke pass. Fixed test via
+deepcopy; preserve failed attempt. Linked regression 20260924T112334Z_588b73843c6d
+running in session60580; inspect result before benchmark. Planned command:
+`.venv/Scripts/python.exe scripts/run_mass_generation.py`.
+Study writes immutable evidence and leaves viewer publishing separate. New static
+generation gallery source exists but data/browser QA remain pending. Helper
+build_mg1_gallery initially assumed inline CSS and failed before writing files;
+corrected shared stylesheet references. Process command-line inspection via CIM
+was denied; Get-Process succeeded, existing browser tabs remain available.
+No server restart, paid compute, Drive action or push. Completion entry will
+supersede this note; inspect current processes/runs before retries.
+
 ## Current: review revision R2 adopted - 2026-09-24
 
 Read RESEARCH_BRIEF_R2.md and D061 first, then MT1 protocol/findings below.

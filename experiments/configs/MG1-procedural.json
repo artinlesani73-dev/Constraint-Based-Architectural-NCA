@@ -1,0 +1,16 @@
+{
+  "version": "MG1_v1",
+  "generator": "cube_route_growth_v1",
+  "parent_run": "20260924T102755Z_e89550a24d8d",
+  "contexts": ["aligned", "wide_gap", "offset_interfaces", "blocked_gap", "partial_obstruction"],
+  "seeds": [0, 1, 2],
+  "volume_requests": [0.16, 0.24, 0.32],
+  "cube_m": 2.4,
+  "candidate_seconds_cap": 15.0,
+  "study_seconds_cap": 600.0,
+  "padding_m_zyx": [6.4, 6.4, 0.0],
+  "evaluator": "massing_targets_v1",
+  "spec": {"min_volume_fraction": 0.08, "max_volume_fraction": 0.4, "min_cube_m": 2.4, "min_bulk_fraction": 0.9, "min_third_fraction": 0.08, "max_facade_fraction": 0.15},
+  "challenges": ["thin_appendage", "bulky_lattice", "diagonal_band", "quarter_turn_field"],
+  "training": false
+}
