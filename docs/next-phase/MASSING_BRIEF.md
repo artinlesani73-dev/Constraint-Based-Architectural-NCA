@@ -6,6 +6,11 @@ Implementation update: MA1 implements the versioned diagnostic region and paired
 completion comparison below. See MASSING_AUDIT_FINDINGS.md and D059. The nine-family
 massing objective and acceptance thresholds remain next work; no training started.
 
+Later update: MT1 now implements and audits provisional binary acceptance checks
+within the nine families across four contexts (D060, MASSING_TARGETS_FINDINGS.md).
+Numerical settings remain experimental. A continuous training objective and the
+procedural/direct-optimization comparison are still next work; no NCA training.
+
 ## Confirmed meaning
 
 The user suggested filling the blue cells after generation or during it. Asked

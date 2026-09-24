@@ -1,0 +1,82 @@
+{
+  "passed_base_controls": [
+    "aligned/compact_mass",
+    "aligned/articulated_mass",
+    "wide_gap/compact_mass",
+    "wide_gap/articulated_mass",
+    "offset_interfaces/compact_mass",
+    "offset_interfaces/articulated_mass"
+  ],
+  "record_uniqueness_counts_bulk_geometry_and_base_parity_verified": true,
+  "regression_run": "20260924T101120Z_6d8b5d1cc577",
+  "run_id": "20260924T101444Z_3d8c5504cb9e",
+  "scope": "No repeated full audit; integrity, invariants, exact bulk-mask recomputation, and saved base/sensitivity parity. All facade parity/expected-label checks were evaluated in the original run.",
+  "sensitivity": {
+    "cube1.6_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube1.6_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube1.6_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube2.4_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube2.4_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube2.4_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube3.2_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube3.2_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube3.2_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    }
+  },
+  "source_checks": {
+    "20260924T101120Z_6d8b5d1cc577": {
+      "current_python_files_match": 135,
+      "verified_members": 601
+    },
+    "20260924T101444Z_3d8c5504cb9e": {
+      "current_python_files_match": 135,
+      "verified_members": 604
+    }
+  },
+  "verified_base_records": 48,
+  "verified_sensitivity_records": 432,
+  "browser_export": {
+    "full_source_bytes": 18147261,
+    "viewer_bytes": 1029993,
+    "source_sha256": "cd2550a10ed40890af9b9d2c88334b1ab1e58eded6022ba036dd2b2d011f2a05",
+    "viewer_sha256": "f276b62017807c85a709c99d6dd0a9ff9c9afe5beee3418547ff563d1017e070",
+    "all_displayed_records_exact": true,
+    "omitted_only_from_viewer": [
+      "context domain_zyx",
+      "context masks"
+    ],
+    "full_evidence_retained": ".local-artifacts\\runs\\20260924T101444Z_3d8c5504cb9e\\study.json"
+  }
+}

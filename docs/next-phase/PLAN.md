@@ -1,5 +1,13 @@
 # Next-phase implementation plan
 
+## Active milestone - MT1 complete, 2026-09-24
+
+D060 and MASSING_TARGETS_FINDINGS.md record the pilot binary nine-family contract:
+four contexts,48 controls,432 sensitivity evaluations and275 regression tests.
+Next: parameterized mass generation and direct-optimization controls with a
+versioned continuous objective, binary-parity/gradient checks and bounded compute.
+No new NCA training or architectural-quality claim. Historical entries follow.
+
 ## Active direction - D058, 2026-09-24
 
 MA1 completion comparison is now implemented; see MASSING_AUDIT_FINDINGS.md and

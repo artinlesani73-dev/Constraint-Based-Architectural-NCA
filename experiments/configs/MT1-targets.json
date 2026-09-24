@@ -1,0 +1,11 @@
+{
+  "version": "massing_targets_audit_v1",
+  "training": false,
+  "seed": 0,
+  "padding_m_zyx": [6.4,6.4,0.0],
+  "spec": {"min_volume_fraction":0.08,"max_volume_fraction":0.40,"min_cube_m":2.4,"min_bulk_fraction":0.90,"min_third_fraction":0.08,"max_facade_fraction":0.15},
+  "sensitivity": {"min_cube_m":[1.6,2.4,3.2],"max_volume_fraction":[0.25,0.40,0.55]},
+  "positive_controls":["compact_mass","articulated_mass"],
+  "infeasible_contexts":["blocked_gap"],
+  "parent_run":"20260924T095133Z_b7015ab62f05"
+}

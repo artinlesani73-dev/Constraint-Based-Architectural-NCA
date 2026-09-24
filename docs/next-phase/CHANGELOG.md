@@ -929,3 +929,35 @@ retaining failed helper. Immediate post-resize/navigation snapshots can show old
 state; destination and final layout were verified after settling. One exploratory
 file search used nonexistent paths; corrected by listing repository paths.
 No paid training, Drive access, push, publication or historical evidence deletion.
+
+## 2026-09-24 - MT1 pilot massing target contract
+
+Added massing_targets_v1 binary evaluator and separate scene/control constructors.
+Reinterpreted access/coverage/thickness/budget/spill explicitly for building mass
+inside the same nine families. Historical losses/checkpoint remain unchanged.
+Four new development contexts and12 controls each; all48 expected outcomes and
+48 facade parity checks pass. Recorded432 sensitivity reports with original fields,
+full context masks, complete parameter sets and source snapshots. No failed run or
+post-result tuning. Fourteen new tests; full274 regressions and smoke pass.
+
+Added paired compact-reference/candidate gallery with nine-family verdicts, old
+scores, four contexts,12 controls and geometry display options. Verified all48
+selectors, desktop/mobile layout and displays. Changed checkbox label to "Highlight
+other cells" to include illegal/outside-domain cells as well as thin volume.
+Initial browser snapshot showed the loading state; loaded state verified later.
+Compact browser export reduces18,147,261 bytes to1,029,993 bytes while retaining
+every displayed record exactly; full evidence remains in the immutable run.
+
+Added protocol/findings/D060, source/integrity/bulk-mask verification and resume
+instructions. No repeated full audit was used for verification; recorded checks
+and geometric invariants were verified independently. No new trained generator,
+old objective replacement, paid compute, Drive action, push or publication.
+
+
+MT1 final review update: context feasibility now examines every component touching
+the source interface, rather than rejecting on the first disconnected choice.
+Added a focused edge-case regression;275 tests pass in20260924T102553Z_4ae3c1b346f2 (104.92s).
+Linked audit20260924T102755Z_e89550a24d8d passes96 checks in93.23s. All48 base records and432
+sensitivity reports are identical to initial audit20260924T101444Z_3d8c5504cb9e. Both revisions,
+source snapshots and verification reports remain preserved. No numerical tuning.
+Final report: MT1-final-verification.json. No training, Drive operation or push.

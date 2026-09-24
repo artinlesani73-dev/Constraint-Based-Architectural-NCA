@@ -1,0 +1,112 @@
+{
+  "passed_base_controls": [
+    "aligned/compact_mass",
+    "aligned/articulated_mass",
+    "wide_gap/compact_mass",
+    "wide_gap/articulated_mass",
+    "offset_interfaces/compact_mass",
+    "offset_interfaces/articulated_mass"
+  ],
+  "record_uniqueness_counts_bulk_geometry_and_base_parity_verified": true,
+  "regression_run": "20260924T102553Z_4ae3c1b346f2",
+  "run_id": "20260924T102755Z_e89550a24d8d",
+  "scope": "No repeated full audit; integrity, invariants, exact bulk-mask recomputation, and saved base/sensitivity parity. All facade parity/expected-label checks were evaluated in the original run.",
+  "sensitivity": {
+    "cube1.6_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube1.6_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube1.6_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube2.4_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube2.4_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube2.4_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube3.2_cap0.25": {
+      "changed_from_base": [
+        "offset_interfaces/compact_mass"
+      ],
+      "passes": 5
+    },
+    "cube3.2_cap0.4": {
+      "changed_from_base": [],
+      "passes": 6
+    },
+    "cube3.2_cap0.55": {
+      "changed_from_base": [],
+      "passes": 6
+    }
+  },
+  "source_checks": {
+    "20260924T102553Z_4ae3c1b346f2": {
+      "current_python_files_match": 135,
+      "verified_members": 608
+    },
+    "20260924T102755Z_e89550a24d8d": {
+      "current_python_files_match": 135,
+      "verified_members": 609
+    }
+  },
+  "verified_base_records": 48,
+  "verified_sensitivity_records": 432,
+  "prior_audit_run": "20260924T101444Z_3d8c5504cb9e",
+  "prior_regression_run": "20260924T101120Z_6d8b5d1cc577",
+  "review_fix": "Context feasibility checks all source-interface components; dedicated regression covers a later feasible component and rejects merging disjoint paths.",
+  "all_48_records_and_432_sensitivity_reports_unchanged_after_fix": true,
+  "browser_export": {
+    "full_source_bytes": 18147261,
+    "viewer_bytes": 1029993,
+    "source_sha256": "61f9aee736cdf1aac614e3f2d19ffb6fa4cff2262aa955c717b50296c8262186",
+    "viewer_sha256": "35a2632fac00278eabb1ebfbd2665ef21ca08e760e8f45d1e10aed6930e8cae9",
+    "all_displayed_records_exact": true,
+    "omitted_only_from_viewer": [
+      "context domain_zyx",
+      "context masks"
+    ],
+    "full_evidence_retained": ".local-artifacts\\runs\\20260924T102755Z_e89550a24d8d\\study.json"
+  },
+  "browser": {
+    "selector_combinations": 48,
+    "nine_rows_each": true,
+    "geometry_modes_and_toggles_checked": true,
+    "viewport_width": 390,
+    "document_width": 390,
+    "table_widths": [
+      358.8125,
+      358.8125,
+      358.8125
+    ],
+    "warn_error_entries": 0,
+    "final_compact_export_loaded": true,
+    "navigation": "Studio link to targets verified; MA1 link provided",
+    "limitation": "Static evidence viewer; no new generation."
+  },
+  "qa_files": {
+    "blocked-context.png": "1c339b1be8dd3283666b520627d6a601fe661d0f8d5b85b3f7202fdbdc6b55fa",
+    "desktop.png": "8b91a8c7b760e5762d5c50c32e279b4cd71073fbec40e2e96b9706c7ca223f66",
+    "final-desktop.png": "992ae4fea33ec2d7bab271499f9ffb1db2d6a4096eb65df14da14d494ddf067f",
+    "final-gallery-source.zip": "87177a0a1b4a1f518bc07fba3c7f9a0a45748b0ea1a159ed8efe10de28363993",
+    "mobile.png": "438d23da1ffbedf97323f3891e4f228a08d7cb424c1f18baf7572d8cb706f86e",
+    "selectors.json": "23183070fec867d07de95c474ae15b23f8e89df7053eb2bd29681d1dc82982e3",
+    "thin-neck-section.png": "56b6430214cd378c709f9bcdc528c84d0821d2829e7cb5f92477f86155fa2a85",
+    "viewer-export-final.json": "0ed18ed07ebe933ad62add10e4d30af096fb603af727e6bbbd1a988b797b82a5"
+  }
+}

@@ -1,5 +1,70 @@
 # Resume the NCA next phase
 
+## Current: MT1 pilot massing contract audited - 2026-09-24
+
+Read MASSING_TARGETS_PROTOCOL.md, MASSING_TARGETS_FINDINGS.md and D060.
+D058 building-volume semantics remain current. MT1 adds a separate binary
+nine-family evaluator, not a differentiable loss or a trained generator.
+
+Audit20260924T102755Z_e89550a24d8d:4 contexts,48 controls,432 sensitivity reports,
+96checks pass,93.23s CPU. Six intended positive controls pass;42 intended negative/
+blocked-context outcomes reject. No failed attempt or post-outcome retuning. Final review fixed source-component
+selection in context feasibility; initial audit20260924T101444Z_3d8c5504cb9e and
+regression20260924T101120Z_6d8b5d1cc577 are preserved. All original48 base
+records and432 sensitivity reports are identical after the correction.
+Regression20260924T102553Z_4ae3c1b346f2:275pass,0fail/error/skip,smoke0,104.92s.
+Fifteen new tests. All135 relevant Python files match tested/audited snapshots.
+Run manifests/source hashes, bulk masks/counts and base/sensitivity parity verify.
+Old SP1/VA1/MA1 study data, losses and model/checkpoint remain unchanged.
+
+Pilot parameters:8-40% all-occupancy/fixed-domain volume;2.4m local cube scale;
+90% bulk-qualified fraction;8% substantial volume per fixed X third. Access
+requires both raw and substantial interface-connected mass, with no detached
+occupied parts hidden. See protocol for every family and known limitations.
+The25% budget sensitivity excludes offset compact mass (26.6075%); articulated
+alternative23.5403% remains acceptable. Cube scale1.6-3.2m did not change verdicts
+on these examples. These thresholds are experimental, not architectural standards.
+
+Gallery http://127.0.0.1:8001/static/targets/index.html. All48 selector combinations,
+display modes, desktop and390px mobile checked. Static viewer data is a verified
+compact projection:1,029,993 bytes versus18,147,261-byte full run study; every
+displayed record is retained exactly. Full context masks remain in immutable run.
+Existing server PID20784/session91597 continues; no restart. No audit/test/training
+process active. Inspect process state before restarting or launching another run.
+
+Next bounded work: parameterized procedural mass generation with saved alternatives,
+and a separately versioned continuous objective/direct-optimization baseline.
+Check binary agreement and gradients before fitting. Use MT1 for independent final
+geometry evaluation. Challenge appendages, lattice-like masses and rotated forms;
+freeze comparable seeds/scenes/volume ranges and compute caps. Do not start another
+unbounded loss-tweaking sequence, NCA training or larger-grid/paid Colab run by default.
+
+Reproduction (only when a new linked attempt is needed):
+`.venv/Scripts/python.exe scripts/run_massing_targets.py --parent-run 20260924T102755Z_e89550a24d8d`.
+Regression command: `.venv/Scripts/python.exe scripts/verify_foundation.py --parent-run 20260924T102553Z_4ae3c1b346f2`.
+Neither command overwrites old evidence or automatically switches viewer data.
+
+Evidence: experiments/reports/MT1-final-verification.json and
+.local-artifacts/targets-qa/MT1-20260924. Local commit title: "Add audited pilot
+massing targets and multi-context comparison". Post-commit archive in Codex cwd
+outputs/NCA-Targets-MT1-Backup-2026-09-24-<commit7>.zip; receipt
+.local-artifacts/milestones/<commit7>-targets-mt1-backup-receipt.json. Verify receipt
+before claiming archive completion. Helpers in Codex cwd work: build_targets_ui.py,
+verify_targets_mt1.py, export_targets_mt1.py, finalize_targets_mt1.py and
+package_targets_mt1.py. Preserve MA1 and its full parent archive chain; same-disk
+archive is not off-device backup. No Drive operation, push, paid compute or public
+deployment. Private reports remain ignored; unrelated user files untracked.
+
+## In progress: MT1 pilot massing targets - 2026-09-24
+
+Read MASSING_TARGETS_PROTOCOL.md. New binary nine-family massing_targets_v1
+contract and four-context/12-control audit are implemented, without changing old
+losses or starting training. Regression20260924T101120Z_6d8b5d1cc577 running in
+owned session74108. Inspect its result/log before further work. Planned audit
+scripts/run_massing_targets.py saves48 controls and432 sensitivity reports.
+Preserve unexpected outcomes; no automatic threshold retuning. Final completion
+entry will supersede this note. No paid compute, Drive access or publication.
+
 ## Current: MA1 massing comparison complete - 2026-09-24
 
 D058 remains the brief: building volume now, interiors and construction later.

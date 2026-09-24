@@ -951,3 +951,35 @@ Define mass-scale/depth, distribution, interface and volume-budget meanings insi
 the existing nine families before new learning. Same-scene observations do not
 freeze numerical thresholds. Follow MASSING_AUDIT_FINDINGS.md. No automatic paid
 training, Drive access, remote push or publication.
+
+## D060 - Adopt a separately versioned pilot binary massing contract for controls
+
+2026-09-24. User authorized proceeding from MA1 to generation targets and checks.
+Implement massing_targets_v1 only in a new evaluator, preserving all historical
+losses/model files. Occupancy still means building volume with interiors deferred.
+Protocol records each of the nine families: physical cube-supported bulk and
+substantial connectivity, fixed-region distribution, explicit volume budget,
+historical facade contact and support, strict legality/ground and domain spill.
+No tenth family, hidden weighted score or universal design-quality claim.
+
+Pilot values8-40% volume,2.4m cube scale,90% bulk fraction and8% volume per X third
+were frozen before MT1. Run20260924T101444Z_3d8c5504cb9e:all48 intended outcomes and
+48 facade-parity comparisons match.274 regressions pass.432 sensitivity records
+show only offset compact mass failing when cap tightens to25%; no cube-only verdict
+change in the tested range. No tuning or failed attempt. Preserve numerical and
+orientation limitations; these are development controls, not generalization data.
+
+MT1 is suitable as an independent pilot evaluator for the next procedural and
+direct-optimization controls. Derive and test a continuous objective separately;
+binary target checks alone are not differentiable training. Retain raw/final fields
+and bounded hypotheses before any NCA proposal. No automatic NCA training, larger
+grid, paid compute, Drive access, push or publication.
+
+
+MT1 final review update: context feasibility now examines every component touching
+the source interface, rather than rejecting on the first disconnected choice.
+Added a focused edge-case regression;275 tests pass in20260924T102553Z_4ae3c1b346f2 (104.92s).
+Linked audit20260924T102755Z_e89550a24d8d passes96 checks in93.23s. All48 base records and432
+sensitivity reports are identical to initial audit20260924T101444Z_3d8c5504cb9e. Both revisions,
+source snapshots and verification reports remain preserved. No numerical tuning.
+Final report: MT1-final-verification.json. No training, Drive operation or push.
