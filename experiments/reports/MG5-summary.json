@@ -1,0 +1,438 @@
+{
+  "run": "20260924T170831Z_264ba0e38124",
+  "metrics": {
+    "admission_gate": true,
+    "changed_fields": 4,
+    "executed": 225,
+    "nonpartition": 180,
+    "nonpartition_pass": 180,
+    "partition": 45,
+    "partition_pass": 0,
+    "planned": 225,
+    "regressions": [],
+    "repairs": [
+      "mg4__combined_reverse__v16__s5"
+    ],
+    "route_matches": 225,
+    "study_seconds": 328.9810239999788,
+    "timeouts": 0
+  },
+  "nonpartition_generation_seconds": {
+    "min": 0.2691536999773234,
+    "median": 0.719732550001936,
+    "p95": 2.9143537650234017,
+    "max": 4.244001299957745
+  },
+  "all_generation_seconds": {
+    "min": 0.12193620001198724,
+    "median": 0.5829225000343286,
+    "p95": 2.7573765199864284,
+    "max": 4.244001299957745
+  },
+  "sampled_peak_rss_mib": {
+    "min": 250.89453125,
+    "median": 297.87109375,
+    "p95": 321.23359375,
+    "max": 345.5703125
+  },
+  "request_error_voxels": {
+    "min": 0.0,
+    "median": 1.0,
+    "p95": 6.0,
+    "max": 8.0
+  },
+  "valid_diversity_groups": 60,
+  "empty_diversity_groups": 15,
+  "valid_diversity_mean_distances": {
+    "min": 0.07714907925398506,
+    "median": 0.2717284149681538,
+    "p95": 0.48719720065570515,
+    "max": 0.6209891875823895
+  },
+  "changed_diversity_groups": [
+    {
+      "context_key": "mg4__vertical_span",
+      "current": {
+        "mean_jaccard_distance": 0.40962114056371396,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "previous": {
+        "mean_jaccard_distance": 0.40870786458907077,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "request_fraction": 0.16
+    },
+    {
+      "context_key": "mg4__combined_reverse",
+      "current": {
+        "mean_jaccard_distance": 0.33314079967763865,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "previous": {
+        "mean_jaccard_distance": 0.34906695938529086,
+        "pairs": 1,
+        "unique_fields": 2,
+        "valid_count": 2
+      },
+      "request_fraction": 0.16
+    },
+    {
+      "context_key": "mg4__combined_reverse",
+      "current": {
+        "mean_jaccard_distance": 0.29336802344581037,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "previous": {
+        "mean_jaccard_distance": 0.2981882771547473,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "request_fraction": 0.24
+    },
+    {
+      "context_key": "mg4__combined_reverse",
+      "current": {
+        "mean_jaccard_distance": 0.26052568261567427,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "previous": {
+        "mean_jaccard_distance": 0.2698871699376684,
+        "pairs": 3,
+        "unique_fields": 3,
+        "valid_count": 3
+      },
+      "request_fraction": 0.32
+    }
+  ],
+  "changed_cases": [
+    {
+      "case": "mg4__vertical_span__v16__s5",
+      "previous_pass": true,
+      "pass": true,
+      "added_vs_previous": 1,
+      "removed_vs_previous": 2,
+      "jaccard_distance": 0.002941176470588225,
+      "requested": 1018,
+      "previous_cells": 1019,
+      "cells": 1018,
+      "previous_thirds": [
+        {
+          "bulk_cells": 167,
+          "domain_cells": 1992,
+          "fraction": 0.08383534136546185
+        },
+        {
+          "bulk_cells": 422,
+          "domain_cells": 2376,
+          "fraction": 0.1776094276094276
+        },
+        {
+          "bulk_cells": 430,
+          "domain_cells": 1992,
+          "fraction": 0.21586345381526104
+        }
+      ],
+      "thirds": [
+        {
+          "bulk_cells": 168,
+          "domain_cells": 1992,
+          "fraction": 0.08433734939759036
+        },
+        {
+          "bulk_cells": 420,
+          "domain_cells": 2376,
+          "fraction": 0.17676767676767677
+        },
+        {
+          "bulk_cells": 430,
+          "domain_cells": 1992,
+          "fraction": 0.21586345381526104
+        }
+      ],
+      "previous_facade_fraction": 0.05986261040235525,
+      "facade_fraction": 0.05992141453831041
+    },
+    {
+      "case": "mg4__combined_reverse__v16__s5",
+      "previous_pass": false,
+      "pass": true,
+      "added_vs_previous": 27,
+      "removed_vs_previous": 31,
+      "jaccard_distance": 0.03780964797913955,
+      "requested": 1503,
+      "previous_cells": 1507,
+      "cells": 1503,
+      "previous_thirds": [
+        {
+          "bulk_cells": 266,
+          "domain_cells": 3544,
+          "fraction": 0.07505643340857787
+        },
+        {
+          "bulk_cells": 303,
+          "domain_cells": 2303,
+          "fraction": 0.13156752062527138
+        },
+        {
+          "bulk_cells": 938,
+          "domain_cells": 3544,
+          "fraction": 0.2646726862302483
+        }
+      ],
+      "thirds": [
+        {
+          "bulk_cells": 293,
+          "domain_cells": 3544,
+          "fraction": 0.08267494356659143
+        },
+        {
+          "bulk_cells": 289,
+          "domain_cells": 2303,
+          "fraction": 0.12548849326964828
+        },
+        {
+          "bulk_cells": 921,
+          "domain_cells": 3544,
+          "fraction": 0.25987584650112866
+        }
+      ],
+      "previous_facade_fraction": 0.1493032514930325,
+      "facade_fraction": 0.1490352628077179
+    },
+    {
+      "case": "mg4__combined_reverse__v24__s5",
+      "previous_pass": true,
+      "pass": true,
+      "added_vs_previous": 35,
+      "removed_vs_previous": 35,
+      "jaccard_distance": 0.030581039755351647,
+      "requested": 2254,
+      "previous_cells": 2254,
+      "cells": 2254,
+      "previous_thirds": [
+        {
+          "bulk_cells": 430,
+          "domain_cells": 3544,
+          "fraction": 0.12133182844243792
+        },
+        {
+          "bulk_cells": 529,
+          "domain_cells": 2303,
+          "fraction": 0.2297003907946157
+        },
+        {
+          "bulk_cells": 1295,
+          "domain_cells": 3544,
+          "fraction": 0.3654063205417607
+        }
+      ],
+      "thirds": [
+        {
+          "bulk_cells": 458,
+          "domain_cells": 3544,
+          "fraction": 0.12923250564334085
+        },
+        {
+          "bulk_cells": 506,
+          "domain_cells": 2303,
+          "fraction": 0.21971341728180635
+        },
+        {
+          "bulk_cells": 1290,
+          "domain_cells": 3544,
+          "fraction": 0.3639954853273138
+        }
+      ],
+      "previous_facade_fraction": 0.1495119787045253,
+      "facade_fraction": 0.1495119787045253
+    },
+    {
+      "case": "mg4__combined_reverse__v32__s5",
+      "previous_pass": true,
+      "pass": true,
+      "added_vs_previous": 46,
+      "removed_vs_previous": 45,
+      "jaccard_distance": 0.02980674746151324,
+      "requested": 3006,
+      "previous_cells": 3007,
+      "cells": 3008,
+      "previous_thirds": [
+        {
+          "bulk_cells": 603,
+          "domain_cells": 3544,
+          "fraction": 0.17014672686230248
+        },
+        {
+          "bulk_cells": 803,
+          "domain_cells": 2303,
+          "fraction": 0.34867564046895355
+        },
+        {
+          "bulk_cells": 1601,
+          "domain_cells": 3544,
+          "fraction": 0.45174943566591425
+        }
+      ],
+      "thirds": [
+        {
+          "bulk_cells": 636,
+          "domain_cells": 3544,
+          "fraction": 0.17945823927765236
+        },
+        {
+          "bulk_cells": 790,
+          "domain_cells": 2303,
+          "fraction": 0.3430308293530178
+        },
+        {
+          "bulk_cells": 1582,
+          "domain_cells": 3544,
+          "fraction": 0.4463882618510158
+        }
+      ],
+      "previous_facade_fraction": 0.14965081476554706,
+      "facade_fraction": 0.14993351063829788
+    }
+  ],
+  "trace_decisions": 105139,
+  "candidate_evaluations": 31392998,
+  "budget_rejections": 1809324,
+  "per_site": [
+    {
+      "context": "mg3__aligned",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg3__blocked_gap",
+      "cases": 9,
+      "passes": 0
+    },
+    {
+      "context": "mg3__offset_interfaces",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg3__partial_obstruction",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg3__wide_gap",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__blocked_diagonal",
+      "cases": 9,
+      "passes": 0
+    },
+    {
+      "context": "mg4__blocked_narrow",
+      "cases": 9,
+      "passes": 0
+    },
+    {
+      "context": "mg4__blocked_vertical",
+      "cases": 9,
+      "passes": 0
+    },
+    {
+      "context": "mg4__blocked_wide",
+      "cases": 9,
+      "passes": 0
+    },
+    {
+      "context": "mg4__combined_low_west",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__combined_reverse",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__combined_tall_east",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__diagonal_reverse",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__diagonal_rise",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__gap_12",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__gap_22",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__gap_8",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__lateral_span",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__long_obstacle",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__low_east",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__low_pair",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__low_west",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__twin_obstacles",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__upper_obstacle",
+      "cases": 9,
+      "passes": 9
+    },
+    {
+      "context": "mg4__vertical_span",
+      "cases": 9,
+      "passes": 9
+    }
+  ]
+}

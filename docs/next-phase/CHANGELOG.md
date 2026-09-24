@@ -1132,3 +1132,34 @@ the same evidence without a new generator run. No Studio/server/model/private-
 report changes; no browser work, paid compute, Drive, push or publication.
 All case traces, fields, failed outputs, resource data and protocol are preserved
 in run evidence and verified incremental local archive. Same disk, not off-device.
+
+
+## 2026-09-24 - MG5 coverage-aware procedural growth
+
+Added separate coverage_budget_growth_v1, exact summed-volume unique-cell counts,
+fixed-third deficit priority, global facade eligibility, finite transit/stall
+behavior and reconstructable decision traces. Original MG3 and all evaluators
+unchanged. Frozen four-case/conditional225 protocol/config and immutable paired
+runner. Eight new synthetic tests pass in0.422s. Full regression 20260924T170440Z_05e362daa48f:332pass,
+smoke0,total133.561s. Diagnostic 20260924T170732Z_b7d16f22121a:4/4pass in8.178s. Full matrix 20260924T170831Z_264ba0e38124:
+180/180 nonpartition pass,45 blocked fail,no regressions,221unchanged fields,
+all225 routes match,no errors/timeouts/resource breach,328.981s total.
+
+Independent diagnostic4/matrix225 exact replays;8/450 old+new scores;2/25 rebuilt
+contexts;2149/105139 frontier decisions and589073/31392998 directly enumerated
+candidate evaluations;157 Python matches per snapshot. Full result/source hashes,
+bulk masks and diversity checked. Findings,next scale proposal,D069 outcome,
+PLAN/RESUME and tracked experiment reports complete. No scientific retry or
+parameter sweep. One archive-helper preparation command used an unavailable
+bare python executable; no file was written. Corrected to the explicit project
+runtime without rerunning any experiment. One helper-only patch failed its context
+check and was corrected before execution. Helper logs and source are archived.
+
+No nca historical runtime edits, deployment/UI edits, server restart or browser
+operation. No model training, private-report changes, Drive, paid compute, push
+or publication. Explicit local commit and incremental verified raw-source/Git-
+bundle archive preserve all new runs and the earlier archive chain, same disk.
+
+Initial Git staging was denied access to .git/index.lock by the sandbox. The
+same explicit file list succeeded with scoped Git escalation; no files or locks
+were deleted. Unrelated user files and ignored private reports were not staged.

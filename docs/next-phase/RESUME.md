@@ -1,5 +1,64 @@
 # Resume the NCA next phase
 
+## Current: MG5 complete; scale-readiness proposal next - 2026-09-24
+
+Read COVERAGE_GROWTH_FINDINGS.md, SCALE_READINESS_NEXT_PLAN.md and D069.
+Regression 20260924T170440Z_05e362daa48f:332pass,smoke0. Diagnostic 20260924T170732Z_b7d16f22121a:4/4pass; independent gate
+verified before matrix. Matrix 20260924T170831Z_264ba0e38124:225 complete,180/180 nonpartition pass,
+45 blocked fail;179 prior positives preserved.221 fields and all225 routes match
+baseline. One repair: combined_reverse16%,seed5, west293/3544=8.267494% vs previous
+266/3544. Exactly1503 voxels requested/produced;facade14.903526%. Three other valid
+fields change slightly and remain valid. Original MG4 failure remains preserved.
+
+No errors/timeouts/resource breaches. All180 request errors0..8,100% bulk. Sampled
+RSSmax345.57MiB. Nonpartition generation median0.720s,p952.914s,max4.244s;
+study328.981s. These are single-run observations, not matched timing proof.
+60 valid diversity groups retain3 distinct seeds each;15 blocked groups have0.
+Two same-population groups show small distance decreases; repaired group has
+different valid pair counts. See findings for all details and limitations.
+
+Independent225 exact replays,450 scores,225 bulk masks,25 rebuilt contexts,
+105139 decisions/31392998 directly enumerated candidate evaluations and157 Python
+matches per snapshot verify. Diagnostic separately4 replays,8 scores,2 contexts,
+2149 decisions/589073 evaluations. Reports experiments/reports/MG5-*-verification.json.
+No active regression/matrix/replay process. Do not rerun just to resume docs.
+
+Next make the physical-unit/context audit and small48/conditional64 resource
+study concrete and freeze it before execution. Do not conflate larger physical
+environments with finer resolution. MG5 runner intentionally handles fixed32
+saved scenes; use a separately versioned size-aware path for scale admission.
+Fresh-site evaluation, live promotion and learned pilot remain separate decisions.
+No paid compute, new constraints or threshold retuning admitted by this result.
+
+New nca/coverage_mass_generator.py; old budget_mass_generator.py and every prior
+evaluator remain unchanged. Live MS1 still uses MG3 at /static/live/index.html;
+no UI/runtime edit or restart occurred. Last known serverPID29824/session23049 is
+historical: recheck process/queue ownership before any later restart. Added MG5
+module is unused by the already running server. New source hashes are frozen in
+experiments/configs/MG5-coverage.json. Byte-exact hashes include line endings;
+restore retained raw source, do not rewrite hashes after Git newline conversion.
+
+Run evidence: .local-artifacts/runs/<three IDs above>. Every matrix case contains
+both previous and current fields, masks, scores, routes, decisions and resources.
+Distinct source snapshots/protocol/config/events retained; all225 case files,
+25 contexts,no pending. Scripts/run_coverage_generation.py --mode diagnostic or
+--mode matrix --diagnostic-run 20260924T170732Z_b7d16f22121a are reproducibility entry points;
+execute again only for justified linked attempts with --parent-run <prior ID>.
+
+Codex cwd work/prepare_mg5.py,verify_mg5.py,summarize_mg5.py,finalize_mg5.py,
+package_mg5.py and outputs/mg5-*.log,mg5-summary.json retain implementation/audit
+work. Helpers use exclusive writes; inspect before rerun. No scientific execution
+failed; one bare-python helper preparation command was corrected to project Python.
+All runtime tests passed before documentation-only edits; no repeat needed.
+
+Local commit title: "Prioritize underfilled regions during mass growth".
+Verified incremental archive outputs/NCA-MG5-Backup-2026-09-24-<commit7>.zip;
+sibling receipt and .local-artifacts/milestones/<commit7>-mg5-backup-receipt.json
+record hash/bytes/payload count and exact restored Git bundle. Preserve MG4/MS1/
+MG3/MG2 and the earlier archive chain. Same-disk only, not off-device protection.
+Private report files unchanged/ignored; unrelated user files remain untracked.
+No Drive operation, training, paid compute, push or public hosting.
+
 ## Current: MG4 complete; one coverage failure retained - 2026-09-24
 
 Read SITE_GENERALIZATION_FINDINGS.md, COVERAGE_GROWTH_NEXT_PLAN.md and D068.

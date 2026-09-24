@@ -1,0 +1,24 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T170732Z_b7d16f22121a",
+  "drive_backup": "pending",
+  "metrics": {
+    "admission_gate": true,
+    "changed_fields": 1,
+    "executed": 4,
+    "nonpartition": 4,
+    "nonpartition_pass": 4,
+    "partition": 0,
+    "partition_pass": 0,
+    "planned": 4,
+    "regressions": [],
+    "repairs": [
+      "mg4__combined_reverse__v16__s5"
+    ],
+    "route_matches": 4,
+    "study_seconds": 8.177803900034633,
+    "timeouts": 0
+  },
+  "mode": "diagnostic",
+  "run_id": "20260924T170732Z_b7d16f22121a",
+  "status": "completed"
+}

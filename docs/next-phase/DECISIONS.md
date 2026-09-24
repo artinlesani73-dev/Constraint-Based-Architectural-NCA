@@ -1164,3 +1164,27 @@ retain outcome and unchanged8% threshold.324 regressions,180 exact replays/score
 Propose separate coverage-aware growth ordering per COVERAGE_GROWTH_NEXT_PLAN.
 The evidence does not require a new constraint or whole NCA redesign. Do not
 promote arbitrary-site/large-grid reliability; MG4 is now inspected development.
+
+
+## D069 - MG5 finite coverage-aware growth
+
+2026-09-24. User authorized proceeding after MG4. Separate generator prioritizes
+deficit reduction per unique new cell among facade-feasible frontier cubes,
+with original radial order tie-break. Same route, quotas, domain and mass stop.
+Freeze COVERAGE_GROWTH_PROTOCOL and MG5-coverage recipe before the four-case
+diagnostic; only a passing diagnostic admits the225-case comparison. Preserve
+failures, all earlier positives, raw decisions and runtime/memory tradeoffs.
+No threshold relaxation, paid training, new constraints or automatic live change.
+
+
+D069 outcome: diagnostic 20260924T170732Z_b7d16f22121a passes4/4; unchanged recipe then completes
+matrix 20260924T170831Z_264ba0e38124,180/180 nonpartition pass and45 blocked failures. All179 prior
+positives preserved;221/225 fields and all225 routes unchanged. Only four fields
+change; MG4's coverage-only failure is repaired at exactly1503 requested cells.
+All180 requests have0–8 extra cells;100% qualified bulk.332 regressions pass.
+Independent225 exact replays,450 scores,25 contexts and105139 frontier decisions /
+31392998 candidate evaluations verify. No threshold/rule retuning after outcomes.
+Accept MG5 as a verified development comparator; retain MG4 failure/history.
+Keep live MS1/MG3 identity unchanged. Next make SCALE_READINESS_NEXT_PLAN concrete
+with physical-unit/input audit and conditional48/64-grid resource admission.
+No arbitrary-site reliability, paid training or architectural-quality claim.

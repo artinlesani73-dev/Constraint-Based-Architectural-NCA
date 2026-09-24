@@ -39,3 +39,11 @@ This proposal does not freeze implementation weights, caps or a runnable MG5
 experiment yet. First make the finite priority rule concrete and reviewable,
 document it and freeze the evaluation before executing. No paid training, Drive
 access or live Studio expansion is required or automatically admitted.
+
+
+## Outcome update - 2026-09-24
+
+The proposal above is historical. MG5 was frozen in COVERAGE_GROWTH_PROTOCOL.md
+and implemented after authorization. Diagnostic4/4 and full225-case admission
+pass; see COVERAGE_GROWTH_FINDINGS.md and D069. The next bounded proposal is
+SCALE_READINESS_NEXT_PLAN.md. Original MG4 results remain preserved.

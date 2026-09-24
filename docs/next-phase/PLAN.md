@@ -1,5 +1,15 @@
 # Next-phase implementation plan
 
+## Active milestone - MG5 complete; physical-scale readiness next
+
+2026-09-24. All180 nonpartition cases pass in the combined225-case comparison;
+45 blocked fail.179 prior positives preserved,221 fields/all225 routes unchanged.
+Known MG4 coverage failure repaired;332 regressions and independent full frontier
+audit verify. Read COVERAGE_GROWTH_FINDINGS and SCALE_READINESS_NEXT_PLAN.
+Next audit grid/context/physical units, then freeze a bounded48-grid study with
+conditional64-grid admission. Larger sites and finer resolution are distinct.
+No scale execution or new live version yet. Historical milestone entries follow.
+
 ## Active milestone - MG4 complete; coverage-aware growth proposal next
 
 2026-09-24.143/144 nonpartition and0/36 blocked pass; all144 requested volumes met.
