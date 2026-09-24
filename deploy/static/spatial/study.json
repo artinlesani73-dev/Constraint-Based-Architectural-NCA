@@ -1,0 +1,8975 @@
+{
+  "all_expected_outcomes_matched": true,
+  "cases": [
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": true
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": true,
+          "envelope_voxels": 1208,
+          "families": {
+            "access": 0.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.0,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": true,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": true,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 37,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.03062913939356804,
+          "material_voxels": 37,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.000640869140625,
+            "density_binary": 0.0,
+            "tv": 0.004095262382179499
+          },
+          "route_feasible": true,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            6,
+            11,
+            9
+          ],
+          [
+            6,
+            11,
+            10
+          ],
+          [
+            6,
+            11,
+            11
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            6,
+            12,
+            9
+          ],
+          [
+            6,
+            13,
+            9
+          ],
+          [
+            6,
+            14,
+            9
+          ],
+          [
+            6,
+            15,
+            9
+          ],
+          [
+            7,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            10
+          ],
+          [
+            8,
+            15,
+            11
+          ],
+          [
+            8,
+            15,
+            12
+          ],
+          [
+            8,
+            15,
+            13
+          ],
+          [
+            8,
+            15,
+            14
+          ],
+          [
+            8,
+            15,
+            15
+          ],
+          [
+            8,
+            15,
+            16
+          ],
+          [
+            8,
+            15,
+            17
+          ],
+          [
+            8,
+            15,
+            18
+          ],
+          [
+            8,
+            15,
+            19
+          ],
+          [
+            8,
+            15,
+            20
+          ],
+          [
+            8,
+            15,
+            21
+          ],
+          [
+            8,
+            15,
+            22
+          ],
+          [
+            8,
+            15,
+            23
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            8,
+            16,
+            22
+          ],
+          [
+            8,
+            16,
+            23
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            15,
+            23
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            9,
+            16,
+            22
+          ],
+          [
+            9,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.6400000000000001,
+          "floor_cells_with_insufficient_clearance": 1,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 16.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": null,
+          "layout_supported": true,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 37,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "aligned",
+      "centers_zyx": [
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ]
+      ],
+      "clearance_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ],
+        [
+          9,
+          13,
+          13
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          13,
+          17
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          9,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          9,
+          14,
+          11
+        ],
+        [
+          9,
+          14,
+          12
+        ],
+        [
+          9,
+          14,
+          13
+        ],
+        [
+          9,
+          14,
+          14
+        ],
+        [
+          9,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          16
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          9,
+          14,
+          18
+        ],
+        [
+          9,
+          14,
+          19
+        ],
+        [
+          9,
+          14,
+          20
+        ],
+        [
+          9,
+          14,
+          21
+        ],
+        [
+          9,
+          14,
+          22
+        ],
+        [
+          9,
+          14,
+          23
+        ],
+        [
+          9,
+          15,
+          8
+        ],
+        [
+          9,
+          15,
+          9
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          9,
+          15,
+          11
+        ],
+        [
+          9,
+          15,
+          12
+        ],
+        [
+          9,
+          15,
+          13
+        ],
+        [
+          9,
+          15,
+          14
+        ],
+        [
+          9,
+          15,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ],
+        [
+          9,
+          15,
+          17
+        ],
+        [
+          9,
+          15,
+          18
+        ],
+        [
+          9,
+          15,
+          19
+        ],
+        [
+          9,
+          15,
+          20
+        ],
+        [
+          9,
+          15,
+          21
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          23
+        ],
+        [
+          9,
+          16,
+          8
+        ],
+        [
+          9,
+          16,
+          9
+        ],
+        [
+          9,
+          16,
+          10
+        ],
+        [
+          9,
+          16,
+          11
+        ],
+        [
+          9,
+          16,
+          12
+        ],
+        [
+          9,
+          16,
+          13
+        ],
+        [
+          9,
+          16,
+          14
+        ],
+        [
+          9,
+          16,
+          15
+        ],
+        [
+          9,
+          16,
+          16
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          9,
+          16,
+          18
+        ],
+        [
+          9,
+          16,
+          19
+        ],
+        [
+          9,
+          16,
+          20
+        ],
+        [
+          9,
+          16,
+          21
+        ],
+        [
+          9,
+          16,
+          22
+        ],
+        [
+          9,
+          16,
+          23
+        ],
+        [
+          9,
+          17,
+          13
+        ],
+        [
+          9,
+          17,
+          14
+        ],
+        [
+          9,
+          17,
+          15
+        ],
+        [
+          9,
+          17,
+          16
+        ],
+        [
+          9,
+          17,
+          17
+        ],
+        [
+          10,
+          13,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ],
+        [
+          10,
+          13,
+          15
+        ],
+        [
+          10,
+          13,
+          16
+        ],
+        [
+          10,
+          13,
+          17
+        ],
+        [
+          10,
+          14,
+          8
+        ],
+        [
+          10,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          11
+        ],
+        [
+          10,
+          14,
+          12
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          14,
+          14
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          14,
+          16
+        ],
+        [
+          10,
+          14,
+          17
+        ],
+        [
+          10,
+          14,
+          18
+        ],
+        [
+          10,
+          14,
+          19
+        ],
+        [
+          10,
+          14,
+          20
+        ],
+        [
+          10,
+          14,
+          21
+        ],
+        [
+          10,
+          14,
+          22
+        ],
+        [
+          10,
+          14,
+          23
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          10,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          11
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          10,
+          15,
+          13
+        ],
+        [
+          10,
+          15,
+          14
+        ],
+        [
+          10,
+          15,
+          15
+        ],
+        [
+          10,
+          15,
+          16
+        ],
+        [
+          10,
+          15,
+          17
+        ],
+        [
+          10,
+          15,
+          18
+        ],
+        [
+          10,
+          15,
+          19
+        ],
+        [
+          10,
+          15,
+          20
+        ],
+        [
+          10,
+          15,
+          21
+        ],
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          23
+        ],
+        [
+          10,
+          16,
+          8
+        ],
+        [
+          10,
+          16,
+          9
+        ],
+        [
+          10,
+          16,
+          10
+        ],
+        [
+          10,
+          16,
+          11
+        ],
+        [
+          10,
+          16,
+          12
+        ],
+        [
+          10,
+          16,
+          13
+        ],
+        [
+          10,
+          16,
+          14
+        ],
+        [
+          10,
+          16,
+          15
+        ],
+        [
+          10,
+          16,
+          16
+        ],
+        [
+          10,
+          16,
+          17
+        ],
+        [
+          10,
+          16,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ],
+        [
+          10,
+          16,
+          20
+        ],
+        [
+          10,
+          16,
+          21
+        ],
+        [
+          10,
+          16,
+          22
+        ],
+        [
+          10,
+          16,
+          23
+        ],
+        [
+          10,
+          17,
+          13
+        ],
+        [
+          10,
+          17,
+          14
+        ],
+        [
+          10,
+          17,
+          15
+        ],
+        [
+          10,
+          17,
+          16
+        ],
+        [
+          10,
+          17,
+          17
+        ]
+      ],
+      "construction": {
+        "reason": "Raw proposed deck; independent evaluation determines compatibility",
+        "status": "candidate"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": true,
+        "envelope_voxels": 1208,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 0.0,
+          "spill": 0.0,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": true,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": 0.0,
+          "illegal_voxels": 0,
+          "material_voxels": 58,
+          "nonempty": true,
+          "zero_illegal_voxels": true
+        },
+        "material_ratio": 0.048013243824243546,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [
+        [
+          7,
+          13,
+          13
+        ],
+        [
+          7,
+          13,
+          14
+        ],
+        [
+          7,
+          13,
+          15
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          13,
+          17
+        ],
+        [
+          7,
+          14,
+          8
+        ],
+        [
+          7,
+          14,
+          9
+        ],
+        [
+          7,
+          14,
+          10
+        ],
+        [
+          7,
+          14,
+          11
+        ],
+        [
+          7,
+          14,
+          12
+        ],
+        [
+          7,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          16
+        ],
+        [
+          7,
+          14,
+          17
+        ],
+        [
+          7,
+          14,
+          18
+        ],
+        [
+          7,
+          14,
+          19
+        ],
+        [
+          7,
+          14,
+          20
+        ],
+        [
+          7,
+          14,
+          21
+        ],
+        [
+          7,
+          14,
+          22
+        ],
+        [
+          7,
+          14,
+          23
+        ],
+        [
+          7,
+          15,
+          8
+        ],
+        [
+          7,
+          15,
+          9
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          7,
+          15,
+          11
+        ],
+        [
+          7,
+          15,
+          12
+        ],
+        [
+          7,
+          15,
+          13
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          7,
+          15,
+          16
+        ],
+        [
+          7,
+          15,
+          17
+        ],
+        [
+          7,
+          15,
+          18
+        ],
+        [
+          7,
+          15,
+          19
+        ],
+        [
+          7,
+          15,
+          20
+        ],
+        [
+          7,
+          15,
+          21
+        ],
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          15,
+          23
+        ],
+        [
+          7,
+          16,
+          8
+        ],
+        [
+          7,
+          16,
+          9
+        ],
+        [
+          7,
+          16,
+          10
+        ],
+        [
+          7,
+          16,
+          11
+        ],
+        [
+          7,
+          16,
+          12
+        ],
+        [
+          7,
+          16,
+          13
+        ],
+        [
+          7,
+          16,
+          14
+        ],
+        [
+          7,
+          16,
+          15
+        ],
+        [
+          7,
+          16,
+          16
+        ],
+        [
+          7,
+          16,
+          17
+        ],
+        [
+          7,
+          16,
+          18
+        ],
+        [
+          7,
+          16,
+          19
+        ],
+        [
+          7,
+          16,
+          20
+        ],
+        [
+          7,
+          16,
+          21
+        ],
+        [
+          7,
+          16,
+          22
+        ],
+        [
+          7,
+          16,
+          23
+        ],
+        [
+          7,
+          17,
+          13
+        ],
+        [
+          7,
+          17,
+          14
+        ],
+        [
+          7,
+          17,
+          15
+        ],
+        [
+          7,
+          17,
+          16
+        ],
+        [
+          7,
+          17,
+          17
+        ]
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "Level approaches, a 2.4 m deck and a 4 m shared landing.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-aligned",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "832f40ebe1b914ac280b65c03b336a5921507924a2b6409829de0b5d8ea03d7f",
+      "spatial": {
+        "approach_connected": true,
+        "clear_surface_area_m2": 37.120000000000005,
+        "floor_area_m2": 37.120000000000005,
+        "floor_cells_with_insufficient_clearance": 0,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 58,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": true,
+        "landing_area_m2": 16.0,
+        "landing_clear": true,
+        "landing_side_m": 4.0,
+        "layout_reason": null,
+        "layout_supported": true,
+        "material_context_collision_voxels": 0,
+        "material_voxels": 58,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": true,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 20
+      },
+      "surface_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": true
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": true,
+          "envelope_voxels": 1208,
+          "families": {
+            "access": 0.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.0,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": true,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": true,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 37,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.03062913939356804,
+          "material_voxels": 37,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.000640869140625,
+            "density_binary": 0.0,
+            "tv": 0.004095262382179499
+          },
+          "route_feasible": true,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            6,
+            11,
+            9
+          ],
+          [
+            6,
+            11,
+            10
+          ],
+          [
+            6,
+            11,
+            11
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            6,
+            12,
+            9
+          ],
+          [
+            6,
+            13,
+            9
+          ],
+          [
+            6,
+            14,
+            9
+          ],
+          [
+            6,
+            15,
+            9
+          ],
+          [
+            7,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            10
+          ],
+          [
+            8,
+            15,
+            11
+          ],
+          [
+            8,
+            15,
+            12
+          ],
+          [
+            8,
+            15,
+            13
+          ],
+          [
+            8,
+            15,
+            14
+          ],
+          [
+            8,
+            15,
+            15
+          ],
+          [
+            8,
+            15,
+            16
+          ],
+          [
+            8,
+            15,
+            17
+          ],
+          [
+            8,
+            15,
+            18
+          ],
+          [
+            8,
+            15,
+            19
+          ],
+          [
+            8,
+            15,
+            20
+          ],
+          [
+            8,
+            15,
+            21
+          ],
+          [
+            8,
+            15,
+            22
+          ],
+          [
+            8,
+            15,
+            23
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            8,
+            16,
+            22
+          ],
+          [
+            8,
+            16,
+            23
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            15,
+            23
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            9,
+            16,
+            22
+          ],
+          [
+            9,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.6400000000000001,
+          "floor_cells_with_insufficient_clearance": 1,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 16.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": null,
+          "layout_supported": true,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 37,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "narrow-deck",
+      "centers_zyx": [
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ]
+      ],
+      "clearance_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ],
+        [
+          9,
+          13,
+          13
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          13,
+          17
+        ],
+        [
+          9,
+          14,
+          13
+        ],
+        [
+          9,
+          14,
+          14
+        ],
+        [
+          9,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          16
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          9,
+          15,
+          8
+        ],
+        [
+          9,
+          15,
+          9
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          9,
+          15,
+          11
+        ],
+        [
+          9,
+          15,
+          12
+        ],
+        [
+          9,
+          15,
+          13
+        ],
+        [
+          9,
+          15,
+          14
+        ],
+        [
+          9,
+          15,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ],
+        [
+          9,
+          15,
+          17
+        ],
+        [
+          9,
+          15,
+          18
+        ],
+        [
+          9,
+          15,
+          19
+        ],
+        [
+          9,
+          15,
+          20
+        ],
+        [
+          9,
+          15,
+          21
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          23
+        ],
+        [
+          9,
+          16,
+          13
+        ],
+        [
+          9,
+          16,
+          14
+        ],
+        [
+          9,
+          16,
+          15
+        ],
+        [
+          9,
+          16,
+          16
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          9,
+          17,
+          13
+        ],
+        [
+          9,
+          17,
+          14
+        ],
+        [
+          9,
+          17,
+          15
+        ],
+        [
+          9,
+          17,
+          16
+        ],
+        [
+          9,
+          17,
+          17
+        ],
+        [
+          10,
+          13,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ],
+        [
+          10,
+          13,
+          15
+        ],
+        [
+          10,
+          13,
+          16
+        ],
+        [
+          10,
+          13,
+          17
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          14,
+          14
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          14,
+          16
+        ],
+        [
+          10,
+          14,
+          17
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          10,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          11
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          10,
+          15,
+          13
+        ],
+        [
+          10,
+          15,
+          14
+        ],
+        [
+          10,
+          15,
+          15
+        ],
+        [
+          10,
+          15,
+          16
+        ],
+        [
+          10,
+          15,
+          17
+        ],
+        [
+          10,
+          15,
+          18
+        ],
+        [
+          10,
+          15,
+          19
+        ],
+        [
+          10,
+          15,
+          20
+        ],
+        [
+          10,
+          15,
+          21
+        ],
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          23
+        ],
+        [
+          10,
+          16,
+          13
+        ],
+        [
+          10,
+          16,
+          14
+        ],
+        [
+          10,
+          16,
+          15
+        ],
+        [
+          10,
+          16,
+          16
+        ],
+        [
+          10,
+          16,
+          17
+        ],
+        [
+          10,
+          17,
+          13
+        ],
+        [
+          10,
+          17,
+          14
+        ],
+        [
+          10,
+          17,
+          15
+        ],
+        [
+          10,
+          17,
+          16
+        ],
+        [
+          10,
+          17,
+          17
+        ]
+      ],
+      "construction": {
+        "reason": "Deliberately narrow connecting strips",
+        "status": "negative_control"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": true,
+        "envelope_voxels": 1208,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 0.00019867531955242157,
+          "spill": 0.0,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": false,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": 0.0,
+          "illegal_voxels": 0,
+          "material_voxels": 36,
+          "nonempty": true,
+          "zero_illegal_voxels": true
+        },
+        "material_ratio": 0.029801324009895325,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [
+        [
+          7,
+          13,
+          13
+        ],
+        [
+          7,
+          13,
+          14
+        ],
+        [
+          7,
+          13,
+          15
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          13,
+          17
+        ],
+        [
+          7,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          16
+        ],
+        [
+          7,
+          14,
+          17
+        ],
+        [
+          7,
+          15,
+          8
+        ],
+        [
+          7,
+          15,
+          9
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          7,
+          15,
+          11
+        ],
+        [
+          7,
+          15,
+          12
+        ],
+        [
+          7,
+          15,
+          13
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          7,
+          15,
+          16
+        ],
+        [
+          7,
+          15,
+          17
+        ],
+        [
+          7,
+          15,
+          18
+        ],
+        [
+          7,
+          15,
+          19
+        ],
+        [
+          7,
+          15,
+          20
+        ],
+        [
+          7,
+          15,
+          21
+        ],
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          15,
+          23
+        ],
+        [
+          7,
+          16,
+          13
+        ],
+        [
+          7,
+          16,
+          14
+        ],
+        [
+          7,
+          16,
+          15
+        ],
+        [
+          7,
+          16,
+          16
+        ],
+        [
+          7,
+          16,
+          17
+        ],
+        [
+          7,
+          17,
+          13
+        ],
+        [
+          7,
+          17,
+          14
+        ],
+        [
+          7,
+          17,
+          15
+        ],
+        [
+          7,
+          17,
+          16
+        ],
+        [
+          7,
+          17,
+          17
+        ]
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "Negative control: only 0.8 m wide away from the landing.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-narrow-deck",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "33a4d6f70c6ca7b9abc4877575fa0ecd113d83c480762877bbc0e4fe6be4e011",
+      "spatial": {
+        "approach_connected": false,
+        "clear_surface_area_m2": 23.040000000000003,
+        "floor_area_m2": 23.040000000000003,
+        "floor_cells_with_insufficient_clearance": 0,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 36,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": false,
+        "landing_area_m2": 16.0,
+        "landing_clear": true,
+        "landing_side_m": 4.0,
+        "layout_reason": null,
+        "layout_supported": true,
+        "material_context_collision_voxels": 0,
+        "material_voxels": 36,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": false,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 9
+      },
+      "surface_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": true
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": true,
+          "envelope_voxels": 1208,
+          "families": {
+            "access": 0.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.0,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": true,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": true,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 37,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.03062913939356804,
+          "material_voxels": 37,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.000640869140625,
+            "density_binary": 0.0,
+            "tv": 0.004095262382179499
+          },
+          "route_feasible": true,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            6,
+            11,
+            9
+          ],
+          [
+            6,
+            11,
+            10
+          ],
+          [
+            6,
+            11,
+            11
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            6,
+            12,
+            9
+          ],
+          [
+            6,
+            13,
+            9
+          ],
+          [
+            6,
+            14,
+            9
+          ],
+          [
+            6,
+            15,
+            9
+          ],
+          [
+            7,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            10
+          ],
+          [
+            8,
+            15,
+            11
+          ],
+          [
+            8,
+            15,
+            12
+          ],
+          [
+            8,
+            15,
+            13
+          ],
+          [
+            8,
+            15,
+            14
+          ],
+          [
+            8,
+            15,
+            15
+          ],
+          [
+            8,
+            15,
+            16
+          ],
+          [
+            8,
+            15,
+            17
+          ],
+          [
+            8,
+            15,
+            18
+          ],
+          [
+            8,
+            15,
+            19
+          ],
+          [
+            8,
+            15,
+            20
+          ],
+          [
+            8,
+            15,
+            21
+          ],
+          [
+            8,
+            15,
+            22
+          ],
+          [
+            8,
+            15,
+            23
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            8,
+            16,
+            22
+          ],
+          [
+            8,
+            16,
+            23
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            15,
+            23
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            9,
+            16,
+            22
+          ],
+          [
+            9,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.6400000000000001,
+          "floor_cells_with_insufficient_clearance": 1,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 37,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 16.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": null,
+          "layout_supported": true,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 37,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "missing-floor",
+      "centers_zyx": [
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ]
+      ],
+      "clearance_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ],
+        [
+          9,
+          13,
+          13
+        ],
+        [
+          9,
+          13,
+          14
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          13,
+          17
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          9,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          9,
+          14,
+          12
+        ],
+        [
+          9,
+          14,
+          13
+        ],
+        [
+          9,
+          14,
+          14
+        ],
+        [
+          9,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          16
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          9,
+          14,
+          18
+        ],
+        [
+          9,
+          14,
+          19
+        ],
+        [
+          9,
+          14,
+          20
+        ],
+        [
+          9,
+          14,
+          21
+        ],
+        [
+          9,
+          14,
+          22
+        ],
+        [
+          9,
+          14,
+          23
+        ],
+        [
+          9,
+          15,
+          8
+        ],
+        [
+          9,
+          15,
+          9
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          9,
+          15,
+          12
+        ],
+        [
+          9,
+          15,
+          13
+        ],
+        [
+          9,
+          15,
+          14
+        ],
+        [
+          9,
+          15,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ],
+        [
+          9,
+          15,
+          17
+        ],
+        [
+          9,
+          15,
+          18
+        ],
+        [
+          9,
+          15,
+          19
+        ],
+        [
+          9,
+          15,
+          20
+        ],
+        [
+          9,
+          15,
+          21
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          23
+        ],
+        [
+          9,
+          16,
+          8
+        ],
+        [
+          9,
+          16,
+          9
+        ],
+        [
+          9,
+          16,
+          10
+        ],
+        [
+          9,
+          16,
+          12
+        ],
+        [
+          9,
+          16,
+          13
+        ],
+        [
+          9,
+          16,
+          14
+        ],
+        [
+          9,
+          16,
+          15
+        ],
+        [
+          9,
+          16,
+          16
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          9,
+          16,
+          18
+        ],
+        [
+          9,
+          16,
+          19
+        ],
+        [
+          9,
+          16,
+          20
+        ],
+        [
+          9,
+          16,
+          21
+        ],
+        [
+          9,
+          16,
+          22
+        ],
+        [
+          9,
+          16,
+          23
+        ],
+        [
+          9,
+          17,
+          13
+        ],
+        [
+          9,
+          17,
+          14
+        ],
+        [
+          9,
+          17,
+          15
+        ],
+        [
+          9,
+          17,
+          16
+        ],
+        [
+          9,
+          17,
+          17
+        ],
+        [
+          10,
+          13,
+          13
+        ],
+        [
+          10,
+          13,
+          14
+        ],
+        [
+          10,
+          13,
+          15
+        ],
+        [
+          10,
+          13,
+          16
+        ],
+        [
+          10,
+          13,
+          17
+        ],
+        [
+          10,
+          14,
+          8
+        ],
+        [
+          10,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          12
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          14,
+          14
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          10,
+          14,
+          16
+        ],
+        [
+          10,
+          14,
+          17
+        ],
+        [
+          10,
+          14,
+          18
+        ],
+        [
+          10,
+          14,
+          19
+        ],
+        [
+          10,
+          14,
+          20
+        ],
+        [
+          10,
+          14,
+          21
+        ],
+        [
+          10,
+          14,
+          22
+        ],
+        [
+          10,
+          14,
+          23
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          10,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          10,
+          15,
+          13
+        ],
+        [
+          10,
+          15,
+          14
+        ],
+        [
+          10,
+          15,
+          15
+        ],
+        [
+          10,
+          15,
+          16
+        ],
+        [
+          10,
+          15,
+          17
+        ],
+        [
+          10,
+          15,
+          18
+        ],
+        [
+          10,
+          15,
+          19
+        ],
+        [
+          10,
+          15,
+          20
+        ],
+        [
+          10,
+          15,
+          21
+        ],
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          23
+        ],
+        [
+          10,
+          16,
+          8
+        ],
+        [
+          10,
+          16,
+          9
+        ],
+        [
+          10,
+          16,
+          10
+        ],
+        [
+          10,
+          16,
+          12
+        ],
+        [
+          10,
+          16,
+          13
+        ],
+        [
+          10,
+          16,
+          14
+        ],
+        [
+          10,
+          16,
+          15
+        ],
+        [
+          10,
+          16,
+          16
+        ],
+        [
+          10,
+          16,
+          17
+        ],
+        [
+          10,
+          16,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ],
+        [
+          10,
+          16,
+          20
+        ],
+        [
+          10,
+          16,
+          21
+        ],
+        [
+          10,
+          16,
+          22
+        ],
+        [
+          10,
+          16,
+          23
+        ],
+        [
+          10,
+          17,
+          13
+        ],
+        [
+          10,
+          17,
+          14
+        ],
+        [
+          10,
+          17,
+          15
+        ],
+        [
+          10,
+          17,
+          16
+        ],
+        [
+          10,
+          17,
+          17
+        ]
+      ],
+      "construction": {
+        "reason": "Deliberately removed an entire cross section",
+        "status": "negative_control"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": true,
+        "envelope_voxels": 1208,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 0.0,
+          "spill": 0.0,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": true,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": 0.0,
+          "illegal_voxels": 0,
+          "material_voxels": 55,
+          "nonempty": true,
+          "zero_illegal_voxels": true
+        },
+        "material_ratio": 0.0455298013985157,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [
+        [
+          7,
+          13,
+          13
+        ],
+        [
+          7,
+          13,
+          14
+        ],
+        [
+          7,
+          13,
+          15
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          13,
+          17
+        ],
+        [
+          7,
+          14,
+          8
+        ],
+        [
+          7,
+          14,
+          9
+        ],
+        [
+          7,
+          14,
+          10
+        ],
+        [
+          7,
+          14,
+          12
+        ],
+        [
+          7,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          16
+        ],
+        [
+          7,
+          14,
+          17
+        ],
+        [
+          7,
+          14,
+          18
+        ],
+        [
+          7,
+          14,
+          19
+        ],
+        [
+          7,
+          14,
+          20
+        ],
+        [
+          7,
+          14,
+          21
+        ],
+        [
+          7,
+          14,
+          22
+        ],
+        [
+          7,
+          14,
+          23
+        ],
+        [
+          7,
+          15,
+          8
+        ],
+        [
+          7,
+          15,
+          9
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          7,
+          15,
+          12
+        ],
+        [
+          7,
+          15,
+          13
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          7,
+          15,
+          16
+        ],
+        [
+          7,
+          15,
+          17
+        ],
+        [
+          7,
+          15,
+          18
+        ],
+        [
+          7,
+          15,
+          19
+        ],
+        [
+          7,
+          15,
+          20
+        ],
+        [
+          7,
+          15,
+          21
+        ],
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          15,
+          23
+        ],
+        [
+          7,
+          16,
+          8
+        ],
+        [
+          7,
+          16,
+          9
+        ],
+        [
+          7,
+          16,
+          10
+        ],
+        [
+          7,
+          16,
+          12
+        ],
+        [
+          7,
+          16,
+          13
+        ],
+        [
+          7,
+          16,
+          14
+        ],
+        [
+          7,
+          16,
+          15
+        ],
+        [
+          7,
+          16,
+          16
+        ],
+        [
+          7,
+          16,
+          17
+        ],
+        [
+          7,
+          16,
+          18
+        ],
+        [
+          7,
+          16,
+          19
+        ],
+        [
+          7,
+          16,
+          20
+        ],
+        [
+          7,
+          16,
+          21
+        ],
+        [
+          7,
+          16,
+          22
+        ],
+        [
+          7,
+          16,
+          23
+        ],
+        [
+          7,
+          17,
+          13
+        ],
+        [
+          7,
+          17,
+          14
+        ],
+        [
+          7,
+          17,
+          15
+        ],
+        [
+          7,
+          17,
+          16
+        ],
+        [
+          7,
+          17,
+          17
+        ]
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "Negative control: a complete one-cell break across the deck.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-missing-floor",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "affc83db6e2ec61f11f6fb978c939f63b30877451d99875c197d47bd0a4b7758",
+      "spatial": {
+        "approach_connected": false,
+        "clear_surface_area_m2": 35.2,
+        "floor_area_m2": 35.2,
+        "floor_cells_with_insufficient_clearance": 0,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 55,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": false,
+        "landing_area_m2": 16.0,
+        "landing_clear": true,
+        "landing_side_m": 4.0,
+        "layout_reason": null,
+        "layout_supported": true,
+        "material_context_collision_voxels": 0,
+        "material_voxels": 55,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": false,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 17
+      },
+      "surface_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          14
+        ],
+        [
+          8,
+          13,
+          15
+        ],
+        [
+          8,
+          13,
+          16
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          14
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          8,
+          14,
+          16
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          14
+        ],
+        [
+          8,
+          15,
+          15
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          14
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          16,
+          16
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          14
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          8,
+          17,
+          16
+        ],
+        [
+          8,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": true
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": true,
+          "envelope_voxels": 1155,
+          "families": {
+            "access": 0.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.0,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": true,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": true,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 35,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.03030303120613098,
+          "material_voxels": 35,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.000579833984375,
+            "density_binary": 0.0,
+            "tv": 0.0038432457949966192
+          },
+          "route_feasible": true,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 35,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            6,
+            11,
+            9
+          ],
+          [
+            6,
+            11,
+            10
+          ],
+          [
+            6,
+            12,
+            9
+          ],
+          [
+            6,
+            13,
+            9
+          ],
+          [
+            6,
+            14,
+            9
+          ],
+          [
+            6,
+            15,
+            9
+          ],
+          [
+            7,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            10
+          ],
+          [
+            8,
+            15,
+            11
+          ],
+          [
+            8,
+            15,
+            12
+          ],
+          [
+            8,
+            15,
+            13
+          ],
+          [
+            8,
+            15,
+            14
+          ],
+          [
+            8,
+            15,
+            15
+          ],
+          [
+            8,
+            15,
+            16
+          ],
+          [
+            8,
+            15,
+            17
+          ],
+          [
+            8,
+            15,
+            18
+          ],
+          [
+            8,
+            15,
+            19
+          ],
+          [
+            8,
+            15,
+            20
+          ],
+          [
+            8,
+            15,
+            21
+          ],
+          [
+            8,
+            15,
+            22
+          ],
+          [
+            8,
+            15,
+            23
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            8,
+            16,
+            22
+          ],
+          [
+            8,
+            16,
+            23
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            15,
+            23
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            9,
+            16,
+            22
+          ],
+          [
+            9,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.6400000000000001,
+          "floor_cells_with_insufficient_clearance": 1,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 35,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 16.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": null,
+          "layout_supported": true,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 35,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "low-headroom",
+      "centers_zyx": [
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ]
+      ],
+      "clearance_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          17
+        ],
+        [
+          9,
+          13,
+          13
+        ],
+        [
+          9,
+          13,
+          17
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          9,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          9,
+          14,
+          11
+        ],
+        [
+          9,
+          14,
+          12
+        ],
+        [
+          9,
+          14,
+          13
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          9,
+          14,
+          18
+        ],
+        [
+          9,
+          14,
+          19
+        ],
+        [
+          9,
+          14,
+          20
+        ],
+        [
+          9,
+          14,
+          21
+        ],
+        [
+          9,
+          14,
+          22
+        ],
+        [
+          9,
+          14,
+          23
+        ],
+        [
+          9,
+          15,
+          8
+        ],
+        [
+          9,
+          15,
+          9
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          9,
+          15,
+          11
+        ],
+        [
+          9,
+          15,
+          12
+        ],
+        [
+          9,
+          15,
+          13
+        ],
+        [
+          9,
+          15,
+          17
+        ],
+        [
+          9,
+          15,
+          18
+        ],
+        [
+          9,
+          15,
+          19
+        ],
+        [
+          9,
+          15,
+          20
+        ],
+        [
+          9,
+          15,
+          21
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          23
+        ],
+        [
+          9,
+          16,
+          8
+        ],
+        [
+          9,
+          16,
+          9
+        ],
+        [
+          9,
+          16,
+          10
+        ],
+        [
+          9,
+          16,
+          11
+        ],
+        [
+          9,
+          16,
+          12
+        ],
+        [
+          9,
+          16,
+          13
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          9,
+          16,
+          18
+        ],
+        [
+          9,
+          16,
+          19
+        ],
+        [
+          9,
+          16,
+          20
+        ],
+        [
+          9,
+          16,
+          21
+        ],
+        [
+          9,
+          16,
+          22
+        ],
+        [
+          9,
+          16,
+          23
+        ],
+        [
+          9,
+          17,
+          13
+        ],
+        [
+          9,
+          17,
+          17
+        ],
+        [
+          10,
+          13,
+          13
+        ],
+        [
+          10,
+          13,
+          17
+        ],
+        [
+          10,
+          14,
+          8
+        ],
+        [
+          10,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          11
+        ],
+        [
+          10,
+          14,
+          12
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          14,
+          17
+        ],
+        [
+          10,
+          14,
+          18
+        ],
+        [
+          10,
+          14,
+          19
+        ],
+        [
+          10,
+          14,
+          20
+        ],
+        [
+          10,
+          14,
+          21
+        ],
+        [
+          10,
+          14,
+          22
+        ],
+        [
+          10,
+          14,
+          23
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          10,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          11
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          10,
+          15,
+          13
+        ],
+        [
+          10,
+          15,
+          17
+        ],
+        [
+          10,
+          15,
+          18
+        ],
+        [
+          10,
+          15,
+          19
+        ],
+        [
+          10,
+          15,
+          20
+        ],
+        [
+          10,
+          15,
+          21
+        ],
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          23
+        ],
+        [
+          10,
+          16,
+          8
+        ],
+        [
+          10,
+          16,
+          9
+        ],
+        [
+          10,
+          16,
+          10
+        ],
+        [
+          10,
+          16,
+          11
+        ],
+        [
+          10,
+          16,
+          12
+        ],
+        [
+          10,
+          16,
+          13
+        ],
+        [
+          10,
+          16,
+          17
+        ],
+        [
+          10,
+          16,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ],
+        [
+          10,
+          16,
+          20
+        ],
+        [
+          10,
+          16,
+          21
+        ],
+        [
+          10,
+          16,
+          22
+        ],
+        [
+          10,
+          16,
+          23
+        ],
+        [
+          10,
+          17,
+          13
+        ],
+        [
+          10,
+          17,
+          17
+        ]
+      ],
+      "construction": {
+        "reason": "Raw proposed deck; independent evaluation determines compatibility",
+        "status": "candidate"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": true,
+        "envelope_voxels": 1155,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 0.0,
+          "spill": 0.0,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": true,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": 0.0,
+          "illegal_voxels": 0,
+          "material_voxels": 58,
+          "nonempty": true,
+          "zero_illegal_voxels": true
+        },
+        "material_ratio": 0.05021645128726959,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [
+        [
+          7,
+          13,
+          13
+        ],
+        [
+          7,
+          13,
+          14
+        ],
+        [
+          7,
+          13,
+          15
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          13,
+          17
+        ],
+        [
+          7,
+          14,
+          8
+        ],
+        [
+          7,
+          14,
+          9
+        ],
+        [
+          7,
+          14,
+          10
+        ],
+        [
+          7,
+          14,
+          11
+        ],
+        [
+          7,
+          14,
+          12
+        ],
+        [
+          7,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          16
+        ],
+        [
+          7,
+          14,
+          17
+        ],
+        [
+          7,
+          14,
+          18
+        ],
+        [
+          7,
+          14,
+          19
+        ],
+        [
+          7,
+          14,
+          20
+        ],
+        [
+          7,
+          14,
+          21
+        ],
+        [
+          7,
+          14,
+          22
+        ],
+        [
+          7,
+          14,
+          23
+        ],
+        [
+          7,
+          15,
+          8
+        ],
+        [
+          7,
+          15,
+          9
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          7,
+          15,
+          11
+        ],
+        [
+          7,
+          15,
+          12
+        ],
+        [
+          7,
+          15,
+          13
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          7,
+          15,
+          16
+        ],
+        [
+          7,
+          15,
+          17
+        ],
+        [
+          7,
+          15,
+          18
+        ],
+        [
+          7,
+          15,
+          19
+        ],
+        [
+          7,
+          15,
+          20
+        ],
+        [
+          7,
+          15,
+          21
+        ],
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          15,
+          23
+        ],
+        [
+          7,
+          16,
+          8
+        ],
+        [
+          7,
+          16,
+          9
+        ],
+        [
+          7,
+          16,
+          10
+        ],
+        [
+          7,
+          16,
+          11
+        ],
+        [
+          7,
+          16,
+          12
+        ],
+        [
+          7,
+          16,
+          13
+        ],
+        [
+          7,
+          16,
+          14
+        ],
+        [
+          7,
+          16,
+          15
+        ],
+        [
+          7,
+          16,
+          16
+        ],
+        [
+          7,
+          16,
+          17
+        ],
+        [
+          7,
+          16,
+          18
+        ],
+        [
+          7,
+          16,
+          19
+        ],
+        [
+          7,
+          16,
+          20
+        ],
+        [
+          7,
+          16,
+          21
+        ],
+        [
+          7,
+          16,
+          22
+        ],
+        [
+          7,
+          16,
+          23
+        ],
+        [
+          7,
+          17,
+          13
+        ],
+        [
+          7,
+          17,
+          14
+        ],
+        [
+          7,
+          17,
+          15
+        ],
+        [
+          7,
+          17,
+          16
+        ],
+        [
+          7,
+          17,
+          17
+        ]
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstruction",
+            "side": null,
+            "x": [
+              14,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              10,
+              11
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "A context beam leaves only 1.6 m clear above part of the deck.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-low-headroom",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "008197ef775ef3de581ff6c90a718ae6b13159b58461f7874beae3163eac265c",
+      "spatial": {
+        "approach_connected": false,
+        "clear_surface_area_m2": 27.52,
+        "floor_area_m2": 37.120000000000005,
+        "floor_cells_with_insufficient_clearance": 15,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 58,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": false,
+        "landing_area_m2": 16.0,
+        "landing_clear": false,
+        "landing_side_m": 4.0,
+        "layout_reason": null,
+        "layout_supported": true,
+        "material_context_collision_voxels": 0,
+        "material_voxels": 58,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": false,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 9
+      },
+      "surface_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": false,
+            "fraction_reached": 0.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": false
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": false,
+          "envelope_voxels": 756,
+          "families": {
+            "access": 1.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.00883597880601883,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": false,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": false,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 16,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.021164020523428917,
+          "material_voxels": 16,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.0001220703125,
+            "density_binary": 0.0,
+            "tv": 0.0015120967291295528
+          },
+          "route_feasible": false,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 16,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            22
+          ],
+          [
+            8,
+            15,
+            23
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            8,
+            16,
+            22
+          ],
+          [
+            8,
+            16,
+            23
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            15,
+            23
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            9,
+            16,
+            22
+          ],
+          [
+            9,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.0,
+          "floor_cells_with_insufficient_clearance": 0,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 16,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 16.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": null,
+          "layout_supported": true,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 16,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "blocked-span",
+      "centers_zyx": [
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ]
+      ],
+      "clearance_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          17
+        ],
+        [
+          9,
+          13,
+          13
+        ],
+        [
+          9,
+          13,
+          17
+        ],
+        [
+          9,
+          14,
+          8
+        ],
+        [
+          9,
+          14,
+          9
+        ],
+        [
+          9,
+          14,
+          10
+        ],
+        [
+          9,
+          14,
+          11
+        ],
+        [
+          9,
+          14,
+          12
+        ],
+        [
+          9,
+          14,
+          13
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          9,
+          14,
+          18
+        ],
+        [
+          9,
+          14,
+          19
+        ],
+        [
+          9,
+          14,
+          20
+        ],
+        [
+          9,
+          14,
+          21
+        ],
+        [
+          9,
+          14,
+          22
+        ],
+        [
+          9,
+          14,
+          23
+        ],
+        [
+          9,
+          15,
+          8
+        ],
+        [
+          9,
+          15,
+          9
+        ],
+        [
+          9,
+          15,
+          10
+        ],
+        [
+          9,
+          15,
+          11
+        ],
+        [
+          9,
+          15,
+          12
+        ],
+        [
+          9,
+          15,
+          13
+        ],
+        [
+          9,
+          15,
+          17
+        ],
+        [
+          9,
+          15,
+          18
+        ],
+        [
+          9,
+          15,
+          19
+        ],
+        [
+          9,
+          15,
+          20
+        ],
+        [
+          9,
+          15,
+          21
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          23
+        ],
+        [
+          9,
+          16,
+          8
+        ],
+        [
+          9,
+          16,
+          9
+        ],
+        [
+          9,
+          16,
+          10
+        ],
+        [
+          9,
+          16,
+          11
+        ],
+        [
+          9,
+          16,
+          12
+        ],
+        [
+          9,
+          16,
+          13
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          9,
+          16,
+          18
+        ],
+        [
+          9,
+          16,
+          19
+        ],
+        [
+          9,
+          16,
+          20
+        ],
+        [
+          9,
+          16,
+          21
+        ],
+        [
+          9,
+          16,
+          22
+        ],
+        [
+          9,
+          16,
+          23
+        ],
+        [
+          9,
+          17,
+          13
+        ],
+        [
+          9,
+          17,
+          17
+        ],
+        [
+          10,
+          13,
+          13
+        ],
+        [
+          10,
+          13,
+          17
+        ],
+        [
+          10,
+          14,
+          8
+        ],
+        [
+          10,
+          14,
+          9
+        ],
+        [
+          10,
+          14,
+          10
+        ],
+        [
+          10,
+          14,
+          11
+        ],
+        [
+          10,
+          14,
+          12
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          14,
+          17
+        ],
+        [
+          10,
+          14,
+          18
+        ],
+        [
+          10,
+          14,
+          19
+        ],
+        [
+          10,
+          14,
+          20
+        ],
+        [
+          10,
+          14,
+          21
+        ],
+        [
+          10,
+          14,
+          22
+        ],
+        [
+          10,
+          14,
+          23
+        ],
+        [
+          10,
+          15,
+          8
+        ],
+        [
+          10,
+          15,
+          9
+        ],
+        [
+          10,
+          15,
+          10
+        ],
+        [
+          10,
+          15,
+          11
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          10,
+          15,
+          13
+        ],
+        [
+          10,
+          15,
+          17
+        ],
+        [
+          10,
+          15,
+          18
+        ],
+        [
+          10,
+          15,
+          19
+        ],
+        [
+          10,
+          15,
+          20
+        ],
+        [
+          10,
+          15,
+          21
+        ],
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          23
+        ],
+        [
+          10,
+          16,
+          8
+        ],
+        [
+          10,
+          16,
+          9
+        ],
+        [
+          10,
+          16,
+          10
+        ],
+        [
+          10,
+          16,
+          11
+        ],
+        [
+          10,
+          16,
+          12
+        ],
+        [
+          10,
+          16,
+          13
+        ],
+        [
+          10,
+          16,
+          17
+        ],
+        [
+          10,
+          16,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ],
+        [
+          10,
+          16,
+          20
+        ],
+        [
+          10,
+          16,
+          21
+        ],
+        [
+          10,
+          16,
+          22
+        ],
+        [
+          10,
+          16,
+          23
+        ],
+        [
+          10,
+          17,
+          13
+        ],
+        [
+          10,
+          17,
+          17
+        ]
+      ],
+      "construction": {
+        "reason": "Raw proposed deck; independent evaluation determines compatibility",
+        "status": "candidate"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": false,
+        "envelope_voxels": 756,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.12586206197738647,
+          "ground": 0.0,
+          "legality": 0.0010223555145785213,
+          "sparsity": 0.0,
+          "spill": 0.0001843657810240984,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": true,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": 0.25862068965517243,
+          "illegal_voxels": 15,
+          "material_voxels": 58,
+          "nonempty": true,
+          "zero_illegal_voxels": false
+        },
+        "material_ratio": 0.05687830597162247,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [
+        [
+          7,
+          13,
+          13
+        ],
+        [
+          7,
+          13,
+          14
+        ],
+        [
+          7,
+          13,
+          15
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          13,
+          17
+        ],
+        [
+          7,
+          14,
+          8
+        ],
+        [
+          7,
+          14,
+          9
+        ],
+        [
+          7,
+          14,
+          10
+        ],
+        [
+          7,
+          14,
+          11
+        ],
+        [
+          7,
+          14,
+          12
+        ],
+        [
+          7,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          16
+        ],
+        [
+          7,
+          14,
+          17
+        ],
+        [
+          7,
+          14,
+          18
+        ],
+        [
+          7,
+          14,
+          19
+        ],
+        [
+          7,
+          14,
+          20
+        ],
+        [
+          7,
+          14,
+          21
+        ],
+        [
+          7,
+          14,
+          22
+        ],
+        [
+          7,
+          14,
+          23
+        ],
+        [
+          7,
+          15,
+          8
+        ],
+        [
+          7,
+          15,
+          9
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          7,
+          15,
+          11
+        ],
+        [
+          7,
+          15,
+          12
+        ],
+        [
+          7,
+          15,
+          13
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          7,
+          15,
+          16
+        ],
+        [
+          7,
+          15,
+          17
+        ],
+        [
+          7,
+          15,
+          18
+        ],
+        [
+          7,
+          15,
+          19
+        ],
+        [
+          7,
+          15,
+          20
+        ],
+        [
+          7,
+          15,
+          21
+        ],
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          15,
+          23
+        ],
+        [
+          7,
+          16,
+          8
+        ],
+        [
+          7,
+          16,
+          9
+        ],
+        [
+          7,
+          16,
+          10
+        ],
+        [
+          7,
+          16,
+          11
+        ],
+        [
+          7,
+          16,
+          12
+        ],
+        [
+          7,
+          16,
+          13
+        ],
+        [
+          7,
+          16,
+          14
+        ],
+        [
+          7,
+          16,
+          15
+        ],
+        [
+          7,
+          16,
+          16
+        ],
+        [
+          7,
+          16,
+          17
+        ],
+        [
+          7,
+          16,
+          18
+        ],
+        [
+          7,
+          16,
+          19
+        ],
+        [
+          7,
+          16,
+          20
+        ],
+        [
+          7,
+          16,
+          21
+        ],
+        [
+          7,
+          16,
+          22
+        ],
+        [
+          7,
+          16,
+          23
+        ],
+        [
+          7,
+          17,
+          13
+        ],
+        [
+          7,
+          17,
+          14
+        ],
+        [
+          7,
+          17,
+          15
+        ],
+        [
+          7,
+          17,
+          16
+        ],
+        [
+          7,
+          17,
+          17
+        ]
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstruction",
+            "side": null,
+            "x": [
+              14,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "A solid context partition intersects the proposed span.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-blocked-span",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "98e59957c401b75db04cf3d5b9c2633ca07e7dde5b72437e63133d1fb3e41019",
+      "spatial": {
+        "approach_connected": false,
+        "clear_surface_area_m2": 27.52,
+        "floor_area_m2": 37.120000000000005,
+        "floor_cells_with_insufficient_clearance": 15,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 58,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": false,
+        "landing_area_m2": 16.0,
+        "landing_clear": false,
+        "landing_side_m": 4.0,
+        "layout_reason": null,
+        "layout_supported": true,
+        "material_context_collision_voxels": 15,
+        "material_voxels": 58,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": false,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 9
+      },
+      "surface_zyx": [
+        [
+          8,
+          13,
+          13
+        ],
+        [
+          8,
+          13,
+          17
+        ],
+        [
+          8,
+          14,
+          8
+        ],
+        [
+          8,
+          14,
+          9
+        ],
+        [
+          8,
+          14,
+          10
+        ],
+        [
+          8,
+          14,
+          11
+        ],
+        [
+          8,
+          14,
+          12
+        ],
+        [
+          8,
+          14,
+          13
+        ],
+        [
+          8,
+          14,
+          17
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          8,
+          14,
+          19
+        ],
+        [
+          8,
+          14,
+          20
+        ],
+        [
+          8,
+          14,
+          21
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          15,
+          8
+        ],
+        [
+          8,
+          15,
+          9
+        ],
+        [
+          8,
+          15,
+          10
+        ],
+        [
+          8,
+          15,
+          11
+        ],
+        [
+          8,
+          15,
+          12
+        ],
+        [
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          15,
+          17
+        ],
+        [
+          8,
+          15,
+          18
+        ],
+        [
+          8,
+          15,
+          19
+        ],
+        [
+          8,
+          15,
+          20
+        ],
+        [
+          8,
+          15,
+          21
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          8,
+          15,
+          23
+        ],
+        [
+          8,
+          16,
+          8
+        ],
+        [
+          8,
+          16,
+          9
+        ],
+        [
+          8,
+          16,
+          10
+        ],
+        [
+          8,
+          16,
+          11
+        ],
+        [
+          8,
+          16,
+          12
+        ],
+        [
+          8,
+          16,
+          13
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          8,
+          16,
+          18
+        ],
+        [
+          8,
+          16,
+          19
+        ],
+        [
+          8,
+          16,
+          20
+        ],
+        [
+          8,
+          16,
+          21
+        ],
+        [
+          8,
+          16,
+          22
+        ],
+        [
+          8,
+          16,
+          23
+        ],
+        [
+          8,
+          17,
+          13
+        ],
+        [
+          8,
+          17,
+          17
+        ]
+      ]
+    },
+    {
+      "baseline": {
+        "clearance_zyx": [],
+        "legacy": {
+          "budget_range": [
+            0.03,
+            0.12
+          ],
+          "connectivity": {
+            "all_connected": true,
+            "fraction_reached": 1.0,
+            "metric_version": "binary_v1",
+            "neighborhood": 6,
+            "reached": {
+              "E_west": true
+            },
+            "source_id": "E_east",
+            "source_open": true
+          },
+          "context_valid": true,
+          "envelope_voxels": 1338,
+          "families": {
+            "access": 0.0,
+            "coverage": 0.0,
+            "facade": 0.0,
+            "ground": 0.0,
+            "legality": 0.0,
+            "sparsity": 0.0,
+            "spill": 0.0,
+            "support": 0.0,
+            "thickness": 0.0
+          },
+          "in_budget": true,
+          "interpretation": "Geometric proxies only; not walkability or mechanical safety.",
+          "joint_budget_connectivity": true,
+          "legality": {
+            "illegal_fraction": 0.0,
+            "illegal_voxels": 0,
+            "material_voxels": 41,
+            "nonempty": true,
+            "zero_illegal_voxels": true
+          },
+          "material_ratio": 0.03064274974167347,
+          "material_voxels": 41,
+          "metric_version": "binary_v1",
+          "objective_version": "research_objective_v1",
+          "regularizers": {
+            "cantilever_boundary": 0.000701904296875,
+            "density_binary": 0.0,
+            "tv": 0.004599294159561396
+          },
+          "route_feasible": true,
+          "support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 41,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          }
+        },
+        "material_zyx": [
+          [
+            6,
+            11,
+            9
+          ],
+          [
+            6,
+            12,
+            9
+          ],
+          [
+            6,
+            12,
+            10
+          ],
+          [
+            6,
+            12,
+            11
+          ],
+          [
+            6,
+            12,
+            12
+          ],
+          [
+            6,
+            12,
+            13
+          ],
+          [
+            6,
+            12,
+            14
+          ],
+          [
+            6,
+            12,
+            15
+          ],
+          [
+            6,
+            13,
+            9
+          ],
+          [
+            6,
+            14,
+            9
+          ],
+          [
+            6,
+            15,
+            9
+          ],
+          [
+            7,
+            15,
+            9
+          ],
+          [
+            8,
+            15,
+            8
+          ],
+          [
+            8,
+            15,
+            9
+          ],
+          [
+            8,
+            16,
+            8
+          ],
+          [
+            8,
+            16,
+            9
+          ],
+          [
+            9,
+            15,
+            8
+          ],
+          [
+            9,
+            15,
+            9
+          ],
+          [
+            9,
+            15,
+            10
+          ],
+          [
+            9,
+            15,
+            11
+          ],
+          [
+            9,
+            15,
+            12
+          ],
+          [
+            9,
+            15,
+            13
+          ],
+          [
+            9,
+            15,
+            14
+          ],
+          [
+            9,
+            15,
+            15
+          ],
+          [
+            9,
+            15,
+            16
+          ],
+          [
+            9,
+            15,
+            17
+          ],
+          [
+            9,
+            15,
+            18
+          ],
+          [
+            9,
+            15,
+            19
+          ],
+          [
+            9,
+            15,
+            20
+          ],
+          [
+            9,
+            15,
+            21
+          ],
+          [
+            9,
+            15,
+            22
+          ],
+          [
+            9,
+            16,
+            8
+          ],
+          [
+            9,
+            16,
+            9
+          ],
+          [
+            10,
+            15,
+            22
+          ],
+          [
+            10,
+            15,
+            23
+          ],
+          [
+            10,
+            16,
+            22
+          ],
+          [
+            10,
+            16,
+            23
+          ],
+          [
+            11,
+            15,
+            22
+          ],
+          [
+            11,
+            15,
+            23
+          ],
+          [
+            11,
+            16,
+            22
+          ],
+          [
+            11,
+            16,
+            23
+          ]
+        ],
+        "method": "budgeted_witness_v1",
+        "spatial": {
+          "approach_connected": false,
+          "clear_surface_area_m2": 0.0,
+          "floor_area_m2": 0.6400000000000001,
+          "floor_cells_with_insufficient_clearance": 1,
+          "floor_depth_m": 0.8,
+          "geometric_support": {
+            "interpretation": "geometric connectivity only",
+            "material_voxels": 41,
+            "nonempty": true,
+            "supported_fraction": 1.0,
+            "unsupported_voxels": 0
+          },
+          "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+          "landing_accessible": false,
+          "landing_area_m2": 0.0,
+          "landing_clear": false,
+          "landing_side_m": 4.0,
+          "layout_reason": "Different approach levels require another routing method",
+          "layout_supported": false,
+          "material_context_collision_voxels": 0,
+          "material_voxels": 41,
+          "required_headroom_m": 2.4000000000000004,
+          "required_width_m": 2.4000000000000004,
+          "spatial_gate": false,
+          "spec": {
+            "floor_depth_cells": 1,
+            "headroom_cells": 3,
+            "landing_cells": 5,
+            "surface_z": 8,
+            "version": "spatial_platform_v1",
+            "width_cells": 3
+          },
+          "street_band_clear": true,
+          "surface_elevation_m": 6.4,
+          "version": "spatial_platform_v1",
+          "width_qualified_centers": 0
+        },
+        "surface_zyx": []
+      },
+      "case": "split-levels",
+      "centers_zyx": [],
+      "clearance_zyx": [],
+      "construction": {
+        "reason": "Different approach levels require another routing method",
+        "status": "unsupported_layout"
+      },
+      "legacy": {
+        "connectivity": {
+          "all_connected": false,
+          "fraction_reached": 0.0,
+          "metric_version": "binary_v1",
+          "neighborhood": 6,
+          "reached": {
+            "E_west": false
+          },
+          "source_id": "E_east",
+          "source_open": false
+        },
+        "context_valid": true,
+        "envelope_voxels": 1338,
+        "families": {
+          "access": 1.0,
+          "coverage": 1.0,
+          "facade": 0.0,
+          "ground": 0.0,
+          "legality": 0.0,
+          "sparsity": 0.029999999329447746,
+          "spill": 0.0,
+          "support": 0.0,
+          "thickness": 0.0
+        },
+        "in_budget": false,
+        "joint_budget_connectivity": false,
+        "legality": {
+          "illegal_fraction": null,
+          "illegal_voxels": 0,
+          "material_voxels": 0,
+          "nonempty": false,
+          "zero_illegal_voxels": true
+        },
+        "material_ratio": 0.0,
+        "metric_version": "binary_v1",
+        "objective_version": "research_objective_v1"
+      },
+      "material_zyx": [],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "Approaches at different heights; unsupported by this level-deck constructor.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 10
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "New single-level external approach scene; not a held-out test site."
+        ],
+        "scene_id": "sp1-split-levels",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "scene_hash": "2bcdad6ff9d97002ff8d08d6bf9c96d0439dd24cd47b623b062404d8eef494a4",
+      "spatial": {
+        "approach_connected": false,
+        "clear_surface_area_m2": 0.0,
+        "floor_area_m2": 0.0,
+        "floor_cells_with_insufficient_clearance": 0,
+        "floor_depth_m": 0.8,
+        "geometric_support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 0,
+          "nonempty": false,
+          "supported_fraction": null,
+          "unsupported_voxels": 0
+        },
+        "interpretation": "Single-level external approach connectivity for a square footprint, clear landing, collision-free floor and geometric attachment. Not interior access, stairs, accessibility-code compliance or structural safety.",
+        "landing_accessible": false,
+        "landing_area_m2": 0.0,
+        "landing_clear": false,
+        "landing_side_m": 4.0,
+        "layout_reason": "Different approach levels require another routing method",
+        "layout_supported": false,
+        "material_context_collision_voxels": 0,
+        "material_voxels": 0,
+        "required_headroom_m": 2.4000000000000004,
+        "required_width_m": 2.4000000000000004,
+        "spatial_gate": false,
+        "spec": {
+          "floor_depth_cells": 1,
+          "headroom_cells": 3,
+          "landing_cells": 5,
+          "surface_z": 8,
+          "version": "spatial_platform_v1",
+          "width_cells": 3
+        },
+        "street_band_clear": true,
+        "surface_elevation_m": 6.4,
+        "version": "spatial_platform_v1",
+        "width_qualified_centers": 0
+      },
+      "surface_zyx": []
+    }
+  ],
+  "checkpoint_weights_used": false,
+  "config_source_checkpoint": "v31_fixed_geometry.pth",
+  "interpretation": "Illustrative development cases and semantic audit only. New spatial gate is not comparable to old material-access scores or a complete architectural validity claim.",
+  "run_id": "20260924T073056Z_db9cf854c9e3",
+  "spec": {
+    "floor_depth_cells": 1,
+    "headroom_cells": 3,
+    "landing_cells": 5,
+    "surface_z": 8,
+    "version": "spatial_platform_v1",
+    "width_cells": 3
+  },
+  "training": false,
+  "version": "spatial_platform_v1"
+}

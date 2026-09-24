@@ -1,0 +1,95 @@
+{
+  "aligned": {
+    "floor_area_m2": 37.12,
+    "landing_area_m2": 16,
+    "legacy_access": 1,
+    "legacy_coverage": 1,
+    "legacy_ratio": 0.048013243824243546,
+    "material_voxels": 58,
+    "remaining_seven_family_penalties": 0,
+    "spatial_gate": true
+  },
+  "artifact_location": ".local-artifacts/spatial-qa/SP1-20260924",
+  "cases": [
+    {
+      "case": "aligned",
+      "legacy_budget": true,
+      "legacy_joint": false,
+      "spatial_gate": true,
+      "w1_spatial_gate": false
+    },
+    {
+      "case": "narrow-deck",
+      "legacy_budget": false,
+      "legacy_joint": false,
+      "spatial_gate": false,
+      "w1_spatial_gate": false
+    },
+    {
+      "case": "missing-floor",
+      "legacy_budget": true,
+      "legacy_joint": false,
+      "spatial_gate": false,
+      "w1_spatial_gate": false
+    },
+    {
+      "case": "low-headroom",
+      "legacy_budget": true,
+      "legacy_joint": false,
+      "spatial_gate": false,
+      "w1_spatial_gate": false
+    },
+    {
+      "case": "blocked-span",
+      "legacy_budget": true,
+      "legacy_joint": false,
+      "spatial_gate": false,
+      "w1_spatial_gate": false
+    },
+    {
+      "case": "split-levels",
+      "legacy_budget": false,
+      "legacy_joint": false,
+      "spatial_gate": false,
+      "w1_spatial_gate": false
+    }
+  ],
+  "checks": [
+    "Both RunStore artifact manifests verify.",
+    "Served study bytes match retained run study exactly.",
+    "All six saved spatial reports and surface/center/clearance coordinates recompute exactly.",
+    "Legacy audit parity with existing W1 tested independently.",
+    "Six expected outcomes match: positive pass, five negative/unsupported cases fail. W1 fails spatial gate in all six cases.",
+    "Browser case selectors, plan/section/axonometric views, clear-volume/context toggles and all nine-score expansion verified.",
+    "Studio-to-prototype and return links work; page reload after server restart works.",
+    "390x844 mobile layout settles to document width375; content/table widths344 fit, no horizontal overflow.",
+    "Desktop, negative headroom section and mobile screenshots inspected. Final browser warn/error logs empty."
+  ],
+  "date": "2026-09-24",
+  "errors": 0,
+  "failures": 0,
+  "gallery_source_sha256": "c1c0e78413a73fbb4ec6ad9cbef59edd712124f5f8c59bd4d433ae377f431f54",
+  "limits": "Single-level aligned external approaches, coarse voxel floor, no structural/interior/vertical circulation claim. Illustrative development set. Gallery is a saved study, not arbitrary-scene generation or learned output.",
+  "observations": [
+    "Initial axonometric camera cropped the top of context buildings; revised fit and section scale before final screenshots.",
+    "One checkbox interaction immediately after viewport reset failed to change state. Inspected fresh visible state and retried successfully.",
+    "Initial mobile screenshot was taken during viewport settling; subsequent measured layout and final screenshot fit the viewport.",
+    "Get-NetTCPConnection was denied by sandbox. Existing owned server session was stopped, then restarted successfully with no access logging.",
+    "No failed scientific runs or regression tests in SP1; negative geometries are expected retained controls, not hidden failures."
+  ],
+  "regression_run": "20260924T072445Z_e8fffe7ec74b",
+  "run_id": "20260924T073056Z_db9cf854c9e3",
+  "screenshots": {
+    "desktop-axonometric.png": "826dd38e745a1aac4464b07663b4f778b12275722a263a80ff643d996dd36a54",
+    "desktop-final.png": "bdee26662f2ef37e03f36e51400e2d083d69798a7ee1b6b25aa9cad35fa18ee4",
+    "headroom-section.png": "71d93817442d632c4ce2ad98d76d1a2b725e4b63ee3b7f5198d7817be7f779ce",
+    "mobile-final.png": "5478387d1e809fea2dd2bb8827c9872a3a3a68b2e524495a77e4b1f6f3aaf6f0",
+    "mobile-plan.png": "3bf6bad5b0b3eebb9d7178e040dc95ddb7b65f3129eae03ffc9f9df2ef083d07"
+  },
+  "skipped": 0,
+  "smoke_exit_code": 0,
+  "study_sha256": "e863c623a43c0a2bbae963921400242182e5249635352034fc44abd62aaa44f9",
+  "tests": 236,
+  "training": false,
+  "version": "SP1-verification-v1"
+}

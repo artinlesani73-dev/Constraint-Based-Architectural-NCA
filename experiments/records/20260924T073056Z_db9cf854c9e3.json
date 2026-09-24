@@ -1,0 +1,43 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T073056Z_db9cf854c9e3",
+  "config": {
+    "cases": [
+      "aligned",
+      "narrow-deck",
+      "missing-floor",
+      "low-headroom",
+      "blocked-span",
+      "split-levels"
+    ],
+    "expected_spatial_gate": {
+      "aligned": true,
+      "blocked-span": false,
+      "low-headroom": false,
+      "missing-floor": false,
+      "narrow-deck": false,
+      "split-levels": false
+    },
+    "floor_depth_cells": 1,
+    "grid_size": 32,
+    "headroom_cells": 3,
+    "landing_cells": 5,
+    "note": "Hand-designed development examples. Chosen dimensions are research targets, not building-code or structural requirements. Legacy budget and all nine losses remain unchanged. Negative candidates and unsupported layouts must be retained.",
+    "purpose": "Single-level procedural spatial semantics and legacy compatibility audit",
+    "random_seed": 0,
+    "surface_z": 8,
+    "training": false,
+    "version": "spatial_platform_v1",
+    "voxel_size_m": 0.8,
+    "width_cells": 3
+  },
+  "drive_backup": "pending",
+  "metrics": {
+    "baseline_spatial_passes": 0,
+    "cases": 6,
+    "expected_outcomes_matched": true,
+    "spatial_passes": 1,
+    "wall_seconds": 8.492910400032997
+  },
+  "run_id": "20260924T073056Z_db9cf854c9e3",
+  "status": "completed"
+}

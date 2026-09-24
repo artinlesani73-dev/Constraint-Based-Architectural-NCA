@@ -1,0 +1,16 @@
+{
+  "version": "spatial_platform_v1",
+  "purpose": "Single-level procedural spatial semantics and legacy compatibility audit",
+  "training": false,
+  "random_seed": 0,
+  "grid_size": 32,
+  "voxel_size_m": 0.8,
+  "surface_z": 8,
+  "width_cells": 3,
+  "landing_cells": 5,
+  "headroom_cells": 3,
+  "floor_depth_cells": 1,
+  "cases": ["aligned", "narrow-deck", "missing-floor", "low-headroom", "blocked-span", "split-levels"],
+  "expected_spatial_gate": {"aligned": true, "narrow-deck": false, "missing-floor": false, "low-headroom": false, "blocked-span": false, "split-levels": false},
+  "note": "Hand-designed development examples. Chosen dimensions are research targets, not building-code or structural requirements. Legacy budget and all nine losses remain unchanged. Negative candidates and unsupported layouts must be retained."
+}

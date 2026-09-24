@@ -854,3 +854,22 @@ failed probes and observations are retained. Full backend verification preceded
 that frontend-only fix; actual browser round trip verifies final frontend.
 No scientific objective/model/reference scene/historical serving edits; no paid
 training, Drive access, push or publication. Private report remains Git-ignored.
+
+
+## 2026-09-24 - SP1 spatial platform prototype
+
+Added nca/spatial.py with a deterministic level-deck constructor and independent
+floor/headroom/footprint/landing evaluation. Added frozen SP1 recipe, append-only
+six-case runner and12 spatial regressions. Existing objectives and models untouched.
+Full236-test pass; SP1 expected outcomes all match. All raw candidates, including
+collisions and unsupported levels, plus paired W1 fields and nine-family scores
+are retained. Old access/coverage conflict with the positive clear-space example.
+
+Added saved-study gallery linked from Studio: three actual geometry views,
+material/surface/air distinction, six selectable examples, separate metric tables,
+context/clear-volume controls and mobile layout. Initial camera cropped context
+tops; corrected before final visual check. A checkbox operation immediately after
+viewport reset failed once; fresh-state retry worked. Port inspection was denied
+by sandbox; restarted the owned server session successfully. No failed scientific
+or regression run. Updated specification, findings, decision and resume records.
+No paid training, Drive access, public hosting or push; private reports stay ignored.

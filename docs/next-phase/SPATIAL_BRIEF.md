@@ -56,3 +56,12 @@ Next concrete deliverable: a short illustrated spatial contract with candidate
 representation, dimensions, within-family metric mapping, compatibility audit and
 procedural examples. Then revise/freeze the task and only subsequently consider
 the gated Colab pilot. No additional paid compute or Drive action is needed now.
+
+
+## SP1 completed - 2026-09-24
+
+The user approved the local spatial prototype. SPATIAL_PLATFORM_SPEC.md and
+SPATIAL_PLATFORM_FINDINGS.md record the concrete versioned brief and results;
+D056 records the decision. The original proposal above remains historical.
+One-level derived surface/void masks work for the declared example. Old occupied
+access/coverage targets still conflict with it; resolve that before training.

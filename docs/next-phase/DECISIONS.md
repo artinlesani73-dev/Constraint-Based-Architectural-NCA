@@ -873,3 +873,19 @@ a spatial contract before training/refinement controls; retain D026 and the nine
 families. Future metric/representation changes require versioned definitions and
 geometric examples. No additional experiment series is automatically authorized
 by the UI milestone. No paid compute, Drive access, push or public deployment.
+
+
+## D056 - Establish a spatial prototype before learned refinement
+
+2026-09-24. User approved the proposed next spatial prototype. Freeze
+spatial_platform_v1:2.4m-wide level platform,4x4m landing,2.4m headroom on0.8m
+cells. Keep one material field and derive floor/surface/clear-volume masks for
+this bounded case. Retain historical nine-family scores and budget unchanged.
+New within-family diagnostics are separately versioned, not a tenth objective.
+
+SP120260924T073056Z_db9cf854c9e3 yields the expected positive and five negatives;
+236 regression tests pass. Positive platform passes spatial gate and old budget,
+but old access/coverage both1.0; W1 passes all old penalties yet fails spatial gate.
+Document semantic conflict before replacing any training target. No trained NCA,
+generalization, structural safety, interior circulation or full M4 completion claim.
+Gallery displays saved examples only. No paid compute, Drive operation or push.

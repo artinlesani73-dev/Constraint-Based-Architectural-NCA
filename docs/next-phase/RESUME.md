@@ -1,5 +1,43 @@
 # Resume the NCA next phase
 
+## Current: SP1 spatial prototype completed - 2026-09-24
+
+Read SPATIAL_PLATFORM_SPEC.md, SPATIAL_PLATFORM_FINDINGS.md, D056 and
+experiments/reports/SP1-verification.json. These supersede older current notes.
+No training or tests active. Studio server PID3028/session45515 on8001; old
+PID19444/session43924 stopped. Current launch from project cwd:
+`.venv/Scripts/python.exe -m uvicorn deploy.studio:app --host 127.0.0.1 --port 8001 --no-access-log`.
+Inspect owned process/listener before restarting. One server worker only.
+
+Gallery http://127.0.0.1:8001/static/spatial/index.html is linked from Studio.
+It displays saved SP1 examples, not arbitrary-scene construction or trained NCA.
+Positive level deck2.4m wide with4x4m landing/2.4m clear height meets spatial gate.
+Five designed negatives/unsupported cases fail as expected. W1 fails spatial gate
+on all six. Positive deck58voxels/37.12m²/4.8013% old-envelope budget, but old access
+and coverage penalties1.0 each. Old metrics and original model unchanged.
+
+Study20260924T073056Z_db9cf854c9e3:8.49s,all expected outcomes, exact source and
+all paired fields/masks/scenes/diagnostics retained. Served study.json byte-matches.
+Regression20260924T072445Z_e8fffe7ec74b:236passed,0fail/error/skip,smoke0,119.32s.
+12 independent spatial tests. Subsequent frontend camera/layout changes visually
+checked. Both RunStore manifests verify; all saved spatial reports/masks recompute.
+QA .local-artifacts/spatial-qa/SP1-20260924 holds screenshots and exact final UI.
+
+Next: clarify external approaches versus doors/interior access, then specify and
+audit versioned spatial access/coverage targets on saved positive/negative fields.
+No automatic learning, bigger grid, new constraint family or paid Colab launch.
+Keep historical losses and comparisons; new gate is a separate geometric contract.
+
+Local commit title: "Add evaluated spatial platform prototype and comparison gallery".
+Post-commit incremental archive outputs/NCA-Spatial-SP1-Backup-2026-09-24-<commit7>.zip
+under Codex cwd; completion receipt .local-artifacts/milestones/<commit7>-spatial-sp1-backup-receipt.json.
+Verify receipt before claiming completion. Helper Codex cwd work/package_spatial_sp1.py
+uses exclusive writes. If interrupted inspect files/processes, never overwrite.
+Retain S2 archive3391fef, S1 archive8c51590 and full F5 archive8f2d8d6 for older evidence.
+Same-disk archive only. No Drive access, push, public hosting or paid training.
+Private report ignored; unrelated concept HTML and M1 ZIP sidecar stay untracked.
+
+
 ## Current: Studio S2 implemented and verified - 2026-09-24
 
 Read STUDIO_S2.md, SPATIAL_BRIEF.md, D055 and S2-studio-verification.json.

@@ -363,3 +363,16 @@ Next: SPATIAL_BRIEF.md. Define material versus usable surface/void with illustra
 positive/negative examples and a compatibility audit within the same nine families.
 The user's thin-element observation makes this a prerequisite to the proposed
 planner/refiner learning task. Do not automatically restart F5 or launch Colab.
+
+
+## Current implementation - 2026-09-24, SP1 spatial prototype complete
+
+Read SPATIAL_PLATFORM_SPEC.md/FINDINGS.md and D056. Local gallery compares six
+saved paired examples with actual plan/section/axonometric geometry.236 checks
+pass; positive spatial example and five expected negative/unsupported outcomes.
+Historical access/coverage conflict with the clear-space interpretation despite
+the positive deck meeting the unchanged material budget.
+
+Next: specify approach/door/interior semantics, then a versioned spatial access
+and coverage target audit on saved geometry. Preserve nine families and all old
+metrics. No training or arbitrary-scene platform integration is claimed yet.
