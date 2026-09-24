@@ -873,3 +873,21 @@ viewport reset failed once; fresh-state retry worked. Port inspection was denied
 by sandbox; restarted the owned server session successfully. No failed scientific
 or regression run. Updated specification, findings, decision and resume records.
 No paid training, Drive access, public hosting or push; private reports stay ignored.
+
+
+## 2026-09-24 - Corrected volumetric target and VA1 audit
+
+Recorded user's rejection of the flat-platform interpretation and clarified that
+volumes/spatial voids need no room/shelter program. Updated AGENTS, D057, PLAN,
+RESUME and superseded-target notices while retaining all earlier results.
+Added separate descriptive volumetric evaluator, nine fixed equal-context probes,
+frozen recipe and append-only runner with effective config/checkpoint/source hashes.
+Added12 tests; full248 pass. Audit13.08s, all analytic/parity checks pass. Exact
+recomputation of all fields/masks/old scores and source verification pass.
+
+Added volume-study gallery with paired selection, cutaway, vertical/horizontal
+slices, context/void visibility and separate nine-family table. Updated Studio
+navigation; SP1 remains available as historical diagnostic. First SP1 navigation
+did not show latest notice; fresh query navigation confirmed new content/link.
+Desktop/mobile visuals and controls verified. No failed scientific run, old loss
+edit, model promotion, paid training, Drive operation, remote push or publication.

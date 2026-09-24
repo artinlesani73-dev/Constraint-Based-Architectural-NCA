@@ -122,3 +122,11 @@ steps above: define the desired surface/void/material semantics and demonstrate
 spatially meaningful procedural controls before freezing a refiner task. Existing
 scalar-field and budget assumptions above remain hypotheses pending that audit;
 no silent redefinition of historical metrics or new constraint family is accepted.
+
+
+## Scope correction - D057, 2026-09-24
+
+This earlier platform/refinement direction is superseded as the research target.
+The user clarified volumetric forms with spatial depth and voids, without prescribed
+rooms, shelters or functions. Preserve this document as diagnostic/history. Current
+scope and next work: VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.

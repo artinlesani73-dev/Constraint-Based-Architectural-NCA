@@ -68,3 +68,11 @@ the same saved fields first, including the negatives, with the old metrics retai
 Audit feasibility and differentiability before a learned refiner experiment.
 Do not start a new training series, merely extend the grid, or treat this one-level
 gallery as completion of the larger architectural-generator objective.
+
+
+## Scope correction - D057, 2026-09-24
+
+This earlier platform/refinement direction is superseded as the research target.
+The user clarified volumetric forms with spatial depth and voids, without prescribed
+rooms, shelters or functions. Preserve this document as diagnostic/history. Current
+scope and next work: VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.

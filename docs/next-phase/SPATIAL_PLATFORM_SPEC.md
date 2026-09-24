@@ -125,3 +125,11 @@ working bytes; checkpoint weights are not used, only authoritative configuration
 Next admission gate: review the spatial example, clarify interior/door/vertical
 access requirements and audit incompatible old families before any learning.
 Do not start Colab merely because a procedural example passes this spatial gate.
+
+
+## Scope correction - D057, 2026-09-24
+
+This earlier platform/refinement direction is superseded as the research target.
+The user clarified volumetric forms with spatial depth and voids, without prescribed
+rooms, shelters or functions. Preserve this document as diagnostic/history. Current
+scope and next work: VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.

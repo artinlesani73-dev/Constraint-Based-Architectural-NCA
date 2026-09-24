@@ -1,5 +1,57 @@
 # Resume the NCA next phase
 
+## Current: corrected volumetric target and VA1 audit complete - 2026-09-24
+
+Read D057, VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.
+User target: volumetric forms with spatial depth and voids, without prescribed
+rooms/shelters/functions. SP1 platform and assistant's later room-program framing
+are superseded. AGENTS records this. Do not resume platform optimization by default.
+
+VA120260924T085504Z_36c834017633:9 fields,13.08s,no training,all16 checks pass.
+Equal512-cell slab/solid have0 bracketed void; hollow has784. Thin hollow forms
+have thickness0 but conflict with old material budget/occupied-route targets.
+This is a fixed-field diagnostic, not trained/generalization evidence or a
+universal space-quality score. Open/closed voids and context closure are separate.
+All old nine-family definitions and model files remain unchanged.
+
+Regression20260924T085027Z_d8c033bd285c:248passed,0fail/error/skip,smoke0,
+119.23s. All nine saved geometry diagnostics/old scores/masks exactly recompute;
+source/checkpoint/config hashes and both RunStore manifests verify. See
+experiments/reports/VA1-verification.json and .local-artifacts/volume-qa/VA1-20260924.
+Static served study bytes match the retained audit. Final gallery source and
+desktop/equal-mass-slice/mobile screenshots are in QA.
+
+Studio http://127.0.0.1:8001/static/volume/index.html. Restarted server PID20784,
+session91597; old PID3028/session45515 stopped. Run from project cwd with
+`.venv/Scripts/python.exe -m uvicorn deploy.studio:app --host 127.0.0.1 --port 8001 --no-access-log`.
+Check process before restart; one worker only. No training/test active. Gallery
+uses saved analytical probes, not arbitrary-scene generation or trained NCA.
+
+Next bounded work: a candidate-independent physical3D opportunity region and
+versioned access/coverage/material-budget contract audit. Retain nine families,
+counterexamples and historical metrics. No automatic new loss-training series,
+new backbone, larger grid, paid Colab or Drive operation.
+
+Local commit title: "Document volumetric target and add material-void objective audit".
+Post-commit archive: Codex cwd outputs/NCA-Volume-VA1-Backup-2026-09-24-<commit7>.zip.
+Completion receipt .local-artifacts/milestones/<commit7>-volume-va1-backup-receipt.json.
+Helper Codex cwd work/package_volume_va1.py uses exclusive writes; inspect existing
+files/processes before retry. Retain SP1ec8fa1b,S23391fef,S18c51590 and fullF58f2d8d6
+archives for prior evidence. Same-disk only. Private report remains ignored;
+unrelated concept HTML/M1 sidecar remain untracked. No push/publication/Drive access.
+
+
+## Current: corrected volumetric target; VA1 audit in progress - 2026-09-24
+
+User clarified the target is volumetric form with spatial depth and voids, without
+predefined shelter/room functions. SP1's flat platform is a diagnostic only; the
+assistant's subsequent room/shelter framing is also superseded. Follow
+VOLUMETRIC_AUDIT_PROTOCOL.md. Implement nca/volumetric.py, fixed probes, regression
+and run_volumetric_audit.py; preserve all source and results. New diagnostics are
+descriptive, not a tenth constraint or a frozen training loss. No training/Colab.
+Check running processes/run directories before continuing. Final result entry
+will supersede this in-progress entry when verified.
+
 ## Current: SP1 spatial prototype completed - 2026-09-24
 
 Read SPATIAL_PLATFORM_SPEC.md, SPATIAL_PLATFORM_FINDINGS.md, D056 and

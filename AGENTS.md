@@ -4,6 +4,7 @@ Read `docs/next-phase/RESUME.md` first, then `PLAN.md`, `DECISIONS.md`, and `CHA
 
 ## User requirements
 
+- The research target is volumetric form with spatial depth and voids within/between its parts, without prescribed rooms, shelters or architectural functions (D057). The flat SP1 platform is a historical diagnostic, not the target. Do not reinterpret the goal as a fixed room program or equate more solid material/bounding extent with spatial quality.
 - Preserve the nine existing constraint families. Improve their meaning and implementation; do not introduce additional constraint categories without a new user decision.
 - Document every meaningful change, experiment, failure, and decision. Record limitations as well as successful results.
 - Never delete or overwrite historical experiment evidence to make a run look successful. New attempts get new run IDs and link to the previous attempt.

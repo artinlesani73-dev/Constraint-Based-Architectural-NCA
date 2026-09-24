@@ -1,0 +1,12 @@
+{
+  "version": "volumetric_audit_v1",
+  "training": false,
+  "random_seed": 0,
+  "grid_size": 32,
+  "voxel_size_m": 0.8,
+  "analysis_region_zyx": [[6, 19], [8, 24], [8, 24]],
+  "clearance_cube_widths": [1, 3, 5],
+  "cases": ["empty", "w1_scaffold", "sp1_platform", "slab_512", "solid_512", "open_ends_512", "side_aperture_487", "closed_shell_610", "extent_decoy_8"],
+  "expected_material_counts": {"empty": 0, "sp1_platform": 58, "slab_512": 512, "solid_512": 512, "open_ends_512": 512, "side_aperture_487": 487, "closed_shell_610": 610, "extent_decoy_8": 8},
+  "note": "Hand-constructed geometric audit. No overall quality score or new training constraint. Old nine families and route-derived budget denominator stay unchanged."
+}

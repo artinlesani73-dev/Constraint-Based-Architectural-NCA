@@ -889,3 +889,27 @@ but old access/coverage both1.0; W1 passes all old penalties yet fails spatial g
 Document semantic conflict before replacing any training target. No trained NCA,
 generalization, structural safety, interior circulation or full M4 completion claim.
 Gallery displays saved examples only. No paid compute, Drive operation or push.
+
+## D057 - Correct the target to volumetric form and spatial voids
+
+2026-09-24. User: "our experiment is about volumes. and this is too flat to have
+spaces inside." The target is three-dimensional material organization containing
+or articulating spatial voids, without prescribed rooms, shelters or functions.
+The platform interpretation was too narrow. Keep SP1 as a diagnostic, not the
+accepted design target. The assistant's proposed room/roof/wall program is not
+adopted. Both historical suggestions remain documented as superseded.
+
+User authorized documenting the correction and moving forward. VA1 audits fixed
+material/void probes and unchanged nine-family objectives before another training
+proposal. Equal-mass and bounding-box controls distinguish extent, material amount
+and void formation. Open voids are allowed; sealed cavities alone are insufficient
+as the target. Do not introduce a tenth family, artificial room program, aggregate
+space-quality score or automatic paid training. Follow VOLUMETRIC_AUDIT_PROTOCOL.md.
+
+
+VA1 outcome for D057: run20260924T085504Z_36c834017633 confirms equal512-cell
+slab/block/hollow fields differ in spatial void despite equal mass. Hollow-probe
+thickness penalties0; budget and occupied-route conflicts remain.248 checks pass.
+Keep single material field initially while defining the volumetric objective/domain
+contract; no trained representation claim. VOLUMETRIC_NEXT_PHASE.md is the next
+bounded proposal. All descriptive diagnostics remain separate from training losses.

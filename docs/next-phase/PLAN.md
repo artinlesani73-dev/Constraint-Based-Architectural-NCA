@@ -376,3 +376,16 @@ the positive deck meeting the unchanged material budget.
 Next: specify approach/door/interior semantics, then a versioned spatial access
 and coverage target audit on saved geometry. Preserve nine families and all old
 metrics. No training or arbitrary-scene platform integration is claimed yet.
+
+
+## Current - 2026-09-24: volumetric target corrected; VA1 complete
+
+D057 supersedes SP1 as the design target. The user wants volumetric form and
+spatial voids without prescribed architectural functions. Platform and later
+room/shelter interpretations are not adopted. Preserve SP1 as a diagnostic.
+Read VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md. Nine saved-field
+probes,248 regression tests, exact recomputation and browser checks pass.
+
+Next: candidate-independent 3D physical opportunity region and versioned
+access/coverage/budget contract audit, retaining nine families and old metrics.
+No automatic model, representation, grid-size or paid-training change.

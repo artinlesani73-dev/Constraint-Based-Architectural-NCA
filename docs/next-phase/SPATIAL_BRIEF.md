@@ -65,3 +65,11 @@ SPATIAL_PLATFORM_FINDINGS.md record the concrete versioned brief and results;
 D056 records the decision. The original proposal above remains historical.
 One-level derived surface/void masks work for the declared example. Old occupied
 access/coverage targets still conflict with it; resolve that before training.
+
+
+## Scope correction - D057, 2026-09-24
+
+This earlier platform/refinement direction is superseded as the research target.
+The user clarified volumetric forms with spatial depth and voids, without prescribed
+rooms, shelters or functions. Preserve this document as diagnostic/history. Current
+scope and next work: VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.
