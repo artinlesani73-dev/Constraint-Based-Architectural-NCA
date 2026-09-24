@@ -983,3 +983,25 @@ Linked audit20260924T102755Z_e89550a24d8d passes96 checks in93.23s. All48 base r
 sensitivity reports are identical to initial audit20260924T101444Z_3d8c5504cb9e. Both revisions,
 source snapshots and verification reports remain preserved. No numerical tuning.
 Final report: MT1-final-verification.json. No training, Drive operation or push.
+
+
+## D061 - Adopt review revision R2 without rewriting historical evidence
+
+2026-09-24. User agreed to a dated findings addendum and updated implementation
+brief. RESEARCH_BRIEF_R2.md governs future planning with D058 building occupancy
+and D060's provisional binary evaluator. Original review markdown/PDF remain
+unchanged; Revision 2 markdown/PDF remain local and ignored. The addendum is local
+evidence synthesis, not new literature research or an experimental result.
+
+Close the older material investigation as historical evidence; F5 66/72 connected
+and 0/72 joint outcomes do not transfer to massing. Retain the nine families and
+all original definitions/results. Prioritize R2-A parameterized procedural mass
+alternatives and R2-B independently evaluated direct optimization before R2-C.
+Any learned pilot needs a frozen measurable benefit, comparison and stopping rule;
+NCA, wider channels and multiscale processing are conditional methods, not promises.
+Product and scaling remain parallel goals with explicit measurable completion
+criteria. Current MT1 examples are controls, not trained generation or generalization.
+
+Document review-only changes and verify original hashes, ignored files, PDF and
+local archive. No science code, checkpoint, objective, threshold or gallery changed;
+no regression rerun needed. No paid compute, Drive operation, push or publication.

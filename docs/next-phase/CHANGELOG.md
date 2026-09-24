@@ -961,3 +961,19 @@ Linked audit20260924T102755Z_e89550a24d8d passes96 checks in93.23s. All48 base r
 sensitivity reports are identical to initial audit20260924T101444Z_3d8c5504cb9e. Both revisions,
 source snapshots and verification reports remain preserved. No numerical tuning.
 Final report: MT1-final-verification.json. No training, Drive operation or push.
+
+
+## 2026-09-24 - Review Revision 2 and governing research brief
+
+Created private dated markdown/PDF findings addendum while retaining the original
+review unchanged. Added tracked RESEARCH_BRIEF_R2.md and D061; prepended governing
+status to PLAN/RESUME and an explicit current-scope notice to the historical
+PLANNER_REFINER_SPEC. Preserve all earlier text and experiment history.
+
+Reconciled building-mass semantics, closed material experiments, provisional MT1
+checks, delivered Studio work and remaining product/scaling tasks. Recorded bounded
+procedural/direct/conditional-NCA sequence and measurable success/stop requirements.
+The addendum synthesizes local evidence, without new research/benchmark claims.
+Documentation/PDF integrity and visual checks accompany the milestone archive;
+latest scientific regression remains 275 passes. No model, code, losses, viewer,
+old records or private original report edits. No Drive access, paid training or push.

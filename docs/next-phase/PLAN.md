@@ -1,5 +1,18 @@
 # Next-phase implementation plan
 
+## Governing update - R2 / D061, 2026-09-24
+
+Read RESEARCH_BRIEF_R2.md. The user approved a revised review based on findings.
+Building mass is the accepted output; prior material/platform/void-first directions
+and older milestone status labels below are historical. The original private report
+is preserved; its dated Revision 2 addendum is local and ignored.
+
+Next: R2-A procedural mass alternatives with a frozen finite benchmark and complete
+retained outcomes; R2-B separate continuous-objective/direct-optimization control;
+R2-C learned pilot only after a specific measurable benefit and stop rule are frozen.
+Product integration runs alongside this sequence. Scaling and paid Colab remain
+gated. MT1 is the latest completed science milestone; this is documentation only.
+
 ## Active milestone - MT1 complete, 2026-09-24
 
 D060 and MASSING_TARGETS_FINDINGS.md record the pilot binary nine-family contract:

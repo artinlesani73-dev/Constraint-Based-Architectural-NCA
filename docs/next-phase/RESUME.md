@@ -1,5 +1,26 @@
 # Resume the NCA next phase
 
+## Current: review revision R2 adopted - 2026-09-24
+
+Read RESEARCH_BRIEF_R2.md and D061 first, then MT1 protocol/findings below.
+The user approved aligning the original review with measured findings and D058's
+building-mass meaning. Private Revision 2 markdown/PDF dated 2026-09-24 supplement
+the unchanged original files and remain Git-ignored. R2-A procedural mass generation
+and a finite benchmark specification are next; no new generator/training started.
+R2-B direct optimization and R2-C conditional learning follow explicit gates.
+Do not resume older material/platform/void-first plans as current instructions.
+
+Documentation-only milestone: inspect final PDF and integrity receipt under Codex
+cwd outputs/review-r2-20260924. Local commit title: "Align research roadmap with
+building-mass findings and review revision R2". Archive after commit:
+outputs/NCA-Review-R2-2026-09-24-<commit7>.zip, with sibling receipt JSON.
+Archive includes changed tracked docs, private originals/addendum, source helper,
+PDF QA and commit patch; retain MT1 and all parent experiment archives separately.
+Same-disk archive only. Original report hashes recorded in creation-evidence.json.
+Latest science tests remain MT1's 275 passes; do not rerun for documentation.
+No runtime inspection/restart, paid training, Drive operation, push or publication
+in this revision. Inspect live processes before resuming compute or server work.
+
 ## Current: MT1 pilot massing contract audited - 2026-09-24
 
 Read MASSING_TARGETS_PROTOCOL.md, MASSING_TARGETS_FINDINGS.md and D060.

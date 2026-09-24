@@ -1,5 +1,13 @@
 # Planner and learned refinement — next research specification
 
+## Current-scope notice - D061, 2026-09-24
+
+This is historical motivation and experimental design under earlier material
+semantics. RESEARCH_BRIEF_R2.md, D058 and the MT1 contract govern current work.
+Planner plus NCA recovery/refinement remains a hypothesis; W1's thin scaffold is
+not a massing solution. Follow R2-A/R2-B controls before a learning pilot. The older
+D057 pointer at the end of this file is superseded by D058/D061.
+
 2026-09-24. Design proposal following D053; implementation boundary D054.
 Architectural material/form generation remains the accepted D026 scope.
 No new model is trained or promoted by this document.
