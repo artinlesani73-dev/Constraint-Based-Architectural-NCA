@@ -1019,3 +1019,25 @@ Added protocol/findings,D063,concrete MD1 candidate plan and current resume/plan
 User's positive feedback on MG1 volumes is recorded; no viewer change or server
 restart. A Windows rg query with literal wildcard paths failed; corrected reads
 used exact filenames. Local archive only; no Drive, paid compute, push/publication.
+
+
+## 2026-09-24 - MD1 direct/procedural comparison
+
+Implemented separate direct_massing_v1 (fixed-domain logits, declared Adam/loss,
+identity-bound CPU checkpoints) and contact_cube_route_growth_v1 (frozen MG1 fork,
+cost12, same domain). Added bounded worker runner, recipe and six tests.303 total
+regressions pass, no test/audit failure. Run20260924T123453Z_aaf2d7ad37e3 completes four32-step
+members after exact fresh-process4 versus2+2 recovery and timing admission.
+Direct primary criterion fails: binary outputs unchanged, facade failures persist.
+Contact-aware control passes4/4. All20 boundaries,128 update logs, original source,
+procedural routes/selection traces, timing and recovery outputs retained. Verified
+146 source hashes,20 restored boundaries,4 exact procedural replays and4 rescores.
+
+Added separate saved-comparison gallery and Studio link, findings,D064,plan/resume.
+24 UI selections checked; slices/cutaway/mobile checked; no horizontal overflow.
+Browser limitations: tall screenshots clipped, one named-canvas selector failed,
+checkbox reset after viewport resize failed, final navigation/resize timed out
+and reset the browser session. Prior DOM observed the Studio link and gallery;
+settled screenshot shows the compared geometry. No science or thresholds changed
+in response. Original generator/model/private reports and all old galleries kept.
+No server restart, Drive action, paid training, push or publication.

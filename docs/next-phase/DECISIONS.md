@@ -1058,3 +1058,26 @@ derivative verifies; no new geometry or optimizer outcome. Admit actual-loop MD1
 preparation under MASSING_DIRECT_PILOT_PLAN, including recovery, timing and a fair
 contact-aware procedural comparator. Preserve the facade ratio dilution limitation.
 No optimal-coefficient, trained-model, GPU-performance or generalized-validity claim.
+
+
+## D064 - MD1 frozen direct-massing comparison
+
+2026-09-24. User authorized proceeding. Execute MASSING_DIRECT_PILOT_PLAN with
+MD1-direct.json: four saved MG1 fields, fixed32 updates, same MT1 thresholds and
+continuous MO1 terms plus declared requested-volume preference within sparsity.
+Retain original, contact-aware procedural and direct outputs. Contact cost12 is
+frozen once before results; no domain tightening. Exact fresh-process checkpoint
+recovery and measured timing admission precede the actual pilot. Save all five
+boundaries, per-update evidence and all failures. No coefficient/threshold tuning
+or automatic longer runs. Primary success uses final32, not best intermediate.
+No NCA training, Colab spend, Drive operation, push or publication authorized.
+
+
+D064 outcome: run20260924T123453Z_aaf2d7ad37e3 completed all four32-update members. Primary direct
+success FALSE: original/direct2/4, contact-aware4/4. Binary fields unchanged at
+all20 direct saved boundaries despite partial-case soft facade loss reaching0.
+303 regression passes; fresh-process restart exact; all source/boundary/control
+evidence verifies. Keep the negative finding; no coefficient or step adjustment.
+Next bounded proposal is MG2 full45-case contact-aware evaluation, then supported
+Studio mass-generation integration. A learned pilot needs a new, concrete benefit
+and soft-to-binary validation gate; endpoint agreement alone is insufficient.

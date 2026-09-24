@@ -1,8 +1,32 @@
 # MD1 - Bounded direct-massing pilot preparation
 
-2026-09-24. Follows MO1/D063. Status: a concrete proposed pilot, not implemented or
-executed. MO1's successful endpoint audit admits optimizer mechanics preparation;
-it does not establish a good weighted objective or authorize paid training.
+2026-09-24. Follows MO1/D063. Implemented for gated execution as MD1_v1 in
+experiments/configs/MD1-direct.json. No result is assumed. MO1's successful endpoint
+audit admits optimizer mechanics preparation; it does not establish good weights.
+
+Execution clarification, frozen before the first MD1 result: contact control is a
+separate fork contact_cube_route_growth_v1. Add 12 times each cube's nonexempt
+contact fraction to both the positive Dijkstra route cost and radial growth cost.
+The masks, cube origins and request are unchanged; no hard facade exclusion.
+This is a single heuristic coefficient, not a tuned optimum. Weight zero reproduces
+MG1 geometry. All controls use the same original seeds. No repair or best-of search.
+
+Recovery is tested on partial_obstruction seed0 in independent worker processes:
+4 updates versus 2 + fresh-process restore + 2. Compare the entire checkpoint,
+all evaluation fields and continuous arrays exactly. Reuse that uninterrupted
+four-update run as this context's profile; profile aligned seed0 separately.
+Each worker has a subprocess wall timeout plus cooperative checks each update.
+At an orderly interruption save the current completed checkpoint; on forced
+termination retain the latest published checkpoint and all completed update logs.
+Checkpoint boundaries are exclusive files and source/recipe/context identity is
+validated on restore. Repeating this script creates a linked new attempt.
+
+Timing estimate per member = 2 * (external four-step profile time + seven more
+four-step update costs + three mean boundary costs). External time includes process
+startup, context and two boundaries. Four-case estimate adds two members of each
+context and four procedural candidate allowances. Gate caps are unchanged below.
+The 600-second pilot clock starts after recovery/profiling; all overhead and total
+study time are also reported. No concurrent regression during timing measurement.
 
 ## Frozen candidate scope
 

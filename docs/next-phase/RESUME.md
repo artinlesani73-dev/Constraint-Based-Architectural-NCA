@@ -1,5 +1,57 @@
 # Resume the NCA next phase
 
+## Current: MD1 comparison complete - 2026-09-24
+
+Read MASSING_DIRECT_FINDINGS.md, MASSING_DIRECT_PILOT_PLAN.md and D064.
+Run20260924T123453Z_aaf2d7ad37e3: all four32-update direct members completed, primary success FALSE.
+Contact-aware procedural4/4 pass; original/direct-final2/4. Both partial failures
+are facade-only and remain unchanged by direct optimization. All20 saved direct
+binary boundaries exactly equal their originals; soft probabilities/loss changed.
+Do not describe this as a successful optimizer or trained-model result.
+
+Regression20260924T123246Z_90e81143f1df:303pass, smoke0. Fresh-process4 vs2+2 recovery exact
+for whole checkpoint/evaluation/probabilities. Timing admission passed;47.051s
+pilot,66.880s study before final attachment/finalization. Four procedural replays,
+20 checkpoint re-evaluations, four original rescores and146 source Python hashes
+verify. No scientific failed attempt or hidden reroll. All evidence retained.
+
+Next: freeze MG2 full45-case procedural comparison using same contact cost12,
+MG1 scenes/requests/seeds and MT1. Audit baseline regressions and blocked cases;
+do not launch another weight/step sweep or NCA training. Then integrate mass
+generation into Studio's live workflow if validated. Existing Studio root still
+constructs historical material scaffolds; new gallery is saved evidence only.
+
+Gallery http://127.0.0.1:8001/static/direct/index.html.24 combinations and responsive
+layout checked. Browser automation session reset on final link/viewport timeout;
+inspect tabs/reconnect before using old bindings. Local server not restarted.
+No experiment or regression process from this milestone remains running.
+
+Run artifacts: .local-artifacts/runs/20260924T123453Z_aaf2d7ad37e3/, source.zip, original input-study,
+per-member checkpoints/probabilities at0/8/16/24/32, updates and comparisons.
+Verification: experiments/reports/MD1-verification.json. QA in Codex cwd
+outputs/md1-qa. Helpers work/verify_md1.py,build_md1_gallery.py,finalize_md1.py,
+package_md1.py; exclusive writes, inspect before rerun. Never overwrite old runs.
+New linked attempt only if justified: scripts/run_massing_direct.py --parent-run
+20260924T123453Z_aaf2d7ad37e3. This automatically redoes recovery/profile before the pilot.
+
+Local commit title: "Compare direct mass optimization with contact-aware generation".
+Archive outputs/NCA-MD1-Backup-2026-09-24-<commit7>.zip, sibling receipt and local
+milestone receipt; verify receipt before claiming backup. Preserve MO1/MG1/R2/MT1
+and all older parent archives. Same disk, not off-device. Reports stay ignored;
+two unrelated user files stay untracked. No Drive, paid compute, push or hosting.
+
+
+## In progress: MD1 gated comparison - 2026-09-24
+
+User authorized proceeding after MO1. Read MASSING_DIRECT_PILOT_PLAN and
+MD1-direct.json. New direct_massing_v1 session, contact_cube_route_growth_v1
+control and bounded worker runner are implemented. Six focused tests pass.
+Next full regression, then scripts/run_massing_direct.py performs fresh-process
+recovery/timing gates and only then the four-case32-update comparison. Inspect
+run records and live processes before rerunning. All artifacts append-only; failed
+attempts get parent-linked retries. No model training, viewer change or paid compute.
+
+
 ## Current: MO1 objective admission complete - 2026-09-24
 
 Read MASSING_OBJECTIVE_FINDINGS.md/PROTOCOL.md, MASSING_DIRECT_PILOT_PLAN.md and D063.

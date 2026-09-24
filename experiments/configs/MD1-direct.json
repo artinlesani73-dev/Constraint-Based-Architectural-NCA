@@ -1,0 +1,22 @@
+{
+  "version": "MD1_v1",
+  "parent_run": "20260924T115136Z_91b3707a89d3",
+  "source_run": "20260924T113023Z_24298393f2a5",
+  "cases": ["aligned__v24__s0", "aligned__v24__s1", "partial_obstruction__v24__s0", "partial_obstruction__v24__s1"],
+  "request_fraction": 0.24,
+  "request_weight": 1.0,
+  "weights": {"access": 1.0, "coverage": 1.0, "facade": 4.0, "ground": 1.0, "legality": 1.0, "sparsity": 1.0, "spill": 1.0, "support": 1.0, "thickness": 1.0},
+  "adam": {"lr": 0.1, "betas": [0.9, 0.999], "eps": 1e-8, "weight_decay": 0.0, "amsgrad": false, "foreach": false, "fused": false},
+  "seed": 0,
+  "threads": 2,
+  "dtype": "float64",
+  "steps": 32,
+  "boundaries": [0, 8, 16, 24, 32],
+  "profile_steps": 4,
+  "profile_seconds_cap": 30.0,
+  "recovery_seconds_cap": 120.0,
+  "member_seconds_cap": 120.0,
+  "pilot_seconds_cap": 600.0,
+  "timing_safety_factor": 2.0,
+  "procedural": {"version": "contact_cube_route_growth_v1", "cube_m": 2.4, "target_fraction": 0.24, "max_seconds": 15.0, "contact_weight": 12.0}
+}

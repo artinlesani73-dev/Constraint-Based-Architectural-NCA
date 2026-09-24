@@ -1,0 +1,420 @@
+{
+  "checkpoint_boundary_replays": 20,
+  "fresh_process_full_checkpoint_equal": true,
+  "limitations": "Four development cases, no learned model. Checkpoint re-evaluation is not a full32-step replay.",
+  "original_binary_rescores": 4,
+  "primary_success": false,
+  "procedural_exact_replays": 4,
+  "regression": "20260924T123246Z_90e81143f1df",
+  "rows": [
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "continuous_volume_fraction": 0.2682989690721649,
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "loss": 0.11390332726644734,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 0,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "continuous_volume_fraction": 0.23812711822625637,
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "loss": 0.20070618967889822,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 8,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "continuous_volume_fraction": 0.23271283450448646,
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "loss": 0.21343607607470247,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 16,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "continuous_volume_fraction": 0.2405413404675632,
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "loss": 0.15138471019923466,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 24,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "continuous_volume_fraction": 0.24324409636169647,
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "loss": 0.12510494135646102,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 32,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "facade_contact_fraction": 0.11334120425029516,
+      "failures": [],
+      "method": "original",
+      "pass": true,
+      "volume_fraction": 0.24255441008018327,
+      "voxels": 847
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s0",
+      "facade_contact_fraction": 0.08747044917257683,
+      "failures": [],
+      "method": "contact_aware",
+      "pass": true,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "continuous_volume_fraction": 0.268041237113402,
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "loss": 0.11365123227170235,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 0,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "continuous_volume_fraction": 0.2379492489934422,
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "loss": 0.20046027112357254,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 8,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "continuous_volume_fraction": 0.2328163403837933,
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "loss": 0.21045707314629442,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 16,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "continuous_volume_fraction": 0.24056658891387597,
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "loss": 0.14958645371719725,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 24,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "continuous_volume_fraction": 0.24316055816166524,
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "loss": 0.12820704447770434,
+      "method": "direct",
+      "pass": true,
+      "removed_voxels": 0,
+      "step": 32,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "facade_contact_fraction": 0.10283687943262411,
+      "failures": [],
+      "method": "original",
+      "pass": true,
+      "volume_fraction": 0.2422680412371134,
+      "voxels": 846
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "aligned__v24__s1",
+      "facade_contact_fraction": 0.06912991656734208,
+      "failures": [],
+      "method": "contact_aware",
+      "pass": true,
+      "volume_fraction": 0.2402634593356243,
+      "voxels": 839
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "continuous_volume_fraction": 0.26682297772567404,
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.27215691650455787,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 0,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "continuous_volume_fraction": 0.29771558654408364,
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.10989309605566308,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 8,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "continuous_volume_fraction": 0.2765327419975936,
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.0757229020369371,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 16,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "continuous_volume_fraction": 0.2519689673927744,
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.08018288888176729,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 24,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "continuous_volume_fraction": 0.2384995276919232,
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.09017985763922168,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 32,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "facade_contact_fraction": 0.19099756690997566,
+      "failures": [
+        "facade"
+      ],
+      "method": "original",
+      "pass": false,
+      "volume_fraction": 0.24091441969519342,
+      "voxels": 822
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s0",
+      "facade_contact_fraction": 0.13064713064713065,
+      "failures": [],
+      "method": "contact_aware",
+      "pass": true,
+      "volume_fraction": 0.24003516998827668,
+      "voxels": 819
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "continuous_volume_fraction": 0.266295427901524,
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.27317536444990814,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 0,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "continuous_volume_fraction": 0.2972840648190417,
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.10902469689952704,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 8,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "continuous_volume_fraction": 0.27648665927172633,
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.07507413079176667,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 16,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "continuous_volume_fraction": 0.25190906663779555,
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.07847222007087512,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 24,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "added_voxels": 0,
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "continuous_volume_fraction": 0.23849022566094402,
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "loss": 0.08025867986712087,
+      "method": "direct",
+      "pass": false,
+      "removed_voxels": 0,
+      "step": 32,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "facade_contact_fraction": 0.19146341463414634,
+      "failures": [
+        "facade"
+      ],
+      "method": "original",
+      "pass": false,
+      "volume_fraction": 0.2403282532239156,
+      "voxels": 820
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "partial_obstruction__v24__s1",
+      "facade_contact_fraction": 0.06837606837606838,
+      "failures": [],
+      "method": "contact_aware",
+      "pass": true,
+      "volume_fraction": 0.24003516998827668,
+      "voxels": 819
+    }
+  ],
+  "run": "20260924T123453Z_aaf2d7ad37e3",
+  "source_python_files_matching": [
+    146,
+    146
+  ]
+}

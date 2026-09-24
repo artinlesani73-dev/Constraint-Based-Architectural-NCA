@@ -1,5 +1,15 @@
 # Next-phase implementation plan
 
+## Active milestone - MD1 complete; procedural expansion next, 2026-09-24
+
+Read MASSING_DIRECT_FINDINGS.md and D064. Contact-aware generation passes4/4;
+direct32 preserves the original2/4 with no binary changes at saved boundaries.
+303 regressions and exact fresh-process restart pass. Soft facade zero failed
+to predict binary facade validity. Do not promote this objective to NCA training.
+Next freeze and test the same contact-aware recipe on the full45-case MG1 matrix,
+then integrate mass generation in the live Studio if validated. No automatic
+loss/threshold retuning. The new direct gallery presents saved evidence only.
+
 ## Active milestone - MO1 objective admission complete, 2026-09-24
 
 Read MASSING_OBJECTIVE_FINDINGS.md and D063.873 family comparisons and97 bulk masks
