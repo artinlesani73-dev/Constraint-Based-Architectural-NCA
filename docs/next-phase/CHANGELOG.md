@@ -1112,3 +1112,23 @@ using runtime; replacement started as29824/session23049. No deletion to bypass
 ownership. No paid compute, Drive, push or public hosting. Private reports unchanged.
 Archive retains all new live records/jobs, source bytes, test/browser evidence and
 Git bundle; same-disk incremental backup, not off-device protection.
+
+
+## 2026-09-24 - MG4 twenty-site evaluation
+
+Added frozen20-site scene set/config/protocol, deterministic identity checks,
+180-case runner with immediate immutable evidence and native10ms RSS sampling.
+Core generator/evaluator unchanged. Four new admission/instrumentation tests.
+Regression20260924T163521Z_bd0b9d7571b7:324pass, smoke0. Benchmark20260924T163831Z_b4e28646a3e0:
+180 complete,143/144 nonpartition pass,36 blocked failures,all144 requests met;
+no execution errors/timeouts/resource breach. Study118.689s. Gate failed because
+one west-third coverage is7.505643%, below8%; failure preserved, no reroll.
+
+Independent180 exact replays/scores/bulk masks,20 contexts,154 Python source
+matches per snapshot and718654 full growth-decision audits pass. Added
+verification, coverage diagnosis, findings, bounded next proposal,D068,plan/resume.
+One read-only inline diagnosis failed on parentheses; corrected helper reads
+the same evidence without a new generator run. No Studio/server/model/private-
+report changes; no browser work, paid compute, Drive, push or publication.
+All case traces, fields, failed outputs, resource data and protocol are preserved
+in run evidence and verified incremental local archive. Same disk, not off-device.

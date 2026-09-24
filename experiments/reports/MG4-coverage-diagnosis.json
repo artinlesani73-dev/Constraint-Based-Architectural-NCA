@@ -1,0 +1,130 @@
+{
+  "case": "combined_reverse__v16__s5",
+  "scene": {
+    "buildings": [
+      {
+        "gap_facing_x": 9,
+        "id": "B_west",
+        "side": "left",
+        "x": [
+          0,
+          9
+        ],
+        "y": [
+          6,
+          26
+        ],
+        "z": [
+          0,
+          30
+        ]
+      },
+      {
+        "gap_facing_x": 23,
+        "id": "B_east",
+        "side": "right",
+        "x": [
+          23,
+          32
+        ],
+        "y": [
+          6,
+          26
+        ],
+        "z": [
+          0,
+          22
+        ]
+      },
+      {
+        "gap_facing_x": null,
+        "id": "B_obstacle_0",
+        "side": null,
+        "x": [
+          14,
+          17
+        ],
+        "y": [
+          10,
+          19
+        ],
+        "z": [
+          6,
+          25
+        ]
+      }
+    ],
+    "ceiling_z": null,
+    "contract_version": "scene_v1",
+    "description": "MG4 predeclared site stress test: combined_reverse",
+    "entrances": [
+      {
+        "extent": 2,
+        "id": "E_west",
+        "kind": "facade",
+        "x": 9,
+        "y": 23,
+        "z": 18
+      },
+      {
+        "extent": 2,
+        "id": "E_east",
+        "kind": "facade",
+        "x": 21,
+        "y": 8,
+        "z": 8
+      }
+    ],
+    "grid_size": 32,
+    "legacy_relaxations": [],
+    "notes": [
+      "Previously untested designed variation; not a random population sample or learned-model test."
+    ],
+    "scene_id": "mg4-combined_reverse",
+    "street_levels": 6,
+    "voxel_size_m": 0.8
+  },
+  "route_cells": 297,
+  "route_thirds": [
+    45,
+    42,
+    210
+  ],
+  "final_thirds": [
+    {
+      "bulk_cells": 266,
+      "domain_cells": 3544,
+      "fraction": 0.07505643340857787
+    },
+    {
+      "bulk_cells": 303,
+      "domain_cells": 2303,
+      "fraction": 0.13156752062527138
+    },
+    {
+      "bulk_cells": 938,
+      "domain_cells": 3544,
+      "fraction": 0.2646726862302483
+    }
+  ],
+  "minimum_cells": [
+    284,
+    185,
+    284
+  ],
+  "last_growth": {
+    "accepted": true,
+    "added_cells": 7,
+    "added_contact_cells": 0,
+    "contact_before": 225,
+    "mass_before": 1500,
+    "origin_zyx": [
+      19,
+      18,
+      19
+    ]
+  },
+  "rejections": 2223,
+  "distinct_rejected": 90,
+  "proposal_count": 2802
+}

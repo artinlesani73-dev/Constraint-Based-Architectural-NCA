@@ -1,5 +1,15 @@
 # Next-phase implementation plan
 
+## Active milestone - MG4 complete; coverage-aware growth proposal next
+
+2026-09-24.143/144 nonpartition and0/36 blocked pass; all144 requested volumes met.
+One fixed-X-third coverage failure blocks the strict scale admission gate.324
+regressions and full independent replay verify. No generator/evaluator changes.
+Read SITE_GENERALIZATION_FINDINGS and COVERAGE_GROWTH_NEXT_PLAN. Next specify
+finite deficit-aware growth with existing facade/request rules and freeze its
+diagnostic comparison; MG5 not implemented yet. Preserve inspected MG4 evidence.
+Larger-grid runs, custom live sites and paid training remain outside this milestone.
+
 ## Active milestone - MS1 complete; live review and broader evaluation next
 
 2026-09-24. Live mass workflow at /static/live/index.html. D067 and

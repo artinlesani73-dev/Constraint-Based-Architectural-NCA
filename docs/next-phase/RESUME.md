@@ -1,5 +1,62 @@
 # Resume the NCA next phase
 
+## Current: MG4 complete; one coverage failure retained - 2026-09-24
+
+Read SITE_GENERALIZATION_FINDINGS.md, COVERAGE_GROWTH_NEXT_PLAN.md and D068.
+Benchmark 20260924T163831Z_b4e28646a3e0:180 completed,143/144 nonpartition pass,36 blocked
+fail,143/180 overall. All144 requests met with0–8 extra cells and100% bulk. No
+execution errors/timeouts/resource breach. Strict144/144 scale gate FAILED.
+Do not alter the original result, add sites to live Studio or begin larger grids.
+
+Failure combined_reverse__v16__s5:1507 cells for1503 request; west266/3544=7.505643%
+vs8%,18-cell arithmetic deficit. Other8 families pass, facade14.930325%. Initial
+route45/42/210 west/mid/east; final266/303/938. Last block adds7 cells and total
+count stops growth. Seeds3/4 pass on the same site/request. No reroll/repair done.
+See MG4-coverage-diagnosis.json; coverage remains a provisional fixed-X-third proxy.
+
+Regression 20260924T163521Z_bd0b9d7571b7:324pass, smoke0.180 exact replays/scores/bulk masks,
+20 rebuilt contexts,718654 growth decisions and154 Python source matches
+per snapshot verify. Read experiments/reports/MG4-verification.json. No active
+regression/benchmark/replay process. Generation median0.218s,max2.254s; sampled
+RSS peakmax309.32MiB,lifetimepeak452.63MiB; single-run32-grid observations only.
+
+Next make a separately versioned coverage-aware finite growth priority concrete,
+with existing facade admission and unchanged request bound. Freeze a small paired
+diagnostic before executing, then conditional225-case MG3/MG4 regression proposal.
+MG5 is not implemented/frozen yet. No whole-project/NCA redesign or paid training
+admitted. Larger environments and finer resolution remain separate future studies.
+
+Runs .local-artifacts/runs/<IDs> contain complete sources, scenes, traces, fields,
+metrics/timing/resources and events.180 case files,20 contexts,no pending. New
+execution only when justified; scripts/run_site_generalization.py --parent-run
+20260924T163831Z_b4e28646a3e0 creates a linked attempt. Do not rerun just to resume docs.
+Core/source hashes frozen in experiments/configs/MG4-sites.json; no nca/deploy
+runtime change. Frozen hashes are byte-exact, including line endings: restore
+the retained source ZIP or raw repository archive for replay after a fresh checkout;
+do not rewrite frozen hashes to accommodate Git line-ending conversion.
+Live Studio retains five supported sites and existing records;
+last known server PID29824/session23049, recheck before any future restart.
+
+Codex cwd helpers work/:prepare_mg4,verify_mg4,summarize_mg4,diagnose_mg4,
+finalize_mg4,package_mg4.py; exclusive writes, inspect before rerun. Summary
+outputs/mg4-summary.json and focused log outputs/mg4-focused.log. One inline
+diagnostic syntax error corrected without changing experiment outputs.
+Local commit title: "Evaluate mass generation across twenty new sites".
+Archive outputs/NCA-MG4-Backup-2026-09-24-<commit7>.zip and sibling receipt;
+.local-artifacts/milestones/<commit7>-mg4-backup-receipt.json confirms verification
+and restored Git bundle. Preserve MS1/MG3/MG2 and earlier archive chain. Same-disk
+only; private reports unchanged/ignored; unrelated user files remain untracked.
+No Drive, paid compute, push or public hosting.
+
+
+## Historical MG4 start note - 2026-09-24 (completed above)
+
+Read SITE_GENERALIZATION_PROTOCOL.md, MG4-sites config/scenes and D068.180 planned
+candidates, unchanged generator/evaluator. No output inspected at freeze. Runner
+and checks pending. Inspect .local-artifacts/runs before retrying; preserve all
+failed/interrupted evidence. No Studio change, paid compute or Drive access.
+
+
 ## Current: MS1 live mass Studio complete - 2026-09-24
 
 Read STUDIO_MASSING_FINDINGS.md, STUDIO_MASSING_USER_GUIDE.md and D067.

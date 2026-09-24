@@ -1144,3 +1144,23 @@ material workflow passes regression. Same generation and nine-family semantics.
 Keep scope explicit: five fixed sites,32-cubed grid,0.8m cells,16/24/32% requests;
 other seeds exploratory. Next broader context/scaling evaluation needs its own
 frozen protocol. Do not treat product integration as new scientific generalization.
+
+
+## D068 - MG4 new-site evaluation before grid scaling
+
+2026-09-24. User authorized new-site evaluation. Freeze20 designed contexts,
+requests16/24/32%, seeds3/4/5, unchanged MG3/MT1,180 candidates.16 nonpartition
+sites plus4 deliberately blocked controls; do not label nonpartition guaranteed
+feasible. Exact scene/source hashes, capped CPU execution, RSS sampling and full
+case evidence. No outcome-based retuning; scaling contingent on the declared
+144/144 fidelity/validity gate and36 blocked failures. Same nine families.
+
+
+D068 outcome: run20260924T163831Z_b4e28646a3e0 completes180 cases:143/144 nonpartition pass,
+36/36 blocked controls fail. All144 requests met. One coverage-only failure at
+combined_reverse16%,seed5:west266/3544 vs284 required. Strict scale gate failed;
+retain outcome and unchanged8% threshold.324 regressions,180 exact replays/scores,
+20 contexts and718654 independent growth decisions verify. No retuning.
+Propose separate coverage-aware growth ordering per COVERAGE_GROWTH_NEXT_PLAN.
+The evidence does not require a new constraint or whole NCA redesign. Do not
+promote arbitrary-site/large-grid reliability; MG4 is now inspected development.

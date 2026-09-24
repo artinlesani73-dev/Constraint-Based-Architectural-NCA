@@ -1,0 +1,1632 @@
+{
+  "version": "MG4_sites_v1",
+  "sites": [
+    {
+      "case": "gap_12",
+      "group": "gap",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-gap_12",
+        "description": "MG4 predeclared site stress test: gap_12",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              10
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 10,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              22,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 22,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 10,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 20,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "gap_22",
+      "group": "gap",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-gap_22",
+        "description": "MG4 predeclared site stress test: gap_22",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              5
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 5,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              27,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 27,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 5,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 25,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "gap_8",
+      "group": "gap",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-gap_8",
+        "description": "MG4 predeclared site stress test: gap_8",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              12
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 12,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              20,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 20,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 12,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 18,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "low_pair",
+      "group": "height",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-low_pair",
+        "description": "MG4 predeclared site stress test: low_pair",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              14
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              14
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "low_west",
+      "group": "height",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-low_west",
+        "description": "MG4 predeclared site stress test: low_west",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              14
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              28
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "low_east",
+      "group": "height",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-low_east",
+        "description": "MG4 predeclared site stress test: low_east",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              29
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              16
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "lateral_span",
+      "group": "interfaces",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-lateral_span",
+        "description": "MG4 predeclared site stress test: lateral_span",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 8,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 24,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "vertical_span",
+      "group": "interfaces",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-vertical_span",
+        "description": "MG4 predeclared site stress test: vertical_span",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 16,
+            "z": 6
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 16,
+            "z": 18
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "diagonal_rise",
+      "group": "interfaces",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-diagonal_rise",
+        "description": "MG4 predeclared site stress test: diagonal_rise",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 10,
+            "z": 14
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 20,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "diagonal_reverse",
+      "group": "interfaces",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-diagonal_reverse",
+        "description": "MG4 predeclared site stress test: diagonal_reverse",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 22,
+            "z": 18
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 8,
+            "z": 10
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "long_obstacle",
+      "group": "obstacles",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-long_obstacle",
+        "description": "MG4 predeclared site stress test: long_obstacle",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              11,
+              21
+            ],
+            "z": [
+              6,
+              16
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "upper_obstacle",
+      "group": "obstacles",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-upper_obstacle",
+        "description": "MG4 predeclared site stress test: upper_obstacle",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              14,
+              18
+            ],
+            "y": [
+              10,
+              24
+            ],
+            "z": [
+              14,
+              20
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "twin_obstacles",
+      "group": "obstacles",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-twin_obstacles",
+        "description": "MG4 predeclared site stress test: twin_obstacles",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              12,
+              14
+            ],
+            "y": [
+              10,
+              16
+            ],
+            "z": [
+              6,
+              18
+            ],
+            "gap_facing_x": null,
+            "side": null
+          },
+          {
+            "id": "B_obstacle_1",
+            "x": [
+              18,
+              20
+            ],
+            "y": [
+              18,
+              24
+            ],
+            "z": [
+              6,
+              18
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "combined_tall_east",
+      "group": "combined",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-combined_tall_east",
+        "description": "MG4 predeclared site stress test: combined_tall_east",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              10
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              18
+            ],
+            "gap_facing_x": 10,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              30
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              16,
+              18
+            ],
+            "y": [
+              14,
+              19
+            ],
+            "z": [
+              6,
+              22
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 10,
+            "y": 10,
+            "z": 10
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 21,
+            "z": 18
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "combined_low_west",
+      "group": "combined",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-combined_low_west",
+        "description": "MG4 predeclared site stress test: combined_low_west",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              5
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              12
+            ],
+            "gap_facing_x": 5,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              25,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              24
+            ],
+            "gap_facing_x": 25,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              14,
+              17
+            ],
+            "y": [
+              15,
+              21
+            ],
+            "z": [
+              6,
+              15
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 5,
+            "y": 8,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 23,
+            "y": 22,
+            "z": 16
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "combined_reverse",
+      "group": "combined",
+      "partition_control": false,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-combined_reverse",
+        "description": "MG4 predeclared site stress test: combined_reverse",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              9
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              30
+            ],
+            "gap_facing_x": 9,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              23,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              22
+            ],
+            "gap_facing_x": 23,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle_0",
+            "x": [
+              14,
+              17
+            ],
+            "y": [
+              10,
+              19
+            ],
+            "z": [
+              6,
+              25
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 9,
+            "y": 23,
+            "z": 18
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 21,
+            "y": 8,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "blocked_narrow",
+      "group": "blocked",
+      "partition_control": true,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-blocked_narrow",
+        "description": "MG4 predeclared site stress test: blocked_narrow",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              10
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 10,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              22,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 22,
+            "side": "right"
+          },
+          {
+            "id": "B_partition",
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 10,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 20,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "blocked_wide",
+      "group": "blocked",
+      "partition_control": true,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-blocked_wide",
+        "description": "MG4 predeclared site stress test: blocked_wide",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              5
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 5,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              27,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 27,
+            "side": "right"
+          },
+          {
+            "id": "B_partition",
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 5,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 25,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "blocked_vertical",
+      "group": "blocked",
+      "partition_control": true,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-blocked_vertical",
+        "description": "MG4 predeclared site stress test: blocked_vertical",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_partition",
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 16,
+            "z": 6
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 16,
+            "z": 18
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    },
+    {
+      "case": "blocked_diagonal",
+      "group": "blocked",
+      "partition_control": true,
+      "scene": {
+        "contract_version": "scene_v1",
+        "scene_id": "mg4-blocked_diagonal",
+        "description": "MG4 predeclared site stress test: blocked_diagonal",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          },
+          {
+            "id": "B_partition",
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ],
+            "gap_facing_x": null,
+            "side": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 8,
+            "z": 14
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 23,
+            "z": 8
+          }
+        ],
+        "notes": [
+          "Previously untested designed variation; not a random population sample or learned-model test."
+        ]
+      }
+    }
+  ]
+}
