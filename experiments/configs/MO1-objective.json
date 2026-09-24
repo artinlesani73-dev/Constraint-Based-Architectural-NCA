@@ -1,0 +1,19 @@
+{
+  "version": "MO1_v1",
+  "objective": "massing_residuals_v1",
+  "sources": ["20260924T102755Z_e89550a24d8d", "20260924T113023Z_24298393f2a5"],
+  "parent_run": "20260924T113023Z_24298393f2a5",
+  "seed": 0,
+  "wall_seconds_cap": 600,
+  "binary_zero_tolerance": 1e-10,
+  "gradient_cases": ["aligned__v24__s0", "partial_obstruction__v24__s0"],
+  "soft_background": 0.005,
+  "soft_scale": 0.99,
+  "difference_epsilon": 1e-5,
+  "derivative_atol": 1e-7,
+  "derivative_rtol": 1e-4,
+  "dtype": "float64",
+  "threads": 2,
+  "training": false,
+  "optimizer_updates": 0
+}

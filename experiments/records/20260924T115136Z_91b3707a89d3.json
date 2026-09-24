@@ -1,0 +1,54 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T115136Z_91b3707a89d3",
+  "config": {
+    "binary_zero_tolerance": 1e-10,
+    "derivative_atol": 1e-07,
+    "derivative_rtol": 0.0001,
+    "difference_epsilon": 1e-05,
+    "dtype": "float64",
+    "gradient_cases": [
+      "aligned__v24__s0",
+      "partial_obstruction__v24__s0"
+    ],
+    "objective": "massing_residuals_v1",
+    "optimizer_updates": 0,
+    "parent_run": "20260924T113023Z_24298393f2a5",
+    "seed": 0,
+    "soft_background": 0.005,
+    "soft_scale": 0.99,
+    "sources": [
+      "20260924T102755Z_e89550a24d8d",
+      "20260924T113023Z_24298393f2a5"
+    ],
+    "threads": 2,
+    "training": false,
+    "version": "MO1_v1",
+    "wall_seconds_cap": 600
+  },
+  "drive_backup": "pending",
+  "metrics": {
+    "bulk_mismatches": 0,
+    "family_comparisons": 873,
+    "family_mismatches": 0,
+    "fields": 97,
+    "gradient_probes": 2,
+    "optimizer_updates": 0,
+    "wall_seconds": 33.618131200026255
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "ef0f54f6b3aacfce182e4553ea48c6a515ef30d4",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/MASSING_OBJECTIVE_PROTOCOL.md\n?? experiments/configs/MO1-objective.json\n?? nca/massing_objective.py\n?? scripts/run_massing_objective_audit.py\n?? tests/test_massing_objective.py"
+  },
+  "run_id": "20260924T115136Z_91b3707a89d3",
+  "status": "completed"
+}

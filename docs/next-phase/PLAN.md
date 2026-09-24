@@ -1,5 +1,13 @@
 # Next-phase implementation plan
 
+## Active milestone - MO1 objective admission complete, 2026-09-24
+
+Read MASSING_OBJECTIVE_FINDINGS.md and D063.873 family comparisons and97 bulk masks
+agree;297 regressions pass. No optimizer updates. Next implement the concrete
+MASSING_DIRECT_PILOT_PLAN: four-member direct session, iteration0/recovery/timing
+admission and contact-aware procedural comparator before the bounded comparison.
+Keep the user-approved MG1 volumes and all old evidence. No new training by default.
+
 ## Active milestone - MG1 / R2-A complete, 2026-09-24
 
 Read MASS_GENERATION_FINDINGS.md and D062. Five development contexts,45 generated

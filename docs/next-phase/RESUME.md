@@ -1,5 +1,45 @@
 # Resume the NCA next phase
 
+## Current: MO1 objective admission complete - 2026-09-24
+
+Read MASSING_OBJECTIVE_FINDINGS.md/PROTOCOL.md, MASSING_DIRECT_PILOT_PLAN.md and D063.
+User liked MG1 geometry; preserve it as the baseline. MO1 audit20260924T115136Z_91b3707a89d3:
+97 fields,873 family agreements, zero mismatches,97 exact bulk masks, two finite
+gradient probes;33.62s including archive/setup. No optimizer updates. Full regression
+20260924T115046Z_0a0c9bfc3d10:297pass, smoke0. Both ran concurrently on unchanged science source.
+142 Python files match both snapshots; independent facade derivative formula verifies.
+
+Next implement MD1's four-member direct-massing session, iteration0 MG1 parity,
+actual-loop new-process recovery and timing admission, plus separately versioned
+contact-aware procedural control. Plan declares candidate coefficients/volume policy;
+no optimization result or optimality claim. No threshold change or extra constraints.
+Source/evidence: experiments/reports/MO1-verification.json and immutable run dirs.
+New audit attempt only: `.venv/Scripts/python.exe scripts/run_massing_objective_audit.py
+--parent-run 20260924T115136Z_91b3707a89d3`. Full regression parent is20260924T115046Z_0a0c9bfc3d10.
+No reason to repeat either merely to resume documentation.
+
+No benchmark/regression process from this milestone remains active. Server/gallery
+were not changed or restarted; inspect live processes before future work. Private
+reports remain ignored; original and Revision2 hashes verify unchanged.
+Local commit title: "Add verified massing objective and bounded direct-pilot plan".
+Archive outputs/NCA-MO1-Backup-2026-09-24-<commit7>.zip with sibling receipt, under
+Codex cwd. Helpers work/mo1_progress.py,verify_mo1.py,finalize_mo1.py,package_mo1.py;
+exclusive writes require inspection before rerun. Archive is incremental/same-disk;
+retain all previous backups. No paid training, Drive access, push or publication.
+
+## In progress: MO1 massing objective admission - 2026-09-24
+
+User authorized direct-optimization preparation after liking MG1 forms. Read
+MASSING_OBJECTIVE_PROTOCOL.md / MO1-objective.json. Implemented separate CPU
+massing_residuals_v1 and ten tests. Focused10tests pass. Full regression
+20260924T115046Z_0a0c9bfc3d10 is running in session29145. MO1 endpoint/gradient
+audit may be active; inspect latest run records and processes before restarting.
+All source code frozen during the two read-only scientific checks. No optimizer
+updates, coefficients or learned model selected; old objectives and gallery intact.
+Audit saves97 endpoint comparisons and two derivative probes with explicit caps.
+Next depends on results: retain mismatches, or prepare a bounded direct pilot with
+recovery/timing gates. No automatic paid compute, Drive, publication or push.
+
 ## Current: MG1 procedural comparison complete - 2026-09-24
 
 Read MASS_GENERATION_FINDINGS.md/PROTOCOL.md, RESEARCH_BRIEF_R2.md and D062.

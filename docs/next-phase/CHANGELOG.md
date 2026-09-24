@@ -1003,3 +1003,19 @@ cutaway/growth/context and390px mobile checked. Final warn/error logs empty.
 Two full-page screenshot attempts failed; taller viewport screenshots succeeded.
 Record the limitation rather than claiming full-page captures. Facade-aware
 procedural comparison remains a candidate for fair R2-B controls; no retuning.
+
+
+## 2026-09-24 - MO1 massing objective admission
+
+Added separate CPU massing_residuals_v1: min/max bulk, interface strengths,
+raw/bulk component-excess and fixed-support widest-path residuals within nine
+families. No old science or thresholds changed. Ten focused tests and full297pass.
+Audit20260924T115136Z_91b3707a89d3:97 fields,873 family agreements, zero bulk differences and
+two derivative probes. No failed test/audit attempt and no optimizer update.
+Verified142 Python source hashes against regression/audit snapshots and independently
+verified facade-ratio gradient formula. Retained full source studies and all records.
+
+Added protocol/findings,D063,concrete MD1 candidate plan and current resume/plan.
+User's positive feedback on MG1 volumes is recorded; no viewer change or server
+restart. A Windows rg query with literal wildcard paths failed; corrected reads
+used exact filenames. Local archive only; no Drive, paid compute, push/publication.

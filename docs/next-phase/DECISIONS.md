@@ -1032,3 +1032,29 @@ context-specific failures and valid-only diversity. Thresholds and algorithm wer
 not tuned after results. Final287regressions pass;45 exact generated replays and49
 rescored fields verify. Two preserved regression errors were test-fixture metadata
 handling. R2-B preparation is next; no new optimizer/model/paid training selected.
+
+
+## D063 - MO1 endpoint/gradient admission before direct mass optimization
+
+2026-09-24. User liked MG1 volumes and authorized proceeding. Retain them as the
+visual/geometric baseline. Follow MASSING_OBJECTIVE_PROTOCOL and MO1-objective.json:
+separate CPU piecewise-differentiable residuals, same nine MT1 families and numbers,
+raw/bulk component accounting, exact fixed-support widest paths and min/max cube
+opening. Evaluate97 saved fields (873 family comparisons) and two fixed-input
+gradient probes. No coefficients, requested-volume policy, optimizer or training
+chosen here. A derivative check is not a successful optimization experiment.
+
+Future direct fitting needs frozen initialization/coefficient/volume policy,
+per-family binary checks, actual-loop recovery and timing admission. Retain a
+contact-aware procedural comparison to address MG1's facade failure fairly.
+Historical losses/model/fields/viewer stay unchanged; no threshold relaxation.
+No new constraint family, GPU assumption, Drive operation, paid compute or push.
+
+
+MO1 result for D063: audit20260924T115136Z_91b3707a89d3 completed97 fields/873 comparisons with
+zero disagreements and97 exact bulk masks; two finite-gradient probes and facade
+finite differences pass.297regressions pass. Independent closed-form facade
+derivative verifies; no new geometry or optimizer outcome. Admit actual-loop MD1
+preparation under MASSING_DIRECT_PILOT_PLAN, including recovery, timing and a fair
+contact-aware procedural comparator. Preserve the facade ratio dilution limitation.
+No optimal-coefficient, trained-model, GPU-performance or generalized-validity claim.
