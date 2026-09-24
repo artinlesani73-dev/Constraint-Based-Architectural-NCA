@@ -350,3 +350,16 @@ Next S2: versioned durable jobs with actual cancellation and restart visibility;
 revision-aware comparison; verified portable import. Establish those contracts
 before integrating long learned rollouts. New refinement learning remains gated
 on frozen edit tasks, control results, success criteria and compute/recovery approval.
+
+
+## Current implementation - 2026-09-24, Studio S2 complete
+
+STUDIO_S2.md supersedes S1 job/import limits. Background jobs, real cancellation,
+restart visibility, linked retries, revision comparison and verified JSON import
+are implemented.224 checks pass; browser round trip caught and resolved a numeric
+encoding bug. S2 remains local procedural software, not a trained-model deployment.
+
+Next: SPATIAL_BRIEF.md. Define material versus usable surface/void with illustrated
+positive/negative examples and a compatibility audit within the same nine families.
+The user's thin-element observation makes this a prerequisite to the proposed
+planner/refiner learning task. Do not automatically restart F5 or launch Colab.

@@ -111,3 +111,14 @@ instanced geometry, sections, larger site families and scaled grids after profil
 
 This specification authorizes no paid training, cloud storage action or public
 deployment. Those are separate concrete milestones.
+
+
+## S2 follow-up: spatial prerequisite
+
+2026-09-24/D055. S2 product lifecycle/comparison/import is implemented; read
+STUDIO_S2.md. User review highlighted that W1 returns thin connected material,
+not inhabitable space. SPATIAL_BRIEF.md now precedes the learning-pilot admission
+steps above: define the desired surface/void/material semantics and demonstrate
+spatially meaningful procedural controls before freezing a refiner task. Existing
+scalar-field and budget assumptions above remain hypotheses pending that audit;
+no silent redefinition of historical metrics or new constraint family is accepted.

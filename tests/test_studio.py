@@ -20,13 +20,15 @@ class StudioTests(unittest.TestCase):
 
     def setUp(self):
         self.temp = TemporaryDirectory()
+        self.store_patch = patch.object(studio, 'STORE', Path(self.temp.name)/'records')
+        self.store_patch.start()
         self.client = TestClient(studio.app)
         self.client.__enter__()
-        studio.app.state.store = Path(self.temp.name)
         self.scene = deepcopy(self.scenes['ref-01-ground-pair'])
 
     def tearDown(self):
         self.client.__exit__(None, None, None)
+        self.store_patch.stop()
         self.temp.cleanup()
 
     def test_six_presets_and_local_assets(self):
@@ -119,9 +121,10 @@ class StudioTests(unittest.TestCase):
 
     def test_saved_record_survives_a_new_service_session(self):
         a=self.client.post('/api/studio/records?plan=false',json={'scene':self.scene}).json()
-        with TestClient(studio.app) as restarted:
-            studio.app.state.store=Path(self.temp.name)
-            self.assertEqual(restarted.get('/api/studio/records/'+a['id']).json(),a)
+        self.client.__exit__(None,None,None)
+        self.client=TestClient(studio.app)
+        self.client.__enter__()
+        self.assertEqual(self.client.get('/api/studio/records/'+a['id']).json(),a)
 
     def test_record_identifier_cannot_escape_archive(self):
         for value in ('../outside','bad','20260924T000000Z_ffffffffffff/../../x'):

@@ -35,7 +35,7 @@ from nca.evaluation import endpoint_connectivity, material_legality, geometric_s
 
 ROOT = Path(__file__).resolve().parents[1]
 STORE = ROOT / '.local-artifacts' / 'studio'
-VERSION = 'studio_s1'
+VERSION = 'studio_s2'
 GATE = Lock()
 
 
@@ -103,13 +103,16 @@ def checked_scene(value):
     return scene
 
 
-def plan_scene(scene, config):
+def plan_scene(scene, config, progress=None):
     """Same W1 construction/proxies, recomputed for the submitted scene."""
     started = time.perf_counter()
+    progress = progress or (lambda stage: None)
+    progress('Validating scene')
     scene = checked_scene(scene)
     with torch.inference_mode():
         state, _ = UrbanSceneGenerator(dict(config)).generate(to_generator_params(scene))
         fields = fields_from_state(state, config, scene)
+        progress('Routing connections')
         routed = route_legal_corridor(fields['permitted'], fields['endpoints'])
         guide = torch.from_numpy(routed['centerline'])[None]
         permitted = torch.from_numpy(fields['permitted'])[None]
@@ -117,9 +120,11 @@ def plan_scene(scene, config):
         context = context_from_scenes(state, config, [scene], guide, envelope,
                     torch.tensor([routed['report']['all_endpoints_connected']]))
         allowance, _ = endpoint_allowance(scene, permitted)
+        progress('Constructing scaffold')
         witness = build_witness(context, allowance)
         material = witness['material'].float()
         state[:, config['ch_structure']] = material
+        progress('Evaluating nine families')
         values = research_terms(state, material, context, config, allowance)
         binary = material[0].numpy() > 0.5
         connectivity = endpoint_connectivity(binary & fields['permitted'],
@@ -159,7 +164,7 @@ class SceneRequest(BaseModel):
 async def lifespan(app):
     torch.set_num_threads(2)
     app.state.config, _, checkpoint = load_model_c(device='cpu')
-    sources = list((ROOT / 'nca').glob('*.py')) + [Path(__file__),
+    sources = list((ROOT / 'nca').glob('*.py')) + list((ROOT / 'deploy').glob('studio*.py')) + [
                 ROOT / 'deploy/model_utils.py', ROOT / 'deploy/checkpoints.py']
     app.state.provenance = {
         'checkpoint_config_source_sha256': sha256(checkpoint.read_bytes()).hexdigest(),
@@ -167,7 +172,12 @@ async def lifespan(app):
         'code_sha256': {p.relative_to(ROOT).as_posix(): sha256(p.read_bytes()).hexdigest() for p in sources},
         'torch': str(torch.__version__), 'numpy': str(np.__version__), 'threads': 2}
     app.state.store = STORE
-    yield
+    from deploy.studio_jobs import JobManager
+    app.state.jobs = JobManager(STORE, app.state.provenance)
+    try:
+        yield
+    finally:
+        app.state.jobs.close()
 
 
 app = FastAPI(title='NCA Studio — local design studies', lifespan=lifespan)
@@ -186,7 +196,8 @@ async def bounded_local_requests(request, call_next):
         chunks = []
         async for chunk in request.stream():
             size += len(chunk)
-            if size > 100_000:
+            limit = 2_000_000 if request.url.path == '/api/studio/import' else 100_000
+            if size > limit:
                 return JSONResponse({'detail': 'Scene request too large'}, status_code=413)
             chunks.append(chunk)
         request._body = b''.join(chunks)
@@ -272,3 +283,61 @@ def record(record_id: str):
         raise HTTPException(404, 'Saved record not found or incomplete') from error
     except (ValueError, KeyError) as error:
         raise HTTPException(409, str(error)) from error
+
+
+@app.post('/api/studio/jobs', status_code=202)
+def submit_job(request: SceneRequest):
+    try:
+        scene = checked_scene(request.scene)
+        return app.state.jobs.submit(scene, scene_hash(scene))
+    except (ValueError, TypeError, KeyError) as error:
+        raise HTTPException(422, str(error)) from error
+
+
+@app.get('/api/studio/jobs')
+def list_jobs():
+    return app.state.jobs.list()
+
+
+@app.post('/api/studio/jobs/{job_id}/cancel')
+def cancel_job(job_id: str):
+    try:
+        return app.state.jobs.cancel(job_id)
+    except (ValueError, OSError, KeyError) as error:
+        raise HTTPException(409, str(error)) from error
+
+
+@app.post('/api/studio/jobs/{job_id}/retry', status_code=202)
+def retry_job(job_id: str):
+    try:
+        return app.state.jobs.retry(job_id)
+    except (ValueError, OSError, KeyError) as error:
+        raise HTTPException(409, str(error)) from error
+
+
+@app.get('/api/studio/records/{record_id}/export')
+def export_record(record_id: str):
+    value = record(record_id)
+    return {'format': 'studio_portable_v1', 'sha256': sha256(encode(value)).hexdigest(), 'record': value}
+
+
+@app.post('/api/studio/import')
+def import_record(payload: dict):
+    from deploy.studio_portable import import_verified
+    if not GATE.acquire(blocking=False):
+        raise HTTPException(429, 'Another record operation is running')
+    try:
+        return import_verified(payload, app.state.store, app.state.config, app.state.provenance)
+    except (ValueError, KeyError, TypeError, OverflowError) as error:
+        raise HTTPException(422, str(error)) from error
+    finally:
+        GATE.release()
+
+
+@app.get('/api/studio/compare')
+def compare_records(a: str, b: str):
+    from deploy.studio_portable import compare
+    try:
+        return compare(record(a), record(b))
+    except (ValueError, KeyError, TypeError) as error:
+        raise HTTPException(422, str(error)) from error

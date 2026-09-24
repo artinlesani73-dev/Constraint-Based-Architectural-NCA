@@ -1,0 +1,122 @@
+{
+  "version": "studio_s2_qa_v1",
+  "date": "2026-09-24",
+  "training": false,
+  "regression_run": "20260923T231009Z_672a788a5c0d",
+  "tests": 224,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "smoke_exit_code": 0,
+  "regression_scope": "Final backend and 13 S2 tests. Subsequent frontend-only JSON byte-preservation fix verified through actual browser export/import.",
+  "browser_checks": [
+    "Job completion while editing remains available; results automatically saved.",
+    "Live worker cancelled: durable queued/running/cancelled history, no result receipt. Linked retry completed.",
+    "Reload restores saved results and completed/cancelled job history.",
+    "Comparison of original ground pair and B_west z-end24 revision: scene change visible, 36 shared material voxels, zero added/removed, all nine metrics displayed.",
+    "Shared axonometric/plan views and route-guide layer toggles function for comparison.",
+    "390x844 viewport: document width375 <=390 (scrollbar); stacked comparisons, no horizontal page overflow.",
+    "Desktop and mobile screenshots inspected.",
+    "Actual corrected browser export checksum matches saved record; import opens existing copy without duplication.",
+    "Earlier browser-reencoded file rejected with checksum error; file retained.",
+    "No browser warn/error log entries observed at final check."
+  ],
+  "retained_observations": [
+    "Initial 24 Studio tests failed two actual-worker completion/retry timeouts (51.329s). A second 12-test S2 attempt failed the same two (45.872s). Tool outputs, not full raw test logs, were available for these first two attempts.",
+    "Four diagnostic probe roots retained under .local-artifacts/studio-s2-probes. Their requests, source ZIPs, worker logs and histories preserve the startup failure investigation.",
+    "Faulthandler traced a main-thread hang during NumPy extension initialization with early stdin watchdog active. Raw reads and native Windows reads before runtime imports did not resolve it. Starting watchdog after numerical imports resolved the observed hang.",
+    "Windows Job Object ownership is installed before GO acknowledgement, covering runtime imports and descendant processes. Direct 12-test S2 run then passed in12.410s. Full suite added owner-death test and passed224.",
+    "One initial S2 server launch failed because S1 still occupied8001. Stopped S1 and started final S2 PID19444/session43924; all existing studies preserved.",
+    "Browser discovered float encoding corruption: parsing and stringifying a checksummed record converted0.0 to0, breaking portable round trip. Fixed export to download server text and import to send file text directly. Successful round trip and rejection of original broken export checked.",
+    "One browser generic-role locator for scene revision details matched no element; getByText on the observed summary succeeded.",
+    "A documentation-helper read used the repository cwd instead of Codex work path and failed without modifying files; corrected absolute read succeeded.",
+    "Get-CimInstance process inspection was denied by sandbox; actual process lifecycle tests used owned process handles.",
+    "User identified thin scaffold as insufficient architectural space; UI now labels procedural method and lack of inhabitability explicitly. No trained NCA promotion or new science."
+  ],
+  "browser_jobs": [
+    {
+      "id": "20260923T231018Z_7accac3fa0c1",
+      "states": [
+        "queued",
+        "running",
+        "completed"
+      ],
+      "parent_job": null,
+      "source_zip_sha256": "4ff5022f327b87f99a29ff6b4de57f2f87248f0719ff40edf054b96052cd56c4"
+    },
+    {
+      "id": "20260923T231442Z_a8d7d3d04899",
+      "states": [
+        "queued",
+        "running",
+        "completed"
+      ],
+      "parent_job": null,
+      "source_zip_sha256": "de49be97793dffd270ca60423739a4c93228fba481707ab9ab0aeff3be8a5cb5"
+    },
+    {
+      "id": "20260923T231449Z_133fbe52f872",
+      "states": [
+        "queued",
+        "running",
+        "cancelled"
+      ],
+      "parent_job": null,
+      "source_zip_sha256": "e68625abe37d99289a50bc88215be12c965987ab5c13571bf9e4b2e67c9eb2b5"
+    },
+    {
+      "id": "20260923T231501Z_70f5e39cc675",
+      "states": [
+        "queued",
+        "running",
+        "completed"
+      ],
+      "parent_job": "20260923T231449Z_133fbe52f872",
+      "source_zip_sha256": "47e95c022c857c5ef5839f0345c5765dc6589ad356d480dd32ae5821494bbc2e"
+    }
+  ],
+  "all_local_study_ids": [
+    "20260923T222656Z_9518cc83c6bd",
+    "20260923T223115Z_1d41b3524110",
+    "20260923T223403Z_be34c866b7a7",
+    "20260923T223419Z_6b1b42479c59",
+    "20260923T223755Z_7f580c96ff6a",
+    "20260923T224907Z_a131fea9ce72",
+    "20260923T224914Z_ecd1f75cb449",
+    "20260923T224921Z_b374c652d007",
+    "20260923T224927Z_5f0bd6f6ddf0",
+    "20260923T224945Z_d0d1cf7b35c8",
+    "20260923T231018Z_7accac3fa0c1",
+    "20260923T231442Z_a8d7d3d04899",
+    "20260923T231501Z_70f5e39cc675"
+  ],
+  "probe_roots": [
+    "20260923T230318Z_297812bcc809",
+    "20260923T230428Z_67ded302c276",
+    "20260923T230510Z_67eea866e686",
+    "20260923T230629Z_3cb25b4f2654"
+  ],
+  "screenshots": {
+    "desktop-comparison.png": "03ccc33648bc1946783906941a0dd99ef38c4cb3b26c50cb84ffa6eecde23854",
+    "desktop-final.png": "b69cf09a1f5b5bbc9f54a9365b233bc5958552c59b82d30f5dfb15dcbab02d03",
+    "mobile-comparison.png": "95a29506b664828f432ae944437cdd16eaa2a14b4da4861b96049fc02d19d163"
+  },
+  "portable_fixtures": {
+    "rejected-browser-reencoded-export.json": "c5d167af7d2ea839d594896305212f967d4262ed46834d874a32d2c3fc44fcbe",
+    "verified-browser-export.json": "bbfdc7f1d1a33c36e82f71df7997d52dff4b37ba1e053e0bc56b4a2724346fa5"
+  },
+  "final_code_sha256": {
+    "deploy/studio.py": "aea515c1c24b418e618efa487439f94f90e1db2e88c3acc87782aae2c34524a9",
+    "deploy/studio.html": "5c3950431f4030afb1ad4bce340d7151a412a84b0043e29ad5ee43625b85c3f4",
+    "deploy/static/js/studio.js": "bc9629f45a24267dc7ce0513b80887933579957b021726a38e9a346a9e917bab",
+    "deploy/static/css/studio-s2.css": "6d7b9ed55e43b657d14480649f4c2c75cb0d250ca4868559098bcecdd3a52972",
+    "deploy/studio_jobs.py": "900fbd4a24a0154c7ac8082a4369f8e094e20d598b93ea2515ea71309db5fbcf",
+    "deploy/studio_worker.py": "92249699766aa68dfff5ffef92e9582934f4e9865d0df14b2de1feff5461cbce",
+    "deploy/studio_process.py": "695c0d3139123856d7f503dab8926d2cc749e6cd633953f7e7a8be05e893a1b2",
+    "deploy/studio_portable.py": "2ecfc3246d875aa128d5f292b67de3ec72530acfdc27d7b1791ffaf363eeef14",
+    "tests/test_studio.py": "9ea3bddf71a3be58f7340824e5ad8175e619cee5ada5991bd90a0fa1c1336a86",
+    "tests/test_studio_s2.py": "c7effbbc20bb26267201d52e54a5fc566a9d400674be8fb2cd39651b29c39e1b"
+  },
+  "artifact_location": ".local-artifacts/studio-qa/S2-20260924",
+  "limits": "Local Windows verification. No browser automation harness committed, cross-platform descendant-kill guarantee, automatic computation resume, trained refiner, inhabitable-space validation, or public deployment. Archive is same-disk only."
+}

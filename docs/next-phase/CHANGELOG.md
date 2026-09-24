@@ -833,3 +833,24 @@ servers could read but not write the repo: confirmed WinError5. Project-cwd serv
 works. Added exception logging so failure to preserve a failure is visible in logs;
 the denied attempts are retained in the QA report since their file writes failed.
 No training, checkpoint promotion, paid compute, Drive action, push or publication.
+
+
+## 2026-09-24 - Studio S2
+
+Added durable background job requests/source ZIPs/hash-chained state histories,
+single-owner queue, cancellable Windows worker trees, shutdown/crash recovery and
+linked retry. Added actual side-by-side geometry, nine-metric and scene-revision
+comparison; checksummed JSON export/import with supported-method recomputation.
+UI names its procedural scaffold and absence of inhabitability explicitly.
+Added STUDIO_S2, SPATIAL_BRIEF, D055, QA report and recovery notes.13 S2 regression
+tests extend211 to224; all pass including actual forced owner/descendant death.
+
+Two initial direct test attempts timed out in numerical imports with an early
+watchdog. Four preserved probes locate and resolve that startup issue by moving
+the watcher after runtime loading, while Windows process ownership covers imports.
+Browser QA found that JSON parse/stringify changed0.0 to0 and broke checksums;
+exact text export/upload fixes the actual round trip. Earlier broken export,
+failed probes and observations are retained. Full backend verification preceded
+that frontend-only fix; actual browser round trip verifies final frontend.
+No scientific objective/model/reference scene/historical serving edits; no paid
+training, Drive access, push or publication. Private report remains Git-ignored.

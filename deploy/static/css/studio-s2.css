@@ -1,0 +1,36 @@
+.runbar .scope-note { color: #8c5b32; font-size: 11px; }
+.jobs-panel, .comparison { padding: 0 25px 23px; border-bottom: 1px solid var(--line); }
+#jobs { max-height: 240px; overflow: auto; }
+.job { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+.job div { flex: 1; min-width: 0; }
+.job strong { font-size: 11px; font-weight: 600; display: block; overflow-wrap: anywhere; }
+.job small { display: block; color: var(--muted); margin-top: 5px; font-size: 10px; }
+.job button { font-size: 11px; padding: 7px 12px; }
+.job-state { font-size: 9px; text-transform: uppercase; letter-spacing: .7px; }
+.job-state.running, .job-state.queued { color: #886b28; }
+.job-state.failed, .job-state.interrupted { color: #a25033; }
+.job-state.completed { color: var(--accent); }
+.compare-selectors { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto; gap: 10px; align-items: end; }
+.compare-selectors label { font-size: 10px; color: var(--muted); min-width: 0; }
+.compare-selectors select { font-size: 11px; }
+.compare-views { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.compare-views figure { margin: 0; min-width: 0; border: 1px solid var(--line); border-radius: 5px; background: #f9f8f2; }
+.compare-views figcaption { padding: 12px; font-size: 11px; overflow-wrap: anywhere; border-bottom: 1px solid var(--line); }
+.compare-views canvas { height: 290px; }
+.table-scroll { overflow-x: auto; }
+.comparison table { width: 100%; border-collapse: collapse; font-size: 11px; font-variant-numeric: tabular-nums; }
+.comparison th, .comparison td { padding: 10px 7px; text-align: right; border-bottom: 1px solid var(--line); }
+.comparison th:first-child, .comparison td:first-child { text-align: left; }
+.comparison th { font-size: 10px; font-weight: 600; }
+.comparison pre { white-space: pre-wrap; overflow-wrap: anywhere; font: 11px/1.7 'Segoe UI',sans-serif; }
+@media(max-width:650px) {
+    header { height: auto; min-height: 65px; flex-wrap: wrap; padding: 12px 15px; gap: 8px; }
+    header .brand { flex: 1; }
+    header button { margin-left: 0; padding: 8px; }
+    .jobs-panel, .comparison { padding: 0 15px 20px; }
+    .compare-selectors { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+    .compare-selectors button { grid-column: 1/-1; }
+    .compare-views { grid-template-columns: 1fr; }
+    .compare-views canvas { height: 300px; }
+    .job { flex-wrap: wrap; gap: 8px; }
+}

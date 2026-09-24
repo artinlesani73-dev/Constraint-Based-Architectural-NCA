@@ -856,3 +856,20 @@ Infeasible outputs and invalid contexts remain visible. All source versions used
 by browser studies are hash-matched and archived.211 regression checks pass.
 Storage is local with no Drive operation. S2 should address durable jobs and actual
 cancellation, revision-aware comparison and verified import before long rollouts.
+
+
+## D055 - Durable Studio jobs and explicit scaffold meaning
+
+2026-09-24. Implement authorized S2: single-owner durable queue, actual Windows
+worker-tree cancellation, interrupted-state recovery and linked retries; actual
+revision-aware geometry/metric comparison; checksummed supported-procedural import.
+Preserve every attempt and source snapshot. No automatic computation resume or
+model promotion.224 regression tests and browser checks pass; the browser exposed
+and verified the fix for numeric reserialization breaking export checksums.
+
+User questioned thin output: Studio W1 is a connection scaffold, not learned NCA
+or usable architectural space. Label that explicitly. SPATIAL_BRIEF.md proposes
+a spatial contract before training/refinement controls; retain D026 and the nine
+families. Future metric/representation changes require versioned definitions and
+geometric examples. No additional experiment series is automatically authorized
+by the UI milestone. No paid compute, Drive access, push or public deployment.

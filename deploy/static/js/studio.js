@@ -3,6 +3,8 @@ const $ = id => document.getElementById(id);
 const clone = value => JSON.parse(JSON.stringify(value));
 let scene = null, draft = null, result = null, presets = [], saved = [];
 let dirty = false, busy = false, view = 'iso';
+let comparison = null, watchedJob = null;
+const jobStates = new Map();
 const families = ['access','coverage','facade','ground','legality','sparsity','spill','support','thickness'];
 const canvas = $('canvas'), ctx = canvas.getContext('2d');
 function el(tag, text, className) {
@@ -14,7 +16,7 @@ function el(tag, text, className) {
 function status(text, error = false) { $('status').textContent = text; $('status').className = error ? 'error' : ''; }
 async function api(path, body) {
     const response = await fetch('/api/studio/' + path, body === undefined ? {} : {
-        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+        method:'POST', headers:{'Content-Type':'application/json'}, body:typeof body==='string'?body:JSON.stringify(body)});
     const value = await response.json();
     if (!response.ok) throw new Error(typeof value.detail === 'string' ? value.detail : JSON.stringify(value.detail));
     return value;
@@ -24,6 +26,7 @@ function lock(value) {
     document.querySelectorAll('button,select,input').forEach(node => node.disabled = value);
     $('construct').disabled = value || dirty || !scene;
     $('export').disabled = value || dirty || !result;
+    $('compare').disabled = value || saved.filter(r=>r.kind==='result').length < 2;
 }
 function markDirty() {
     dirty = true; result = null; lock(false); evidence(); draw();
@@ -68,7 +71,7 @@ function selectScene(value, record = null) {
     $('scene-name').textContent=scene.scene_id.replace(/^ref-\d+-/,'').replaceAll('-',' ');
     $('description').textContent=scene.description;
     $('study-name').textContent=record?.kind === 'result' ? 'SAVED PROCEDURAL STUDY' : 'SCENE PREVIEW';
-    $('drawing-note').textContent=record?.kind === 'result' ? 'Computed voxel geometry · geometric proxies only' : 'Existing context · no generated material';
+    $('drawing-note').textContent=record?.kind === 'result' ? 'Procedural connection scaffold · not an inhabitable space' : 'Existing context · no generated material';
     $('presets').value=presets.some(s=>s.scene_id===scene.scene_id) ? scene.scene_id : '';
     editor(); evidence(); lock(busy); draw(); renderLibrary();
 }
@@ -79,7 +82,7 @@ function evidence() {
     const d=result?.diagnostics;
     $('summary').replaceChildren(); $('families').replaceChildren();
     $('result-title').textContent=d?'Read the result.':'A scene, before a solution.';
-    $('method').textContent=d?'PROCEDURAL · NOT LEARNED':'PREVIEW ONLY';
+    $('method').textContent=d?'SCAFFOLD · NOT TRAINED NCA':'PREVIEW ONLY';
     $('evidence-note').textContent=d ? (d.joint_budget_connectivity ? 'Connectivity and material budget met. Review all nine proxy penalties below.' : 'This result has unmet checks. It is retained for comparison.') : 'Build an alternative to evaluate its geometry. A useful image is only the start.';
     stat('Material connectivity',d?(d.connectivity.all_connected?'Connected':'Disconnected'):'Not evaluated',d?.connectivity.all_connected);
     stat('Material / envelope',d?`${(d.material_ratio*100).toFixed(2)}%`:'—',d?.in_budget);
@@ -108,6 +111,16 @@ function renderLibrary() {
             catch(error){status(error.message,true);} finally {lock(false);}
         }; $('records').append(card);
     });
+    for (const id of ['compare-a','compare-b']) {
+        const previous=$(id).value; $(id).replaceChildren();
+        saved.filter(r=>r.kind==='result').forEach(r=>{
+            const option=el('option',`${r.scene.scene_id.replace(/^ref-\d+-/,'')} · ${r.scene_hash.slice(0,7)} · ${r.id.slice(-6)}`);
+            option.value=r.id; $(id).append(option);
+        });
+        if(saved.some(r=>r.id===previous&&r.kind==='result')) $(id).value=previous;
+        else if(id==='compare-b'&&$(id).options.length>1) $(id).selectedIndex=1;
+    }
+    $('compare').disabled=busy||saved.filter(r=>r.kind==='result').length<2;
 }
 async function apply() {
     const record=await api('records?plan=false',{scene:draft}); selectScene(record.scene,record); await refreshLibrary(); status('Scene validated and saved locally. Build an alternative to evaluate it.');
@@ -117,7 +130,12 @@ async function save(plan) {
     lock(true);status(plan?'Constructing and evaluating all nine families…':'Saving a scene snapshot…');
     try {
         if(dirty) await apply();
-        const record=await api('records?plan='+plan,{scene});
+        if(plan) {
+            const job=await api('jobs',{scene}); watchedJob=job.id;
+            status(`Scaffold job ${job.id.slice(-12)} queued. You can keep editing or cancel it below.`);
+            await refreshJobs(); return;
+        }
+        const record=await api('records?plan=false',{scene});
         selectScene(record.scene,record);await refreshLibrary();
         status(plan?`Saved alternative ${record.id.slice(-12)}. ${record.diagnostics.joint_budget_connectivity?'Connectivity and budget met.':'Some checks are unmet; the result is retained.'}`:'Scene snapshot saved locally.');
     }catch(error){try{await refreshLibrary();}catch{} status(error.message,true);}finally{lock(false);}
@@ -127,9 +145,85 @@ $('presets').onchange=()=>{
     if(dirty&&!confirm('Discard unapplied edits and load another scene?')) {$('presets').value=scene.scene_id;return;}
     selectScene(presets.find(s=>s.scene_id===$('presets').value));status('Reference scene loaded. Edits create a new study; the reference file stays unchanged.');
 };
-$('export').onclick=()=>{
-    const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}));
-    const link=el('a');link.href=url;link.download=`NCA-Studio-${result.id}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+$('export').onclick=async()=>{
+    lock(true);
+    try {
+        const response=await fetch('/api/studio/records/'+result.id+'/export');
+        if(!response.ok)throw new Error('Export failed; the saved record is still available locally.');
+        // Preserve number encodings (for example 0.0) covered by the checksum.
+        const portable=await response.text();
+        const url=URL.createObjectURL(new Blob([portable],{type:'application/json'}));
+        const link=el('a');link.href=url;link.download=`NCA-Studio-${result.id}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+        status('Portable record exported with its integrity checksum.');
+    }catch(error){status(error.message,true);}finally{lock(false);}
+};
+$('import').onclick=()=>$('import-file').click();
+$('import-file').onchange=async()=>{
+    const file=$('import-file').files[0]; if(!file)return;
+    if(dirty&&!confirm('Discard unapplied edits and open the imported record?')) {$('import-file').value='';return;}
+    lock(true);status('Checking the imported record and its geometry…');
+    try {
+        if(file.size>2_000_000)throw new Error('Import exceeds the 2 MB limit.');
+        const imported=await api('import',await file.text());
+        selectScene(imported.record.scene,imported.record);await refreshLibrary();
+        status(imported.duplicate?'Verified record already exists; opened its local copy.':'Imported a verified copy. Original provenance is retained in the record.');
+    }catch(error){status('Import rejected: '+error.message,true);}finally{$('import-file').value='';lock(false);}
+};
+
+function stable(value) {
+    if(Array.isArray(value))return '['+value.map(stable).join(',')+']';
+    if(value&&typeof value==='object')return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+stable(value[k])).join(',')+'}';
+    return JSON.stringify(value);
+}
+async function refreshJobs() {
+    const data=await api('jobs');$('jobs').replaceChildren();
+    $('job-alert').hidden=!data.integrity_issues.length;
+    $('job-alert').textContent='Job history needs inspection: '+data.integrity_issues.join(', ');
+    if(!data.jobs.length)$('jobs').append(el('p','No submitted jobs.','muted'));
+    let libraryChanged=false;
+    for(const job of data.jobs) {
+        const row=el('div',undefined,'job'), text=el('div');
+        text.append(el('strong',job.scene.scene_id.replace(/^ref-\d+-/,'')),el('small',`${job.id.slice(-12)} · ${job.stage}${job.parent_job?' · retry of '+job.parent_job.slice(-12):''}`));
+        row.append(text,el('span',job.state,'job-state '+job.state));
+        if(['queued','running'].includes(job.state)||['failed','cancelled','interrupted'].includes(job.state)) {
+            const action=['queued','running'].includes(job.state)?'cancel':'retry';
+            const button=el('button',action==='cancel'?'Cancel':'Retry');button.setAttribute('aria-label',`${action} job ${job.id.slice(-12)}`);button.disabled=busy;
+            button.onclick=async()=>{
+                button.disabled=true;
+                try{const response=await api('jobs/'+job.id+'/'+action,{});if(action==='retry')watchedJob=response.id;await refreshJobs();status(action==='cancel'?`Job is ${response.state}.`:'Retry saved as a new linked job.');}
+                catch(error){status(error.message,true);button.disabled=false;}
+            };row.append(button);
+        }
+        $('jobs').append(row);
+        if(jobStates.get(job.id)!==job.state&&job.state==='completed') {
+            libraryChanged=true;
+            if(job.id===watchedJob) {
+                const record=await api('records/'+job.detail.result_id);
+                if(!dirty&&!busy&&stable(scene)===stable(job.scene))selectScene(record.scene,record);
+                status(`Scaffold ${job.id.slice(-12)} completed and saved. ${record.diagnostics.joint_budget_connectivity?'Connectivity and budget met.':'Unmet checks are retained.'}`);
+                watchedJob=null;
+            }
+        }
+        jobStates.set(job.id,job.state);
+    }
+    if(libraryChanged)await refreshLibrary();
+}
+async function pollJobs(){try{await refreshJobs();}catch(error){$('job-alert').hidden=false;$('job-alert').textContent='Job status unavailable. Reconnect before retrying a submission: '+error.message;}finally{setTimeout(pollJobs,1200);}}
+
+$('compare').onclick=async()=>{
+    lock(true);
+    try {
+        comparison=await api('compare?a='+encodeURIComponent($('compare-a').value)+'&b='+encodeURIComponent($('compare-b').value));
+        $('compare-content').hidden=false;
+        $('compare-note').textContent=comparison.same_scene?'Same scene revision. Compare the saved outcomes below.':'Different scene revisions: descriptive comparison, not a controlled model comparison.';
+        for(const key of ['a','b'])$('caption-'+key).textContent=`${key.toUpperCase()} · ${comparison[key].scene.scene_id} · ${comparison[key].id.slice(-6)}`;
+        $('geometry-delta').textContent=`B relative to A: ${comparison.added_voxels} added · ${comparison.removed_voxels} removed · ${comparison.shared_voxels} shared material voxels. Views and layers follow the main viewport controls.`;
+        $('scene-diff').textContent=comparison.scene_changes.length?comparison.scene_changes.map(c=>`${c.group} / ${c.id}\nA: ${JSON.stringify(c.before)}\nB: ${JSON.stringify(c.after)}`).join('\n\n'):'No building or entrance changes.';
+        const a=comparison.a.diagnostics,b=comparison.b.diagnostics;$('compare-metrics').replaceChildren();
+        const rows=[['Material connectivity',a.connectivity.all_connected?'Connected':'Disconnected',b.connectivity.all_connected?'Connected':'Disconnected','—'],['Joint budget/connectivity',a.joint_budget_connectivity?'Met':'Unmet',b.joint_budget_connectivity?'Met':'Unmet','—'],['Material / envelope',`${(a.material_ratio*100).toFixed(2)}%`,`${(b.material_ratio*100).toFixed(2)}%`,`${((b.material_ratio-a.material_ratio)*100).toFixed(2)} pp`],['Envelope voxels',a.envelope_voxels,b.envelope_voxels,b.envelope_voxels-a.envelope_voxels],...families.map(k=>[k,a.families[k].toFixed(5),b.families[k].toFixed(5),(b.families[k]-a.families[k]).toFixed(5)])];
+        for(const values of rows){const row=el('tr');values.forEach(v=>row.append(el('td',String(v))));$('compare-metrics').append(row);}
+        draw();status('Comparison loaded. Proxy values do not establish an inhabitable space.');
+    }catch(error){status(error.message,true);}finally{lock(false);}
 };
 window.addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();event.returnValue='';}});
 document.querySelectorAll('[data-view]').forEach(button=>button.onclick=()=>{
@@ -142,6 +236,11 @@ document.querySelectorAll('[data-view]').forEach(button=>button.onclick=()=>{
 // Lightweight orthographic surface renderer. Geometry comes from saved voxel
 // coordinates, never an illustrative substitute. One canvas, no remote assets.
 function draw() {
+    drawGeometry(canvas,scene,result,view);
+    if(comparison)for(const key of ['a','b'])drawGeometry($('canvas-'+key),comparison[key].scene,comparison[key],view);
+}
+function drawGeometry(canvas,scene,result,view) {
+    const ctx=canvas.getContext('2d');
     const rect=canvas.getBoundingClientRect(), w=rect.width,h=rect.height,dpr=Math.min(devicePixelRatio||1,2);
     canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
     if(!scene)return;
@@ -166,4 +265,4 @@ function draw() {
     for(const [label,p]of [['X',[33,0,0]],['Y',[0,33,0]]]){const q=project(...p);ctx.fillText(label,...q);}
 }
 new ResizeObserver(draw).observe(canvas.parentElement);
-(async()=>{try{const data=await api('scenes');presets=data.scenes;presets.forEach(s=>{const option=el('option',s.scene_id.replace(/^ref-/,'').replaceAll('-',' '));option.value=s.scene_id;$('presets').append(option);});selectScene(presets.find(s=>s.scene_id.includes('elevated'))||presets[0]);await refreshLibrary();status('Workspace ready. Build a procedural alternative or edit the scene.');}catch(error){status('Workspace could not load: '+error.message,true);}})();
+(async()=>{try{const data=await api('scenes');presets=data.scenes;presets.forEach(s=>{const option=el('option',s.scene_id.replace(/^ref-/,'').replaceAll('-',' '));option.value=s.scene_id;$('presets').append(option);});selectScene(presets.find(s=>s.scene_id.includes('elevated'))||presets[0]);await refreshLibrary();status('Workspace ready. This planner builds connection scaffolds, not inhabitable spaces.');}catch(error){status('Workspace could not load: '+error.message,true);}finally{pollJobs();}})();

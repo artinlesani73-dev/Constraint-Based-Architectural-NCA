@@ -1,5 +1,48 @@
 # Resume the NCA next phase
 
+## Current: Studio S2 implemented and verified - 2026-09-24
+
+Read STUDIO_S2.md, SPATIAL_BRIEF.md, D055 and S2-studio-verification.json.
+This entry supersedes historical current/running notes below. No training/test
+process is active. Local Studio http://127.0.0.1:8001 runs PID19444/session43924;
+inspect before restarting. Launch from project cwd with `.venv/Scripts/python.exe
+-m uvicorn deploy.studio:app --host 127.0.0.1 --port 8001`, only one worker.
+
+Final backend regression20260923T231009Z_672a788a5c0d:224pass,0fail/error/skip,
+smoke0,111.71s including infrastructure. Final frontend JSON transfer fix followed;
+actual browser export/import and checksum rejection pass. Browser cancellation
+job20260923T231449Z_133fbe52f872 really entered running then cancelled, no receipt;
+retry20260923T231501Z_70f5e39cc675 completed with parent link. Three completed S2
+browser results, one cancelled history;13 saved S1/S2 records at milestone.
+
+Preserve .local-artifacts/studio, studio-jobs, studio-s2-probes and studio-qa/S2-20260924.
+Four probes retain earlier import-startup hangs and their exact sources. QA includes
+screenshots, valid/rejected portable files, final source ZIP and hashes. The original
+browser-reencoded download is broken; the filename ending'(1).json' passes checksum.
+Server backend matches hashes in jobs. UI transfers original JSON text now.
+
+Jobs survive as histories: incomplete work becomes interrupted on restart, not
+automatically resumed. Retry always creates a linked new attempt. Windows tests
+prove child/grandchild termination on owner death. No non-Windows tree guarantee.
+
+Next: illustrated spatial contract per SPATIAL_BRIEF.md. User correctly noted the
+thin output is not a space. Studio runs procedural W1, never the trained NCA;
+F5 is still unpromoted. Specify material/surface/void and within-nine-family metric
+meanings with positive/negative examples before more learning. No Colab needed now.
+
+Local milestone commit title: "Add durable Studio jobs, comparison and verified import".
+Post-commit incremental archive: Codex cwd outputs/NCA-Studio-S2-Backup-2026-09-24-<commit7>.zip;
+receipt .local-artifacts/milestones/<commit7>-studio-s2-backup-receipt.json establishes
+verified completion. Packaging helper Codex cwd work/package_studio_s2.py is
+write-once: inspect partial files/processes before retry, never overwrite evidence.
+Retain S1 archive8c51590 and full F5 archive8f2d8d6 for older evidence. Same-disk only.
+
+Private next-phase report remains ignored. Unrelated user concept HTML/M1 ZIP
+sidecar remain untracked. No Drive access, push, publication or paid training.
+Every Drive operation still requires separate explicit permission inside the
+designated project folder only. Historical resume notes below remain unchanged.
+
+
 ## Current: Studio S1 implemented and verified - 2026-09-24
 
 Read STUDIO_S1.md, PLANNER_REFINER_SPEC.md, D054 and
