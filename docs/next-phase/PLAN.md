@@ -1,5 +1,13 @@
 # Next-phase implementation plan
 
+## Active direction - D058, 2026-09-24
+
+Generate overall building mass; develop interiors and construction later.
+MASSING_BRIEF.md supersedes the material/void target in historical entries below
+and VOLUMETRIC_NEXT_PHASE.md. Next: versioned massing contract, saved original/
+derived comparison, then nine-family compatibility audit. No filling implementation,
+revised loss or new training is claimed yet.
+
 Owner: Artin Lesani. Started 2026-09-13. Historical baseline: ac913b9.
 
 This tracked plan implements the private next-phase report. It supersedes the old implementation-status document for new work without erasing historical claims. The report itself stays ignored. No new constraint families are planned.

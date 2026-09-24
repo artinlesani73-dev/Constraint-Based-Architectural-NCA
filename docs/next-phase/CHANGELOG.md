@@ -891,3 +891,15 @@ navigation; SP1 remains available as historical diagnostic. First SP1 navigation
 did not show latest notice; fresh query navigation confirmed new content/link.
 Desktop/mobile visuals and controls verified. No failed scientific run, old loss
 edit, model promotion, paid training, Drive operation, remote push or publication.
+
+
+## 2026-09-24 - D058 building-mass interpretation
+
+Recorded user's confirmation: generate overall building mass; leave interiors and
+construction for later. Added MASSING_BRIEF, updated AGENTS/PLAN/RESUME, appended
+D058 and marked the earlier volumetric next-phase plan superseded. Retained all
+historical evidence. No source/model/data/viewer change or scientific run. Checked
+documentation diff and private-report ignore rules; no regression rerun needed.
+Two initial multi-file patches failed on unmatched final contexts; status checks
+confirmed neither applied any edits. Corrected with a guarded document update.
+Local commit/document archive only; no Drive operation, push or paid training.

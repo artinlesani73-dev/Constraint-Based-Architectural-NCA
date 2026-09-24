@@ -4,7 +4,7 @@ Read `docs/next-phase/RESUME.md` first, then `PLAN.md`, `DECISIONS.md`, and `CHA
 
 ## User requirements
 
-- The research target is volumetric form with spatial depth and voids within/between its parts, without prescribed rooms, shelters or architectural functions (D057). The flat SP1 platform is a historical diagnostic, not the target. Do not reinterpret the goal as a fixed room program or equate more solid material/bounding extent with spatial quality.
+- The research target is overall building mass; future occupied voxels mean building volume, with interiors and construction left for later (D058). Do not treat them as solid construction material or require internal cavities now. Preserve meaningful exterior gaps; do not blindly fill the VA1 blue diagnostic mask. SP1/VA1 retain historical material semantics. Read MASSING_BRIEF.md before geometry/objective work; retain volumetric depth without prescribing rooms, shelters or functions.
 - Preserve the nine existing constraint families. Improve their meaning and implementation; do not introduce additional constraint categories without a new user decision.
 - Document every meaningful change, experiment, failure, and decision. Record limitations as well as successful results.
 - Never delete or overwrite historical experiment evidence to make a run look successful. New attempts get new run IDs and link to the previous attempt.

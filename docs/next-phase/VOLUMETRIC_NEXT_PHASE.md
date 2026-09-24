@@ -1,5 +1,11 @@
 # Next: a volumetric objective contract, before training
 
+> Superseded as the active plan by D058 and MASSING_BRIEF.md (2026-09-24).
+> The user confirmed overall building mass, with interiors and construction later.
+> This material/void plan is retained as history. Its fixed physical domain and
+> versioned comparisons remain useful; its internal-void requirement and material
+> objective meanings do not carry forward automatically.
+
 2026-09-24, after VA1. User target: volumetric forms and spatial voids, without
 predefined functions. The rectangular audit probes are measurement controls,
 not a new shape template or a target dataset for copying rooms or boxes.

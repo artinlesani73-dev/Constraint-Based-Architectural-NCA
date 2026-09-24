@@ -1,5 +1,26 @@
 # Resume the NCA next phase
 
+## Current: building-mass interpretation confirmed - 2026-09-24
+
+Read D058 and MASSING_BRIEF.md first. The user confirmed generating overall
+building mass now, leaving interiors and construction for later. Future occupied
+voxels mean building volume, not solid construction material. This supersedes
+D057's required material/void target, retaining depth without a room program.
+
+Documentation only: no code, data, model, viewer, objective or old run changed.
+VA1 still displays historical material probes and a blue empty-space diagnostic.
+No automatic fill is implemented or selected. The last code regression remains
+VA1's 248-test pass; it was not rerun for this documentation-only decision.
+
+Next: versioned massing contract and saved original/derived comparison per
+MASSING_BRIEF.md, then nine-family checks. Freeze budget/depth criteria before new
+training. Do not resume the older void-first plan below as current work.
+
+Preserve VA1 commit48d9c40 and its archive plus all parent archives. This decision
+gets a local commit and verified document archive under Codex cwd outputs, with a
+receipt recording commit and file hashes. No scientific run, server restart,
+training, Drive access, push or publication. Unrelated files remain untracked.
+
 ## Current: corrected volumetric target and VA1 audit complete - 2026-09-24
 
 Read D057, VOLUMETRIC_AUDIT_FINDINGS.md and VOLUMETRIC_NEXT_PHASE.md.

@@ -913,3 +913,19 @@ thickness penalties0; budget and occupied-route conflicts remain.248 checks pass
 Keep single material field initially while defining the volumetric objective/domain
 contract; no trained representation claim. VOLUMETRIC_NEXT_PHASE.md is the next
 bounded proposal. All descriptive diagnostics remain separate from training losses.
+
+
+## D058 - Generate building mass; interiors and construction later
+
+2026-09-24. User proposed filling the blue cells, after generation or as a rule.
+Asked "generate the overall building mass now, and leave its internal spaces and
+construction for later", the user answered "yes". This supersedes D057's required
+material/void target. Future occupied voxels mean building volume, not solid
+construction material. Retain depth; do not prescribe rooms or fill exterior gaps
+indiscriminately. Historical SP1/VA1 definitions and evidence remain unchanged.
+
+MASSING_BRIEF.md governs next work. Blue axis-bracketed cells are not an interior
+classifier. Compare original/derived fields before choosing a filling rule or
+direct generation. Audit access, coverage, budget and thickness within the same
+nine families. No automatic training, paid compute, Drive access or publication.
+This milestone changes documentation only.
