@@ -1,5 +1,56 @@
 # Resume the NCA next phase
 
+## Current: MG2 complete; live promotion held - 2026-09-24
+
+Read CONTACT_GENERATION_FINDINGS.md, CONTACT_GENERATION_PROTOCOL.md and D065.
+Run20260924T133657Z_f4c92840c7c0:45 completed,34 pass vs27 MG1, no baseline regressions.
+All27 earlier positives preserved;7/9 partial cases repaired;9 blocked remain
+failed. Partial24%seed2 and32%seed2 fail facade at15.018315% and16.559927%.
+All36 nonblocked request targets met with0–8-cell overshoot; all have100% bulk.
+Frozen Studio gate36/36 not met: no live integration, threshold change or reroll.
+
+Verification:45 exact generator/route/trace replays,90 scores and90 bulk masks,
+four MD1 matches, diversity exact,147 Python hashes match both snapshots.
+Regression20260924T133923Z_4b6c61aedbb5:303pass, smoke0. Benchmark25.689s; later verification
+and regression ran concurrently. No failed execution or scientific source edits.
+All per-case fields, contexts, original comparisons and failures are in immutable
+run directory. experiments/reports/MG2-verification.json retains trace diagnosis.
+
+Both failures begin with completed198-cell routes at7.070707% contact; growth
+exceeds the global ratio. Next proposal is CONTACT_BUDGET_NEXT_PLAN.md: separate
+MG3 growth admission using actual new-cell contact accounting, bounded deferred
+frontier reconsideration and explicit stalls. Same limits/cost, not another weight
+sweep. First verify accounting and finite failure, then frozen45-case comparison.
+Live Studio integration remains conditional; no training or paid compute admitted.
+
+Gallery http://127.0.0.1:8001/static/contact/index.html.45 pairs, failed cases and
+three-decimal contact ratios. Desktop/mobile and slice/layer controls checked.
+New browser session restored after prior MD1 timeout; bindings agent/browser/tab2
+and viewport available. No server restart; current server still serves old live
+material-scaffold workflow. No benchmark/regression from this milestone is active.
+
+Codex cwd helpers: work/verify_mg2.py,build_mg2_gallery.py,finalize_mg2.py,
+package_mg2.py. Exclusive writes: inspect before rerunning. QA outputs/mg2-qa.
+New attempt only when justified: scripts/run_contact_generation.py --parent-run
+20260924T133657Z_f4c92840c7c0. Do not rerun unchanged science just to resume documentation.
+
+Local commit title: "Evaluate contact-aware generation across the full massing matrix".
+Archive outputs/NCA-MG2-Backup-2026-09-24-<commit7>.zip and sibling receipt; local
+milestone receipt verifies payloads and restored Git bundle. Preserve MD1/MO1/MG1
+and older archive chain. Same disk, no off-device backup. Private reports unchanged
+and ignored; two unrelated user files untracked. No Drive, paid compute or push.
+
+
+## In progress: MG2 full matrix - 2026-09-24
+
+User authorized continuing. Read CONTACT_GENERATION_PROTOCOL.md and MG2-contact.json.
+Generator/evaluator unchanged; new runner uses exact saved MG1 inputs and cost12.
+Studio gate frozen before results: all36 open pass, no27-baseline regressions,
+request met with <one cube overshoot, no timeout; retain all9 blocked outputs.
+Run scripts/run_contact_generation.py, verify all outputs before conditional
+Studio integration. Inspect latest run records/processes before a retry.
+
+
 ## Current: MD1 comparison complete - 2026-09-24
 
 Read MASSING_DIRECT_FINDINGS.md, MASSING_DIRECT_PILOT_PLAN.md and D064.

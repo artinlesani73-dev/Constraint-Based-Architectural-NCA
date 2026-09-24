@@ -1081,3 +1081,24 @@ evidence verifies. Keep the negative finding; no coefficient or step adjustment.
 Next bounded proposal is MG2 full45-case contact-aware evaluation, then supported
 Studio mass-generation integration. A learned pilot needs a new, concrete benefit
 and soft-to-binary validation gate; endpoint agreement alone is insufficient.
+
+
+## D065 - Full frozen contact-aware comparison before Studio integration
+
+2026-09-24. User authorized continuing. Follow CONTACT_GENERATION_PROTOCOL and
+MG2-contact.json. Same45 MG1 members, cost12, masks, domains, nine MT1 families.
+Gate requires all36 nonblocked cases pass, preserve27 baseline passes, request
+fidelity and no timeouts. Blocked9 retained explicitly. No outcome assumed and
+no automatic retuning. Conditional live integration must preserve historical
+material records and show failed/unsupported mass results honestly.
+
+
+D065 outcome: run20260924T133657Z_f4c92840c7c0 completes45 cases,34 pass vs27 baseline.
+Seven repairs, no baseline regressions, two facade-only partial failures remain
+(24%seed2,32%seed2). All36 open requests met;9 blocked failures retained.
+The predeclared36/36 Studio gate fails. Keep cost12 and thresholds unchanged;
+no live integration or paid training. Exact45 replays,90 rescores,147 source
+hashes and303 tests verify. Growth trace identifies global contact-budget
+exceedance after an initially compliant completed route. Proposed MG3 applies
+that existing family's global budget to each growth addition, with finite
+deferred-frontier handling; see CONTACT_BUDGET_NEXT_PLAN, not implemented yet.

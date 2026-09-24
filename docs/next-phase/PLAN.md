@@ -1,5 +1,14 @@
 # Next-phase implementation plan
 
+## Active milestone - MG2 complete; contact-budget growth next, 2026-09-24
+
+Read CONTACT_GENERATION_FINDINGS.md and D065.34/45 pass vs27/45, no baseline
+regressions. Two nonblocked facade failures remain, so the frozen36/36 admission
+gate fails. No live mass integration.303 regression passes and full replay verify.
+Next bounded proposal: CONTACT_BUDGET_NEXT_PLAN.md, exact global contact accounting
+during cube growth with deferred candidates and explicit stalls. Keep thresholds,
+cost12 and all nine families. Do not start paid training or a coefficient search.
+
 ## Active milestone - MD1 complete; procedural expansion next, 2026-09-24
 
 Read MASSING_DIRECT_FINDINGS.md and D064. Contact-aware generation passes4/4;

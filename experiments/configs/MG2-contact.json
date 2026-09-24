@@ -1,0 +1,17 @@
+{
+  "version": "MG2_v1",
+  "parent_run": "20260924T123453Z_aaf2d7ad37e3",
+  "source_run": "20260924T113023Z_24298393f2a5",
+  "generator": "contact_cube_route_growth_v1",
+  "contexts": ["aligned", "wide_gap", "offset_interfaces", "blocked_gap", "partial_obstruction"],
+  "volume_requests": [0.16, 0.24, 0.32],
+  "seeds": [0, 1, 2],
+  "cube_m": 2.4,
+  "contact_weight": 12.0,
+  "candidate_seconds_cap": 15.0,
+  "study_seconds_cap": 600.0,
+  "threads": 2,
+  "evaluator": "massing_targets_v1",
+  "promotion_rule": "All 36 nonblocked cases pass unchanged MT1, preserve all 27 baseline passes, all 36 meet requested count with less than one cube overshoot, no timeout; blocked cases retained separately.",
+  "training": false
+}

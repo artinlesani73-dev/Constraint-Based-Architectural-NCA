@@ -1041,3 +1041,26 @@ and reset the browser session. Prior DOM observed the Studio link and gallery;
 settled screenshot shows the compared geometry. No science or thresholds changed
 in response. Original generator/model/private reports and all old galleries kept.
 No server restart, Drive action, paid training, push or publication.
+
+
+## 2026-09-24 - MG2 full contact-aware matrix
+
+Added frozen MG2 recipe/protocol and retained45-case paired runner using exact
+MG1 inputs, unchanged MD1 contact generator and unchanged MT1. Run20260924T133657Z_f4c92840c7c0
+completes34/45 valid, no regressions, seven repairs, two remaining partial facade
+failures and nine blocked outputs. Strong36/36 open-case promotion gate fails;
+no live Studio change. All45 alternatives replay exactly,90 scores/bulk masks
+and147 Python source hashes verify; regression20260924T133923Z_4b6c61aedbb5303pass, smoke0.
+Saved growth-trace diagnosis and diversity tradeoff; proposed bounded global
+contact-budget growth, without coefficient/threshold tuning or new constraints.
+
+Added separate45-pair static gallery, Studio link, findings,D065,plan/resume and
+MG3 proposal.45 browser selector checks, slice/cutaway/layers, desktop1000px and
+mobile390px without overflow; warning/error logs empty. Prior browser session
+was reset by MD1's timeout; reconnected and reused tab2. Initial screenshot named
+desktop.png captured an inherited mobile-sized view; later explicit breakpoint
+QA supplies desktop-breakpoint.png. No browser action failure this milestone.
+An exploratory read of deploy/jobs.py failed because the actual file is
+deploy/studio_jobs.py; corrected read, no edit. Old live generator, all historical
+galleries, original model and private reports unchanged. No server restart, Drive,
+paid compute, push or public deployment. All evidence backed up locally.

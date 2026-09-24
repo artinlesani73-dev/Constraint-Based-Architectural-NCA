@@ -1,0 +1,73 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260924T133657Z_f4c92840c7c0",
+  "config": {
+    "candidate_seconds_cap": 15.0,
+    "contact_weight": 12.0,
+    "contexts": [
+      "aligned",
+      "wide_gap",
+      "offset_interfaces",
+      "blocked_gap",
+      "partial_obstruction"
+    ],
+    "cube_m": 2.4,
+    "evaluator": "massing_targets_v1",
+    "generator": "contact_cube_route_growth_v1",
+    "parent_run": "20260924T123453Z_aaf2d7ad37e3",
+    "promotion_rule": "All 36 nonblocked cases pass unchanged MT1, preserve all 27 baseline passes, all 36 meet requested count with less than one cube overshoot, no timeout; blocked cases retained separately.",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "source_run": "20260924T113023Z_24298393f2a5",
+    "study_seconds_cap": 600.0,
+    "threads": 2,
+    "training": false,
+    "version": "MG2_v1",
+    "volume_requests": [
+      0.16,
+      0.24,
+      0.32
+    ]
+  },
+  "drive_backup": "pending",
+  "interpretation": "Fixed procedural development comparison, no held-out generalization. All failures retained; MT1 and cost12 unchanged.",
+  "metrics": {
+    "baseline_regressions": [],
+    "evaluation_seconds": 6.752888199873269,
+    "generated": 45,
+    "generation_seconds": 7.4190208003274165,
+    "open_total": 36,
+    "open_valid": 34,
+    "repairs": [
+      "partial_obstruction__v16__s0",
+      "partial_obstruction__v16__s1",
+      "partial_obstruction__v16__s2",
+      "partial_obstruction__v24__s0",
+      "partial_obstruction__v24__s1",
+      "partial_obstruction__v32__s0",
+      "partial_obstruction__v32__s1"
+    ],
+    "studio_promotion_gate": false,
+    "unexecuted": [],
+    "valid_generated": 34,
+    "wall_seconds": 25.68857439997373
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "cb622d90bb925eab348a87e68fc25f805578d231",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/DECISIONS.md\n M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/CONTACT_GENERATION_PROTOCOL.md\n?? experiments/configs/MG2-contact.json\n?? scripts/run_contact_generation.py"
+  },
+  "run_id": "20260924T133657Z_f4c92840c7c0",
+  "status": "completed"
+}
