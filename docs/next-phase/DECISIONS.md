@@ -1274,3 +1274,24 @@ The Colab60-minute/3-seed/256-update allowance is proposed only; actual executio
 requires a concrete ready package and explicit allowance approval. Drive per-action
 scope remains unchanged. Recovery cannot be inferred from existing CPU experiments.
 No broader site admission, paid training, generator replacement, push or deployment.
+
+
+## D074 - NR1 CPU mechanics admitted; no learned quality promotion (2026-09-25)
+
+User authorized the next local step. Implemented frozen small conditioned NCA and
+completed-update recovery; run 20260925T100650Z_78bc22b9d584 passes20 exact checkpoint
+comparisons and16 training-state pairs across6 owned workers.364 regressions and
+7 focused tests pass.16 unique updates/32 executed including replay,61.99s/600s.
+Full source/data/runtime identity and all Adam/RNG/cursor state retained.
+
+Both8-update binary fields remain exactly damaged inputs despite lower loss.
+Do not promote models, retune thresholds or quietly extend training. Mechanics
+success is separate from repair quality. Next prepare versioned Colab package,
+multi-example sampler and GPU-specific recovery/time gates. Earlier60-minute
+allowance remains proposed, not approved. Preserve all evidence/CPU control and
+NL0 splits. No Drive, paid compute, Studio replacement, remote push or publication.
+
+Before pilot execution, replaced bare-launcher cancellation with existing tested
+WorkerTree ownership. Initial driver/protocol/config retained. Model/training/test
+bytes match focused/full regression; final driver proven by actual stopped trees
+and replay. GPU/AMP/FUSE/power-loss guarantees are not inferred from this result.

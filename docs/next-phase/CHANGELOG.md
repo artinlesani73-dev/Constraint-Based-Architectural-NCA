@@ -1259,3 +1259,16 @@ historical Unicode lines in PLAN/RESUME. Restored their entire historical sectio
 from Git HEAD with explicit UTF-8, retaining new NL0 entries. The two affected
 intermediate documents remain in .local-artifacts/analysis-attempts/nl0-encoding-fix.
 Scientific source, config, arrays and results were unaffected; no test rerun needed.
+
+
+## 2026-09-25 - NR1 NCA implementation and CPU restart pilot
+
+Added versioned4424-parameter repair NCA, balanced BCE, immutable context, fresh-state
+16-step updates, append-only hashed checkpoints and verified fallback/recovery.
+Added7 tests and frozen CPU recipe/protocol. Full364tests pass. Pilot 20260925T100650Z_78bc22b9d584
+completes2 seen-example members and6 owned worker executions with exact replay;
+all binary final fields remain unchanged damaged inputs. Findings and D074 preserve
+this limitation. Raw models/Adam/RNG/traces/states/interruption markers retained.
+Pre-execution Windows launcher ownership correction and its initial source retained.
+No existing model/generator/Studio/scientific source changed. No cloud or paid work.
+Updated resume/plan and local archive helper; external receipt certifies backup.

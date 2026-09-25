@@ -1,0 +1,249 @@
+{
+  "comparisons": [
+    {
+      "branch": "aligned_cube-interrupted",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 0
+    },
+    {
+      "branch": "aligned_cube-interrupted",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 1
+    },
+    {
+      "branch": "aligned_cube-interrupted",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 2
+    },
+    {
+      "branch": "aligned_cube-interrupted",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 3
+    },
+    {
+      "branch": "aligned_cube-interrupted",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 4
+    },
+    {
+      "branch": "aligned_cube-resumed",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 4
+    },
+    {
+      "branch": "aligned_cube-resumed",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 5
+    },
+    {
+      "branch": "aligned_cube-resumed",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 6
+    },
+    {
+      "branch": "aligned_cube-resumed",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 7
+    },
+    {
+      "branch": "aligned_cube-resumed",
+      "checkpoint_exact": true,
+      "member": "aligned_cube",
+      "step": 8
+    },
+    {
+      "branch": "partial_slab-interrupted",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 0
+    },
+    {
+      "branch": "partial_slab-interrupted",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 1
+    },
+    {
+      "branch": "partial_slab-interrupted",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 2
+    },
+    {
+      "branch": "partial_slab-interrupted",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 3
+    },
+    {
+      "branch": "partial_slab-interrupted",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 4
+    },
+    {
+      "branch": "partial_slab-resumed",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 4
+    },
+    {
+      "branch": "partial_slab-resumed",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 5
+    },
+    {
+      "branch": "partial_slab-resumed",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 6
+    },
+    {
+      "branch": "partial_slab-resumed",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 7
+    },
+    {
+      "branch": "partial_slab-resumed",
+      "checkpoint_exact": true,
+      "member": "partial_slab",
+      "step": 8
+    }
+  ],
+  "failure": null,
+  "member_outcomes": [
+    {
+      "failed_families": [
+        "thickness"
+      ],
+      "final_binary_equals_damaged": true,
+      "missing_cell_probability_max": 0.18898791074752808,
+      "missing_cell_probability_min": 0.11440683156251907,
+      "name": "aligned_cube"
+    },
+    {
+      "failed_families": [
+        "access"
+      ],
+      "final_binary_equals_damaged": true,
+      "missing_cell_probability_max": 0.13231682777404785,
+      "missing_cell_probability_min": 0.1021566092967987,
+      "name": "partial_slab"
+    }
+  ],
+  "metrics": {
+    "admission_gate": true,
+    "device": "cpu",
+    "exact_checkpoint_comparisons": 20,
+    "executed_training_updates": 32,
+    "heldout_updates": 0,
+    "unique_training_updates": 16,
+    "wall_seconds": 61.99009729997488,
+    "workers": 6
+  },
+  "regression": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 364,
+    "wall_seconds": 221.22586269996827
+  },
+  "run_id": "20260925T100650Z_78bc22b9d584",
+  "source_review": [
+    {
+      "changed_since_snapshot": [
+        "docs/next-phase/NCA_REPAIR_CPU_PROTOCOL.md",
+        "scripts/run_repair_pilot.py"
+      ],
+      "reason": "Pre-pilot Windows worker tree ownership correction; actual six-worker pilot validates final driver.",
+      "run_id": "20260925T100223Z_4f20845cb058",
+      "unchanged_model_training_and_tests": true
+    },
+    {
+      "changed_since_snapshot": [
+        "docs/next-phase/NCA_REPAIR_CPU_PROTOCOL.md",
+        "scripts/run_repair_pilot.py"
+      ],
+      "reason": "Pre-pilot Windows worker tree ownership correction; actual six-worker pilot validates final driver.",
+      "run_id": "20260925T100255Z_b00e322820cb",
+      "unchanged_model_training_and_tests": true
+    }
+  ],
+  "status": "completed",
+  "workers": [
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 0,
+      "name": "aligned_cube-uninterrupted",
+      "outcome": "completed",
+      "pid": 9808,
+      "planned_interruption": false,
+      "resume": null,
+      "worker_pid": 29632
+    },
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 1,
+      "name": "aligned_cube-interrupted",
+      "outcome": "deliberately_interrupted_after_4",
+      "pid": 19876,
+      "planned_interruption": true,
+      "resume": null,
+      "worker_pid": 32312
+    },
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 0,
+      "name": "aligned_cube-resumed",
+      "outcome": "completed",
+      "pid": 28096,
+      "planned_interruption": false,
+      "resume": "C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.local-artifacts\\runs\\20260925T100650Z_78bc22b9d584\\workers\\aligned_cube-interrupted\\checkpoint-0004.pt",
+      "worker_pid": 19884
+    },
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 0,
+      "name": "partial_slab-uninterrupted",
+      "outcome": "completed",
+      "pid": 20396,
+      "planned_interruption": false,
+      "resume": null,
+      "worker_pid": 33744
+    },
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 1,
+      "name": "partial_slab-interrupted",
+      "outcome": "deliberately_interrupted_after_4",
+      "pid": 27872,
+      "planned_interruption": true,
+      "resume": null,
+      "worker_pid": 33688
+    },
+    {
+      "active_processes_after_stop": 0,
+      "exit_code": 0,
+      "name": "partial_slab-resumed",
+      "outcome": "completed",
+      "pid": 9356,
+      "planned_interruption": false,
+      "resume": "C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.local-artifacts\\runs\\20260925T100650Z_78bc22b9d584\\workers\\partial_slab-interrupted\\checkpoint-0004.pt",
+      "worker_pid": 9276
+    }
+  ]
+}

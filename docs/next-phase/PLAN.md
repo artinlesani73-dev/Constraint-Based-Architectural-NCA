@@ -1,5 +1,41 @@
 # Next-phase implementation plan
 
+## Current: NR1 CPU mechanics complete - 2026-09-25
+
+Read NCA_REPAIR_CPU_FINDINGS.md, NCA_REPAIR_CPU_PROTOCOL.md and D074.
+Pilot 20260925T100650Z_78bc22b9d584: two8-update CPU members,6 workers,20 exact
+checkpoint pairs,16 exact training-state pairs,14 boundaries rescored.61.99s/600s.
+All worker trees stopped. Both final binary fields equal their damaged inputs:
+loss reduction is not geometric repair. No quality promotion or paid training.
+Focused 20260925T100223Z_4f20845cb058:7pass. Full 20260925T100255Z_b00e322820cb:364pass,smoke0.
+The final driver ownership correction is validated by the actual pilot; model,
+training and test source bytes match focused/full snapshots. Initial driver kept.
+
+Next prepare a versioned Colab package and full multi-example sampler/GPU recovery
+preflight, retaining this CPU control and all NL0 training/validation/test separation.
+No further local duration/weight sweep or GPU job is admitted automatically.
+Present the concrete package/allowance before requesting paid execution. No Drive
+mount/read/write without exact separate permission. No user setup is needed yet.
+
+Raw: .local-artifacts/runs/20260925T100650Z_78bc22b9d584/workers/<member>-<branch>/.
+Latest verified completed states are checkpoint-0008.pt plus .json manifests in
+the uninterrupted/resumed folders; interrupted branches end at0004. Preserve all.
+No pilot/regression process remains active. Studio server was not restarted;
+MS2 last reported exec session81429, inspect before assuming it is still alive.
+Helpers Codex work/*nr1*.py use exclusive writes. Do not rerun completed work.
+If explicitly making another CPU attempt, project .venv Python command is
+scripts/run_repair_pilot.py --parent-run 20260925T100650Z_78bc22b9d584; this starts
+new preserved evidence and repeats the frozen pilot, not a longer training run.
+
+Milestone title: "Implement NCA repair pilot with exact CPU process recovery".
+Archive outputs/NCA-NR1-Backup-2026-09-25-<commit7>.zip; repo receipt
+.local-artifacts/milestones/<commit7>-nr1-backup-receipt.json is authoritative.
+Keep NL0/MS2/MG7 and older archives. Restore exact raw source.zip bytes for
+newline-sensitive identity checks; never relax hashes. Same-disk only, Drive pending.
+Private reports ignored/unchanged; two unrelated files remain untracked.
+Earlier current/in-progress sections are historical.
+
+
 ## Current: NL0 repair benchmark complete - 2026-09-25
 
 Read NCA_REPAIR_BASELINE_FINDINGS.md, NCA_REPAIR_BASELINE_PROTOCOL.md and D073.
