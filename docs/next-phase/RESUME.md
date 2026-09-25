@@ -1,5 +1,56 @@
 # Resume the NCA next phase
 
+## Current: NR3 quality-study package locally ready - 2026-09-25
+
+Read REPAIR_QUALITY_FINDINGS.md, REPAIR_QUALITY_PROTOCOL.md, D077 and NR3-quality.json.
+Package Codex outputs/NR3-Quality-Study: new disarmed notebook, TRAIN-only ZIP, guide,
+receipt. No NR3 paid job, Drive operation or model-quality outcome. Three proposed
+fresh256-update models, each separate600s job; max1800s controlled/60min allocated
+GPU proposal. Keep architecture/loss/16steps/32grid/NL0 splits/nine families.
+
+8 focused tests 20260925T140118Z_93161ba36ba8 and379 full tests 20260925T140149Z_2197b0f9fb6b pass,smoke0.
+Extracted CPU rehearsal 20260925T140804Z_7d74952e7f95:8 updates,11.80s,9 learning-state
+checkpoint matches and8 raw-state matches to NR2; source identity intentionally new.
+One TRAIN initial32-step evaluator probe matches archived NL0 metrics exactly.
+All source snapshots/hash receipts verify. No heldout evaluation or long training.
+
+NEXT: request exact save/readback for NCA-NR3-Quality-Study.ipynb directly inside
+Drive folder1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H. Then present seed1201 compute/backup
+approval (256updates,600s cap; setup/idleGPU billed separately). Notebook remains
+APPROVED_SEED_JOB=False. Run only an approved seed. Download ZIP/receipt, verify
+local copy, ask separately to save/readback that exact evidence in Drive, then
+seek the next seed allowance. No automatic mount/sync/retry or standing Drive grant.
+Within-job VM loss remains possible; exact cross-VM continuation is not certified.
+
+After all three final model archives are fixed, run the frozen local CPU evaluator:
+scripts/evaluate_repair_quality.py --archives <three ZIPs> --manifest-sha256
+7234b6d0dcc47959b2a91e59141521ca743b153c06f8c4b6a6f732a678ebb6e7 --mode diagnostics|final --output <freshfolder>.
+Adjacent receipts required. Freeze all update256 hashes before heldout inference.
+Use the project .venv. Each mode has a10800s between-observation cap; partial results
+cannot pass. No retuning based on intermediate validation or test outcomes.
+
+Helpers Codex work/*nr3*.py and raw .local-artifacts/runs/<IDs above> retained.
+Do not rerun completed preparation helpers or overwrite packages. Local commit:
+Prepare bounded NCA repair quality study and evaluation gates.
+Archive outputs/NCA-NR3-Backup-2026-09-25-<commit7>.zip, authoritative repository
+receipt .local-artifacts/milestones/<commit7>-nr3-backup-receipt.json. Preserve all
+NR2 GPU/Drive/full and earlier archives. Restore source snapshots for exact hashes.
+Private reports remain ignored/unchanged; Studio and unrelated files untouched.
+Earlier current/in-progress sections are historical.
+
+
+## In progress: NR3 bounded quality study preparation - 2026-09-25
+
+Read REPAIR_QUALITY_PROTOCOL.md and experiments/configs/NR3-quality.json.
+New local package Codex outputs/NR3-Quality-Study is disarmed. No paid/Drive work.
+Three proposed independent256-update seed jobs, each600s cap, with verified
+local and separately approved Drive backup between jobs. No heldout arrays in ZIP.
+Local evaluator seals all three final models before heldout inference. Current
+step: focused/full tests, then one extracted8-update CPU driver rehearsal and
+parity with NR2 CPU control. Preserve every attempt. Final findings/commit/archive
+still pending. Do not upload or execute the quality study merely because built.
+
+
 ## Current: NR2 GPU recovery verified from returned Colab artifacts - 2026-09-25
 
 User supplied run 20260925T134015Z_e14a0afc966e. All88 archive payload hashes and whole ZIP hash

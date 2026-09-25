@@ -1,0 +1,110 @@
+{
+  "drive_operations": false,
+  "paid_execution": false,
+  "recipe_sha256": "f01531cbaa387c2cb460fdcc6548253534fb625ade6ed7164ed45beedba7a21f",
+  "regression": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 379,
+    "wall_seconds": 198.12615279998863
+  },
+  "rehearsal": {
+    "extracted_package": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr3-rehearsals\\20260925T140804Z_7d74952e7f95",
+    "failure": null,
+    "initial_metric_integration": {
+      "case": "mg5__mg3__aligned__v16__s0",
+      "damage": "cube5",
+      "exact_nl0_unchanged_score": true
+    },
+    "metrics": {
+      "checkpoint_parity_pairs": 9,
+      "cpu_updates": 8,
+      "gpu_executed": false,
+      "raw_state_pairs": 8,
+      "readiness_gate": true,
+      "wall_seconds": 16.577129799989052
+    },
+    "portable_result": {
+      "cleanup": {
+        "active_processes_after_stop": 0,
+        "exit_code": 0
+      },
+      "failure": null,
+      "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen test rules.",
+      "request": {
+        "cpu_rehearsal": true,
+        "device": "cpu",
+        "manifest_sha256": "7234b6d0dcc47959b2a91e59141521ca743b153c06f8c4b6a6f732a678ebb6e7",
+        "max_seconds": 600.0,
+        "seed": 1201,
+        "settings": {
+          "dataset_run": "20260925T094341Z_316cff241020",
+          "diagnostic_checkpoints": [
+            0,
+            64,
+            128,
+            192,
+            256
+          ],
+          "drive_operations_require_separate_approval": true,
+          "evaluation_device": "cpu",
+          "evaluation_dtype": "float32",
+          "firing_seeds": [
+            2101,
+            2102,
+            2103
+          ],
+          "gpu_job_requires_approval": true,
+          "gpu_preflight_run": "20260925T134015Z_e14a0afc966e",
+          "horizons": [
+            16,
+            32,
+            64
+          ],
+          "intact_iou": 0.99,
+          "iou_gain": 0.02,
+          "max_controlled_training_seconds": 1800,
+          "primary_steps": 32,
+          "proposed_gpu_allocation_minutes": 60,
+          "seconds_per_job": 600,
+          "seeds": [
+            1201,
+            1202,
+            1203
+          ],
+          "threshold": 0.5,
+          "train_steps": 16,
+          "updates": 256,
+          "validation_diagnostics": "27 rows,32 steps,firing2101,checkpoints0/64/128/192/256",
+          "version": "NR3_quality_v1"
+        },
+        "updates": 8
+      },
+      "status": "completed",
+      "wall_seconds": 11.796999999962281,
+      "worker": {
+        "completed": 8,
+        "cpu_rehearsal": true,
+        "device": "cpu",
+        "failure": null,
+        "memory": {},
+        "pid": 11352,
+        "seed": 1201,
+        "status": "completed",
+        "wall_seconds": 9.59299999999348
+      }
+    },
+    "run_id": "20260925T140804Z_7d74952e7f95",
+    "status": "completed"
+  },
+  "runs": [
+    "20260925T140118Z_93161ba36ba8",
+    "20260925T140149Z_2197b0f9fb6b",
+    "20260925T140804Z_7d74952e7f95"
+  ],
+  "source_snapshots_match": true
+}

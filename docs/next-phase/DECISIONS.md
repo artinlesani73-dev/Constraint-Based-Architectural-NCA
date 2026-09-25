@@ -1327,3 +1327,24 @@ Admit this mechanics gate only. Do not infer repair quality, arbitrary runtime-l
 recovery or additional compute/Drive authorization from returned artifacts.
 Next prepare a bounded quality study with frozen binary metrics and approved backup;
 no new training, architecture change or Studio promotion in this import milestone.
+
+
+## D077 - Freeze NR3 repair-quality jobs and complete-case evaluation (2026-09-25)
+
+Keep three fresh seeds1201/1202/1203 and256 updates/model with unchanged NR2 math.
+Package training rows only; run separately approved600s seed jobs with local and
+separately approved Drive evidence verification before the next model. No paid
+execution/Drive operation is authorized by local readiness. Whole-VM loss before
+export remains a disclosed bounded-job risk; no cross-VM exactness guarantee.
+
+Seal all three final models before CPU heldout scoring. Freeze405 validation
+diagnostics and2187 final sensitivity observations,486 primary TEST observations.
+Every seed must beat both medianIoU comparators by0.02 and preserve primary intact
+validity/IoU0.99; request error and all-nine pass rates remain separate conditions.
+No missing/duplicate-case admission, best checkpoint, threshold or loss retuning.
+Evaluation device is explicitly CPU; no GPU-inference equivalence or speed claim.
+
+Focused8/full379 tests pass; CPU rehearsal 20260925T140804Z_7d74952e7f95 exactly matches NR2's9
+learning-state checkpoints and8 raw states. No256-update/heldout quality experiment
+occurred. First next action is new-notebook save/readback approval, then seed1201
+compute/backup approval. Source, results, private reports and old packages retained.

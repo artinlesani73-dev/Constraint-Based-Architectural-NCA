@@ -1306,3 +1306,18 @@ Verified whole ZIP/member hashes, delivered package identity and exact checkpoin
 raw-state replay locally. Updated current resume/plan, D076 and small reports.
 The GPU gate now passes on the recorded T4 environment; quality and cross-VM
 durability remain unproven. No model/code/Studio changes or remote operations.
+
+
+## 2026-09-25 - NR3 bounded quality-study preparation
+
+Added frozen quality settings/complete-case gate, integrity-checked training-only
+package, disarmed notebook builder, one-seed owned worker and local CPU evaluator.
+Three finals must be fixed before heldout data; weights-only scoring is distinct
+from GPU optimizer resume. Added8 focused tests; full379 pass. Extracted8-update
+rehearsal 20260925T140804Z_7d74952e7f95 matches all learning states to NR2 and initial TRAIN metric
+integration to NL0. No new paid/Drive/Studio work or learned-quality claim.
+Recorded protocol, findings, D077, config/source hashes, runs and resume commands.
+Local archive preserves all evidence; cloud backup actions still need permission.
+The first rehearsal-wrapper registration failed before allocating a run because
+its Colab parent was external; corrected local parent link and original helper/error
+are preserved in Codex outputs/nr3-parent-link-failure. No scientific source changed.
