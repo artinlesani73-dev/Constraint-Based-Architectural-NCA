@@ -1235,3 +1235,21 @@ warmups; see INCREMENTAL_GROWTH_FINDINGS for CPU/wall/RSS and sampling gates.
 Accept equivalence only within this saved matrix; retain all MG6 negatives.
 Next follow STUDIO_SCALE_INTEGRATION_NEXT_PLAN, conditional on timing admission.
 No live change, trained-model claim, new constraint or external operation.
+
+
+## D072 - MS2 versioned scale integration
+
+2026-09-25. User authorized the next Studio integration. Follow STUDIO_V2_PROTOCOL:
+separate version/store, preserve MS1 replay, restrict new presets to 57 tested
+combinations, queued bounded imports, process deadlines, scale-aware viewport,
+independent parity and browser acceptance. No generator/evaluator or NCA change.
+
+
+D072 outcome: MS2 integration admitted on 2026-09-25. 351 regressions and all 57
+exact preset comparisons pass (44 valid, 13 blocked). Corrected browser run 20260925T092014Z_06e493b0f94b
+verifies four generation cases plus a 64-grid import, original-version access,
+cross-version/site comparison, responsive layout and source parity. Preserve both
+failed attempts 20260925T090307Z_9e687a560fca and 20260925T091257Z_bce5f23dd4ef. Raw JSON text transport is required for
+float-sensitive record checksums; never relax validation to accept normalized
+exports. New route/store are versioned; MS1 and all historical evidence remain.
+Next review volumes, then freeze a separate learned baseline and Colab allowance.

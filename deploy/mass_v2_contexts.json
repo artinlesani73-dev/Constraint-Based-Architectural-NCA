@@ -1,0 +1,1025 @@
+{
+  "version": "mass_contexts_v2",
+  "contexts": [
+    {
+      "case": "aligned",
+      "label": "Aligned connections \u00b7 32\u00b3",
+      "size": 32,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "requests": [
+        0.16,
+        0.24,
+        0.32
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MT1 analytic massing development context: aligned",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "Constructed development audit, not held-out generalization evidence."
+        ],
+        "scene_id": "mt1-aligned",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 3492,
+      "legacy_context": "aligned"
+    },
+    {
+      "case": "wide_gap",
+      "label": "Wider gap \u00b7 32\u00b3",
+      "size": 32,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "requests": [
+        0.16,
+        0.24,
+        0.32
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 6,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              6
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 26,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              26,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MT1 analytic massing development context: wide_gap",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 6,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 24,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "Constructed development audit, not held-out generalization evidence."
+        ],
+        "scene_id": "mt1-wide_gap",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 4356,
+      "legacy_context": "wide_gap"
+    },
+    {
+      "case": "offset_interfaces",
+      "label": "Offset connections \u00b7 32\u00b3",
+      "size": 32,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "requests": [
+        0.16,
+        0.24,
+        0.32
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MT1 analytic massing development context: offset_interfaces",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 18,
+            "z": 12
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "Constructed development audit, not held-out generalization evidence."
+        ],
+        "scene_id": "mt1-offset_interfaces",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 5412,
+      "legacy_context": "offset_interfaces"
+    },
+    {
+      "case": "blocked_gap",
+      "label": "Blocked gap \u00b7 32\u00b3",
+      "size": 32,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "requests": [
+        0.16,
+        0.24,
+        0.32
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partition",
+            "side": null,
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              0,
+              32
+            ],
+            "z": [
+              0,
+              32
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MT1 analytic massing development context: blocked_gap",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "Constructed development audit, not held-out generalization evidence."
+        ],
+        "scene_id": "mt1-blocked_gap",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 3060,
+      "legacy_context": "blocked_gap"
+    },
+    {
+      "case": "partial_obstruction",
+      "label": "Partial obstruction \u00b7 32\u00b3",
+      "size": 32,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "requests": [
+        0.16,
+        0.24,
+        0.32
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": 24,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partial",
+            "side": null,
+            "x": [
+              15,
+              17
+            ],
+            "y": [
+              13,
+              18
+            ],
+            "z": [
+              6,
+              14
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG1 development context with a partial central obstacle.",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 15,
+            "z": 8
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 22,
+            "y": 15,
+            "z": 8
+          }
+        ],
+        "grid_size": 32,
+        "legacy_relaxations": [],
+        "notes": [
+          "Constructed development audit, not held-out generalization evidence."
+        ],
+        "scene_id": "mg1-partial-obstruction",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 3412,
+      "legacy_context": "partial_obstruction"
+    },
+    {
+      "case": "48__blocked",
+      "label": "Blocked \u00b7 48\u00b3",
+      "size": 48,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partition",
+            "side": null,
+            "x": [
+              23,
+              25
+            ],
+            "y": [
+              0,
+              48
+            ],
+            "z": [
+              0,
+              48
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: blocked",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 23,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 23,
+            "z": 12
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-blocked",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 8640,
+      "arrays_npz_b64": "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",
+      "arrays_sha256": "fe630bbe643a5e8f97136a2075fbf76354d3bfb4bb493940bc9cfacc502170cd",
+      "source_run": "20260925T075350Z_c677671d8310"
+    },
+    {
+      "case": "48__compact",
+      "label": "Compact \u00b7 48\u00b3",
+      "size": 48,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: compact",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 23,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 23,
+            "z": 12
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-compact",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 9216,
+      "arrays_npz_b64": "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",
+      "arrays_sha256": "59ea960a0a10e6879badf0c8418ab379ab63b7e718ad9a2d2a2e324937e19074",
+      "source_run": "20260925T075350Z_c677671d8310"
+    },
+    {
+      "case": "48__offset_obstacle",
+      "label": "Offset Obstacle \u00b7 48\u00b3",
+      "size": 48,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstacle",
+            "side": null,
+            "x": [
+              23,
+              26
+            ],
+            "y": [
+              21,
+              27
+            ],
+            "z": [
+              6,
+              23
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: offset_obstacle",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 17,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 29,
+            "z": 20
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-offset_obstacle",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 22738,
+      "arrays_npz_b64": "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",
+      "arrays_sha256": "08a0c88ee8843ca9bcd41aca875961a1050cf611e4833ec89af2561044daff0e",
+      "source_run": "20260925T075350Z_c677671d8310"
+    },
+    {
+      "case": "64__blocked",
+      "label": "Blocked \u00b7 64\u00b3",
+      "size": 64,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partition",
+            "side": null,
+            "x": [
+              31,
+              33
+            ],
+            "y": [
+              0,
+              64
+            ],
+            "z": [
+              0,
+              64
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: blocked",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 31,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 31,
+            "z": 12
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-blocked",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 13248,
+      "arrays_npz_b64": "UEsDBC0AAAAIAAAAIQAHS2UO//////////8KABQAZG9tYWluLm5weQEAEACAAAQAAAAAAOUBAAAAAAAA7dYxSgRBEIbR2dRTTNYKkwhi4AHMFJMNjGR0RwzElRkxcT2FF3bFVAxEqoJ6Dzrobr78/7hcX1xdr7rX7q1tpuVubmd9290et6Fv99v5ZR6fbrbzZvp6Px8fl2n/vjyMz9P+fnh6MvTf52jo3/s/OOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAilv97JcPvV6v/58eAACIk73/9Xp93R4AAIiTvf/1en3dHgAAiJO9//V6fd0eAACIk73/9Xp93R4AAIiTvf/1en3dHgAAiJO9//V6fd0eAACIk73/9Xp93R4AAIiTvf/1en3dHgAAiJO9//V6fd0eAACIk73/9Xp93R4AAIiTvf/1en3dHgAAiJO9//V6fd0eAACIk73/9Xp93R4AAIiTvf/1en3dHgAAiJO9//V6fd0eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyydQSwMELQAAAAgAAAAhAOOfTgP//////////wwAFABleGlzdGluZy5ucHkBABAAgAAEAAAAAABoBQAAAAAAAO3TsY4NUBAG4L2tp7jdJdlGIgoPoCMahUoWKwpBdkWDp/DCVqgkYwbJzBTfn5zinP985f/t8dNHT54dzj6dfT69urx+eXV6cDx9eXH3dH48vX5/9fHq4t3z91evLn+8P7x4e31583795uLD5c399v1758ef58758evxH3Lr7M85HJIP/P/5w6/8rT/8Fp7neZ7neZ7n+e0+qFNfDM+v9tP743me53me53me7/JBnfpieH61n94fz/M8z/M8z/N8lw/q1BfD86v99P54nud5nud5nue7fFCnvhieX+2n98fzPM/zPM/zPN/lgzr1xfD8aj+9P57neZ7neZ7n+S4f1KkvhudX++n98TzP8zzP8zzPd/mgTn0xPL/aT++P53me53me53m+ywd16ovh+dV+en88z/M8z/M8z/NdPqhTXwzPr/bT++N5nud5nud5nu/yQZ36Ynh+tZ/eH8/zPM/zPM/zfJcP6tQXw/Or/fT+eJ7neZ7neZ7nu3xQp74Ynl/tp/fH8zzP8zzP8zzf5YM69cXw/Go/vT+e53me53me5/kuH9SpL4bnV/vp/fE8z/M8z/M8z3f5oE59MTy/2k/vj+d5nud5nud5vssHdeqL4fnVfnp/PM/zPM/zPM/zXT6oU18Mz6/20/vjeZ7neZ7neZ7v8kGd+mJ4frWf3h/P8zzP8zzP83yXD+rUF8Pzq/30/nie53me53me57t8UKe+GJ5f7af3x/M8z/M8z/M83+WDOvXF8PxqP70/nud5nud5nuf5Lh/UqS+G51f76f3xPM/zPM/zPM93+aBOfTE8v9pP74/neZ7neZ7neb7LB3Xqi+H51X56fzzP8zzP8zzP810+qFNfDM+v9tP743me53me53me7/JBnfpieH61n94fz/M8z/M8z/N8lw/q1BfD86v99P54nud5nud5nue7fFCnvhieX+2n98fzPM/zPM/zPN/lgzr1xfD8aj+9P57neZ7neZ7n+S4f1KkvhudX++n98TzP8zzP8zzPd/mgTn0xPL/aT++P53me53me53m+ywd16ovh+dV+en88z/M8z/M8z/NdPqhTXwzPr/bT++N5nud5nud5nu/yQZ36Ynh+tZ/eH8/zPM/zPM/zfJcP6tQXw/Or/fT+eJ7neZ7neZ7nu3xQp74Ynl/tp/fH8zzP8zzP8zzf5YM69cXw/Go/vT+e53me53me5/kuH9SpL4bnV/vp/fE8z/M8z/M8z3f5oE59MTy/2k/vj+d5nud5nud5vssHdeqL4fnVfnp/PM/zPM/zPM/zXT6oU18Mz6/20/vjeZ7neZ7neZ7v8kGd+mJ4frWf3h/P8zzP8zzP83yXD+rUF8Pzq/30/nie53me53me57t8UKe+GJ5f7af3x/M8z/M8z/M83+WDOvXF8PxqP70/nud5nud5nuf5Lh/UqS+G51f76f3xPM/zPM/zPM93+aBOfTE8v9pP74/neZ7neZ7neb7LB3Xqi+H51X56fzzP8zzP8zzP810+qFNfDM+v9tP743me53me53me7/JBnfpieH61n94fz/M8z/M8z/N8lw/q1BfD86v99P54nud5nud5nue7fFCnvhieX+2n98fzPM/zPM/zPN/lgzr1xfD8aj+9P57neZ7neZ7n+S4f1KkvhudX++n98TzP8zzP8zzPd/mgTn0xPL/aT++P53me53me53m+ywd16ovh+dV+en88z/M8z/M8z/NdPqhTXwzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8zzP8/x/++9QSwMELQAAAAgAAAAhAK4l267//////////wsAFABhbmNob3JzLm5weQEAEACAAAQAAAAAAJIBAAAAAAAA7dcxTgJBGIbhpfUU040m25AQCw5gp6GhsCILLLEwYnYJDXoKL8wSTiAUP2SeJ5liJvMe4Pt7m7/O3kfVvjrkdduvujxN+Wc5znXKm22365qvxbZbt6f3l+azb4f3/qP5bof74/OkTufzVKffdIGHipswuvL7vfcAAABQguj9Hd0DAABACaL3d3QPAAAAJYje39E9AAAAlCB6f0f3AAAAUILo/R3dAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAfxwBUEsDBC0AAAAIAAAAIQBHm/gi//////////8NABQAcGVybWl0dGVkLm5weQEAEACAAAQAAAAAAD0FAAAAAAAA7dcxbhRmEIZhu80ptlsiuYmEUuQAdEQ0FFSRwRulQBCtEQ1wCi4cIurxjGJlZtA+r+TC++1Trab4v/7+8vmLV9dXH68+He9O92/Ox98Ox8+vfzneHI5/vj9/ON++++P9+e707+fPbt/en759fv/X7d+nb/8/+fXpzeH73883hy+H/9BPV1rR9SO//qN7SZIkSZIuoen397SXJEmSJOkSmn5/T3tJkiRJki6h6ff3tJckSZIk6RKafn9Pe0mSJEmSLqHp9/e0lyRJkiT9v10/XPoF/nE++R0eGEq/I8/zPM/zPM/z/BofzKkvxvOr/fT98TzP8zzP8zzPd/lgTn0xnl/tp++P53me53me53m+ywdz6ovx/Go/fX88z/M8z/M8z/NdPphTX4znV/vp++N5nud5nud5nu/ywZz6Yjy/2k/fH8/zPM/zPM/zfJcP5tQX4/nVfvr+eJ7neZ7neZ7nu3wwp74Yz6/20/fH8zzP8zzP8zzf5YM59cV4frWfvj+e53me53me5/kuH8ypL8bzq/30/fE8z/M8z/M8z3f5YE59MZ5f7afvj+d5nud5nud5vssHc+qL8fxqP31/PM/zPM/zPM/zXT6YU1+M51f76fvjeZ7neZ7neZ7v8sGc+mI8v9pP3x/P8zzP8zzP83yXD+bUF+P51X76/nie53me53me57t8MKe+GM+v9tP3x/M8z/M8z/M83+WDOfXFeH61n74/nud5nud5nuf5Lh/MqS/G86v99P3xPM/zPM/zPM93+WBOfTGeX+2n74/neZ7neZ7neb7LB3Pqi/H8aj99fzzP8zzP8zzP810+mFNfjOdX++n743me53me53me7/LBnPpiPL/aT98fz/M8z/M8z/N8lw/m1Bfj+dV++v54nud5nud5nue7fDCnvhjPr/bT98fzPM/zPM/zPN/lgzn1xXh+tZ++P57neZ7neZ7n+S4fzKkvxvOr/fT98TzP8zzP8zzPd/lgTn0xnl/tp++P53me53me53m+ywdz6ovx/Go/fX88z/M8z/M8z/NdPphTX4znV/vp++N5nud5nud5nu/ywZz6Yjy/2k/fH8/zPM/zPM/zfJcP5tQX4/nVfvr+eJ7neZ7neZ7nu3wwp74Yz6/20/fH8zzP8zzP8zzf5YM59cV4frWfvj+e53me53me5/kuH8ypL8bzq/30/fE8z/M8z/M8z3f5YE59MZ5f7afvj+d5nud5nud5vssHc+qL8fxqP31/PM/zPM/zPM/zXT6YU1+M51f76fvjeZ7neZ7neZ7v8sGc+mI8v9pP3x/P8zzP8zzP83yXD+bUF+P51X76/nie53me53me57t8MKe+GM+v9tP3x/M8z/M8z/M83+WDOfXFeH61n74/nud5nud5nuf5Lh/MqS/G86v99P3xPM/zPM/zPM93+WBOfTGeX+2n74/neZ7neZ7neb7LB3Pqi/H8aj99fzzP8zzP8zzP810+mFNfjOdX++n743me53me53me7/LBnPpiPL/aT98fz/M8z/M8z/N8lw/m1Bfj+dV++v54nud5nud5nue7fDCnvhjPr/bT98fzPM/zPM/zPN/lgzn1xXh+tZ++P57neZ7neZ7n+S4fzKkvxvOr/fT98TzP8zzP8zzPd/lgTn0xnl/tp++P53me53me53m+ywdz6ovxPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM/zPM8/2v8DUEsDBC0AAAAIAAAAIQAN3cj///////////8NABQAcHJvdGVjdGVkLm5weQEAEACAAAQAAAAAAPcBAAAAAAAA7de9SgNBGIbRSetVTDcK2whi4QXYKTYprGQ1KxZiZFdsjFeRG05CsFHzrT9NBs6BFNnM02yY4l1eTi+urifpNb2VWTfc9eUsl8XtcWlyuZ/3L337dDPvZ93m+Xn7OHTr58ND+9ytvx+enjR5+zlq8nv+g4NJLKWRA/r/9enD7/r0ReX998d2vz+9Xq/X6/V6vV5fX7/j59H+h/T6ve5HLlA1+93+1+v1er1er9fr9fa/Xh8dCC9CNfvd/tfr9Xq9Xq/X6/X2v14fHQgvQjX73f7X6/V6vV6v1+v19r9eHx0IL0I1+93+1+v1er1er9fr9fa/Xh8dCC9CNfvd/tfr9Xq9Xq/X6/X2/373n/9HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDarQBQSwMELQAAAAgAAAAhADjaC7v//////////xQAFABzdXBwb3J0X2JvdW5kYXJ5Lm5weQEAEACAAAQAAAAAAH8FAAAAAAAA7dexqtx1EAXgu61Psd1GuI0gFj5AOiWNRapwNVcsxMi9IY36FHnhREIqnf9MEpiZhe/AFrvn9zULp5i3P/70w7Pnp5s3N39dXt4//vJw+f58+fvnby6358uvrx5eP9z98eLVw8v7f39/evf74/373x9/u/vz/v33J999e3v+8Pn69vzP+TPy1c1xTqfkAf9l/vQxn+ZP/8mV+/9/Fv9/PM/zPM/zPM9fnw/q1BfD86t9MqCrud/d/zzP8zzP8zzPu/95/ujB4RCu5n53//M8z/M8z/M87/7n+aMHh0O4mvvd/c/zPM/zPM/zvPuf548eHA7hau539z/P8zzP8zzP8+5/nj96cDiEq7nf3f88z/M8z/M8z7v/ef7owXXvl+d5nud5nud5vuqDOvXF8PxqP70/nud5nud5nuf5Lh/UqS+G51f76f3xPM/zPM/zPM93+aBOfTE8v9pP74/neZ7neZ7neb7LB3Xqi+H51X56fzzP8zzP8zzP810+qFNfDM+v9tP743me53me53me7/JBnfpieH61n94fz/M8z/M8z/N8lw/q1BfD86v99P54nud5nud5nue7fFCnvhieX+2n98fzPM/zPM/zPN/lgzr1xfD8aj+9P57neZ7neZ7n+S4f1KkvhudX++n98TzP8zzP8zzPd/mgTn0xPL/aT++P53me53me53m+ywd16ovh+dV+en88z/M8z/M8z/NdPqhTXwzPr/bT++N5nud5nud5nu/yQZ36Ynh+tZ/eH8/zPM/zPM/zfJcP6tQXw/Or/fT+eJ7neZ7neZ7nu3xQp74Ynl/tp/fH8zzP8zzP8zzf5YM69cXw/Go/vT+e53me53me5/kuH9SpL4bnV/vp/fE8z/M8z/M8z3f5oE59MTy/2k/vj+d5nud5nud5vssHdeqL4fnVfnp/PM/zPM/zPM/zXT6oU18Mz6/20/vjeZ7neZ7neZ7v8kGd+mJ4frWf3h/P8zzP8zzP83yXD+rUF8Pzq/30/nie53me53me57t8UKe+GJ5f7af3x/M8z/M8z/M83+WDOvXF8PxqP70/nud5nud5nuf5Lh/UqS+G51f76f3xPM/zPM/zPM93+aBOfTE8v9pP74/neZ7neZ7neb7LB3Xqi+H51X56fzzP8zzP8zzP810+qFNfDM+v9tP743me53me53me7/JBnfpieH61n94fz/M8z/M8z/N8lw/q1BfD86v99P54nud5nud5nue7fFCnvhieX+2n98fzPM/zPM/zPN/lgzr1xfD8aj+9P57neZ7neZ7n+S4f1KkvhudX++n98TzP8zzP8zzPd/mgTn0xPL/aT++P53me53me53m+ywd16ovh+dV+en88z/M8z/M8z/NdPqhTXwzPr/bT++N5nud5nud5nu/yQZ36Ynh+tZ/eH8/zPM/zPM/zfJcP6tQXw/Or/fT+eJ7neZ7neZ7nu3xQp74Ynl/tp/fH8zzP8zzP8zzf5YM69cXw/Go/vT+e53me53me5/kuH9SpL4bnV/vp/fE8z/M8z/M8z3f5oE59MTy/2k/vj+d5nud5nud5vssHdeqL4fnVfnp/PM/zPM/zPM/zXT6oU18Mz6/20/vjeZ7neZ7neZ7v8kGd+mJ4frWf3h/P8zzP8zzP83yXD+rUF8Pzq/30/nie53me53me57t8UKe+GJ5f7af3x/M8z/M8z/M83+WDOvXF8PxqP70/nud5nud5nuf5Lh/UqS+G51f76f3xPM/zPM/zPM93+aBOfTE8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/M8z/Nf7N8BUEsBAi0ALQAAAAgAAAAhAAdLZQ7lAQAAgAAEAAoAAAAAAAAAAAAAAIABAAAAAGRvbWFpbi5ucHlQSwECLQAtAAAACAAAACEA459OA2gFAACAAAQADAAAAAAAAAAAAAAAgAEhAgAAZXhpc3RpbmcubnB5UEsBAi0ALQAAAAgAAAAhAK4l266SAQAAgAAEAAsAAAAAAAAAAAAAAIABxwcAAGFuY2hvcnMubnB5UEsBAi0ALQAAAAgAAAAhAEeb+CI9BQAAgAAEAA0AAAAAAAAAAAAAAIABlgkAAHBlcm1pdHRlZC5ucHlQSwECLQAtAAAACAAAACEADd3I//cBAACAAAQADQAAAAAAAAAAAAAAgAESDwAAcHJvdGVjdGVkLm5weVBLAQItAC0AAAAIAAAAIQA42gu7fwUAAIAABAAUAAAAAAAAAAAAAACAAUgRAABzdXBwb3J0X2JvdW5kYXJ5Lm5weVBLBQYAAAAABgAGAGMBAAANFwAAAAA=",
+      "arrays_sha256": "804c9414970a3efe14a40a3651fb6a95a6481f13bf30922dbd876d4c1d6b0e15",
+      "source_run": "20260925T075945Z_3fc0d812e153"
+    },
+    {
+      "case": "64__compact",
+      "label": "Compact \u00b7 64\u00b3",
+      "size": 64,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: compact",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 31,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 31,
+            "z": 12
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-compact",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 13824,
+      "arrays_npz_b64": "UEsDBC0AAAAIAAAAIQAWTPuR//////////8KABQAZG9tYWluLm5weQEAEACAAAQAAAAAAOIBAAAAAAAA7dYxSgRBEIbR2dRTTNYKkwhi4AHMFBMDIxndEQNxZWYxcfcUXtgVT6BIVVDvQQdd8OX/5/Xt1c3dqnvvPtp6Wh7ndtG33cNpG/r2tJm38/h6v5nX0/f9cnxZpsN9eR7fpsP/+Pxs6H/eydDv+z846gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACKW/2SXq/X/1cPAADEyd7/er2+bg8AAMTJ3v96vb5uDwAAxMne/3q9vm4PAADEyd7/er2+bg8AAMTJ3v96vb5uDwAAxMne/3q9vm4PAADEyd7/er2+bg8AAMTJ3v96vb5uDwAAxMne/3q9vm4PAADEyd7/er2+bg8AAMTJ3v96vb5uDwAAxMne/3q9vm4PAADEyd7/er2+bg8AAMTJ3v96vb5uDwAAxMne/3q9vm4PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQ5QtQSwMELQAAAAgAAAAhAOUAHpr//////////wwAFABleGlzdGluZy5ucHkBABAAgAAEAAAAAABQBAAAAAAAAO3TMWoVUBRF0aR1FL/7CmkEsXAAdoqNhZVE88VCjCRio47CCRvRCZwU9+BlbXjFu7DK8+vl6xev3pyffTv7frw63b6/OT47HH+8e3y8OBw/XN98vbn8/Pb65ur05/788tPt6e5++/Hyy+nu//Dpk4vD3/fo4vDzcI8enKna+b/u63ie53me53me5/8XnzppU+398TzP8zzP8zzPT/nUSZtq74/neZ7neZ7neX7Kp07aVHt/PM/zPM/zPM/zUz510qba++N5nud5nud5np/yqZM21d4fz/M8z/M8z/P8lE+dtKn2/nie53me53me56d86qRNtffH8zzP8zzP8zw/5VMnbaq9P57neZ7neZ7n+SmfOmlT7f3xPM/zPM/zPM9P+dRJm2rvj+d5nud5nud5fsqnTtpUe388z/M8z/M8z/NTPnXSptr743me53me53men/KpkzbV3h/P8zzP8zzP8/yUT520qfb+eJ7neZ7neZ7np3zqpE2198fzPM/zPM/zPD/lUydtqr0/nud5nud5nuf5KZ86aVPt/fE8z/M8z/M8z0/51Embau+P53me53me53l+yqdO2lR7fzzP8zzP8zzP81M+ddKm2vvjeZ7neZ7neZ6f8qmTNtXeH8/zPM/zPM/z/JRPnbSp9v54nud5nud5nuenfOqkTbX3x/M8z/M8z/M8P+VTJ22qvT+e53me53me5/kpnzppU+398TzP8zzP8zzPT/nUSZtq74/neZ7neZ7neX7Kp07aVHt/PM/zPM/zPM/zUz510qba++N5nud5nud5np/yqZM21d4fz/M8z/M8z/P8lE+dtKn2/nie53me53me56d86qRNtffH8zzP8zzP8zw/5VMnbaq9P57neZ7neZ7n+SmfOmlT7f3xPM/zPM/zPM9P+dRJm2rvj+d5nud5nud5fsqnTtpUe388z/M8z/M8z/NTPnXSptr743me53me53men/KpkzbV3h/P8zzP8zzP8/yUT520qfb+eJ7neZ7neZ7np3zqpE2198fzPM/zPM/zPD/lUydtqr0/nud5nud5nuf5KZ86aVPt/fE8z/M8z/M8z0/51Embau+P53me53me53l+yqdO2lR7fzzP8zzP8zzP81M+ddKm2vvjeZ7neZ7neZ6f8qmTNtXeH8/zPM/zPM/z/JRPnbSp9v54nud5nud5nuenfOqkTbX3x/M8z/M8z/M8P+VTJ22qvT+e53me53me5/kpnzppU+398TzP8zzP8zzPT/nUSZtq74/neZ7neZ7neX7Kp07aVHt/PM/zPM/zPM/zUz510qba++N5nud5nud5np/yqZM21d4fz/M8z/M8z/P8lE+dtKn2/nie53me53me56d86qRNtffH8zzP8zzP8zw/5VMnbaq9P57neZ7neZ7n+SmfOkmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSpOl+A1BLAwQtAAAACAAAACEAriXbrv//////////CwAUAGFuY2hvcnMubnB5AQAQAIAABAAAAAAAkgEAAAAAAADt1zFOAkEYhuGl9RTTjSbbkBALDmCnoaGwIgsssTBi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",
+      "arrays_sha256": "4d41d7b0c3fa4f90ba7327966ccacb0764c50cd14cc8f6e5fb9bb212e688f0df",
+      "source_run": "20260925T075945Z_3fc0d812e153"
+    },
+    {
+      "case": "64__offset_obstacle",
+      "label": "Offset Obstacle \u00b7 64\u00b3",
+      "size": 64,
+      "seeds": [
+        6,
+        7
+      ],
+      "requests": [
+        0.24
+      ],
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstacle",
+            "side": null,
+            "x": [
+              31,
+              34
+            ],
+            "y": [
+              29,
+              35
+            ],
+            "z": [
+              6,
+              23
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: offset_obstacle",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 25,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 37,
+            "z": 20
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-offset_obstacle",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      },
+      "domain_voxels": 34254,
+      "arrays_npz_b64": "UEsDBC0AAAAIAAAAIQBkEg8b//////////8KABQAZG9tYWluLm5weQEAEACAAAQAAAAAAKoCAAAAAAAA7dYxilRBFIXhntRVvOwpdCKIgQswU0wMjKR1WgzEkW4xUVfhhh0xvoEG5xZV3wcveHX58/Pr5esXr97cHL4dvu+35+v7y/5s23+8e7wft/3D3eXr5fT57d3l9vzn/fnp0/V8/379ePpyvv9/+PTJcfv7PTpuP7f/8OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtLv5R3r9An150Uf6kl4/Uw8AkNa9f/T6Afvyoo/0Jb1+ph4AIK17/+j1A/blRR/pS3r9TD0AQFr3/tHrB+zLiz7Sl/T6mXoAgLTu/aPXD9iXF32kL+n1M/UAAGnd+0evH7AvL/pIX9LrZ+oBANK6949eP2BfXvSRvqTXz9QDAKR17x+9fsC+vOgjfUmvn6kHAEjr3j96/YB9edFH+pJeP1MPAJDWvX/0+gH78qKP9CW9fqYeACCte//o9QP25UUf6Ut6/Uw9AEBa9/7R6wfsy4s+0pf0+pl6AIC07v2j1w/Ylxd9pC/p9TP1AABp3ftHrx+wLy/6SF/S62fqAQDSuvePXj9gX170kb6k18/UAwCkde8fvX7AvrzoI31Jr5+pBwBI694/ev2AfXnRR/qSXj9TDwCQ1r1/9Hq9Xq9fsQcASOveP3q9Xq/Xr9gDAKR17x+9Xq/X61fsAQDSuvePXq/X6/Ur9gAAad37R6/X6/X6FXsAgLTu/aPX6/V6/Yo9AEBa9/7R6/V6vX7FHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjXb1BLAwQtAAAACAAAACEAG+8aJ///////////DAAUAGV4aXN0aW5nLm5weQEAEACAAAQAAAAAALcEAAAAAAAA7dOxipZnEIbhtc1R/N2fwDYBSZEDsDOksbAKG92QQmLYDTbqUXjCGpJ2ihHeeXC4bviK7x2u8vn0y4vnv758cvPu5v319f3jq4frz5frh99/vN5ern+8ffjn4e6v394+vL7/9/3Z3ZvH+y/vj3/e/X3/5f/7n57eXv77fri9fLx8Rd/dKNqT//tax/M8z/M8z/M8/634rpM2ld4fz/M8z/M8z/P8lO86aVPp/fE8z/M8z/M8z0/5rpM2ld4fz/M8z/M8z/P8lO86aVPp/fE8z/M8z/M8z0/5rpM2ld4fz/M8z/M8z/P8lO86aVPp/fE8z/NHfHnhR3wZz/M8n/VdJ20qvT+e53n+iC8v/Igv43me57O+66RNpffH8zzPH/HlhR/xZTzP83zWd520qfT+eJ7n+SO+vPAjvozneZ7P+q6TNpXeH8/zPH/Elxd+xJfxPM/zWd910qbS++N5nueP+PLCj/gynud5Puu7TtpUen88z/P8EV9e+BFfxvM8z2d910mbSu+P53meP+LLCz/iy3ie5/ms7zppU+n98TzP80d8eeFHfBnP8zyf9V0nbSq9P57nef6ILy/8iC/jeZ7ns77rpE2l98fzPM8f8eWFH/FlPM/zfNZ3nbSp9P54nuf5I7688CO+jOd5ns/6rpM2ld4fz/M8f8SXF37El/E8z/NZ33XSptL743me54/48sKP+DKe53k+67tO2lR6fzzP8/wRX174EV/G8zzPZ33XSZtK74/neZ4/4ssLP+LLeJ7n+azvOmlT6f3xPM/zR3x54Ud8Gc/zPJ/1XSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkjTdZ1BLAwQtAAAACAAAACEAriXbrv//////////CwAUAGFuY2hvcnMubnB5AQAQAIAABAAAAAAAkgEAAAAAAADt1zFOAkEYhuGl9RTTjSbbkBALDmCnoaGwIgsssTBidgkNegovzBJOIBQ/ZJ4nmWIm8x7g+3ubv87eR9W+OuR126+6PE35ZznOdcqbbbfrmq/Ftlu3p/eX5rNvh/f+o/luh/vj86RO5/NUp990gYeKmzC68vu99wAAAFCC6P0d3QMAAEAJovd3dA8AAAAliN7f0T0AAACUIHp/R/cAAABQguj9Hd0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB/HAFQSwMELQAAAAgAAAAhALfKYxX//////////w0AFABwZXJtaXR0ZWQubnB5AQAQAIAABAAAAAAAoAQAAAAAAADt1zFuJFQQRVE7ZRWdNUhOkBABCyADkUxAhAxjRIAYZCMShlWwYQYRV1Az+vWg+lypA3f5RK0X/L++fvXVN9/e3/1+98f19dPLD8/XLy7Xt99/en24XH988/zb8+Mv3715fv30z/dfPv788vTu+5efHn99evf3x59/9nD59/PJw+XPy3v00Z3+E91/4L//370kSZIkSbdQ+v2d9pIkSZIk3ULp93faS5IkSZJ0C6Xf32kvSZIkSdItlH5/p70kSZIkSbdQ+v2d9pIkSZKks90r2vv+Dh/6O/I8z/NHfXnhR3wZz/M8n/VdJ20qvT+e53n+iC8v/Igv43me57O+66RNpffH8zzPH/HlhR/xZTzP83zWd520qfT+eJ7n+SO+vPAjvozneZ7P+q6TNpXeH8/zPH/Elxd+xJfxPM/zWd910qbS++N5nueP+PLCj/gynud5Puu7TtpUen88z/P8EV9e+BFfxvM8z2d910mbSu+P53meP+LLCz/iy3ie5/ms7zppU+n98TzP80d8eeFHfBnP8zyf9V0nbSq9P57nef6ILy/8iC/jeZ7ns77rpE2l98fzPM8f8eWFH/FlPM/zfNZ3nbSp9P54nuf5I7688CO+jOd5ns/6rpM2ld4fz/M8f8SXF37El/E8z/NZ33XSptL743me54/48sKP+DKe53k+67tO2lR6fzzP8/wRX174EV/G8zzPZ33XSZtK74/neZ4/4ssLP+LLeJ7n+azvOmlT6f3xPM/zR3x54Ud8Gc/zPJ/1XSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdtKr0/nud5nud5nuf5Kd910qbS++N5nud5nud5np/yXSdJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkjTd31BLAwQtAAAACAAAACEABfwH7P//////////DQAUAHByb3RlY3RlZC5ucHkBABAAgAAEAAAAAAD+AQAAAAAAAO3UMUrEUBSG0ZnWVaSLQhpBLFyAnWJjYSXRiViII4nYqKtww46IzbPJfQi+PM6BFBP40gz//Ti/PLu4Wq9eVq/tZphux/akad9uDtuuae+24/PYP15vx83w9f60f5iG3fvpvn8adr/3j4+65vs56Jr3JsPemn+1+pGZ1dLH8t8f0Ov1er1er9fr9eX30Q5qkjmgdH6L72N5OfdLr9fr9Xq9Xq/Xz++jHdQkc0Dp/Bbfx/Jy7pder9fr9Xq9Xq+f30c7qEnmgNL5Lb6P5eXcL71er9fr9Xq9Xj+/j3ZQk8wBpfNbfB/Ly7lfer1er9fr9Xq9fn4f7aAmmQNK57f4PpaXc7/0er1er9fr9Xr9/D7a8bfS/xEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYOk+AVBLAwQtAAAACAAAACEAwKpfn///////////FAAUAHN1cHBvcnRfYm91bmRhcnkubnB5AQAQAIAABAAAAAAA8QQAAAAAAADt1LGKHGQUhuFNm6uYbgxsI4hFLsBOsbGwko3ZkCIY2RUb9Sq8YSOSZuSHOQP/+WYOzwtTzBye6b7/7+9++Pb7H1/c/X73x/Ht4/PPT8fXh+Ofb7483h+O7z4+/fb08MtPH5/ePv77+zcPH54fP/3+/P7h18dP37/4+qv7w3+fV/eHvw4X9PJO0V587kI2xdf4//+A53me53me5/nr91UnTerCAZ3O7+Z9jV/P+8XzPM/zPM/z/Pm+6qRJXTig0/ndvK/x63m/eJ7neZ7neZ4/31edNKkLB3Q6v5v3NX497xfP8zzP8zzP8+f7qpMmdeGATud3877Gr+f94nme53me53n+fF910qQuHNDp/G7e1/j1vF88z/M8z/M8z5/vq06aVHp/PM/z/Ba/vPAtfhnP8zyf9VUnTSq9P57neX6LX174Fr+M53mez/qqkyaV3h/P8zy/xS8vfItfxvM8z2d91UmTSu+P53me3+KXF77FL+N5nuezvuqkSaX3x/M8z2/xywvf4pfxPM/zWV910qTS++N5nue3+OWFb/HLeJ7n+ayvOmlS6f3xPM/zW/zywrf4ZTzP83zWV500qfT+eJ7n+S1+eeFb/DKe53k+66tOmlR6fzzP8/wWv7zwLX4Zz/M8n/VVJ00qvT+e53l+i19e+Ba/jOd5ns/6qpMmld4fz/M8v8UvL3yLX8bzPM9nfdVJk0rvj+d5nt/ilxe+xS/jeZ7ns77qpEml98fzPM9v8csL3+KX8TzP81lfddKk0vvjeZ7nt/jlhW/xy3ie5/msrzppUun98TzP81v88sK3+GU8z/N81ledNKn0/nie5/ktfnnhW/wynud5PuurTppUen88z/P8Fr+88C1+Gc/zPJ/1VSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdNKr0/nud5nud5nuf5Ll910qTS++N5nud5nud5nu/yVSdJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJktTdP1BLAQItAC0AAAAIAAAAIQBkEg8bqgIAAIAABAAKAAAAAAAAAAAAAACAAQAAAABkb21haW4ubnB5UEsBAi0ALQAAAAgAAAAhABvvGie3BAAAgAAEAAwAAAAAAAAAAAAAAIAB5gIAAGV4aXN0aW5nLm5weVBLAQItAC0AAAAIAAAAIQCuJduukgEAAIAABAALAAAAAAAAAAAAAACAAdsHAABhbmNob3JzLm5weVBLAQItAC0AAAAIAAAAIQC3ymMVoAQAAIAABAANAAAAAAAAAAAAAACAAaoJAABwZXJtaXR0ZWQubnB5UEsBAi0ALQAAAAgAAAAhAAX8B+z+AQAAgAAEAA0AAAAAAAAAAAAAAIABiQ4AAHByb3RlY3RlZC5ucHlQSwECLQAtAAAACAAAACEAwKpfn/EEAACAAAQAFAAAAAAAAAAAAAAAgAHGEAAAc3VwcG9ydF9ib3VuZGFyeS5ucHlQSwUGAAAAAAYABgBjAQAA/RUAAAAA",
+      "arrays_sha256": "ef6f8ec28e287dcac6f0135ce9a2b85f74e9d64919940ce8770228ebb6dd3cef",
+      "source_run": "20260925T075945Z_3fc0d812e153"
+    }
+  ]
+}

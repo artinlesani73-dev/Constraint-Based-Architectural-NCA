@@ -167,6 +167,7 @@ async def lifespan(app):
     sources = list((ROOT / 'nca').glob('*.py')) + list((ROOT / 'deploy').glob('studio*.py')) + [
                 ROOT / 'deploy/model_utils.py', ROOT / 'deploy/checkpoints.py', ROOT / 'deploy/mass_contexts.json']
     sources += list((ROOT / 'deploy/static/live').glob('*'))
+    sources += [ROOT / 'deploy/mass_v2_contexts.json'] + list((ROOT / 'deploy/static/live-v2').glob('*'))
     app.state.provenance = {
         'checkpoint_config_source_sha256': sha256(checkpoint.read_bytes()).hexdigest(),
         'checkpoint_weights_used': False, 'config': app.state.config,
@@ -178,7 +179,12 @@ async def lifespan(app):
     try:
         app.state.mass_jobs = JobManager(STORE.parent / (STORE.name + '-mass'), app.state.provenance)
         try:
-            yield
+            from deploy.studio_mass_v2_jobs import MassV2Jobs
+            app.state.mass_v2_jobs = MassV2Jobs(STORE.parent / (STORE.name + '-mass-v2'), app.state.provenance)
+            try:
+                yield
+            finally:
+                app.state.mass_v2_jobs.close()
         finally:
             app.state.mass_jobs.close()
     finally:
@@ -201,7 +207,7 @@ async def bounded_local_requests(request, call_next):
         chunks = []
         async for chunk in request.stream():
             size += len(chunk)
-            limit = (20_000_000 if request.url.path == '/api/mass/import' else
+            limit = (20_000_000 if request.url.path in ('/api/mass/import','/api/mass-v2/import') else
                      2_000_000 if request.url.path == '/api/studio/import' else 100_000)
             if size > limit:
                 return JSONResponse({'detail': 'Scene request too large'}, status_code=413)
@@ -351,3 +357,6 @@ def compare_records(a: str, b: str):
 
 from deploy.studio_mass import router as mass_router
 app.include_router(mass_router)
+
+from deploy.studio_mass_v2 import router as mass_v2_router
+app.include_router(mass_v2_router)

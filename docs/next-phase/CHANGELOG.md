@@ -1211,3 +1211,34 @@ Local incremental archive and exact Git-bundle restoration verify; same disk onl
 - Prepared local commit and incremental archive with raw bytes, exact source/run
   hashes and restored Git-bundle HEAD. Keep earlier archives; off-device pending.
   No Drive operation, paid compute, push, public deployment or live switch.
+
+
+## 2026-09-25 - MS2 evaluated scale integration
+
+Added versioned mass API, worker and queue; lossless context manifest; new
+scale-aware interface; eight lifecycle/replay/boundary tests; frozen protocol,
+user guide, exact parity and browser reports. Server registers a separate store
+and includes new interface/context files in source manifests. Original MS1 routes,
+generator/evaluator code and private reports remain unchanged.
+
+Preserved failed focused run 20260925T090307Z_9e687a560fca (missing fresh-store parent) and browser
+run 20260925T091257Z_bce5f23dd4ef (JSON normalization/checksum mismatch). Fixed directory creation
+and exact text transport, then verified 351 regressions, 57 numerical cases and
+five corrected-browser outputs. All subsequent MS2 fixture directories retained.
+
+Operational notes: several initial file reads named nonexistent app/main/scale
+modules, then correct files were located. Read-only wildcard/port inspection
+commands were corrected. A shell-quoting attempt failed before editing the UI;
+a file helper applied it safely. The transport helper changed JavaScript before
+an import-path error prevented writing its record; the record was saved separately.
+Normal Stop-Process failed; verified idle listener 35132 was stopped with taskkill
+and the updated server started in exec session 81429. No active jobs were killed.
+
+All required runtime checks passed. Later changes affect documentation only.
+Local commit/archive preserve raw bytes, source hashes, all MS2 evidence and
+existing local Studio state. No Drive, paid training, push or public deployment.
+
+Final Git whitespace inspection reports trailing blank lines inherited in the
+new live.js copy. They are retained to keep deployed source bytes identical to
+the verified job/source manifests; this is a formatting warning, not a runtime
+failure. No numerical or runtime source was edited after final verification.

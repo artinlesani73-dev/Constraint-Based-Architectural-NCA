@@ -1,6 +1,17 @@
 # Next-phase implementation plan
 
 
+## Active milestone - MS2 complete; review volumes and specify learning baseline
+
+2026-09-25. Versioned Studio integration is admitted: 351 tests, 57 exact preset
+comparisons and corrected browser acceptance pass. Read STUDIO_V2_FINDINGS and
+STUDIO_V2_USER_GUIDE. Both old and new workflows remain available. Next review
+the larger volumes, then freeze a separate learned NCA comparator with held-out
+sites, corrected volume meaning, recovery and an explicit Colab allowance.
+No training or broader preset admission yet. Earlier active sections are historical.
+
+
+
 ## Active milestone - MG7 complete; conditional Studio integration next
 
 2026-09-25. The equivalence and paired performance gates both pass.

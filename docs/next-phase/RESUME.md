@@ -1,6 +1,53 @@
 # Resume the NCA next phase
 
 
+## Current: MS2 complete - 2026-09-25
+
+Read STUDIO_V2_FINDINGS.md, STUDIO_V2_USER_GUIDE.md and D072. New local Studio:
+http://127.0.0.1:8001/static/live-v2/index.html . Original /static/live retained.
+351 tests pass (regression 20260925T090806Z_eea8af61e5c0), 57 exact preset matches (20260925T091209Z_181221f5be79),
+four browser generations plus 64-grid import verified (20260925T092014Z_06e493b0f94b). 44 valid and
+13 blocked combinations; 11 presets, only studied settings. No NCA training.
+Focused failure 20260925T090307Z_9e687a560fca and browser failure 20260925T091257Z_bce5f23dd4ef are preserved; focused
+retry 20260925T090432Z_53e2d71911c5 passes. Exact JSON text transport fixes float-sensitive checksum
+roundtrip. Do not normalize or bypass checksums; re-export old records in v2.
+
+No experiment/audit process remains active. Local server exec session 81429
+was left running; recheck before assuming it exists. Start with project .venv
+Python -m uvicorn deploy.studio:app --host 127.0.0.1 --port 8001. Avoid duplicate
+server owners; inspect all three job queues before a planned restart. Browser
+deliverable is the new route with a 64-grid volume. No need to rerun completed
+tests to resume documentation.
+
+Artifacts: experiments/reports/MS2-*.json, .local-artifacts/runs/<IDs>,
+.local-artifacts/testing/MS2, studio-mass-v2 and its sibling job store. Old stores
+remain unchanged. Codex outputs/ms2-*.log and ms2-qa retain UI evidence; work/*ms2*.py
+helpers preserve implementation, failures, audits, finalization and packaging.
+Helpers use exclusive writes; inspect partial progress before any rerun.
+
+Next review the larger volumes, then specify a separate learned NCA baseline
+against the procedural comparator. Freeze held-out sites, objectives, checkpoints
+and recovery before requesting a concrete Colab budget. Broader presets/seeds and
+finer resolution require separate tests. No paid compute or external operations.
+
+Local commit title: "Integrate versioned mass Studio with evaluated scale presets".
+Archive outputs/NCA-MS2-Backup-2026-09-25-<commit7>.zip and sibling receipt; local
+milestone receipt holds exact hashes. Includes current local Studio state and
+retained MS2 fixtures; keep earlier incremental archives. Restore raw source ZIP
+for newline-sensitive frozen hashes. Private reports remain ignored/unchanged,
+two unrelated user files untracked. No Drive, push or hosting; off-device pending.
+Earlier current/in-progress sections below are historical.
+
+
+## In progress: MS2 - 2026-09-25
+
+User authorized versioned Studio scale integration. Read STUDIO_V2_PROTOCOL and
+D072. Implementation helpers in Codex work/prepare_ms2.py and outputs/ms2-*.log.
+Preserve all failed attempts; inspect processes/runs before retry. Full regression,
+57-case parity, bounded worker/import/recovery checks, browser acceptance, then
+findings/commit/archive are required. No Drive or paid compute.
+
+
 ## Current: MG7 complete; conditional Studio integration next - 2026-09-25
 
 The equivalence and paired performance gates both pass.
