@@ -1,5 +1,57 @@
 # Resume the NCA next phase
 
+## Current: MG6 complete; exact-output efficiency proposal next - 2026-09-25
+
+Read SCALE_STUDY_FINDINGS.md, SCALE_EFFICIENCY_NEXT_PLAN.md and D070.
+The48-grid gate passed; the64-grid gate failed and larger live work remains unadmitted.
+Regression 20260925T075016Z_c82729a145e4:337pass,smoke0,181.934s. Studies 20260925T075350Z_c677671d8310, 20260925T075945Z_3fc0d812e153.
+7/8 nonpartition MT1 pass;
+6/8 requests met,2 timeouts;
+4 blocked controls retained.
+Source/scene/config frozen in experiments/configs/MG6-scale.json. No scientific
+reroll. Full independent reports experiments/reports/MG6-<size>-verification.json
+and MG6-summary.json contain case results, units, timing, memory and exact-replay
+counts. No active regression/generation/replay process. Do not rerun to resume docs.
+
+64 offset/seed7 returnedtime_limit after234.526s wall despite120s setting, with
+38.578s CPU including evaluation. Cause of large wall/CPU gap not established;
+do not interpret it as pure compute cost or hide the cooperative-limit overrun.
+Both timed-out fields/traces are retained; exact replay covers completed non-timeout
+cases, while timed-out results receive recorded-prefix audits only.
+
+The48/64 studies use0.8m/cell: actual wider sites. Exact translated-site embedding
+is a separate representation control, not generation equivariance. Same2.4m
+cubes,1.6m interfaces,4.8m ground band,24% request,seeds6/7. New context helper
+sets scene-sized config explicitly; historical weights unused. Finer resolution
+still requires separate interface/ground/mask resampling and is not admitted.
+
+Next freeze exact-output count-cache optimization and paired timing admission.
+Keep MG5 as immutable comparator, all old failures, and fixed stopping/coverage/
+facade rules. Do not edit nca/coverage_mass_generator.py in place. See next plan
+for bounded equivalence tests before broader comparison or live integration.
+
+Run artifacts .local-artifacts/runs/<IDs above>: scenes, lossless NPZ masks/fields/
+routes/bulk, JSON traces/results, source/protocol/config and immediate events.
+Runner scripts/run_scale_study.py --size 48 and
+scripts/run_scale_study.py --size 64 --admission-run <48 run> preserve the gate.
+Only justified new attempts
+may use --parent-run; inspect existing results first. Old frozen hashes include
+line endings; restore raw source ZIP rather than rewriting hashes after checkout.
+
+Codex cwd work/prepare_mg6.py,verify_mg6.py,finalize_mg6.py,package_mg6.py and
+outputs/mg6-*.log/mg6-summary.json preserve implementation/audit work. Helpers
+use exclusive writes: inspect before rerun. All runtime tests complete before
+documentation-only edits; no repeat needed. Local commit title:
+"Evaluate bounded physical-scale mass generation". Archive
+outputs/NCA-MG6-Backup-2026-09-25-<commit7>.zip and sibling receipt; local milestone
+receipt records hash/payloads and restored Git bundle. Preserve MG5/MG4 and prior
+archive chain; this remains same-disk storage, not off-device backup.
+
+Live MS1/MG3 unchanged. No server restart/browser action this milestone; previous
+PID29824/session23049 is historical and must be rechecked before acting. No paid
+compute, NCA training, Drive, push or hosting. Private reports unchanged/ignored;
+two unrelated user files remain untracked. Current status supersedes history below.
+
 ## Current: MG5 complete; scale-readiness proposal next - 2026-09-24
 
 Read COVERAGE_GROWTH_FINDINGS.md, SCALE_READINESS_NEXT_PLAN.md and D069.

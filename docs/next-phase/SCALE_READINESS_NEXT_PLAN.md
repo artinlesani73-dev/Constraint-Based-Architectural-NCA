@@ -58,3 +58,8 @@ The learned R2-C pilot stays conditional on a measurable advantage over this
 procedural baseline, an admitted continuous objective, explicit GPU allowance
 and tested recovery/off-device backup. This plan does not admit paid Colab,
 Drive access, new constraints, a new loss, public hosting or repository push.
+
+
+Outcome update2026-09-25: this proposal was implemented as MG6. Read
+SCALE_STUDY_FINDINGS and D070 for executed cases, gates and limits; next work
+is SCALE_EFFICIENCY_NEXT_PLAN. Preserve the original proposal above as history.

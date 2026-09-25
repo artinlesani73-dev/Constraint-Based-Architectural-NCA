@@ -1188,3 +1188,25 @@ Accept MG5 as a verified development comparator; retain MG4 failure/history.
 Keep live MS1/MG3 identity unchanged. Next make SCALE_READINESS_NEXT_PLAN concrete
 with physical-unit/input audit and conditional48/64-grid resource admission.
 No arbitrary-site reliability, paid training or architectural-quality claim.
+
+
+## D070 - MG6 physical scale admission
+
+2026-09-25. User authorized continuing after MG5. Freeze separate scene-sized
+context/audit and48/conditional64 study per SCALE_STUDY_PROTOCOL. Keep MG5/MT1
+unchanged, same nine families and0.8m voxels. Three exact scenes,two seeds per
+size,24% request; record unit-correct embedding separately from actual wider
+sites. No resolution change, live promotion or paid training. Five focused
+representation tests passed before any new MG6 generation. Full regression,
+independent verification and local evidence/backup required.
+
+
+D070 outcome: The48-grid gate passed; the64-grid gate failed and larger live work remains unadmitted. Runs 20260925T075350Z_c677671d8310, 20260925T075945Z_3fc0d812e153; 7/8 nonpartition MT1 pass,
+6/8 requests met,2 timeouts,
+4 blocked controls retained.337 regressions, physical embedding
+audits and10 exact unwrapped replays verify. Accepted-step
+audits:13818;160 Python matches per snapshot.
+Read SCALE_STUDY_FINDINGS for physical domains, case-level timing/resources and
+limits. No finer-resolution, arbitrary-site reliability or trained-model claim.
+Next separately specify local cube-count updates and exact-output/paired-resource
+admission per SCALE_EFFICIENCY_NEXT_PLAN. Keep old MG5/live identities unchanged.

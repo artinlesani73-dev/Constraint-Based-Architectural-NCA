@@ -1,0 +1,316 @@
+{
+  "audited_accepted_growth_steps": 8161,
+  "binary_rescores": 6,
+  "bulk_masks": 6,
+  "cases": [
+    {
+      "bulk_fraction": 1.0,
+      "case": "48__compact__s6",
+      "domain_voxels": 9216,
+      "facade_fraction": 0.04151624548736462,
+      "failures": [],
+      "gross_volume_m3": 1134.5920000000003,
+      "occupied_voxels": 2216,
+      "pass": true,
+      "request_error_voxels": 4,
+      "resources": {
+        "cpu_seconds": 5.9375,
+        "final_rss_bytes": 222760960,
+        "initial_rss_bytes": 210714624,
+        "lifetime_peak_rss_bytes": 234319872,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 22228992,
+        "sampled_peak_rss_bytes": 232943616,
+        "samples": 327,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "thirds": [
+        {
+          "bulk_cells": 746,
+          "domain_cells": 3168,
+          "fraction": 0.23547979797979798
+        },
+        {
+          "bulk_cells": 720,
+          "domain_cells": 2880,
+          "fraction": 0.25
+        },
+        {
+          "bulk_cells": 750,
+          "domain_cells": 3168,
+          "fraction": 0.23674242424242425
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.5547404999961145,
+        "generation_outer_seconds": 5.275529099977575,
+        "growth_calls": 1,
+        "growth_seconds": 4.637449899979401,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.6361456000595354
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "48__compact__s7",
+      "domain_voxels": 9216,
+      "facade_fraction": 0.044263775971093045,
+      "failures": [],
+      "gross_volume_m3": 1133.5680000000002,
+      "occupied_voxels": 2214,
+      "pass": true,
+      "request_error_voxels": 2,
+      "resources": {
+        "cpu_seconds": 6.15625,
+        "final_rss_bytes": 229609472,
+        "initial_rss_bytes": 225128448,
+        "lifetime_peak_rss_bytes": 240640000,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 15511552,
+        "sampled_peak_rss_bytes": 240640000,
+        "samples": 343,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "thirds": [
+        {
+          "bulk_cells": 748,
+          "domain_cells": 3168,
+          "fraction": 0.2361111111111111
+        },
+        {
+          "bulk_cells": 706,
+          "domain_cells": 2880,
+          "fraction": 0.24513888888888888
+        },
+        {
+          "bulk_cells": 760,
+          "domain_cells": 3168,
+          "fraction": 0.2398989898989899
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.5659455999848433,
+        "generation_outer_seconds": 5.5924028000445105,
+        "growth_calls": 1,
+        "growth_seconds": 5.023524000018369,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.5670313999871723
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "48__offset_obstacle__s6",
+      "domain_voxels": 22738,
+      "facade_fraction": 0.06632466104800293,
+      "failures": [],
+      "gross_volume_m3": 2794.4960000000005,
+      "occupied_voxels": 5458,
+      "pass": true,
+      "request_error_voxels": 0,
+      "resources": {
+        "cpu_seconds": 20.25,
+        "final_rss_bytes": 243482624,
+        "initial_rss_bytes": 231223296,
+        "lifetime_peak_rss_bytes": 254976000,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 23724032,
+        "sampled_peak_rss_bytes": 254947328,
+        "samples": 1205,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "thirds": [
+        {
+          "bulk_cells": 2389,
+          "domain_cells": 7922,
+          "fraction": 0.3015652612976521
+        },
+        {
+          "bulk_cells": 1653,
+          "domain_cells": 6894,
+          "fraction": 0.23977371627502175
+        },
+        {
+          "bulk_cells": 1416,
+          "domain_cells": 7922,
+          "fraction": 0.1787427417318859
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.8608035999932326,
+        "generation_outer_seconds": 19.252659299992956,
+        "growth_calls": 1,
+        "growth_seconds": 18.369400699972175,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.8803956999909133
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "48__offset_obstacle__s7",
+      "domain_voxels": 22738,
+      "facade_fraction": 0.06814434878182818,
+      "failures": [],
+      "gross_volume_m3": 2795.0080000000007,
+      "occupied_voxels": 5459,
+      "pass": true,
+      "request_error_voxels": 1,
+      "resources": {
+        "cpu_seconds": 20.625,
+        "final_rss_bytes": 258093056,
+        "initial_rss_bytes": 247054336,
+        "lifetime_peak_rss_bytes": 269291520,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 22085632,
+        "sampled_peak_rss_bytes": 269139968,
+        "samples": 1262,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "thirds": [
+        {
+          "bulk_cells": 1575,
+          "domain_cells": 7922,
+          "fraction": 0.19881343095177986
+        },
+        {
+          "bulk_cells": 1591,
+          "domain_cells": 6894,
+          "fraction": 0.23078038874383522
+        },
+        {
+          "bulk_cells": 2293,
+          "domain_cells": 7922,
+          "fraction": 0.28944710931582934
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.8630772999604233,
+        "generation_outer_seconds": 19.983413000009023,
+        "growth_calls": 1,
+        "growth_seconds": 19.124961800000165,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.8547990000224672
+      }
+    },
+    {
+      "bulk_fraction": 0.0,
+      "case": "48__blocked__s6",
+      "domain_voxels": 8640,
+      "facade_fraction": 0.0,
+      "failures": [
+        "access",
+        "coverage",
+        "sparsity",
+        "support",
+        "thickness"
+      ],
+      "gross_volume_m3": 0.0,
+      "occupied_voxels": 0,
+      "pass": false,
+      "request_error_voxels": -2074,
+      "resources": {
+        "cpu_seconds": 1.296875,
+        "final_rss_bytes": 263675904,
+        "initial_rss_bytes": 263380992,
+        "lifetime_peak_rss_bytes": 272056320,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 303104,
+        "sampled_peak_rss_bytes": 263684096,
+        "samples": 22,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "no_cube_route",
+      "thirds": [
+        {
+          "bulk_cells": 0,
+          "domain_cells": 3168,
+          "fraction": 0.0
+        },
+        {
+          "bulk_cells": 0,
+          "domain_cells": 2304,
+          "fraction": 0.0
+        },
+        {
+          "bulk_cells": 0,
+          "domain_cells": 3168,
+          "fraction": 0.0
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.479258099978324,
+        "generation_outer_seconds": 0.6550280000083148,
+        "growth_calls": 0,
+        "growth_seconds": 0.0,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.6540910000330769
+      }
+    },
+    {
+      "bulk_fraction": 0.0,
+      "case": "48__blocked__s7",
+      "domain_voxels": 8640,
+      "facade_fraction": 0.0,
+      "failures": [
+        "access",
+        "coverage",
+        "sparsity",
+        "support",
+        "thickness"
+      ],
+      "gross_volume_m3": 0.0,
+      "occupied_voxels": 0,
+      "pass": false,
+      "request_error_voxels": -2074,
+      "resources": {
+        "cpu_seconds": 1.03125,
+        "final_rss_bytes": 263725056,
+        "initial_rss_bytes": 263720960,
+        "lifetime_peak_rss_bytes": 272056320,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 24576,
+        "sampled_peak_rss_bytes": 263745536,
+        "samples": 23,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "no_cube_route",
+      "thirds": [
+        {
+          "bulk_cells": 0,
+          "domain_cells": 3168,
+          "fraction": 0.0
+        },
+        {
+          "bulk_cells": 0,
+          "domain_cells": 2304,
+          "fraction": 0.0
+        },
+        {
+          "bulk_cells": 0,
+          "domain_cells": 3168,
+          "fraction": 0.0
+        }
+      ],
+      "timing": {
+        "evaluation_seconds": 0.47801139997318387,
+        "generation_outer_seconds": 0.5637201999779791,
+        "growth_calls": 0,
+        "growth_seconds": 0.0,
+        "scope": "One timed growth wrapper; residual includes setup, Dijkstra and radial initialization; not isolated route-search time.",
+        "setup_routing_residual_seconds": 0.5624416999635287
+      }
+    }
+  ],
+  "embedding_exact": true,
+  "exact_unwrapped_replays": 6,
+  "gate": true,
+  "python_matches_per_snapshot": 160,
+  "rebuilt_contexts": 3,
+  "regression": "20260925T075016Z_c82729a145e4",
+  "run_id": "20260925T075350Z_c677671d8310",
+  "size": 48,
+  "tests": 337
+}

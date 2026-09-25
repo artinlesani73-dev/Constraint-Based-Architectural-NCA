@@ -1,0 +1,505 @@
+{
+  "sites": [
+    {
+      "case": "48__compact",
+      "kind": "compact",
+      "partition_control": false,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: compact",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 23,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 23,
+            "z": 12
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-compact",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    },
+    {
+      "case": "48__offset_obstacle",
+      "kind": "offset_obstacle",
+      "partition_control": false,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstacle",
+            "side": null,
+            "x": [
+              23,
+              26
+            ],
+            "y": [
+              21,
+              27
+            ],
+            "z": [
+              6,
+              23
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: offset_obstacle",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 17,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 29,
+            "z": 20
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-offset_obstacle",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    },
+    {
+      "case": "48__blocked",
+      "kind": "blocked",
+      "partition_control": true,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": 40,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              40,
+              48
+            ],
+            "y": [
+              6,
+              42
+            ],
+            "z": [
+              0,
+              41
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partition",
+            "side": null,
+            "x": [
+              23,
+              25
+            ],
+            "y": [
+              0,
+              48
+            ],
+            "z": [
+              0,
+              48
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 48 grid at 0.8m/cell: blocked",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 23,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 38,
+            "y": 23,
+            "z": 12
+          }
+        ],
+        "grid_size": 48,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-48-blocked",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    },
+    {
+      "case": "64__compact",
+      "kind": "compact",
+      "partition_control": false,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: compact",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 31,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 31,
+            "z": 12
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-compact",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    },
+    {
+      "case": "64__offset_obstacle",
+      "kind": "offset_obstacle",
+      "partition_control": false,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_obstacle",
+            "side": null,
+            "x": [
+              31,
+              34
+            ],
+            "y": [
+              29,
+              35
+            ],
+            "z": [
+              6,
+              23
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: offset_obstacle",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 25,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 37,
+            "z": 20
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-offset_obstacle",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    },
+    {
+      "case": "64__blocked",
+      "kind": "blocked",
+      "partition_control": true,
+      "scene": {
+        "buildings": [
+          {
+            "gap_facing_x": 8,
+            "id": "B_west",
+            "side": "left",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": 56,
+            "id": "B_east",
+            "side": "right",
+            "x": [
+              56,
+              64
+            ],
+            "y": [
+              6,
+              58
+            ],
+            "z": [
+              0,
+              57
+            ]
+          },
+          {
+            "gap_facing_x": null,
+            "id": "B_partition",
+            "side": null,
+            "x": [
+              31,
+              33
+            ],
+            "y": [
+              0,
+              64
+            ],
+            "z": [
+              0,
+              64
+            ]
+          }
+        ],
+        "ceiling_z": null,
+        "contract_version": "scene_v1",
+        "description": "MG6 64 grid at 0.8m/cell: blocked",
+        "entrances": [
+          {
+            "extent": 2,
+            "id": "E_west",
+            "kind": "facade",
+            "x": 8,
+            "y": 31,
+            "z": 12
+          },
+          {
+            "extent": 2,
+            "id": "E_east",
+            "kind": "facade",
+            "x": 54,
+            "y": 31,
+            "z": 12
+          }
+        ],
+        "grid_size": 64,
+        "legacy_relaxations": [],
+        "notes": [
+          "Designed scale development case; no held-out or architectural-quality claim."
+        ],
+        "scene_id": "mg6-64-blocked",
+        "street_levels": 6,
+        "voxel_size_m": 0.8
+      }
+    }
+  ],
+  "version": "MG6_v1"
+}

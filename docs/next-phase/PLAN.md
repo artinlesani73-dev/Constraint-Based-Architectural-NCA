@@ -1,5 +1,15 @@
 # Next-phase implementation plan
 
+## Active milestone - MG6 complete; exact-output efficiency next
+
+2026-09-25. The48-grid gate passed; the64-grid gate failed and larger live work remains unadmitted. Read SCALE_STUDY_FINDINGS and D070.
+337 regressions and independent representation/replay audits pass. New physical
+environments retain0.8m voxels and existing nine-family meanings. Next specify a
+separate local-count optimization with frozen exact-output and paired-resource
+gates, then consider admitted live presets. Finer resolution and training remain
+separate. Earlier active/current sections are historical.
+
+
 ## Active milestone - MG5 complete; physical-scale readiness next
 
 2026-09-24. All180 nonpartition cases pass in the combined225-case comparison;

@@ -1163,3 +1163,30 @@ bundle archive preserve all new runs and the earlier archive chain, same disk.
 Initial Git staging was denied access to .git/index.lock by the sandbox. The
 same explicit file list succeeded with scoped Git escalation; no files or locks
 were deleted. Unrelated user files and ignored private reports were not staged.
+
+
+## 2026-09-25 - MG6 physical-scale study
+
+Added physical_scale_study_v1 helpers, strict size-aware coordinates, explicit scene-sized
+context config and unit/embedding audit. Five focused tests and337 total regressions
+pass; smoke0. Frozen6-case48/conditional6-case64 scene/config/protocol, immutable
+lossless-array runner and scoped growth timer. Original generator/evaluators/
+checkpoint/deployment remain unchanged. D070 outcome: The48-grid gate passed; the64-grid gate failed and larger live work remains unadmitted. Runs 20260925T075350Z_c677671d8310, 20260925T075945Z_3fc0d812e153; 7/8 nonpartition MT1 pass,
+6/8 requests met,2 timeouts,
+4 blocked controls retained.337 regressions, physical embedding
+audits and10 exact unwrapped replays verify. Accepted-step
+audits:13818;160 Python matches per snapshot.
+Read SCALE_STUDY_FINDINGS for physical domains, case-level timing/resources and
+limits. No finer-resolution, arbitrary-site reliability or trained-model claim.
+Next separately specify local cube-count updates and exact-output/paired-resource
+admission per SCALE_EFFICIENCY_NEXT_PLAN. Keep old MG5/live identities unchanged.
+
+
+All observed outcomes and failed controls, exact arrays, traces, phase timings,
+RSS/lifetime peaks, source snapshots and frozen settings retained. No scientific
+retry, paid computation, Drive, new training, browser work, UI/server change, push
+or public hosting. Local Git staging/commit may require scoped sandbox escalation;
+One helper-only documentation patch failed its context check and was corrected
+before helper execution; no experiment or frozen source changed as a result.
+only explicit milestone files are staged. Private reports/unrelated files excluded.
+Local incremental archive and exact Git-bundle restoration verify; same disk only.
