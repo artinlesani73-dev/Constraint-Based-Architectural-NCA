@@ -1321,3 +1321,12 @@ Local archive preserves all evidence; cloud backup actions still need permission
 The first rehearsal-wrapper registration failed before allocating a run because
 its Colab parent was external; corrected local parent link and original helper/error
 are preserved in Codex outputs/nr3-parent-link-failure. No scientific source changed.
+
+
+## 2026-09-25 - Approved NR3 notebook-only Drive upload verified
+
+Verified the dedicated folder, saved the new NR3 notebook and read back its4310
+bytes. SHA256 exactly matches the local disarmed notebook. Recorded file/parent
+IDs, URL, permission scope and checksum receipt; updated resume/plan. No training,
+Colab session operation, existing-file change or full experiment backup occurred.
+Byte comparison and notebook compilation passed; no code changes or test rerun.

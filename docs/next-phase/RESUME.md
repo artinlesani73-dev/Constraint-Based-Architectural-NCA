@@ -1,5 +1,35 @@
 # Resume the NCA next phase
 
+## Current: NR3 notebook uploaded and byte-verified - 2026-09-25
+
+The exact approved folder-verification/notebook-save/readback batch is complete.
+New file NCA-NR3-Quality-Study.ipynb, ID1BjiTlIePcBrFUq1FZ4ZZMPuAZEAER1pY,
+is directly inside project folder1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H. All4310 bytes
+match local SHA256 96a667c23675580b5ae326a38b00e0a9c97f6a061147bbd21fb5ba5439fdf1f4.
+Verified URL: https://drive.google.com/file/d/1BjiTlIePcBrFUq1FZ4ZZMPuAZEAER1pY/view?usp=drivesdk
+Recorded in experiments/reports/NR3-drive-notebook.json and Codex outputs/
+NR3-Drive-Notebook-Verification. Notebook code compiles and remains disarmed with
+APPROVED_SEED_JOB=False; empty outputs. No training, Colab interaction, overwrite,
+new runtime ZIP upload or other cloud files. Existing NR2 notebook is untouched.
+
+NEXT: request explicit seed1201 job/backup approval: one256-update T4 job, at most
+600 controlled seconds; setup/download/idle allocation are outside its timer.
+The user must accept that whole-VM loss before export can lose this one job.
+Then guide the user through this NEW notebook and local NCA-NR3-Quality-Package.zip
+from Codex outputs/NR3-Quality-Study. Do not use the older NR2 preflight ZIP.
+Assistant Drive/Colab reads, notebook edits or autosave actions need separately
+stated authorization. Current upload batch confers no standing Drive permission.
+
+After the approved seed finishes, import its ZIP/receipt, verify/archive locally,
+then request exact results ZIP/receipt Drive save+readback. No subsequent seed or
+automatic retry before verified backups and its own compute approval. Full experiment
+archives remain local; notebook-only Drive verification does not satisfy that backup.
+Local documentation commit: Record verified NR3 notebook Drive upload.
+Incremental archive outputs/NCA-NR3-Drive-Receipt-<commit7>.zip and adjacent receipt
+preserve this action; retain full NR3 archive98c7156 and all previous evidence.
+Earlier current entries are historical.
+
+
 ## Current: NR3 quality-study package locally ready - 2026-09-25
 
 Read REPAIR_QUALITY_FINDINGS.md, REPAIR_QUALITY_PROTOCOL.md, D077 and NR3-quality.json.
