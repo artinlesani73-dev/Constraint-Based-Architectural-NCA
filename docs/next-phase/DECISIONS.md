@@ -1295,3 +1295,22 @@ Before pilot execution, replaced bare-launcher cancellation with existing tested
 WorkerTree ownership. Initial driver/protocol/config retained. Model/training/test
 bytes match focused/full regression; final driver proven by actual stopped trees
 and replay. GPU/AMP/FUSE/power-loss guarantees are not inferred from this result.
+
+
+## D075 - NR2 portable readiness passes locally; GPU gate remains pending (2026-09-25)
+
+User authorized local Colab preparation. Preserve NR1 math; add shuffled TRAIN-only
+sampler and device-bound recovery, without changing nine families or mass semantics.
+Current package revision2 has81 TRAIN rows and no heldout arrays. Initial extracted
+rehearsal 20260925T110616Z_d542bd6412fa failed before learning: stdin watcher/native import stall
+and ineffective long-wait deadline. Retained original bytes, failure and reproduced
+stack trace. Windows pipe polling and monotonic wait polling correct the driver.
+Actual child import/EOF/deadline test added.7 focused and371 full tests now pass.
+
+Rehearsal 20260925T113206Z_e84a09a6bda5 passes10 exact checkpoint comparisons and8 raw state pairs
+across3 owned workers,8 unique/16 executed CPU updates. This admits package readiness
+only; no GPU/quality/power-loss/cross-VM guarantee. Notebook stays disarmed. Present
+exact notebook Drive action and single600s GPU preflight for separate approval.
+No auto-install/retry/Drive sync, paid training, Studio promotion, push or publish.
+The job cap does not cap provider billing; runtime-only files do not survive whole-VM
+deletion. Download/verify evidence and establish approved backup before longer work.

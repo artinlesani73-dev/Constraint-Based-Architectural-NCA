@@ -1272,3 +1272,16 @@ this limitation. Raw models/Adam/RNG/traces/states/interruption markers retained
 Pre-execution Windows launcher ownership correction and its initial source retained.
 No existing model/generator/Studio/scientific source changed. No cloud or paid work.
 Updated resume/plan and local archive helper; external receipt certifies backup.
+
+
+## 2026-09-25 - NR2 Colab package and corrected restart preflight
+
+Added portable sampler/checkpoints, secure portable archive verification, notebook
+builder, bounded3-worker preflight and7 tests. Same NR1 model/loss;81 TRAIN-only rows.
+Retained initial370-test snapshot, failed readiness attempt 20260925T110616Z_d542bd6412fa, original
+package/config and diagnostic stacks. Fixed Windows blocking stdin import startup
+and replaced long process wait with monotonic deadline polling. Revised371-test
+suite passes. Package-v2 rehearsal 20260925T113206Z_e84a09a6bda5 passes exact CPU recovery outside
+the repository. Added protocol/findings, D075, both configs, verification/summary,
+six run records and resume/plan. Local commit/archive preserves all evidence and
+both package versions. GPU and off-device backup remain unverified/unapproved.

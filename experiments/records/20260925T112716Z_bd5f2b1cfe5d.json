@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260925T112716Z_bd5f2b1cfe5d",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 371,
+    "wall_seconds": 278.17888819996733
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "6f8e1d300922c8b31bbe1c9237899ae6ccb656ea",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/COLAB_PREFLIGHT_PROTOCOL.md\n?? experiments/configs/NR2-readiness-v2.json\n?? experiments/configs/NR2-readiness.json\n?? experiments/records/20260925T110015Z_049ca3e90e8c.json\n?? experiments/records/20260925T110045Z_40556d8a7131.json\n?? experiments/records/20260925T110616Z_d542bd6412fa.json\n?? experiments/records/20260925T112534Z_1553fde22b4c.json\n?? nca/colab_package.py\n?? nca/repair_portable.py\n?? scripts/build_colab_preflight.py\n?? scripts/colab_repair_preflight.py\n?? tests/test_repair_portable.py"
+  },
+  "run_id": "20260925T112716Z_bd5f2b1cfe5d",
+  "status": "completed"
+}

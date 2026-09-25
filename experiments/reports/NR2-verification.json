@@ -1,0 +1,109 @@
+{
+  "boundary_pairs": 2,
+  "checkpoint_pairs": [
+    {
+      "branch": "interrupted",
+      "exact": true,
+      "step": 0
+    },
+    {
+      "branch": "interrupted",
+      "exact": true,
+      "step": 1
+    },
+    {
+      "branch": "interrupted",
+      "exact": true,
+      "step": 2
+    },
+    {
+      "branch": "interrupted",
+      "exact": true,
+      "step": 3
+    },
+    {
+      "branch": "interrupted",
+      "exact": true,
+      "step": 4
+    },
+    {
+      "branch": "resumed",
+      "exact": true,
+      "step": 4
+    },
+    {
+      "branch": "resumed",
+      "exact": true,
+      "step": 5
+    },
+    {
+      "branch": "resumed",
+      "exact": true,
+      "step": 6
+    },
+    {
+      "branch": "resumed",
+      "exact": true,
+      "step": 7
+    },
+    {
+      "branch": "resumed",
+      "exact": true,
+      "step": 8
+    }
+  ],
+  "exports": [
+    {
+      "archive": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr2-rehearsals\\20260925T110616Z_d542bd6412fa\\runs\\20260925T110623Z_df5b7d5d27db.zip",
+      "files": 3,
+      "run_id": "20260925T110616Z_d542bd6412fa",
+      "sha256": "b171c52afff4cd4abcb734a629035fbec26eec9d189239ee626985bb0ed98be6"
+    },
+    {
+      "archive": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr2-rehearsals\\20260925T113206Z_e84a09a6bda5\\runs\\20260925T113211Z_b09b9cb0241d.zip",
+      "files": 88,
+      "run_id": "20260925T113206Z_e84a09a6bda5",
+      "sha256": "b52681e92ed8dffb4bef94eeee09ad1f5060db368b119f8a792c9964e75c3c39"
+    }
+  ],
+  "gpu_executed": false,
+  "quality_admission": false,
+  "regression": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 371,
+    "wall_seconds": 278.17888819996733
+  },
+  "run_id": "20260925T113206Z_e84a09a6bda5",
+  "sample_indices": [
+    52,
+    38,
+    65,
+    36,
+    70,
+    63,
+    56,
+    75
+  ],
+  "source_checks": [
+    {
+      "differences_from_final_recipe": [
+        "docs/next-phase/COLAB_PREFLIGHT_PROTOCOL.md"
+      ],
+      "run_id": "20260925T112534Z_1553fde22b4c"
+    },
+    {
+      "differences_from_final_recipe": [],
+      "run_id": "20260925T112716Z_bd5f2b1cfe5d"
+    },
+    {
+      "differences_from_final_recipe": [],
+      "run_id": "20260925T113206Z_e84a09a6bda5"
+    }
+  ],
+  "training_state_pairs": 8
+}

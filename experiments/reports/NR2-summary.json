@@ -1,0 +1,231 @@
+{
+  "extracted_package": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr2-rehearsals\\20260925T113206Z_e84a09a6bda5",
+  "failure": null,
+  "metrics": {
+    "checkpoint_pairs": 10,
+    "device": "cpu",
+    "executed_updates": 16,
+    "gpu_executed": false,
+    "readiness_gate": true,
+    "training_examples": 81,
+    "unique_updates": 8,
+    "validation_test_examples": 0,
+    "wall_seconds": 44.46938289998798
+  },
+  "portable_result": {
+    "checkpoint_comparisons": [
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 0
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 1
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 2
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 3
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 4
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 4
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 5
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 6
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 7
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 8
+      }
+    ],
+    "device": "cpu",
+    "failure": null,
+    "gpu_recovery_passed": false,
+    "interpretation": "Mechanics check only; no quality admission or permission for a longer run.",
+    "status": "completed",
+    "wall_seconds": 38.90599999995902,
+    "workers": [
+      {
+        "active_processes_after_stop": 0,
+        "branch": "uninterrupted",
+        "exit_code": 0,
+        "launcher_pid": 37976,
+        "outcome": "completed",
+        "result": {
+          "completed": 8,
+          "device": "cpu",
+          "failure": null,
+          "memory": {},
+          "pid": 20440,
+          "status": "completed",
+          "wall_seconds": 13.220857599982992
+        },
+        "worker_pid": 20440
+      },
+      {
+        "active_processes_after_stop": 0,
+        "branch": "interrupted",
+        "exit_code": 1,
+        "launcher_pid": 24888,
+        "outcome": "deliberately_interrupted",
+        "worker_pid": 30460
+      },
+      {
+        "active_processes_after_stop": 0,
+        "branch": "resumed",
+        "exit_code": 0,
+        "launcher_pid": 13220,
+        "outcome": "completed",
+        "result": {
+          "completed": 8,
+          "device": "cpu",
+          "failure": null,
+          "memory": {},
+          "pid": 30852,
+          "status": "completed",
+          "wall_seconds": 7.665079300000798
+        },
+        "worker_pid": 30852
+      }
+    ]
+  },
+  "previous_failed_attempt": "20260925T110616Z_d542bd6412fa",
+  "run_id": "20260925T113206Z_e84a09a6bda5",
+  "status": "completed",
+  "verification": {
+    "boundary_pairs": 2,
+    "checkpoint_pairs": [
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 0
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 1
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 2
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 3
+      },
+      {
+        "branch": "interrupted",
+        "exact": true,
+        "step": 4
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 4
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 5
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 6
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 7
+      },
+      {
+        "branch": "resumed",
+        "exact": true,
+        "step": 8
+      }
+    ],
+    "exports": [
+      {
+        "archive": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr2-rehearsals\\20260925T110616Z_d542bd6412fa\\runs\\20260925T110623Z_df5b7d5d27db.zip",
+        "files": 3,
+        "run_id": "20260925T110616Z_d542bd6412fa",
+        "sha256": "b171c52afff4cd4abcb734a629035fbec26eec9d189239ee626985bb0ed98be6"
+      },
+      {
+        "archive": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\nr2-rehearsals\\20260925T113206Z_e84a09a6bda5\\runs\\20260925T113211Z_b09b9cb0241d.zip",
+        "files": 88,
+        "run_id": "20260925T113206Z_e84a09a6bda5",
+        "sha256": "b52681e92ed8dffb4bef94eeee09ad1f5060db368b119f8a792c9964e75c3c39"
+      }
+    ],
+    "gpu_executed": false,
+    "quality_admission": false,
+    "regression": {
+      "errors": 0,
+      "failed_cases": [],
+      "failures": 0,
+      "note": "Duration includes test infrastructure; not an inference benchmark",
+      "skipped": 0,
+      "smoke_exit_code": 0,
+      "tests_run": 371,
+      "wall_seconds": 278.17888819996733
+    },
+    "run_id": "20260925T113206Z_e84a09a6bda5",
+    "sample_indices": [
+      52,
+      38,
+      65,
+      36,
+      70,
+      63,
+      56,
+      75
+    ],
+    "source_checks": [
+      {
+        "differences_from_final_recipe": [
+          "docs/next-phase/COLAB_PREFLIGHT_PROTOCOL.md"
+        ],
+        "run_id": "20260925T112534Z_1553fde22b4c"
+      },
+      {
+        "differences_from_final_recipe": [],
+        "run_id": "20260925T112716Z_bd5f2b1cfe5d"
+      },
+      {
+        "differences_from_final_recipe": [],
+        "run_id": "20260925T113206Z_e84a09a6bda5"
+      }
+    ],
+    "training_state_pairs": 8
+  }
+}

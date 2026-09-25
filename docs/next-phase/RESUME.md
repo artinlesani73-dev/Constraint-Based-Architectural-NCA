@@ -1,5 +1,56 @@
 # Resume the NCA next phase
 
+## Current: NR2 local package readiness complete - 2026-09-25
+
+Read COLAB_PREFLIGHT_FINDINGS.md, COLAB_PREFLIGHT_PROTOCOL.md and D075.
+Use Codex outputs/NR2-Colab-Preflight-v2 (ZIP, disarmed notebook, START-HERE,
+receipt). Original package is superseded and retained. No cloud/Drive/GPU execution.
+Current config experiments/configs/NR2-readiness-v2.json, linked to failed attempt
+20260925T110616Z_d542bd6412fa. Original stalled at NumPy import with blocking stdin watchdog;
+reproduced and corrected using Windows pipe polling and monotonic deadline polling.
+All originals, diagnostic stacks and failure evidence retained.
+
+Focused 20260925T112534Z_1553fde22b4c:7pass. Regression 20260925T112716Z_bd5f2b1cfe5d:371pass/smoke0.
+Successful isolated CPU rehearsal 20260925T113206Z_e84a09a6bda5:10 exact checkpoint pairs,
+8 training-state pairs,2 evaluation-boundary pairs; three stopped owned worker trees.
+8 unique/16 executed updates,38.91s/600s. GPU remains untested; no quality claim.
+Source/exports/checkpoints reverified by work/finalize_nr2.py and NR2-verification.json.
+
+NEXT: present this concrete package; request exact scoped notebook Drive save and
+readback/verification if wanted, plus separate one-attempt GPU allowance (oneGPU,
+8 unique/16 executed updates,600s execution cap). User must approve exact Drive
+actions and compute before remote work. Do not mount Drive, auto-sync, retry or
+start the proposed256-update study. Setup/download/idleGPU time is outside job cap.
+Download evidence+receipt and verify locally before disconnecting Colab. Whole-VM
+loss before download is not protected; extended training requires approved backup.
+Review actualGPU evidence before deciding any longer study; retain strict failures.
+
+Local commands already completed: scripts/build_colab_preflight.py --output
+<Codex outputs/NR2-Colab-Preflight-v2>; work/rehearse_nr2_v2.py. Do not rerun completed
+helpers or overwrite packages. If interrupted, inspect run results/processes first.
+Raw successful checkpoints are under Codex outputs/nr2-rehearsals/20260925T113206Z_e84a09a6bda5/runs/;
+uninterrupted/resumed end at0008, interrupted at0004. All are also in verified exports.
+
+Commit title: Prepare verified Colab NCA restart preflight package.
+Archive: outputs/NCA-NR2-Backup-2026-09-25-<commit7>.zip. Authoritative receipt:
+.local-artifacts/milestones/<commit7>-nr2-backup-receipt.json. Keep NR1/NL0 and older
+archives; same disk only, off-device pending. Restore exact snapshot bytes for hashes.
+Studio was not restarted or changed. Private reports ignored/unchanged. Earlier
+current/in-progress sections are historical; two unrelated untracked files untouched.
+
+
+## In progress: NR2 Colab package readiness - 2026-09-25
+
+Read COLAB_PREFLIGHT_PROTOCOL.md and NR2-readiness.json. Local package is in Codex
+outputs/NR2-Colab-Preflight. It is disarmed; no GPU or Drive operation occurred.
+New portable session/sampler retains NR1 math, with device-bound checkpoint identity.
+Next archived focused/full tests, verified extraction outside the original repo,
+then one600-second CPU rehearsal of the actual three-worker package. Preserve every
+failure and version; never overwrite a delivered package or bypass its hashes.
+After findings/local commit/archive, request any exact notebook Drive save and
+GPU execution allowance separately. No256-update training entry point is provided.
+
+
 ## Current: NR1 CPU mechanics complete - 2026-09-25
 
 Read NCA_REPAIR_CPU_FINDINGS.md, NCA_REPAIR_CPU_PROTOCOL.md and D074.
