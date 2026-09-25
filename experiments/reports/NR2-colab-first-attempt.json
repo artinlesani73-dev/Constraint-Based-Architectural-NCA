@@ -1,0 +1,32 @@
+{
+  "run_id": "20260925T131427Z_3726c7292296",
+  "status": "failed",
+  "result": {
+    "checkpoint_comparisons": [],
+    "device": "cuda:0",
+    "failure": "Traceback (most recent call last):\n  File \"/content/nca-nr2-a5a595bd8fa649c89267398c67866a49/scripts/colab_repair_preflight.py\", line 161, in main\n    base=launch('uninterrupted')\n  File \"/content/nca-nr2-a5a595bd8fa649c89267398c67866a49/scripts/colab_repair_preflight.py\", line 150, in launch\n    if p.returncode or result['status']!='completed':raise RuntimeError('Worker failed; retain logs and stop')\n                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Worker failed; retain logs and stop\n",
+    "gpu_recovery_passed": false,
+    "interpretation": "Mechanics check only; no quality admission or permission for a longer run.",
+    "status": "failed",
+    "wall_seconds": 5.307422527999961,
+    "workers": [
+      {
+        "branch": "uninterrupted",
+        "exit_code": 1,
+        "launcher_pid": 5994,
+        "result": {
+          "completed": null,
+          "device": "cuda:0",
+          "failure": "Traceback (most recent call last):\n  File \"/content/nca-nr2-a5a595bd8fa649c89267398c67866a49/scripts/colab_repair_preflight.py\", line 62, in worker\n    session=PortableSession(ROOT,data['rows'],{'manifest_sha256':digest(ROOT/'manifest.json')},device=args.device)\n  File \"/content/nca-nr2-a5a595bd8fa649c89267398c67866a49/nca/repair_portable.py\", line 80, in __init__\n    if not torch.cuda.is_available() or torch.cuda.device_count()!=1:raise ValueError('Exactly one visible CUDA GPU required')\n                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Exactly one visible CUDA GPU required\n",
+          "memory": {},
+          "pid": 5994,
+          "status": "failed",
+          "wall_seconds": 0.021504049000213854
+        },
+        "worker_pid": 5994
+      }
+    ]
+  },
+  "local_evidence": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\NR2-Colab-20260925T131427Z_3726c7292296",
+  "interpretation": "Device admission failed before model initialization or training. Retained, not replaced by later success."
+}

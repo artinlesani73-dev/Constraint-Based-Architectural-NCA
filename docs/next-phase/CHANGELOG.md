@@ -1297,3 +1297,12 @@ connector readback. No duplicate upload. Added receipt and current resume/plan.
 No code changed; byte comparison and notebook compilation are the relevant checks.
 No GPU/Colab execution, notebook edit, further cloud files or automatic sync.
 Experiment archives/checkpoints remain local; notebook-only backup is complete.
+
+
+## 2026-09-25 - Returned Colab GPU preflight verified
+
+Imported successful 20260925T134015Z_e14a0afc966e and preserved earlier failed 20260925T131427Z_3726c7292296.
+Verified whole ZIP/member hashes, delivered package identity and exact checkpoint/
+raw-state replay locally. Updated current resume/plan, D076 and small reports.
+The GPU gate now passes on the recorded T4 environment; quality and cross-VM
+durability remain unproven. No model/code/Studio changes or remote operations.

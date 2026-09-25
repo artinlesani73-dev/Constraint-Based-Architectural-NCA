@@ -1,5 +1,37 @@
 # Next-phase implementation plan
 
+## Current: NR2 GPU recovery verified from returned Colab artifacts - 2026-09-25
+
+User supplied run 20260925T134015Z_e14a0afc966e. All88 archive payload hashes and whole ZIP hash
+verified. Direct local inspection confirms10 exact complete checkpoint pairs,
+8 training-state pairs and2 evaluation-boundary pairs, including Adam, sampler
+and all saved RNG state. Delivered revision2 manifest and81 training rows match.
+Tesla T4, PyTorch2.11.0+cu128, Python3.13.15, NumPy2.1.3. Run27.9814s;
+8 unique/16 executed updates; peak reserved368MiB. Read NR2-gpu-verification.json.
+Earlier 20260925T131427Z_3726c7292296 failed GPU availability before learning and is retained
+in NR2-colab-first-attempt.json and Codex outputs/NR2-Colab-<run-id>/.
+
+This completes the same-runtime GPU process-recovery gate. It does not establish
+learned geometry quality, convergence, cross-VM restart, or full off-device backup.
+User executed the Colab runs; assistant imported local evidence only. No permission
+for additional remote compute or Drive operations is inferred. No Studio change.
+
+NEXT: prepare a frozen, bounded repair-quality study and evaluation/backup plan
+using this verified GPU baseline. Retain NR1 math/NL0 splits/nine families and
+MG7 comparator; require binary geometry and family metrics as well as loss.
+Do not automatically start the proposed60-minute/3-seed/256-update study or retry
+preflight. Actual new allowance and exact backup actions require user approval.
+The notebook-only Drive copy is verified; full artifacts remain locally archived.
+Advise the user to disconnect the idle GPU now that downloads are verified.
+
+Local evidence: Codex outputs/NR2-Colab-20260925T134015Z_e14a0afc966e/ (ZIP, receipt, verification).
+SHA256 e5037e8ec634737f20af0dc98196dabc17160bd3140f751c10de190f781b2d8b.
+Inspection helper work/verify_nr2_gpu.py; no training executed during verification.
+No code changes or new regression tests needed for this data-import milestone.
+Local commit: Record successful Colab GPU recovery verification.
+Preserve earlier archives and both returned runs. Earlier current entries are historical.
+
+
 ## Current: NR2 notebook saved and byte-verified in project Drive - 2026-09-25
 
 The user explicitly approved folder verification, notebook upload and readback.

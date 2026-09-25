@@ -1314,3 +1314,16 @@ exact notebook Drive action and single600s GPU preflight for separate approval.
 No auto-install/retry/Drive sync, paid training, Studio promotion, push or publish.
 The job cap does not cap provider billing; runtime-only files do not survive whole-VM
 deletion. Download/verify evidence and establish approved backup before longer work.
+
+
+## D076 - Admit NR2 same-runtime GPU process recovery (2026-09-25)
+
+Returned Colab run 20260925T134015Z_e14a0afc966e passes10 exact full checkpoint pairs,8 raw
+training-state pairs and2 boundary pairs. Direct local artifact comparisons verify
+the reported success, all88 payload hashes and the delivered package identity.
+Tesla T4,27.98s,8 unique/16 executed updates,368MiB peak reserved. Retain initial
+device-admission failure 20260925T131427Z_3726c7292296; it completed no training updates.
+Admit this mechanics gate only. Do not infer repair quality, arbitrary runtime-loss
+recovery or additional compute/Drive authorization from returned artifacts.
+Next prepare a bounded quality study with frozen binary metrics and approved backup;
+no new training, architecture change or Studio promotion in this import milestone.
