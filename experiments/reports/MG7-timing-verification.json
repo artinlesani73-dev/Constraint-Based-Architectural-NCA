@@ -1,0 +1,1223 @@
+{
+  "binary_rescores": 52,
+  "bulk_masks": 26,
+  "cases_checked": 26,
+  "full_comparisons": 26,
+  "gate": true,
+  "mode": "timing",
+  "new64_candidate_evaluations": 0,
+  "new64_frontier_steps": 0,
+  "optimized_exact_replays": 0,
+  "outcomes": [
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 211812352,
+        "initial_rss_bytes": 205438976,
+        "lifetime_peak_rss_bytes": 211836928,
+        "max_sample_gap_seconds": 0.08273929997812957,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 6397952,
+        "sampled_peak_rss_bytes": 211836928,
+        "sampled_wall_span_seconds": 1.3667158999596722,
+        "samples": 67,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.25,
+        "evaluation_wall_seconds": 0.256848799996078,
+        "generation_cpu_seconds": 1.09375,
+        "generation_wall_seconds": 1.1092620000126772,
+        "growth_cpu_seconds": 0.796875,
+        "growth_wall_seconds": 0.8055182000389323
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 214065152,
+        "initial_rss_bytes": 214056960,
+        "lifetime_peak_rss_bytes": 218099712,
+        "max_sample_gap_seconds": 0.1082217000075616,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 32768,
+        "sampled_peak_rss_bytes": 214089728,
+        "sampled_wall_span_seconds": 0.5878053000196815,
+        "samples": 16,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.265625,
+        "evaluation_wall_seconds": 0.259328700019978,
+        "generation_cpu_seconds": 0.3125,
+        "generation_wall_seconds": 0.3277232000255026,
+        "growth_cpu_seconds": 0.0625,
+        "growth_wall_seconds": 0.06904899998335168
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 216936448,
+        "initial_rss_bytes": 216268800,
+        "lifetime_peak_rss_bytes": 219226112,
+        "max_sample_gap_seconds": 0.09378330002073199,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 671744,
+        "sampled_peak_rss_bytes": 216940544,
+        "sampled_wall_span_seconds": 1.376996600010898,
+        "samples": 65,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.265625,
+        "evaluation_wall_seconds": 0.2576386000146158,
+        "generation_cpu_seconds": 1.109375,
+        "generation_wall_seconds": 1.118728999979794,
+        "growth_cpu_seconds": 0.84375,
+        "growth_wall_seconds": 0.8586512999609113
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 217169920,
+        "initial_rss_bytes": 217169920,
+        "lifetime_peak_rss_bytes": 222064640,
+        "max_sample_gap_seconds": 0.07767710002372041,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 24576,
+        "sampled_peak_rss_bytes": 217194496,
+        "sampled_wall_span_seconds": 0.5884362999931909,
+        "samples": 17,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.25,
+        "evaluation_wall_seconds": 0.25771849998272955,
+        "generation_cpu_seconds": 0.328125,
+        "generation_wall_seconds": 0.33010369999101385,
+        "growth_cpu_seconds": 0.078125,
+        "growth_wall_seconds": 0.0698028999613598
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 225595392,
+        "initial_rss_bytes": 217702400,
+        "lifetime_peak_rss_bytes": 238571520,
+        "max_sample_gap_seconds": 0.10863500001141801,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 20754432,
+        "sampled_peak_rss_bytes": 238456832,
+        "sampled_wall_span_seconds": 15.458630699955393,
+        "samples": 927,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.703125,
+        "evaluation_wall_seconds": 0.6971785000059754,
+        "generation_cpu_seconds": 14.9375,
+        "generation_wall_seconds": 14.760902700014412,
+        "growth_cpu_seconds": 14.265625,
+        "growth_wall_seconds": 14.084915000014007
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 228446208,
+        "initial_rss_bytes": 227848192,
+        "lifetime_peak_rss_bytes": 240021504,
+        "max_sample_gap_seconds": 0.10998300003120676,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 12152832,
+        "sampled_peak_rss_bytes": 240001024,
+        "sampled_wall_span_seconds": 1.9007904999889433,
+        "samples": 57,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.703125,
+        "evaluation_wall_seconds": 0.7090051000122912,
+        "generation_cpu_seconds": 1.171875,
+        "generation_wall_seconds": 1.1909191000158899,
+        "growth_cpu_seconds": 0.5,
+        "growth_wall_seconds": 0.5079305000253953
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 254894080,
+        "initial_rss_bytes": 232996864,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.1090455999947153,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 47538176,
+        "sampled_peak_rss_bytes": 280535040,
+        "sampled_wall_span_seconds": 42.67214760003844,
+        "samples": 2648,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.859375,
+        "evaluation_wall_seconds": 0.8548696999787353,
+        "generation_cpu_seconds": 42.671875,
+        "generation_wall_seconds": 41.81671420001658,
+        "growth_cpu_seconds": 41.75,
+        "growth_wall_seconds": 40.89750959997764
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 257482752,
+        "initial_rss_bytes": 255602688,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.11167650000425056,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 22917120,
+        "sampled_peak_rss_bytes": 278519808,
+        "sampled_wall_span_seconds": 2.0357239000150003,
+        "samples": 55,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.828125,
+        "evaluation_wall_seconds": 0.8370079000014812,
+        "generation_cpu_seconds": 1.234375,
+        "generation_wall_seconds": 1.197154399997089,
+        "growth_cpu_seconds": 0.296875,
+        "growth_wall_seconds": 0.29104260000167415
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 250970112,
+        "initial_rss_bytes": 248463360,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.07777249999344349,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 3301376,
+        "sampled_peak_rss_bytes": 251764736,
+        "sampled_wall_span_seconds": 0.5944983999943361,
+        "samples": 17,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.265625,
+        "evaluation_wall_seconds": 0.26160869997693226,
+        "generation_cpu_seconds": 0.328125,
+        "generation_wall_seconds": 0.332294300023932,
+        "growth_cpu_seconds": 0.078125,
+        "growth_wall_seconds": 0.07005239999853075
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 251617280,
+        "initial_rss_bytes": 251052032,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.09342829999513924,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 569344,
+        "sampled_peak_rss_bytes": 251621376,
+        "sampled_wall_span_seconds": 1.3432642000261694,
+        "samples": 64,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.28125,
+        "evaluation_wall_seconds": 0.2661485999706201,
+        "generation_cpu_seconds": 1.078125,
+        "generation_wall_seconds": 1.0764878999907523,
+        "growth_cpu_seconds": 0.828125,
+        "growth_wall_seconds": 0.8131325999856927
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 250228736,
+        "initial_rss_bytes": 251633664,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.10903190000681207,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 10330112,
+        "sampled_peak_rss_bytes": 261963776,
+        "sampled_wall_span_seconds": 1.8835875000222586,
+        "samples": 55,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.703125,
+        "evaluation_wall_seconds": 0.7063768999651074,
+        "generation_cpu_seconds": 1.1875,
+        "generation_wall_seconds": 1.1765781000140123,
+        "growth_cpu_seconds": 0.484375,
+        "growth_wall_seconds": 0.49163730000145733
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 260911104,
+        "initial_rss_bytes": 254595072,
+        "lifetime_peak_rss_bytes": 282083328,
+        "max_sample_gap_seconds": 0.1294142000260763,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 19341312,
+        "sampled_peak_rss_bytes": 273936384,
+        "sampled_wall_span_seconds": 15.627978899981827,
+        "samples": 933,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.71875,
+        "evaluation_wall_seconds": 0.7119777000043541,
+        "generation_cpu_seconds": 15.125,
+        "generation_wall_seconds": 14.915324400004465,
+        "growth_cpu_seconds": 14.328125,
+        "growth_wall_seconds": 14.126190999988467
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 269942784,
+        "initial_rss_bytes": 268423168,
+        "lifetime_peak_rss_bytes": 291115008,
+        "max_sample_gap_seconds": 0.10327869997126982,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 20561920,
+        "sampled_peak_rss_bytes": 288985088,
+        "sampled_wall_span_seconds": 2.0081085999845527,
+        "samples": 58,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.828125,
+        "evaluation_wall_seconds": 0.8282109000138007,
+        "generation_cpu_seconds": 1.15625,
+        "generation_wall_seconds": 1.178960899997037,
+        "growth_cpu_seconds": 0.28125,
+        "growth_wall_seconds": 0.2844982999959029
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 289894400,
+        "initial_rss_bytes": 270118912,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.147301500022877,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 42713088,
+        "sampled_peak_rss_bytes": 312832000,
+        "sampled_wall_span_seconds": 41.85071329999482,
+        "samples": 2601,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.8125,
+        "evaluation_wall_seconds": 0.8512344000046141,
+        "generation_cpu_seconds": 41.625,
+        "generation_wall_seconds": 40.998867199989036,
+        "growth_cpu_seconds": 40.75,
+        "growth_wall_seconds": 40.09985230001621
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 282558464,
+        "initial_rss_bytes": 276828160,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.10907049995148554,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 5734400,
+        "sampled_peak_rss_bytes": 282562560,
+        "sampled_wall_span_seconds": 1.401120800001081,
+        "samples": 68,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.265625,
+        "evaluation_wall_seconds": 0.2700230999616906,
+        "generation_cpu_seconds": 1.140625,
+        "generation_wall_seconds": 1.1296064999769442,
+        "growth_cpu_seconds": 0.875,
+        "growth_wall_seconds": 0.8585963000077754
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 283922432,
+        "initial_rss_bytes": 283815936,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.10993190004955977,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 110592,
+        "sampled_peak_rss_bytes": 283926528,
+        "sampled_wall_span_seconds": 0.7032723000156693,
+        "samples": 17,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.28125,
+        "evaluation_wall_seconds": 0.2828764999867417,
+        "generation_cpu_seconds": 0.390625,
+        "generation_wall_seconds": 0.4197783999843523,
+        "growth_cpu_seconds": 0.09375,
+        "growth_wall_seconds": 0.09055439999792725
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 174891008,
+        "initial_rss_bytes": 250748928,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.17970960005186498,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 1261568,
+        "sampled_peak_rss_bytes": 252010496,
+        "sampled_wall_span_seconds": 22.404878200031817,
+        "samples": 1354,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.765625,
+        "evaluation_wall_seconds": 0.7740661000134423,
+        "generation_cpu_seconds": 21.09375,
+        "generation_wall_seconds": 21.63014830002794,
+        "growth_cpu_seconds": 20.359375,
+        "growth_wall_seconds": 20.862636999983806
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 175902720,
+        "initial_rss_bytes": 180723712,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.11070039996411651,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 7077888,
+        "sampled_peak_rss_bytes": 187801600,
+        "sampled_wall_span_seconds": 2.0462676999741234,
+        "samples": 62,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.734375,
+        "evaluation_wall_seconds": 0.7511984999873675,
+        "generation_cpu_seconds": 1.265625,
+        "generation_wall_seconds": 1.293595600000117,
+        "growth_cpu_seconds": 0.515625,
+        "growth_wall_seconds": 0.5387455999734811
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 209461248,
+        "initial_rss_bytes": 183635968,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.17090080003254116,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 50606080,
+        "sampled_peak_rss_bytes": 234242048,
+        "sampled_wall_span_seconds": 52.239784299978055,
+        "samples": 3261,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.921875,
+        "evaluation_wall_seconds": 0.9307725999969989,
+        "generation_cpu_seconds": 52.078125,
+        "generation_wall_seconds": 51.30839819996618,
+        "growth_cpu_seconds": 51.125,
+        "growth_wall_seconds": 50.3320491000195
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 210767872,
+        "initial_rss_bytes": 210718720,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.12269000004744157,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 22798336,
+        "sampled_peak_rss_bytes": 233517056,
+        "sampled_wall_span_seconds": 2.5080752999638207,
+        "samples": 65,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.96875,
+        "evaluation_wall_seconds": 0.9590465999790467,
+        "generation_cpu_seconds": 1.5,
+        "generation_wall_seconds": 1.5472971000126563,
+        "growth_cpu_seconds": 0.34375,
+        "growth_wall_seconds": 0.3572266999981366
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 203632640,
+        "initial_rss_bytes": 197824512,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.21530340000754222,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 5820416,
+        "sampled_peak_rss_bytes": 203644928,
+        "sampled_wall_span_seconds": 0.842105099989567,
+        "samples": 17,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.28125,
+        "evaluation_wall_seconds": 0.28399139997782186,
+        "generation_cpu_seconds": 0.5625,
+        "generation_wall_seconds": 0.5571671000216156,
+        "growth_cpu_seconds": 0.078125,
+        "growth_wall_seconds": 0.07689530000789091
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 573
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 1503,
+      "quality": true,
+      "requested": 1503,
+      "resources": {
+        "final_rss_bytes": 205004800,
+        "initial_rss_bytes": 204693504,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.07745250000152737,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 315392,
+        "sampled_peak_rss_bytes": 205008896,
+        "sampled_wall_span_seconds": 1.4878768000053242,
+        "samples": 71,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.3125,
+        "evaluation_wall_seconds": 0.2925070999772288,
+        "generation_cpu_seconds": 1.234375,
+        "generation_wall_seconds": 1.1947941000107676,
+        "growth_cpu_seconds": 0.953125,
+        "growth_wall_seconds": 0.909432000014931
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 201515008,
+        "initial_rss_bytes": 205856768,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.1094751000055112,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 9015296,
+        "sampled_peak_rss_bytes": 214872064,
+        "sampled_wall_span_seconds": 2.072401900019031,
+        "samples": 60,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.78125,
+        "evaluation_wall_seconds": 0.7690224999678321,
+        "generation_cpu_seconds": 1.296875,
+        "generation_wall_seconds": 1.3026543000014499,
+        "growth_cpu_seconds": 0.546875,
+        "growth_wall_seconds": 0.5545151999685913
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg48__48__offset_obstacle__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 3081
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 5458,
+      "quality": true,
+      "requested": 5458,
+      "resources": {
+        "final_rss_bytes": 211034112,
+        "initial_rss_bytes": 207278080,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.11408710002433509,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 18423808,
+        "sampled_peak_rss_bytes": 225701888,
+        "sampled_wall_span_seconds": 17.282215400016867,
+        "samples": 1035,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.765625,
+        "evaluation_wall_seconds": 0.7515043999883346,
+        "generation_cpu_seconds": 16.59375,
+        "generation_wall_seconds": 16.53001270000823,
+        "growth_cpu_seconds": 15.78125,
+        "growth_wall_seconds": 15.700698299973737
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "optimized",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 220864512,
+        "initial_rss_bytes": 217886720,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.2608623999985866,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 20152320,
+        "sampled_peak_rss_bytes": 238039040,
+        "sampled_wall_span_seconds": 2.400868999946397,
+        "samples": 57,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.875,
+        "evaluation_wall_seconds": 0.8850283999927342,
+        "generation_cpu_seconds": 1.53125,
+        "generation_wall_seconds": 1.5149139999994077,
+        "growth_cpu_seconds": 0.328125,
+        "growth_wall_seconds": 0.30944919999456033
+      }
+    },
+    {
+      "bulk_fraction": 1.0,
+      "case": "mg64__64__compact__s6",
+      "equivalence": {
+        "equal": true,
+        "mode": "full",
+        "trace_steps": 1647
+      },
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "method": "reference",
+      "occupied": 3319,
+      "quality": true,
+      "requested": 3318,
+      "resources": {
+        "final_rss_bytes": 180654080,
+        "initial_rss_bytes": 220958720,
+        "lifetime_peak_rss_bytes": 315232256,
+        "max_sample_gap_seconds": 0.10984869999811053,
+        "sample_interval_seconds": 0.01,
+        "sampled_increase_bytes": 37621760,
+        "sampled_peak_rss_bytes": 258580480,
+        "sampled_wall_span_seconds": 54.72270150005352,
+        "samples": 3434,
+        "scope": "Entire process resident set; sampling may miss short peaks; lifetime peak is cumulative."
+      },
+      "status": "target_reached",
+      "time": {
+        "evaluation_cpu_seconds": 0.84375,
+        "evaluation_wall_seconds": 0.8597453000256792,
+        "generation_cpu_seconds": 54.46875,
+        "generation_wall_seconds": 53.86163330002455,
+        "growth_cpu_seconds": 53.46875,
+        "growth_wall_seconds": 52.89574289997108
+      }
+    }
+  ],
+  "performance": [
+    {
+      "case": "mg4__combined_reverse__v16__s5",
+      "pass": true,
+      "peak_rss_ratio": 1.0048271363339856,
+      "ratios": {
+        "generation_cpu_seconds": 0.3194444444444444,
+        "generation_wall_seconds": 0.33450199048262835
+      },
+      "sample_gaps_admitted": true,
+      "source": "mg5"
+    },
+    {
+      "case": "48__offset_obstacle__s6",
+      "pass": true,
+      "peak_rss_ratio": 0.956294202963561,
+      "ratios": {
+        "generation_cpu_seconds": 0.07733990147783251,
+        "generation_wall_seconds": 0.07901059200332135
+      },
+      "sample_gaps_admitted": true,
+      "source": "mg48"
+    },
+    {
+      "case": "64__compact__s6",
+      "pass": true,
+      "peak_rss_ratio": 0.9237708674304419,
+      "ratios": {
+        "generation_cpu_seconds": 0.028858839050131927,
+        "generation_wall_seconds": 0.02912284699692882
+      },
+      "sample_gaps_admitted": true,
+      "source": "mg64"
+    }
+  ],
+  "prefix_comparisons": 0,
+  "python_matches_per_snapshot": 164,
+  "regression": "20260925T082528Z_d941a7a46957",
+  "run_id": "20260925T084205Z_6fab76a67538",
+  "tests": 343
+}

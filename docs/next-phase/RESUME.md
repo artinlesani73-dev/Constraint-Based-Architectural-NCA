@@ -1,5 +1,60 @@
 # Resume the NCA next phase
 
+
+## Current: MG7 complete; conditional Studio integration next - 2026-09-25
+
+The equivalence and paired performance gates both pass.
+Read INCREMENTAL_GROWTH_FINDINGS.md, STUDIO_SCALE_INTEGRATION_NEXT_PLAN.md and D071.
+343 tests pass, smoke exit 0. Runs:
+- regression 20260925T082528Z_d941a7a46957
+- diagnostic 20260925T082841Z_88466161ced3
+- matrix 20260925T083302Z_6c7ade2f0e16
+- timing 20260925T084205Z_6fab76a67538
+
+All stages completed and independently verified. No active experiment or audit
+process remains; do not rerun to resume documentation. Matrix: 235 exact full
+matches, two preserved prefixes followed by complete audited fields, 188 positive
+cases and 49 blocked controls. New continuation audit: 10097 steps,
+12131925 candidate evaluations. Every measured timing execution is retained.
+Read experiments/reports/MG7-summary.json and MG7-<mode>-verification.json for
+precise CPU/wall/RSS outcomes and gate limitations. Old MG6 failures remain valid
+historical evidence. MG7 is procedural; no new NCA training or live switch.
+
+Next make the conditional integration proposal concrete. Preserve existing
+MS1/MG3 replay; reuse separate cancellable workers; verify supported versions,
+scale-aware decoding, bounded imports, deadlines and real browser behavior.
+Only tested larger scene/seed/request combinations are candidates for admission.
+Arbitrary sites, wider seeds/requests and finer resolution need separate studies.
+
+Artifacts: .local-artifacts/runs/<IDs>. Frozen recipe MG7-incremental.json and
+INCREMENTAL_GROWTH_PROTOCOL.md. Runner run_incremental_study.py uses --mode and
+--admission-run; never rerun blindly. Codex work helpers prepare_mg7_code.py,
+freeze_mg7.py, verify_mg7.py, finalize_mg7.py, package_mg7.py and outputs/mg7-*.log
+preserve implementation/audits. Helpers use exclusive writes; inspect first.
+Local commit title: "Optimize cube accounting with exact-choice verification".
+Archive outputs/NCA-MG7-Backup-2026-09-25-<commit7>.zip, sibling receipt and local
+milestone receipt contain verified hashes; keep all earlier archives. Raw source
+ZIP is authoritative for frozen newline-sensitive hashes after Git checkout.
+Private reports ignored/unchanged; two unrelated untracked user files preserved.
+No Drive, paid compute, push or public hosting. Same-disk archive is not off-device.
+Earlier current/in-progress sections below are historical records.
+
+
+## In progress: MG7 exact-choice optimization - 2026-09-25
+
+Read INCREMENTAL_GROWTH_PROTOCOL, MG7-incremental config and D071. Separate module
+implemented; six synthetic tests and all 343 regressions pass. Regression run
+20260925T082528Z_d941a7a46957. Diagnostic 20260925T082841Z_88466161ced3 passes
+all six cases and independent verification (MG7-diagnostic-verification.json).
+Matrix 20260925T083302Z_6c7ade2f0e16 passes all 237 cases and independent audit:
+235 full matches, two prefixes, 10097 new continuation steps / 12131925 proposals.
+Timing 20260925T084205Z_6fab76a67538 is running; inspect its state and Codex
+outputs/mg7-timing.log before any retry. Next independently verify timing with
+work/verify_mg7.py <timing ID> <regression ID>, then finalize_mg7.py <regression>
+<diagnostic> <matrix> <timing>. No source/protocol changes after outcomes.
+Preserve all failures/old source. Finish findings, local commit and verified archive.
+
+
 ## Current: MG6 complete; exact-output efficiency proposal next - 2026-09-25
 
 Read SCALE_STUDY_FINDINGS.md, SCALE_EFFICIENCY_NEXT_PLAN.md and D070.

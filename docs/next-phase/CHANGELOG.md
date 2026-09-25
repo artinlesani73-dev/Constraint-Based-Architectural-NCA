@@ -1190,3 +1190,24 @@ One helper-only documentation patch failed its context check and was corrected
 before helper execution; no experiment or frozen source changed as a result.
 only explicit milestone files are staged. Private reports/unrelated files excluded.
 Local incremental archive and exact Git-bundle restoration verify; same disk only.
+
+
+## 2026-09-25 - MG7 incremental cube accounting
+
+- Added a separate exact-count cache and generator version; preserved MG5 and
+  every historical module, evaluator, checkpoint, scene and private report.
+- Added six focused tests and a frozen diagnostic/matrix/timing runner with
+  absolute monotonic wall, CPU and RSS timelines, stage admission, append-only
+  evidence and linked run identities. Full regression: 343 pass, smoke exit 0.
+- Executed and independently verified 20260925T082841Z_88466161ced3, 20260925T083302Z_6c7ade2f0e16, 20260925T084205Z_6fab76a67538. The equivalence and paired performance gates both pass.
+  Full matrix: 235 exact completed fields/reports, two prefix matches and fully
+  audited continuations; 188 positive and 49 blocked outcomes as specified.
+- Saved every timing trial and recomputed CPU/wall/RSS/sampling gates. No tuning,
+  scientific retries, discarded slow trials or retroactive MG6 result changes.
+- Added findings, structured summary, D071 outcome and conditional Studio plan.
+  Runtime checks preceded documentation-only edits; no needless repeated tests.
+- Minor read-only inspection commands failed due to PowerShell path expression
+  and wildcard arguments to rg; corrected reads, no experiment or file affected.
+- Prepared local commit and incremental archive with raw bytes, exact source/run
+  hashes and restored Git-bundle HEAD. Keep earlier archives; off-device pending.
+  No Drive operation, paid compute, push, public deployment or live switch.

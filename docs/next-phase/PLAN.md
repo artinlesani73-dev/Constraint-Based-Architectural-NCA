@@ -1,5 +1,17 @@
 # Next-phase implementation plan
 
+
+## Active milestone - MG7 complete; conditional Studio integration next
+
+2026-09-25. The equivalence and paired performance gates both pass.
+Read INCREMENTAL_GROWTH_FINDINGS, STUDIO_SCALE_INTEGRATION_NEXT_PLAN and D071.
+343 regressions pass; 188 nonpartition and 49 blocked outcomes are preserved.
+235 full exact matches; two old timeout prefixes extend to fully audited results.
+Next specify a versioned integration with old replay compatibility, bounded worker
+lifecycle and limited evaluated scale presets. MS1/MG3 remains the live version.
+Earlier active/current sections are historical.
+
+
 ## Active milestone - MG6 complete; exact-output efficiency next
 
 2026-09-25. The48-grid gate passed; the64-grid gate failed and larger live work remains unadmitted. Read SCALE_STUDY_FINDINGS and D070.

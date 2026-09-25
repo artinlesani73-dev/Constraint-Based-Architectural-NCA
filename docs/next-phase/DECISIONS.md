@@ -1210,3 +1210,28 @@ Read SCALE_STUDY_FINDINGS for physical domains, case-level timing/resources and
 limits. No finer-resolution, arbitrary-site reliability or trained-model claim.
 Next separately specify local cube-count updates and exact-output/paired-resource
 admission per SCALE_EFFICIENCY_NEXT_PLAN. Keep old MG5/live identities unchanged.
+
+
+## D071 - MG7 incremental cube accounting
+
+2026-09-25. User authorized the growth optimization after MG6. Preserve MG5;
+new version updates cube counts only around distinct newly occupied cells.
+Six-case diagnostic admits237-member comparison; only that pass admits balanced
+paired timing (four trials,three completed-reference cases,retained warmups).
+Freeze protocol/config before real-scene results. Exact full or recorded-prefix
+choices, unchanged MT1/request rules, paired wall/CPU <=75%, RSS <=125% and no
+measured sampling gaps >1s. Six synthetic tests passed; full regression required.
+No threshold/timeout tuning, NCA training, live promotion or external operations.
+
+
+D071 outcome (2026-09-25): The equivalence and paired performance gates both pass.
+Runs 20260925T082841Z_88466161ced3, 20260925T083302Z_6c7ade2f0e16, 20260925T084205Z_6fab76a67538; regression 20260925T082528Z_d941a7a46957 passes 343 tests.
+Matrix: 235 exact completed comparisons, two preserved recorded prefixes followed
+by independently audited complete outputs; 188 nonpartition passes and 49 blocked
+failures. All requests remain within the frozen cube allowance. Direct audit of
+new 64-grid continuations: 10097 steps / 12131925 proposals.
+Paired timing retains four trials per method on three completed cases plus two
+warmups; see INCREMENTAL_GROWTH_FINDINGS for CPU/wall/RSS and sampling gates.
+Accept equivalence only within this saved matrix; retain all MG6 negatives.
+Next follow STUDIO_SCALE_INTEGRATION_NEXT_PLAN, conditional on timing admission.
+No live change, trained-model claim, new constraint or external operation.
