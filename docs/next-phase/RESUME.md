@@ -1,5 +1,36 @@
 # Resume the NCA next phase
 
+## Current: NR2 notebook saved and byte-verified in project Drive - 2026-09-25
+
+The user explicitly approved folder verification, notebook upload and readback.
+That batch is complete; no standing Drive authorization remains. The sole upload
+was the current revision2 NCA-NR2-GPU-Preflight.ipynb, file ID
+1ZNLINdkrm4f2CEI82ApiTfmKjC7wS0AG, directly under folder
+1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H. Metadata confirms the parent; all4015 bytes
+match local SHA256 1774d516b10ad75819d0ed6078c9ebb86ee18b1fbe771273df2682480312002c.
+Drive URL: https://drive.google.com/file/d/1ZNLINdkrm4f2CEI82ApiTfmKjC7wS0AG/view?usp=drivesdk
+The raw download transport failed (sandbox denial, then HTTP403); the connector's
+default fetch returned the bounded notebook payload and exact verification passed.
+No duplicate upload, mutation or deletion. Evidence is in Codex outputs/
+NR2-Drive-Notebook-Verification and experiments/reports/NR2-drive-notebook.json.
+
+NEXT: request one GPU preflight allowance (oneGPU,8 unique/16 executed updates,
+600s controlled-job cap, setup/download/idle allocation excluded). GPU execution
+and any further Drive/Colab notebook reads or autosaved edits need explicit scope
+approval before assistant actions. No browser/Colab session was opened this turn;
+the uploaded notebook remains disarmed. Current data/source ZIP remains LOCAL in
+Codex outputs/NR2-Colab-Preflight-v2 and can be uploaded to runtime only after job
+approval. No Drive mount/sync/automatic retry or longer study is authorized.
+
+Only this notebook now has a verified off-device copy. Full experiment artifacts,
+checkpoints and archives have NOT been backed up to Drive. Do not conflate this
+upload with the outstanding project backup requirement. Preserve all local archive
+chains and evidence; prior NR2 milestone receipt certifies the3b2fdb9 archive.
+New local documentation commit title: Record verified NR2 notebook Drive upload.
+Incremental evidence archive: Codex outputs/NCA-NR2-Drive-Receipt-<commit7>.zip;
+its adjacent receipt certifies integrity. Earlier current entries are historical.
+
+
 ## Current: NR2 local package readiness complete - 2026-09-25
 
 Read COLAB_PREFLIGHT_FINDINGS.md, COLAB_PREFLIGHT_PROTOCOL.md and D075.

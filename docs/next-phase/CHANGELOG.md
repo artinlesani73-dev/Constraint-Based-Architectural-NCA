@@ -1285,3 +1285,15 @@ suite passes. Package-v2 rehearsal 20260925T113206Z_e84a09a6bda5 passes exact CP
 the repository. Added protocol/findings, D075, both configs, verification/summary,
 six run records and resume/plan. Local commit/archive preserves all evidence and
 both package versions. GPU and off-device backup remain unverified/unapproved.
+
+
+## 2026-09-25 - Approved NR2 notebook Drive upload verified
+
+Completed the expressly approved folder-metadata/upload/notebook-readback batch.
+Saved current disarmed revision2 notebook directly in the dedicated project folder;
+file1ZNLINdkrm4f2CEI82ApiTfmKjC7wS0AG matches all4015 local bytes and SHA256.
+Recorded both unsuccessful raw-download transport attempts and successful bounded
+connector readback. No duplicate upload. Added receipt and current resume/plan.
+No code changed; byte comparison and notebook compilation are the relevant checks.
+No GPU/Colab execution, notebook edit, further cloud files or automatic sync.
+Experiment archives/checkpoints remain local; notebook-only backup is complete.

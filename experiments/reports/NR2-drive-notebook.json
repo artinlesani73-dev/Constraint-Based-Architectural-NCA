@@ -1,0 +1,23 @@
+{
+  "verified_utc": "2026-09-25T11:40:10.610896+00:00",
+  "operation": "NR2 approved notebook-only Drive upload and readback",
+  "folder_id": "1fS34Yy0-oMzSxWaYJFiPTkGgrZstgc0H",
+  "file_id": "1ZNLINdkrm4f2CEI82ApiTfmKjC7wS0AG",
+  "file_name": "NCA-NR2-GPU-Preflight.ipynb",
+  "url": "https://drive.google.com/file/d/1ZNLINdkrm4f2CEI82ApiTfmKjC7wS0AG/view?usp=drivesdk",
+  "bytes": 4015,
+  "sha256": "1774d516b10ad75819d0ed6078c9ebb86ee18b1fbe771273df2682480312002c",
+  "exact_byte_match": true,
+  "approval": "User yes to verify dedicated folder, save exact notebook and read back this file to verify copy.",
+  "approval_scope_completed": true,
+  "gpu_execution_approved": false,
+  "gpu_executed": false,
+  "notebook_disarmed": true,
+  "full_experiment_archive_uploaded": false,
+  "local_evidence": "C:\\Users\\artin\\Documents\\Codex\\2026-09-06\\cre\\outputs\\NR2-Drive-Notebook-Verification",
+  "transport_notes": [
+    "Raw fetch returned authenticated file reference; first local download was blocked by sandbox network access.",
+    "Approved escalated materialization returned HTTP403; no file bytes written.",
+    "Default connector text fetch returned existing bounded base64 payload (4015 bytes); used this to verify the copy. No duplicate upload."
+  ]
+}
