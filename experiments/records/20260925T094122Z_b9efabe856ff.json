@@ -1,0 +1,38 @@
+{
+  "artifact_location": ".local-artifacts/runs/20260925T094122Z_b9efabe856ff",
+  "config": {
+    "device": "cpu",
+    "metric_version": "binary_v1",
+    "purpose": "regression verification",
+    "suite": "foundation_v1",
+    "training": false
+  },
+  "drive_backup": "pending",
+  "interpretation": "Synthetic geometry, archive integrity/recovery, real Model C execution, and API regression checks only. No repaired-model training or quality claim.",
+  "metrics": {
+    "errors": 0,
+    "failed_cases": [],
+    "failures": 0,
+    "note": "Duration includes test infrastructure; not an inference benchmark",
+    "skipped": 0,
+    "smoke_exit_code": 0,
+    "tests_run": 357,
+    "wall_seconds": 234.159313799988
+  },
+  "provenance": {
+    "branch": "next-phase/foundations",
+    "commit": "7a803e797454d86c5cc600dbfb8ca98b1f6c866c",
+    "packages": {
+      "fastapi": "0.141.1",
+      "numpy": "2.5.2",
+      "pydantic": "2.13.5",
+      "pytest": "9.1.1",
+      "torch": "2.8.0+cpu"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "working_tree_status": "M docs/next-phase/PLAN.md\n M docs/next-phase/RESUME.md\n?? NCA-M1-Backup-2026-09-23-1dfafa7.zip.sha256\n?? NCA-Studio-Concept.html\n?? docs/next-phase/NCA_REPAIR_BASELINE_PROTOCOL.md\n?? experiments/configs/NL0-repair.json\n?? nca/repair_benchmark.py\n?? scripts/prepare_repair_benchmark.py\n?? tests/test_repair_benchmark.py"
+  },
+  "run_id": "20260925T094122Z_b9efabe856ff",
+  "status": "completed"
+}

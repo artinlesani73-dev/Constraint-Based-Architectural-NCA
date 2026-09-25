@@ -1,5 +1,51 @@
 # Resume the NCA next phase
 
+## Current: NL0 repair benchmark complete - 2026-09-25
+
+Read NCA_REPAIR_BASELINE_FINDINGS.md, NCA_REPAIR_BASELINE_PROTOCOL.md and D073.
+Preparation 20260925T094341Z_316cff241020 passes:54 valid teachers,162 examples,
+9 blocked guards,6 positive site contexts,54 distinct targets. Regression
+20260925T094122Z_b9efabe856ff:357pass,smoke0. All evidence/source hashes verify.
+Closing repairs some cuts but invalidates8/18 intact test volumes; do not deploy
+automatic closing. No learning occurred; current Studio remains procedural MG7.
+
+Next implement NR1 fresh conditioned NCA/trainer and freeze the complete sampler
+and checkpoint config. Run ONLY the proposed two-training-example CPU mechanics
+pilot (8 updates/member,600s cap) with real process restart after update4.
+The target is a separate supervisor, not model conditioning. Test/validation sites
+must remain excluded from learned updates. NR1 training has NOT been implemented
+or executed yet. Colab proposal comes after local recovery and package preparation;
+no paid budget, Drive operation, push or production promotion is authorized.
+
+No preparation/regression process remains active. No server restart performed;
+MS2's last server session81429 may still be active; inspect before starting another.
+Artifacts: experiments/reports/NL0-*.json; .local-artifacts/runs/<IDs>/study.json
+and lossless NPZ files. Helpers Codex work/*nl0*.py retain creation, verification,
+finalization and archive actions. They use exclusive writes; do not rerun blindly.
+To make a deliberately new preparation attempt, use project .venv Python with
+scripts/prepare_repair_benchmark.py --parent-run 20260925T094341Z_316cff241020;
+this creates new evidence and is unnecessary for resuming NR1 implementation.
+
+Milestone title: "Freeze NCA volume repair benchmark and next training protocol".
+Archive: Codex outputs/NCA-NL0-Backup-2026-09-25-<commit7>.zip plus verified receipt;
+repo .local-artifacts/milestones/<commit7>-nl0-backup-receipt.json is authoritative.
+Keep MS2/MG7 and all earlier incremental archives. Off-device backup pending.
+Private ignored reports unchanged; two unrelated user files remain untracked.
+Earlier active/current sections are historical.
+
+
+## In progress: NL0 learning-baseline preparation - 2026-09-25
+
+Read NCA_REPAIR_BASELINE_PROTOCOL.md and experiments/configs/NL0-repair.json.
+Implementing frozen MG7 teacher/damage data and nonlearned repair controls,
+with geometry-level split checks and separate target labels. This is data
+admission, not NCA training. Next execute archived regression and NL0 audit,
+retain all failures, document outcome, commit and verify local archive.
+After NL0 admission, implement NR1 CPU mechanics/recovery pilot before any
+Colab request. No paid compute, Drive, promotion or remote push authorized.
+Historical milestone sections follow; never rerun a completed audit blindly.
+
+
 
 ## Current: MS2 complete - 2026-09-25
 

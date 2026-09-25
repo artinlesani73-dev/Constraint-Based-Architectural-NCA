@@ -1,0 +1,379 @@
+{
+  "version": "NL0_repair_v1",
+  "teacher_run": "20260925T083302Z_6c7ade2f0e16",
+  "teacher_study_sha256": "bcc7ffe32edf56d66ec3cefa91698452a1b6d6d66f16fcbea5118483d1f81dd1",
+  "cases": [
+    {
+      "case": "mg5__mg3__aligned__v16__s0",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v16__s1",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v16__s2",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s0",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s1",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s2",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s0",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s1",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s2",
+      "split": "train",
+      "site": "aligned"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s0",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s1",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s2",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s0",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s1",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s2",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s0",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s1",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s2",
+      "split": "train",
+      "site": "wide_gap"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s0",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s1",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s2",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s0",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s1",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s2",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s0",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s1",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s2",
+      "split": "train",
+      "site": "partial_obstruction"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s0",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s1",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s2",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v24__s0",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v24__s1",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v24__s2",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v32__s0",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v32__s1",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v32__s2",
+      "split": "validation",
+      "site": "offset_interfaces"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v16__s3",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v16__s4",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v16__s5",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v24__s3",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v24__s4",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v24__s5",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v32__s3",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v32__s4",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_tall_east__v32__s5",
+      "split": "test",
+      "site": "combined_tall_east"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v16__s3",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v16__s4",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v16__s5",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v24__s3",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v24__s4",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v24__s5",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v32__s3",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v32__s4",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg4__combined_reverse__v32__s5",
+      "split": "test",
+      "site": "combined_reverse"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v16__s0",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v16__s1",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v16__s2",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v24__s0",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v24__s1",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v24__s2",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v32__s0",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v32__s1",
+      "split": "guard",
+      "site": "blocked_gap"
+    },
+    {
+      "case": "mg5__mg3__blocked_gap__v32__s2",
+      "split": "guard",
+      "site": "blocked_gap"
+    }
+  ],
+  "damage_seed": 9101,
+  "damage_kinds": [
+    "intact",
+    "cube5",
+    "slab2"
+  ],
+  "max_seconds": 600,
+  "learned_updates": 0,
+  "source_sha256": {
+    "nca/access.py": "1eeff17c428e520fef3c740f7dc9e2b17e5d9a527e030dae6ff58c5da9f29692",
+    "nca/access_trace.py": "7aeb2a2891160833fd41837467685888c0188e60ef5a1c504fe1c2a524a00f38",
+    "nca/access_training.py": "d894fe8940410b30986c4d4b5238ff83cec2d1a0b487b72135462c8f8e06b9fe",
+    "nca/budget_mass_generator.py": "7ab7b99a2ff9f73d8a8753f5c055dd1216154ff82bc606d283a2ba10af180f0c",
+    "nca/conditioning.py": "68c9189cce2bb6cd40195406b04c3b431b1b0c52c607bfe67d6b03e6950457a2",
+    "nca/constructive.py": "46a9ca26dadc7b85f22ba41eaad93187fb8be305939508e7359777e90ed79bcb",
+    "nca/contact_mass_generator.py": "262aa1129f1751586ec56c3bad9c3c13c4531e0c09388235b4b4bc91a6727eaa",
+    "nca/contract.py": "feb6fcd903a79d202e99435ae98c33e3af8630ef60946ed275c9a9e4b5bbee42",
+    "nca/corridor.py": "a71b2e73f6882065ef64260b2f7bb31655d6316a502e285048bc842fc5d42845",
+    "nca/coverage_mass_generator.py": "fb7ab2f0e353c8fd7bdc48cc489b4ec597b5b3a790b0ec7c294d6aecefcdb802",
+    "nca/direct.py": "1007166a80c34465a2093974a040efdbf7210fe4c850ac88a3234492dcb2e2b2",
+    "nca/e0.py": "3af1d888ef00097f71e74dc1d5e23fec10e9754a9790ba8cd2b9268af84536c6",
+    "nca/e0_analysis.py": "0de27b8adeb469281c6c4b0d0936452fad970f53ffdcf115247870303c45f6a6",
+    "nca/evaluation.py": "46c3d889e34a47642758c7184e556e78604eb94a8c4a09d57ab593ae3bf0b516",
+    "nca/experiments.py": "9755cddb029bf4281007b8e4bfad385d4a9311a6947845196da5d55618626004",
+    "nca/facade.py": "de36065a72ccc5780a46edff984eea5ab7de6997cacb6c832298c0e085d4f99c",
+    "nca/fitting.py": "0cd0495af3a72d6a5c62ab002177a86fc019020d451e6a51f2d16d5bcdbab20a",
+    "nca/guide_training.py": "109367c572c4e7875547a65185278859e3596cf5da7d6674985492ee4debd743",
+    "nca/horizon_training.py": "da245ec4a155e9b19191912cc42317bf2e1fa670e81b113ba5186535437d02cf",
+    "nca/incremental_mass_generator.py": "062bfb61c65be62de2a9dda604a8337551a7fc98e6e0be243a473f4ec70d2dee",
+    "nca/interventions.py": "e2bfcfd388245e474e2cd4a5347db8c679042597154f09ad355c824b08593bda",
+    "nca/legacy_scenes.py": "4e871045ed3a968a5c7799bb05988a07083844e98b8594c86020301c2da3a93a",
+    "nca/legal_corridor.py": "c5556c961072a320b40234e75374ab6ac112ded934e5f91f0147c8c7e94567de",
+    "nca/losses.py": "3065fbaaeb432d55128c3b79a7c0cf8ef2aab002097bfabd7888ec5b0192fd81",
+    "nca/massing.py": "a4da940e793e949cc42cc941a7cbc2c3007b831f212c853e03cf64aa21d0961c",
+    "nca/massing_cases.py": "1a75a0f93a633319b48d66efd1c200578ed1409d44c52430f69bd9c306041f5a",
+    "nca/massing_direct.py": "7959344dff78b93dbd4e9e47c4424b8f2f4ce38e26162a0af3b4e8d107c0c4c8",
+    "nca/massing_objective.py": "3de54226e75c5f94ddbe10d0386d5c4d81bf32fbe09d8c73594915f4ebc65fe0",
+    "nca/massing_targets.py": "4c1fce7be183effb4aff2e07669248fe6104c711bbfe0338e84abf85653afe69",
+    "nca/mass_generation_cases.py": "c062eb8bac8e18f561bcd7c8cbb2f9f575747f93d1b5e33d404e4271a20abe72",
+    "nca/mass_generator.py": "01328cedff0c471fef97e62c8e83e506501b53a6b2dfe91f21e093e927901659",
+    "nca/objective.py": "912a50e63eb4f345408aa151513fbd00f138b560cad7e798d4221ef6cdf641f2",
+    "nca/raw_access.py": "113a5b4cc1ab68aa06a9a1629af72b015787f30e7911ca4b8bf2683b444d69a8",
+    "nca/raw_access_training.py": "255fff7251a2a4f10a43346743b1ac3045ffd04bb9709e185d5683066919c937",
+    "nca/recovery.py": "eb71473d421ae24e7427be90ea258739472d2a5403689fa597ea30f946d57438",
+    "nca/regularizers.py": "497ac27d620ad722208a3ba14eafcd0dc184642533117d9c5d9d60d3a7b388f6",
+    "nca/repair_benchmark.py": "f82eb5c79f93b6c95ca05b35658e20ffbe41b0d332960cd354912e78b350f454",
+    "nca/rollout.py": "a6454e9655a759bd4286aa6e40b4c592cd8daa1402d9caaee7dd952838b6a0bb",
+    "nca/scale_study.py": "736cd76b2c10dc1fab81a94a3eaa13a1678189e9bf0571883a97dcefa1a3747f",
+    "nca/sensitivity.py": "0479e6f6706b8dbb2905900a434a78e154b3506d24d1944ef553bce5c12ecaf6",
+    "nca/spatial.py": "a31c420701cd3ee9cf977f518dca3fee04ecaa37d7977cf66aa3a18c0e42e691",
+    "nca/target_audit.py": "b53e6ba3ab9831f27142dda9329c9cb39797f6a9cce9d50d5bce472ee6276c50",
+    "nca/volumetric.py": "828e167d421a6ba803a4eecb01cd7e559f527198559c6cb48dbbf3b185b4ee9c",
+    "nca/__init__.py": "33ae447f1c11a809abd74a254ea8578a3a0aa175838bc7baea77817b06666653",
+    "scripts/prepare_repair_benchmark.py": "e8e539e2810ed223e3be71571f82e5a799cd8613b185590d981bd66b717e3dad",
+    "tests/test_repair_benchmark.py": "9c28885f1912df3d4ce1ef30ec38497f67e5aea4d2326f1cbbab629c7f4daa5c",
+    "docs/next-phase/NCA_REPAIR_BASELINE_PROTOCOL.md": "8378659864c4f13b51bfe7758e2700dfee6e3310bd743226031bf4c6cc2ed3ba"
+  }
+}

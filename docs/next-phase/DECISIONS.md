@@ -1253,3 +1253,24 @@ failed attempts 20260925T090307Z_9e687a560fca and 20260925T091257Z_bce5f23dd4ef.
 float-sensitive record checksums; never relax validation to accept normalized
 exports. New route/store are versioned; MS1 and all historical evidence remain.
 Next review volumes, then freeze a separate learned baseline and Colab allowance.
+
+
+## D073 - Freeze a volume-repair NCA baseline before further learning (2026-09-25)
+
+User authorized moving forward after MS2. Keep overall building-volume semantics,
+nine MT1 families, MG7 comparator and procedural Studio. Accept NL0 data admission:
+20260925T094341Z_316cff241020,54 teachers/162 examples/9 blocked controls,
+no cross-split duplicate geometry or targets.357 regressions pass (20260925T094122Z_b9efabe856ff).
+All controls and negative outcomes retained. Closing invalidates8/18 intact test
+volumes; neither high IoU nor reduced soft loss is sufficient for promotion.
+
+Next test learned repair as a narrow capability, without feeding teacher geometry
+or hidden route/seed information. The protocol freezes a proposed fresh logit/hidden
+state NCA, persistent context and balanced reconstruction signal; MT1 remains the
+separate binary evaluator. This is not a causal one-variable comparison with F5.
+The next authorized local step is implementation/readiness and bounded CPU mechanics
+with full checkpoint/RNG/optimizer/cursor recovery. No NR1 quality run occurred.
+The Colab60-minute/3-seed/256-update allowance is proposed only; actual execution
+requires a concrete ready package and explicit allowance approval. Drive per-action
+scope remains unchanged. Recovery cannot be inferred from existing CPU experiments.
+No broader site admission, paid training, generator replacement, push or deployment.

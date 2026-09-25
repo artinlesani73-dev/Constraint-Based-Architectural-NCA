@@ -1,0 +1,197 @@
+{
+  "aggregate": [
+    {
+      "all_nine_pass": 6,
+      "count": 18,
+      "damage": "cube5",
+      "median_iou": 0.9575341054033515,
+      "method": "closing3",
+      "split": "test",
+      "total_false_additions": 80,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 7,
+      "count": 18,
+      "damage": "cube5",
+      "median_iou": 0.9606293014223958,
+      "method": "unchanged",
+      "split": "test",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 10,
+      "count": 18,
+      "damage": "intact",
+      "median_iou": 0.999667994687915,
+      "method": "closing3",
+      "split": "test",
+      "total_false_additions": 81,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 18,
+      "count": 18,
+      "damage": "intact",
+      "median_iou": 1.0,
+      "method": "unchanged",
+      "split": "test",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 8,
+      "count": 18,
+      "damage": "slab2",
+      "median_iou": 0.9276993940215472,
+      "method": "closing3",
+      "split": "test",
+      "total_false_additions": 67,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 0,
+      "count": 18,
+      "damage": "slab2",
+      "median_iou": 0.7749941029390952,
+      "method": "unchanged",
+      "split": "test",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 19,
+      "count": 27,
+      "damage": "cube5",
+      "median_iou": 0.9267399267399268,
+      "method": "closing3",
+      "split": "train",
+      "total_false_additions": 65,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 19,
+      "count": 27,
+      "damage": "cube5",
+      "median_iou": 0.9269340974212035,
+      "method": "unchanged",
+      "split": "train",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 27,
+      "count": 27,
+      "damage": "intact",
+      "median_iou": 0.997563946406821,
+      "method": "closing3",
+      "split": "train",
+      "total_false_additions": 76,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 27,
+      "count": 27,
+      "damage": "intact",
+      "median_iou": 1.0,
+      "method": "unchanged",
+      "split": "train",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 27,
+      "count": 27,
+      "damage": "slab2",
+      "median_iou": 0.9920283436669619,
+      "method": "closing3",
+      "split": "train",
+      "total_false_additions": 39,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 0,
+      "count": 27,
+      "damage": "slab2",
+      "median_iou": 0.8951382268827455,
+      "method": "unchanged",
+      "split": "train",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 6,
+      "count": 9,
+      "damage": "cube5",
+      "median_iou": 0.9280245022970903,
+      "method": "closing3",
+      "split": "validation",
+      "total_false_additions": 9,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 6,
+      "count": 9,
+      "damage": "cube5",
+      "median_iou": 0.9280245022970903,
+      "method": "unchanged",
+      "split": "validation",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 9,
+      "count": 9,
+      "damage": "intact",
+      "median_iou": 1.0,
+      "method": "closing3",
+      "split": "validation",
+      "total_false_additions": 13,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 9,
+      "count": 9,
+      "damage": "intact",
+      "median_iou": 1.0,
+      "method": "unchanged",
+      "split": "validation",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 9,
+      "count": 9,
+      "damage": "slab2",
+      "median_iou": 0.994279176201373,
+      "method": "closing3",
+      "split": "validation",
+      "total_false_additions": 4,
+      "total_removed_survivors": 0
+    },
+    {
+      "all_nine_pass": 0,
+      "count": 9,
+      "damage": "slab2",
+      "median_iou": 0.8714395688991532,
+      "method": "unchanged",
+      "split": "validation",
+      "total_false_additions": 0,
+      "total_removed_survivors": 0
+    }
+  ],
+  "metrics": {
+    "admission_gate": true,
+    "blocked_guards": 9,
+    "examples": 162,
+    "learned_updates": 0,
+    "split_integrity": {
+      "distinct_contexts": 6,
+      "distinct_targets": 54
+    },
+    "teachers": 54,
+    "wall_seconds": 95.20243030000711
+  },
+  "run_id": "20260925T094341Z_316cff241020"
+}

@@ -1242,3 +1242,20 @@ Final Git whitespace inspection reports trailing blank lines inherited in the
 new live.js copy. They are retained to keep deployed source bytes identical to
 the verified job/source manifests; this is a formatting warning, not a runtime
 failure. No numerical or runtime source was edited after final verification.
+
+
+## 2026-09-25 - NL0 volume-repair baseline preparation
+
+Added versioned data/damage/closing helpers, guarded split loader, six regression
+tests, frozen63-case recipe and benchmark builder. Saved54 teacher volumes,162
+examples,324 nonlearned comparisons and9 blocked guards; full357-test suite passes.
+Run 20260925T094341Z_316cff241020; regression 20260925T094122Z_b9efabe856ff.
+Added protocol, findings, D073, reports and resume instructions. Source/array hashes
+and raw evidence verified. No model training, Studio change, Drive, push or paid
+compute. Incremental archive completion is recorded in the external receipt.
+
+Final documentation review caught Windows default-text decoding corrupting five
+historical Unicode lines in PLAN/RESUME. Restored their entire historical sections
+from Git HEAD with explicit UTF-8, retaining new NL0 entries. The two affected
+intermediate documents remain in .local-artifacts/analysis-attempts/nl0-encoding-fix.
+Scientific source, config, arrays and results were unaffected; no test rerun needed.
