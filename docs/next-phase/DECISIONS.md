@@ -1363,3 +1363,22 @@ No automatic follow-up experiments, retries or Studio promotion. The request
 authorizes the single bounded compute job previously presented, not further
 assistant Drive access. No notebook/package mutation is needed. Log and archive
 the outcome, then make the next implementation decision with these limitations.
+
+
+## D079 - Close the bounded NR3 trial; retain experimental status (2026-09-26)
+
+ close this bounded trial; no more automatic tests/training.
+Retain MG7 Studio default; learned model remains exploratory. Next implementation
+is an evidence-backed comparison view of damaged input, simple closing, learned
+output and target, with false additions/removals and nine-family results visible.
+Use saved outputs; do not generate more evaluations. For later learning work,
+prioritize preserving intact mass and controlling excess growth within existing
+nine families; do not claim a larger grid or a new architecture solves this result.
+The mechanism behind excess growth is not established by this one review.
+
+Evidence: Codex outputs/NR3-Single-Trial-Review. Project artifact-copy attempt
+was denied by filesystem permissions before copying; use the verified Codex archive. Summary tracked at
+experiments/reports/NR3-single-trial-review.json; findings in
+docs/next-phase/NR3_SINGLE_TRIAL_FINDINGS.md. No Drive operation, deployment,
+push or new GPU job. Same-disk verified copies are not off-device backup.
+User may disconnect Colab. Next task: implement the comparison view locally.
