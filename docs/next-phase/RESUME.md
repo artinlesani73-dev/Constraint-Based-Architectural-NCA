@@ -1,5 +1,39 @@
 # Resume the NCA next phase
 
+## Current: user reduces NR3 to ONE exploratory trial - 2026-09-26
+
+User explicitly requested: "ok too many tests. lets wrap it up in only one quick
+test and move forward". D078 and NR3-single-trial.json supersede D077 execution
+scope. Run ONLY seed1201 once with existing unchanged NR3 notebook/package:
+256 updates,600s maximum job execution, setup/download/idle allocation extra.
+The request authorizes the previously proposed single bounded job; do not ask
+again for the same compute scope. No assistant Drive/Colab access is inferred.
+User can set MODEL_SEED=1201 and APPROVED_SEED_JOB=True and execute once.
+
+Cancel seeds1202/1203, intermediate-checkpoint evaluation, multiple firing/horizon
+sweeps and the formal TEST stage. Do not invoke the existing three-model evaluator
+or weaken its checks to pass this one-model result. Preserve that protocol as history.
+After downloading and verifying seed1201 ZIP/receipt, inspect final checkpoint256
+only on all27 VALIDATION rows,32 steps,firing2101,CPUfloat32. Reuse existing predict,
+MT1 and repair-metric functions in a separately labeled bounded assessment. Save
+raw fields and compare with both frozen unchanged/closing3 baselines. No TEST data.
+This is one trial with a results review, not a new training run or parameter sweep.
+
+Report actual geometric improvement, intact damage, all-nine validity and volume
+errors candidly. One seed cannot establish replicated reliability or pass D077's
+three-model gate. Move to the next implementation decision after this review;
+do not automatically extend training/retry/add experiments to obtain a pass.
+If repair is poor, retain MG7 and label learned output exploratory instead of
+silently promoting it. Preserve success/failure evidence and original plans.
+
+Existing notebook: file1BjiTlIePcBrFUq1FZ4ZZMPuAZEAER1pY in the dedicated Drive folder.
+Local ZIP: Codex outputs/NR3-Quality-Study/NCA-NR3-Quality-Package.zip.
+No notebook/source/package bytes were changed, no cloud action or training started
+by this scope update. New Drive operations still need exact per-action approval.
+Decision copy: Codex outputs/NR3-Single-Trial-Decision/decision.json.
+Earlier current entries and three-seed guide text are historical where conflicting.
+
+
 ## Current: NR3 notebook uploaded and byte-verified - 2026-09-25
 
 The exact approved folder-verification/notebook-save/readback batch is complete.

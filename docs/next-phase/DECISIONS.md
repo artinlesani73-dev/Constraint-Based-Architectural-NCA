@@ -1348,3 +1348,18 @@ Focused8/full379 tests pass; CPU rehearsal 20260925T140804Z_7d74952e7f95 exactly
 learning-state checkpoints and8 raw states. No256-update/heldout quality experiment
 occurred. First next action is new-notebook save/readback approval, then seed1201
 compute/backup approval. Source, results, private reports and old packages retained.
+
+
+## D078 - User replaces NR3 study with one quick exploratory trial (2026-09-26)
+
+User explicitly reduces the workload to one quick test and then moving forward.
+Use the already prepared seed1201 job only:256 updates,600s job ceiling. Cancel
+the other two models and formal TEST/multi-horizon/multi-firing evaluation plan.
+One final-model review uses all27 validation examples at32 steps,firing2101,
+CPUfloat32, unchanged/closing3 comparators and all nine metric families. Save raw
+results and label them exploratory. Keep all old protocols/code/thresholds intact;
+this one-model review must not be described as passing the three-model study.
+No automatic follow-up experiments, retries or Studio promotion. The request
+authorizes the single bounded compute job previously presented, not further
+assistant Drive access. No notebook/package mutation is needed. Log and archive
+the outcome, then make the next implementation decision with these limitations.

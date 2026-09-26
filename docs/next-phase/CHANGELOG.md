@@ -1330,3 +1330,12 @@ bytes. SHA256 exactly matches the local disarmed notebook. Recorded file/parent
 IDs, URL, permission scope and checksum receipt; updated resume/plan. No training,
 Colab session operation, existing-file change or full experiment backup occurred.
 Byte comparison and notebook compilation passed; no code changes or test rerun.
+
+
+## 2026-09-26 - NR3 reduced to one trial at user's request
+
+Added D078 and NR3-single-trial.json; updated current resume/plan. Reuse seed1201
+job only and review27 validation outputs once; cancel extra models and formal
+test/sensitivity stages. Preserve original plans and formal evaluator unchanged.
+No new tests, training, code/package changes or cloud operations for this planning
+change. Results must be labeled exploratory rather than replicated quality evidence.

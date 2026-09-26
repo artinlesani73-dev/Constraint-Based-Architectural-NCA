@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-26",
+  "version": "NR3_single_trial_v1",
+  "user_instruction": "ok too many tests. lets wrap it up in only one quick test and move forward",
+  "supersedes": "D077 three-model execution/evaluation scope, not historical evidence or model math",
+  "training": {
+    "seed": 1201,
+    "updates": 256,
+    "job_seconds_max": 600,
+    "jobs": 1,
+    "other_seeds_cancelled": [
+      1202,
+      1203
+    ],
+    "automatic_retry": false
+  },
+  "review": {
+    "checkpoint": 256,
+    "split": "validation",
+    "rows": 27,
+    "steps": 32,
+    "firing_seed": 2101,
+    "device": "cpu",
+    "comparators": [
+      "unchanged",
+      "closing3"
+    ],
+    "all_nine_families": true,
+    "save_raw_outputs": true,
+    "test_split_used": false,
+    "formal_three_seed_gate": false
+  },
+  "interpretation": "Exploratory one-model decision aid; no replicated reliability, full TEST admission or automatic Studio promotion.",
+  "cloud_access": "No additional assistant Drive access granted. Existing notebook/package used unchanged; user operates Colab.",
+  "next_action": "Run seed1201 once; download ZIP/receipt; verify and archive; perform bounded validation review and move forward without automatic extra experiments."
+}
