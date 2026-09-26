@@ -1380,3 +1380,32 @@ experiments/reports/NR3-single-trial-review.json; findings in
 docs/next-phase/NR3_SINGLE_TRIAL_FINDINGS.md. No Drive operation, deployment,
 push or new GPU job. Same-disk verified copies are not off-device backup.
 User may disconnect Colab. Next task: implement the comparison view locally.
+
+
+## Current: saved NR3 comparison available in Studio - 2026-09-26
+
+Added /static/repair/index.html, linked from live-v2. All27 D078 validation
+examples show input, closing3, final trained NCA and procedural teacher at a shared
+scale. Orange highlights excess relative to target; optional blue overlay shows
+missing target volume. Axonometric, XZ/XY slices, cutaway, context, metrics and
+all-nine results are available. Learned output stays explicitly experimental;
+MG7 remains the live generator. No further inference/training/TEST evaluation.
+
+Exporter scripts/export_repair_review.py checks each observation array hash,
+complete validation membership, binary threshold parity and reconstructed geometry
+against archived repair metrics. Closing3 is reconstructed by the unchanged
+baseline function; existing recorded nine-family reports are reused. It exports
+portable display data at deploy/static/repair/study.json. Source evidence remains
+Codex outputs/NR3-Single-Trial-Review; model/checkpoint and observation hashes are
+included. The target is a procedural teacher, not architectural ground truth.
+
+Validation:27 complete exports match recorded scores. Browser loads without
+console errors; case selection, missing overlay and vertical slice controls
+checked. Visual review confirms common scale and rendered volumes. These are UI
+checks, not additional research experiments. No new regression suite was needed
+for this isolated static view. No cloud operations, push or publish.
+
+Next: user can inspect learned excess growth alongside the saved target. Before
+another learning experiment, propose one focused preservation change and a
+bounded compute allowance; do not launch more runs automatically. Keep all
+previous evidence and D079 experimental status.
