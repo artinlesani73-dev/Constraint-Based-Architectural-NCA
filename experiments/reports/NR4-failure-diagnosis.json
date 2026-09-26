@@ -1,0 +1,193 @@
+{
+  "failed_examples": 8,
+  "raw_disconnected_cells_across_examples": 13,
+  "all_disconnected_are_false_additions": true,
+  "all_interfaces_and_bulk_connected": true,
+  "diagnoses": [
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s1",
+      "damage": "intact",
+      "unmet": [
+        "access",
+        "support"
+      ],
+      "raw_unreached": 2,
+      "unreached_excess": 2,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9540918163672655,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s1",
+      "damage": "cube5",
+      "unmet": [
+        "access",
+        "support",
+        "thickness"
+      ],
+      "raw_unreached": 2,
+      "unreached_excess": 2,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.8916666666666667,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s1",
+      "damage": "slab2",
+      "unmet": [
+        "access",
+        "support"
+      ],
+      "raw_unreached": 2,
+      "unreached_excess": 2,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.951048951048951,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v16__s2",
+      "damage": "cube5",
+      "unmet": [
+        "access",
+        "support"
+      ],
+      "raw_unreached": 1,
+      "unreached_excess": 1,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9081746920492721,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v24__s0",
+      "damage": "intact",
+      "unmet": [
+        "access",
+        "support"
+      ],
+      "raw_unreached": 1,
+      "unreached_excess": 1,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9626168224299065,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v24__s0",
+      "damage": "cube5",
+      "unmet": [
+        "access",
+        "support"
+      ],
+      "raw_unreached": 1,
+      "unreached_excess": 1,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9634769905040176,
+      "unsupported_voxels": 1
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v32__s0",
+      "damage": "intact",
+      "unmet": [
+        "access"
+      ],
+      "raw_unreached": 2,
+      "unreached_excess": 2,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9806308799114555,
+      "unsupported_voxels": 0
+    },
+    {
+      "case": "mg5__mg3__offset_interfaces__v32__s0",
+      "damage": "slab2",
+      "unmet": [
+        "access"
+      ],
+      "raw_unreached": 2,
+      "unreached_excess": 2,
+      "unreached_target": 0,
+      "bulk_unreached": 0,
+      "raw_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_hits": {
+        "E_west": true,
+        "E_east": true
+      },
+      "bulk_fraction": 0.9849246231155779,
+      "unsupported_voxels": 0
+    }
+  ],
+  "new_inference": false,
+  "new_training": false,
+  "next_training_package": null,
+  "browser_errors": 0,
+  "browser_checks": [
+    "27-case loading",
+    "8-failure filter",
+    "paired NR3/NR4 canvas rendering",
+    "disconnected highlight"
+  ]
+}
