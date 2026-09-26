@@ -1,0 +1,27 @@
+{
+  "version": "NR4_review_plan_v1",
+  "package_manifest_sha256": "fca07109ab66c32658bc30a356721cb724bc3c31fa1086711df7482e723a4a19",
+  "review": {
+    "rows": 27,
+    "split": "validation",
+    "checkpoint": 256,
+    "steps": 32,
+    "firing_seed": 2101,
+    "device": "cpu",
+    "comparators": [
+      "NR3",
+      "unchanged",
+      "closing3"
+    ],
+    "no_test": true
+  },
+  "development_success_conditions": {
+    "intact_all_iou_at_least": 0.99,
+    "intact_all_nine_pass": 9,
+    "damaged_median_iou_at_least": 0.9124254506961877,
+    "damaged_all_nine_pass_at_least": 17,
+    "damaged_total_false_positive_cells_less_than": 2077,
+    "damaged_median_absolute_request_error_cells_at_most": 117
+  },
+  "interpretation": "All conditions required to call this a preservation improvement over NR3; not deployment admission or proof of superiority to closing3. Report every metric regardless of outcome. No auto retry/retune."
+}

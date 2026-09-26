@@ -1,5 +1,52 @@
 # Resume the NCA next phase
 
+## Current: NR4 preservation revision prepared; GPU run NOT authorized - 2026-09-26
+
+User approved preparation after the proposed focused loss revision. D080 adds a
+separate PreservationSession, loss, driver, package verifier/builder and notebook.
+NR1/NR2/NR3 source/math and Studio remain unchanged. No GPU or Drive operations.
+
+Old loss B=0.5 positive BCE+0.5 negative BCE. New loss is
+B+0.5 negative BCE+1.0 B when occupancy equals target. Damaged-example class
+weights are0.5 positive/1.0 negative; intact weights1.0 positive/1.5 negative.
+Intact detection is training-only; no target or new flag enters inference.
+This also changes total gradient scale and intact-example weighting; it is not
+just normalized class balancing. Gradient clipping/Adam can interact with it.
+Coefficients are a fixed hypothesis, not tuned or claimed optimal. Stronger
+preservation may reduce repair. No tenth constraint family is introduced.
+
+Keep fresh seed1201,32grid,16 training steps,256updates,Adam.001,all81 TRAIN rows,
+context,architecture,sampler and output projection. Do not fine-tune NR3 weights.
+One proposed T4 job at600s max; setup/export/idle time extra. Strict NR2 software
+admission remains. Notebook APPROVED_SEED_JOB=False. Whole-VM loss risk remains;
+no cross-VM exact recovery or automatic retry. Separate Drive permission required.
+
+Local readiness:2 focused tests pass; extracted package CPU8-update rehearsal
+20260926T075836Z_224ef5b6e97a completes in21.406s with zero active child
+processes after cleanup. Full exported evidence hashes verified. This rehearses
+wiring, not quality or a new GPU-recovery proof. No heldout inference. No broad
+suite repeated because historical implementation is untouched.
+
+Package: Codex outputs/NR4-Preservation/NCA-NR4-Preservation-Package.zip
+SHA256 b53abdd586f7346c00712493ff2538a1e7ae75af3aea427526315a0d7b5342f3
+Notebook: same folder/NCA-NR4-Preservation.ipynb (disarmed, code compiled).
+ManifestSHA fca07109ab66c32658bc30a356721cb724bc3c31fa1086711df7482e723a4a19
+Read START-HERE.md and PRESERVATION_PROTOCOL.md. Raw CPU trace and checkpoints,
+source hashes, frozen config and readiness report are retained. Same-disk archive
+is not a Drive backup. Private reports remain ignored; no push/publish.
+
+NEXT: ask approval for ONE seed1201/256-update T4 job capped600s, including the
+stated runtime-only loss risk. User operates local notebook in Colab; no assistant
+Drive access implied. After returned ZIP+receipt verification, score only final256
+on27 validation rows,32steps,firing2101 CPU. Reuse all prior baselines, no TEST.
+Development criteria are frozen in experiments/configs/NR4-preservation.json:
+all9 intact rows IoU>=.99 and valid; damaged medianIoU>=NR3,passes>=17/18,
+false additions<2077 and median absolute request error<=117cells. All required;
+not formal deployment admission. Compare closing3 candidly regardless of outcome.
+This split has informed the loss and is now development evidence. No auto retry,
+threshold tuning or additional seeds. Document outcome, then decide the next step.
+
+
 ## Current: saved NR3 comparison available in Studio - 2026-09-26
 
 Added /static/repair/index.html, linked from live-v2. All27 D078 validation
