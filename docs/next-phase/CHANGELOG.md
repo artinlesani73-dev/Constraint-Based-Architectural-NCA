@@ -1701,3 +1701,23 @@ See ENVIRONMENT_DIVERSITY_FINDINGS.md for evidence, checks and limitations.
 Root serves the new local home; original scaffold moved to /scaffold without
 changing its file. Explicit procedural/research/archive routes and source-matched
 research downloads. See STUDIO_HOME.md for checks and limitations.
+
+
+## 2026-09-28 - NR5 saved-output diagnosis
+
+## NR5 saved-output diagnosis complete - 2026-09-28
+
+All27 archived outputs verified and metrics reproduced; raw NR5 stays17/27.
+Ten access failures contain27 detached cells:24false additions +3correct newly
+reconstructed target cells (none survived from input). Both interfaces and bulk
+connect in every output. Support fails4; thickness fails2. Diagnostic pruning
+passes26/27 but deletes3correct cells and can improve thickness by denominator
+shrinkage. Do not admit it or label it learned repair. Oracle excess removal24/27;
+oracle missing restoration18/27. Full detail: NR5_FAILURE_DIAGNOSIS.md.
+Outputs: C:/Users/artin/Documents/Codex/outputs/NR5-Failure-Diagnosis-2026-09-28.
+Source review: C:/Users/artin/Documents/Codex/2026-09-06/cre/outputs/NR5-Single-Trial-Review.
+Next: specify one connectivity-aware growth/volumetric training redesign before
+implementation; proposal remains unvalidated. No inference or training this turn.
+MG7 stays live. No paid compute, Drive, push or publication. Preserve original
+NR5 scores. See per-case experiments/reports/NR5-failure-diagnosis.json and script
+scripts/diagnose_nr5.py for exact reproducible analysis.
