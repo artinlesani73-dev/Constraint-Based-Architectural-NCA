@@ -1700,3 +1700,24 @@ implementation; proposal remains unvalidated. No inference or training this turn
 MG7 stays live. No paid compute, Drive, push or publication. Preserve original
 NR5 scores. See per-case experiments/reports/NR5-failure-diagnosis.json and script
 scripts/diagnose_nr5.py for exact reproducible analysis.
+
+
+## D089 - Specify connected constructive repair
+
+## Connected repair design ready, implementation pending - 2026-09-28
+
+D089: CONNECTED_REPAIR_SPEC.md specifies a separate constructive NCA: synchronous
+six-face growth frontier, monotonic accepted occupancy, seven hidden channels,
+per-step frontier classification and3-cube local-volume supervision. Decisions
+are detached, no claimed gradient through hard births. Preserves input and
+prevents new components when input connected; does not ensure disconnected
+inputs merge or that all nine checks pass. Wrong births are irreversible.
+TRAIN-only81-row hash-verified audit found all inputs subsets of targets and all
+missing cells reachable in<=4ideal simultaneous expansions. Not a learned result.
+Report: experiments/reports/frontier-feasibility.json; script:
+scripts/audit_frontier_feasibility.py. No validation/TEST or training in this audit.
+Proposal config CGR1-proposal.json is explicitly disarmed/design-only.
+Next implement separate module and one consolidated CPU correctness/recovery
+check, then package ONE256-update32-step600s-cap proposed GPU job. Ask for exact
+compute approval after preparation; no automatic run/retry. Preserve NR5 and MG7.
+Current deliverable is specification and feasibility evidence, not GPU-ready code.
