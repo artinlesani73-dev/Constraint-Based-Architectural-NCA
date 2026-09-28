@@ -21,3 +21,7 @@ See STUDIO_EXPLORER.md for verification and limitations.
 2026-09-28 ED1: four additional48-cubed development sites, eight retained
 candidates, all pass pilot checks. Step7 bounded environment expansion complete;
 step8 next: unified Studio entry/navigation. See ENVIRONMENT_DIVERSITY_FINDINGS.md.
+
+2026-09-28: Step8 local entry/navigation batch complete. Root is the unified
+Studio home; original at /scaffold. Hosting/publication and reliable learned
+generation remain separate, unresolved objectives. See STUDIO_HOME.md.

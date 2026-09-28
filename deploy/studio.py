@@ -219,6 +219,11 @@ async def bounded_local_requests(request, call_next):
 
 @app.get('/')
 def index():
+    return FileResponse(ROOT / 'deploy/static/home/index.html')
+
+
+@app.get('/scaffold')
+def scaffold():
     return FileResponse(ROOT / 'deploy/studio.html')
 
 

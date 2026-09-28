@@ -1673,3 +1673,10 @@ Added four48-cubed sites after one eight-candidate CPU batch;8/8 pilot passes.
 Original11 contexts preserved.15 sites/65 choices now available. No new
 constraints or learned-model claims. Raw results and failures policy retained.
 See ENVIRONMENT_DIVERSITY_FINDINGS.md for evidence, checks and limitations.
+
+
+## D087 - Unified entry with preserved historical workspace
+
+Root serves the new local home; original scaffold moved to /scaffold without
+changing its file. Explicit procedural/research/archive routes and source-matched
+research downloads. See STUDIO_HOME.md for checks and limitations.
