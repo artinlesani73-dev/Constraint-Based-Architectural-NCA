@@ -1728,3 +1728,10 @@ Current deliverable is specification and feasibility evidence, not GPU-ready cod
 Separate constructive model implemented and3local tests passed. Eight-update
 CPU package rehearsal complete,41evidence hashes verified. GPU run unapproved
 and unstarted. See CGR1_READINESS.md for exact package, limits and resume steps.
+
+
+## D091 - Keep determinism; replace incompatible average-pool backward
+
+Verified failed zero-update GPU attempt; preserved all8payloads. Fixed convolution
+implements the same local mean under strict determinism, versioned asv2.
+Four CPU tests passed. No GPU retry authorized/launched. See CGR1_GPU_COMPATIBILITY.md.

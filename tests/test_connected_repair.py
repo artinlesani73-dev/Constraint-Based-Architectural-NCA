@@ -1,7 +1,7 @@
 import unittest,tempfile
 from pathlib import Path
 import torch,numpy as np
-from nca.connected_repair import ConnectedRepair,ConnectedSession,neighbors6,step_loss
+from nca.connected_repair import ConnectedRepair,ConnectedSession,neighbors6,step_loss,cube_mean
 from nca.repair_horizon import HorizonSession
 from nca.recovery import tree_equal
 from nca.experiments import digest
@@ -27,7 +27,15 @@ class ConnectedTests(unittest.TestCase):
   model=ConnectedRepair();o=torch.zeros_like(x);o[0,0,2,2,2]=1;f=torch.zeros(1,28,5,5,5);a=torch.ones_like(m)
   r=model.rollout(o,f,a,torch.Generator().manual_seed(4),3,target=t);r['loss'].backward();self.assertGreater(sum(float(p.grad.abs().sum()) for p in model.parameters()),0)
   q=model.rollout(o,f,a,torch.Generator().manual_seed(4),3);self.assertTrue(torch.equal(r['field'],q['field']))
-  z,_,_=step_loss(x,m,m,t,False);self.assertEqual(float(z),0)
+  z,_,_=step_loss(x,m,m,t,False);self.assertEqual(float(z.detach()),0)
+ def test_fixed_cube_mean_value_and_gradient_parity(self):
+  g=torch.Generator().manual_seed(91)
+  x=torch.rand(1,1,6,7,8,generator=g,requires_grad=True);y=x.detach().clone().requires_grad_(True)
+  expected=torch.nn.functional.avg_pool3d(x,3,1);actual=cube_mean(y)
+  torch.testing.assert_close(actual,expected,rtol=1e-6,atol=1e-7)
+  weights=torch.rand(actual.shape,generator=g)
+  (expected*weights).sum().backward();(actual*weights).sum().backward()
+  torch.testing.assert_close(y.grad,x.grad,rtol=1e-6,atol=1e-7)
  def test_exact_recovery_and_semantic_rejection(self):
   with tempfile.TemporaryDirectory() as folder:
    root=Path(folder);t=np.zeros((6,)*3,np.float32);t[1:5,1:5,1:5]=1;d=t.copy();d[2:4,2:4,2:4]=0;c=np.zeros((7,6,6,6),np.float32);c[:2]=1;c[6]=.24

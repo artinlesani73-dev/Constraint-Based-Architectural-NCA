@@ -4,7 +4,7 @@ import torch
 from torch.nn import functional as F
 from nca.repair_training import RepairNCA,perceive
 from nca.repair_portable import PortableSession
-VERSION='connected_constructive_repair_v1'
+VERSION='connected_constructive_repair_v2'
 LOSS={'frontier_positive':.5,'frontier_negative':1.,'intact_negative':1.5,'volume':.25,'cube':3}
 SETTINGS={'version':VERSION,'seeds':[1201],'updates':256,'train_steps':32,'seconds_per_job':600,'jobs':1,
  'dataset_run':'20260925T094341Z_316cff241020','loss':LOSS,'threshold':.5,'review_steps':32,
@@ -17,6 +17,11 @@ def neighbors6(m):
  p=F.pad(m.float(),(1,1,1,1,1,1))
  return (p[:,:,:-2,1:-1,1:-1]+p[:,:,2:,1:-1,1:-1]+p[:,:,1:-1,:-2,1:-1]+p[:,:,1:-1,2:,1:-1]+p[:,:,1:-1,1:-1,:-2]+p[:,:,1:-1,1:-1,2:])>0
 
+def cube_mean(x):
+ # Same valid 3-cube mean; conv3d uses the deterministic convolution path.
+ kernel=x.new_full((1,1,3,3,3),1/27)
+ return F.conv3d(x,kernel)
+
 def step_loss(logits,m,eligible,target,intact):
  zero=logits.sum()*0
  positive=eligible & target.bool();negative=eligible & ~target.bool()
@@ -24,7 +29,7 @@ def step_loss(logits,m,eligible,target,intact):
  front=front+((1.5 if intact else 1.)*F.softplus(logits[negative]).mean() if negative.any() else zero)
  soft=m.float()+eligible.float()*torch.sigmoid(logits)
  windows=F.max_pool3d(eligible.float(),3,1)>0
- delta=(F.avg_pool3d(soft,3,1)-F.avg_pool3d(target,3,1)).abs()
+ delta=(cube_mean(soft)-cube_mean(target)).abs()
  volume=delta[windows].mean() if windows.any() else zero
  return front+.25*volume,front,volume
 
