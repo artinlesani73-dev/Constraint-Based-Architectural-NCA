@@ -1742,3 +1742,10 @@ Next implement separate module and one consolidated CPU correctness/recovery
 check, then package ONE256-update32-step600s-cap proposed GPU job. Ask for exact
 compute approval after preparation; no automatic run/retry. Preserve NR5 and MG7.
 Current deliverable is specification and feasibility evidence, not GPU-ready code.
+
+
+## 2026-09-28 - CGR1 implementation and CPU rehearsal
+
+Separate constructive model implemented and3local tests passed. Eight-update
+CPU package rehearsal complete,41evidence hashes verified. GPU run unapproved
+and unstarted. See CGR1_READINESS.md for exact package, limits and resume steps.

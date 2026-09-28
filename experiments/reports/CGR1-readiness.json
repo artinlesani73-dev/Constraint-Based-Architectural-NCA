@@ -1,0 +1,111 @@
+{
+  "status": "local_checks_passed_gpu_disarmed",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m unittest tests.test_connected_repair -v",
+    "passed": 3,
+    "seconds": 1.968
+  },
+  "cpu_rehearsal": {
+    "cleanup": {
+      "active_processes_after_stop": 0,
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen validation-only rules.",
+    "request": {
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "manifest_sha256": "6dc58940d03349c34f50ebafcf26880cf97edbc3e892e565d412e35387a8a3c3",
+      "max_seconds": 600.0,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh",
+        "jobs": 1,
+        "loss": {
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 0.5,
+          "intact_negative": 1.5,
+          "volume": 0.25
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "connected_constructive_repair_v1"
+      },
+      "updates": 8
+    },
+    "status": "completed",
+    "wall_seconds": 28.03100000000086,
+    "worker": {
+      "completed": 8,
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "failure": null,
+      "memory": {},
+      "pid": 14068,
+      "seed": 1201,
+      "status": "completed",
+      "wall_seconds": 25.686999999999898
+    }
+  },
+  "run_id": "20260928T095728Z_155b66e1b585",
+  "verified_evidence_files": 41,
+  "package": {
+    "archive": "NCA-CGR1-Connected-Package.zip",
+    "archive_bytes": 213487,
+    "archive_sha256": "48310ad07b8a5a2f3f10c3bb07bb210cb7c6fc683a6eecdfc2380b394cebfea6",
+    "heldout_rows": 0,
+    "manifest_sha256": "6dc58940d03349c34f50ebafcf26880cf97edbc3e892e565d412e35387a8a3c3",
+    "notebook_sha256": "3fba5cd9f3b3a91aa5430f1bc97c11784d54fa6a9cd9387196d5827dc0ef0b2b",
+    "payload_files": 101,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh",
+      "jobs": 1,
+      "loss": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 0.5,
+        "intact_negative": 1.5,
+        "volume": 0.25
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "connected_constructive_repair_v1"
+    },
+    "train_rows": 81
+  },
+  "gpu_executed": false,
+  "validation_or_test_evaluated": false
+}
