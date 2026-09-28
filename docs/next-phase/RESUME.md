@@ -1,5 +1,45 @@
 # Resume the NCA next phase
 
+## Current: plan steps1-3 complete; NR5 awaiting paid-run approval - 2026-09-28
+
+User approved the eight-step compact plan. Training code review identifies16-step
+supervision vs32-step review, without establishing causality. See
+NR5_TRAINING_REVIEW.md. D083 prepares ONE fixed32-step training intervention using
+unchanged NR4 loss/model/data/grid/optimizer. No new constraint family or loss term.
+Original NR3/NR4 packages/code/evidence and Studio default remain unchanged.
+
+New nca/repair_horizon.py, horizon_package.py, scripts/colab_repair_horizon.py,
+build_repair_horizon.py and tests/test_repair_horizon.py. Checkpoint identity binds
+train_steps32 and rejects NR4 state. Diagnostic TRAIN boundaries also use32.
+Focused2 tests pass, including counted32 updates and exact checkpoint restore.
+Extracted-package CPU8-update rehearsal 20260928T082606Z_927a3d1f7632 completes in
+24.672s,zero child processes left. All export/member hashes
+verified; notebook compiles and remains disarmed. This is readiness, not model
+quality or a new GPU recovery proof. No heldout inference or full suite repeat.
+
+Local deliverables: Codex outputs/NR5-Horizon/NCA-NR5-Horizon.ipynb and
+NCA-NR5-Horizon-Package.zip. ArchiveSHA a19fcc85131343428cc3a1989dc8619707b212aae8d85ba48a98fc847eaa43e1
+ManifestSHA 61c06403120aea05d123c4cf526c54aa566c40cbf5a155a9b4cc189e7ecbb34b
+Review proposal: experiments/configs/NR5-horizon.json; readiness:NR5-readiness.json.
+
+NEXT: ask explicit approval for one fresh seed1201,256 optimizer updates,32steps,
+T4 job capped600s; setup/export/idle outside timer. Whole-VM loss before download
+can lose job; runtime-bound checkpoints do not guarantee cross-VM recovery.
+No Drive access or automatic retry authorized. User opens local notebook in Colab,
+uploads ZIP, sets APPROVED_SEED_JOB=True only after approval, runs once, returns
+ZIP+receipt. No assistant cloud action has occurred. Strict prior T4 software
+admission retained; if environment differs, preserve failure and review.
+
+Then review final256 only on27 development rows at32steps/firing2101 CPUfloat32;
+compare NR3,NR4,unchanged,closing3. Require all intact IoU>=.99 and9/9valid;
+damaged medianIoU>=.9435569333,valid>=17/18,excess<1354,abs request error median<=71.
+No TEST, horizon sweep, threshold search or automatic promotion. This is one
+bounded intervention; decide model path after outcome before further trials.
+Steps6-8 (model choice, larger/diverse volumes, deployment polish) remain pending
+and dependent on evidence. ROADMAP.md preserves the compact plan and status.
+All artifacts locally archived; same-disk archive is not an off-device backup.
+
+
 ## Current: NR4 failure diagnosis and paired Studio view complete - 2026-09-26
 
 User requested faster work in larger batches and approved diagnosis, comparison

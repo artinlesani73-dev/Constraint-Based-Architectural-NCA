@@ -1,0 +1,114 @@
+{
+  "focused_tests": 2,
+  "failures": 0,
+  "checks": [
+    "unchanged NR4 analytic loss/gradient",
+    "exactly32 forward updates per optimizer step",
+    "exact CPU restore",
+    "NR4/legacy checkpoint rejection",
+    "disarmed notebook/code compilation",
+    "TRAIN-only package integrity"
+  ],
+  "rehearsal": {
+    "cleanup": {
+      "active_processes_after_stop": 0,
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen validation-only rules.",
+    "request": {
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "manifest_sha256": "61c06403120aea05d123c4cf526c54aa566c40cbf5a155a9b4cc189e7ecbb34b",
+      "max_seconds": 120.0,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh_same_seed_as_NR4",
+        "jobs": 1,
+        "loss": {
+          "extra_intact_base_weight": 1.0,
+          "extra_negative_weight": 0.5,
+          "version": "preservation_bce_v1"
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "NR5_horizon32_v1"
+      },
+      "updates": 8
+    },
+    "status": "completed",
+    "wall_seconds": 24.67199999999957,
+    "worker": {
+      "completed": 8,
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "failure": null,
+      "memory": {},
+      "pid": 16784,
+      "seed": 1201,
+      "status": "completed",
+      "wall_seconds": 21.65599999999995
+    }
+  },
+  "rehearsal_receipt": {
+    "archive": "20260928T082606Z_927a3d1f7632.zip",
+    "files": 41,
+    "sha256": "21810322779d3ad8479003fdab1a79b5f09f7a46747051011e5e684375ec6750"
+  },
+  "package": {
+    "archive": "NCA-NR5-Horizon-Package.zip",
+    "archive_bytes": 209015,
+    "archive_sha256": "a19fcc85131343428cc3a1989dc8619707b212aae8d85ba48a98fc847eaa43e1",
+    "heldout_rows": 0,
+    "manifest_sha256": "61c06403120aea05d123c4cf526c54aa566c40cbf5a155a9b4cc189e7ecbb34b",
+    "notebook_sha256": "5a600603e2cf52763f6e81b7bc5488da42999974db6729935cb6d2161aae5bf5",
+    "payload_files": 101,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh_same_seed_as_NR4",
+      "jobs": 1,
+      "loss": {
+        "extra_intact_base_weight": 1.0,
+        "extra_negative_weight": 0.5,
+        "version": "preservation_bce_v1"
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "NR5_horizon32_v1"
+    },
+    "train_rows": 81
+  },
+  "gpu_executed": false,
+  "cloud_access": false
+}

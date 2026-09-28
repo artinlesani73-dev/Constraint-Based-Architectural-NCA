@@ -1,0 +1,65 @@
+{
+  "version": "NR5_horizon_review_v1",
+  "package": {
+    "archive": "NCA-NR5-Horizon-Package.zip",
+    "archive_bytes": 209015,
+    "archive_sha256": "a19fcc85131343428cc3a1989dc8619707b212aae8d85ba48a98fc847eaa43e1",
+    "heldout_rows": 0,
+    "manifest_sha256": "61c06403120aea05d123c4cf526c54aa566c40cbf5a155a9b4cc189e7ecbb34b",
+    "notebook_sha256": "5a600603e2cf52763f6e81b7bc5488da42999974db6729935cb6d2161aae5bf5",
+    "payload_files": 101,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh_same_seed_as_NR4",
+      "jobs": 1,
+      "loss": {
+        "extra_intact_base_weight": 1.0,
+        "extra_negative_weight": 0.5,
+        "version": "preservation_bce_v1"
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "NR5_horizon32_v1"
+    },
+    "train_rows": 81
+  },
+  "review": {
+    "checkpoint": 256,
+    "split": "validation",
+    "rows": 27,
+    "steps": 32,
+    "firing_seed": 2101,
+    "device": "cpu",
+    "comparators": [
+      "NR3",
+      "NR4",
+      "unchanged",
+      "closing3"
+    ],
+    "test": false
+  },
+  "criteria": {
+    "intact_all_iou_at_least": 0.99,
+    "intact_valid_count": 9,
+    "damaged_median_iou_at_least": 0.9435569333122027,
+    "damaged_valid_count_at_least": 17,
+    "damaged_false_additions_less_than": 1354,
+    "damaged_median_absolute_request_error_at_most": 71
+  },
+  "interpretation": "All required; exploratory development admission only. No automatic promotion, retries or tuning."
+}
