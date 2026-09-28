@@ -1,0 +1,850 @@
+{
+  "package": {
+    "archive": "NCA-CGR2-Connected-Package.zip",
+    "archive_bytes": 210881,
+    "archive_sha256": "4acfe0d207e18f9c58df532a754cebfaebd1769a44689f67f2a402369162316e",
+    "heldout_rows": 0,
+    "manifest_sha256": "b3d15f8625637e75ba4b3a59aea8f243facb5d572b0653436acba90afe23b22a",
+    "notebook_sha256": "4699768762eb82df8933cdbcbd30af56c0936f7a0f49ed94499d3bdcc4c081ff",
+    "payload_files": 101,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh",
+      "jobs": 1,
+      "loss": {
+        "bulk_completion": 0.5,
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 0.5,
+        "intact_negative": 3.0,
+        "volume": 0.25
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "bulk_constructive_repair_v1"
+    },
+    "train_rows": 81
+  },
+  "rehearsal": {
+    "cleanup": {
+      "active_processes_after_stop": 0,
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen validation-only rules.",
+    "request": {
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "manifest_sha256": "b3d15f8625637e75ba4b3a59aea8f243facb5d572b0653436acba90afe23b22a",
+      "max_seconds": 120.0,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh",
+        "jobs": 1,
+        "loss": {
+          "bulk_completion": 0.5,
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 0.5,
+          "intact_negative": 3.0,
+          "volume": 0.25
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "bulk_constructive_repair_v1"
+      },
+      "updates": 8
+    },
+    "status": "completed",
+    "wall_seconds": 26.54699999999866,
+    "worker": {
+      "completed": 8,
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "failure": null,
+      "memory": {},
+      "pid": 25128,
+      "seed": 1201,
+      "status": "completed",
+      "wall_seconds": 24.062999999998283
+    }
+  },
+  "rehearsal_receipt": {
+    "archive": "20260928T160237Z_2eabf7d1cf3a.zip",
+    "files": 41,
+    "sha256": "c8861906ff21ad831592eac50cbc98abe548d1d0eb53acd4fa4b4f92281af849"
+  },
+  "verified_payloads": 41,
+  "tests": {
+    "passed": 5,
+    "seconds": 2.57
+  },
+  "gradient_audit": {
+    "count": 81,
+    "rows": [
+      {
+        "bulk": 0.1887158900499344,
+        "bulk_gradient_l1": 0.07303749024868011,
+        "case": "mg5__mg3__aligned__v16__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.163772463798523,
+        "volume": 0.11877482384443283
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v16__s0",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.1046509742736816,
+        "volume": 0.10083737969398499
+      },
+      {
+        "bulk": 0.06790129095315933,
+        "bulk_gradient_l1": 0.06790126860141754,
+        "case": "mg5__mg3__aligned__v16__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0978305339813232,
+        "volume": 0.09663613885641098
+      },
+      {
+        "bulk": 0.060255832970142365,
+        "bulk_gradient_l1": 0.03729930520057678,
+        "case": "mg5__mg3__aligned__v16__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.095746397972107,
+        "volume": 0.10359075665473938
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v16__s1",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.105340003967285,
+        "volume": 0.10359405726194382
+      },
+      {
+        "bulk": 0.06989767402410507,
+        "bulk_gradient_l1": 0.06943223625421524,
+        "case": "mg5__mg3__aligned__v16__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0995842218399048,
+        "volume": 0.09965851902961731
+      },
+      {
+        "bulk": 0.06344310939311981,
+        "bulk_gradient_l1": 0.03645835071802139,
+        "case": "mg5__mg3__aligned__v16__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.0973963737487793,
+        "volume": 0.10381592065095901
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v16__s2",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1044952869415283,
+        "volume": 0.10021628439426422
+      },
+      {
+        "bulk": 0.06944450736045837,
+        "bulk_gradient_l1": 0.06944447755813599,
+        "case": "mg5__mg3__aligned__v16__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0985478162765503,
+        "volume": 0.09641914069652557
+      },
+      {
+        "bulk": 0.12442963570356369,
+        "bulk_gradient_l1": 0.05807742848992348,
+        "case": "mg5__mg3__aligned__v24__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1329916715621948,
+        "volume": 0.1242239698767662
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v24__s0",
+        "damage": "intact",
+        "frontier": 2.079441785812378,
+        "total": 2.1064884662628174,
+        "volume": 0.10818711668252945
+      },
+      {
+        "bulk": 0.06982304155826569,
+        "bulk_gradient_l1": 0.0694153681397438,
+        "case": "mg5__mg3__aligned__v24__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1013901233673096,
+        "volume": 0.10703148692846298
+      },
+      {
+        "bulk": 0.13100609183311462,
+        "bulk_gradient_l1": 0.05591729283332825,
+        "case": "mg5__mg3__aligned__v24__s1",
+        "damage": "cube5",
+        "frontier": 1.039720892906189,
+        "total": 1.1355044841766357,
+        "volume": 0.12112236768007278
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v24__s1",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.1066224575042725,
+        "volume": 0.10872352123260498
+      },
+      {
+        "bulk": 0.06865835934877396,
+        "bulk_gradient_l1": 0.06865832954645157,
+        "case": "mg5__mg3__aligned__v24__s1",
+        "damage": "slab2",
+        "frontier": 1.039720892906189,
+        "total": 1.1006561517715454,
+        "volume": 0.1064242348074913
+      },
+      {
+        "bulk": 0.08131776005029678,
+        "bulk_gradient_l1": 0.0441267229616642,
+        "case": "mg5__mg3__aligned__v24__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1090255975723267,
+        "volume": 0.1145840585231781
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v24__s2",
+        "damage": "intact",
+        "frontier": 2.079441785812378,
+        "total": 2.1067264080047607,
+        "volume": 0.10913870483636856
+      },
+      {
+        "bulk": 0.06984904408454895,
+        "bulk_gradient_l1": 0.06984901428222656,
+        "case": "mg5__mg3__aligned__v24__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1008927822113037,
+        "volume": 0.10499019175767899
+      },
+      {
+        "bulk": 0.06110726296901703,
+        "bulk_gradient_l1": 0.03175714239478111,
+        "case": "mg5__mg3__aligned__v32__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1006579399108887,
+        "volume": 0.12153427302837372
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v32__s0",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1082205772399902,
+        "volume": 0.11511698365211487
+      },
+      {
+        "bulk": 0.06995252519845963,
+        "bulk_gradient_l1": 0.06968410313129425,
+        "case": "mg5__mg3__aligned__v32__s0",
+        "damage": "slab2",
+        "frontier": 1.039720892906189,
+        "total": 1.1035391092300415,
+        "volume": 0.11536785215139389
+      },
+      {
+        "bulk": 0.060427047312259674,
+        "bulk_gradient_l1": 0.03672049939632416,
+        "case": "mg5__mg3__aligned__v32__s1",
+        "damage": "cube5",
+        "frontier": 1.039720892906189,
+        "total": 1.0987107753753662,
+        "volume": 0.11510571837425232
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v32__s1",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1078433990478516,
+        "volume": 0.11360795795917511
+      },
+      {
+        "bulk": 0.06944450736045837,
+        "bulk_gradient_l1": 0.06944447755813599,
+        "case": "mg5__mg3__aligned__v32__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.102615475654602,
+        "volume": 0.11268994212150574
+      },
+      {
+        "bulk": 0.05046352371573448,
+        "bulk_gradient_l1": 0.03329594060778618,
+        "case": "mg5__mg3__aligned__v32__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.0959391593933105,
+        "volume": 0.12394654005765915
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__aligned__v32__s2",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1101489067077637,
+        "volume": 0.12283041328191757
+      },
+      {
+        "bulk": 0.06944450736045837,
+        "bulk_gradient_l1": 0.06944447755813599,
+        "case": "mg5__mg3__aligned__v32__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1044950485229492,
+        "volume": 0.12020829319953918
+      },
+      {
+        "bulk": 0.14985588192939758,
+        "bulk_gradient_l1": 0.06953895092010498,
+        "case": "mg5__mg3__partial_obstruction__v16__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.14231276512146,
+        "volume": 0.11065611988306046
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v16__s0",
+        "damage": "intact",
+        "frontier": 2.079441785812378,
+        "total": 2.105546236038208,
+        "volume": 0.10441763699054718
+      },
+      {
+        "bulk": 0.06651773303747177,
+        "bulk_gradient_l1": 0.06502770632505417,
+        "case": "mg5__mg3__partial_obstruction__v16__s0",
+        "damage": "slab2",
+        "frontier": 1.0397206544876099,
+        "total": 1.0981321334838867,
+        "volume": 0.10061004012823105
+      },
+      {
+        "bulk": 0.11536873877048492,
+        "bulk_gradient_l1": 0.05981315299868584,
+        "case": "mg5__mg3__partial_obstruction__v16__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1264468431472778,
+        "volume": 0.1161666288971901
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v16__s1",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.107353925704956,
+        "volume": 0.11165045946836472
+      },
+      {
+        "bulk": 0.0654122605919838,
+        "bulk_gradient_l1": 0.06541221588850021,
+        "case": "mg5__mg3__partial_obstruction__v16__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0985567569732666,
+        "volume": 0.10451938956975937
+      },
+      {
+        "bulk": 0.20318931341171265,
+        "bulk_gradient_l1": 0.07245343178510666,
+        "case": "mg5__mg3__partial_obstruction__v16__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1731294393539429,
+        "volume": 0.1272560954093933
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v16__s2",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.1066479682922363,
+        "volume": 0.1088256984949112
+      },
+      {
+        "bulk": 0.06423617899417877,
+        "bulk_gradient_l1": 0.06423614919185638,
+        "case": "mg5__mg3__partial_obstruction__v16__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0981255769729614,
+        "volume": 0.10514682531356812
+      },
+      {
+        "bulk": 0.06304603815078735,
+        "bulk_gradient_l1": 0.03718746826052666,
+        "case": "mg5__mg3__partial_obstruction__v24__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.0983079671859741,
+        "volume": 0.10825660079717636
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v24__s0",
+        "damage": "intact",
+        "frontier": 2.079441785812378,
+        "total": 2.1055877208709717,
+        "volume": 0.10458358377218246
+      },
+      {
+        "bulk": 0.06696099787950516,
+        "bulk_gradient_l1": 0.06675077229738235,
+        "case": "mg5__mg3__partial_obstruction__v24__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0992450714111328,
+        "volume": 0.10417503118515015
+      },
+      {
+        "bulk": 0.11819848418235779,
+        "bulk_gradient_l1": 0.054670386016368866,
+        "case": "mg5__mg3__partial_obstruction__v24__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1288632154464722,
+        "volume": 0.1201731339097023
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v24__s1",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.106044292449951,
+        "volume": 0.1064123585820198
+      },
+      {
+        "bulk": 0.06880348920822144,
+        "bulk_gradient_l1": 0.06880344450473785,
+        "case": "mg5__mg3__partial_obstruction__v24__s1",
+        "damage": "slab2",
+        "frontier": 1.0397206544876099,
+        "total": 1.100407600402832,
+        "volume": 0.10514052212238312
+      },
+      {
+        "bulk": 0.1078086644411087,
+        "bulk_gradient_l1": 0.04958506301045418,
+        "case": "mg5__mg3__partial_obstruction__v24__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1235792636871338,
+        "volume": 0.1198168694972992
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v24__s2",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.10500168800354,
+        "volume": 0.10224087536334991
+      },
+      {
+        "bulk": 0.06313137710094452,
+        "bulk_gradient_l1": 0.06313134729862213,
+        "case": "mg5__mg3__partial_obstruction__v24__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0966609716415405,
+        "volume": 0.10149797797203064
+      },
+      {
+        "bulk": 0.13131168484687805,
+        "bulk_gradient_l1": 0.05580868944525719,
+        "case": "mg5__mg3__partial_obstruction__v32__s0",
+        "damage": "cube5",
+        "frontier": 1.0397206544876099,
+        "total": 1.1329749822616577,
+        "volume": 0.110394187271595
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v32__s0",
+        "damage": "intact",
+        "frontier": 2.0794410705566406,
+        "total": 2.103116512298584,
+        "volume": 0.09470196813344955
+      },
+      {
+        "bulk": 0.0654122531414032,
+        "bulk_gradient_l1": 0.06541222333908081,
+        "case": "mg5__mg3__partial_obstruction__v32__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0977824926376343,
+        "volume": 0.10142216831445694
+      },
+      {
+        "bulk": 0.09466130286455154,
+        "bulk_gradient_l1": 0.0466945581138134,
+        "case": "mg5__mg3__partial_obstruction__v32__s1",
+        "damage": "cube5",
+        "frontier": 1.039720892906189,
+        "total": 1.1125423908233643,
+        "volume": 0.10196338593959808
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v32__s1",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.10300874710083,
+        "volume": 0.09426885843276978
+      },
+      {
+        "bulk": 0.06780644506216049,
+        "bulk_gradient_l1": 0.06766777485609055,
+        "case": "mg5__mg3__partial_obstruction__v32__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0986777544021606,
+        "volume": 0.10021514445543289
+      },
+      {
+        "bulk": 0.10144723206758499,
+        "bulk_gradient_l1": 0.05502745509147644,
+        "case": "mg5__mg3__partial_obstruction__v32__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1177761554718018,
+        "volume": 0.10932698100805283
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__partial_obstruction__v32__s2",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1033215522766113,
+        "volume": 0.09552130848169327
+      },
+      {
+        "bulk": 0.06386031955480576,
+        "bulk_gradient_l1": 0.06386028230190277,
+        "case": "mg5__mg3__partial_obstruction__v32__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0972144603729248,
+        "volume": 0.10225392132997513
+      },
+      {
+        "bulk": 0.08363694697618484,
+        "bulk_gradient_l1": 0.03981988877058029,
+        "case": "mg5__mg3__wide_gap__v16__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1090542078018188,
+        "volume": 0.11005973070859909
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v16__s0",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.104776382446289,
+        "volume": 0.10133951902389526
+      },
+      {
+        "bulk": 0.06941425055265427,
+        "bulk_gradient_l1": 0.06856697052717209,
+        "case": "mg5__mg3__wide_gap__v16__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0990886688232422,
+        "volume": 0.09864328056573868
+      },
+      {
+        "bulk": 0.07052228599786758,
+        "bulk_gradient_l1": 0.04134824872016907,
+        "case": "mg5__mg3__wide_gap__v16__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.101733922958374,
+        "volume": 0.10700786113739014
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v16__s1",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1055068969726562,
+        "volume": 0.10426265001296997
+      },
+      {
+        "bulk": 0.06865834444761276,
+        "bulk_gradient_l1": 0.06865832209587097,
+        "case": "mg5__mg3__wide_gap__v16__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0992897748947144,
+        "volume": 0.10095943510532379
+      },
+      {
+        "bulk": 0.10420048236846924,
+        "bulk_gradient_l1": 0.05402795225381851,
+        "case": "mg5__mg3__wide_gap__v16__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.119462251663208,
+        "volume": 0.11056450009346008
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v16__s2",
+        "damage": "intact",
+        "frontier": 2.0794413089752197,
+        "total": 2.1053621768951416,
+        "volume": 0.10368387401103973
+      },
+      {
+        "bulk": 0.06944450736045837,
+        "bulk_gradient_l1": 0.06944447755813599,
+        "case": "mg5__mg3__wide_gap__v16__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.0995460748672485,
+        "volume": 0.10041222721338272
+      },
+      {
+        "bulk": 0.12492001801729202,
+        "bulk_gradient_l1": 0.05411067605018616,
+        "case": "mg5__mg3__wide_gap__v24__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.132667064666748,
+        "volume": 0.1219448521733284
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v24__s0",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.1071388721466064,
+        "volume": 0.11078944802284241
+      },
+      {
+        "bulk": 0.06904768198728561,
+        "bulk_gradient_l1": 0.06904765963554382,
+        "case": "mg5__mg3__wide_gap__v24__s0",
+        "damage": "slab2",
+        "frontier": 1.0397206544876099,
+        "total": 1.101419448852539,
+        "volume": 0.10869958996772766
+      },
+      {
+        "bulk": 0.09267368912696838,
+        "bulk_gradient_l1": 0.04930167272686958,
+        "case": "mg5__mg3__wide_gap__v24__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1151918172836304,
+        "volume": 0.1165364682674408
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v24__s1",
+        "damage": "intact",
+        "frontier": 2.079441547393799,
+        "total": 2.1073150634765625,
+        "volume": 0.11149361729621887
+      },
+      {
+        "bulk": 0.06982303410768509,
+        "bulk_gradient_l1": 0.0694153755903244,
+        "case": "mg5__mg3__wide_gap__v24__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1021020412445068,
+        "volume": 0.10987895727157593
+      },
+      {
+        "bulk": 0.05401728302240372,
+        "bulk_gradient_l1": 0.035008832812309265,
+        "case": "mg5__mg3__wide_gap__v24__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.0965088605880737,
+        "volume": 0.11911773681640625
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v24__s2",
+        "damage": "intact",
+        "frontier": 2.079441785812378,
+        "total": 2.108508348464966,
+        "volume": 0.11626604199409485
+      },
+      {
+        "bulk": 0.0698339194059372,
+        "bulk_gradient_l1": 0.06983387470245361,
+        "case": "mg5__mg3__wide_gap__v24__s2",
+        "damage": "slab2",
+        "frontier": 1.0397206544876099,
+        "total": 1.1029702425003052,
+        "volume": 0.11333025246858597
+      },
+      {
+        "bulk": 0.10761072486639023,
+        "bulk_gradient_l1": 0.04896564781665802,
+        "case": "mg5__mg3__wide_gap__v32__s0",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1254526376724243,
+        "volume": 0.12770606577396393
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v32__s0",
+        "damage": "intact",
+        "frontier": 2.079442024230957,
+        "total": 2.109537124633789,
+        "volume": 0.12038011848926544
+      },
+      {
+        "bulk": 0.06918571144342422,
+        "bulk_gradient_l1": 0.06918568164110184,
+        "case": "mg5__mg3__wide_gap__v32__s0",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1041336059570312,
+        "volume": 0.11927998065948486
+      },
+      {
+        "bulk": 0.11922727525234222,
+        "bulk_gradient_l1": 0.05352555215358734,
+        "case": "mg5__mg3__wide_gap__v32__s1",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.131024718284607,
+        "volume": 0.1267615705728531
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v32__s1",
+        "damage": "intact",
+        "frontier": 2.079442024230957,
+        "total": 2.108975648880005,
+        "volume": 0.11813469976186752
+      },
+      {
+        "bulk": 0.06995251774787903,
+        "bulk_gradient_l1": 0.06968411058187485,
+        "case": "mg5__mg3__wide_gap__v32__s1",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1042101383209229,
+        "volume": 0.11805228888988495
+      },
+      {
+        "bulk": 0.08816670626401901,
+        "bulk_gradient_l1": 0.04827478528022766,
+        "case": "mg5__mg3__wide_gap__v32__s2",
+        "damage": "cube5",
+        "frontier": 1.0397207736968994,
+        "total": 1.1155903339385986,
+        "volume": 0.12714484333992004
+      },
+      {
+        "bulk": 0.0,
+        "bulk_gradient_l1": 0.0,
+        "case": "mg5__mg3__wide_gap__v32__s2",
+        "damage": "intact",
+        "frontier": 2.079442024230957,
+        "total": 2.1104214191436768,
+        "volume": 0.12391771376132965
+      },
+      {
+        "bulk": 0.06944450736045837,
+        "bulk_gradient_l1": 0.06944447755813599,
+        "case": "mg5__mg3__wide_gap__v32__s2",
+        "damage": "slab2",
+        "frontier": 1.0397207736968994,
+        "total": 1.1048495769500732,
+        "volume": 0.12162644416093826
+      }
+    ],
+    "scope": "TRAIN only, initial masks, logits zero, all frontier eligible; not a learned performance result."
+  },
+  "gpu_executed": false,
+  "approved": false
+}
