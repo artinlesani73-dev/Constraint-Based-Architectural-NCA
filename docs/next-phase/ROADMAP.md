@@ -11,3 +11,9 @@
 
 Archive results, decisions and failures throughout. No automatic extra paid runs,
 Drive operations, promotion or publication. Read RESUME.md for exact current files.
+
+
+2026-09-28 update: deployment step now includes live-v3 orbit/zoom, scale filtering,
+PNG export and retained history/comparison. Existing32/48/64 presets exposed more
+clearly; new environment diversity and unified landing remain outstanding.
+See STUDIO_EXPLORER.md for verification and limitations.
