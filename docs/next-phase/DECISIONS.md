@@ -1665,3 +1665,11 @@ as evaluated choices. Existing32/48/64 support is not newly achieved here. Decid
 on a unified landing page once the explorer interaction is reviewed; do not
 silently replace historical interfaces. No automatic new paid training.
 No Drive operation, push or publication. Local archive is same-disk only.
+
+
+## D086 - Admit four bounded development site presets
+
+Added four48-cubed sites after one eight-candidate CPU batch;8/8 pilot passes.
+Original11 contexts preserved.15 sites/65 choices now available. No new
+constraints or learned-model claims. Raw results and failures policy retained.
+See ENVIRONMENT_DIVERSITY_FINDINGS.md for evidence, checks and limitations.

@@ -17,3 +17,7 @@ Drive operations, promotion or publication. Read RESUME.md for exact current fil
 PNG export and retained history/comparison. Existing32/48/64 presets exposed more
 clearly; new environment diversity and unified landing remain outstanding.
 See STUDIO_EXPLORER.md for verification and limitations.
+
+2026-09-28 ED1: four additional48-cubed development sites, eight retained
+candidates, all pass pilot checks. Step7 bounded environment expansion complete;
+step8 next: unified Studio entry/navigation. See ENVIRONMENT_DIVERSITY_FINDINGS.md.

@@ -48,8 +48,8 @@ class MassV2Tests(unittest.TestCase):
         value=self.done(self.submit());return self.client.get('/api/mass-v2/records/'+value['id']+'/export').json()
 
     def test_presets_and_bounded_coordinates(self):
-        data=self.client.get('/api/mass-v2/presets').json();self.assertEqual(len(data['contexts']),11)
-        self.assertEqual(sum(len(c['seeds'])*len(c['requests']) for c in data['contexts']),57)
+        data=self.client.get('/api/mass-v2/presets').json();self.assertEqual(len(data['contexts']),15)
+        self.assertEqual(sum(len(c['seeds'])*len(c['requests']) for c in data['contexts']),65)
         for value in ({'scene_case':'64__compact','seed':0,'request_fraction':.24},
                       {'scene_case':'48__compact','seed':6,'request_fraction':.32},
                       {**self.settings,'seed':True},{**self.settings,'seed':3}):
@@ -57,6 +57,12 @@ class MassV2Tests(unittest.TestCase):
         for coords in ([[64,0,0]],[[1.0,0,0]],[[True,0,0]],[[0,0,0],[0,0,0]]):
             with self.assertRaises(ValueError):mass.grid(coords,64)
         self.assertTrue(mass.grid([[63,63,63]],64)[63,63,63])
+        for c in data['contexts']:
+            if c['case'].startswith('ed1_'):
+                self.assertEqual(c['seeds'],[6,7]);self.assertEqual(c['requests'],[.24])
+                domain,fields=mass.arrays(mass.context_for(c['case']))
+                self.assertEqual(domain.shape,(48,48,48))
+                self.assertFalse((domain & fields['existing']).any())
         self.assertEqual(self.client.post('/api/mass-v2/import',content=b' '*20_000_001,headers={'content-type':'application/json'}).status_code,413)
         self.assertEqual(self.client.post('/api/mass-v2/jobs',json=self.settings,headers={'origin':'https://unrelated.example'}).status_code,403)
 

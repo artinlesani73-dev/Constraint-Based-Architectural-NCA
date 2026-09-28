@@ -168,6 +168,7 @@ async def lifespan(app):
                 ROOT / 'deploy/model_utils.py', ROOT / 'deploy/checkpoints.py', ROOT / 'deploy/mass_contexts.json']
     sources += list((ROOT / 'deploy/static/live').glob('*'))
     sources += [ROOT / 'deploy/mass_v2_contexts.json'] + list((ROOT / 'deploy/static/live-v2').glob('*'))
+    sources += list((ROOT / 'deploy/static/live-v3').glob('*'))
     app.state.provenance = {
         'checkpoint_config_source_sha256': sha256(checkpoint.read_bytes()).hexdigest(),
         'checkpoint_weights_used': False, 'config': app.state.config,
