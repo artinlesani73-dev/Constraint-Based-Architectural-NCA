@@ -1735,3 +1735,19 @@ and unstarted. See CGR1_READINESS.md for exact package, limits and resume steps.
 Verified failed zero-update GPU attempt; preserved all8payloads. Fixed convolution
 implements the same local mean under strict determinism, versioned asv2.
 Four CPU tests passed. No GPU retry authorized/launched. See CGR1_GPU_COMPATIBILITY.md.
+
+
+## D092 — CGR1 v2 completed and reviewed — 2026-09-28
+
+D092: run20260928T153419Z_44ad70fb1464 completed256 GPU updates in61.469s;
+1036 payload hashes and final checkpoint identity/cursors verified. Frozen final
+CPU review:24/27 all-nine valid (NR5 17/27); damaged15/18, medianIoU0.975039,
+excess245, recovered1959, volume-error15.5. Intact9/9 valid but3/9 IoU<0.99.
+Two frozen conditions fail: damaged validity and per-intact overlap. All3failed
+cube5 cases fail access+thickness; zero detached voxels. Keep experimental; MG7
+stays live. No TEST/new training/Drive/push. Successful GPU execution does not
+prove exact GPU recovery. See CGR1_FINAL_REVIEW.md and CGR1-final-review.json.
+Full evidence C:/Users/artin/Documents/Codex/outputs/CGR1-Final-Review-2026-09-28.
+Next: specify one TRAIN-grounded bulk-aware/stopping supervision revision,
+freeze it and its compute budget, then request one concrete GPU run approval.
+Do not repeat the completed CGR1 launch instructions below; they are history.

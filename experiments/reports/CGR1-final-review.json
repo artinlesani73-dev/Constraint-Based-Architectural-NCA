@@ -1,0 +1,179 @@
+{
+  "run_id": "20260928T153419Z_44ad70fb1464",
+  "receipt": {
+    "archive": "20260928T153419Z_44ad70fb1464.zip",
+    "files": 1036,
+    "sha256": "7863fb6a0d860dd441a8447c76acc7d57635809559b6ff1a4232e1e6452e12b0"
+  },
+  "review": {
+    "all_conditions_met": false,
+    "checks": {
+      "damaged_excess": true,
+      "damaged_overlap": true,
+      "damaged_recovery": true,
+      "damaged_validity": false,
+      "intact_overlap": false,
+      "intact_validity": true,
+      "preservation": true,
+      "volume_error": true
+    },
+    "family_pass_counts": {
+      "access": 24,
+      "coverage": 27,
+      "facade": 27,
+      "ground": 27,
+      "legality": 27,
+      "sparsity": 27,
+      "spill": 27,
+      "support": 27,
+      "thickness": 24
+    },
+    "scope": "Repeated development cases; one seed. Structured accepted output, not unconstrained proposal. No TEST or automatic admission.",
+    "seconds": 26.625,
+    "status": "completed",
+    "summary": {
+      "all": {
+        "closing3": {
+          "all_nine_pass": 24,
+          "false_positive_cells": 26,
+          "median_absolute_request_error_cells": 6.0,
+          "median_iou": 0.9942263279445728,
+          "n": 27,
+          "recovered_cells": 1464,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 24,
+          "false_positive_cells": 362,
+          "median_absolute_request_error_cells": 15.0,
+          "median_iou": 0.9840182648401826,
+          "n": 27,
+          "recovered_cells": 1959,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 87.0,
+          "median_iou": 0.9280245022970903,
+          "n": 27,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      },
+      "damaged": {
+        "closing3": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 13,
+          "median_absolute_request_error_cells": 38.0,
+          "median_iou": 0.9726789835896203,
+          "n": 18,
+          "recovered_cells": 1464,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 245,
+          "median_absolute_request_error_cells": 15.5,
+          "median_iou": 0.9750390765637211,
+          "n": 18,
+          "recovered_cells": 1959,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 6,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 112.5,
+          "median_iou": 0.8748558843009382,
+          "n": 18,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      },
+      "intact": {
+        "closing3": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 13,
+          "median_absolute_request_error_cells": 5.0,
+          "median_iou": 1.0,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 117,
+          "median_absolute_request_error_cells": 9.0,
+          "median_iou": 0.9942594718714122,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 2.0,
+          "median_iou": 1.0,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "nr5_verified_arrays": 27,
+    "matched_case_damage_baselines": true,
+    "nr5_all_pass": 17,
+    "intact_below_099": [
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s0",
+        "iou": 0.9710144927536232
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s1",
+        "iou": 0.9593852908891328
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v24__s1",
+        "iou": 0.986404833836858
+      }
+    ],
+    "detached_correct": 0,
+    "detached_excess": 0,
+    "failures": [
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s0",
+        "damage": "cube5",
+        "bulk_fraction": 0.7687861271676301,
+        "unreached_bulk": 470,
+        "families": [
+          "access",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s2",
+        "damage": "cube5",
+        "bulk_fraction": 0.8836930455635491,
+        "unreached_bulk": 0,
+        "families": [
+          "access",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v24__s2",
+        "damage": "cube5",
+        "bulk_fraction": 0.8895027624309392,
+        "unreached_bulk": 0,
+        "families": [
+          "access",
+          "thickness"
+        ]
+      }
+    ]
+  },
+  "artifacts": "C:\\Users\\artin\\Documents\\Codex\\outputs\\CGR1-Final-Review-2026-09-28",
+  "decision": "Experimental only; frozen acceptance not met."
+}
