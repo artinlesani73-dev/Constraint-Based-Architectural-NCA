@@ -1,5 +1,22 @@
 # Resume the NCA next phase
 
+## D095 — TRAIN trajectory diagnosis complete — 2026-09-29
+
+Paired CGR1/CGR2 final256 rollouts on81TRAIN rows,32steps,firing2101. Verified162
+array hashes and reconstructed every stochastic birth exactly. No training or
+heldout work. CGR2 missing1389:1151fired/rejected,1007rejected>=8times,231never
+frontier,7frontier-never-fired. CGR1 missing1187. CGR2 net202fewer correct repairs
+and372fewer excess cells. Cube5 dominates. Ideal target-only growth<=4steps;
+not a stochastic/model guarantee. Wrong additions cannot geometrically block
+empty target cells, but may affect learned updates; no causal intervention done.
+See CGR2_TRAIN_DIAGNOSIS.md and experiments/reports/CGR2-train-diagnosis.json.
+Full evidence C:/Users/artin/Documents/Codex/outputs/CGR2-Train-Diagnosis-2026-09-29.
+Next specify ONE TRAIN-only intermediate-completion-state curriculum against
+CGR1, preserving on-policy examples and target-free inputs. Candidate only;
+not implemented/approved. Freeze state sampling, comparison and budget before
+asking for a GPU job. No automatic larger-grid/horizon/weight sweep. MG7 stays live.
+
+
 ## D094 — CGR2 completed; retain CGR1 reference — 2026-09-29
 
 Run20260929T062933Z_465972e5c250 completed256 GPU updates in78.467s;
