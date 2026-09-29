@@ -1,5 +1,21 @@
 # Next-phase implementation plan
 
+## D094 — CGR2 completed; retain CGR1 reference — 2026-09-29
+
+Run20260929T062933Z_465972e5c250 completed256 GPU updates in78.467s;
+1036payload hashes and checkpoint identity/cursors verified. Final frozen CPU
+review24/27valid; damaged15/18,IoU.970964,recovered1828,excess165,error23.5.
+Four gates fail: intact overlap,damaged validity,recovery,volume error. CGR1 had
+two failures; its1959recovered versus CGR2 1828. Reduced excess is a tradeoff,
+not overall acceptance. Same3cube5 cases fail access+thickness; zero detached
+voxels. Keep CGR1 reference,MG7 live. No TEST,paid retry,Drive or push.
+See CGR2_FINAL_REVIEW.md and experiments/reports/CGR2-final-review.json.
+Evidence: C:/Users/artin/Documents/Codex/outputs/CGR2-Final-Review-2026-09-29.
+Next: local TRAIN trajectory diagnosis (eligibility versus rejected births versus
+irreversible-growth effects), then specify a justified revision before any new
+compute request. Do not repeat the historical CGR2 launch instructions below.
+
+
 ## CGR2 objective revision ready; one GPU approval pending — 2026-09-28
 
 D093: separate bulk_repair.py retains CGR1 architecture, seed, data,32steps and

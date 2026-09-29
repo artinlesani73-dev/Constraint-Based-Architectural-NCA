@@ -1,0 +1,214 @@
+{
+  "run_id": "20260929T062933Z_465972e5c250",
+  "receipt": {
+    "archive": "20260929T062933Z_465972e5c250.zip",
+    "files": 1036,
+    "sha256": "f9821cd34ae52a0a6902df26192770fd69cb92db90d7e9fced7c33ccf26d5b4c"
+  },
+  "review": {
+    "all_conditions_met": false,
+    "checks": {
+      "damaged_excess": true,
+      "damaged_overlap": true,
+      "damaged_recovery": false,
+      "damaged_validity": false,
+      "intact_overlap": false,
+      "intact_validity": true,
+      "preservation": true,
+      "volume_error": false
+    },
+    "family_pass_counts": {
+      "access": 24,
+      "coverage": 27,
+      "facade": 27,
+      "ground": 27,
+      "legality": 27,
+      "sparsity": 27,
+      "spill": 27,
+      "support": 27,
+      "thickness": 24
+    },
+    "scope": "Repeated development cases; one seed. Structured accepted output, not unconstrained proposal. No TEST or automatic admission.",
+    "seconds": 24.656000000002678,
+    "status": "completed",
+    "summary": {
+      "all": {
+        "closing3": {
+          "all_nine_pass": 24,
+          "false_positive_cells": 26,
+          "median_absolute_request_error_cells": 6.0,
+          "median_iou": 0.9942263279445728,
+          "n": 27,
+          "recovered_cells": 1464,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 24,
+          "false_positive_cells": 248,
+          "median_absolute_request_error_cells": 16.0,
+          "median_iou": 0.984,
+          "n": 27,
+          "recovered_cells": 1828,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 87.0,
+          "median_iou": 0.9280245022970903,
+          "n": 27,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      },
+      "damaged": {
+        "closing3": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 13,
+          "median_absolute_request_error_cells": 38.0,
+          "median_iou": 0.9726789835896203,
+          "n": 18,
+          "recovered_cells": 1464,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 15,
+          "false_positive_cells": 165,
+          "median_absolute_request_error_cells": 23.5,
+          "median_iou": 0.9709644442713607,
+          "n": 18,
+          "recovered_cells": 1828,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 6,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 112.5,
+          "median_iou": 0.8748558843009382,
+          "n": 18,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      },
+      "intact": {
+        "closing3": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 13,
+          "median_absolute_request_error_cells": 5.0,
+          "median_iou": 1.0,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        },
+        "model": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 83,
+          "median_absolute_request_error_cells": 6.0,
+          "median_iou": 0.9931558935361217,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        },
+        "unchanged": {
+          "all_nine_pass": 9,
+          "false_positive_cells": 0,
+          "median_absolute_request_error_cells": 2.0,
+          "median_iou": 1.0,
+          "n": 9,
+          "recovered_cells": 0,
+          "surviving_cells_removed": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "priors": {
+      "CGR1": {
+        "all": {
+          "all_nine_pass": 24,
+          "median_iou": 0.9840182648401826,
+          "median_absolute_request_error_cells": 15.0,
+          "recovered_cells": 1959,
+          "false_positive_cells": 362,
+          "surviving_cells_removed": 0
+        },
+        "damaged": {
+          "all_nine_pass": 15,
+          "median_iou": 0.9750390765637211,
+          "median_absolute_request_error_cells": 15.5,
+          "recovered_cells": 1959,
+          "false_positive_cells": 245,
+          "surviving_cells_removed": 0
+        },
+        "intact": {
+          "all_nine_pass": 9,
+          "median_iou": 0.9942594718714122,
+          "median_absolute_request_error_cells": 9.0,
+          "recovered_cells": 0,
+          "false_positive_cells": 117,
+          "surviving_cells_removed": 0
+        }
+      },
+      "NR5": {
+        "all": {
+          "all_nine_pass": 17,
+          "median_iou": 0.981797497155859,
+          "median_absolute_request_error_cells": 19.0,
+          "recovered_cells": 1945,
+          "false_positive_cells": 497,
+          "surviving_cells_removed": 0
+        },
+        "damaged": {
+          "all_nine_pass": 11,
+          "median_iou": 0.9705768039313023,
+          "median_absolute_request_error_cells": 19.0,
+          "recovered_cells": 1945,
+          "false_positive_cells": 325,
+          "surviving_cells_removed": 0
+        },
+        "intact": {
+          "all_nine_pass": 6,
+          "median_iou": 0.9863325740318907,
+          "median_absolute_request_error_cells": 23.0,
+          "recovered_cells": 0,
+          "false_positive_cells": 172,
+          "surviving_cells_removed": 0
+        }
+      }
+    },
+    "verified_prior_arrays": 54,
+    "failures": [
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s0",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ],
+        "bulk_fraction": 0.7816229116945107
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ],
+        "bulk_fraction": 0.8909313725490197
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v24__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ],
+        "bulk_fraction": 0.8831587429492345
+      }
+    ],
+    "intact_below_099": 3,
+    "detached_voxels": 0
+  },
+  "artifact_location": "C:\\Users\\artin\\Documents\\Codex\\outputs\\CGR2-Final-Review-2026-09-29",
+  "accepted": false
+}
