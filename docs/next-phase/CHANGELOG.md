@@ -1832,3 +1832,20 @@ Next specify ONE TRAIN-only intermediate-completion-state curriculum against
 CGR1, preserving on-policy examples and target-free inputs. Candidate only;
 not implemented/approved. Freeze state sampling, comparison and budget before
 asking for a GPU job. No automatic larger-grid/horizon/weight sweep. MG7 stays live.
+
+
+## D096 — CGR3 curriculum specified and audited — 2026-09-29
+
+ONE proposed start-distribution change versus CGR1 (not CGR2). Same CGR1 losses,
+architecture,seed,256updates and32steps. Alternate original/teacher-derived partial
+starts by per-row visit, intact unchanged; model receives occupancy+context only.
+TRAIN-only deterministic sampler implemented; exact256-start audit:194original,
+62intermediate,86intact total,zero fallback. Verified reproducibility,binary/legal
+subset,no input removal,no complete augmented damaged target,non-TRAIN rejection.
+All256start arrays and hashes saved in Codex outputs/CGR3-Curriculum-Design-2026-09-29.
+See CGR3_CURRICULUM_SPEC.md and experiments/reports/CGR3-curriculum-feasibility.json.
+This is design feasibility, not model training/quality or a GPU-ready package.
+Next implement versioned training session with visit-counter recovery,unchanged
+original-input evaluation; one consolidated CPU check and8update package rehearsal.
+Then request ONE concrete256update600s T4 job approval. No automatic launch/retry,
+Drive,TEST,push or admission. MG7 remains live. Preserve prior results.
