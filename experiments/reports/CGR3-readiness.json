@@ -1,0 +1,123 @@
+{
+  "package": {
+    "archive": "NCA-CGR3-Curriculum-Package.zip",
+    "archive_bytes": 215012,
+    "archive_sha256": "498617094d60b12c10a6455daeae3046f9f56acf26667996c3c661b3f036cb97",
+    "heldout_rows": 0,
+    "manifest_sha256": "79a8719b2f35b07e7acb510947723bd9ffc09ff186b3dbcbb0580126cb0fa59e",
+    "notebook_sha256": "1567795420575f03e217477e0d8b6d030c581737508b06b556e06569d9e3e5ce",
+    "payload_files": 103,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh",
+      "jobs": 1,
+      "loss": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 0.5,
+        "intact_negative": 1.5,
+        "volume": 0.25
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "start_sampler": "intermediate_repair_starts_v1",
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "curriculum_constructive_repair_v1"
+    },
+    "train_rows": 81
+  },
+  "rehearsal": {
+    "cleanup": {
+      "active_processes_after_stop": 0,
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen validation-only rules.",
+    "request": {
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "manifest_sha256": "79a8719b2f35b07e7acb510947723bd9ffc09ff186b3dbcbb0580126cb0fa59e",
+      "max_seconds": 120.0,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh",
+        "jobs": 1,
+        "loss": {
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 0.5,
+          "intact_negative": 1.5,
+          "volume": 0.25
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "start_sampler": "intermediate_repair_starts_v1",
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "curriculum_constructive_repair_v1"
+      },
+      "updates": 8
+    },
+    "status": "completed",
+    "wall_seconds": 27.437000000005355,
+    "worker": {
+      "completed": 8,
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "failure": null,
+      "memory": {},
+      "pid": 28300,
+      "seed": 1201,
+      "status": "completed",
+      "wall_seconds": 24.843999999997322
+    }
+  },
+  "receipt": {
+    "archive": "20260929T070735Z_0580de3e2476.zip",
+    "files": 41,
+    "sha256": "204b4d5f85a96ee2c048d51eef32a10770448c70693c9b8089e92dbecc9017a8"
+  },
+  "verified_payloads": 41,
+  "start_hashes_verified": 8,
+  "tests": {
+    "consolidated_test_passed": true,
+    "seconds": 2.848,
+    "covers": [
+      "CGR1 first-update parity",
+      "augmented next-step exact full-payload recovery",
+      "original-input evaluation unchanged",
+      "CGR1/CGR2 semantic rejection",
+      "visit corruption rejection"
+    ]
+  },
+  "gpu_approved": false,
+  "gpu_executed": false
+}
