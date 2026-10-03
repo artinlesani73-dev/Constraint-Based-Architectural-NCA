@@ -1854,3 +1854,24 @@ export,idle extra. Download ZIP+receipt locally,including failures. No retry,
 extra seed,Drive,push or live admission. MG7 stays live. Upon returned evidence,
 adapt frozen final256 reviewer for new semantics/manifest and verify start visits,
 trace and arrays; retain original-input27development evaluation and all prior gates.
+
+
+## D098 — CGR3 stopped on changed Colab runtime — 2026-10-03
+
+Verified user ZIP+receipt20261003T093130Z_0cd5c5706d65:all5payload hashes,
+exact unique archive membership and expected CGR3 package manifest. Worker
+completed0updates; no checkpoint. Controlled8.742s,worker6.554s,exit1.
+T4,Python3.13.15,NumPy2.1.3 unchanged. Expected Torch2.11.0+cu128/CUDA12.8/
+cuDNN91900; actual Torch2.11.0+cu130/CUDA13.0/cuDNN92700. Strict stack guard
+stopped before training; not a model-quality failure. No final evaluation possible.
+Original ZIP,receipt,identity,log,result preserved at:
+C:/Users/artin/Documents/Codex/outputs/CGR3-Runtime-Stop-20261003T093130Z.
+Tracked record:experiments/records/20261003T093130Z_0cd5c5706d65.json.
+
+Next prepare one bounded compatibility/recovery check for the observed cu130
+stack before proposing a fresh CGR3 run. Verify deterministic backward and exact
+next-update recovery, including an augmented visit, on that same runtime. Do not
+simply bypass the guard, claim cu128/cu130 numerical equivalence, or reuse a prior
+runtime-bound checkpoint. Keep prior training package and failed evidence intact;
+new package/attempt must have new provenance. No retry approved or launched.
+CGR1 stays experimental reference,MG7 live; no TEST,Drive or push.

@@ -1,0 +1,31 @@
+{
+  "run_id": "20261003T093130Z_0cd5c5706d65",
+  "status": "failed",
+  "reason": "Strict runtime guard mismatch before checkpoint/training",
+  "completed_updates": 0,
+  "verified_payloads": 5,
+  "receipt": {
+    "archive": "20261003T093130Z_0cd5c5706d65.zip",
+    "files": 5,
+    "sha256": "91b9972bbed077a155fb30b1325c29bf0bc018c07eb18bdce902b9dd7f305643"
+  },
+  "controlled_seconds": 8.741784525000014,
+  "worker_seconds": 6.554084964000026,
+  "runtime_differences": {
+    "torch": {
+      "expected": "2.11.0+cu128",
+      "actual": "2.11.0+cu130"
+    },
+    "cuda_build": {
+      "expected": "12.8",
+      "actual": "13.0"
+    },
+    "cudnn": {
+      "expected": 91900,
+      "actual": 92700
+    }
+  },
+  "artifact_location": "C:\\Users\\artin\\Documents\\Codex\\outputs\\CGR3-Runtime-Stop-20261003T093130Z",
+  "execution_provenance": "User supplied execution evidence; no standing retry approval inferred.",
+  "quality_evaluation_performed": false
+}
