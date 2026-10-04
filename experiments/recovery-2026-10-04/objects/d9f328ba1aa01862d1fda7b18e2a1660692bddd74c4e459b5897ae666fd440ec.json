@@ -1,0 +1,16 @@
+{
+  "status": "learned_cpu_prototype_verified",
+  "source": "reversible_repair.py",
+  "tests": {
+    "passed": true,
+    "tests": 3,
+    "seconds": 3.0619999999762513,
+    "scope": "Synthetic CPU correctness and optimizer-step recovery. Delete/rebirth transition tested separately; no GPU evidence."
+  },
+  "timings": "timings.json",
+  "repository_sync_pending": true,
+  "quality_training_executed": false,
+  "gpu_executed": false,
+  "next": "Prepare disarmed GPU compatibility/timing package; approve no quality trial until changed-rule GPU evidence exists.",
+  "full_zip_exports": true
+}

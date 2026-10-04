@@ -1,0 +1,12 @@
+{
+  "changed_members": [
+    "nca/generation_training.py",
+    "PROTOCOL.md",
+    "scripts/colab_generation.py",
+    "nca/access_ranking.py"
+  ],
+  "all45_data_bytes_unchanged": true,
+  "model_rollout_and_pacing_bytes_unchanged": true,
+  "scientific_change": "Detach other reference logits in ranking only",
+  "metadata_correction": "seed loss includes ranking"
+}

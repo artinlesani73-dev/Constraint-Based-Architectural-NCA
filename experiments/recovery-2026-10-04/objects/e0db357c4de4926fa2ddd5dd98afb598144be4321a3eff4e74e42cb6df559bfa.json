@@ -1,0 +1,109 @@
+{
+  "event": "R3 cumulative admission TRAIN experiment complete",
+  "decision": {
+    "train_gates_pass": true,
+    "deployment_accepted": false,
+    "live_promoted": false,
+    "summary": {
+      "G11-R1": {
+        "metrics": {
+          "64": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.0023858483251371354,
+            "max_error": 0.0434356481012797
+          },
+          "128": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.0019293748079755035,
+            "max_error": 0.0026328253000094948
+          }
+        },
+        "stability": 37
+      },
+      "G11-R2": {
+        "metrics": {
+          "64": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.009537033460758348,
+            "max_error": 0.06262100819573069
+          },
+          "128": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.0019293748079755035,
+            "max_error": 0.0026328253000094948
+          }
+        },
+        "stability": 21
+      },
+      "G11-R3": {
+        "metrics": {
+          "64": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.0019293748079755035,
+            "max_error": 0.0026328253000094948
+          },
+          "128": {
+            "evaluated": 45,
+            "valid": 45,
+            "median_error": 0.0019293748079755035,
+            "max_error": 0.0026328253000094948
+          }
+        },
+        "stability": 45
+      }
+    },
+    "baseline_and_witness_equivalence_cases": [
+      "g1-aligned-y0-v16",
+      "g1-aligned-y0-v24",
+      "g1-aligned-y0-v32",
+      "g1-aligned-y2-v16",
+      "g1-aligned-y2-v24",
+      "g1-aligned-y2-v32",
+      "g1-aligned-y4-v16",
+      "g1-aligned-y4-v24",
+      "g1-aligned-y4-v32",
+      "g1-partial_obstruction-y0-v16",
+      "g1-partial_obstruction-y0-v24",
+      "g1-partial_obstruction-y0-v32",
+      "g1-partial_obstruction-y2-v16",
+      "g1-partial_obstruction-y2-v24",
+      "g1-partial_obstruction-y2-v32",
+      "g1-partial_obstruction-y4-v16",
+      "g1-partial_obstruction-y4-v24",
+      "g1-partial_obstruction-y4-v32",
+      "g1-wide_gap-y0-v16",
+      "g1-wide_gap-y0-v24",
+      "g1-wide_gap-y0-v32",
+      "g1-wide_gap-y2-v16",
+      "g1-wide_gap-y2-v24",
+      "g1-wide_gap-y2-v32",
+      "g1-wide_gap-y4-v16",
+      "g1-wide_gap-y4-v24",
+      "g1-wide_gap-y4-v32",
+      "g7-vertical-train-0-v16",
+      "g7-vertical-train-0-v24",
+      "g7-vertical-train-0-v32",
+      "g7-vertical-train-1-v16",
+      "g7-vertical-train-1-v24",
+      "g7-vertical-train-1-v32",
+      "g7-vertical-train-2-v16",
+      "g7-vertical-train-2-v24",
+      "g7-vertical-train-2-v32",
+      "g7-vertical-train-3-v16",
+      "g7-vertical-train-3-v24",
+      "g7-vertical-train-3-v32",
+      "g7-vertical-train-4-v16",
+      "g7-vertical-train-4-v24",
+      "g7-vertical-train-4-v32",
+      "g7-vertical-train-5-v16",
+      "g7-vertical-train-5-v24",
+      "g7-vertical-train-5-v32"
+    ],
+    "next": "Freeze R3 source, checkpoint and protocol. Create one genuinely new geometry set with physical-context disjointness against all prior TRAIN and exposed cases. Evaluate paired G10/R3 once on that new set and all69 old regression cases. Include certificate failures; no tuning or paid training. Only then consider a labelled hybrid preview."
+  }
+}

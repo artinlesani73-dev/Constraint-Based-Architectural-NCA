@@ -1,0 +1,38 @@
+{
+  "status": "G2 package verified; awaiting one paid-job approval",
+  "next": "Approve one T4 seed1201 job,256updates64steps,max600controlledseconds including two recovery replays. Open G2 notebook,upload G2 ZIP,set gate True only after approval,return full ZIP+receipt.",
+  "previous": "C:/Users/artin/Documents/Codex/outputs/G1-Seed-Diagnosis-2026-10-03-v2/RESUME.json",
+  "verification": {
+    "status": "passed",
+    "rehearsal_run": "20261003T190403Z_08d5aa94df57",
+    "controlled_seconds": 34.57799999997951,
+    "worker_seconds": 31.875,
+    "recovery": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "final_checkpoint_verified": true,
+    "export_payloads_verified": 22,
+    "package_payloads_verified": 51,
+    "gpu_tested": false,
+    "paid_run_started": false
+  },
+  "package": {
+    "archive": "NCA-G2-Balanced-Growth-Package.zip",
+    "sha256": "b0af101e93d280810e8480946b399696af4610b359deeff6779363216a26f2b4",
+    "payloads": 51
+  },
+  "repository_sync_pending": true,
+  "paid_run_authorized": false,
+  "reserved_access": false,
+  "live_model": "MG7 unchanged",
+  "drive_operations": 0
+}

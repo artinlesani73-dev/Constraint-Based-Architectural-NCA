@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "run": "20261004T105935Z_a63896cd138f",
+  "seconds": 57.23400000005495,
+  "verified_payloads": 23,
+  "exact_recovery": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ],
+  "g7_prefix_pairing": [
+    {
+      "update": 0,
+      "equal_keys": [
+        "version",
+        "completed",
+        "model",
+        "optimizer",
+        "optimizer_class",
+        "parameter_names",
+        "module_training",
+        "trace",
+        "sampler",
+        "rng",
+        "cuda_rng"
+      ],
+      "identity_separate": true
+    },
+    {
+      "update": 3,
+      "equal_keys": [
+        "version",
+        "completed",
+        "model",
+        "optimizer",
+        "optimizer_class",
+        "parameter_names",
+        "module_training",
+        "trace",
+        "sampler",
+        "rng",
+        "cuda_rng"
+      ],
+      "identity_separate": true
+    }
+  ],
+  "step_accounts": 192,
+  "planned427_visits": {
+    "min": 9,
+    "max": 10,
+    "total": 427
+  },
+  "model_quality_evaluated": false,
+  "fresh_reserved_inference": 0
+}

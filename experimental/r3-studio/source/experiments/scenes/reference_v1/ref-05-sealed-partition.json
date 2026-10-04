@@ -1,0 +1,84 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": null,
+      "id": "B_west",
+      "side": null,
+      "x": [
+        0,
+        8
+      ],
+      "y": [
+        0,
+        32
+      ],
+      "z": [
+        0,
+        32
+      ]
+    },
+    {
+      "gap_facing_x": null,
+      "id": "B_partition",
+      "side": null,
+      "x": [
+        14,
+        18
+      ],
+      "y": [
+        0,
+        32
+      ],
+      "z": [
+        0,
+        32
+      ]
+    },
+    {
+      "gap_facing_x": null,
+      "id": "B_east",
+      "side": null,
+      "x": [
+        24,
+        32
+      ],
+      "y": [
+        0,
+        32
+      ],
+      "z": [
+        0,
+        32
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Negative control: a full-height partition makes the two facade entrances unreachable.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_facade_west",
+      "kind": "facade",
+      "x": 8,
+      "y": 16,
+      "z": 10
+    },
+    {
+      "extent": 2,
+      "id": "E_facade_east",
+      "kind": "facade",
+      "x": 22,
+      "y": 16,
+      "z": 10
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "No legal path exists between the entrances. Any run reporting full connectivity here has a defective evaluator, not a good design.",
+    "Declared with no gap facades, so anchor zones are empty and the street band is protected in full."
+  ],
+  "scene_id": "ref-05-sealed-partition",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

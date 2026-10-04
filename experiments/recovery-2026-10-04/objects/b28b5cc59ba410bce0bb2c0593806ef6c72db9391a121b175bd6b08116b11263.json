@@ -1,0 +1,26 @@
+{
+  "device_probe": {
+    "device": "cpu",
+    "reference_cases": 12,
+    "union_backward_finite": true,
+    "admission_backend": "numpy_cpu",
+    "passed": true
+  },
+  "analytic_overlap_and_extreme_logits": true,
+  "band_gradient_direction_and_seed_bce_only": true,
+  "train_graphs_recomputed": 27,
+  "realistic_reference_cases": 20,
+  "cpu_admission_seconds": {
+    "median": 0.000850549986353144,
+    "max": 0.0010763999889604747,
+    "includes_eligibility": true,
+    "gpu_transfer_included": false
+  },
+  "rollout12_forward_backward_seconds": 1.331708699988667,
+  "rollout12_mass": 1,
+  "finite_model_gradients": true,
+  "invalid_starts_rejected": true,
+  "connected_thin_and_disconnected_cube_union_rejected": true,
+  "g3_checkpoint_rejected": true,
+  "elapsed_seconds": 3.65993859997252
+}

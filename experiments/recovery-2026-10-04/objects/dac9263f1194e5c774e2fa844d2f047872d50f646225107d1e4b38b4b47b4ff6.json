@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "original_preserved": true,
+    "wrong_added_cell_can_be_removed": true,
+    "detached_descendants_pruned": true,
+    "no_firing_preserves_valid_anchored_state": true,
+    "illegal_births_blocked": true,
+    "births_use_previous_six_face_frontier": true,
+    "disconnected_originals_preserved_not_forced_to_merge": true
+  },
+  "scope": "Reference binary transition only; no learning, recovery or GPU evidence.",
+  "source_sha256": "dc71a8b9ee57b87dc9ea9d8ee6babbce3f730cc9a8484b73e2a8d2ac1ff8bf13"
+}

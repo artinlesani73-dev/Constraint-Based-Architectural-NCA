@@ -1,0 +1,199 @@
+{
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 403,
+    "gross_volume_m3": 206.33600000000004,
+    "domain_voxels": 5016,
+    "volume_fraction": 0.08034290271132376,
+    "bulk_voxels": 403,
+    "bulk_fraction": 1.0,
+    "thirds": [
+      {
+        "domain_cells": 1680,
+        "bulk_cells": 135,
+        "fraction": 0.08035714285714286
+      },
+      {
+        "domain_cells": 1656,
+        "bulk_cells": 133,
+        "fraction": 0.08031400966183574
+      },
+      {
+        "domain_cells": 1680,
+        "bulk_cells": 135,
+        "fraction": 0.08035714285714286
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "bulk_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "unreached_occupied_voxels": 0,
+    "unreached_bulk_voxels": 0,
+    "facade_contact_fraction": 0.11166253101736973,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 403,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "contract_pass": true,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "plan": [
+    [
+      6,
+      12,
+      11
+    ],
+    [
+      6,
+      11,
+      11
+    ],
+    [
+      6,
+      10,
+      11
+    ],
+    [
+      6,
+      9,
+      11
+    ],
+    [
+      6,
+      8,
+      11
+    ],
+    [
+      6,
+      7,
+      11
+    ],
+    [
+      6,
+      6,
+      11
+    ],
+    [
+      6,
+      6,
+      12
+    ],
+    [
+      6,
+      6,
+      13
+    ],
+    [
+      6,
+      6,
+      14
+    ],
+    [
+      6,
+      6,
+      15
+    ],
+    [
+      6,
+      6,
+      16
+    ],
+    [
+      6,
+      7,
+      14
+    ],
+    [
+      6,
+      8,
+      14
+    ],
+    [
+      6,
+      9,
+      14
+    ],
+    [
+      6,
+      9,
+      15
+    ],
+    [
+      6,
+      12,
+      14
+    ],
+    [
+      6,
+      13,
+      11
+    ],
+    [
+      6,
+      13,
+      14
+    ],
+    [
+      6,
+      14,
+      11
+    ],
+    [
+      6,
+      15,
+      11
+    ],
+    [
+      6,
+      16,
+      11
+    ],
+    [
+      6,
+      14,
+      13
+    ],
+    [
+      6,
+      10,
+      15
+    ]
+  ],
+  "certified": true
+}

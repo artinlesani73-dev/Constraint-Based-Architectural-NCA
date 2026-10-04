@@ -1,0 +1,71 @@
+{
+  "execution_provenance": "User supplied completed run; no new compute approval inferred.",
+  "receipt": {
+    "archive": "20261003T102352Z_a40c9f968e66.zip",
+    "files": 1036,
+    "sha256": "aa842375705080e46833722951c38a893b2a8a2c10594a53426544faba7267b7"
+  },
+  "result": {
+    "cleanup": {
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Training evidence only. Final quality is evaluated separately on CPU with frozen validation-only rules.",
+    "request": {
+      "cpu_rehearsal": false,
+      "device": "cuda:0",
+      "manifest_sha256": "d6a43bc047416984e1246c3f231ae1c2aea3cae34b786a20249979c4e3163b3e",
+      "max_seconds": 600.0,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh",
+        "jobs": 1,
+        "loss": {
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 0.5,
+          "intact_negative": 1.5,
+          "volume": 0.25
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "start_sampler": "intermediate_repair_starts_v1",
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "curriculum_constructive_repair_v1"
+      },
+      "updates": 256
+    },
+    "status": "completed",
+    "wall_seconds": 59.97029765000002,
+    "worker": {
+      "completed": 256,
+      "cpu_rehearsal": false,
+      "device": "cuda:0",
+      "failure": null,
+      "memory": {
+        "peak_allocated": 577885184,
+        "peak_reserved": 744488960,
+        "total": 15637086208
+      },
+      "pid": 4863,
+      "seed": 1201,
+      "status": "completed",
+      "wall_seconds": 57.295726865000006
+    }
+  }
+}

@@ -1,0 +1,49 @@
+# G5 destination-guidance pilot
+
+One focused hypothesis: G4 exhausts its budget before reaching the opposite
+interface because useful destination information is not readily available to
+early local proposals. Add two static context-only input channels:normalized
+shortest legal cube-origin distance to the farXinterface,and a reachable flag.
+This tests feature availability; it does not establish the cause of G4failure.
+No new constraint category. Same nine families and overall building-volume brief.
+
+Destination is maximumX plane of legal interface-union voxels,opposite the
+existing minimumX seed convention. Legal origins fit an entire3cube inside the
+allowed domain. Goal origins cover at least one destination voxel. Multi-source
+6-neighbour BFS on origins computes shortest graph distances; normalize by the
+maximum finite distance in that context,minimum1. Invalid/unreachable origins
+have distance0,reachable0. Valid goal has distance0,reachable1. Pad one zero voxel
+around origin arrays to align their values with cube centres. No derivatives of
+these two channels are added. Context-only cache has32entries;cached values are
+immutable and independent of training/RNG. No teacher,route,target mass,current
+occupancy or development labels enter feature construction. This is scoped to
+the existing oppositeXinterface convention,not arbitrary-interface support.
+
+Fresh seed1201,63->64->8 model. Copy the same freshly initialized60core inputs as
+G4; budget and two cue weights start at zero. No trained G4weights imported.
+Existing27TRAIN dataset bytes,teacher cube stages,sampler,start schedule,losses,
+origin firing,hard threshold,overlap admission,volume band and64step training
+remain unchanged. All previously declared hybrid CPU/GPU limitations remain.
+Global context preprocessing is additional nonlocal information,not a pure
+local NCA. Cube support,budget obedience and saturation stability remain enforced.
+
+One Tesla T4 job:256updates,batch1,64steps,float32,Adam0.001,gradient clip1,
+maximum600controlledseconds. Includes12admission reference probes,union backward,
+cue device-copy check,exact full-payload recovery at updates2and3,every completed
+update checkpoint/start/state/trace,and a final seed-only diagnostic. Setup,
+upload/export/download/idle extra. ExpectedPython3.13.15,Torch2.11.0+cu130,
+NumPy2.1.3,CUDA13.0,cuDNN92700. Stop on runtime mismatch,probe/recovery failure,
+nonfinite values or reserved GPU memory>80%. No retry or automatic extension.
+Exact recovery is completed-update and same-runtime only. Export FULL ZIP+receipt.
+
+Frozen review unchanged:final256checkpoint,CPUfloat32,firing2101,nine reused
+G1development requests,single scene-defined seed,64primary and128stability steps.
+Require9/9all-nine at both horizons,median absolute requested-fraction error
+<=0.02,max<=0.04,and each mass change<=5%. Report all cases/families,IoUdiagnostic,
+cap steps and seven-column block accounting;no postprocessing,rerolls,threshold
+or checkpoint search. Existing G4run is comparison;no extra control GPU job.
+Development reuse is explicit;reserved labels remain unopened. Passing these
+pilot gates does not authorize deployment. MG7 remains live.
+
+Keep APPROVED_G5_JOB=False until this exact single job has an explicit compute
+allowance. No Drive operation,paid retry,extra seed,push or publication authorized.

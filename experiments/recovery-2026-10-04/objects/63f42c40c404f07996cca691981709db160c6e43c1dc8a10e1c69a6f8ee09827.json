@@ -1,0 +1,246 @@
+{
+  "admission_is_detached": true,
+  "experiment": {
+    "manifest_sha256": "d398ef69b4771f5bb1cc62675ffc4f912cc691b0a4f85dde517474acc8479606",
+    "settings": {
+      "admission": "cpu_sequential_cube_overlap_v1",
+      "admission_count_columns": [
+        "initial_mass",
+        "offered_blocks",
+        "accepted_blocks",
+        "budget_rejected_blocks",
+        "redundant_blocks",
+        "deferred_seed_blocks",
+        "added_voxels"
+      ],
+      "architecture": "63-64-8",
+      "automatic_retry": false,
+      "budget_width": 3,
+      "cue_channels": [
+        "normalized_cube_graph_distance",
+        "reachable_origin"
+      ],
+      "cue_normalization": "maximum finite context distance,minimum1",
+      "cue_weights_initialization": "zero",
+      "destination_cue": "opposite_x_interface_cube_distance_v1",
+      "objective": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 1.0,
+        "global_band": 1.0,
+        "volume": 0.25
+      },
+      "proposal_shape": [
+        30,
+        30,
+        30
+      ],
+      "review_firing_seed": 2101,
+      "review_steps": 64,
+      "seconds": 600,
+      "seed": 1201,
+      "seed_loss": "frontier_only",
+      "seed_start_fraction": 0.5,
+      "stability_steps": 128,
+      "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+      "train_steps": 64,
+      "union_surrogate": "independent_before_hard_selection",
+      "updates": 256,
+      "version": "seed_generation_training_v5_destination"
+    }
+  },
+  "generation_settings": {
+    "admission": "cpu_sequential_cube_overlap_v1",
+    "admission_count_columns": [
+      "initial_mass",
+      "offered_blocks",
+      "accepted_blocks",
+      "budget_rejected_blocks",
+      "redundant_blocks",
+      "deferred_seed_blocks",
+      "added_voxels"
+    ],
+    "architecture": "63-64-8",
+    "automatic_retry": false,
+    "budget_width": 3,
+    "cue_channels": [
+      "normalized_cube_graph_distance",
+      "reachable_origin"
+    ],
+    "cue_normalization": "maximum finite context distance,minimum1",
+    "cue_weights_initialization": "zero",
+    "destination_cue": "opposite_x_interface_cube_distance_v1",
+    "objective": {
+      "cube": 3,
+      "frontier_negative": 1.0,
+      "frontier_positive": 1.0,
+      "global_band": 1.0,
+      "volume": 0.25
+    },
+    "proposal_shape": [
+      30,
+      30,
+      30
+    ],
+    "review_firing_seed": 2101,
+    "review_steps": 64,
+    "seconds": 600,
+    "seed": 1201,
+    "seed_loss": "frontier_only",
+    "seed_start_fraction": 0.5,
+    "stability_steps": 128,
+    "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+    "train_steps": 64,
+    "union_surrogate": "independent_before_hard_selection",
+    "updates": 256,
+    "version": "seed_generation_training_v5_destination"
+  },
+  "global_budget_operations": true,
+  "hard_birth_gradients": false,
+  "model_semantics": "seed_generation_training_v5_destination",
+  "objective": {
+    "cube": 3,
+    "frontier_negative": 1.0,
+    "frontier_positive": 1.0,
+    "global_band": 1.0,
+    "volume": 0.25
+  },
+  "ordered_training_rows": [
+    {
+      "arrays": "examples/g1-aligned-y0-v16.npz",
+      "sha256": "ac14fea01097908cbb60689b6ee2b62fe4de8f96a96b35b359e56aa6492222fe"
+    },
+    {
+      "arrays": "examples/g1-aligned-y0-v24.npz",
+      "sha256": "822448e9d949f940442497691ef6476a54aa2819c67eb87e7d534a8abacbbef9"
+    },
+    {
+      "arrays": "examples/g1-aligned-y0-v32.npz",
+      "sha256": "d218851ae641d36366c157620616712b5247c511daaabb7b8aa4570221dcbd7a"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v16.npz",
+      "sha256": "3dc41f136d6b81e76afe6b67acfd644905c434698d12da49a58f21a332aaa362"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v24.npz",
+      "sha256": "f8bfeda9c6648f63798017b7327c6e9e33ab570d86691d3815e64303c76eed55"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v32.npz",
+      "sha256": "8ad5f9011e2b6ee031b2b7597f772c51f21b3904d292d1eaca1acefb7e35d092"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v16.npz",
+      "sha256": "32ead70c91333ff778377c4660996f0978af1fb84dd19d10a5b113a9f7b924ee"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v24.npz",
+      "sha256": "f09d2526341658302b28a07ba04b3de7520206b85350cba19507a851eb64f0c0"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v32.npz",
+      "sha256": "834aa9f618dbb954cbeb88dc05119a9953c61733f7c9275f5397d67f7d1ce4e0"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v16.npz",
+      "sha256": "b1b0c999165821d5d2f85c7b6e255856c61696358a16d925edd988465c1e63eb"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v24.npz",
+      "sha256": "5a9a8a0685d34a0907c20eec749e0afd1893296c7a7b07640525a98ba6135c5a"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v32.npz",
+      "sha256": "2b248555461f39c29fdb67e2001040893f757c527b7b142d0183845c0069f208"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v16.npz",
+      "sha256": "838fd1f5f95bf9d2645b6b519ecf3ebaa21a62d1679d41eedc39eaf3b7a4bd15"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v24.npz",
+      "sha256": "e527c9e42e3a204cb98288407689810d63cf7decb1ab73e6af93eda36fb77743"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v32.npz",
+      "sha256": "c73af01e081f77cba91da6fe7c9e35c2e4ca50702d3f032298960527d8ca9d92"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v16.npz",
+      "sha256": "c8c6bf649f587aff3b1a0ef9fc906e962571d3b7e42672109498221fae4c78a4"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v24.npz",
+      "sha256": "92dd0e2e12ceef929216839f079d1dfa5d1d4bfeed092305dfd1d70b2d3e8fd2"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v32.npz",
+      "sha256": "32771682c3ddd66f7c4c6b073cdc4e4640e1e807e9f1b17bc0aa674e84359b92"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v16.npz",
+      "sha256": "c22b5fe35fef8d173272e1a232dc6383fe923700f74a295579a3dbc600596aa3"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v24.npz",
+      "sha256": "72474e3b72bb255b85999c37f6a4951497a2126bd2f1f182b3c4b7a0bfc44fb0"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v32.npz",
+      "sha256": "d5449d5c0a5073a01ce78da520818936396c0424b3ae0baad277b6f6a4f98204"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v16.npz",
+      "sha256": "fd929a55b3e015193e4a6eff5ccd8f06bf6c534d5329ed63dbfdc857ebdc9a4a"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v24.npz",
+      "sha256": "fdd56b8d3f00d695c89b819aa01a979600589a82721ec83e981b005720dd64f2"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v32.npz",
+      "sha256": "20844c3215c829a021ecab951dbe5cbbc93141ba5aa841a9743cf70d25396abc"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v16.npz",
+      "sha256": "619b765462b5525511564fd5cbb70b2af59c188573c62585529be8f83d718ed6"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v24.npz",
+      "sha256": "8f9b42346d3697b62ec832c120b6e9c89b15dee0d06be456cdc1cd7dc233b57e"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v32.npz",
+      "sha256": "73d49992d299388e216e6117882a2abfe4e94187a212417b8943491ca9bb6656"
+    }
+  ],
+  "runtime": {
+    "cublas_workspace": ":4096:8",
+    "cuda_build": "13.0",
+    "cudnn": 92700,
+    "cudnn_benchmark": false,
+    "deterministic": true,
+    "device": "cuda:0",
+    "driver_and_gpu_uuid": "580.82.07, GPU-891d36b5-6e6e-d1cb-c4dd-140c4197c3cc",
+    "dtype": "float32",
+    "gpu_capability": [
+      7,
+      5
+    ],
+    "gpu_count": 1,
+    "gpu_memory_bytes": 15637086208,
+    "gpu_name": "Tesla T4",
+    "host": "acf91465e375",
+    "numpy": "2.1.3",
+    "python": "3.13.15",
+    "tf32_cudnn": false,
+    "tf32_matmul": false,
+    "threads": 2,
+    "torch": "2.11.0+cu130",
+    "torch_build_configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.10.2 (Git Hash f1d471933dc852f956fd05389f9313c7148783d5)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.7  (built against CUDA 12.9)\n    - Built with CuDNN 91.9\n  - Magma 2.6.1\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=70d99e998b4955e0049d13a98d77ae1b14db1f45, CUDA_VERSION=13.0, CUDNN_VERSION=9.19.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.11.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+  },
+  "seed": 1201,
+  "train_steps": 64,
+  "version": "volume_repair_portable_preflight_v1"
+}

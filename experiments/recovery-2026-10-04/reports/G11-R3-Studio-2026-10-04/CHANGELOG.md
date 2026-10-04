@@ -1,0 +1,1 @@
+2026-10-04: Added CPU generation endpoint, persisted jobs, saved-history UI, explicit failure display, reference parity and fault-injection verification. Finalized history selection retention. See RESUME.md for source, evidence and limits.

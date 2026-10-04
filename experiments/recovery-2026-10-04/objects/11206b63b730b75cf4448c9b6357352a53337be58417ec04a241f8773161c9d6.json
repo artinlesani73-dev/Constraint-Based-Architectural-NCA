@@ -1,0 +1,29 @@
+{
+  "cpu_rehearsal": true,
+  "device": "cpu",
+  "manifest_sha256": "9fd9ce2d0ccb65ad09861436aef2669c04f843801b0e1c6a5b5b1b1c3901798c",
+  "max_seconds": 600.0,
+  "replayed_updates": 2,
+  "seed": 1201,
+  "settings": {
+    "automatic_retry": false,
+    "objective": {
+      "cube": 3,
+      "frontier_negative": 1.0,
+      "frontier_positive": 0.5,
+      "intact_negative": 1.5,
+      "volume": 0.25
+    },
+    "review_firing_seed": 2101,
+    "review_steps": 64,
+    "seconds": 600,
+    "seed": 1201,
+    "seed_start_fraction": 0.5,
+    "stability_steps": 128,
+    "teacher_stages": "alternating; sha256(update:row) modulo max teacher distance",
+    "train_steps": 64,
+    "updates": 256,
+    "version": "seed_generation_training_v1"
+  },
+  "updates": 3
+}

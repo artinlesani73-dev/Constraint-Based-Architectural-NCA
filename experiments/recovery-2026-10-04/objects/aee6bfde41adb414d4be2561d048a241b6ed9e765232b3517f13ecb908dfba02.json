@@ -1,0 +1,17 @@
+{
+  "change": "two geometry-planner waypoint alternatives; downstream R3 unchanged",
+  "variants": [
+    "low_y",
+    "high_y"
+  ],
+  "site": "fixed custom site from parent bbf64c65230c4531bf50a887ade4f59d",
+  "request": 0.24,
+  "seed": 2102,
+  "horizons": [
+    64,
+    128
+  ],
+  "gate": "all nine families, absolute volume error<=.04, growth64-128<=.05; no retry or tuning on these results",
+  "scope": "single-site exploratory design probe; not held-out acceptance",
+  "interpretation": "Jaccard difference is geometric variation, not architectural merit"
+}

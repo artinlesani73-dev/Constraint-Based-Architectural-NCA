@@ -1,0 +1,29 @@
+{
+  "updates": 427,
+  "step_accounts": 27328,
+  "starts": {
+    "seed": 214,
+    "cube_teacher_stage": 213
+  },
+  "events": {
+    "accepted_blocks": 73676,
+    "allowance_rejected_blocks": 1250499,
+    "redundant_blocks": 15446,
+    "deferred_seed_blocks": 810,
+    "added_voxels": 284804
+  },
+  "all_start_hashes_and_saved_fields_verified": true,
+  "all_terminal_fields_legal_connected_cube_unions_or_single_seed": true,
+  "sampler_order_verified": true,
+  "device_probe": {
+    "admission_backend": "numpy_cpu",
+    "device": "cuda:0",
+    "paced_reference_cases": 8,
+    "pacing_horizon_constant": 64,
+    "passed": true,
+    "reference_cases": 12,
+    "union_backward_finite": true
+  },
+  "full_training_rollouts_replayed": false,
+  "all_27328_effective_ceilings_verified": true
+}

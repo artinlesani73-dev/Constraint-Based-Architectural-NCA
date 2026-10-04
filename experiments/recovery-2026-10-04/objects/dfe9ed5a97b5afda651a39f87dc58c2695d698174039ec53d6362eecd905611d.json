@@ -1,0 +1,46 @@
+{
+  "status": "ready_for_explicit_one_job_approval",
+  "package": {
+    "archive": "NCA-G6-Paced-Package.zip",
+    "sha256": "acd89fc884b11c1bfad84075f325cff3af916bdf56463cc84c070147d5e28bc1",
+    "payloads": 57,
+    "manifest_sha256": "1c538905fbaa612639131fd97f3207deed1c398ac824db47fbabb2a2ebb635ab"
+  },
+  "gpu": "Tesla T4",
+  "seed": 1201,
+  "updates": 256,
+  "steps": 64,
+  "max_controlled_seconds": 600,
+  "paid_run_authorized": false,
+  "setup_export_idle_extra": true,
+  "rehearsal": {
+    "run": "20261004T080937Z_e82f41f9d831",
+    "controlled_seconds": 33.18699999997625,
+    "worker_seconds": 30.46799999999348,
+    "retained_updates": 3,
+    "exact_recoveries": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "evidence_payloads": 23,
+    "evidence_sha256": "d620747e58c6e243de84bb74ceb9b4a83f555eb600cef67dbe07618e376974a0",
+    "verified_step_accounts_and_caps": 192,
+    "all_start_hashes_verified": true,
+    "initial_parameters_equal_g4": true,
+    "row_start_schedule_equal_g4": true,
+    "firing_rng_equal_g4": true,
+    "quality_evaluated": false
+  },
+  "evidence_basis": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G6-Objective-Audit-2026-10-04\\FINDINGS.md",
+  "development_or_reserved_evaluation": false,
+  "repository_sync_pending": true,
+  "live_model": "MG7 unchanged"
+}

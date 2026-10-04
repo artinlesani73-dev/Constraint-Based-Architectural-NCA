@@ -1,0 +1,1 @@
+Diagnostic used Boolean target from NPZ directly, instead of float conversion used by actual training session. Baseline convolution rejected it. Rehearsal itself passed. Fix diagnostic dtype only; no package/training change. No heldout use.

@@ -1,0 +1,2462 @@
+{
+  "prefix_and_finite_checks": [
+    {
+      "case": "g1-offset_interfaces-y0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 5
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 6
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-raised_pair-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 18
+    },
+    {
+      "case": "g1-raised_pair-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-raised_pair-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-raised_pair-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 16
+    },
+    {
+      "case": "g1-raised_pair-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-raised_pair-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 28
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g7-vertical-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 24
+    },
+    {
+      "case": "g7-vertical-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g7-vertical-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g7-vertical-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 12
+    },
+    {
+      "case": "g7-vertical-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g7-vertical-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g7-vertical-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 17
+    },
+    {
+      "case": "g7-vertical-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 19
+    },
+    {
+      "case": "g7-vertical-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 11
+    },
+    {
+      "case": "g7-vertical-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 45
+    },
+    {
+      "case": "g7-vertical-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 29
+    },
+    {
+      "case": "g7-vertical-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 45
+    },
+    {
+      "case": "g8-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 22
+    },
+    {
+      "case": "g8-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 17
+    },
+    {
+      "case": "g8-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 20
+    },
+    {
+      "case": "g8-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 14
+    },
+    {
+      "case": "g8-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 29
+    },
+    {
+      "case": "g8-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 11
+    },
+    {
+      "case": "g8-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 19
+    },
+    {
+      "case": "g8-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 7
+    },
+    {
+      "case": "g8-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 6
+    },
+    {
+      "case": "g8-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 10
+    },
+    {
+      "case": "g8-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 7
+    },
+    {
+      "case": "g9-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 26
+    },
+    {
+      "case": "g9-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 2
+    },
+    {
+      "case": "g10-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 20
+    },
+    {
+      "case": "g10-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 14
+    },
+    {
+      "case": "g10-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g10-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 21
+    },
+    {
+      "case": "g10-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 15
+    },
+    {
+      "case": "g10-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 30
+    },
+    {
+      "case": "g10-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 1
+    },
+    {
+      "case": "g10-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g10-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g10-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 5
+    },
+    {
+      "case": "g10-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g10-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-baseline-g10-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 47
+    },
+    {
+      "case": "g8-baseline-g10-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 25
+    },
+    {
+      "case": "g8-baseline-g10-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-baseline-g10-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 12
+    },
+    {
+      "case": "g8-baseline-g10-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 16
+    },
+    {
+      "case": "g8-baseline-g10-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 32
+    },
+    {
+      "case": "g8-baseline-g10-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 5
+    },
+    {
+      "case": "g8-baseline-g10-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-baseline-g10-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-baseline-g10-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 2
+    },
+    {
+      "case": "g8-baseline-g10-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g8-baseline-g10-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-baseline-g10-reserved-0-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 136
+    },
+    {
+      "case": "g9-baseline-g10-reserved-0-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 171
+    },
+    {
+      "case": "g9-baseline-g10-reserved-0-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 48
+    },
+    {
+      "case": "g9-baseline-g10-reserved-1-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 237
+    },
+    {
+      "case": "g9-baseline-g10-reserved-1-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 92
+    },
+    {
+      "case": "g9-baseline-g10-reserved-1-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 44
+    },
+    {
+      "case": "g9-baseline-g10-reserved-2-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 147
+    },
+    {
+      "case": "g9-baseline-g10-reserved-2-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-baseline-g10-reserved-2-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 0
+    },
+    {
+      "case": "g9-baseline-g10-reserved-3-v16",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 19
+    },
+    {
+      "case": "g9-baseline-g10-reserved-3-v24",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 6
+    },
+    {
+      "case": "g9-baseline-g10-reserved-3-v32",
+      "prefix64_equal": true,
+      "finite_states": true,
+      "changed_cells": 2
+    }
+  ],
+  "paired_comparison": [
+    {
+      "case": "g1-offset_interfaces-y0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-raised_pair-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access",
+        "coverage"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g7-vertical-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access",
+        "coverage"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g7-vertical-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g7-vertical-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g7-vertical-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g7-vertical-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g8-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g8-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "coverage"
+      ]
+    },
+    {
+      "case": "g8-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g8-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-0-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-0-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-0-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-1-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-1-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-1-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-2-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-2-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-2-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-3-v16",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": false,
+      "baseline_failed": [],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g9-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-3-v24",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g9-reserved-3-v32",
+      "cohort": "regression",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-0-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-0-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-1-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-1-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-1-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-1-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-2-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-2-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-2-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": false,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": [
+        "access"
+      ]
+    },
+    {
+      "case": "g10-reserved-2-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": false,
+      "g10_pass": true,
+      "baseline_failed": [
+        "access"
+      ],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-2-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v16",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v24",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 64,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G8",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    },
+    {
+      "case": "g10-reserved-3-v32",
+      "cohort": "fresh_reserved",
+      "baseline": "G9",
+      "steps": 128,
+      "baseline_pass": true,
+      "g10_pass": true,
+      "baseline_failed": [],
+      "g10_failed": []
+    }
+  ],
+  "paired_summary": {
+    "regression_G9": {
+      "64": {
+        "baseline": 47,
+        "g10": 45,
+        "improved": [
+          "g8-reserved-1-v24",
+          "g8-reserved-2-v16",
+          "g9-reserved-0-v16",
+          "g9-reserved-2-v24"
+        ],
+        "regressed": [
+          "g7-vertical-reserved-2-v16",
+          "g8-reserved-0-v32",
+          "g8-reserved-3-v16",
+          "g9-reserved-0-v24",
+          "g9-reserved-0-v32",
+          "g9-reserved-3-v16"
+        ]
+      },
+      "128": {
+        "baseline": 49,
+        "g10": 45,
+        "improved": [
+          "g8-reserved-1-v24",
+          "g9-reserved-0-v16",
+          "g9-reserved-2-v24"
+        ],
+        "regressed": [
+          "g1-unequal_building_heights-1-v16",
+          "g7-vertical-reserved-2-v16",
+          "g8-reserved-0-v32",
+          "g8-reserved-3-v16",
+          "g9-reserved-0-v24",
+          "g9-reserved-0-v32",
+          "g9-reserved-3-v16"
+        ]
+      }
+    },
+    "fresh_reserved_G9": {
+      "64": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-1-v32",
+          "g10-reserved-2-v24"
+        ],
+        "regressed": []
+      },
+      "128": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-1-v32",
+          "g10-reserved-2-v24"
+        ],
+        "regressed": []
+      }
+    },
+    "fresh_reserved_G8": {
+      "64": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-2-v24",
+          "g10-reserved-2-v32"
+        ],
+        "regressed": []
+      },
+      "128": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-2-v24",
+          "g10-reserved-2-v32"
+        ],
+        "regressed": []
+      }
+    }
+  }
+}

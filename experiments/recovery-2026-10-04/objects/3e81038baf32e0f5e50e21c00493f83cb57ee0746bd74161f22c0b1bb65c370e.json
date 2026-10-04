@@ -1,0 +1,126 @@
+{
+  "milestone": "G4 learned cube proposals implemented and locally rehearsed",
+  "changes": [
+    "cube-origin network output",
+    "full-cube TRAIN stages",
+    "overlap-aware differentiable voxel union",
+    "seed-only classification objective",
+    "detached CPU whole-cube budget admission",
+    "explicit7-column accounting",
+    "saved exact start fields and hashes",
+    "distinct semantic/checkpoint identity"
+  ],
+  "decisions": [
+    "Accept hybrid CPU admission for this bounded pilot; measure GPU cost inside capped job",
+    "Preserve same9families and frozen development gates",
+    "No separate paid preflight; checks embedded in proposed single job"
+  ],
+  "attempts": [
+    {
+      "folder": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Block-Training-2026-10-03",
+      "run": "20261003T213926Z_9f4350d0f774",
+      "controlled_seconds": 30.31199999997625,
+      "worker_seconds": 28.01600000000326,
+      "evidence_files": 23,
+      "evidence_sha256": "d2aaaa43e4dfd772ee6b6a9f7e036ddf67af3be016f2432b46b9192c1e5715da",
+      "recoveries": [
+        {
+          "full_payload_equal": true,
+          "state_equal": true,
+          "update": 2
+        },
+        {
+          "full_payload_equal": true,
+          "state_equal": true,
+          "update": 3
+        }
+      ],
+      "traces": [
+        {
+          "update": 1,
+          "start_kind": "seed",
+          "start_mass": 1,
+          "final_mass": 1,
+          "loss": 1.2454988956451416,
+          "accepted_blocks": 0,
+          "rejected_blocks": 0
+        },
+        {
+          "update": 2,
+          "start_kind": "cube_teacher_stage",
+          "start_mass": 441,
+          "final_mass": 556,
+          "loss": 1.4661365747451782,
+          "accepted_blocks": 29,
+          "rejected_blocks": 5063
+        },
+        {
+          "update": 3,
+          "start_kind": "seed",
+          "start_mass": 1,
+          "final_mass": 1054,
+          "loss": 1.5071498155593872,
+          "accepted_blocks": 285,
+          "rejected_blocks": 4894
+        }
+      ]
+    },
+    {
+      "folder": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Block-Training-2026-10-03-v2",
+      "run": "20261003T214142Z_6c0f9e5d3f06",
+      "controlled_seconds": 30.71799999999348,
+      "worker_seconds": 28.48499999998603,
+      "evidence_files": 23,
+      "evidence_sha256": "d7dbcfe557781b85daff3edf1776a83f807a0070be96432a2aa997c9d3f07948",
+      "recoveries": [
+        {
+          "full_payload_equal": true,
+          "state_equal": true,
+          "update": 2
+        },
+        {
+          "full_payload_equal": true,
+          "state_equal": true,
+          "update": 3
+        }
+      ],
+      "traces": [
+        {
+          "update": 1,
+          "start_kind": "seed",
+          "start_mass": 1,
+          "final_mass": 1,
+          "loss": 1.2454988956451416,
+          "accepted_blocks": 0,
+          "rejected_blocks": 0
+        },
+        {
+          "update": 2,
+          "start_kind": "cube_teacher_stage",
+          "start_mass": 441,
+          "final_mass": 556,
+          "loss": 1.4661365747451782,
+          "accepted_blocks": 29,
+          "rejected_blocks": 5063
+        },
+        {
+          "update": 3,
+          "start_kind": "seed",
+          "start_mass": 1,
+          "final_mass": 1054,
+          "loss": 1.5071498155593872,
+          "accepted_blocks": 285,
+          "rejected_blocks": 4894
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No trained G4 quality result",
+    "GPU operator compatibility and speed unverified",
+    "Irreversible wrong additions and capacity stalls remain possible",
+    "CPU benchmark excludes transfers",
+    "Repository sync and off-device backup pending"
+  ],
+  "next": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Block-Training-2026-10-03-v2\\RESUME.json"
+}

@@ -1,0 +1,86 @@
+{
+  "event": "G6 decision based on objective/timing audit",
+  "evidence": {
+    "gradient_snapshot_count": 189,
+    "matched_steps": 278,
+    "matched_gradients": 61,
+    "fixed_state_probe": {
+      "states": 67,
+      "states_with_growth_both": 67,
+      "progress_share_higher": 39,
+      "progress_share_equal": 3,
+      "progress_share_lower": 25,
+      "original_added_voxels": 3994,
+      "original_progress_added_voxels": 681,
+      "paced_added_voxels": 937,
+      "paced_progress_added_voxels": 386,
+      "quota_range": [
+        9,
+        22
+      ]
+    },
+    "train_paced_summary": {
+      "baseline": {
+        "valid": 2,
+        "count": 27,
+        "family_pass": {
+          "access": 2,
+          "coverage": 3,
+          "facade": 26,
+          "ground": 27,
+          "legality": 27,
+          "sparsity": 27,
+          "spill": 27,
+          "support": 27,
+          "thickness": 27
+        },
+        "median_volume_error": 0.00237601637977769,
+        "max_volume_error": 0.0026328253000094948
+      },
+      "64": {
+        "valid": 12,
+        "count": 27,
+        "family_pass": {
+          "access": 22,
+          "coverage": 24,
+          "facade": 14,
+          "ground": 27,
+          "legality": 27,
+          "sparsity": 27,
+          "spill": 27,
+          "support": 27,
+          "thickness": 27
+        },
+        "median_volume_error": 0.0024513244492355146,
+        "max_volume_error": 0.03322429370100252
+      },
+      "128": {
+        "valid": 11,
+        "count": 27,
+        "family_pass": {
+          "access": 22,
+          "coverage": 24,
+          "facade": 13,
+          "ground": 27,
+          "legality": 27,
+          "sparsity": 27,
+          "spill": 27,
+          "support": 27,
+          "thickness": 27
+        },
+        "median_volume_error": 0.00237601637977769,
+        "max_volume_error": 0.0026328253000094948
+      }
+    },
+    "stable_cases": 18
+  },
+  "decision": "One focused pacing-only training pilot;do not attribute failure solely to missing destination information or global band weight.",
+  "limitations": [
+    "TRAIN-only fixed G4weights in pacing diagnostic",
+    "Instantaneous gradients,not network-update causality",
+    "Facade/stability regressions",
+    "No trained G6quality result",
+    "No held-out evaluation"
+  ],
+  "next": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G6-Paced-Growth-2026-10-04\\RESUME.json"
+}

@@ -1,0 +1,111 @@
+{
+  "status": "G11-R1 implemented; TRAIN families45/45 but timing/volume gates fail; not accepted",
+  "previous": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G11-Allocation-Design-2026-10-04\\RESUME.json",
+  "next": "Diagnose unused quota and exact rejection reasons on TRAIN; all witnesses finish by64. Select one bounded scheduling correction without changing quota/horizon/thresholds. Do not consume reserved scenes or launch paid training yet.",
+  "summary": {
+    "G10": {
+      "64": {
+        "evaluated": 45,
+        "valid": 41,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.010091823788275944
+      },
+      "128": {
+        "evaluated": 45,
+        "valid": 41,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.0026328253000094948
+      }
+    },
+    "G11-R1": {
+      "64": {
+        "evaluated": 45,
+        "valid": 45,
+        "median_error": 0.0023858483251371354,
+        "max_error": 0.0434356481012797
+      },
+      "128": {
+        "evaluated": 45,
+        "valid": 45,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.0026328253000094948
+      }
+    }
+  },
+  "audit_summary": {
+    "G10": {
+      "stable": 42,
+      "max_growth": 0.07963246554364471,
+      "median_seconds128": 3.0977026000618935,
+      "failures64": [
+        {
+          "case": "g1-partial_obstruction-y0-v24",
+          "families": [
+            "access"
+          ]
+        },
+        {
+          "case": "g1-partial_obstruction-y2-v16",
+          "families": [
+            "access"
+          ]
+        },
+        {
+          "case": "g1-partial_obstruction-y4-v16",
+          "families": [
+            "facade"
+          ]
+        },
+        {
+          "case": "g7-vertical-train-2-v16",
+          "families": [
+            "access"
+          ]
+        }
+      ],
+      "failures128": [
+        {
+          "case": "g1-partial_obstruction-y0-v24",
+          "families": [
+            "access"
+          ]
+        },
+        {
+          "case": "g1-partial_obstruction-y2-v16",
+          "families": [
+            "access"
+          ]
+        },
+        {
+          "case": "g1-partial_obstruction-y4-v16",
+          "families": [
+            "facade"
+          ]
+        },
+        {
+          "case": "g7-vertical-train-2-v16",
+          "families": [
+            "access"
+          ]
+        }
+      ]
+    },
+    "G11-R1": {
+      "stable": 37,
+      "max_growth": 0.1664887940234792,
+      "median_seconds128": 3.534908099914901,
+      "failures64": [],
+      "failures128": []
+    },
+    "procedural_share128": {
+      "min": 0.23276633840644584,
+      "median": 0.3306595365418895,
+      "max": 0.5189873417721519
+    },
+    "witness_complete64": 45
+  },
+  "live_model": "MG7 unchanged",
+  "paid_run_authorized": false,
+  "repository_sync_pending": true,
+  "off_device_backup_pending": true
+}

@@ -1,0 +1,101 @@
+{
+  "case": "g8-reserved-0-v32",
+  "scene": "g8-reserved-0",
+  "cohort": "fresh_reserved",
+  "request": 0.32,
+  "steps": 128,
+  "status": "evaluated",
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 2044,
+    "gross_volume_m3": 1046.5280000000002,
+    "domain_voxels": 6360,
+    "volume_fraction": 0.3213836477987421,
+    "bulk_voxels": 2044,
+    "bulk_fraction": 1.0,
+    "thirds": [
+      {
+        "domain_cells": 1992,
+        "bulk_cells": 699,
+        "fraction": 0.3509036144578313
+      },
+      {
+        "domain_cells": 2376,
+        "bulk_cells": 697,
+        "fraction": 0.29335016835016836
+      },
+      {
+        "domain_cells": 1992,
+        "bulk_cells": 648,
+        "fraction": 0.3253012048192771
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "bulk_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "unreached_occupied_voxels": 0,
+    "unreached_bulk_voxels": 0,
+    "facade_contact_fraction": 0.062133072407045006,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 2044,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "contract_pass": true,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "absolute_fraction_error": 0.0013836477987421159,
+  "extent_zyx_cells": [
+    16,
+    15,
+    16
+  ],
+  "direct_interface_contact_voxels": {
+    "E_west": 8,
+    "E_east": 8
+  },
+  "budget": {
+    "domain": 6360,
+    "target": 2036,
+    "ceiling": 2044
+  },
+  "quota": 33,
+  "first_ceiling_step": 64,
+  "unused_capacity": 0,
+  "seconds": 3.070848900009878
+}

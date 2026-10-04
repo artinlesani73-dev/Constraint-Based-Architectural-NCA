@@ -1,0 +1,18 @@
+{
+  "purpose": "Diagnostic only; no acceptance changes or training",
+  "cases": [
+    "g1-aligned-y2-v24",
+    "g1-wide_gap-y2-v24",
+    "g1-partial_obstruction-y2-v24"
+  ],
+  "stages": [
+    "seed",
+    "distance3",
+    "half_max_teacher_distance"
+  ],
+  "steps": 64,
+  "firing_seed": 2101,
+  "checkpoint_sha256": "aeaf14c8ecd30a55ef0fc896c4649a64e87f5643dd04ab1c5cd3863de86f0f08",
+  "reserved_access": false,
+  "oracle": "target-restricted growth with identical firing, no model; feasibility diagnostic only"
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "g7-vertical-train-0",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-0",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            18
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            28
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 12
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "90e6c7faf1a45010b9b35add184ad5f2d9f795546637492b2b03ed4c83cdf7f8"
+  },
+  {
+    "id": "g7-vertical-train-1",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-1",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            28
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            18
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 12
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "0071ef0553b037df975ed4a1189980804e1ba593d60e8c510c5cde3b5f5a631d"
+  },
+  {
+    "id": "g7-vertical-train-2",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-2",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            20
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            28
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 10
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 16
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "7978590d2d081008ceeaa62ba965732ed1e8fad84658b4efcbd0b69752d1125d"
+  },
+  {
+    "id": "g7-vertical-train-3",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-3",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            28
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            20
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 16
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 10
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "a609f6c3eba3776817b34d73f662cb5abee32720686bfe1af0359db5b30356f1"
+  },
+  {
+    "id": "g7-vertical-train-4",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-4",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            20
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            26
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 14
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 14
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "ccb418530bddb88187990509471ef0c9118067fa4cba449c0cae1c474874e834"
+  },
+  {
+    "id": "g7-vertical-train-5",
+    "split": "train",
+    "scene": {
+      "contract_version": "scene_v1",
+      "scene_id": "g7-vertical-train-5",
+      "description": "G7 frozen vertical context train",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            26
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            22
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 16
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 16
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "context_sha256": "962128d060194b35fa5f9c77444f1eab5ba9d7785de6b16d78ce58e1ff8b20d8"
+  }
+]

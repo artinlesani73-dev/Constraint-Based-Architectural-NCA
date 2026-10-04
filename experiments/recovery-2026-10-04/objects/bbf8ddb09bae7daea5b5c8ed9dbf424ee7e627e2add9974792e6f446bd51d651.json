@@ -1,0 +1,667 @@
+{
+  "case": "g1-partial_obstruction-y2-v24",
+  "target": 819,
+  "ceiling": 827,
+  "guard_score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 827,
+    "gross_volume_m3": 423.4240000000001,
+    "domain_voxels": 3412,
+    "volume_fraction": 0.24237983587338804,
+    "bulk_voxels": 393,
+    "bulk_fraction": 0.4752116082224909,
+    "thirds": [
+      {
+        "domain_cells": 1098,
+        "bulk_cells": 269,
+        "fraction": 0.24499089253187614
+      },
+      {
+        "domain_cells": 1216,
+        "bulk_cells": 124,
+        "fraction": 0.10197368421052631
+      },
+      {
+        "domain_cells": 1098,
+        "bulk_cells": 0,
+        "fraction": 0.0
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "bulk_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "unreached_occupied_voxels": 827,
+    "unreached_bulk_voxels": 393,
+    "facade_contact_fraction": 0.17049576783555018,
+    "facade_excess": 0.020495767835550183,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 827,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": false,
+      "coverage": false,
+      "facade": false,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": false
+    },
+    "contract_pass": false,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "raw_score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 1289,
+    "gross_volume_m3": 659.9680000000002,
+    "domain_voxels": 3412,
+    "volume_fraction": 0.37778429073856973,
+    "bulk_voxels": 957,
+    "bulk_fraction": 0.7424359968968193,
+    "thirds": [
+      {
+        "domain_cells": 1098,
+        "bulk_cells": 389,
+        "fraction": 0.3542805100182149
+      },
+      {
+        "domain_cells": 1216,
+        "bulk_cells": 271,
+        "fraction": 0.22286184210526316
+      },
+      {
+        "domain_cells": 1098,
+        "bulk_cells": 297,
+        "fraction": 0.27049180327868855
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "bulk_interface_hits": {
+      "E_west": false,
+      "E_east": true
+    },
+    "unreached_occupied_voxels": 0,
+    "unreached_bulk_voxels": 540,
+    "facade_contact_fraction": 0.21799844840961985,
+    "facade_excess": 0.06799844840961985,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 1289,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": false,
+      "coverage": true,
+      "facade": false,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": false
+    },
+    "contract_pass": false,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "trace": [
+    {
+      "step": 1,
+      "mass": 3,
+      "remaining_fraction": 0.2391559202813599,
+      "offered": 2,
+      "admitted": 2,
+      "budget_rejected": 0
+    },
+    {
+      "step": 2,
+      "mass": 8,
+      "remaining_fraction": 0.2376905041031653,
+      "offered": 5,
+      "admitted": 5,
+      "budget_rejected": 0
+    },
+    {
+      "step": 3,
+      "mass": 10,
+      "remaining_fraction": 0.23710433763188746,
+      "offered": 2,
+      "admitted": 2,
+      "budget_rejected": 0
+    },
+    {
+      "step": 4,
+      "mass": 15,
+      "remaining_fraction": 0.23563892145369286,
+      "offered": 5,
+      "admitted": 5,
+      "budget_rejected": 0
+    },
+    {
+      "step": 5,
+      "mass": 24,
+      "remaining_fraction": 0.23300117233294257,
+      "offered": 9,
+      "admitted": 9,
+      "budget_rejected": 0
+    },
+    {
+      "step": 6,
+      "mass": 34,
+      "remaining_fraction": 0.23007033997655335,
+      "offered": 10,
+      "admitted": 10,
+      "budget_rejected": 0
+    },
+    {
+      "step": 7,
+      "mass": 43,
+      "remaining_fraction": 0.22743259085580306,
+      "offered": 9,
+      "admitted": 9,
+      "budget_rejected": 0
+    },
+    {
+      "step": 8,
+      "mass": 55,
+      "remaining_fraction": 0.223915592028136,
+      "offered": 12,
+      "admitted": 12,
+      "budget_rejected": 0
+    },
+    {
+      "step": 9,
+      "mass": 67,
+      "remaining_fraction": 0.22039859320046892,
+      "offered": 12,
+      "admitted": 12,
+      "budget_rejected": 0
+    },
+    {
+      "step": 10,
+      "mass": 84,
+      "remaining_fraction": 0.21541617819460726,
+      "offered": 17,
+      "admitted": 17,
+      "budget_rejected": 0
+    },
+    {
+      "step": 11,
+      "mass": 102,
+      "remaining_fraction": 0.21014067995310667,
+      "offered": 18,
+      "admitted": 18,
+      "budget_rejected": 0
+    },
+    {
+      "step": 12,
+      "mass": 124,
+      "remaining_fraction": 0.20369284876905042,
+      "offered": 22,
+      "admitted": 22,
+      "budget_rejected": 0
+    },
+    {
+      "step": 13,
+      "mass": 146,
+      "remaining_fraction": 0.19724501758499413,
+      "offered": 22,
+      "admitted": 22,
+      "budget_rejected": 0
+    },
+    {
+      "step": 14,
+      "mass": 174,
+      "remaining_fraction": 0.18903868698710433,
+      "offered": 28,
+      "admitted": 28,
+      "budget_rejected": 0
+    },
+    {
+      "step": 15,
+      "mass": 196,
+      "remaining_fraction": 0.18259085580304807,
+      "offered": 22,
+      "admitted": 22,
+      "budget_rejected": 0
+    },
+    {
+      "step": 16,
+      "mass": 233,
+      "remaining_fraction": 0.17174677608440797,
+      "offered": 37,
+      "admitted": 37,
+      "budget_rejected": 0
+    },
+    {
+      "step": 17,
+      "mass": 261,
+      "remaining_fraction": 0.16354044548651817,
+      "offered": 28,
+      "admitted": 28,
+      "budget_rejected": 0
+    },
+    {
+      "step": 18,
+      "mass": 297,
+      "remaining_fraction": 0.152989449003517,
+      "offered": 36,
+      "admitted": 36,
+      "budget_rejected": 0
+    },
+    {
+      "step": 19,
+      "mass": 338,
+      "remaining_fraction": 0.14097303634232122,
+      "offered": 41,
+      "admitted": 41,
+      "budget_rejected": 0
+    },
+    {
+      "step": 20,
+      "mass": 368,
+      "remaining_fraction": 0.13218053927315357,
+      "offered": 30,
+      "admitted": 30,
+      "budget_rejected": 0
+    },
+    {
+      "step": 21,
+      "mass": 411,
+      "remaining_fraction": 0.11957796014067995,
+      "offered": 43,
+      "admitted": 43,
+      "budget_rejected": 0
+    },
+    {
+      "step": 22,
+      "mass": 450,
+      "remaining_fraction": 0.10814771395076202,
+      "offered": 39,
+      "admitted": 39,
+      "budget_rejected": 0
+    },
+    {
+      "step": 23,
+      "mass": 496,
+      "remaining_fraction": 0.09466588511137163,
+      "offered": 46,
+      "admitted": 46,
+      "budget_rejected": 0
+    },
+    {
+      "step": 24,
+      "mass": 535,
+      "remaining_fraction": 0.08323563892145369,
+      "offered": 39,
+      "admitted": 39,
+      "budget_rejected": 0
+    },
+    {
+      "step": 25,
+      "mass": 570,
+      "remaining_fraction": 0.07297772567409144,
+      "offered": 35,
+      "admitted": 35,
+      "budget_rejected": 0
+    },
+    {
+      "step": 26,
+      "mass": 611,
+      "remaining_fraction": 0.06096131301289566,
+      "offered": 41,
+      "admitted": 41,
+      "budget_rejected": 0
+    },
+    {
+      "step": 27,
+      "mass": 643,
+      "remaining_fraction": 0.05158264947245018,
+      "offered": 32,
+      "admitted": 32,
+      "budget_rejected": 0
+    },
+    {
+      "step": 28,
+      "mass": 685,
+      "remaining_fraction": 0.03927315357561548,
+      "offered": 42,
+      "admitted": 42,
+      "budget_rejected": 0
+    },
+    {
+      "step": 29,
+      "mass": 725,
+      "remaining_fraction": 0.027549824150058615,
+      "offered": 40,
+      "admitted": 40,
+      "budget_rejected": 0
+    },
+    {
+      "step": 30,
+      "mass": 767,
+      "remaining_fraction": 0.015240328253223915,
+      "offered": 42,
+      "admitted": 42,
+      "budget_rejected": 0
+    },
+    {
+      "step": 31,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 67,
+      "admitted": 60,
+      "budget_rejected": 7
+    },
+    {
+      "step": 32,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 68,
+      "admitted": 0,
+      "budget_rejected": 68
+    },
+    {
+      "step": 33,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 67,
+      "admitted": 0,
+      "budget_rejected": 67
+    },
+    {
+      "step": 34,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 74,
+      "admitted": 0,
+      "budget_rejected": 74
+    },
+    {
+      "step": 35,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 73,
+      "admitted": 0,
+      "budget_rejected": 73
+    },
+    {
+      "step": 36,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 82,
+      "admitted": 0,
+      "budget_rejected": 82
+    },
+    {
+      "step": 37,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 86,
+      "admitted": 0,
+      "budget_rejected": 86
+    },
+    {
+      "step": 38,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 72,
+      "admitted": 0,
+      "budget_rejected": 72
+    },
+    {
+      "step": 39,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 71,
+      "admitted": 0,
+      "budget_rejected": 71
+    },
+    {
+      "step": 40,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 83,
+      "admitted": 0,
+      "budget_rejected": 83
+    },
+    {
+      "step": 41,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 85,
+      "admitted": 0,
+      "budget_rejected": 85
+    },
+    {
+      "step": 42,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 88,
+      "admitted": 0,
+      "budget_rejected": 88
+    },
+    {
+      "step": 43,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 82,
+      "admitted": 0,
+      "budget_rejected": 82
+    },
+    {
+      "step": 44,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 89,
+      "admitted": 0,
+      "budget_rejected": 89
+    },
+    {
+      "step": 45,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 82,
+      "admitted": 0,
+      "budget_rejected": 82
+    },
+    {
+      "step": 46,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 88,
+      "admitted": 0,
+      "budget_rejected": 88
+    },
+    {
+      "step": 47,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 87,
+      "admitted": 0,
+      "budget_rejected": 87
+    },
+    {
+      "step": 48,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 80,
+      "admitted": 0,
+      "budget_rejected": 80
+    },
+    {
+      "step": 49,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 70,
+      "admitted": 0,
+      "budget_rejected": 70
+    },
+    {
+      "step": 50,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 73,
+      "admitted": 0,
+      "budget_rejected": 73
+    },
+    {
+      "step": 51,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 70,
+      "admitted": 0,
+      "budget_rejected": 70
+    },
+    {
+      "step": 52,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 71,
+      "admitted": 0,
+      "budget_rejected": 71
+    },
+    {
+      "step": 53,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 55,
+      "admitted": 0,
+      "budget_rejected": 55
+    },
+    {
+      "step": 54,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 74,
+      "admitted": 0,
+      "budget_rejected": 74
+    },
+    {
+      "step": 55,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 56,
+      "admitted": 0,
+      "budget_rejected": 56
+    },
+    {
+      "step": 56,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 56,
+      "admitted": 0,
+      "budget_rejected": 56
+    },
+    {
+      "step": 57,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 59,
+      "admitted": 0,
+      "budget_rejected": 59
+    },
+    {
+      "step": 58,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 49,
+      "admitted": 0,
+      "budget_rejected": 49
+    },
+    {
+      "step": 59,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 65,
+      "admitted": 0,
+      "budget_rejected": 65
+    },
+    {
+      "step": 60,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 50,
+      "admitted": 0,
+      "budget_rejected": 50
+    },
+    {
+      "step": 61,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 53,
+      "admitted": 0,
+      "budget_rejected": 53
+    },
+    {
+      "step": 62,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 56,
+      "admitted": 0,
+      "budget_rejected": 56
+    },
+    {
+      "step": 63,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 51,
+      "admitted": 0,
+      "budget_rejected": 51
+    },
+    {
+      "step": 64,
+      "mass": 827,
+      "remaining_fraction": -0.0023446658851113715,
+      "offered": 51,
+      "admitted": 0,
+      "budget_rejected": 51
+    }
+  ]
+}

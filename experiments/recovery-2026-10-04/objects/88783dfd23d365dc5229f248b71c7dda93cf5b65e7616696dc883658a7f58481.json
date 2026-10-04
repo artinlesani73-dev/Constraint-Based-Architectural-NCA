@@ -1,0 +1,702 @@
+{
+  "scenes": {
+    "g1-aligned-y0": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-aligned-y0",
+      "description": "MT1 analytic massing development context: aligned",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 13,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 13,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-aligned-y2": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-aligned-y2",
+      "description": "MT1 analytic massing development context: aligned",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-aligned-y4": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-aligned-y4",
+      "description": "MT1 analytic massing development context: aligned",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 17,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 17,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-wide_gap-y0": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-wide_gap-y0",
+      "description": "MT1 analytic massing development context: wide_gap",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            6
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 6,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            26,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 26,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 6,
+          "y": 13,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 24,
+          "y": 13,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-wide_gap-y2": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-wide_gap-y2",
+      "description": "MT1 analytic massing development context: wide_gap",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            6
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 6,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            26,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 26,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 6,
+          "y": 15,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 24,
+          "y": 15,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-wide_gap-y4": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-wide_gap-y4",
+      "description": "MT1 analytic massing development context: wide_gap",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            6
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 6,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            26,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 26,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 6,
+          "y": 17,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 24,
+          "y": 17,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-partial_obstruction-y0": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-partial_obstruction-y0",
+      "description": "MG1 development context with a partial central obstacle.",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        },
+        {
+          "id": "B_partial",
+          "x": [
+            15,
+            17
+          ],
+          "y": [
+            13,
+            18
+          ],
+          "z": [
+            6,
+            14
+          ],
+          "gap_facing_x": null,
+          "side": null
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 13,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 13,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-partial_obstruction-y2": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-partial_obstruction-y2",
+      "description": "MG1 development context with a partial central obstacle.",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        },
+        {
+          "id": "B_partial",
+          "x": [
+            15,
+            17
+          ],
+          "y": [
+            13,
+            18
+          ],
+          "z": [
+            6,
+            14
+          ],
+          "gap_facing_x": null,
+          "side": null
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 15,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 15,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "g1-partial_obstruction-y4": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-partial_obstruction-y4",
+      "description": "MG1 development context with a partial central obstacle.",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        },
+        {
+          "id": "B_partial",
+          "x": [
+            15,
+            17
+          ],
+          "y": [
+            13,
+            18
+          ],
+          "z": [
+            6,
+            14
+          ],
+          "gap_facing_x": null,
+          "side": null
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 17,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 17,
+          "z": 8
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    }
+  },
+  "config": {
+    "grid_size": 32,
+    "n_channels": 8,
+    "n_frozen": 4,
+    "n_grown": 4,
+    "ch_ground": 0,
+    "ch_existing": 1,
+    "ch_access": 2,
+    "ch_anchors": 3,
+    "ch_structure": 4,
+    "ch_surface": 5,
+    "ch_alive": 6,
+    "ch_hidden": 7,
+    "hidden_dim": 96,
+    "update_scale": 0.1,
+    "fire_rate": 0.65,
+    "noise_std": 0.02,
+    "z_taper_strength": 0.4,
+    "z_taper_floor": 0.4,
+    "xavier_gain": 0.5,
+    "structure_bias": 0.0,
+    "surface_bias": 0.0,
+    "lr_initial": 0.0007,
+    "batch_size": 4,
+    "grad_clip": 1.0,
+    "street_levels": 6,
+    "anchor_budget_ratio": 0.1,
+    "epochs": 500,
+    "steps_min": 30,
+    "steps_max": 50,
+    "difficulty": "easy",
+    "log_every": 20,
+    "viz_every": 100,
+    "save_every": 100,
+    "corridor_width": 1,
+    "max_thickness": 2,
+    "max_facade_contact": 0.15,
+    "vertical_envelope": 1,
+    "corridor_seed_scale": 0.15,
+    "corridor_mask_epochs": 20,
+    "corridor_mask_anneal": 40,
+    "ground_max_ratio": 0.04,
+    "corridor_z_margin": 3
+  }
+}

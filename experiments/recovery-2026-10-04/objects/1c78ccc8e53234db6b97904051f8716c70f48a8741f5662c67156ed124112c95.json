@@ -1,0 +1,117 @@
+{
+  "event": "G6first complete development gate in generation series",
+  "date": "2026-10-04",
+  "run": "20261004T081739Z_95ddbf523738",
+  "development_gate_passed": true,
+  "deployment_approved": false,
+  "results": {
+    "64": {
+      "valid": 9,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.540652818991098,
+      "family_pass": {
+        "access": 9,
+        "coverage": 9,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 9,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.540652818991098,
+      "family_pass": {
+        "access": 9,
+        "coverage": 9,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "gates": {
+    "valid_at64": true,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": true,
+    "stable_mass": true
+  },
+  "candidate": {
+    "status": "qualified_research_candidate_after_development_gate",
+    "run": "20261004T081739Z_95ddbf523738",
+    "checkpoint_update": 256,
+    "checkpoint": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G6-Final-Review-2026-10-04\\import\\worker\\checkpoint-0256.pt",
+    "checkpoint_sha256": "883833c5a1171e0969e18ad9c7f9dd8eeb9a80379dba364973684b35531b154b",
+    "checkpoint_bytes": 573095,
+    "package_manifest_sha256": "1c538905fbaa612639131fd97f3207deed1c398ac824db47fbabb2a2ebb635ab",
+    "model_class": "nca.paced_generation.PacedNCA",
+    "contract": "massing_targets_v1",
+    "metric_source_sha256": "4c1fce7be183effb4aff2e07669248fe6104c711bbfe0338e84abf85653afe69",
+    "configuration_source_sha256": "e020a286bedc1cd9eed7a412c68412f7dbe44af7289e4591dd667fe86911efcd",
+    "firing_seed": 2101,
+    "threshold": 0.5,
+    "quota_rule": "max(9,ceil((C-27)/63));unchanged across64/128",
+    "evaluation_device": "cpu",
+    "evaluation_dtype": "float32",
+    "horizons": [
+      64,
+      128
+    ],
+    "development_case_ids": [
+      "g1-offset_interfaces-y0-v16",
+      "g1-offset_interfaces-y0-v24",
+      "g1-offset_interfaces-y0-v32",
+      "g1-offset_interfaces-y2-v16",
+      "g1-offset_interfaces-y2-v24",
+      "g1-offset_interfaces-y2-v32",
+      "g1-offset_interfaces-y4-v16",
+      "g1-offset_interfaces-y4-v24",
+      "g1-offset_interfaces-y4-v32"
+    ],
+    "reserved_evaluated": false,
+    "live_promoted": false
+  },
+  "training_capacity": {
+    "G4": {
+      "total_steps": 16384,
+      "steps_starting_at_global_cap": 13549,
+      "fraction_at_global_cap": 0.82696533203125,
+      "seed_fraction_at_global_cap": 0.7344970703125,
+      "teacher_stage_fraction_at_global_cap": 0.91943359375,
+      "updates_reaching_global_cap": 250,
+      "median_first_global_cap_step": 11.0
+    },
+    "G6": {
+      "total_steps": 16384,
+      "steps_starting_at_global_cap": 4697,
+      "fraction_at_global_cap": 0.28668212890625,
+      "seed_fraction_at_global_cap": 0.0087890625,
+      "teacher_stage_fraction_at_global_cap": 0.5645751953125,
+      "updates_reaching_global_cap": 181,
+      "median_first_global_cap_step": 39.0
+    }
+  },
+  "decision": "Freeze final256candidate;advance to untouched reserved evaluation and visual review before any live integration.",
+  "limitations": [
+    "Single seed",
+    "Reused development",
+    "Enforced thickness/budget/stability",
+    "No reserved evaluation yet",
+    "No visual review yet",
+    "Repository sync and off-device backup pending"
+  ],
+  "changes": "Read-only evidence review,new local records and frozen next-phase plan;no model/training/live modifications."
+}

@@ -1,0 +1,18 @@
+{
+  "update": 256,
+  "identity_separate": true,
+  "checks": {
+    "version": true,
+    "completed": true,
+    "model": true,
+    "optimizer": true,
+    "optimizer_class": true,
+    "parameter_names": true,
+    "module_training": true,
+    "trace": true,
+    "sampler": true,
+    "rng": true,
+    "cuda_rng": true
+  },
+  "all_numerical_equal": true
+}

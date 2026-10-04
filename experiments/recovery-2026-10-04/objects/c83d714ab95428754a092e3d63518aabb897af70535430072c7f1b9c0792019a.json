@@ -1,0 +1,28 @@
+{
+  "intent": "exploratory geometry transfer and firing-seed variation; no tuning or release gate",
+  "request": 0.24,
+  "seeds": [
+    2101,
+    2102,
+    2103
+  ],
+  "horizons": [
+    64,
+    128
+  ],
+  "models": [
+    "G10",
+    "R3"
+  ],
+  "geometry_changes": [
+    "gap width larger",
+    "gap width smaller",
+    "entrance Y offset",
+    "partial obstacle"
+  ],
+  "unchanged": "weights, nine families, evaluator, grid, budget, planner ordering",
+  "adapter_change": "Expose fixed firing seed as optional parameter; default2101 exact parity required",
+  "checkpoint_sha256": "8e4ac1f13ff57b2c644cd2bd6fd27c40b25eca7062ec729f002969171a122bb2",
+  "adapter_sha256": "e5486664aba7d187c15bdc74f78dfa78a657a0e96c45f8ddfbcbd55e88069827",
+  "variation_metric": "pairwise occupied-voxel Jaccard distance (1-IoU); geometric difference, not architectural quality"
+}

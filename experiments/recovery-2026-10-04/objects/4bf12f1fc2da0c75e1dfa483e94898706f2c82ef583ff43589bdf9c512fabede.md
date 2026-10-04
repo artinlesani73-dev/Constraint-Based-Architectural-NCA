@@ -1,0 +1,28 @@
+# Paired CGR1 and reversible repair comparison
+
+One proposed job: CGR1 control then RGR1 candidate,256updates each,512total,
+seed1201,32steps. Shared600-second controlled cap covers BOTH arms,not10minutes
+each. Setup/upload/export/idle extra. T4,Torch2.11.0+cu130,Python3.13.15,
+NumPy2.1.3,CUDA13.0,cuDNN92700. Any mismatch stops. No retry or extra seeds.
+Original TRAIN81 only; no curriculum. Models start fresh with identical parameters,
+row order and firing RNG. Different update rule and supervised set: system-level
+comparison,not a pure single-factor deletion ablation. Global CPU connectivity
+cleanup remains enabled and included in candidate timing. A single timing probe
+cannot guarantee the pair finishes under cap; partial evidence must be retained.
+
+Open supplied notebook,upload matching ZIP. Keep APPROVED_SEED_JOB=False until
+approval for this entire512-update job. After approval,set True and run once.
+Download FULL ZIP+receipt,including failures. No Drive or automatic continuation.
+Do not run the older compatibility or historical training scripts in the package.
+Each arm retains per-update checkpoints,state,trace and boundary captures; RGR1
+captures proposals,births,direct/cleanup removals,candidate and projected fields.
+No quality-model claims follow from training completion.
+
+Frozen review: both final256checkpoints only,CPUfloat32,32steps,firing2101,
+original27development inputs, no TEST or threshold/horizon search. Report accepted
+projected output plus pre-cleanup candidate diagnostics. Retain all original
+acceptance gates: all9intact IoU>=.99 and valid; damaged validity>=17/18,
+medianIoU>=.9705768039313023,excess<=325,recovered>=1945,median absolute volume
+error<=19; zero original-input removals. Report regressions against same-runtime
+control,repair deletions,cleanup deletions,oscillation,walltime and memory.
+MG7 stays live. One seed does not establish generalization. No automatic admission.

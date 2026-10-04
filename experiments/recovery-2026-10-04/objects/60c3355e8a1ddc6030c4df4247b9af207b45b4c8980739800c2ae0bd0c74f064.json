@@ -1,0 +1,7 @@
+{
+  "status": "verifier_assertion_corrected",
+  "reason": "Verifier incorrectly required a literal archive filename. Notebook intentionally accepts one uploaded ZIP under any filename and checks exact SHA256; digest was already correct.",
+  "package_changed": false,
+  "training_rerun": false,
+  "script": "verification-attempt-1.py"
+}

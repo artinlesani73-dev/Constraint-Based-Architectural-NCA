@@ -1,0 +1,15 @@
+{
+  "grids": [
+    32,
+    40
+  ],
+  "worker_timeout_seconds": 180,
+  "steps": 128,
+  "seed": 2102,
+  "request": 0.24,
+  "threads": 2,
+  "route": "original R3",
+  "change": "XY building positions/extents and connection Y scaled by1.25; connection X reattached; heights and voxel0.8m unchanged; larger physical domain, NOT higher resolution",
+  "limits": "two single timing samples; new condition changes random-mask shape; not same per-voxel randomness or statistical scaling benchmark",
+  "no_training": true
+}

@@ -1,0 +1,34 @@
+{
+  "allowance": {
+    "G8": {
+      "unused": 1166,
+      "allowance": 46460,
+      "unused_fraction": 0.02509685751183814,
+      "unused_with_rejection": 1057,
+      "rejection_share": 0.9065180102915952,
+      "unused_without_rejection": 109
+    },
+    "G9": {
+      "unused": 1638,
+      "allowance": 46591,
+      "unused_fraction": 0.035157004571698396,
+      "unused_with_rejection": 1320,
+      "rejection_share": 0.8058608058608059,
+      "unused_without_rejection": 318
+    }
+  },
+  "gradient": {
+    "G8": {
+      "matched": 113,
+      "snapshots_flipping": 113,
+      "flipped": 1915,
+      "other_teacher_count": 2680
+    },
+    "G9": {
+      "matched": 95,
+      "snapshots_flipping": 94,
+      "flipped": 836,
+      "other_teacher_count": 1917
+    }
+  }
+}

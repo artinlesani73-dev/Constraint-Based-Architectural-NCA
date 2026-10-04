@@ -1,0 +1,52 @@
+{
+  "status": "ready_for_explicit_single_job_approval",
+  "paid_run_authorized": false,
+  "gpu": "Tesla T4",
+  "seed": 1201,
+  "updates": 256,
+  "steps": 64,
+  "max_controlled_seconds": 600,
+  "setup_export_idle_extra": true,
+  "package": {
+    "archive": "NCA-G5-Destination-Package.zip",
+    "sha256": "fc3c90e2321a874d7a8e9906a2c0365a9161e38de49d4f624a5dde33c2142ec2",
+    "payloads": 58,
+    "manifest_sha256": "d398ef69b4771f5bb1cc62675ffc4f912cc691b0a4f85dde517474acc8479606"
+  },
+  "rehearsal": {
+    "run": "20261004T072052Z_9051ff1a572f",
+    "controlled_seconds": 31.85999999998603,
+    "worker_seconds": 29.40600000001723,
+    "evidence_payloads": 23,
+    "evidence_sha256": "75d23071645aa60b10f0ea7091a88a7f5cb27afa215bad29bb3380c5e75c8860",
+    "recoveries": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "retained_updates": 3,
+    "verified_step_accounts": 192,
+    "all_start_hashes_verified": true,
+    "terminal_geometry_invariants_verified": true,
+    "cue_weight_absolute_sums_after3": [
+      0.06767766922712326,
+      0.06341414153575897
+    ],
+    "g4_row_and_start_schedule_equal": true,
+    "g4_firing_rng_equal": true,
+    "quality_evaluated": false
+  },
+  "training_contexts_audited": 27,
+  "development_or_reserved_access": false,
+  "quality_claim": false,
+  "repository_sync_pending": true,
+  "drive_operations": 0,
+  "live_model": "MG7 unchanged"
+}

@@ -1,0 +1,73 @@
+{
+  "windows": {
+    "G4": {
+      "first32": {
+        "seed": {
+          "loss": 1.4885620027780533,
+          "frontier_loss": 1.3517111390829086,
+          "volume_loss": 0.2891269037500024,
+          "band_loss": 0.06456912821158767,
+          "pre_clip_gradient_norm": 0.07394147384911776
+        },
+        "cube_teacher_stage": {
+          "loss": 1.4935398697853088,
+          "frontier_loss": 1.3834950774908066,
+          "volume_loss": 0.23474679328501225,
+          "band_loss": 0.05135808535851538,
+          "pre_clip_gradient_norm": 0.05674278910737485
+        }
+      },
+      "last32": {
+        "seed": {
+          "loss": 1.3799278512597084,
+          "frontier_loss": 1.251935862004757,
+          "volume_loss": 0.26529645267874,
+          "band_loss": 0.06166784628294408,
+          "pre_clip_gradient_norm": 2.410272389650345
+        },
+        "cube_teacher_stage": {
+          "loss": 1.0451077669858932,
+          "frontier_loss": 0.9500913731753826,
+          "volume_loss": 0.23395296465605497,
+          "band_loss": 0.03652815066743642,
+          "pre_clip_gradient_norm": 3.9372083321213722
+        }
+      }
+    },
+    "G5": {
+      "first32": {
+        "seed": {
+          "loss": 1.4450066834688187,
+          "frontier_loss": 1.3136783875524998,
+          "volume_loss": 0.29512480832636356,
+          "band_loss": 0.05754708615131676,
+          "pre_clip_gradient_norm": 0.14871236658655107
+        },
+        "cube_teacher_stage": {
+          "loss": 1.4892944395542145,
+          "frontier_loss": 1.3800514191389084,
+          "volume_loss": 0.23732152534648776,
+          "band_loss": 0.04991261626128107,
+          "pre_clip_gradient_norm": 0.11109296965878457
+        }
+      },
+      "last32": {
+        "seed": {
+          "loss": 1.4293615072965622,
+          "frontier_loss": 1.2872470431029797,
+          "volume_loss": 0.2714940691366792,
+          "band_loss": 0.07424095855094492,
+          "pre_clip_gradient_norm": 4.878501869738102
+        },
+        "cube_teacher_stage": {
+          "loss": 1.1270576789975166,
+          "frontier_loss": 1.029816411435604,
+          "volume_loss": 0.23690775968134403,
+          "band_loss": 0.03801435697823763,
+          "pre_clip_gradient_norm": 7.660734064877033
+        }
+      }
+    }
+  },
+  "caution": "On-policy rollout losses,not a shared-state quality test. Same rows/starts but generated trajectories differ. No checkpoint selection based on these windows."
+}

@@ -1,0 +1,101 @@
+{
+  "case": "g1-unequal_building_heights-1-v16",
+  "scene": "g1-unequal_building_heights-1",
+  "cohort": "regression",
+  "request": 0.16,
+  "steps": 128,
+  "status": "evaluated",
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 844,
+    "gross_volume_m3": 432.1280000000001,
+    "domain_voxels": 5220,
+    "volume_fraction": 0.16168582375478927,
+    "bulk_voxels": 844,
+    "bulk_fraction": 1.0,
+    "thirds": [
+      {
+        "domain_cells": 1638,
+        "bulk_cells": 183,
+        "fraction": 0.11172161172161173
+      },
+      {
+        "domain_cells": 1944,
+        "bulk_cells": 422,
+        "fraction": 0.21707818930041153
+      },
+      {
+        "domain_cells": 1638,
+        "bulk_cells": 239,
+        "fraction": 0.14590964590964592
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "bulk_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "unreached_occupied_voxels": 844,
+    "unreached_bulk_voxels": 844,
+    "facade_contact_fraction": 0.014218009478672985,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 844,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": false,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "contract_pass": false,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "absolute_fraction_error": 0.0016858237547892618,
+  "extent_zyx_cells": [
+    8,
+    16,
+    15
+  ],
+  "direct_interface_contact_voxels": {
+    "E_west": 8,
+    "E_east": 0
+  },
+  "budget": {
+    "domain": 5220,
+    "target": 836,
+    "ceiling": 844
+  },
+  "quota": 13,
+  "first_ceiling_step": 88,
+  "unused_capacity": 0,
+  "seconds": 3.5129379000281915
+}

@@ -1,0 +1,31 @@
+{
+  "status": "G1 zero-update failed run verified; portable-path replacement ready",
+  "previous": "C:/Users/artin/Documents/Codex/outputs/G1-Training-2026-10-03/RESUME.json",
+  "next": "Request approval for one replacement T4 run with unchanged256updates64steps600second cap; use Portable notebook and package. Return full ZIP+receipt. Do not automatically retry.",
+  "paid_retry_approved": false,
+  "repository_sync_pending": true,
+  "verification": {
+    "failed_run": "20261003T172855Z_dafe9fb14084",
+    "failed_payloads_verified": 4,
+    "completed_updates": 0,
+    "controlled_seconds": 10.739371515000016,
+    "original_windows_paths": 27,
+    "corrected_rows": 27,
+    "exact_zip_member_checks": true,
+    "original_bad_path_rejected": true,
+    "changed_package_members": [
+      "data.json",
+      "nca/generation_package.py"
+    ],
+    "scientific_payloads_unchanged": true,
+    "new_gpu_run_started": false,
+    "package_sha256": "ec3a87f042fa66156110e504a672b558ff13e7d7be37e0e8e3c1363ccc05057a",
+    "manifest_sha256": "010a384e649f145a346b75687602cb63b630bf07e84351ee91a290bf0c28f44a",
+    "production_loader_rows_verified": 27
+  },
+  "package": {
+    "archive": "NCA-G1-Generation-Portable-Package.zip",
+    "sha256": "ec3a87f042fa66156110e504a672b558ff13e7d7be37e0e8e3c1363ccc05057a",
+    "payloads": 51
+  }
+}

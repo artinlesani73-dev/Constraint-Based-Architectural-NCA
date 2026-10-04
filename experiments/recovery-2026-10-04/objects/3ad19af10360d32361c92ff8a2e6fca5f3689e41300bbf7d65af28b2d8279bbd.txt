@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\artin\Documents\Codex\outputs\G11-R3-Studio-2026-10-04\server.py", line 38, in generate
+    s=byid[request['scene']];req=request['volume'];seed=request['seed'];fields,domain,_=target_context(s,config);c=condition(s,fields,domain,req);x=seed_inputs(c);B,C=budget(int(domain.sum()),req,3)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\artin\Documents\Codex\2026-09-06\cre\check_r3_studio.py", line 24, in fail
+    def fail(*a):raise RuntimeError('Synthetic verification fault')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Synthetic verification fault

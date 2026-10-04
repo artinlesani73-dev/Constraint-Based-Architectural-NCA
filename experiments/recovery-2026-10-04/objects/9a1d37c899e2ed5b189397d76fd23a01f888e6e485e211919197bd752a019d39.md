@@ -1,0 +1,14 @@
+# CGR3 CUDA13 compatibility check
+
+One proposed T4 check capped at120controlled seconds; setup/upload/export/idle extra.
+Two training updates on one TRAIN cube5 example, then restore and replay update2:
+three optimizer steps total. Includes augmented start and exact full-payload check.
+No quality trial, no full256-update job, no automatic continuation or retry.
+Expected observed stack: T4,Python3.13.15,Torch2.11.0+cu130,NumPy2.1.3,CUDA13.0,
+cuDNN92700. Strict deterministic algorithms remain on. Changed stack stops again.
+Open notebook,upload supplied ZIP,leave APPROVED_SEED_JOB=False until explicit
+approval of this check. After approval set True and run once. Download ZIP+receipt,
+including failure,then return both. Local download only,no Drive access.
+This new package preserves the old training script unchanged; do not run it.
+A successful check does not establish numerical equivalence with CUDA12.8 or
+approve another training attempt. No checkpoint from this check is a quality model.

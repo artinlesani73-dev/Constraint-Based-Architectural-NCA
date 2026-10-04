@@ -1,0 +1,257 @@
+{
+  "event": "G10 GPU return verified and frozen review complete",
+  "summary": {
+    "regression": {
+      "64": {
+        "valid": 45,
+        "expected": 57,
+        "median_absolute_fraction_error": 0.0015077605321507925,
+        "max_absolute_fraction_error": 0.00568726355611604,
+        "family_pass": {
+          "access": 48,
+          "coverage": 54,
+          "facade": 57,
+          "ground": 57,
+          "legality": 57,
+          "sparsity": 57,
+          "spill": 57,
+          "support": 57,
+          "thickness": 57
+        }
+      },
+      "128": {
+        "valid": 45,
+        "expected": 57,
+        "median_absolute_fraction_error": 0.0014285714285714457,
+        "max_absolute_fraction_error": 0.0018004866180048595,
+        "family_pass": {
+          "access": 48,
+          "coverage": 54,
+          "facade": 57,
+          "ground": 57,
+          "legality": 57,
+          "sparsity": 57,
+          "spill": 57,
+          "support": 57,
+          "thickness": 57
+        }
+      }
+    },
+    "fresh_reserved": {
+      "64": {
+        "valid": 6,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0011111111111111183,
+        "max_absolute_fraction_error": 0.0034226284273558005,
+        "family_pass": {
+          "access": 6,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 6,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0012079350071786121,
+        "max_absolute_fraction_error": 0.0014119130160731297,
+        "family_pass": {
+          "access": 6,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    },
+    "baseline_g8_fresh": {
+      "64": {
+        "valid": 4,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0011111111111111183,
+        "max_absolute_fraction_error": 0.005984943538268506,
+        "family_pass": {
+          "access": 4,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 4,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0012079350071786121,
+        "max_absolute_fraction_error": 0.0014119130160731297,
+        "family_pass": {
+          "access": 4,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    },
+    "baseline_g9_fresh": {
+      "64": {
+        "valid": 4,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0058978091495804075,
+        "max_absolute_fraction_error": 0.03598487236054208,
+        "family_pass": {
+          "access": 4,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 4,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0012079350071786121,
+        "max_absolute_fraction_error": 0.0014119130160731297,
+        "family_pass": {
+          "access": 4,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    }
+  },
+  "gates": {
+    "regression_64_all_nine": false,
+    "regression_64_volume_error": true,
+    "regression_128_all_nine": false,
+    "regression_128_volume_error": true,
+    "regression_stable_mass": true,
+    "fresh_reserved_64_all_nine": false,
+    "fresh_reserved_64_volume_error": true,
+    "fresh_reserved_128_all_nine": false,
+    "fresh_reserved_128_volume_error": true,
+    "fresh_reserved_stable_mass": true,
+    "baseline_g8_fresh_64_all_nine": false,
+    "baseline_g8_fresh_64_volume_error": true,
+    "baseline_g8_fresh_128_all_nine": false,
+    "baseline_g8_fresh_128_volume_error": true,
+    "baseline_g8_fresh_stable_mass": true,
+    "baseline_g9_fresh_64_all_nine": false,
+    "baseline_g9_fresh_64_volume_error": true,
+    "baseline_g9_fresh_128_all_nine": false,
+    "baseline_g9_fresh_128_volume_error": true,
+    "baseline_g9_fresh_stable_mass": false
+  },
+  "paired": {
+    "regression_G9": {
+      "64": {
+        "baseline": 47,
+        "g10": 45,
+        "improved": [
+          "g8-reserved-1-v24",
+          "g8-reserved-2-v16",
+          "g9-reserved-0-v16",
+          "g9-reserved-2-v24"
+        ],
+        "regressed": [
+          "g7-vertical-reserved-2-v16",
+          "g8-reserved-0-v32",
+          "g8-reserved-3-v16",
+          "g9-reserved-0-v24",
+          "g9-reserved-0-v32",
+          "g9-reserved-3-v16"
+        ]
+      },
+      "128": {
+        "baseline": 49,
+        "g10": 45,
+        "improved": [
+          "g8-reserved-1-v24",
+          "g9-reserved-0-v16",
+          "g9-reserved-2-v24"
+        ],
+        "regressed": [
+          "g1-unequal_building_heights-1-v16",
+          "g7-vertical-reserved-2-v16",
+          "g8-reserved-0-v32",
+          "g8-reserved-3-v16",
+          "g9-reserved-0-v24",
+          "g9-reserved-0-v32",
+          "g9-reserved-3-v16"
+        ]
+      }
+    },
+    "fresh_reserved_G9": {
+      "64": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-1-v32",
+          "g10-reserved-2-v24"
+        ],
+        "regressed": []
+      },
+      "128": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-1-v32",
+          "g10-reserved-2-v24"
+        ],
+        "regressed": []
+      }
+    },
+    "fresh_reserved_G8": {
+      "64": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-2-v24",
+          "g10-reserved-2-v32"
+        ],
+        "regressed": []
+      },
+      "128": {
+        "baseline": 4,
+        "g10": 6,
+        "improved": [
+          "g10-reserved-2-v24",
+          "g10-reserved-2-v32"
+        ],
+        "regressed": []
+      }
+    }
+  },
+  "accepted": false,
+  "stability_pass_cases": 69,
+  "persistent_failure_cases": 18,
+  "visual_review_completed": true,
+  "full_evidence_preserved": true,
+  "decision": "Retain timing improvement as evidence; review irreversible volume allocation before another paid experiment"
+}

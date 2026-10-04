@@ -1,0 +1,93 @@
+{
+  "id": "7495499ac345410199ed4a457c7dff5b",
+  "saved_at": "2026-10-04T18:06:06.666885+00:00",
+  "draft": {
+    "site": "g1-offset_interfaces-y0",
+    "base": {
+      "contract_version": "scene_v1",
+      "scene_id": "g1-offset_interfaces-y0",
+      "description": "MT1 analytic massing development context: offset_interfaces",
+      "grid_size": 32,
+      "voxel_size_m": 0.8,
+      "street_levels": 6,
+      "ceiling_z": null,
+      "legacy_relaxations": [],
+      "buildings": [
+        {
+          "id": "B_west",
+          "x": [
+            0,
+            8
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 8,
+          "side": "left"
+        },
+        {
+          "id": "B_east",
+          "x": [
+            24,
+            32
+          ],
+          "y": [
+            6,
+            26
+          ],
+          "z": [
+            0,
+            25
+          ],
+          "gap_facing_x": 24,
+          "side": "right"
+        }
+      ],
+      "entrances": [
+        {
+          "id": "E_west",
+          "kind": "facade",
+          "extent": 2,
+          "x": 8,
+          "y": 13,
+          "z": 8
+        },
+        {
+          "id": "E_east",
+          "kind": "facade",
+          "extent": 2,
+          "x": 22,
+          "y": 16,
+          "z": 12
+        }
+      ],
+      "notes": [
+        "Constructed development audit, not held-out generalization evidence."
+      ]
+    },
+    "values": {
+      "edit0": "8",
+      "edit1": "25",
+      "edit2": "6",
+      "edit3": "26",
+      "edit4": "24",
+      "edit5": "25",
+      "edit6": "6",
+      "edit7": "26",
+      "entry0y": "13",
+      "entry0z": "8",
+      "entry1y": "16",
+      "entry1z": "12"
+    },
+    "route_mode": "high_y",
+    "seed": "2101",
+    "volume": "0.24",
+    "enabled": false,
+    "parent_run": null
+  }
+}

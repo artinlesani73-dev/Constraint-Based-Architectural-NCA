@@ -1,0 +1,124 @@
+{
+  "event": "G8 returned evidence and frozen evaluation complete",
+  "summary": {
+    "regression": {
+      "64": {
+        "valid": 32,
+        "expected": 33,
+        "median_absolute_fraction_error": 0.00156635802469135,
+        "max_absolute_fraction_error": 0.006002522068095872,
+        "family_pass": {
+          "access": 32,
+          "coverage": 33,
+          "facade": 33,
+          "ground": 33,
+          "legality": 33,
+          "sparsity": 33,
+          "spill": 33,
+          "support": 33,
+          "thickness": 33
+        }
+      },
+      "128": {
+        "valid": 32,
+        "expected": 33,
+        "median_absolute_fraction_error": 0.0015586307356154072,
+        "max_absolute_fraction_error": 0.0018004866180048595,
+        "family_pass": {
+          "access": 32,
+          "coverage": 33,
+          "facade": 33,
+          "ground": 33,
+          "legality": 33,
+          "sparsity": 33,
+          "spill": 33,
+          "support": 33,
+          "thickness": 33
+        }
+      }
+    },
+    "fresh_reserved": {
+      "64": {
+        "valid": 8,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0011915600228005196,
+        "max_absolute_fraction_error": 0.003867924528301897,
+        "family_pass": {
+          "access": 8,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 8,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0013208116166328887,
+        "max_absolute_fraction_error": 0.0014064963733838032,
+        "family_pass": {
+          "access": 8,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    }
+  },
+  "gates": {
+    "regression_64_all_nine": false,
+    "regression_64_volume_error": true,
+    "regression_128_all_nine": false,
+    "regression_128_volume_error": true,
+    "regression_stable_mass": true,
+    "fresh_reserved_64_all_nine": false,
+    "fresh_reserved_64_volume_error": true,
+    "fresh_reserved_128_all_nine": false,
+    "fresh_reserved_128_volume_error": true,
+    "fresh_reserved_stable_mass": true
+  },
+  "paired_legacy": {
+    "64": {
+      "g7_valid": 28,
+      "g8_valid": 32,
+      "improved": [
+        "g1-offset_interfaces-y4-v16",
+        "g1-unequal_building_heights-1-v16",
+        "g7-vertical-reserved-0-v16",
+        "g7-vertical-reserved-1-v16"
+      ],
+      "regressed": []
+    },
+    "128": {
+      "g7_valid": 30,
+      "g8_valid": 32,
+      "improved": [
+        "g1-unequal_building_heights-1-v16",
+        "g7-vertical-reserved-0-v16",
+        "g7-vertical-reserved-1-v16"
+      ],
+      "regressed": [
+        "g7-vertical-reserved-2-v16"
+      ]
+    }
+  },
+  "stability_passes": {
+    "regression": 33,
+    "fresh_reserved": 12
+  },
+  "maximum_mass_growth": 0.03959390862944162,
+  "integrity_passed": true,
+  "common_g7_prefix_exact": true,
+  "accepted": false,
+  "decision": "Preserve G8 reference;propose access-priority learning before further compute",
+  "changes": "Local evidence verification and frozen review only;no new optimizer updates or live changes"
+}

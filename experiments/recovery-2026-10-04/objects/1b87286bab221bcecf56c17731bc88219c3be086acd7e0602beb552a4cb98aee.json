@@ -1,0 +1,189 @@
+{
+  "case": "g1-wide_gap-y4-v16",
+  "seconds": 0.18631929997354746,
+  "mass": 351,
+  "B": 694,
+  "C": 702,
+  "plan": [
+    [
+      6,
+      14,
+      7
+    ],
+    [
+      6,
+      13,
+      7
+    ],
+    [
+      6,
+      12,
+      7
+    ],
+    [
+      6,
+      11,
+      7
+    ],
+    [
+      6,
+      10,
+      7
+    ],
+    [
+      6,
+      9,
+      7
+    ],
+    [
+      6,
+      14,
+      12
+    ],
+    [
+      6,
+      14,
+      15
+    ],
+    [
+      6,
+      13,
+      13
+    ],
+    [
+      6,
+      12,
+      13
+    ],
+    [
+      6,
+      11,
+      13
+    ],
+    [
+      6,
+      14,
+      18
+    ],
+    [
+      6,
+      13,
+      18
+    ],
+    [
+      6,
+      14,
+      21
+    ],
+    [
+      6,
+      13,
+      21
+    ],
+    [
+      6,
+      12,
+      19
+    ],
+    [
+      6,
+      11,
+      19
+    ],
+    [
+      6,
+      10,
+      19
+    ],
+    [
+      6,
+      12,
+      18
+    ],
+    [
+      6,
+      12,
+      20
+    ],
+    [
+      6,
+      13,
+      12
+    ]
+  ],
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 351,
+    "gross_volume_m3": 179.71200000000005,
+    "domain_voxels": 4332,
+    "volume_fraction": 0.08102493074792244,
+    "bulk_voxels": 351,
+    "bulk_fraction": 1.0,
+    "thirds": [
+      {
+        "domain_cells": 1518,
+        "bulk_cells": 123,
+        "fraction": 0.08102766798418973
+      },
+      {
+        "domain_cells": 1296,
+        "bulk_cells": 105,
+        "fraction": 0.08101851851851852
+      },
+      {
+        "domain_cells": 1518,
+        "bulk_cells": 123,
+        "fraction": 0.08102766798418973
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "bulk_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "unreached_occupied_voxels": 0,
+    "unreached_bulk_voxels": 0,
+    "facade_contact_fraction": 0.045584045584045586,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 351,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "contract_pass": true,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "certified": true
+}

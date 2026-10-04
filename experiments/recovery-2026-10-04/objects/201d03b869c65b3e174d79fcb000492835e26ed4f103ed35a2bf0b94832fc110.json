@@ -1,0 +1,16 @@
+{
+  "same_initial_base_weights": true,
+  "new_weights_initially_zero": true,
+  "same_order_and_stages": true,
+  "same_final_firing_rng": true,
+  "same_training_arrays": true,
+  "same_runtime_versions": true,
+  "verified_training_budget_steps": 16384,
+  "total_rejected_training_proposals": 992823,
+  "all_training_states_retain_start_and_legality": true,
+  "device_reference_probe": {
+    "device": "cuda:0",
+    "passed": true,
+    "reference_cases": 8
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "event_totals": {
+    "birth_events": 2944,
+    "cells_born_more_than_once": 233,
+    "direct_removed_correct_events": 406,
+    "direct_removed_wrong_events": 363,
+    "input_removed_events": 0,
+    "projection_removed_correct_events": 9,
+    "projection_removed_wrong_events": 7
+  },
+  "pre_projection_pass": 24,
+  "failed_cases": {
+    "CGR1": [
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s0",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v24__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ]
+      }
+    ],
+    "RGR1": [
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s0",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "coverage",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v16__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ]
+      },
+      {
+        "case": "mg5__mg3__offset_interfaces__v24__s2",
+        "damage": "cube5",
+        "families": [
+          "access",
+          "thickness"
+        ]
+      }
+    ]
+  },
+  "family_counts": {
+    "CGR1": {
+      "access": 24,
+      "coverage": 27,
+      "facade": 27,
+      "ground": 27,
+      "legality": 27,
+      "sparsity": 27,
+      "spill": 27,
+      "support": 27,
+      "thickness": 24
+    },
+    "RGR1": {
+      "access": 24,
+      "coverage": 26,
+      "facade": 27,
+      "ground": 27,
+      "legality": 27,
+      "sparsity": 27,
+      "spill": 27,
+      "support": 27,
+      "thickness": 24
+    }
+  },
+  "cpu_median_rollout_seconds": {
+    "CGR1": 0.7970000000204891,
+    "RGR1": 0.9060000000172295
+  },
+  "intact_below_099": {
+    "CGR1": 3,
+    "RGR1": 4
+  }
+}

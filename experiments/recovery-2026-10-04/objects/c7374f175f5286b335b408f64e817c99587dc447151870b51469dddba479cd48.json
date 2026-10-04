@@ -1,0 +1,9 @@
+{
+  "completed": 0,
+  "cpu_rehearsal": true,
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\scripts\\colab_generation.py\", line 23, in worker\n    session=fresh();write_once(out/'identity.json',session.identity)\n            ^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\scripts\\colab_generation.py\", line 22, in fresh\n    def fresh():return GenerationSession(ROOT,data['rows'],identity,device=a.device,seed=a.seed)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\generation_training.py\", line 20, in __init__\n    super().__init__(*args,**kwargs)\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\connected_repair.py\", line 68, in __init__\n    super().__init__(root,rows,identity,**kwargs)\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\repair_portable.py\", line 94, in __init__\n    for row in self.rows:load_example(self.root,row)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\repair_benchmark.py\", line 117, in load_example\n    inputs = {'occupancy': pack['damaged'].astype(np.float32),\n                           ~~~~^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py\", line 243, in __getitem__\n    raise KeyError(f\"{key} is not a file in the archive\") from None\nKeyError: 'damaged is not a file in the archive'\n",
+  "peak_reserved": null,
+  "quality_evaluated": false,
+  "status": "failed",
+  "wall_seconds": 2.0
+}

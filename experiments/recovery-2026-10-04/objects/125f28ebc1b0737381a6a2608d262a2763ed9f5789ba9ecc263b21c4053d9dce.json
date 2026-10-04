@@ -1,0 +1,10 @@
+{
+  "predecessor": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Block-Training-2026-10-03",
+  "changed_members": [
+    "nca/generation_training.py",
+    "manifest.json"
+  ],
+  "reason": "Removed inherited intact_negative=1.5 setting unused by G4; effective BCE is1:1.",
+  "retained_checkpoints_model_equal": true,
+  "original_attempt_preserved": true
+}

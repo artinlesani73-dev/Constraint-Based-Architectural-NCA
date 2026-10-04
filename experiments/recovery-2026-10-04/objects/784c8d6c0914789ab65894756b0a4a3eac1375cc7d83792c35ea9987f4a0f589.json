@@ -1,0 +1,224 @@
+{
+  "admission_is_detached": true,
+  "experiment": {
+    "manifest_sha256": "3a790ee53bd1f92c15f2b1d7f01e1b0fa19dffb5543df4fcf4f3c1cff0880e5d",
+    "settings": {
+      "admission": "cpu_sequential_cube_overlap_v1",
+      "admission_count_columns": [
+        "initial_mass",
+        "offered_blocks",
+        "accepted_blocks",
+        "budget_rejected_blocks",
+        "redundant_blocks",
+        "deferred_seed_blocks",
+        "added_voxels"
+      ],
+      "architecture": "61-64-8",
+      "automatic_retry": false,
+      "budget_width": 3,
+      "objective": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 1.0,
+        "global_band": 1.0,
+        "volume": 0.25
+      },
+      "proposal_shape": [
+        30,
+        30,
+        30
+      ],
+      "review_firing_seed": 2101,
+      "review_steps": 64,
+      "seconds": 600,
+      "seed": 1201,
+      "seed_loss": "frontier_only",
+      "seed_start_fraction": 0.5,
+      "stability_steps": 128,
+      "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+      "train_steps": 64,
+      "union_surrogate": "independent_before_hard_selection",
+      "updates": 256,
+      "version": "seed_generation_training_v4_blocks"
+    }
+  },
+  "generation_settings": {
+    "admission": "cpu_sequential_cube_overlap_v1",
+    "admission_count_columns": [
+      "initial_mass",
+      "offered_blocks",
+      "accepted_blocks",
+      "budget_rejected_blocks",
+      "redundant_blocks",
+      "deferred_seed_blocks",
+      "added_voxels"
+    ],
+    "architecture": "61-64-8",
+    "automatic_retry": false,
+    "budget_width": 3,
+    "objective": {
+      "cube": 3,
+      "frontier_negative": 1.0,
+      "frontier_positive": 1.0,
+      "global_band": 1.0,
+      "volume": 0.25
+    },
+    "proposal_shape": [
+      30,
+      30,
+      30
+    ],
+    "review_firing_seed": 2101,
+    "review_steps": 64,
+    "seconds": 600,
+    "seed": 1201,
+    "seed_loss": "frontier_only",
+    "seed_start_fraction": 0.5,
+    "stability_steps": 128,
+    "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+    "train_steps": 64,
+    "union_surrogate": "independent_before_hard_selection",
+    "updates": 256,
+    "version": "seed_generation_training_v4_blocks"
+  },
+  "global_budget_operations": true,
+  "hard_birth_gradients": false,
+  "model_semantics": "seed_generation_training_v4_blocks",
+  "objective": {
+    "cube": 3,
+    "frontier_negative": 1.0,
+    "frontier_positive": 1.0,
+    "global_band": 1.0,
+    "volume": 0.25
+  },
+  "ordered_training_rows": [
+    {
+      "arrays": "examples/g1-aligned-y0-v16.npz",
+      "sha256": "ac14fea01097908cbb60689b6ee2b62fe4de8f96a96b35b359e56aa6492222fe"
+    },
+    {
+      "arrays": "examples/g1-aligned-y0-v24.npz",
+      "sha256": "822448e9d949f940442497691ef6476a54aa2819c67eb87e7d534a8abacbbef9"
+    },
+    {
+      "arrays": "examples/g1-aligned-y0-v32.npz",
+      "sha256": "d218851ae641d36366c157620616712b5247c511daaabb7b8aa4570221dcbd7a"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v16.npz",
+      "sha256": "3dc41f136d6b81e76afe6b67acfd644905c434698d12da49a58f21a332aaa362"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v24.npz",
+      "sha256": "f8bfeda9c6648f63798017b7327c6e9e33ab570d86691d3815e64303c76eed55"
+    },
+    {
+      "arrays": "examples/g1-aligned-y2-v32.npz",
+      "sha256": "8ad5f9011e2b6ee031b2b7597f772c51f21b3904d292d1eaca1acefb7e35d092"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v16.npz",
+      "sha256": "32ead70c91333ff778377c4660996f0978af1fb84dd19d10a5b113a9f7b924ee"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v24.npz",
+      "sha256": "f09d2526341658302b28a07ba04b3de7520206b85350cba19507a851eb64f0c0"
+    },
+    {
+      "arrays": "examples/g1-aligned-y4-v32.npz",
+      "sha256": "834aa9f618dbb954cbeb88dc05119a9953c61733f7c9275f5397d67f7d1ce4e0"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v16.npz",
+      "sha256": "b1b0c999165821d5d2f85c7b6e255856c61696358a16d925edd988465c1e63eb"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v24.npz",
+      "sha256": "5a9a8a0685d34a0907c20eec749e0afd1893296c7a7b07640525a98ba6135c5a"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y0-v32.npz",
+      "sha256": "2b248555461f39c29fdb67e2001040893f757c527b7b142d0183845c0069f208"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v16.npz",
+      "sha256": "838fd1f5f95bf9d2645b6b519ecf3ebaa21a62d1679d41eedc39eaf3b7a4bd15"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v24.npz",
+      "sha256": "e527c9e42e3a204cb98288407689810d63cf7decb1ab73e6af93eda36fb77743"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y2-v32.npz",
+      "sha256": "c73af01e081f77cba91da6fe7c9e35c2e4ca50702d3f032298960527d8ca9d92"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v16.npz",
+      "sha256": "c8c6bf649f587aff3b1a0ef9fc906e962571d3b7e42672109498221fae4c78a4"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v24.npz",
+      "sha256": "92dd0e2e12ceef929216839f079d1dfa5d1d4bfeed092305dfd1d70b2d3e8fd2"
+    },
+    {
+      "arrays": "examples/g1-wide_gap-y4-v32.npz",
+      "sha256": "32771682c3ddd66f7c4c6b073cdc4e4640e1e807e9f1b17bc0aa674e84359b92"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v16.npz",
+      "sha256": "c22b5fe35fef8d173272e1a232dc6383fe923700f74a295579a3dbc600596aa3"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v24.npz",
+      "sha256": "72474e3b72bb255b85999c37f6a4951497a2126bd2f1f182b3c4b7a0bfc44fb0"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y0-v32.npz",
+      "sha256": "d5449d5c0a5073a01ce78da520818936396c0424b3ae0baad277b6f6a4f98204"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v16.npz",
+      "sha256": "fd929a55b3e015193e4a6eff5ccd8f06bf6c534d5329ed63dbfdc857ebdc9a4a"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v24.npz",
+      "sha256": "fdd56b8d3f00d695c89b819aa01a979600589a82721ec83e981b005720dd64f2"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y2-v32.npz",
+      "sha256": "20844c3215c829a021ecab951dbe5cbbc93141ba5aa841a9743cf70d25396abc"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v16.npz",
+      "sha256": "619b765462b5525511564fd5cbb70b2af59c188573c62585529be8f83d718ed6"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v24.npz",
+      "sha256": "8f9b42346d3697b62ec832c120b6e9c89b15dee0d06be456cdc1cd7dc233b57e"
+    },
+    {
+      "arrays": "examples/g1-partial_obstruction-y4-v32.npz",
+      "sha256": "73d49992d299388e216e6117882a2abfe4e94187a212417b8943491ca9bb6656"
+    }
+  ],
+  "runtime": {
+    "cublas_workspace": ":4096:8",
+    "cuda_build": null,
+    "cudnn": null,
+    "cudnn_benchmark": false,
+    "deterministic": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "host": "Mars",
+    "numpy": "2.5.2",
+    "python": "3.12.14",
+    "tf32_cudnn": false,
+    "tf32_matmul": false,
+    "threads": 2,
+    "torch": "2.8.0+cpu",
+    "torch_build_configuration": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 193833145\n  - Intel(R) oneAPI Math Kernel Library Version 2025.2-Product Build 20250620 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+  },
+  "seed": 1201,
+  "train_steps": 64,
+  "version": "volume_repair_portable_preflight_v1"
+}

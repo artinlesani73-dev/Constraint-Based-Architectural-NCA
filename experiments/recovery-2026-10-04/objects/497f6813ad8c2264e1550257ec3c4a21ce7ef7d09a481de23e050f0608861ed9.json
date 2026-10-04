@@ -1,0 +1,22 @@
+{
+  "event": "G9 access-objective design",
+  "results": {
+    "oracle_states_checked": 769,
+    "active_ranking_checks": 706,
+    "connected_baseline_exact": 45,
+    "explicit_pairwise_formula_verified": true,
+    "extreme_logits_finite": true,
+    "no_firing_and_no_other_group_zero": true,
+    "hard_gating_oracle_cases_below_requested_B": 37,
+    "hard_gating_max_shortfall": 206,
+    "optimizer_updates": 0,
+    "trained_model_inference": 0,
+    "heldout_access": false
+  },
+  "prior_evidence": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G8-Final-Review-2026-10-04-v2",
+  "selected_objective": "G8 loss plus TRAIN-only access pair ranking",
+  "architecture_changed": false,
+  "inference_changed": false,
+  "optimizer_updates": 0,
+  "drive_operations": 0
+}

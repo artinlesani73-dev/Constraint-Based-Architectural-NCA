@@ -1,0 +1,24 @@
+{
+  "event": "G11 allocation design",
+  "decision": "hybrid reservation first; reversible learning deferred",
+  "result": {
+    "cases": 45,
+    "route_within_cap": 45,
+    "coverage_budget_not_ruled_out": 45,
+    "route_mass_range": [
+      144,
+      189
+    ],
+    "min_spare_after_route": 365,
+    "wall_seconds": 1.9262486000079662,
+    "teacher_used": false,
+    "model_inference": false,
+    "paid_training": false,
+    "claim": "Legal full-cube route feasibility only; coverage bound is necessary not sufficient; no full nine-family acceptance claim"
+  },
+  "limitations": [
+    "TRAIN geometry only",
+    "coverage bound necessary not sufficient",
+    "no model quality or scheduling validation"
+  ]
+}

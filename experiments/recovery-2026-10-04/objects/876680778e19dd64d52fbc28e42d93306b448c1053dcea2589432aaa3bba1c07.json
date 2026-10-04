@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G5-Final-Review-2026-10-04\\source\\nca\\guided_generation.py",
+  "source_sha256": "f820f696c5946ee227d95ac51d0c9b787a99e1c9d068eca3922680014d89abe7",
+  "function": "block_loss",
+  "active_terms": [
+    "Eligible fired origin positive/negative teacher BCE",
+    "After seed phase:0.25 local3cube mean-volume error",
+    "After seed phase:1.0 global volume-band error"
+  ],
+  "explicit_interface_connection_loss": false,
+  "explicit_third_coverage_loss": false,
+  "hard_births_detached": true,
+  "interpretation": "Access/coverage are currently supervised indirectly through teacher geometry. Their absence as explicit loss terms is a code finding; it does not prove adding such a term alone will solve the task.",
+  "implementation": "def block_loss(logits,m,eligible,target,origins,seed_phase,D,B,C):\n    zero=logits.sum()*0\n    positive=eligible & origins;negative=eligible & ~origins\n    front=(F.softplus(-logits[positive]).mean() if positive.any() else zero)\n    front=front+(F.softplus(logits[negative]).mean() if negative.any() else zero)\n    if seed_phase:return front,front,zero,zero\n    soft=soft_union(logits,eligible,m)\n    covered=F.conv_transpose3d(eligible.float(),logits.new_ones((1,1,3,3,3)))>0\n    windows=F.max_pool3d((covered & ~m).float(),3,1)>0\n    delta=(cube_mean(soft)-cube_mean(target)).abs()\n    volume=delta[windows].mean() if windows.any() else zero\n    count=soft.sum();band=(F.relu(B-count)+F.relu(count-C))/D\n    return front+.25*volume+band,front,volume,band\n"
+}

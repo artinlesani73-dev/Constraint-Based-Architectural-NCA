@@ -1,0 +1,14 @@
+{
+  "status": "G5 context-only destination cue implemented,TRAIN feasibility and CPU exact recovery passed;paid job pending",
+  "previous": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Final-Review-2026-10-04\\RESUME.json",
+  "folder": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G5-Destination-Guidance-2026-10-04",
+  "next": "Ask explicit allowance for ONE G5seed1201 Tesla T4 job,256updates64steps,600controlledseconds,setup/export/idle extra,no retry. User opens NCA-G5-Destination.ipynb and uploads NCA-G5-Destination-Package.zip;flag remainsFalse until approved. Receive FULL ZIP+receipt. Verify hashes,exact package identity,256updates,starts,7column accounts,recovery and device cue checks. Evaluate final256only with GuidedNCA on unchanged9development cases at64/128,CPUfloat32,firing2101;compare G4 and disclose development reuse. Preserve all failures;do not open reserved labels or promote live automatically.",
+  "model_class": "nca.guided_generation.GuidedNCA",
+  "run_command": "python scripts/colab_generation.py --device cuda:0 --seed 1201 --seconds 600 --approved-seed-job",
+  "command_requires_explicit_approval": true,
+  "review_parent": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Final-Review-2026-10-04\\review-script.py",
+  "paid_run_authorized": false,
+  "repository_sync_pending": true,
+  "drive_operations": 0,
+  "live_model": "MG7 unchanged"
+}

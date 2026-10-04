@@ -1,0 +1,83 @@
+{
+  "event": "G4 returned training evidence reviewed",
+  "date": "2026-10-04",
+  "run": "20261004T065608Z_176639ac1bc5",
+  "verified": true,
+  "accepted": false,
+  "changes": "No model/training changes in this review. Added G4seven-column review and saved-output allocation diagnostics.",
+  "results": {
+    "64": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "findings": {
+    "all_final_fields_equal_64_128": true,
+    "all_direct_west_contacts": true,
+    "east_contacts": 2,
+    "capacity_reached": 9,
+    "ceiling_step_range": [
+      14,
+      22
+    ],
+    "last_growth_step_range": [
+      14,
+      22
+    ],
+    "bulk_fraction_range": [
+      1.0,
+      1.0
+    ],
+    "budget_rejected_block_events64": 19101,
+    "median_volume_error_percentage_points": 0.15191740412979493,
+    "max_volume_error_percentage_points": 0.16555308092056353
+  },
+  "decision": "Preserve cube/budget improvements; do not promote. Next investigate destination-aware spatial allocation on TRAIN before more paid compute.",
+  "limitations": [
+    "Single trained seed",
+    "Reused development set",
+    "Thickness/budget/stability largely enforced",
+    "No reserved generalization",
+    "No exact replay of all256GPUupdates",
+    "Repository synchronization/off-device backup pending"
+  ]
+}

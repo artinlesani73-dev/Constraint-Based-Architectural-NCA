@@ -5,3 +5,7 @@ experiments/annotations/**/*.json text eol=lf
 
 # Frozen training proposals have exact-byte checkpoint metadata hashes.
 experiments/configs/**/*.json text eol=lf
+
+# Immutable recovery payloads must retain their original byte hashes.
+experiments/recovery-2026-10-04/** -text
+experimental/r3-studio/** -text

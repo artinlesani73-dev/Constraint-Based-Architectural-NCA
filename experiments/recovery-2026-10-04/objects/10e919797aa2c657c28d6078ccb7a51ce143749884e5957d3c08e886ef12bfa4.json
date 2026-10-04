@@ -1,0 +1,1163 @@
+{
+  "protocol": "One predetermined quota rule:max(9,ceil((C-27)/63));only fixed pre-cap,unreached TRAIN snapshots with fired progress candidates. Same logits,field,firing,probability threshold and ordering. No quota search.",
+  "summary": {
+    "states": 67,
+    "states_with_growth_both": 67,
+    "progress_share_higher": 39,
+    "progress_share_equal": 3,
+    "progress_share_lower": 25,
+    "original_added_voxels": 3994,
+    "original_progress_added_voxels": 681,
+    "paced_added_voxels": 937,
+    "paced_progress_added_voxels": 386,
+    "quota_range": [
+      9,
+      22
+    ]
+  },
+  "records": [
+    {
+      "case": "g1-aligned-y0-v16",
+      "step": 4,
+      "quota": 9,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 52,
+        "progress_added_voxels": 9,
+        "progress_share": 0.17307692307692307,
+        "accepted_blocks": 13
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v24",
+      "step": 4,
+      "quota": 14,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v24",
+      "step": 8,
+      "quota": 14,
+      "original": {
+        "added_voxels": 52,
+        "progress_added_voxels": 9,
+        "progress_share": 0.17307692307692307,
+        "accepted_blocks": 13
+      },
+      "paced": {
+        "added_voxels": 14,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v24",
+      "step": 16,
+      "quota": 14,
+      "original": {
+        "added_voxels": 72,
+        "progress_added_voxels": 9,
+        "progress_share": 0.125,
+        "accepted_blocks": 22
+      },
+      "paced": {
+        "added_voxels": 14,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v32",
+      "step": 4,
+      "quota": 18,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y0-v32",
+      "step": 8,
+      "quota": 18,
+      "original": {
+        "added_voxels": 63,
+        "progress_added_voxels": 9,
+        "progress_share": 0.14285714285714285,
+        "accepted_blocks": 17
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 9,
+        "progress_share": 0.5,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-aligned-y2-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 78,
+        "progress_added_voxels": 9,
+        "progress_share": 0.11538461538461539,
+        "accepted_blocks": 19
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-aligned-y2-v24",
+      "step": 8,
+      "quota": 14,
+      "original": {
+        "added_voxels": 91,
+        "progress_added_voxels": 9,
+        "progress_share": 0.0989010989010989,
+        "accepted_blocks": 21
+      },
+      "paced": {
+        "added_voxels": 14,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-aligned-y2-v32",
+      "step": 8,
+      "quota": 18,
+      "original": {
+        "added_voxels": 85,
+        "progress_added_voxels": 9,
+        "progress_share": 0.10588235294117647,
+        "accepted_blocks": 20
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-aligned-y2-v32",
+      "step": 16,
+      "quota": 18,
+      "original": {
+        "added_voxels": 2,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 2
+      },
+      "paced": {
+        "added_voxels": 2,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v16",
+      "step": 4,
+      "quota": 9,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 18,
+        "progress_share": 0.36,
+        "accepted_blocks": 9
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v16",
+      "step": 12,
+      "quota": 9,
+      "original": {
+        "added_voxels": 82,
+        "progress_added_voxels": 14,
+        "progress_share": 0.17073170731707318,
+        "accepted_blocks": 27
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v24",
+      "step": 4,
+      "quota": 13,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 12,
+        "progress_added_voxels": 9,
+        "progress_share": 0.75,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v24",
+      "step": 8,
+      "quota": 13,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 18,
+        "progress_share": 0.36,
+        "accepted_blocks": 9
+      },
+      "paced": {
+        "added_voxels": 12,
+        "progress_added_voxels": 9,
+        "progress_share": 0.75,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v24",
+      "step": 12,
+      "quota": 13,
+      "original": {
+        "added_voxels": 80,
+        "progress_added_voxels": 14,
+        "progress_share": 0.175,
+        "accepted_blocks": 27
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v24",
+      "step": 16,
+      "quota": 13,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 14,
+        "progress_share": 0.28,
+        "accepted_blocks": 12
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v32",
+      "step": 4,
+      "quota": 18,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 15,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v32",
+      "step": 8,
+      "quota": 18,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 18,
+        "progress_share": 0.36,
+        "accepted_blocks": 9
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 18,
+        "progress_share": 1.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v32",
+      "step": 12,
+      "quota": 18,
+      "original": {
+        "added_voxels": 84,
+        "progress_added_voxels": 14,
+        "progress_share": 0.16666666666666666,
+        "accepted_blocks": 28
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 14,
+        "progress_share": 0.7777777777777778,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-aligned-y4-v32",
+      "step": 16,
+      "quota": 18,
+      "original": {
+        "added_voxels": 106,
+        "progress_added_voxels": 14,
+        "progress_share": 0.1320754716981132,
+        "accepted_blocks": 34
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 14,
+        "progress_share": 0.7777777777777778,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 4,
+      "quota": 9,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 48,
+        "progress_added_voxels": 6,
+        "progress_share": 0.125,
+        "accepted_blocks": 11
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 6,
+        "progress_share": 0.6666666666666666,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 12,
+      "quota": 9,
+      "original": {
+        "added_voxels": 54,
+        "progress_added_voxels": 12,
+        "progress_share": 0.2222222222222222,
+        "accepted_blocks": 11
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 4,
+      "quota": 13,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 8,
+      "quota": 13,
+      "original": {
+        "added_voxels": 48,
+        "progress_added_voxels": 6,
+        "progress_share": 0.125,
+        "accepted_blocks": 11
+      },
+      "paced": {
+        "added_voxels": 12,
+        "progress_added_voxels": 6,
+        "progress_share": 0.5,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 12,
+      "quota": 13,
+      "original": {
+        "added_voxels": 71,
+        "progress_added_voxels": 12,
+        "progress_share": 0.16901408450704225,
+        "accepted_blocks": 15
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 12,
+        "progress_share": 0.9230769230769231,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 16,
+      "quota": 13,
+      "original": {
+        "added_voxels": 79,
+        "progress_added_voxels": 12,
+        "progress_share": 0.1518987341772152,
+        "accepted_blocks": 22
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 12,
+        "progress_share": 0.9230769230769231,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 4,
+      "quota": 18,
+      "original": {
+        "added_voxels": 38,
+        "progress_added_voxels": 9,
+        "progress_share": 0.23684210526315788,
+        "accepted_blocks": 5
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 8,
+      "quota": 18,
+      "original": {
+        "added_voxels": 54,
+        "progress_added_voxels": 8,
+        "progress_share": 0.14814814814814814,
+        "accepted_blocks": 15
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 8,
+        "progress_share": 0.4444444444444444,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 12,
+      "quota": 18,
+      "original": {
+        "added_voxels": 72,
+        "progress_added_voxels": 9,
+        "progress_share": 0.125,
+        "accepted_blocks": 20
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 16,
+      "quota": 18,
+      "original": {
+        "added_voxels": 89,
+        "progress_added_voxels": 9,
+        "progress_share": 0.10112359550561797,
+        "accepted_blocks": 27
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 4,
+      "quota": 9,
+      "original": {
+        "added_voxels": 37,
+        "progress_added_voxels": 3,
+        "progress_share": 0.08108108108108109,
+        "accepted_blocks": 7
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 64,
+        "progress_added_voxels": 18,
+        "progress_share": 0.28125,
+        "accepted_blocks": 15
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 5,
+        "progress_share": 0.5555555555555556,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 12,
+      "quota": 9,
+      "original": {
+        "added_voxels": 58,
+        "progress_added_voxels": 9,
+        "progress_share": 0.15517241379310345,
+        "accepted_blocks": 14
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 4,
+      "quota": 13,
+      "original": {
+        "added_voxels": 40,
+        "progress_added_voxels": 3,
+        "progress_share": 0.075,
+        "accepted_blocks": 10
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 8,
+      "quota": 13,
+      "original": {
+        "added_voxels": 63,
+        "progress_added_voxels": 18,
+        "progress_share": 0.2857142857142857,
+        "accepted_blocks": 17
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 12,
+      "quota": 13,
+      "original": {
+        "added_voxels": 73,
+        "progress_added_voxels": 9,
+        "progress_share": 0.1232876712328767,
+        "accepted_blocks": 16
+      },
+      "paced": {
+        "added_voxels": 13,
+        "progress_added_voxels": 9,
+        "progress_share": 0.6923076923076923,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 4,
+      "quota": 18,
+      "original": {
+        "added_voxels": 40,
+        "progress_added_voxels": 3,
+        "progress_share": 0.075,
+        "accepted_blocks": 10
+      },
+      "paced": {
+        "added_voxels": 16,
+        "progress_added_voxels": 3,
+        "progress_share": 0.1875,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 8,
+      "quota": 18,
+      "original": {
+        "added_voxels": 66,
+        "progress_added_voxels": 15,
+        "progress_share": 0.22727272727272727,
+        "accepted_blocks": 17
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 6,
+        "progress_share": 0.3333333333333333,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 12,
+      "quota": 18,
+      "original": {
+        "added_voxels": 74,
+        "progress_added_voxels": 9,
+        "progress_share": 0.12162162162162163,
+        "accepted_blocks": 17
+      },
+      "paced": {
+        "added_voxels": 18,
+        "progress_added_voxels": 9,
+        "progress_share": 0.5,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 4,
+      "quota": 9,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 12,
+        "progress_share": 0.8,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 8,
+      "quota": 9,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 9,
+        "progress_share": 0.18,
+        "accepted_blocks": 10
+      },
+      "paced": {
+        "added_voxels": 8,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 4,
+      "quota": 13,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 12,
+        "progress_share": 0.8,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 12,
+        "progress_added_voxels": 12,
+        "progress_share": 1.0,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 8,
+      "quota": 13,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 9,
+        "progress_share": 0.18,
+        "accepted_blocks": 10
+      },
+      "paced": {
+        "added_voxels": 12,
+        "progress_added_voxels": 9,
+        "progress_share": 0.75,
+        "accepted_blocks": 2
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 4,
+      "quota": 17,
+      "original": {
+        "added_voxels": 15,
+        "progress_added_voxels": 12,
+        "progress_share": 0.8,
+        "accepted_blocks": 3
+      },
+      "paced": {
+        "added_voxels": 15,
+        "progress_added_voxels": 12,
+        "progress_share": 0.8,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 8,
+      "quota": 17,
+      "original": {
+        "added_voxels": 50,
+        "progress_added_voxels": 9,
+        "progress_share": 0.18,
+        "accepted_blocks": 10
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 9,
+        "progress_share": 0.5294117647058824,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v16",
+      "step": 4,
+      "quota": 11,
+      "original": {
+        "added_voxels": 35,
+        "progress_added_voxels": 12,
+        "progress_share": 0.34285714285714286,
+        "accepted_blocks": 7
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v16",
+      "step": 12,
+      "quota": 11,
+      "original": {
+        "added_voxels": 87,
+        "progress_added_voxels": 3,
+        "progress_share": 0.034482758620689655,
+        "accepted_blocks": 24
+      },
+      "paced": {
+        "added_voxels": 11,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v24",
+      "step": 4,
+      "quota": 17,
+      "original": {
+        "added_voxels": 35,
+        "progress_added_voxels": 12,
+        "progress_share": 0.34285714285714286,
+        "accepted_blocks": 7
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 12,
+        "progress_share": 0.7058823529411765,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v24",
+      "step": 12,
+      "quota": 17,
+      "original": {
+        "added_voxels": 92,
+        "progress_added_voxels": 3,
+        "progress_share": 0.03260869565217391,
+        "accepted_blocks": 25
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 8
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v24",
+      "step": 16,
+      "quota": 17,
+      "original": {
+        "added_voxels": 125,
+        "progress_added_voxels": 12,
+        "progress_share": 0.096,
+        "accepted_blocks": 39
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v32",
+      "step": 4,
+      "quota": 22,
+      "original": {
+        "added_voxels": 35,
+        "progress_added_voxels": 12,
+        "progress_share": 0.34285714285714286,
+        "accepted_blocks": 7
+      },
+      "paced": {
+        "added_voxels": 21,
+        "progress_added_voxels": 12,
+        "progress_share": 0.5714285714285714,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v32",
+      "step": 12,
+      "quota": 22,
+      "original": {
+        "added_voxels": 103,
+        "progress_added_voxels": 3,
+        "progress_share": 0.02912621359223301,
+        "accepted_blocks": 28
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 7
+      }
+    },
+    {
+      "case": "g1-wide_gap-y0-v32",
+      "step": 16,
+      "quota": 22,
+      "original": {
+        "added_voxels": 168,
+        "progress_added_voxels": 12,
+        "progress_share": 0.07142857142857142,
+        "accepted_blocks": 51
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-wide_gap-y2-v16",
+      "step": 12,
+      "quota": 11,
+      "original": {
+        "added_voxels": 84,
+        "progress_added_voxels": 16,
+        "progress_share": 0.19047619047619047,
+        "accepted_blocks": 21
+      },
+      "paced": {
+        "added_voxels": 11,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 3
+      }
+    },
+    {
+      "case": "g1-wide_gap-y2-v24",
+      "step": 12,
+      "quota": 17,
+      "original": {
+        "added_voxels": 84,
+        "progress_added_voxels": 16,
+        "progress_share": 0.19047619047619047,
+        "accepted_blocks": 21
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-wide_gap-y2-v24",
+      "step": 16,
+      "quota": 17,
+      "original": {
+        "added_voxels": 117,
+        "progress_added_voxels": 9,
+        "progress_share": 0.07692307692307693,
+        "accepted_blocks": 44
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-wide_gap-y2-v32",
+      "step": 12,
+      "quota": 22,
+      "original": {
+        "added_voxels": 82,
+        "progress_added_voxels": 16,
+        "progress_share": 0.1951219512195122,
+        "accepted_blocks": 19
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 7
+      }
+    },
+    {
+      "case": "g1-wide_gap-y2-v32",
+      "step": 16,
+      "quota": 22,
+      "original": {
+        "added_voxels": 115,
+        "progress_added_voxels": 9,
+        "progress_share": 0.0782608695652174,
+        "accepted_blocks": 43
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v16",
+      "step": 4,
+      "quota": 11,
+      "original": {
+        "added_voxels": 28,
+        "progress_added_voxels": 9,
+        "progress_share": 0.32142857142857145,
+        "accepted_blocks": 8
+      },
+      "paced": {
+        "added_voxels": 9,
+        "progress_added_voxels": 9,
+        "progress_share": 1.0,
+        "accepted_blocks": 1
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v16",
+      "step": 8,
+      "quota": 11,
+      "original": {
+        "added_voxels": 63,
+        "progress_added_voxels": 9,
+        "progress_share": 0.14285714285714285,
+        "accepted_blocks": 19
+      },
+      "paced": {
+        "added_voxels": 11,
+        "progress_added_voxels": 0,
+        "progress_share": 0.0,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v24",
+      "step": 4,
+      "quota": 17,
+      "original": {
+        "added_voxels": 28,
+        "progress_added_voxels": 9,
+        "progress_share": 0.32142857142857145,
+        "accepted_blocks": 8
+      },
+      "paced": {
+        "added_voxels": 16,
+        "progress_added_voxels": 9,
+        "progress_share": 0.5625,
+        "accepted_blocks": 4
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v24",
+      "step": 8,
+      "quota": 17,
+      "original": {
+        "added_voxels": 70,
+        "progress_added_voxels": 9,
+        "progress_share": 0.12857142857142856,
+        "accepted_blocks": 19
+      },
+      "paced": {
+        "added_voxels": 17,
+        "progress_added_voxels": 9,
+        "progress_share": 0.5294117647058824,
+        "accepted_blocks": 5
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v32",
+      "step": 4,
+      "quota": 22,
+      "original": {
+        "added_voxels": 28,
+        "progress_added_voxels": 9,
+        "progress_share": 0.32142857142857145,
+        "accepted_blocks": 8
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 9,
+        "progress_share": 0.4090909090909091,
+        "accepted_blocks": 6
+      }
+    },
+    {
+      "case": "g1-wide_gap-y4-v32",
+      "step": 8,
+      "quota": 22,
+      "original": {
+        "added_voxels": 70,
+        "progress_added_voxels": 9,
+        "progress_share": 0.12857142857142856,
+        "accepted_blocks": 19
+      },
+      "paced": {
+        "added_voxels": 22,
+        "progress_added_voxels": 9,
+        "progress_share": 0.4090909090909091,
+        "accepted_blocks": 7
+      }
+    }
+  ],
+  "optimizer_updates": 0,
+  "full_rollouts": 0,
+  "development_or_reserved_access": false,
+  "caveat": "This changes temporary admission allowance in a frozen state. It does not establish sufficient total mass,connection,coverage,64/128 stability or learned quality under the resulting state distribution. Greater progress share can coexist with fewer absolute progress voxels."
+}

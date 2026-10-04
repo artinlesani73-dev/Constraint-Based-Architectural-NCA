@@ -1,0 +1,19 @@
+{
+  "reference_probe": {
+    "device": "cpu",
+    "reference_cases": 8,
+    "passed": true
+  },
+  "base_parameters_copied_exactly": true,
+  "new_weights_initially_zero": true,
+  "added_parameters": 64,
+  "cap_and_connectivity_pass": true,
+  "overfull_start_rejected": true,
+  "raw_overflow_retained": true,
+  "band_gradient_signs_pass": true,
+  "integrated_gradients_finite": true,
+  "extra_channel_gradient_abs_sum": 0.006280273199081421,
+  "target_independent_inference": true,
+  "g2_checkpoint_rejected": true,
+  "optimizer_updates": 0
+}

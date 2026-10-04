@@ -1,0 +1,21 @@
+{
+  "dataset_hashes_equal": true,
+  "all256row_and_start_schedules_equal": true,
+  "final_firing_rng_equal": true,
+  "all_initial_parameters_equal": true,
+  "runtime_keys_equal": [
+    "python",
+    "torch",
+    "numpy",
+    "gpu_name",
+    "cuda_build",
+    "cudnn",
+    "dtype",
+    "threads",
+    "deterministic",
+    "tf32_matmul",
+    "tf32_cudnn"
+  ],
+  "extra_parameters": 0,
+  "limitation": "One seeded pacing intervention,not a multi-seed causal estimate. Rejection column now means effective allowance,not global cap alone."
+}

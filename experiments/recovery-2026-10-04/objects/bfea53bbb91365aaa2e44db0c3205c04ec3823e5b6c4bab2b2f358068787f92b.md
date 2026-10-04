@@ -1,0 +1,11 @@
+# Switchable visual skins — 2026-10-04
+
+Ready at http://127.0.0.1:8018/ . Classic remains the default on a plain URL. Graphite and Porcelain are optional experimental skins selected in Studio style. The chosen style is reflected in the URL fragment for bookmarking/reload. Solid volume and Wireframe are available for experimental skins. Classic calls the original drawing function and preserves its layout except for the added style toolbar. Original studio8017 is unchanged.
+
+Graphite: dark technical palette, cyan/amber surfaces. Porcelain: white/cool neutral palette with teal/amber surfaces. Both prioritize the paired viewport above generation controls, use facet lighting, voxel edges, a spatial reference grid and precise typography. These are Canvas orthographic voxel views, not a new WebGL renderer or physically based lighting/shadow simulation. No geometry smoothing, filling, altered metrics or model changes. Wireframe colours preserve provenance. Grid is a display aid, not generated geometry.
+
+Browser reviewed both solid palettes and Porcelain wireframe; checked Classic fallback and disabled experimental surface selector in Classic. During verification corrected the wireframe provenance colours, white-theme failure contrast and a History API name collision caused by the existing history() helper; URL-fragment assignment now avoids it. Earlier UI drafts are retained under implementation-history. No new generation was needed. All source/model/runs/drafts compare byte-for-byte to prior studio. Screenshots graphite.jpg and porcelain.jpg retained. Full accessibility/performance and mobile testing remain outstanding.
+
+Previous: ../G11-R3-Modes-2026-10-04/RESUME.md. Next: user visual review/refinement, then resume the bounded larger-domain benchmark. No paid training, Drive operation, publication, push or MG7 replacement. Repository synchronization and off-device backup pending. Run this folder's server.py with project .venv Python to restart on loopback8018; check existing process first. Current process loaded the initial UI identity; no run was generated during UI revisions. A restart loads final identity. Scientific source is unchanged.
+
+This same-disk archive covers current files only; future runs/drafts need a new archive. Original Classic files and all scientific evidence remain preserved.

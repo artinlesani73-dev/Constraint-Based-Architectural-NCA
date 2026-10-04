@@ -1,0 +1,14 @@
+{
+  "version": "RGR1_paired_comparison_v1",
+  "arms": [
+    "CGR1",
+    "RGR1"
+  ],
+  "updates_per_arm": 256,
+  "total_updates": 512,
+  "shared_seconds_cap": 600,
+  "seed": 1201,
+  "steps": 32,
+  "automatic_retry": false,
+  "test_evaluation": false
+}

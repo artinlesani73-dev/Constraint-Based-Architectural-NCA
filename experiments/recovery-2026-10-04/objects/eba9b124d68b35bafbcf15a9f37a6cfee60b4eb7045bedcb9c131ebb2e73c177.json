@@ -1,0 +1,106 @@
+{
+  "event": "G7 returned GPU evidence review",
+  "run": "20261004T103602Z_1da578905a51",
+  "integrity_passed": true,
+  "quality_accepted": false,
+  "summary": {
+    "regression": {
+      "64": {
+        "valid": 19,
+        "expected": 21,
+        "median_absolute_fraction_error": 0.03758620689655173,
+        "max_absolute_fraction_error": 0.09372262773722628,
+        "family_pass": {
+          "access": 19,
+          "coverage": 21,
+          "facade": 21,
+          "ground": 21,
+          "legality": 21,
+          "sparsity": 21,
+          "spill": 21,
+          "support": 21,
+          "thickness": 21
+        }
+      },
+      "128": {
+        "valid": 20,
+        "expected": 21,
+        "median_absolute_fraction_error": 0.0016475095785440375,
+        "max_absolute_fraction_error": 0.0018004866180048595,
+        "family_pass": {
+          "access": 20,
+          "coverage": 21,
+          "facade": 21,
+          "ground": 21,
+          "legality": 21,
+          "sparsity": 21,
+          "spill": 21,
+          "support": 21,
+          "thickness": 21
+        }
+      }
+    },
+    "fresh_reserved": {
+      "64": {
+        "valid": 9,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.03631476823637368,
+        "max_absolute_fraction_error": 0.08124818577648768,
+        "family_pass": {
+          "access": 9,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 10,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.001439125365818833,
+        "max_absolute_fraction_error": 0.0016241806263656289,
+        "family_pass": {
+          "access": 10,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    }
+  },
+  "gates": {
+    "regression_64_all_nine": false,
+    "regression_64_volume_error": false,
+    "regression_128_all_nine": false,
+    "regression_128_volume_error": true,
+    "regression_stable_mass": false,
+    "fresh_reserved_64_all_nine": false,
+    "fresh_reserved_64_volume_error": false,
+    "fresh_reserved_128_all_nine": false,
+    "fresh_reserved_128_volume_error": true,
+    "fresh_reserved_stable_mass": false
+  },
+  "stable_cases": {
+    "regression": 2,
+    "fresh_reserved": 0
+  },
+  "maximum_mass_growth": 0.4220430107526882,
+  "decision": "Do not promote;diagnose TRAIN dynamics locally before choosing another intervention",
+  "changes": "Read-only returned run review,66 frozen observations,visual inspection,new durable local records;no training/model/live modifications",
+  "limitations": [
+    "Single seed",
+    "Synthetic relatives",
+    "Unequal per-row exposure versusG6",
+    "Access,size-at64 andstability failures",
+    "Repository sync andoff-device backup pending"
+  ]
+}

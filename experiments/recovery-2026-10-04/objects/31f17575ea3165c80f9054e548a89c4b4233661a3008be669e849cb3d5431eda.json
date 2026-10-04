@@ -1,0 +1,67 @@
+{
+  "contract_version": "scene_v1",
+  "scene_id": "r3-variety-wide-gap",
+  "description": "Exploratory transfer probe: wide-gap",
+  "grid_size": 32,
+  "voxel_size_m": 0.8,
+  "street_levels": 6,
+  "ceiling_z": null,
+  "legacy_relaxations": [],
+  "buildings": [
+    {
+      "id": "B_west",
+      "x": [
+        0,
+        6
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        22
+      ],
+      "gap_facing_x": 6,
+      "side": "left"
+    },
+    {
+      "id": "B_east",
+      "x": [
+        26,
+        32
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        29
+      ],
+      "gap_facing_x": 26,
+      "side": "right"
+    }
+  ],
+  "entrances": [
+    {
+      "id": "E_west",
+      "kind": "facade",
+      "extent": 2,
+      "x": 6,
+      "y": 14,
+      "z": 7
+    },
+    {
+      "id": "E_east",
+      "kind": "facade",
+      "extent": 2,
+      "x": 24,
+      "y": 14,
+      "z": 19
+    }
+  ],
+  "notes": [
+    "Not a held-out acceptance set; one constructed site per geometry change."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "event": "G9 access ranking integrated and prepared",
+  "verification": {
+    "passed": true,
+    "run": "20261004T115410Z_58b18139a656",
+    "seconds": 37.84400000004098,
+    "verified_payloads": 23,
+    "exact_recovery": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "initial_numerical_keys_equal_g8": [
+      "version",
+      "completed",
+      "model",
+      "optimizer",
+      "optimizer_class",
+      "parameter_names",
+      "module_training",
+      "trace",
+      "sampler",
+      "rng",
+      "cuda_rng"
+    ],
+    "three_starts_rows_and_rng_equal_g8": true,
+    "trained_weights_differ": true,
+    "step_accounts": 192,
+    "access_phases": {
+      "seed_access": 65,
+      "connected": 80,
+      "advance_access": 47
+    },
+    "ranking_active_steps": 31,
+    "inference_parity": {
+      "passed": true,
+      "checks": [
+        {
+          "case": "g1-aligned-y0-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g1-aligned-y0-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g1-aligned-y0-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.24455809593200684
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.5711154937744141
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.8449088931083679
+        }
+      ],
+      "heldout_supervision_rejected": true,
+      "checkpoint_sha256": "2bca26ab350fe6a318d15b12fd0f3ee1da9d6f96d524df103a0b5249743df5ff",
+      "optimizer_updates": 0,
+      "heldout_inference": 0,
+      "interpretation": "TRAIN-only engineering parity,not a G9 quality benchmark"
+    },
+    "quality_evaluated": false,
+    "fresh_reserved_inference": 0
+  },
+  "scientific_change": "G8 loss plus margin1 weight1 TRAIN-only access ranking;original losses/model/data/inference unchanged",
+  "package": {
+    "archive": "NCA-G9-Access-Ranking-Package.zip",
+    "bytes": 196362,
+    "sha256": "e8ceb9e4445e10102f72d327109fe34a5d353ab6511fcba7a6852facd6d9bcd7",
+    "manifest_sha256": "bca826c8d13b603d5ea82ea481e26675ab9758ee382d5d42984def67df28e6c1",
+    "payloads": 79
+  },
+  "paid_run_authorized": false,
+  "failures_preserved": [
+    "Initial builder missing local massing_cases dependency;corrected path in separatev2",
+    "Initial integration diagnostic targetdtype Boolean;corrected to float with failed script retained;training package unchanged"
+  ]
+}

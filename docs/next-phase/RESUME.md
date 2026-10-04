@@ -1,5 +1,27 @@
 # Resume the NCA next phase
 
+## Repository recovery — 2026-10-04 (current status)
+
+This entry supersedes the older D098 next-action instructions below; those entries remain historical evidence.
+Later October 3 and October 4 work was mistakenly developed outside this repository.
+It has now been imported as source/evidence snapshots under experiments/recovery-2026-10-04,
+with the approved application source additionally readable under experimental/r3-studio.
+See REPOSITORY_RECOVERY_2026-10-04.md for scope, limitations and restart commands.
+
+Current result: G11 R3 is a planner-assisted experimental hybrid using frozen G10 weights.
+It is not a wholly learned connectivity or stopping result. The independent review recorded
+81/81 cases passing the nine families, volume and stability gates; these cases are now exposed.
+User approved Classic, Graphite and Porcelain skins. Latest 40-cube CPU probe passed on ONE
+expanded site: 8.67s rollout versus 3.94s at 32-cube; not a generalization or training claim.
+Next: versioned dimension-aware 40-cube experimental studio, retaining the 32-cube reference,
+followed by one focused integration check. Preserve the nine families and whole-volume semantics.
+No new paid run, push, publication, Drive action or replacement of MG7 is authorized here.
+
+Future source and documentation changes must be made in this repository and locally committed
+at verified milestones. Outputs folders hold generated evidence, not the sole copy of new code.
+Large original artifacts remain external and hash-indexed; same-disk archives are not off-device backups.
+
+
 ## D098 — CGR3 stopped on changed Colab runtime — 2026-10-03
 
 Verified user ZIP+receipt20261003T093130Z_0cd5c5706d65:all5payload hashes,

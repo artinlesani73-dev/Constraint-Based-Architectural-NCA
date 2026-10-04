@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-04",
+  "event": "G5 final256 reviewed against G4",
+  "accepted": false,
+  "results": {
+    "64": {
+      "valid": 1,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.49971313826735514,
+      "family_pass": {
+        "access": 1,
+        "coverage": 3,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 1,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.49971313826735514,
+      "family_pass": {
+        "access": 1,
+        "coverage": 3,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "pairing": {
+    "dataset_hashes_equal": true,
+    "all256row_and_start_schedules_equal": true,
+    "final_firing_rng_equal": true,
+    "initial_core_parameters_equal": true,
+    "new_cue_weights_initially_zero": true,
+    "runtime_keys_equal": [
+      "python",
+      "torch",
+      "numpy",
+      "gpu_name",
+      "cuda_build",
+      "cudnn",
+      "dtype",
+      "threads",
+      "deterministic",
+      "tf32_matmul",
+      "tf32_cudnn"
+    ],
+    "final_cue_weight_absolute_sums": [
+      6.213831901550293,
+      1.7741479873657227
+    ],
+    "extra_parameters": 128,
+    "limitation": "One seeded feature intervention,not a multi-seed causal estimate;input shape may also affect numerical kernels."
+  },
+  "diagnosis": {
+    "all_fields_identical64_128": true,
+    "capacity_reached": 9,
+    "first_cap_step_range": [
+      11,
+      20
+    ],
+    "direct_west_contacts": 9,
+    "direct_east_contacts": 1,
+    "median_fraction_error_percentage_points": 0.15191740412979493,
+    "maximum_fraction_error_percentage_points": 0.16555308092056353,
+    "median_iou_change": 0.042218731108518426,
+    "bulk_fraction_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "changes": "Added read-only G5evaluation,pairing,allocation diagnostics and objective audit;no training/model changes.",
+  "decision": "Reject G5promotion;retain G4research reference. Audit task-objective alignment on TRAIN before another GPU request.",
+  "limitations": [
+    "One seeded intervention",
+    "Reused development set",
+    "Cue contribution not isolated from changed network input shape",
+    "No full replay of all256GPUupdates",
+    "No reserved evaluation",
+    "Enforced thickness/budget/stability",
+    "Repository sync and off-device backup pending"
+  ]
+}

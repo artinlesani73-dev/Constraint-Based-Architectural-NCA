@@ -1,0 +1,4152 @@
+{
+  "case": "g1-partial_obstruction-y0-v24",
+  "target_cells": 822,
+  "represented_cells": 822,
+  "teacher_origin_count": 310,
+  "connected_origin_count": 310,
+  "curriculum_root_zyx": [
+    7,
+    11,
+    8
+  ],
+  "max_stage_distance": 18,
+  "oracle_steps": 32,
+  "oracle_complete": true,
+  "oracle_missing": 0,
+  "ceiling": 830,
+  "history": [
+    {
+      "seed_phase": true,
+      "offered_count": 0,
+      "accepted": [],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [],
+      "initial_mass": 1,
+      "final_mass": 1,
+      "unused_capacity": 829,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": true,
+      "offered_count": 4,
+      "accepted": [
+        [
+          7,
+          12,
+          8
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            7,
+            12,
+            8
+          ],
+          "new_cells": 26,
+          "mass": 27
+        }
+      ],
+      "initial_mass": 1,
+      "final_mass": 27,
+      "unused_capacity": 803,
+      "deferred_after_first_cube": 3
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 1,
+      "accepted": [
+        [
+          7,
+          12,
+          9
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            7,
+            12,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 36
+        }
+      ],
+      "initial_mass": 27,
+      "final_mass": 36,
+      "unused_capacity": 794,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 3,
+      "accepted": [
+        [
+          7,
+          13,
+          9
+        ],
+        [
+          8,
+          12,
+          8
+        ],
+        [
+          8,
+          12,
+          9
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            7,
+            13,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 45
+        },
+        {
+          "origin": [
+            8,
+            12,
+            8
+          ],
+          "new_cells": 9,
+          "mass": 54
+        },
+        {
+          "origin": [
+            8,
+            12,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 57
+        }
+      ],
+      "initial_mass": 36,
+      "final_mass": 57,
+      "unused_capacity": 773,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 2,
+      "accepted": [
+        [
+          8,
+          11,
+          9
+        ],
+        [
+          9,
+          12,
+          9
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            8,
+            11,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 66
+        },
+        {
+          "origin": [
+            9,
+            12,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 75
+        }
+      ],
+      "initial_mass": 57,
+      "final_mass": 75,
+      "unused_capacity": 755,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 7,
+      "accepted": [
+        [
+          6,
+          12,
+          9
+        ],
+        [
+          7,
+          11,
+          9
+        ],
+        [
+          7,
+          13,
+          10
+        ],
+        [
+          9,
+          12,
+          8
+        ],
+        [
+          9,
+          12,
+          10
+        ],
+        [
+          9,
+          13,
+          9
+        ],
+        [
+          10,
+          12,
+          9
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            12,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 84
+        },
+        {
+          "origin": [
+            7,
+            11,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 87
+        },
+        {
+          "origin": [
+            7,
+            13,
+            10
+          ],
+          "new_cells": 9,
+          "mass": 96
+        },
+        {
+          "origin": [
+            9,
+            12,
+            8
+          ],
+          "new_cells": 3,
+          "mass": 99
+        },
+        {
+          "origin": [
+            9,
+            12,
+            10
+          ],
+          "new_cells": 7,
+          "mass": 106
+        },
+        {
+          "origin": [
+            9,
+            13,
+            9
+          ],
+          "new_cells": 6,
+          "mass": 112
+        },
+        {
+          "origin": [
+            10,
+            12,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 121
+        }
+      ],
+      "initial_mass": 75,
+      "final_mass": 121,
+      "unused_capacity": 709,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 8,
+      "accepted": [
+        [
+          6,
+          11,
+          9
+        ],
+        [
+          7,
+          10,
+          9
+        ],
+        [
+          7,
+          11,
+          10
+        ],
+        [
+          8,
+          10,
+          9
+        ],
+        [
+          8,
+          11,
+          10
+        ],
+        [
+          8,
+          13,
+          8
+        ],
+        [
+          9,
+          11,
+          9
+        ],
+        [
+          9,
+          13,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            11,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 124
+        },
+        {
+          "origin": [
+            7,
+            10,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 133
+        },
+        {
+          "origin": [
+            7,
+            11,
+            10
+          ],
+          "new_cells": 5,
+          "mass": 138
+        },
+        {
+          "origin": [
+            8,
+            10,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 141
+        },
+        {
+          "origin": [
+            8,
+            11,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 142
+        },
+        {
+          "origin": [
+            8,
+            13,
+            8
+          ],
+          "new_cells": 3,
+          "mass": 145
+        },
+        {
+          "origin": [
+            9,
+            11,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 148
+        },
+        {
+          "origin": [
+            9,
+            13,
+            10
+          ],
+          "new_cells": 2,
+          "mass": 150
+        }
+      ],
+      "initial_mass": 121,
+      "final_mass": 150,
+      "unused_capacity": 680,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 13,
+      "accepted": [
+        [
+          6,
+          10,
+          9
+        ],
+        [
+          6,
+          12,
+          10
+        ],
+        [
+          7,
+          9,
+          9
+        ],
+        [
+          7,
+          10,
+          8
+        ],
+        [
+          7,
+          10,
+          10
+        ],
+        [
+          8,
+          10,
+          8
+        ],
+        [
+          8,
+          10,
+          10
+        ],
+        [
+          8,
+          11,
+          11
+        ],
+        [
+          8,
+          12,
+          11
+        ],
+        [
+          9,
+          10,
+          9
+        ],
+        [
+          9,
+          11,
+          8
+        ],
+        [
+          9,
+          11,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          7,
+          11,
+          8
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            10,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 153
+        },
+        {
+          "origin": [
+            6,
+            12,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 156
+        },
+        {
+          "origin": [
+            7,
+            9,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 165
+        },
+        {
+          "origin": [
+            7,
+            10,
+            8
+          ],
+          "new_cells": 6,
+          "mass": 171
+        },
+        {
+          "origin": [
+            7,
+            10,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 174
+        },
+        {
+          "origin": [
+            8,
+            10,
+            8
+          ],
+          "new_cells": 2,
+          "mass": 176
+        },
+        {
+          "origin": [
+            8,
+            10,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 177
+        },
+        {
+          "origin": [
+            8,
+            11,
+            11
+          ],
+          "new_cells": 9,
+          "mass": 186
+        },
+        {
+          "origin": [
+            8,
+            12,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 189
+        },
+        {
+          "origin": [
+            9,
+            10,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 192
+        },
+        {
+          "origin": [
+            9,
+            11,
+            8
+          ],
+          "new_cells": 1,
+          "mass": 193
+        },
+        {
+          "origin": [
+            9,
+            11,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 194
+        }
+      ],
+      "initial_mass": 150,
+      "final_mass": 194,
+      "unused_capacity": 636,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 9,
+      "accepted": [
+        [
+          6,
+          11,
+          10
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          7,
+          10,
+          11
+        ],
+        [
+          8,
+          11,
+          12
+        ],
+        [
+          9,
+          10,
+          8
+        ],
+        [
+          10,
+          11,
+          9
+        ],
+        [
+          10,
+          11,
+          10
+        ],
+        [
+          10,
+          12,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            11,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 195
+        },
+        {
+          "origin": [
+            7,
+            8,
+            9
+          ],
+          "new_cells": 9,
+          "mass": 204
+        },
+        {
+          "origin": [
+            7,
+            9,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 207
+        },
+        {
+          "origin": [
+            7,
+            10,
+            11
+          ],
+          "new_cells": 5,
+          "mass": 212
+        },
+        {
+          "origin": [
+            8,
+            11,
+            12
+          ],
+          "new_cells": 9,
+          "mass": 221
+        },
+        {
+          "origin": [
+            9,
+            10,
+            8
+          ],
+          "new_cells": 1,
+          "mass": 222
+        },
+        {
+          "origin": [
+            10,
+            11,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 225
+        },
+        {
+          "origin": [
+            10,
+            11,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 228
+        },
+        {
+          "origin": [
+            10,
+            12,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 229
+        }
+      ],
+      "initial_mass": 194,
+      "final_mass": 229,
+      "unused_capacity": 601,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 11,
+      "accepted": [
+        [
+          6,
+          9,
+          10
+        ],
+        [
+          6,
+          10,
+          11
+        ],
+        [
+          6,
+          11,
+          11
+        ],
+        [
+          7,
+          8,
+          8
+        ],
+        [
+          7,
+          8,
+          10
+        ],
+        [
+          7,
+          9,
+          11
+        ],
+        [
+          8,
+          8,
+          9
+        ],
+        [
+          8,
+          9,
+          8
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          10,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            9,
+            10
+          ],
+          "new_cells": 4,
+          "mass": 233
+        },
+        {
+          "origin": [
+            6,
+            10,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 236
+        },
+        {
+          "origin": [
+            6,
+            11,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 238
+        },
+        {
+          "origin": [
+            7,
+            8,
+            8
+          ],
+          "new_cells": 6,
+          "mass": 244
+        },
+        {
+          "origin": [
+            7,
+            8,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 247
+        },
+        {
+          "origin": [
+            7,
+            9,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 250
+        },
+        {
+          "origin": [
+            8,
+            8,
+            9
+          ],
+          "new_cells": 6,
+          "mass": 256
+        },
+        {
+          "origin": [
+            8,
+            9,
+            8
+          ],
+          "new_cells": 1,
+          "mass": 257
+        },
+        {
+          "origin": [
+            8,
+            9,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 258
+        },
+        {
+          "origin": [
+            9,
+            9,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 261
+        },
+        {
+          "origin": [
+            9,
+            10,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 262
+        }
+      ],
+      "initial_mass": 229,
+      "final_mass": 262,
+      "unused_capacity": 568,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 10,
+      "accepted": [
+        [
+          6,
+          9,
+          9
+        ],
+        [
+          7,
+          7,
+          10
+        ],
+        [
+          7,
+          8,
+          11
+        ],
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          10,
+          11
+        ],
+        [
+          9,
+          9,
+          10
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          10,
+          9
+        ],
+        [
+          10,
+          10,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            9,
+            9
+          ],
+          "new_cells": 1,
+          "mass": 263
+        },
+        {
+          "origin": [
+            7,
+            7,
+            10
+          ],
+          "new_cells": 9,
+          "mass": 272
+        },
+        {
+          "origin": [
+            7,
+            8,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 275
+        },
+        {
+          "origin": [
+            7,
+            11,
+            12
+          ],
+          "new_cells": 3,
+          "mass": 278
+        },
+        {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "new_cells": 1,
+          "mass": 279
+        },
+        {
+          "origin": [
+            8,
+            10,
+            11
+          ],
+          "new_cells": 1,
+          "mass": 280
+        },
+        {
+          "origin": [
+            9,
+            9,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 281
+        },
+        {
+          "origin": [
+            9,
+            10,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 284
+        },
+        {
+          "origin": [
+            10,
+            10,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 287
+        },
+        {
+          "origin": [
+            10,
+            10,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 288
+        }
+      ],
+      "initial_mass": 262,
+      "final_mass": 288,
+      "unused_capacity": 542,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 14,
+      "accepted": [
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          6,
+          8,
+          11
+        ],
+        [
+          7,
+          7,
+          9
+        ],
+        [
+          7,
+          8,
+          12
+        ],
+        [
+          8,
+          8,
+          10
+        ],
+        [
+          8,
+          8,
+          11
+        ],
+        [
+          9,
+          8,
+          9
+        ],
+        [
+          9,
+          9,
+          8
+        ],
+        [
+          9,
+          10,
+          12
+        ],
+        [
+          10,
+          9,
+          10
+        ],
+        [
+          10,
+          10,
+          11
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          6,
+          9,
+          11
+        ],
+        [
+          7,
+          9,
+          12
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 291
+        },
+        {
+          "origin": [
+            6,
+            8,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 292
+        },
+        {
+          "origin": [
+            6,
+            8,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 294
+        },
+        {
+          "origin": [
+            7,
+            7,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 297
+        },
+        {
+          "origin": [
+            7,
+            8,
+            12
+          ],
+          "new_cells": 9,
+          "mass": 306
+        },
+        {
+          "origin": [
+            8,
+            8,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 307
+        },
+        {
+          "origin": [
+            8,
+            8,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 309
+        },
+        {
+          "origin": [
+            9,
+            8,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 312
+        },
+        {
+          "origin": [
+            9,
+            9,
+            8
+          ],
+          "new_cells": 1,
+          "mass": 313
+        },
+        {
+          "origin": [
+            9,
+            10,
+            12
+          ],
+          "new_cells": 4,
+          "mass": 317
+        },
+        {
+          "origin": [
+            10,
+            9,
+            10
+          ],
+          "new_cells": 3,
+          "mass": 320
+        },
+        {
+          "origin": [
+            10,
+            10,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 323
+        }
+      ],
+      "initial_mass": 288,
+      "final_mass": 323,
+      "unused_capacity": 507,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 16,
+      "accepted": [
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          9,
+          12
+        ],
+        [
+          7,
+          7,
+          11
+        ],
+        [
+          7,
+          7,
+          12
+        ],
+        [
+          7,
+          10,
+          13
+        ],
+        [
+          8,
+          7,
+          9
+        ],
+        [
+          8,
+          8,
+          12
+        ],
+        [
+          8,
+          10,
+          13
+        ],
+        [
+          9,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          10
+        ],
+        [
+          9,
+          9,
+          11
+        ],
+        [
+          9,
+          9,
+          12
+        ],
+        [
+          10,
+          8,
+          9
+        ],
+        [
+          10,
+          8,
+          10
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          8,
+          9,
+          12
+        ],
+        [
+          10,
+          9,
+          9
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            12
+          ],
+          "new_cells": 3,
+          "mass": 326
+        },
+        {
+          "origin": [
+            6,
+            9,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 327
+        },
+        {
+          "origin": [
+            7,
+            7,
+            11
+          ],
+          "new_cells": 3,
+          "mass": 330
+        },
+        {
+          "origin": [
+            7,
+            7,
+            12
+          ],
+          "new_cells": 3,
+          "mass": 333
+        },
+        {
+          "origin": [
+            7,
+            10,
+            13
+          ],
+          "new_cells": 9,
+          "mass": 342
+        },
+        {
+          "origin": [
+            8,
+            7,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 345
+        },
+        {
+          "origin": [
+            8,
+            8,
+            12
+          ],
+          "new_cells": 2,
+          "mass": 347
+        },
+        {
+          "origin": [
+            8,
+            10,
+            13
+          ],
+          "new_cells": 3,
+          "mass": 350
+        },
+        {
+          "origin": [
+            9,
+            7,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 353
+        },
+        {
+          "origin": [
+            9,
+            8,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 354
+        },
+        {
+          "origin": [
+            9,
+            9,
+            11
+          ],
+          "new_cells": 1,
+          "mass": 355
+        },
+        {
+          "origin": [
+            9,
+            9,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 356
+        },
+        {
+          "origin": [
+            10,
+            8,
+            9
+          ],
+          "new_cells": 4,
+          "mass": 360
+        },
+        {
+          "origin": [
+            10,
+            8,
+            10
+          ],
+          "new_cells": 1,
+          "mass": 361
+        }
+      ],
+      "initial_mass": 323,
+      "final_mass": 361,
+      "unused_capacity": 469,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 16,
+      "accepted": [
+        [
+          6,
+          8,
+          13
+        ],
+        [
+          6,
+          9,
+          13
+        ],
+        [
+          6,
+          10,
+          12
+        ],
+        [
+          7,
+          7,
+          13
+        ],
+        [
+          7,
+          10,
+          14
+        ],
+        [
+          8,
+          7,
+          11
+        ],
+        [
+          8,
+          7,
+          12
+        ],
+        [
+          8,
+          9,
+          13
+        ],
+        [
+          9,
+          8,
+          11
+        ],
+        [
+          9,
+          9,
+          13
+        ],
+        [
+          9,
+          10,
+          13
+        ],
+        [
+          9,
+          11,
+          11
+        ],
+        [
+          10,
+          8,
+          11
+        ],
+        [
+          10,
+          9,
+          12
+        ],
+        [
+          10,
+          10,
+          12
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          7,
+          9,
+          13
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            13
+          ],
+          "new_cells": 7,
+          "mass": 368
+        },
+        {
+          "origin": [
+            6,
+            9,
+            13
+          ],
+          "new_cells": 1,
+          "mass": 369
+        },
+        {
+          "origin": [
+            6,
+            10,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 370
+        },
+        {
+          "origin": [
+            7,
+            7,
+            13
+          ],
+          "new_cells": 5,
+          "mass": 375
+        },
+        {
+          "origin": [
+            7,
+            10,
+            14
+          ],
+          "new_cells": 9,
+          "mass": 384
+        },
+        {
+          "origin": [
+            8,
+            7,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 386
+        },
+        {
+          "origin": [
+            8,
+            7,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 387
+        },
+        {
+          "origin": [
+            8,
+            9,
+            13
+          ],
+          "new_cells": 1,
+          "mass": 388
+        },
+        {
+          "origin": [
+            9,
+            8,
+            11
+          ],
+          "new_cells": 1,
+          "mass": 389
+        },
+        {
+          "origin": [
+            9,
+            9,
+            13
+          ],
+          "new_cells": 3,
+          "mass": 392
+        },
+        {
+          "origin": [
+            9,
+            10,
+            13
+          ],
+          "new_cells": 1,
+          "mass": 393
+        },
+        {
+          "origin": [
+            9,
+            11,
+            11
+          ],
+          "new_cells": 1,
+          "mass": 394
+        },
+        {
+          "origin": [
+            10,
+            8,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 396
+        },
+        {
+          "origin": [
+            10,
+            9,
+            12
+          ],
+          "new_cells": 3,
+          "mass": 399
+        },
+        {
+          "origin": [
+            10,
+            10,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 400
+        }
+      ],
+      "initial_mass": 361,
+      "final_mass": 400,
+      "unused_capacity": 430,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 11,
+      "accepted": [
+        [
+          6,
+          7,
+          9
+        ],
+        [
+          6,
+          9,
+          14
+        ],
+        [
+          7,
+          7,
+          14
+        ],
+        [
+          8,
+          7,
+          13
+        ],
+        [
+          8,
+          10,
+          14
+        ],
+        [
+          9,
+          8,
+          12
+        ],
+        [
+          9,
+          10,
+          14
+        ],
+        [
+          10,
+          8,
+          12
+        ],
+        [
+          10,
+          9,
+          13
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          7,
+          8,
+          14
+        ],
+        [
+          7,
+          9,
+          14
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            7,
+            9
+          ],
+          "new_cells": 3,
+          "mass": 403
+        },
+        {
+          "origin": [
+            6,
+            9,
+            14
+          ],
+          "new_cells": 5,
+          "mass": 408
+        },
+        {
+          "origin": [
+            7,
+            7,
+            14
+          ],
+          "new_cells": 7,
+          "mass": 415
+        },
+        {
+          "origin": [
+            8,
+            7,
+            13
+          ],
+          "new_cells": 2,
+          "mass": 417
+        },
+        {
+          "origin": [
+            8,
+            10,
+            14
+          ],
+          "new_cells": 3,
+          "mass": 420
+        },
+        {
+          "origin": [
+            9,
+            8,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 421
+        },
+        {
+          "origin": [
+            9,
+            10,
+            14
+          ],
+          "new_cells": 3,
+          "mass": 424
+        },
+        {
+          "origin": [
+            10,
+            8,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 425
+        },
+        {
+          "origin": [
+            10,
+            9,
+            13
+          ],
+          "new_cells": 3,
+          "mass": 428
+        }
+      ],
+      "initial_mass": 400,
+      "final_mass": 428,
+      "unused_capacity": 402,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 6,
+      "accepted": [
+        [
+          6,
+          8,
+          14
+        ],
+        [
+          6,
+          9,
+          15
+        ],
+        [
+          8,
+          9,
+          14
+        ],
+        [
+          9,
+          9,
+          14
+        ],
+        [
+          10,
+          8,
+          13
+        ],
+        [
+          10,
+          9,
+          14
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            14
+          ],
+          "new_cells": 1,
+          "mass": 429
+        },
+        {
+          "origin": [
+            6,
+            9,
+            15
+          ],
+          "new_cells": 9,
+          "mass": 438
+        },
+        {
+          "origin": [
+            8,
+            9,
+            14
+          ],
+          "new_cells": 1,
+          "mass": 439
+        },
+        {
+          "origin": [
+            9,
+            9,
+            14
+          ],
+          "new_cells": 1,
+          "mass": 440
+        },
+        {
+          "origin": [
+            10,
+            8,
+            13
+          ],
+          "new_cells": 2,
+          "mass": 442
+        },
+        {
+          "origin": [
+            10,
+            9,
+            14
+          ],
+          "new_cells": 3,
+          "mass": 445
+        }
+      ],
+      "initial_mass": 428,
+      "final_mass": 445,
+      "unused_capacity": 385,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 6,
+      "accepted": [
+        [
+          7,
+          8,
+          15
+        ],
+        [
+          7,
+          9,
+          15
+        ],
+        [
+          8,
+          7,
+          14
+        ],
+        [
+          9,
+          7,
+          11
+        ],
+        [
+          10,
+          8,
+          14
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          8,
+          8,
+          14
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            7,
+            8,
+            15
+          ],
+          "new_cells": 5,
+          "mass": 450
+        },
+        {
+          "origin": [
+            7,
+            9,
+            15
+          ],
+          "new_cells": 1,
+          "mass": 451
+        },
+        {
+          "origin": [
+            8,
+            7,
+            14
+          ],
+          "new_cells": 2,
+          "mass": 453
+        },
+        {
+          "origin": [
+            9,
+            7,
+            11
+          ],
+          "new_cells": 2,
+          "mass": 455
+        },
+        {
+          "origin": [
+            10,
+            8,
+            14
+          ],
+          "new_cells": 2,
+          "mass": 457
+        }
+      ],
+      "initial_mass": 445,
+      "final_mass": 457,
+      "unused_capacity": 373,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 14,
+      "accepted": [
+        [
+          6,
+          8,
+          15
+        ],
+        [
+          6,
+          9,
+          16
+        ],
+        [
+          7,
+          7,
+          15
+        ],
+        [
+          7,
+          8,
+          16
+        ],
+        [
+          7,
+          9,
+          16
+        ],
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          8,
+          10,
+          15
+        ],
+        [
+          9,
+          7,
+          12
+        ],
+        [
+          9,
+          7,
+          14
+        ],
+        [
+          9,
+          8,
+          15
+        ],
+        [
+          9,
+          9,
+          15
+        ],
+        [
+          9,
+          10,
+          15
+        ],
+        [
+          10,
+          7,
+          13
+        ],
+        [
+          10,
+          8,
+          15
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            15
+          ],
+          "new_cells": 1,
+          "mass": 458
+        },
+        {
+          "origin": [
+            6,
+            9,
+            16
+          ],
+          "new_cells": 9,
+          "mass": 467
+        },
+        {
+          "origin": [
+            7,
+            7,
+            15
+          ],
+          "new_cells": 3,
+          "mass": 470
+        },
+        {
+          "origin": [
+            7,
+            8,
+            16
+          ],
+          "new_cells": 5,
+          "mass": 475
+        },
+        {
+          "origin": [
+            7,
+            9,
+            16
+          ],
+          "new_cells": 1,
+          "mass": 476
+        },
+        {
+          "origin": [
+            7,
+            10,
+            15
+          ],
+          "new_cells": 3,
+          "mass": 479
+        },
+        {
+          "origin": [
+            8,
+            10,
+            15
+          ],
+          "new_cells": 3,
+          "mass": 482
+        },
+        {
+          "origin": [
+            9,
+            7,
+            12
+          ],
+          "new_cells": 1,
+          "mass": 483
+        },
+        {
+          "origin": [
+            9,
+            7,
+            14
+          ],
+          "new_cells": 2,
+          "mass": 485
+        },
+        {
+          "origin": [
+            9,
+            8,
+            15
+          ],
+          "new_cells": 5,
+          "mass": 490
+        },
+        {
+          "origin": [
+            9,
+            9,
+            15
+          ],
+          "new_cells": 1,
+          "mass": 491
+        },
+        {
+          "origin": [
+            9,
+            10,
+            15
+          ],
+          "new_cells": 1,
+          "mass": 492
+        },
+        {
+          "origin": [
+            10,
+            7,
+            13
+          ],
+          "new_cells": 3,
+          "mass": 495
+        },
+        {
+          "origin": [
+            10,
+            8,
+            15
+          ],
+          "new_cells": 3,
+          "mass": 498
+        }
+      ],
+      "initial_mass": 457,
+      "final_mass": 498,
+      "unused_capacity": 332,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 6,
+      "accepted": [
+        [
+          6,
+          10,
+          16
+        ],
+        [
+          7,
+          7,
+          16
+        ],
+        [
+          7,
+          9,
+          17
+        ],
+        [
+          9,
+          7,
+          15
+        ],
+        [
+          9,
+          9,
+          16
+        ],
+        [
+          10,
+          8,
+          16
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            10,
+            16
+          ],
+          "new_cells": 5,
+          "mass": 503
+        },
+        {
+          "origin": [
+            7,
+            7,
+            16
+          ],
+          "new_cells": 3,
+          "mass": 506
+        },
+        {
+          "origin": [
+            7,
+            9,
+            17
+          ],
+          "new_cells": 9,
+          "mass": 515
+        },
+        {
+          "origin": [
+            9,
+            7,
+            15
+          ],
+          "new_cells": 2,
+          "mass": 517
+        },
+        {
+          "origin": [
+            9,
+            9,
+            16
+          ],
+          "new_cells": 6,
+          "mass": 523
+        },
+        {
+          "origin": [
+            10,
+            8,
+            16
+          ],
+          "new_cells": 5,
+          "mass": 528
+        }
+      ],
+      "initial_mass": 498,
+      "final_mass": 528,
+      "unused_capacity": 302,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 11,
+      "accepted": [
+        [
+          6,
+          8,
+          16
+        ],
+        [
+          6,
+          9,
+          17
+        ],
+        [
+          7,
+          7,
+          17
+        ],
+        [
+          8,
+          7,
+          16
+        ],
+        [
+          8,
+          8,
+          17
+        ],
+        [
+          8,
+          9,
+          17
+        ],
+        [
+          8,
+          10,
+          16
+        ],
+        [
+          9,
+          7,
+          16
+        ],
+        [
+          9,
+          8,
+          17
+        ],
+        [
+          10,
+          8,
+          17
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          7,
+          8,
+          17
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            16
+          ],
+          "new_cells": 1,
+          "mass": 529
+        },
+        {
+          "origin": [
+            6,
+            9,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 532
+        },
+        {
+          "origin": [
+            7,
+            7,
+            17
+          ],
+          "new_cells": 6,
+          "mass": 538
+        },
+        {
+          "origin": [
+            8,
+            7,
+            16
+          ],
+          "new_cells": 1,
+          "mass": 539
+        },
+        {
+          "origin": [
+            8,
+            8,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 542
+        },
+        {
+          "origin": [
+            8,
+            9,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 543
+        },
+        {
+          "origin": [
+            8,
+            10,
+            16
+          ],
+          "new_cells": 2,
+          "mass": 545
+        },
+        {
+          "origin": [
+            9,
+            7,
+            16
+          ],
+          "new_cells": 1,
+          "mass": 546
+        },
+        {
+          "origin": [
+            9,
+            8,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 549
+        },
+        {
+          "origin": [
+            10,
+            8,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 552
+        }
+      ],
+      "initial_mass": 528,
+      "final_mass": 552,
+      "unused_capacity": 278,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 8,
+      "accepted": [
+        [
+          6,
+          8,
+          17
+        ],
+        [
+          6,
+          10,
+          17
+        ],
+        [
+          7,
+          7,
+          18
+        ],
+        [
+          7,
+          8,
+          18
+        ],
+        [
+          7,
+          9,
+          18
+        ],
+        [
+          8,
+          10,
+          17
+        ],
+        [
+          9,
+          10,
+          16
+        ],
+        [
+          10,
+          9,
+          16
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 553
+        },
+        {
+          "origin": [
+            6,
+            10,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 556
+        },
+        {
+          "origin": [
+            7,
+            7,
+            18
+          ],
+          "new_cells": 9,
+          "mass": 565
+        },
+        {
+          "origin": [
+            7,
+            8,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 568
+        },
+        {
+          "origin": [
+            7,
+            9,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 571
+        },
+        {
+          "origin": [
+            8,
+            10,
+            17
+          ],
+          "new_cells": 2,
+          "mass": 573
+        },
+        {
+          "origin": [
+            9,
+            10,
+            16
+          ],
+          "new_cells": 1,
+          "mass": 574
+        },
+        {
+          "origin": [
+            10,
+            9,
+            16
+          ],
+          "new_cells": 2,
+          "mass": 576
+        }
+      ],
+      "initial_mass": 552,
+      "final_mass": 576,
+      "unused_capacity": 254,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 8,
+      "accepted": [
+        [
+          6,
+          8,
+          18
+        ],
+        [
+          7,
+          10,
+          18
+        ],
+        [
+          7,
+          11,
+          17
+        ],
+        [
+          8,
+          8,
+          18
+        ],
+        [
+          8,
+          10,
+          18
+        ],
+        [
+          9,
+          8,
+          18
+        ],
+        [
+          9,
+          9,
+          17
+        ],
+        [
+          10,
+          9,
+          17
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 579
+        },
+        {
+          "origin": [
+            7,
+            10,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 582
+        },
+        {
+          "origin": [
+            7,
+            11,
+            17
+          ],
+          "new_cells": 9,
+          "mass": 591
+        },
+        {
+          "origin": [
+            8,
+            8,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 594
+        },
+        {
+          "origin": [
+            8,
+            10,
+            18
+          ],
+          "new_cells": 2,
+          "mass": 596
+        },
+        {
+          "origin": [
+            9,
+            8,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 599
+        },
+        {
+          "origin": [
+            9,
+            9,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 600
+        },
+        {
+          "origin": [
+            10,
+            9,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 601
+        }
+      ],
+      "initial_mass": 576,
+      "final_mass": 601,
+      "unused_capacity": 229,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 15,
+      "accepted": [
+        [
+          6,
+          8,
+          19
+        ],
+        [
+          6,
+          9,
+          18
+        ],
+        [
+          6,
+          10,
+          18
+        ],
+        [
+          7,
+          8,
+          19
+        ],
+        [
+          7,
+          9,
+          19
+        ],
+        [
+          7,
+          10,
+          19
+        ],
+        [
+          7,
+          11,
+          18
+        ],
+        [
+          8,
+          7,
+          17
+        ],
+        [
+          8,
+          7,
+          18
+        ],
+        [
+          8,
+          9,
+          19
+        ],
+        [
+          9,
+          7,
+          17
+        ],
+        [
+          9,
+          9,
+          18
+        ],
+        [
+          9,
+          10,
+          18
+        ],
+        [
+          10,
+          8,
+          18
+        ],
+        [
+          10,
+          9,
+          18
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            19
+          ],
+          "new_cells": 9,
+          "mass": 610
+        },
+        {
+          "origin": [
+            6,
+            9,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 611
+        },
+        {
+          "origin": [
+            6,
+            10,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 612
+        },
+        {
+          "origin": [
+            7,
+            8,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 615
+        },
+        {
+          "origin": [
+            7,
+            9,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 618
+        },
+        {
+          "origin": [
+            7,
+            10,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 621
+        },
+        {
+          "origin": [
+            7,
+            11,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 624
+        },
+        {
+          "origin": [
+            8,
+            7,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 625
+        },
+        {
+          "origin": [
+            8,
+            7,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 626
+        },
+        {
+          "origin": [
+            8,
+            9,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 629
+        },
+        {
+          "origin": [
+            9,
+            7,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 630
+        },
+        {
+          "origin": [
+            9,
+            9,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 631
+        },
+        {
+          "origin": [
+            9,
+            10,
+            18
+          ],
+          "new_cells": 2,
+          "mass": 633
+        },
+        {
+          "origin": [
+            10,
+            8,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 636
+        },
+        {
+          "origin": [
+            10,
+            9,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 637
+        }
+      ],
+      "initial_mass": 601,
+      "final_mass": 637,
+      "unused_capacity": 193,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 13,
+      "accepted": [
+        [
+          6,
+          9,
+          19
+        ],
+        [
+          6,
+          10,
+          19
+        ],
+        [
+          7,
+          8,
+          20
+        ],
+        [
+          7,
+          10,
+          20
+        ],
+        [
+          8,
+          8,
+          19
+        ],
+        [
+          8,
+          9,
+          20
+        ],
+        [
+          8,
+          10,
+          19
+        ],
+        [
+          8,
+          11,
+          17
+        ],
+        [
+          9,
+          9,
+          19
+        ],
+        [
+          9,
+          10,
+          19
+        ],
+        [
+          10,
+          7,
+          18
+        ],
+        [
+          10,
+          8,
+          19
+        ],
+        [
+          10,
+          9,
+          19
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            9,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 638
+        },
+        {
+          "origin": [
+            6,
+            10,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 639
+        },
+        {
+          "origin": [
+            7,
+            8,
+            20
+          ],
+          "new_cells": 9,
+          "mass": 648
+        },
+        {
+          "origin": [
+            7,
+            10,
+            20
+          ],
+          "new_cells": 6,
+          "mass": 654
+        },
+        {
+          "origin": [
+            8,
+            8,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 655
+        },
+        {
+          "origin": [
+            8,
+            9,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 658
+        },
+        {
+          "origin": [
+            8,
+            10,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 659
+        },
+        {
+          "origin": [
+            8,
+            11,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 662
+        },
+        {
+          "origin": [
+            9,
+            9,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 665
+        },
+        {
+          "origin": [
+            9,
+            10,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 666
+        },
+        {
+          "origin": [
+            10,
+            7,
+            18
+          ],
+          "new_cells": 4,
+          "mass": 670
+        },
+        {
+          "origin": [
+            10,
+            8,
+            19
+          ],
+          "new_cells": 4,
+          "mass": 674
+        },
+        {
+          "origin": [
+            10,
+            9,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 675
+        }
+      ],
+      "initial_mass": 637,
+      "final_mass": 675,
+      "unused_capacity": 155,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 17,
+      "accepted": [
+        [
+          6,
+          9,
+          20
+        ],
+        [
+          7,
+          9,
+          21
+        ],
+        [
+          7,
+          10,
+          21
+        ],
+        [
+          7,
+          11,
+          19
+        ],
+        [
+          7,
+          11,
+          20
+        ],
+        [
+          8,
+          7,
+          19
+        ],
+        [
+          8,
+          8,
+          20
+        ],
+        [
+          8,
+          9,
+          21
+        ],
+        [
+          8,
+          10,
+          20
+        ],
+        [
+          8,
+          11,
+          18
+        ],
+        [
+          8,
+          11,
+          19
+        ],
+        [
+          9,
+          8,
+          20
+        ],
+        [
+          10,
+          7,
+          17
+        ],
+        [
+          10,
+          7,
+          19
+        ],
+        [
+          10,
+          8,
+          20
+        ],
+        [
+          10,
+          9,
+          20
+        ],
+        [
+          10,
+          10,
+          19
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            9,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 678
+        },
+        {
+          "origin": [
+            7,
+            9,
+            21
+          ],
+          "new_cells": 9,
+          "mass": 687
+        },
+        {
+          "origin": [
+            7,
+            10,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 690
+        },
+        {
+          "origin": [
+            7,
+            11,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 693
+        },
+        {
+          "origin": [
+            7,
+            11,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 696
+        },
+        {
+          "origin": [
+            8,
+            7,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 699
+        },
+        {
+          "origin": [
+            8,
+            8,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 700
+        },
+        {
+          "origin": [
+            8,
+            9,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 703
+        },
+        {
+          "origin": [
+            8,
+            10,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 704
+        },
+        {
+          "origin": [
+            8,
+            11,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 705
+        },
+        {
+          "origin": [
+            8,
+            11,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 706
+        },
+        {
+          "origin": [
+            9,
+            8,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 709
+        },
+        {
+          "origin": [
+            10,
+            7,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 710
+        },
+        {
+          "origin": [
+            10,
+            7,
+            19
+          ],
+          "new_cells": 2,
+          "mass": 712
+        },
+        {
+          "origin": [
+            10,
+            8,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 715
+        },
+        {
+          "origin": [
+            10,
+            9,
+            20
+          ],
+          "new_cells": 2,
+          "mass": 717
+        },
+        {
+          "origin": [
+            10,
+            10,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 720
+        }
+      ],
+      "initial_mass": 675,
+      "final_mass": 720,
+      "unused_capacity": 110,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 13,
+      "accepted": [
+        [
+          6,
+          11,
+          19
+        ],
+        [
+          6,
+          11,
+          20
+        ],
+        [
+          7,
+          7,
+          19
+        ],
+        [
+          7,
+          11,
+          21
+        ],
+        [
+          7,
+          12,
+          19
+        ],
+        [
+          7,
+          12,
+          20
+        ],
+        [
+          9,
+          7,
+          20
+        ],
+        [
+          9,
+          11,
+          17
+        ],
+        [
+          9,
+          11,
+          18
+        ],
+        [
+          9,
+          11,
+          19
+        ],
+        [
+          10,
+          10,
+          18
+        ],
+        [
+          10,
+          10,
+          20
+        ],
+        [
+          10,
+          11,
+          19
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            11,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 723
+        },
+        {
+          "origin": [
+            6,
+            11,
+            20
+          ],
+          "new_cells": 2,
+          "mass": 725
+        },
+        {
+          "origin": [
+            7,
+            7,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 726
+        },
+        {
+          "origin": [
+            7,
+            11,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 729
+        },
+        {
+          "origin": [
+            7,
+            12,
+            19
+          ],
+          "new_cells": 9,
+          "mass": 738
+        },
+        {
+          "origin": [
+            7,
+            12,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 741
+        },
+        {
+          "origin": [
+            9,
+            7,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 744
+        },
+        {
+          "origin": [
+            9,
+            11,
+            17
+          ],
+          "new_cells": 3,
+          "mass": 747
+        },
+        {
+          "origin": [
+            9,
+            11,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 748
+        },
+        {
+          "origin": [
+            9,
+            11,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 749
+        },
+        {
+          "origin": [
+            10,
+            10,
+            18
+          ],
+          "new_cells": 1,
+          "mass": 750
+        },
+        {
+          "origin": [
+            10,
+            10,
+            20
+          ],
+          "new_cells": 2,
+          "mass": 752
+        },
+        {
+          "origin": [
+            10,
+            11,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 755
+        }
+      ],
+      "initial_mass": 720,
+      "final_mass": 755,
+      "unused_capacity": 75,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 13,
+      "accepted": [
+        [
+          6,
+          8,
+          20
+        ],
+        [
+          7,
+          7,
+          20
+        ],
+        [
+          7,
+          13,
+          20
+        ],
+        [
+          8,
+          8,
+          21
+        ],
+        [
+          8,
+          10,
+          21
+        ],
+        [
+          8,
+          11,
+          20
+        ],
+        [
+          8,
+          11,
+          21
+        ],
+        [
+          8,
+          12,
+          19
+        ],
+        [
+          8,
+          12,
+          20
+        ],
+        [
+          9,
+          10,
+          21
+        ],
+        [
+          9,
+          11,
+          20
+        ],
+        [
+          10,
+          10,
+          17
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [
+        [
+          8,
+          7,
+          20
+        ]
+      ],
+      "trace": [
+        {
+          "origin": [
+            6,
+            8,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 756
+        },
+        {
+          "origin": [
+            7,
+            7,
+            20
+          ],
+          "new_cells": 2,
+          "mass": 758
+        },
+        {
+          "origin": [
+            7,
+            13,
+            20
+          ],
+          "new_cells": 9,
+          "mass": 767
+        },
+        {
+          "origin": [
+            8,
+            8,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 770
+        },
+        {
+          "origin": [
+            8,
+            10,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 771
+        },
+        {
+          "origin": [
+            8,
+            11,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 772
+        },
+        {
+          "origin": [
+            8,
+            11,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 773
+        },
+        {
+          "origin": [
+            8,
+            12,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 776
+        },
+        {
+          "origin": [
+            8,
+            12,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 777
+        },
+        {
+          "origin": [
+            9,
+            10,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 780
+        },
+        {
+          "origin": [
+            9,
+            11,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 781
+        },
+        {
+          "origin": [
+            10,
+            10,
+            17
+          ],
+          "new_cells": 1,
+          "mass": 782
+        }
+      ],
+      "initial_mass": 755,
+      "final_mass": 782,
+      "unused_capacity": 48,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 9,
+      "accepted": [
+        [
+          6,
+          12,
+          20
+        ],
+        [
+          6,
+          13,
+          20
+        ],
+        [
+          7,
+          12,
+          21
+        ],
+        [
+          7,
+          13,
+          19
+        ],
+        [
+          7,
+          13,
+          21
+        ],
+        [
+          8,
+          13,
+          20
+        ],
+        [
+          9,
+          12,
+          20
+        ],
+        [
+          10,
+          11,
+          20
+        ],
+        [
+          10,
+          12,
+          19
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            12,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 785
+        },
+        {
+          "origin": [
+            6,
+            13,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 788
+        },
+        {
+          "origin": [
+            7,
+            12,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 791
+        },
+        {
+          "origin": [
+            7,
+            13,
+            19
+          ],
+          "new_cells": 3,
+          "mass": 794
+        },
+        {
+          "origin": [
+            7,
+            13,
+            21
+          ],
+          "new_cells": 3,
+          "mass": 797
+        },
+        {
+          "origin": [
+            8,
+            13,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 800
+        },
+        {
+          "origin": [
+            9,
+            12,
+            20
+          ],
+          "new_cells": 3,
+          "mass": 803
+        },
+        {
+          "origin": [
+            10,
+            11,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 804
+        },
+        {
+          "origin": [
+            10,
+            12,
+            19
+          ],
+          "new_cells": 4,
+          "mass": 808
+        }
+      ],
+      "initial_mass": 782,
+      "final_mass": 808,
+      "unused_capacity": 22,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 6,
+      "accepted": [
+        [
+          6,
+          12,
+          19
+        ],
+        [
+          8,
+          12,
+          21
+        ],
+        [
+          8,
+          13,
+          21
+        ],
+        [
+          9,
+          11,
+          21
+        ],
+        [
+          9,
+          13,
+          19
+        ],
+        [
+          9,
+          13,
+          20
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            6,
+            12,
+            19
+          ],
+          "new_cells": 1,
+          "mass": 809
+        },
+        {
+          "origin": [
+            8,
+            12,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 810
+        },
+        {
+          "origin": [
+            8,
+            13,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 811
+        },
+        {
+          "origin": [
+            9,
+            11,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 812
+        },
+        {
+          "origin": [
+            9,
+            13,
+            19
+          ],
+          "new_cells": 4,
+          "mass": 816
+        },
+        {
+          "origin": [
+            9,
+            13,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 817
+        }
+      ],
+      "initial_mass": 808,
+      "final_mass": 817,
+      "unused_capacity": 13,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 2,
+      "accepted": [
+        [
+          8,
+          12,
+          18
+        ],
+        [
+          10,
+          12,
+          20
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            8,
+            12,
+            18
+          ],
+          "new_cells": 3,
+          "mass": 820
+        },
+        {
+          "origin": [
+            10,
+            12,
+            20
+          ],
+          "new_cells": 1,
+          "mass": 821
+        }
+      ],
+      "initial_mass": 817,
+      "final_mass": 821,
+      "unused_capacity": 9,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 0,
+      "accepted": [],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [],
+      "initial_mass": 821,
+      "final_mass": 821,
+      "unused_capacity": 9,
+      "deferred_after_first_cube": 0
+    },
+    {
+      "seed_phase": false,
+      "offered_count": 1,
+      "accepted": [
+        [
+          9,
+          12,
+          21
+        ]
+      ],
+      "rejected_budget": [],
+      "redundant": [],
+      "trace": [
+        {
+          "origin": [
+            9,
+            12,
+            21
+          ],
+          "new_cells": 1,
+          "mass": 822
+        }
+      ],
+      "initial_mass": 821,
+      "final_mass": 822,
+      "unused_capacity": 8,
+      "deferred_after_first_cube": 0
+    }
+  ]
+}

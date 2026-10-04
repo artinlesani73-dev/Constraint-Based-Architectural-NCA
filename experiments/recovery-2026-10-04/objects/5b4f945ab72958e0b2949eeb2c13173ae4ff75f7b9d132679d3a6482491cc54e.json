@@ -1,0 +1,9 @@
+{
+  "status": "RGR1_gpu_check_passed",
+  "record": "verified-record.json",
+  "next": "Prepare one paired same-runtime CGR1/RGR1 comparison,256updates per arm512total,shared proposed600s cap; preserve original frozen gates and full ZIP exports. Explicit approval needed once package is ready.",
+  "runtime": "T4,Torch2.11.0+cu130,CUDA13.0,cuDNN92700",
+  "caution": "Global CPU projection costs about0.5s in the single32-step probe,versus0.031s control. Preserve timing and measure full worker time.",
+  "repository_sync_pending": true,
+  "no_new_compute_authorized": true
+}

@@ -1,0 +1,130 @@
+{
+  "G8": {
+    "shared_original_train": {
+      "full_quota_steps": 1670,
+      "allowance_total": 24197,
+      "added_total": 23353,
+      "unused_total": 844,
+      "unused_categories": {
+        "no_eligible_cube": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "no_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "firing_missed_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "offers_exhausted_no_rejection": {
+          "steps": 10,
+          "unused_voxels": 53
+        },
+        "whole_cube_allowance_rejections": {
+          "steps": 409,
+          "unused_voxels": 791
+        }
+      },
+      "matched_teacher_positive_progress_steps": 614,
+      "other_positive_mean_exceeds_progress": 49,
+      "progress_mean_below_threshold": 24
+    },
+    "added_g7_train": {
+      "full_quota_steps": 1109,
+      "allowance_total": 22263,
+      "added_total": 21941,
+      "unused_total": 322,
+      "unused_categories": {
+        "no_eligible_cube": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "no_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "firing_missed_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "offers_exhausted_no_rejection": {
+          "steps": 12,
+          "unused_voxels": 56
+        },
+        "whole_cube_allowance_rejections": {
+          "steps": 117,
+          "unused_voxels": 266
+        }
+      },
+      "matched_teacher_positive_progress_steps": 474,
+      "other_positive_mean_exceeds_progress": 73,
+      "progress_mean_below_threshold": 32
+    }
+  },
+  "G9": {
+    "shared_original_train": {
+      "full_quota_steps": 1670,
+      "allowance_total": 24218,
+      "added_total": 23089,
+      "unused_total": 1129,
+      "unused_categories": {
+        "no_eligible_cube": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "no_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "firing_missed_above_threshold": {
+          "steps": 4,
+          "unused_voxels": 40
+        },
+        "offers_exhausted_no_rejection": {
+          "steps": 37,
+          "unused_voxels": 164
+        },
+        "whole_cube_allowance_rejections": {
+          "steps": 421,
+          "unused_voxels": 925
+        }
+      },
+      "matched_teacher_positive_progress_steps": 463,
+      "other_positive_mean_exceeds_progress": 29,
+      "progress_mean_below_threshold": 45
+    },
+    "added_g7_train": {
+      "full_quota_steps": 1115,
+      "allowance_total": 22373,
+      "added_total": 21864,
+      "unused_total": 509,
+      "unused_categories": {
+        "no_eligible_cube": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "no_above_threshold": {
+          "steps": 0,
+          "unused_voxels": 0
+        },
+        "firing_missed_above_threshold": {
+          "steps": 1,
+          "unused_voxels": 12
+        },
+        "offers_exhausted_no_rejection": {
+          "steps": 20,
+          "unused_voxels": 102
+        },
+        "whole_cube_allowance_rejections": {
+          "steps": 176,
+          "unused_voxels": 395
+        }
+      },
+      "matched_teacher_positive_progress_steps": 337,
+      "other_positive_mean_exceeds_progress": 37,
+      "progress_mean_below_threshold": 36
+    }
+  }
+}

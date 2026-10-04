@@ -1,0 +1,94 @@
+{
+  "frozen_pilot_gates_pass": true,
+  "live_promoted": false,
+  "general_release_approved": false,
+  "next": "Prepare a separate, clearly labelled local hybrid preview with G10 raw comparison, provenance and honest failure display. Keep MG7 live until the user reviews the preview. Before any general release, extend assessment to more seeds and geometry families and benchmark larger-grid costs separately.",
+  "summary": {
+    "regression_G10": {
+      "64": {
+        "expected": 69,
+        "evaluated": 69,
+        "valid": 51,
+        "median_error": 0.0014731494920174337,
+        "max_error": 0.00568726355611604
+      },
+      "128": {
+        "expected": 69,
+        "evaluated": 69,
+        "valid": 51,
+        "median_error": 0.0013864491844416404,
+        "max_error": 0.0018004866180048595
+      }
+    },
+    "regression_R3": {
+      "64": {
+        "expected": 69,
+        "evaluated": 69,
+        "valid": 69,
+        "median_error": 0.0013864491844416404,
+        "max_error": 0.0018004866180048595
+      },
+      "128": {
+        "expected": 69,
+        "evaluated": 69,
+        "valid": 69,
+        "median_error": 0.0013864491844416404,
+        "max_error": 0.0018004866180048595
+      }
+    },
+    "fresh_G10": {
+      "64": {
+        "expected": 12,
+        "evaluated": 12,
+        "valid": 2,
+        "median_error": 0.0012330874553394544,
+        "max_error": 0.002036247334754826
+      },
+      "128": {
+        "expected": 12,
+        "evaluated": 12,
+        "valid": 2,
+        "median_error": 0.0012210537609952804,
+        "max_error": 0.001342925659472416
+      }
+    },
+    "fresh_R3": {
+      "64": {
+        "expected": 12,
+        "evaluated": 12,
+        "valid": 12,
+        "median_error": 0.0012210537609952804,
+        "max_error": 0.001342925659472416
+      },
+      "128": {
+        "expected": 12,
+        "evaluated": 12,
+        "valid": 12,
+        "median_error": 0.0012210537609952804,
+        "max_error": 0.001342925659472416
+      }
+    }
+  },
+  "gates": {
+    "regression_G10_64_families": false,
+    "regression_G10_64_volume": true,
+    "regression_G10_128_families": false,
+    "regression_G10_128_volume": true,
+    "regression_G10_stable": true,
+    "regression_R3_64_families": true,
+    "regression_R3_64_volume": true,
+    "regression_R3_128_families": true,
+    "regression_R3_128_volume": true,
+    "regression_R3_stable": true,
+    "fresh_G10_64_families": false,
+    "fresh_G10_64_volume": true,
+    "fresh_G10_128_families": false,
+    "fresh_G10_128_volume": true,
+    "fresh_G10_stable": true,
+    "fresh_R3_64_families": true,
+    "fresh_R3_64_volume": true,
+    "fresh_R3_128_families": true,
+    "fresh_R3_128_volume": true,
+    "fresh_R3_stable": true
+  }
+}

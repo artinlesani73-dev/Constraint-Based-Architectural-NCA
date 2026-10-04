@@ -1,0 +1,128 @@
+{
+  "g4": {
+    "64": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "g5": {
+    "64": {
+      "valid": 1,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.49971313826735514,
+      "family_pass": {
+        "access": 1,
+        "coverage": 3,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 1,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.49971313826735514,
+      "family_pass": {
+        "access": 1,
+        "coverage": 3,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "g4_gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "g5_gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "g5_accepted": false,
+  "same_nine_reused_development_cases": true,
+  "final_checkpoint": 256,
+  "horizons": [
+    64,
+    128
+  ],
+  "firing_seed": 2101,
+  "evaluation_device": "cpu",
+  "dtype": "float32",
+  "pairing": {
+    "dataset_hashes_equal": true,
+    "all256row_and_start_schedules_equal": true,
+    "final_firing_rng_equal": true,
+    "initial_core_parameters_equal": true,
+    "new_cue_weights_initially_zero": true,
+    "runtime_keys_equal": [
+      "python",
+      "torch",
+      "numpy",
+      "gpu_name",
+      "cuda_build",
+      "cudnn",
+      "dtype",
+      "threads",
+      "deterministic",
+      "tf32_matmul",
+      "tf32_cudnn"
+    ],
+    "final_cue_weight_absolute_sums": [
+      6.213831901550293,
+      1.7741479873657227
+    ],
+    "extra_parameters": 128,
+    "limitation": "One seeded feature intervention,not a multi-seed causal estimate;input shape may also affect numerical kernels."
+  }
+}

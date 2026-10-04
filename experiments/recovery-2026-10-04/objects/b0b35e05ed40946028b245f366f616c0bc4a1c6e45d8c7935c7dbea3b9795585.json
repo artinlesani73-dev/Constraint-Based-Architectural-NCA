@@ -1,0 +1,26 @@
+{
+  "run_id": "20261003T094720Z_e18428c17993",
+  "status": "verified_pass",
+  "verified_payloads": 17,
+  "independent_full_payload_comparison": true,
+  "start_and_state_arrays_equal": true,
+  "controlled_seconds": 13.644845204000006,
+  "worker_seconds": 9.244878895,
+  "runtime": {
+    "gpu_name": "Tesla T4",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "python": "3.13.15",
+    "cuda_build": "13.0",
+    "cudnn": 92700,
+    "deterministic": true
+  },
+  "receipt": {
+    "archive": "20261003T094720Z_e18428c17993.zip",
+    "files": 17,
+    "sha256": "8ccc5ebffbb588016f5fead2abe1924b49b31d79543e92b50b90a77985e10ae1"
+  },
+  "scope": "Two updates plus same-runtime augmented-step replay on one TRAIN example. Not cross-runtime equivalence or model quality.",
+  "repository_documentation_pending": true,
+  "execution_provenance": "User supplied completed evidence; no further paid run approval inferred."
+}

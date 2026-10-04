@@ -1,0 +1,449 @@
+{
+  "version": "generation_seed_audit_v1",
+  "scope": "27 TRAIN intact examples only; no held-out arrays loaded",
+  "caveat": "Legal-domain path lengths are optimistic reachability bounds, not learned or teacher-only growth evidence.",
+  "study_sha256": "736bbb4a815f20b6f4797d504ba554f560c4dcf8392f009651c5804ca2c7860c",
+  "records": [
+    {
+      "case": "mg5__mg3__aligned__v16__s0",
+      "site": "aligned",
+      "input_sha256": "7bfee39c27ee1139b701e0ed3026e584d8b42b794dc4312484f751452f9618aa",
+      "condition_sha256": "3bfbff4e6667c114142e4107de051062bb4e83d825b63d31526d3553046fcbb8",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 561,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 19,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v16__s1",
+      "site": "aligned",
+      "input_sha256": "a2b0970299b59f8214adf73b3f063a73fd9c318a2bf0574bdf40db2ef412f0b9",
+      "condition_sha256": "3bfbff4e6667c114142e4107de051062bb4e83d825b63d31526d3553046fcbb8",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 561,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 21,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v16__s2",
+      "site": "aligned",
+      "input_sha256": "44f88a28df4d6e7d20abe2b7fab3b4f88d21ea1887297f75f3ad9d0bc9d0ee1f",
+      "condition_sha256": "3bfbff4e6667c114142e4107de051062bb4e83d825b63d31526d3553046fcbb8",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 559,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 21,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s0",
+      "site": "aligned",
+      "input_sha256": "d02cbf0b290b6d6c92268cd0f2d14457e4efef3043d61862751f232436eb742e",
+      "condition_sha256": "a1717cff18e8a851a141c761fcdd89bce38352fa42593dd39b81863bfdd57db2",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 846,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 21,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s1",
+      "site": "aligned",
+      "input_sha256": "ed52539cfb7d6e7061585900e61608d75d9b7e0e2ed566b7c0a26371105c107e",
+      "condition_sha256": "a1717cff18e8a851a141c761fcdd89bce38352fa42593dd39b81863bfdd57db2",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 839,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 22,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v24__s2",
+      "site": "aligned",
+      "input_sha256": "8c5942b571da64670631cb6a066559be25117fdcbe68a6c3e8a906aaa1b2ee0b",
+      "condition_sha256": "a1717cff18e8a851a141c761fcdd89bce38352fa42593dd39b81863bfdd57db2",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 845,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 22,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s0",
+      "site": "aligned",
+      "input_sha256": "31c6b7d9c54fe8ed9e6eb3a2ef885979e5f346754140907a31ae76e00d978392",
+      "condition_sha256": "df8bf1f3b171aa98b61f306b70b5973e560c2fd04b353eaf122e9e5323d81ef7",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1126,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 22,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s1",
+      "site": "aligned",
+      "input_sha256": "fad2222b3924d38984791a8b55d5bdf62b43c0f7af51944679fd2fcad089fb3e",
+      "condition_sha256": "df8bf1f3b171aa98b61f306b70b5973e560c2fd04b353eaf122e9e5323d81ef7",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1118,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__aligned__v32__s2",
+      "site": "aligned",
+      "input_sha256": "f7a3f772a7ad979ba85c51c92c8c3f7725e3cfcddde17b4bf556146f86340c69",
+      "condition_sha256": "df8bf1f3b171aa98b61f306b70b5973e560c2fd04b353eaf122e9e5323d81ef7",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1118,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 24,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s0",
+      "site": "wide_gap",
+      "input_sha256": "23b29d0bc7f238e48bc7e23b76d737ee98598e3a137b9558207b1e9856c250da",
+      "condition_sha256": "8cb700c05ac02452f6ede6d5253dc3584b1aaa9bfd07587215caaf5b500ac9e6",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 697,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s1",
+      "site": "wide_gap",
+      "input_sha256": "aaefd1246a514ed7011611e6c02a4dddbd9eb4b01affbc4928464df5e7125baa",
+      "condition_sha256": "8cb700c05ac02452f6ede6d5253dc3584b1aaa9bfd07587215caaf5b500ac9e6",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 698,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 24,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v16__s2",
+      "site": "wide_gap",
+      "input_sha256": "8b06dcb181bc4d4d78945fc1a1ab263307c84527d9144bb4a92448733268fe6c",
+      "condition_sha256": "8cb700c05ac02452f6ede6d5253dc3584b1aaa9bfd07587215caaf5b500ac9e6",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 698,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 25,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s0",
+      "site": "wide_gap",
+      "input_sha256": "2f9c3ea98f7bc24c80d5c24aaacf757584490d442d54d7354fe1deb89309c743",
+      "condition_sha256": "d00e6f104ba0900eff0cd4a8ad66ed093d5f0b28116b82b5d7efc358cd637947",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1049,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 25,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s1",
+      "site": "wide_gap",
+      "input_sha256": "36e4cfcb20b0cc461bd0f8242fa2ec8e7d210cc3e6e5379a773521569f66dc61",
+      "condition_sha256": "d00e6f104ba0900eff0cd4a8ad66ed093d5f0b28116b82b5d7efc358cd637947",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1048,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 25,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v24__s2",
+      "site": "wide_gap",
+      "input_sha256": "7ad711094c5075775bdd84b231e64d8b818462980a65f3c3112296eed2504067",
+      "condition_sha256": "d00e6f104ba0900eff0cd4a8ad66ed093d5f0b28116b82b5d7efc358cd637947",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1050,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 26,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s0",
+      "site": "wide_gap",
+      "input_sha256": "a99043d82ffaea49417f54a1099aa2b65fdb58646b9e80135b4dee8d73e484ca",
+      "condition_sha256": "b3014969d0cc57359c6036d353c79ce342f4ec82309caa1e49a7f7190bbbc54b",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1397,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 26,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s1",
+      "site": "wide_gap",
+      "input_sha256": "2ed915d3bd65101e8d0cd8a8a455c26a53f892cb2ae7a68967241d7cd5635f85",
+      "condition_sha256": "b3014969d0cc57359c6036d353c79ce342f4ec82309caa1e49a7f7190bbbc54b",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1400,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 26,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__wide_gap__v32__s2",
+      "site": "wide_gap",
+      "input_sha256": "a4ef47296e2a9a5e63cdd3b61b0ac79176cd12dc281ae39a3f5648a3adecf4c1",
+      "condition_sha256": "b3014969d0cc57359c6036d353c79ce342f4ec82309caa1e49a7f7190bbbc54b",
+      "seed_zyx": [
+        8,
+        15,
+        6
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1394,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 27,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s0",
+      "site": "partial_obstruction",
+      "input_sha256": "01440aca0138ecd0f865892287d2323f31c6ecade52cbf21c85704e56577b0d8",
+      "condition_sha256": "22e782e9999c34a8ac0332d9690dab29355e715b1152cb9bda1ad29a1f44aad9",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": false,
+      "target_cells": 546,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s1",
+      "site": "partial_obstruction",
+      "input_sha256": "c2e013e6fad47fa9557c8d18e97f61267e9860314d6ecf205ad748bcf2d13f2c",
+      "condition_sha256": "22e782e9999c34a8ac0332d9690dab29355e715b1152cb9bda1ad29a1f44aad9",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 547,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v16__s2",
+      "site": "partial_obstruction",
+      "input_sha256": "39f519eb58d385d9b7f4c94c496580b19693d3156e9ee7cf89fde8743305c85e",
+      "condition_sha256": "22e782e9999c34a8ac0332d9690dab29355e715b1152cb9bda1ad29a1f44aad9",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 546,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s0",
+      "site": "partial_obstruction",
+      "input_sha256": "b9eb578723129ceae769460a06e3a8f8ad2ed89bee0b3e0fba1f66afee7fe315",
+      "condition_sha256": "4a8457e5be3d61d39a4f7d56591c5063081b3231c99d0702d580e43a1698e501",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 819,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 24,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s1",
+      "site": "partial_obstruction",
+      "input_sha256": "2ad1011641bb471ff35677f6c594e4fc995a90cfd53c2de8264442233c1fa0be",
+      "condition_sha256": "4a8457e5be3d61d39a4f7d56591c5063081b3231c99d0702d580e43a1698e501",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 819,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 24,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v24__s2",
+      "site": "partial_obstruction",
+      "input_sha256": "887ebd8cd5de6a5d78de6e9f8a2eaed26f51f0df3667d4b1d3c02a93c3843fd6",
+      "condition_sha256": "4a8457e5be3d61d39a4f7d56591c5063081b3231c99d0702d580e43a1698e501",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 819,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 23,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s0",
+      "site": "partial_obstruction",
+      "input_sha256": "dab7dbea0c99ca7672c5cf3fcd99e03e71b471441604e25600bd0c110b480e37",
+      "condition_sha256": "3f7f0004dea07e98824d92111877744f3f970de034e8fc69f61496a29b682c73",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1092,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 24,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s1",
+      "site": "partial_obstruction",
+      "input_sha256": "996fec38e08661847417a27a2094979053b78ba8de860d29f0c1f7cffd965374",
+      "condition_sha256": "3f7f0004dea07e98824d92111877744f3f970de034e8fc69f61496a29b682c73",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1093,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 25,
+      "teacher_cells_beyond_32": 0
+    },
+    {
+      "case": "mg5__mg3__partial_obstruction__v32__s2",
+      "site": "partial_obstruction",
+      "input_sha256": "c90c02de43b8a8712e8b47e9e963cfaf3cbfba60011137f55315eed7b94d9b21",
+      "condition_sha256": "3f7f0004dea07e98824d92111877744f3f970de034e8fc69f61496a29b682c73",
+      "seed_zyx": [
+        8,
+        15,
+        8
+      ],
+      "seed_in_teacher": true,
+      "target_cells": 1092,
+      "unreachable_teacher_cells": 0,
+      "max_legal_path_distance": 25,
+      "teacher_cells_beyond_32": 0
+    }
+  ],
+  "summary": {
+    "targets": 27,
+    "contexts": 3,
+    "seeds_inside_teacher": 26,
+    "max_legal_path_distance": 27,
+    "targets_beyond_32": 0,
+    "conditioning_groups": 9,
+    "groups_with_multiple_distinct_teachers": 9
+  }
+}

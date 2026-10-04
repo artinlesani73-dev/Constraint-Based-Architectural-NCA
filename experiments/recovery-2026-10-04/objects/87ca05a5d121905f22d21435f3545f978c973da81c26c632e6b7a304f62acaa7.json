@@ -1,0 +1,65 @@
+{
+  "event": "G6 first reserved evaluation and visual review",
+  "date": "2026-10-04",
+  "results": {
+    "64": {
+      "evaluated": 12,
+      "expected": 12,
+      "valid": 10,
+      "family_pass": {
+        "access": 10,
+        "coverage": 12,
+        "facade": 12,
+        "ground": 12,
+        "legality": 12,
+        "sparsity": 12,
+        "spill": 12,
+        "support": 12,
+        "thickness": 12
+      },
+      "median_absolute_fraction_error": 0.0016091954022988408,
+      "max_absolute_fraction_error": 0.0018004866180048595
+    },
+    "128": {
+      "evaluated": 12,
+      "expected": 12,
+      "valid": 10,
+      "family_pass": {
+        "access": 10,
+        "coverage": 12,
+        "facade": 12,
+        "ground": 12,
+        "legality": 12,
+        "sparsity": 12,
+        "spill": 12,
+        "support": 12,
+        "thickness": 12
+      },
+      "median_absolute_fraction_error": 0.0016685291613452446,
+      "max_absolute_fraction_error": 0.0018004866180048595
+    }
+  },
+  "gates": {
+    "all_nine_at64": false,
+    "all_nine_at128": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "stable_mass": true
+  },
+  "candidate_promoted": false,
+  "decision": "Retain G6 as reference;prepare vertical training diversity before unrestricted integration",
+  "changes": [
+    "New frozen local CPU evaluation of12scene/request pairs at2horizons",
+    "Saved24outputs and12contexts",
+    "Verified27TRAIN context reconstructions and24source/result accounts",
+    "Rendered and inspected geometry;retained initial layout drafts",
+    "Saved next-step decision and durable resume"
+  ],
+  "limitations": [
+    "Single training and firing seed",
+    "Synthetic relatives only",
+    "Two access failures",
+    "Generalization gate failed",
+    "Repository sync and off-device backup pending"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "g3": {
+    "64": {
+      "valid": 1,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0445158906134516,
+      "max_absolute_fraction_error": 0.08255162241887903,
+      "median_teacher_iou": 0.5354066985645933,
+      "family_pass": {
+        "access": 5,
+        "coverage": 7,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 1
+      }
+    },
+    "128": {
+      "valid": 0,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0016555308092056353,
+      "max_absolute_fraction_error": 0.049181415929203526,
+      "median_teacher_iou": 0.5297580117724002,
+      "family_pass": {
+        "access": 5,
+        "coverage": 9,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 0
+      }
+    }
+  },
+  "g4": {
+    "64": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "g3_gates": {
+    "valid_at64": false,
+    "median_fraction_error": false,
+    "max_fraction_error": false,
+    "valid_at128": false,
+    "stable_mass": false
+  },
+  "g4_gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "g4_accepted": false,
+  "same_nine_reused_development_cases": true,
+  "final_checkpoint_only": 256,
+  "firing_seed": 2101,
+  "device": "cpu",
+  "dtype": "float32",
+  "horizons": [
+    64,
+    128
+  ],
+  "caution": "Integrated architectural change,not a single-factor ablation. Full-cube support,budget cap and saturation stability are imposed by the transition. No reserved generalization evidence."
+}

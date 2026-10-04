@@ -1,0 +1,4868 @@
+{
+  "checked": 540,
+  "passed": true,
+  "optimizer_updates": 0,
+  "model_inference": 0,
+  "checks": [
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-aligned-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-aligned-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-wide_gap-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g1-partial_obstruction-y4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-0-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-1-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-1-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-2-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-3-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-3-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-4-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v16",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v24",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G8",
+      "case": "g7-vertical-train-5-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 1,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 8,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 16,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 32,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 48,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    },
+    {
+      "model": "G9",
+      "case": "g7-vertical-train-5-v32",
+      "step": 64,
+      "same_loss_value": true,
+      "same_advancing_gradient": true,
+      "other_scores_no_auxiliary_gradient": true,
+      "base_gradient_retained_elsewhere": true
+    }
+  ]
+}

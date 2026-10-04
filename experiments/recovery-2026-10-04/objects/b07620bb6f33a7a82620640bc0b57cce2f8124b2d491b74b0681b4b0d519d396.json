@@ -1,0 +1,26 @@
+{
+  "dataset_hashes_equal": true,
+  "all256row_and_start_schedules_equal": true,
+  "final_firing_rng_equal": true,
+  "initial_core_parameters_equal": true,
+  "new_cue_weights_initially_zero": true,
+  "runtime_keys_equal": [
+    "python",
+    "torch",
+    "numpy",
+    "gpu_name",
+    "cuda_build",
+    "cudnn",
+    "dtype",
+    "threads",
+    "deterministic",
+    "tf32_matmul",
+    "tf32_cudnn"
+  ],
+  "final_cue_weight_absolute_sums": [
+    6.213831901550293,
+    1.7741479873657227
+  ],
+  "extra_parameters": 128,
+  "limitation": "One seeded feature intervention,not a multi-seed causal estimate;input shape may also affect numerical kernels."
+}

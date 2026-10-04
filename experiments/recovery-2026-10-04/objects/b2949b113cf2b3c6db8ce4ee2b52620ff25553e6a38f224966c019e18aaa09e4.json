@@ -1,0 +1,385 @@
+{
+  "certified": true,
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 889,
+    "gross_volume_m3": 455.1680000000001,
+    "domain_voxels": 11088,
+    "volume_fraction": 0.08017676767676768,
+    "bulk_voxels": 889,
+    "bulk_fraction": 1.0,
+    "thirds": [
+      {
+        "domain_cells": 3474,
+        "bulk_cells": 278,
+        "fraction": 0.0800230282095567
+      },
+      {
+        "domain_cells": 4140,
+        "bulk_cells": 333,
+        "fraction": 0.08043478260869565
+      },
+      {
+        "domain_cells": 3474,
+        "bulk_cells": 278,
+        "fraction": 0.0800230282095567
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "bulk_interface_hits": {
+      "E_west": true,
+      "E_east": true
+    },
+    "unreached_occupied_voxels": 0,
+    "unreached_bulk_voxels": 0,
+    "facade_contact_fraction": 0.031496062992125984,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 889,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "contract_pass": true,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "plan": [
+    [
+      6,
+      9,
+      9
+    ],
+    [
+      6,
+      8,
+      9
+    ],
+    [
+      6,
+      7,
+      9
+    ],
+    [
+      6,
+      6,
+      9
+    ],
+    [
+      6,
+      5,
+      9
+    ],
+    [
+      6,
+      4,
+      9
+    ],
+    [
+      6,
+      3,
+      9
+    ],
+    [
+      6,
+      2,
+      9
+    ],
+    [
+      6,
+      1,
+      9
+    ],
+    [
+      6,
+      1,
+      8
+    ],
+    [
+      6,
+      1,
+      10
+    ],
+    [
+      6,
+      1,
+      11
+    ],
+    [
+      6,
+      1,
+      12
+    ],
+    [
+      6,
+      1,
+      13
+    ],
+    [
+      6,
+      1,
+      14
+    ],
+    [
+      6,
+      1,
+      15
+    ],
+    [
+      6,
+      1,
+      16
+    ],
+    [
+      6,
+      1,
+      17
+    ],
+    [
+      6,
+      1,
+      18
+    ],
+    [
+      6,
+      1,
+      19
+    ],
+    [
+      6,
+      1,
+      20
+    ],
+    [
+      6,
+      1,
+      21
+    ],
+    [
+      6,
+      2,
+      12
+    ],
+    [
+      6,
+      2,
+      15
+    ],
+    [
+      6,
+      2,
+      18
+    ],
+    [
+      6,
+      2,
+      21
+    ],
+    [
+      6,
+      3,
+      12
+    ],
+    [
+      6,
+      3,
+      15
+    ],
+    [
+      6,
+      3,
+      18
+    ],
+    [
+      6,
+      4,
+      12
+    ],
+    [
+      6,
+      10,
+      9
+    ],
+    [
+      6,
+      11,
+      9
+    ],
+    [
+      6,
+      12,
+      9
+    ],
+    [
+      6,
+      12,
+      10
+    ],
+    [
+      6,
+      13,
+      9
+    ],
+    [
+      6,
+      14,
+      9
+    ],
+    [
+      6,
+      15,
+      9
+    ],
+    [
+      6,
+      15,
+      10
+    ],
+    [
+      6,
+      16,
+      9
+    ],
+    [
+      6,
+      17,
+      9
+    ],
+    [
+      6,
+      18,
+      9
+    ],
+    [
+      6,
+      18,
+      10
+    ],
+    [
+      6,
+      19,
+      9
+    ],
+    [
+      7,
+      1,
+      19
+    ],
+    [
+      8,
+      1,
+      19
+    ],
+    [
+      9,
+      1,
+      19
+    ],
+    [
+      9,
+      1,
+      20
+    ],
+    [
+      9,
+      1,
+      21
+    ],
+    [
+      9,
+      2,
+      19
+    ],
+    [
+      9,
+      3,
+      19
+    ],
+    [
+      9,
+      4,
+      19
+    ],
+    [
+      9,
+      4,
+      20
+    ],
+    [
+      9,
+      5,
+      19
+    ],
+    [
+      9,
+      6,
+      19
+    ],
+    [
+      8,
+      6,
+      19
+    ],
+    [
+      7,
+      6,
+      19
+    ],
+    [
+      6,
+      7,
+      10
+    ],
+    [
+      7,
+      3,
+      20
+    ],
+    [
+      6,
+      3,
+      19
+    ],
+    [
+      6,
+      8,
+      10
+    ],
+    [
+      6,
+      4,
+      13
+    ]
+  ],
+  "reason": "Planner witness evaluated against all nine families and the volume cap."
+}

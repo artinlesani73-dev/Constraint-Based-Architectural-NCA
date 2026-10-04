@@ -1,0 +1,67 @@
+{
+  "contract_version": "scene_v1",
+  "scene_id": "custom-g1-offset_interfaces-y0",
+  "description": "User-edited local geometry",
+  "grid_size": 32,
+  "voxel_size_m": 0.8,
+  "street_levels": 6,
+  "ceiling_z": null,
+  "legacy_relaxations": [],
+  "buildings": [
+    {
+      "id": "B_west",
+      "x": [
+        0,
+        7
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        26
+      ],
+      "gap_facing_x": 7,
+      "side": "left"
+    },
+    {
+      "id": "B_east",
+      "x": [
+        24,
+        32
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        25
+      ],
+      "gap_facing_x": 24,
+      "side": "right"
+    }
+  ],
+  "entrances": [
+    {
+      "id": "E_west",
+      "kind": "facade",
+      "extent": 2,
+      "x": 7,
+      "y": 13,
+      "z": 9
+    },
+    {
+      "id": "E_east",
+      "kind": "facade",
+      "extent": 2,
+      "x": 22,
+      "y": 16,
+      "z": 12
+    }
+  ],
+  "notes": [
+    "Exploratory edited site; not a held-out evaluation case."
+  ]
+}

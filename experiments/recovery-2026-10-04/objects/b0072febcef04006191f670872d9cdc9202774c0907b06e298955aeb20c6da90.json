@@ -1,0 +1,61 @@
+{
+  "run": "43182d564aa54abeb7d69c1d59752450",
+  "request_scene_and_result_exact": true,
+  "facade_x_and_connection_z_edits_preserved": true,
+  "all_run_hashes_verified": true,
+  "oversize_grid_rejected_without_run": {
+    "error": "Custom sites retain the32-cell grid,0.8m voxels,6-cell street band and no relaxations."
+  },
+  "status": {
+    "id": "43182d564aa54abeb7d69c1d59752450",
+    "state": "completed",
+    "message": "Saved. R3 passed the per-run checks.",
+    "updated": "2026-10-04T17:34:44.356492+00:00"
+  },
+  "family_pass": {
+    "G10-64": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "G10-128": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "R3-64": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    },
+    "R3-128": {
+      "access": true,
+      "coverage": true,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": true,
+      "spill": true,
+      "support": true,
+      "thickness": true
+    }
+  }
+}

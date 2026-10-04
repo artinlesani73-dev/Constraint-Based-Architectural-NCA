@@ -1,0 +1,31 @@
+{
+  "version": "curriculum_constructive_repair_v1",
+  "seeds": [
+    1201
+  ],
+  "updates": 256,
+  "train_steps": 32,
+  "seconds_per_job": 600,
+  "jobs": 1,
+  "dataset_run": "20260925T094341Z_316cff241020",
+  "loss": {
+    "frontier_positive": 0.5,
+    "frontier_negative": 1.0,
+    "intact_negative": 1.5,
+    "volume": 0.25,
+    "cube": 3
+  },
+  "threshold": 0.5,
+  "review_steps": 32,
+  "review_firing_seed": 2101,
+  "review_split": "validation",
+  "review_rows": 27,
+  "evaluation_device": "cpu",
+  "evaluation_dtype": "float32",
+  "initialization": "fresh",
+  "automatic_retry": false,
+  "test_evaluation": false,
+  "gpu_job_requires_approval": true,
+  "drive_operations_require_separate_approval": true,
+  "start_sampler": "intermediate_repair_starts_v1"
+}

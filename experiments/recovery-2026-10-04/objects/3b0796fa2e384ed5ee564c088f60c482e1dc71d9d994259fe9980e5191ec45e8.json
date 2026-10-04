@@ -1,0 +1,123 @@
+{
+  "ready": true,
+  "paid_run_authorized": false,
+  "package": {
+    "archive": "NCA-G10-One-Sided-Package.zip",
+    "bytes": 196404,
+    "sha256": "62d54b7e0efc1638086027766a6eab149c0134cf360c8dd4958326f2bca4faa3",
+    "manifest_sha256": "193c0cfc5b10cede58a7671453ce26bdd54cd9a11c21fe7fbcd7f5a18926fc07",
+    "payloads": 79
+  },
+  "verification": {
+    "passed": true,
+    "run": "20261004T132400Z_76b770453070",
+    "seconds": 40.82799999997951,
+    "verified_payloads": 23,
+    "exact_recovery": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "initial_numerical_keys_equal_g9": [
+      "version",
+      "completed",
+      "model",
+      "optimizer",
+      "optimizer_class",
+      "parameter_names",
+      "module_training",
+      "trace",
+      "sampler",
+      "rng",
+      "cuda_rng"
+    ],
+    "three_starts_rows_and_rng_equal_g9": true,
+    "trained_weights_differ": true,
+    "step_accounts": 192,
+    "access_phases": {
+      "seed_access": 65,
+      "connected": 80,
+      "advance_access": 47
+    },
+    "ranking_active_steps": 31,
+    "inference_parity": {
+      "semi_gradient_matches_G9_value_and_advancing_gradient": true,
+      "other_auxiliary_gradient_zero": true,
+      "passed": true,
+      "checks": [
+        {
+          "case": "g1-aligned-y0-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g1-aligned-y0-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g1-aligned-y0-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.35786712169647217
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-0-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.318636953830719
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "horizon": 64,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "horizon": 128,
+          "every_result_tensor_equal": true
+        },
+        {
+          "case": "g7-vertical-train-3-v16",
+          "base_terms_and_forward_equal": true,
+          "loss_is_base_plus_ranking": true,
+          "ranking_loss": 0.5090980529785156
+        }
+      ],
+      "heldout_supervision_rejected": true,
+      "checkpoint_sha256": "58bdb8d3e05fe8f62dea2b93b4929e4e22aaf5a023d87d7e9f631d797f985a4f",
+      "optimizer_updates": 0,
+      "heldout_inference": 0,
+      "interpretation": "TRAIN-only engineering parity,not a G10 quality benchmark"
+    },
+    "quality_evaluated": false,
+    "fresh_reserved_inference": 0
+  },
+  "allowance": {
+    "jobs": 1,
+    "gpu": "Tesla T4",
+    "updates": 427,
+    "steps": 64,
+    "seed": 1201,
+    "max_controlled_seconds": 600,
+    "setup_export_idle_extra": true,
+    "automatic_retry": false
+  }
+}

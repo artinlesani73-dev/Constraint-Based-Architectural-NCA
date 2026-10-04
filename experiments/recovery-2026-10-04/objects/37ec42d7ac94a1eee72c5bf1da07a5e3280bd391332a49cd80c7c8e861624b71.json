@@ -1,0 +1,21 @@
+{
+  "version": "G11-R2",
+  "training_cases": 45,
+  "horizons": [
+    64,
+    128
+  ],
+  "firing_seed": 2101,
+  "checkpoint": "G10 final427",
+  "proposal_threshold": 0.5,
+  "quota": "unchanged max(9,ceil((C-27)/63))",
+  "procedural_priority": "All eligible witness cubes before learned proposals; dynamically smallest addition first in each group, original order breaks ties; witness bypass unchanged",
+  "learned_admission": "Original score/firing outside witness plus exact union-cap and union-facade guards",
+  "witness": "G11 legal shortest-hop seed/east route then deterministic coverage/contact growth; minimum witness, not requested volume",
+  "no_teacher": true,
+  "optimizer_updates": 0,
+  "heldout_cases": 0,
+  "baseline": "Cached unchanged G10 paired outputs from R1, not re-inferred",
+  "required": "All nine witness checks before inference; no certificate means recorded failure, no silent fallback",
+  "limitations": "Single witness may dominate morphology; no completion deadline guarantee; volume band assessed on output not mandatory witness"
+}

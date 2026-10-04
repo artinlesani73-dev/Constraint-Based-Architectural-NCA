@@ -1,0 +1,67 @@
+# G4 bounded cube-growth pilot
+
+Purpose: fix G3 thin-fringe growth by proposing complete overlapping 3x3x3 cubes.
+Occupied cells still mean overall building volume. Same nine constraint families,
+same 32cubed grid,0.8m spacing and same27TRAIN contexts/teachers. Derived TRAIN
+origin-graph stages replace incompatible voxel-distance stages. No development
+or reserved labels included. This is an integrated architectural candidate.
+
+Fresh seed1201,61->64->8 network initialized by the same G3 procedure. No trained
+weights imported. Logit at each cube centre becomes a30cubed origin proposal.
+Firing is Bernoulli0.5 on the origin grid; pad one zero cell around this mask
+for the hidden-state update. This changes RNG consumption relative to G3.
+First admitted cube must contain the independently chosen scene seed; at most
+one first cube per step. Later eligible origins are face-neighbours of existing
+full cube origins. Eligibility is frozen for each step. Sort fired scores>0.5
+descending,flat ZYX ascending ties. Admit whole cubes only,subtracting their
+actual newly occupied cells after earlier admissions. Never trim cubes.
+
+Hybrid CPU/GPU implementation: neural network and differentiable loss use Torch
+on selected device; probability/firing copy to CPU once per step,NumPy performs
+detached sorting and overlap admission,then masks return to the device. No claim
+of GPU-native or strictly local computation. B=ceil(request*domain cells),
+C=min(B+8,floor(0.40*domain cells));same requests16/24/32%. Budget and full-cube
+support are enforced,not learned quality. A seed can remain stalled when no
+proposal fires/exceeds threshold; leftover capacity can remain unfillable.
+
+256updates64steps,batch1,float32,Adam0.001,clip1. Alternate true single-seed
+starts and cube unions of TRAIN teacher origin BFS depths. Depth is SHA256 of
+completed_update:row_index,first8bytes little-endian modulo maximum origin
+distance (0 through maximum-1). Save exact starts+hashes with every update.
+TRAIN root is lex-first teacher cube containing context seed; inference never
+reads root,stages or teacher. Conditions,targets and seed arrays preserved.
+
+Frontier origin BCE positive1,negative1. After a cube exists,add0.25 local
+3-cube mean-volume error and1.0 global band error. Differentiable voxel union
+is1-product(1-p) over eligible fired cubes covering each empty voxel; existing
+occupancy remains1. This independent-proposal surrogate avoids double counting
+but does not model hard score ranking or budget selection. Seed phase uses
+frontier BCE only: no misleading multi-cube volume surrogate when only one
+cube can be admitted. Hidden recurrence gradients retained; hard births detached.
+
+ONE Tesla T4 job capped600controlledseconds:12 device/reference probes plus
+union backward check,256retainedupdates,two exact full-payload recovery replays,
+per-update checkpoints/states/starts/traces,and final seed-only diagnostic.
+Setup/upload/export/download/idle extra. ExpectedPython3.13.15,Torch2.11.0+cu130,
+NumPy2.1.3,CUDA13.0,cuDNN92700. Stop on mismatch,nonfinite values,probe/recovery
+failure or GPU reserved memory>80%. No automatic retry or extension. Completed-
+update recovery only,not cross-runtime/mid-rollout. Full evidenceZIP+receipt.
+CPU timing is not a GPU runtime guarantee; the600s guard still applies.
+
+Trace columns:initial_mass,offered_blocks,accepted_blocks,budget_rejected_blocks,
+redundant_blocks,deferred_seed_blocks,added_voxels. Block counts are not voxel
+counts. Pre-admission candidate combines all offers and can exceed cap; seed
+candidate can contain multiple cubes. It is not an unguarded rollout.
+
+Frozen review:final256only,CPUfloat32,firing2101,the same9 reused development
+requests,seed-only64steps,then fixed128steps. Gates unchanged:9/9all-nine at64;
+median absolute requested-fraction error<=0.02,max<=0.04;9/9all-nine at128;each
+mass change<=5% of64-step mass. Report every case and family,IoU diagnostic,
+budget events,origin/voxel counts,stalls and bulk coverage. No checkpoint/horizon
+search,threshold tuning or clipping. Compare existing G3 evidence,not a new
+control GPU job. Reserved targets remain unopened. Passing this pilot is not
+generalization or automatic deployment approval. MG7 remains live.
+
+Keep APPROVED_G4_JOB=False until this exact one-job budget is approved. Run once
+and download fullZIP+receipt even after failure. No Drive operation,automatic
+retry,extra seed,push,publication or model promotion is authorized.

@@ -1,0 +1,84 @@
+{
+  "contract_version": "scene_v1",
+  "scene_id": "r3-variety-partial-obstacle",
+  "description": "Exploratory transfer probe: partial-obstacle",
+  "grid_size": 32,
+  "voxel_size_m": 0.8,
+  "street_levels": 6,
+  "ceiling_z": null,
+  "legacy_relaxations": [],
+  "buildings": [
+    {
+      "id": "B_west",
+      "x": [
+        0,
+        8
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        22
+      ],
+      "gap_facing_x": 8,
+      "side": "left"
+    },
+    {
+      "id": "B_east",
+      "x": [
+        24,
+        32
+      ],
+      "y": [
+        6,
+        26
+      ],
+      "z": [
+        0,
+        29
+      ],
+      "gap_facing_x": 24,
+      "side": "right"
+    },
+    {
+      "id": "B_obstacle",
+      "x": [
+        15,
+        18
+      ],
+      "y": [
+        10,
+        19
+      ],
+      "z": [
+        0,
+        17
+      ],
+      "gap_facing_x": null,
+      "side": null
+    }
+  ],
+  "entrances": [
+    {
+      "id": "E_west",
+      "kind": "facade",
+      "extent": 2,
+      "x": 8,
+      "y": 14,
+      "z": 7
+    },
+    {
+      "id": "E_east",
+      "kind": "facade",
+      "extent": 2,
+      "x": 22,
+      "y": 14,
+      "z": 19
+    }
+  ],
+  "notes": [
+    "Not a held-out acceptance set; one constructed site per geometry change."
+  ]
+}

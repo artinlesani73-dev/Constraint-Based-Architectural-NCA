@@ -1,0 +1,96 @@
+{
+  "status": "ready_for_explicit_one_job_approval",
+  "paid_run_authorized": false,
+  "updates": 256,
+  "steps": 64,
+  "seed": 1201,
+  "gpu": "Tesla T4",
+  "max_controlled_seconds": 600,
+  "setup_export_idle_extra": true,
+  "package": {
+    "archive": "NCA-G4-Block-Package.zip",
+    "sha256": "c3a186ce05fc81135f08fb5551bdb5d5079d9f35ce4f874369622ac89f114e63",
+    "payloads": 56,
+    "manifest_sha256": "3a790ee53bd1f92c15f2b1d7f01e1b0fa19dffb5543df4fcf4f3c1cff0880e5d"
+  },
+  "local_checks": {
+    "device_probe": {
+      "device": "cpu",
+      "reference_cases": 12,
+      "union_backward_finite": true,
+      "admission_backend": "numpy_cpu",
+      "passed": true
+    },
+    "analytic_overlap_and_extreme_logits": true,
+    "band_gradient_direction_and_seed_bce_only": true,
+    "train_graphs_recomputed": 27,
+    "realistic_reference_cases": 20,
+    "cpu_admission_seconds": {
+      "median": 0.000850549986353144,
+      "max": 0.0010763999889604747,
+      "includes_eligibility": true,
+      "gpu_transfer_included": false
+    },
+    "rollout12_forward_backward_seconds": 1.331708699988667,
+    "rollout12_mass": 1,
+    "finite_model_gradients": true,
+    "invalid_starts_rejected": true,
+    "connected_thin_and_disconnected_cube_union_rejected": true,
+    "g3_checkpoint_rejected": true,
+    "elapsed_seconds": 3.65993859997252
+  },
+  "rehearsal": {
+    "folder": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G4-Block-Training-2026-10-03-v2",
+    "run": "20261003T214142Z_6c0f9e5d3f06",
+    "controlled_seconds": 30.71799999999348,
+    "worker_seconds": 28.48499999998603,
+    "evidence_files": 23,
+    "evidence_sha256": "d7dbcfe557781b85daff3edf1776a83f807a0070be96432a2aa997c9d3f07948",
+    "recoveries": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "traces": [
+      {
+        "update": 1,
+        "start_kind": "seed",
+        "start_mass": 1,
+        "final_mass": 1,
+        "loss": 1.2454988956451416,
+        "accepted_blocks": 0,
+        "rejected_blocks": 0
+      },
+      {
+        "update": 2,
+        "start_kind": "cube_teacher_stage",
+        "start_mass": 441,
+        "final_mass": 556,
+        "loss": 1.4661365747451782,
+        "accepted_blocks": 29,
+        "rejected_blocks": 5063
+      },
+      {
+        "update": 3,
+        "start_kind": "seed",
+        "start_mass": 1,
+        "final_mass": 1054,
+        "loss": 1.5071498155593872,
+        "accepted_blocks": 285,
+        "rejected_blocks": 4894
+      }
+    ]
+  },
+  "development_or_reserved_access": false,
+  "quality_acceptance": false,
+  "repository_sync_pending": true,
+  "drive_operations": 0,
+  "live_model": "MG7 unchanged"
+}

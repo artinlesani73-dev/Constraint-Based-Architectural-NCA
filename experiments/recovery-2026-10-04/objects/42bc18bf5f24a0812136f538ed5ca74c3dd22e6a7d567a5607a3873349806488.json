@@ -1,0 +1,88 @@
+{
+  "status": "prepared_gpu_unapproved",
+  "package": {
+    "archive": "NCA-CGR3-cu130-Preflight-Package.zip",
+    "sha256": "d96ef7c05ea102b54841d4298d27d98f1f7f0701c29da459e26757500f86a3a9",
+    "manifest_sha256": "8fb819cf7c2728f4b4063ca9f1371f1fd2e754e019a8108bb33d14d8623a08b3",
+    "purpose": "compatibility_only",
+    "controlled_seconds": 120,
+    "optimizer_steps": 3,
+    "approved": false
+  },
+  "rehearsal": {
+    "cleanup": {
+      "active_processes_after_stop": 0,
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "Compatibility and exact recovery check only; not a quality trial or full training run.",
+    "request": {
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "manifest_sha256": "8fb819cf7c2728f4b4063ca9f1371f1fd2e754e019a8108bb33d14d8623a08b3",
+      "max_seconds": 120.0,
+      "optimizer_steps_including_replay": 3,
+      "seed": 1201,
+      "settings": {
+        "automatic_retry": false,
+        "dataset_run": "20260925T094341Z_316cff241020",
+        "drive_operations_require_separate_approval": true,
+        "evaluation_device": "cpu",
+        "evaluation_dtype": "float32",
+        "gpu_job_requires_approval": true,
+        "initialization": "fresh",
+        "jobs": 1,
+        "loss": {
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 0.5,
+          "intact_negative": 1.5,
+          "volume": 0.25
+        },
+        "review_firing_seed": 2101,
+        "review_rows": 27,
+        "review_split": "validation",
+        "review_steps": 32,
+        "seconds_per_job": 600,
+        "seeds": [
+          1201
+        ],
+        "start_sampler": "intermediate_repair_starts_v1",
+        "test_evaluation": false,
+        "threshold": 0.5,
+        "train_steps": 32,
+        "updates": 256,
+        "version": "curriculum_constructive_repair_v1"
+      },
+      "updates": 2
+    },
+    "status": "completed",
+    "wall_seconds": 30.23499999998603,
+    "worker": {
+      "checks": {
+        "augmented_visit": true,
+        "full_payload_exact": true,
+        "start_exact": true,
+        "state_exact": true,
+        "trace_exact": true
+      },
+      "completed": 2,
+      "cpu_rehearsal": true,
+      "device": "cpu",
+      "failure": null,
+      "memory": {},
+      "optimizer_steps_executed": 3,
+      "status": "completed",
+      "wall_seconds": 26.28200000000652
+    }
+  },
+  "receipt": {
+    "archive": "20261003T093900Z_10ce07315d20.zip",
+    "files": 17,
+    "sha256": "3900adc3dddae23ed5227be2d490b0cf46b44f7aa33115e996ea5ee704fc4cdd"
+  },
+  "verified_payloads": 17,
+  "repository_record_pending": true,
+  "reason": "Repository write permission request returned no filesystem grant. All new records are preserved in the writable Codex outputs folder.",
+  "next": "Obtain approval for one120s T4 cu130 compatibility check; return ZIP+receipt. No full trial or automatic retry."
+}

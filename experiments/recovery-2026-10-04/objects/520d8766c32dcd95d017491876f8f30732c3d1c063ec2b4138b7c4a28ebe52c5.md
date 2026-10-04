@@ -1,0 +1,18 @@
+# Reversible repair GPU compatibility and timing check
+
+One proposed T4 check,120controlled seconds maximum; setup/upload/export/idle extra.
+Two updates on one TRAIN cube5 example plus restore/replay of update2: three
+optimizer steps total. Exact trace,start,state and full checkpoint payload must
+match. Includes a separate device deletion/rebirth probe,one untrained32-step
+positive-growth timing probe for CGR1 and RGR1,and one captured learned rollout.
+Timing includes CPU connectivity flood fill and device transfers. This is not
+quality evaluation or a512-update paired experiment. No automatic continuation.
+Expected T4,Python3.13.15,Torch2.11.0+cu130,NumPy2.1.3,CUDA13.0,cuDNN92700.
+Changed runtime stops; deterministic algorithms remain enabled.
+
+Open the supplied notebook; upload this package only. Leave APPROVED_SEED_JOB=False
+until this exact120s check is approved,then set True and execute once. Download
+full ZIP and receipt,including failures; return both. No Drive access or retry.
+Do not execute other historical runners included as source dependencies.
+Original CGR1 and prior experiments remain unchanged. Reversible update semantics
+and CPU recovery are locally tested; GPU correctness and timing remain unverified.

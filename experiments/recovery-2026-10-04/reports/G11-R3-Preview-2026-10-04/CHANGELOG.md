@@ -1,0 +1,1 @@
+2026-10-04: Added independent R3 comparison gallery; exported all 324 fields with verified counts and hashes. Corrected baseline seed colouring during verification. Preserved evaluator/model/source unchanged. See RESUME.md for limits and next work.

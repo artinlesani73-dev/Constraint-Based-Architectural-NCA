@@ -1,0 +1,23 @@
+{
+  "adapter_sha256": "2f22273c57ad81a3a32e1eda24b3ec13838c072049b65049796dc0475ea2d5a0",
+  "parent_manifest_sha256": "bd6a9c54a275a2d1953d240d52038dfee288b858cb943210950593f1614c0b9c",
+  "checkpoint_sha256": "8e4ac1f13ff57b2c644cd2bd6fd27c40b25eca7062ec729f002969171a122bb2",
+  "regression_cases": 69,
+  "fresh_cases": 12,
+  "horizons": [
+    64,
+    128
+  ],
+  "firing_seed": 2101,
+  "thresholds": {
+    "median_volume_error": 0.02,
+    "max_volume_error": 0.04,
+    "stability": 0.05,
+    "all_nine_required": true
+  },
+  "frozen_before_inference": true,
+  "physical_disjointness_prior_unique_contexts": 38,
+  "certificate_failure_counts_as_failure": true,
+  "baseline": "G10 cached69 regression; new12 freshly inferred",
+  "training_updates": 0
+}

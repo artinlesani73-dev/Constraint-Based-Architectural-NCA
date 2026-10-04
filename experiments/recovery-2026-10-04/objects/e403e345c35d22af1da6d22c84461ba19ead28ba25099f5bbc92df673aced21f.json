@@ -1,0 +1,141 @@
+{
+  "protocol": {
+    "checkpoint": 256,
+    "device": "cpu",
+    "dtype": "float32",
+    "firing_seed": 2101,
+    "horizons": [
+      64,
+      128
+    ],
+    "threshold": 0.5,
+    "quota": "max(9,ceil((C-27)/63))",
+    "regression_manifest": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G1-Preparation-2026-10-03\\split-manifest.json",
+    "regression_manifest_sha256": "4661d0ca7d549d5043c1ccb50835c24d2ac18a39a9e13900c4f0d66fb3ab9538",
+    "regression_splits": [
+      "development",
+      "reserved"
+    ],
+    "regression_expected": 21,
+    "fresh_split_sha256": "189d92d44f15ee89d45c50bd6a3371a4778ee7dfa2b852742f568609f8eb264c",
+    "fresh_reserved_expected": 12,
+    "requests": [
+      0.16,
+      0.24,
+      0.32
+    ],
+    "gates": {
+      "all_nine_each_cohort_both_horizons": true,
+      "median_error_max": 0.02,
+      "max_error_max": 0.04,
+      "per_case_mass_change_max": 0.05
+    },
+    "no_checkpoint_selection": true,
+    "visual_review_required": true,
+    "executed": false
+  },
+  "runtime": {
+    "host": "Mars",
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.2",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "deterministic": true,
+    "cublas_workspace": null,
+    "cuda_build": null,
+    "cudnn": null,
+    "torch_build_configuration": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 193833145\n  - Intel(R) oneAPI Math Kernel Library Version 2025.2-Product Build 20250620 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cudnn_benchmark": false
+  },
+  "receipt": {
+    "archive": "20261004T103602Z_1da578905a51.zip",
+    "files": 1035,
+    "sha256": "92ed920a59460fdf20c6d38496b072b3651b10044b805a458fdb9ea2fc4e6beb"
+  },
+  "verified_payloads": 1035,
+  "checkpoint_sha256": "edd2369b8ecdb11fa5a6131bf8472eba4a41664b2e4a532a1c89c7d9dde6fe91",
+  "run_result": {
+    "cleanup": {
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "G7 generation training evidence; no quality acceptance or automatic deployment.",
+    "request": {
+      "cpu_rehearsal": false,
+      "device": "cuda:0",
+      "manifest_sha256": "ca2e0bee4e647a1ad1ada8dddb742f05501cfb5b0a76ef31199112e13de65429",
+      "max_seconds": 600.0,
+      "replayed_updates": 2,
+      "seed": 1201,
+      "settings": {
+        "admission": "cpu_paced_cube_overlap_v1",
+        "admission_count_columns": [
+          "initial_mass",
+          "offered_blocks",
+          "accepted_blocks",
+          "allowance_rejected_blocks",
+          "redundant_blocks",
+          "deferred_seed_blocks",
+          "added_voxels"
+        ],
+        "architecture": "61-64-8",
+        "automatic_retry": false,
+        "budget_width": 3,
+        "objective": {
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 1.0,
+          "global_band": 1.0,
+          "volume": 0.25
+        },
+        "pacing_horizon_constant": 64,
+        "proposal_shape": [
+          30,
+          30,
+          30
+        ],
+        "quota_rule": "max(9,ceil((C-27)/63))",
+        "review_firing_seed": 2101,
+        "review_steps": 64,
+        "seconds": 600,
+        "seed": 1201,
+        "seed_loss": "frontier_only",
+        "seed_start_fraction": 0.5,
+        "stability_steps": 128,
+        "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+        "train_steps": 64,
+        "union_surrogate": "independent_before_hard_selection",
+        "updates": 256,
+        "version": "seed_generation_training_v7_vertical"
+      },
+      "updates": 256
+    },
+    "status": "completed",
+    "wall_seconds": 189.90242840000008,
+    "worker": {
+      "completed": 256,
+      "cpu_rehearsal": false,
+      "failure": null,
+      "peak_reserved": 1516240896,
+      "quality_evaluated": false,
+      "status": "completed",
+      "wall_seconds": 183.283065544
+    }
+  },
+  "recovery": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ]
+}

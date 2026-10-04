@@ -1,0 +1,41 @@
+{
+  "cpu_rehearsal": true,
+  "device": "cpu",
+  "manifest_sha256": "27af0c15dba509ad632648cd7c444879caeed2f775ad306f41d42f43f2f0ae63",
+  "max_seconds": 120.0,
+  "optimizer_steps_including_replay": 3,
+  "seed": 1201,
+  "settings": {
+    "automatic_retry": false,
+    "dataset_run": "20260925T094341Z_316cff241020",
+    "drive_operations_require_separate_approval": true,
+    "evaluation_device": "cpu",
+    "evaluation_dtype": "float32",
+    "gpu_job_requires_approval": true,
+    "initialization": "fresh",
+    "jobs": 1,
+    "loss": {
+      "cube": 3,
+      "frontier_negative": 1.0,
+      "frontier_positive": 0.5,
+      "intact_negative": 1.5,
+      "projection": "anchored_six_face_cpu_bfs",
+      "supervised_set": "mutable_occupancy_and_frontier",
+      "volume": 0.25
+    },
+    "review_firing_seed": 2101,
+    "review_rows": 27,
+    "review_split": "validation",
+    "review_steps": 32,
+    "seconds_per_job": 600,
+    "seeds": [
+      1201
+    ],
+    "test_evaluation": false,
+    "threshold": 0.5,
+    "train_steps": 32,
+    "updates": 256,
+    "version": "reversible_anchored_repair_v1"
+  },
+  "updates": 2
+}

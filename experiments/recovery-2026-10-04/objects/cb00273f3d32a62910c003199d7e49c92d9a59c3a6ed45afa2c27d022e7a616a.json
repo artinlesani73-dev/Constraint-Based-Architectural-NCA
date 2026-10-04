@@ -1,0 +1,16 @@
+{
+  "loss_gradient_cases": [
+    "both_classes",
+    "positive_only",
+    "negative_only",
+    "empty"
+  ],
+  "positive_gradient_increment_exact": true,
+  "negative_and_inactive_gradients_unchanged": true,
+  "volume_term_unchanged": true,
+  "initial_weights_equal": true,
+  "inference_dynamics_equal": true,
+  "identity_records_new_weight": true,
+  "g1_checkpoint_rejected": true,
+  "package_verified": true
+}

@@ -1,0 +1,14 @@
+{
+  "package_matches_independent_paced_rollout": true,
+  "case": "g1-aligned-y0-v16",
+  "horizons": [
+    64,
+    128
+  ],
+  "field_and_all128counts_exact": true,
+  "quota": 9,
+  "loss_function_source_exactly_equal_g4": true,
+  "no_new_parameters": true,
+  "optimizer_updates": 0,
+  "development_or_reserved_access": false
+}

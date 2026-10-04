@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "model": "CGR1",
+      "damage": "intact",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 1.173621300025843,
+      "forward_backward_seconds": 3.795869799971115,
+      "arrays_sha256": "fa3df5b4a5d9493610f4b0609ceeedad5e782a3f4356b71f7ff361eb458e3c7e",
+      "occupied": 561
+    },
+    {
+      "model": "RGR1",
+      "damage": "intact",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 1.3442801000201143,
+      "forward_backward_seconds": 5.123337999975774,
+      "arrays_sha256": "cd4795c1958a69318d70aef49828e20e04287c92829f028da2a48425add13d2c",
+      "occupied": 561
+    },
+    {
+      "model": "CGR1",
+      "damage": "cube5",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 1.2383522999589331,
+      "forward_backward_seconds": 3.644629399990663,
+      "arrays_sha256": "b383adeedf6a88237b47497945a722bc34c492e21e33c321b569ee4c5fa8e052",
+      "occupied": 479
+    },
+    {
+      "model": "RGR1",
+      "damage": "cube5",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 1.1065438999794424,
+      "forward_backward_seconds": 2.8822532999911346,
+      "arrays_sha256": "a1b723bb6de35b8363d3ec39852e0e69ffaa4cd7e464527170bb51425c7c960f",
+      "occupied": 479
+    },
+    {
+      "model": "CGR1",
+      "damage": "slab2",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 0.7817777000018395,
+      "forward_backward_seconds": 3.0170115000219084,
+      "arrays_sha256": "37f961f95c7887d728de472d663b7174629d980b2bd52629a068fd9da96d8d5d",
+      "occupied": 485
+    },
+    {
+      "model": "RGR1",
+      "damage": "slab2",
+      "case": "mg5__mg3__aligned__v16__s0",
+      "forward_capture_seconds": 1.1372299999929965,
+      "forward_backward_seconds": 2.8740935000241734,
+      "arrays_sha256": "6a55566c0b75edfaf00bf440a00c9ca903e37385261a2895470f650cafc77356",
+      "occupied": 485
+    },
+    {
+      "model": "CGR1",
+      "stress": "fixed_positive_birth_bias",
+      "forward_seconds": 0.8630452999495901,
+      "occupied": 3492
+    },
+    {
+      "model": "RGR1",
+      "stress": "fixed_positive_birth_bias",
+      "forward_seconds": 1.155636899988167,
+      "occupied": 3492
+    }
+  ],
+  "threads": 2,
+  "torch": "2.8.0+cpu",
+  "numpy": "2.5.2",
+  "scope": "Single CPU timings on3TRAIN examples and one artificial high-birth case. Untrained fresh weights; no optimizer updates or GPU extrapolation."
+}

@@ -1,0 +1,161 @@
+{
+  "protocol": {
+    "checkpoint": 427,
+    "paired_baseline_checkpoint_sha256": "2bca26ab350fe6a318d15b12fd0f3ee1da9d6f96d524df103a0b5249743df5ff",
+    "firing_seed": 2101,
+    "horizons": [
+      64,
+      128
+    ],
+    "threshold": 0.5,
+    "device": "cpu",
+    "dtype": "float32",
+    "regression_expected": 45,
+    "regression_sources": [
+      {
+        "path": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G1-Preparation-2026-10-03\\split-manifest.json",
+        "sha256": "4661d0ca7d549d5043c1ccb50835c24d2ac18a39a9e13900c4f0d66fb3ab9538",
+        "splits": [
+          "development",
+          "reserved"
+        ]
+      },
+      {
+        "path": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04-v2\\split-manifest.json",
+        "sha256": "189d92d44f15ee89d45c50bd6a3371a4778ee7dfa2b852742f568609f8eb264c",
+        "splits": [
+          "reserved"
+        ]
+      },
+      {
+        "path": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G8-Exposure-Training-2026-10-04\\fresh-split-manifest.json",
+        "sha256": "4bb4a17490fb055cc4bfa0fefb9b79cbc1b7082ad331dd60a746ceac42f6ddc6",
+        "splits": [
+          "reserved"
+        ]
+      }
+    ],
+    "fresh_manifest_sha256": "7476caf0364a2a7e0f9c6ae6a24c45917fdef995c20c080832cfa3590590acb3",
+    "fresh_expected": 12,
+    "fresh_paired_baseline": true,
+    "requests": [
+      0.16,
+      0.24,
+      0.32
+    ],
+    "gates": {
+      "all_nine_every_case_both_horizons": true,
+      "median_error_max": 0.02,
+      "max_error_max": 0.04,
+      "per_case_mass_change_max": 0.05
+    },
+    "visual_review_required": true,
+    "executed": false
+  },
+  "runtime": {
+    "host": "Mars",
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.2",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "deterministic": true,
+    "cublas_workspace": null,
+    "cuda_build": null,
+    "cudnn": null,
+    "torch_build_configuration": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 193833145\n  - Intel(R) oneAPI Math Kernel Library Version 2025.2-Product Build 20250620 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cudnn_benchmark": false
+  },
+  "receipt": {
+    "archive": "20261004T120338Z_60498d5f0838.zip",
+    "files": 1719,
+    "sha256": "2536c6802d75121be71d3791e37a9fea292f83a30f5fe139c7b9dbfd79c7b5ff"
+  },
+  "verified_payloads": 1719,
+  "checkpoint_sha256": "58bdb8d3e05fe8f62dea2b93b4929e4e22aaf5a023d87d7e9f631d797f985a4f",
+  "run_result": {
+    "cleanup": {
+      "exit_code": 0
+    },
+    "failure": null,
+    "interpretation": "G9 generation training evidence; no quality acceptance or automatic deployment.",
+    "request": {
+      "cpu_rehearsal": false,
+      "device": "cuda:0",
+      "manifest_sha256": "bca826c8d13b603d5ea82ea481e26675ab9758ee382d5d42984def67df28e6c1",
+      "max_seconds": 600.0,
+      "replayed_updates": 2,
+      "seed": 1201,
+      "settings": {
+        "admission": "cpu_paced_cube_overlap_v1",
+        "admission_count_columns": [
+          "initial_mass",
+          "offered_blocks",
+          "accepted_blocks",
+          "allowance_rejected_blocks",
+          "redundant_blocks",
+          "deferred_seed_blocks",
+          "added_voxels"
+        ],
+        "architecture": "61-64-8",
+        "automatic_retry": false,
+        "budget_width": 3,
+        "objective": {
+          "access_ranking": 1.0,
+          "cube": 3,
+          "frontier_negative": 1.0,
+          "frontier_positive": 1.0,
+          "global_band": 1.0,
+          "ranking_margin": 1.0,
+          "volume": 0.25
+        },
+        "pacing_horizon_constant": 64,
+        "proposal_shape": [
+          30,
+          30,
+          30
+        ],
+        "quota_rule": "max(9,ceil((C-27)/63))",
+        "review_firing_seed": 2101,
+        "review_steps": 64,
+        "seconds": 600,
+        "seed": 1201,
+        "seed_loss": "frontier_only",
+        "seed_start_fraction": 0.5,
+        "stability_steps": 128,
+        "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+        "train_steps": 64,
+        "union_surrogate": "independent_before_hard_selection",
+        "updates": 427,
+        "version": "seed_generation_training_v9_access_ranking"
+      },
+      "updates": 427
+    },
+    "status": "completed",
+    "wall_seconds": 469.45431166200007,
+    "worker": {
+      "completed": 427,
+      "cpu_rehearsal": false,
+      "failure": null,
+      "peak_reserved": 1520435200,
+      "quality_evaluated": false,
+      "status": "completed",
+      "wall_seconds": 461.98228479999995
+    }
+  },
+  "recovery": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "event": "G11-R1 fixed-weight hybrid prototype",
+  "summary": {
+    "G10": {
+      "64": {
+        "evaluated": 45,
+        "valid": 41,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.010091823788275944
+      },
+      "128": {
+        "evaluated": 45,
+        "valid": 41,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.0026328253000094948
+      }
+    },
+    "G11-R1": {
+      "64": {
+        "evaluated": 45,
+        "valid": 45,
+        "median_error": 0.0023858483251371354,
+        "max_error": 0.0434356481012797
+      },
+      "128": {
+        "evaluated": 45,
+        "valid": 45,
+        "median_error": 0.0019293748079755035,
+        "max_error": 0.0026328253000094948
+      }
+    }
+  },
+  "paired": [
+    {
+      "steps": 64,
+      "gains": [
+        "g1-partial_obstruction-y0-v24",
+        "g1-partial_obstruction-y2-v16",
+        "g1-partial_obstruction-y4-v16",
+        "g7-vertical-train-2-v16"
+      ],
+      "losses": []
+    },
+    {
+      "steps": 128,
+      "gains": [
+        "g1-partial_obstruction-y0-v24",
+        "g1-partial_obstruction-y2-v16",
+        "g1-partial_obstruction-y4-v16",
+        "g7-vertical-train-2-v16"
+      ],
+      "losses": []
+    }
+  ],
+  "model_training": false,
+  "heldout_evaluation": false,
+  "promotion": false
+}

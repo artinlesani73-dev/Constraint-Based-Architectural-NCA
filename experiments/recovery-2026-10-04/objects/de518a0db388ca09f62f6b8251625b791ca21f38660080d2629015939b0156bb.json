@@ -1,0 +1,21 @@
+{
+  "train_cases": 45,
+  "oracle_connections": 45,
+  "oracle_max_steps": 22,
+  "minimum_remaining_mass": 338,
+  "gradient_checks": 678,
+  "post_connection_loss_exact_cases": 45,
+  "frozen_starts": 427,
+  "start_phases": {
+    "advance_access": 153,
+    "connected": 60,
+    "seed_access": 214
+  },
+  "heldout_rejected": true,
+  "no_fired_progress_check": true,
+  "fallback_loss_exact": true,
+  "optimizer_updates": 0,
+  "model_rollouts": 0,
+  "heldout_inference": 0,
+  "elapsed_seconds": 14.752983900019899
+}

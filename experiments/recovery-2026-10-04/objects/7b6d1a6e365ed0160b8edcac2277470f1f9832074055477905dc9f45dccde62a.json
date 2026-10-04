@@ -1,0 +1,18 @@
+{
+  "status": "design reference; guard-only G2 diagnostic, not trained G3",
+  "cases": [
+    "g1-aligned-y2-v24",
+    "g1-wide_gap-y2-v24",
+    "g1-partial_obstruction-y2-v24"
+  ],
+  "steps": 64,
+  "firing_seed": 2101,
+  "requests": [
+    0.16,
+    0.24,
+    0.32
+  ],
+  "pilot_width": 3,
+  "feedback_used_in_model": false,
+  "optimizer_updates": 0
+}

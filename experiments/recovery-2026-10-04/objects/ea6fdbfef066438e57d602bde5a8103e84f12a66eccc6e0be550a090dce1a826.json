@@ -1,0 +1,58 @@
+{
+  "ready_for_approval": true,
+  "paid_run_authorized": false,
+  "package": {
+    "archive": "NCA-G7-Vertical-Package.zip",
+    "sha256": "030757d49e4557c1e7643e6c68a16611eb8950e0cf508fea22e2ae72833f0ddd",
+    "bytes": 190665,
+    "payloads": 76,
+    "manifest_sha256": "ca2e0bee4e647a1ad1ada8dddb742f05501cfb5b0a76ef31199112e13de65429"
+  },
+  "verification": {
+    "passed": true,
+    "run": "20261004T102405Z_342ff4ccad5d",
+    "controlled_seconds": 31.67200000002049,
+    "worker_seconds": 29.34299999999348,
+    "retained_local_updates": 3,
+    "exact_recoveries": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "verified_payloads": 23,
+    "all45_inputs_checked_in_both_start_modes": true,
+    "paced_model_and_loss_source_bytes_equal_g6": true,
+    "all_initial_parameters_equal_g6": true,
+    "verified_step_accounts": 192,
+    "planned256visits": {
+      "min": 5,
+      "max": 6,
+      "original27": 155,
+      "new18": 101
+    },
+    "new_label_passes": 18,
+    "fresh_reserved_teachers": 0,
+    "fresh_reserved_inference": 0,
+    "quality_evaluated": false,
+    "gpu_runtime_compatibility_not_retested_locally": true
+  },
+  "allowance": {
+    "jobs": 1,
+    "gpu": "Tesla T4",
+    "seed": 1201,
+    "updates": 256,
+    "steps": 64,
+    "max_controlled_seconds": 600,
+    "setup_export_idle_extra": true,
+    "automatic_retry": false
+  },
+  "fresh_reserved_inference": 0,
+  "repository_sync_pending": true
+}

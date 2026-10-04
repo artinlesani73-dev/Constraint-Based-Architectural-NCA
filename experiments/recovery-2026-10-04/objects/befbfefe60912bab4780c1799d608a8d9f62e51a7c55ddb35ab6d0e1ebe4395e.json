@@ -1,0 +1,22 @@
+{
+  "archive": "NCA-RGR1-Paired-Package.zip",
+  "sha256": "881f4fe54424dd0c9161cf6ee349589d0d53057875453b51223ab108e164a0cb",
+  "manifest_sha256": "a847c631cdf7b48b303b9d22be93f8e8a5759cd685db17797979cef0241b1f23",
+  "notebook_sha256": "866e565716c2935da4a12c664c4bdf6ce0c3d1db7c23e1ee461fdf2c41f03485",
+  "plan": {
+    "version": "RGR1_paired_comparison_v1",
+    "arms": [
+      "CGR1",
+      "RGR1"
+    ],
+    "updates_per_arm": 256,
+    "total_updates": 512,
+    "shared_seconds_cap": 600,
+    "seed": 1201,
+    "steps": 32,
+    "automatic_retry": false,
+    "test_evaluation": false
+  },
+  "payload_files": 112,
+  "approved": false
+}

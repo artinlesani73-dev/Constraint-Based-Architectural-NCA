@@ -1,0 +1,354 @@
+{
+  "arrays_sha256": "cc5444f92b7b46d342b2da34adf8c8c060cff14d380fe6b09db4bdf4797026b7",
+  "baselines": {
+    "closing3": {
+      "false_positive_cells": 6,
+      "iou": 0.9931818181818182,
+      "missing_cells": 0,
+      "recovered_cells": 0,
+      "recovery_fraction": null,
+      "request_error_cells": 14,
+      "surviving_cells_removed": 0,
+      "symmetric_difference_cells": 6,
+      "targets": {
+        "bulk_fraction": 1.0,
+        "bulk_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "bulk_voxels": 880,
+        "context_bulk_interfaces_connectable": true,
+        "context_necessary_checks_pass": true,
+        "contract_pass": true,
+        "domain_voxels": 5412,
+        "facade_contact_fraction": 0.06477272727272727,
+        "facade_excess": 0.0,
+        "family_pass": {
+          "access": true,
+          "coverage": true,
+          "facade": true,
+          "ground": true,
+          "legality": true,
+          "sparsity": true,
+          "spill": true,
+          "support": true,
+          "thickness": true
+        },
+        "gross_volume_m3": 450.5600000000001,
+        "illegal_voxels": 0,
+        "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification.",
+        "occupied_voxels": 880,
+        "outside_domain_voxels": 0,
+        "protected_blocked_voxels": 0,
+        "raw_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "resolved_cube_width_cells": 3,
+        "resolved_cube_width_m": 2.4000000000000004,
+        "spec": {
+          "max_facade_fraction": 0.15,
+          "max_volume_fraction": 0.4,
+          "min_bulk_fraction": 0.9,
+          "min_cube_m": 2.4,
+          "min_third_fraction": 0.08,
+          "min_volume_fraction": 0.08
+        },
+        "support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 880,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "thirds": [
+          {
+            "bulk_cells": 293,
+            "domain_cells": 1698,
+            "fraction": 0.17255594817432274
+          },
+          {
+            "bulk_cells": 351,
+            "domain_cells": 2016,
+            "fraction": 0.17410714285714285
+          },
+          {
+            "bulk_cells": 236,
+            "domain_cells": 1698,
+            "fraction": 0.13898704358068315
+          }
+        ],
+        "unreached_bulk_voxels": 0,
+        "unreached_occupied_voxels": 0,
+        "version": "massing_targets_v1",
+        "volume_fraction": 0.16260162601626016,
+        "voxel_size_m": 0.8
+      }
+    },
+    "unchanged": {
+      "false_positive_cells": 0,
+      "iou": 1.0,
+      "missing_cells": 0,
+      "recovered_cells": 0,
+      "recovery_fraction": null,
+      "request_error_cells": 8,
+      "surviving_cells_removed": 0,
+      "symmetric_difference_cells": 0,
+      "targets": {
+        "bulk_fraction": 1.0,
+        "bulk_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "bulk_voxels": 874,
+        "context_bulk_interfaces_connectable": true,
+        "context_necessary_checks_pass": true,
+        "contract_pass": true,
+        "domain_voxels": 5412,
+        "facade_contact_fraction": 0.06521739130434782,
+        "facade_excess": 0.0,
+        "family_pass": {
+          "access": true,
+          "coverage": true,
+          "facade": true,
+          "ground": true,
+          "legality": true,
+          "sparsity": true,
+          "spill": true,
+          "support": true,
+          "thickness": true
+        },
+        "gross_volume_m3": 447.4880000000001,
+        "illegal_voxels": 0,
+        "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification.",
+        "occupied_voxels": 874,
+        "outside_domain_voxels": 0,
+        "protected_blocked_voxels": 0,
+        "raw_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "resolved_cube_width_cells": 3,
+        "resolved_cube_width_m": 2.4000000000000004,
+        "spec": {
+          "max_facade_fraction": 0.15,
+          "max_volume_fraction": 0.4,
+          "min_bulk_fraction": 0.9,
+          "min_cube_m": 2.4,
+          "min_third_fraction": 0.08,
+          "min_volume_fraction": 0.08
+        },
+        "support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 874,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "thirds": [
+          {
+            "bulk_cells": 293,
+            "domain_cells": 1698,
+            "fraction": 0.17255594817432274
+          },
+          {
+            "bulk_cells": 345,
+            "domain_cells": 2016,
+            "fraction": 0.17113095238095238
+          },
+          {
+            "bulk_cells": 236,
+            "domain_cells": 1698,
+            "fraction": 0.13898704358068315
+          }
+        ],
+        "unreached_bulk_voxels": 0,
+        "unreached_occupied_voxels": 0,
+        "version": "massing_targets_v1",
+        "volume_fraction": 0.1614929785661493,
+        "voxel_size_m": 0.8
+      }
+    }
+  },
+  "case": "mg5__mg3__offset_interfaces__v16__s1",
+  "damage": "intact",
+  "diagnostics": {
+    "birth_events": 49,
+    "cells_born_more_than_once": 4,
+    "direct_removed_correct_events": 0,
+    "direct_removed_wrong_events": 21,
+    "input_removed_events": 0,
+    "pre_projection_final": {
+      "false_positive_cells": 28,
+      "iou": 0.9689578713968958,
+      "missing_cells": 0,
+      "recovered_cells": 0,
+      "recovery_fraction": null,
+      "request_error_cells": 36,
+      "surviving_cells_removed": 0,
+      "symmetric_difference_cells": 28,
+      "targets": {
+        "bulk_fraction": 0.9800443458980045,
+        "bulk_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "bulk_voxels": 884,
+        "context_bulk_interfaces_connectable": true,
+        "context_necessary_checks_pass": true,
+        "contract_pass": true,
+        "domain_voxels": 5412,
+        "facade_contact_fraction": 0.06984478935698447,
+        "facade_excess": 0.0,
+        "family_pass": {
+          "access": true,
+          "coverage": true,
+          "facade": true,
+          "ground": true,
+          "legality": true,
+          "sparsity": true,
+          "spill": true,
+          "support": true,
+          "thickness": true
+        },
+        "gross_volume_m3": 461.8240000000001,
+        "illegal_voxels": 0,
+        "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification.",
+        "occupied_voxels": 902,
+        "outside_domain_voxels": 0,
+        "protected_blocked_voxels": 0,
+        "raw_interface_hits": {
+          "E_east": true,
+          "E_west": true
+        },
+        "resolved_cube_width_cells": 3,
+        "resolved_cube_width_m": 2.4000000000000004,
+        "spec": {
+          "max_facade_fraction": 0.15,
+          "max_volume_fraction": 0.4,
+          "min_bulk_fraction": 0.9,
+          "min_cube_m": 2.4,
+          "min_third_fraction": 0.08,
+          "min_volume_fraction": 0.08
+        },
+        "support": {
+          "interpretation": "geometric connectivity only",
+          "material_voxels": 902,
+          "nonempty": true,
+          "supported_fraction": 1.0,
+          "unsupported_voxels": 0
+        },
+        "thirds": [
+          {
+            "bulk_cells": 298,
+            "domain_cells": 1698,
+            "fraction": 0.17550058892815076
+          },
+          {
+            "bulk_cells": 346,
+            "domain_cells": 2016,
+            "fraction": 0.17162698412698413
+          },
+          {
+            "bulk_cells": 240,
+            "domain_cells": 1698,
+            "fraction": 0.1413427561837456
+          }
+        ],
+        "unreached_bulk_voxels": 0,
+        "unreached_occupied_voxels": 0,
+        "version": "massing_targets_v1",
+        "volume_fraction": 0.16666666666666666,
+        "voxel_size_m": 0.8
+      }
+    },
+    "projection_removed_correct_events": 0,
+    "projection_removed_wrong_events": 0
+  },
+  "metrics": {
+    "false_positive_cells": 28,
+    "iou": 0.9689578713968958,
+    "missing_cells": 0,
+    "recovered_cells": 0,
+    "recovery_fraction": null,
+    "request_error_cells": 36,
+    "surviving_cells_removed": 0,
+    "symmetric_difference_cells": 28,
+    "targets": {
+      "bulk_fraction": 0.9800443458980045,
+      "bulk_interface_hits": {
+        "E_east": true,
+        "E_west": true
+      },
+      "bulk_voxels": 884,
+      "context_bulk_interfaces_connectable": true,
+      "context_necessary_checks_pass": true,
+      "contract_pass": true,
+      "domain_voxels": 5412,
+      "facade_contact_fraction": 0.06984478935698447,
+      "facade_excess": 0.0,
+      "family_pass": {
+        "access": true,
+        "coverage": true,
+        "facade": true,
+        "ground": true,
+        "legality": true,
+        "sparsity": true,
+        "spill": true,
+        "support": true,
+        "thickness": true
+      },
+      "gross_volume_m3": 461.8240000000001,
+      "illegal_voxels": 0,
+      "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification.",
+      "occupied_voxels": 902,
+      "outside_domain_voxels": 0,
+      "protected_blocked_voxels": 0,
+      "raw_interface_hits": {
+        "E_east": true,
+        "E_west": true
+      },
+      "resolved_cube_width_cells": 3,
+      "resolved_cube_width_m": 2.4000000000000004,
+      "spec": {
+        "max_facade_fraction": 0.15,
+        "max_volume_fraction": 0.4,
+        "min_bulk_fraction": 0.9,
+        "min_cube_m": 2.4,
+        "min_third_fraction": 0.08,
+        "min_volume_fraction": 0.08
+      },
+      "support": {
+        "interpretation": "geometric connectivity only",
+        "material_voxels": 902,
+        "nonempty": true,
+        "supported_fraction": 1.0,
+        "unsupported_voxels": 0
+      },
+      "thirds": [
+        {
+          "bulk_cells": 298,
+          "domain_cells": 1698,
+          "fraction": 0.17550058892815076
+        },
+        {
+          "bulk_cells": 346,
+          "domain_cells": 2016,
+          "fraction": 0.17162698412698413
+        },
+        {
+          "bulk_cells": 240,
+          "domain_cells": 1698,
+          "fraction": 0.1413427561837456
+        }
+      ],
+      "unreached_bulk_voxels": 0,
+      "unreached_occupied_voxels": 0,
+      "version": "massing_targets_v1",
+      "volume_fraction": 0.16666666666666666,
+      "voxel_size_m": 0.8
+    }
+  },
+  "model": "RGR1",
+  "seconds": 0.875
+}

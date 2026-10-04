@@ -1,0 +1,60 @@
+{
+  "semi_gradient_matches_G9_value_and_advancing_gradient": true,
+  "other_auxiliary_gradient_zero": true,
+  "passed": true,
+  "checks": [
+    {
+      "case": "g1-aligned-y0-v16",
+      "horizon": 64,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g1-aligned-y0-v16",
+      "horizon": 128,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g1-aligned-y0-v16",
+      "base_terms_and_forward_equal": true,
+      "loss_is_base_plus_ranking": true,
+      "ranking_loss": 0.35786712169647217
+    },
+    {
+      "case": "g7-vertical-train-0-v16",
+      "horizon": 64,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g7-vertical-train-0-v16",
+      "horizon": 128,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g7-vertical-train-0-v16",
+      "base_terms_and_forward_equal": true,
+      "loss_is_base_plus_ranking": true,
+      "ranking_loss": 0.318636953830719
+    },
+    {
+      "case": "g7-vertical-train-3-v16",
+      "horizon": 64,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g7-vertical-train-3-v16",
+      "horizon": 128,
+      "every_result_tensor_equal": true
+    },
+    {
+      "case": "g7-vertical-train-3-v16",
+      "base_terms_and_forward_equal": true,
+      "loss_is_base_plus_ranking": true,
+      "ranking_loss": 0.5090980529785156
+    }
+  ],
+  "heldout_supervision_rejected": true,
+  "checkpoint_sha256": "58bdb8d3e05fe8f62dea2b93b4929e4e22aaf5a023d87d7e9f631d797f985a4f",
+  "optimizer_updates": 0,
+  "heldout_inference": 0,
+  "interpretation": "TRAIN-only engineering parity,not a G10 quality benchmark"
+}

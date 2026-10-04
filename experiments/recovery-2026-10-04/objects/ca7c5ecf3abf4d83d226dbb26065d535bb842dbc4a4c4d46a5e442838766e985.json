@@ -1,0 +1,26 @@
+{
+  "run": "20261004T080937Z_e82f41f9d831",
+  "controlled_seconds": 33.18699999997625,
+  "worker_seconds": 30.46799999999348,
+  "retained_updates": 3,
+  "exact_recoveries": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ],
+  "evidence_payloads": 23,
+  "evidence_sha256": "d620747e58c6e243de84bb74ceb9b4a83f555eb600cef67dbe07618e376974a0",
+  "verified_step_accounts_and_caps": 192,
+  "all_start_hashes_verified": true,
+  "initial_parameters_equal_g4": true,
+  "row_start_schedule_equal_g4": true,
+  "firing_rng_equal_g4": true,
+  "quality_evaluated": false
+}

@@ -1,0 +1,75 @@
+{
+  "buildings": [
+    {
+      "gap_facing_x": 9,
+      "id": "B_tall",
+      "side": "left",
+      "x": [
+        0,
+        9
+      ],
+      "y": [
+        2,
+        18
+      ],
+      "z": [
+        0,
+        30
+      ]
+    },
+    {
+      "gap_facing_x": 23,
+      "id": "B_low",
+      "side": "right",
+      "x": [
+        23,
+        32
+      ],
+      "y": [
+        10,
+        30
+      ],
+      "z": [
+        0,
+        16
+      ]
+    }
+  ],
+  "ceiling_z": null,
+  "contract_version": "scene_v1",
+  "description": "Offset blocks of very different height with a diagonal entrance relationship.",
+  "entrances": [
+    {
+      "extent": 2,
+      "id": "E_facade_tall",
+      "kind": "facade",
+      "x": 9,
+      "y": 10,
+      "z": 20
+    },
+    {
+      "extent": 2,
+      "id": "E_facade_low",
+      "kind": "facade",
+      "x": 21,
+      "y": 20,
+      "z": 12
+    },
+    {
+      "extent": 2,
+      "id": "E_ground_gap",
+      "kind": "ground",
+      "x": 15,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "grid_size": 32,
+  "notes": [
+    "Entrances are offset in y as well as z, so a straight corridor cannot satisfy the scene.",
+    "Height difference is 8 voxels, about 6.4 m."
+  ],
+  "scene_id": "ref-04-asymmetric-heights",
+  "street_levels": 6,
+  "voxel_size_m": 0.8
+}

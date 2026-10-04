@@ -1,0 +1,41 @@
+{
+  "run_id": "20261003T134845Z_4974049d006e",
+  "status": "compatibility_pass",
+  "receipt": {
+    "archive": "20261003T134845Z_4974049d006e.zip",
+    "files": 20,
+    "sha256": "a98e5f247b3619e04a0ab94390a92389c1891f8ea9dabcac866d28f61f56024a"
+  },
+  "verified_payloads": 20,
+  "independent_full_checkpoint_equality": true,
+  "independent_start_and_state_equality": true,
+  "device_transition_check": {
+    "delete_rebirth_exact": true
+  },
+  "controlled_seconds": 15.07998848599999,
+  "worker_seconds": 10.29172336900001,
+  "memory": {
+    "peak_allocated": 577955328,
+    "peak_reserved": 744488960
+  },
+  "timings": [
+    {
+      "interpretation": "Untrained forced-positive32-step probe; includes cleanup and transfers; single timing.",
+      "model": "CGR1",
+      "occupied": 3492,
+      "seconds": 0.03066253299999744
+    },
+    {
+      "interpretation": "Untrained forced-positive32-step probe; includes cleanup and transfers; single timing.",
+      "model": "RGR1",
+      "occupied": 3492,
+      "seconds": 0.5052430380000033
+    }
+  ],
+  "probe_slowdown_ratio": 16.47753752111887,
+  "quality_verified": false,
+  "full_trial_approved": false,
+  "repository_sync_pending": true,
+  "interpretation": "One TRAIN example, two updates plus replay; single forced-positive timing. Not model-quality evidence or a reliable complete-job runtime estimate.",
+  "next": "Prepare one paired same-runtime CGR1/RGR1 comparison,256updates per arm512total,shared proposed600s cap; preserve original frozen gates and full ZIP exports. Explicit approval needed once package is ready."
+}

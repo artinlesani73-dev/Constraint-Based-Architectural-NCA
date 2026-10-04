@@ -1,0 +1,260 @@
+{
+  "event": "G9 GPU return verified and frozen review complete",
+  "summary": {
+    "regression": {
+      "64": {
+        "valid": 38,
+        "expected": 45,
+        "median_absolute_fraction_error": 0.002673506336753173,
+        "max_absolute_fraction_error": 0.03590665405234943,
+        "family_pass": {
+          "access": 38,
+          "coverage": 44,
+          "facade": 45,
+          "ground": 45,
+          "legality": 45,
+          "sparsity": 45,
+          "spill": 45,
+          "support": 45,
+          "thickness": 45
+        }
+      },
+      "128": {
+        "valid": 40,
+        "expected": 45,
+        "median_absolute_fraction_error": 0.0015003695491500324,
+        "max_absolute_fraction_error": 0.0018004866180048595,
+        "family_pass": {
+          "access": 40,
+          "coverage": 44,
+          "facade": 45,
+          "ground": 45,
+          "legality": 45,
+          "sparsity": 45,
+          "spill": 45,
+          "support": 45,
+          "thickness": 45
+        }
+      }
+    },
+    "fresh_reserved": {
+      "64": {
+        "valid": 9,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0013786201615148819,
+        "max_absolute_fraction_error": 0.01230263157894737,
+        "family_pass": {
+          "access": 9,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 9,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.00131633169462117,
+        "max_absolute_fraction_error": 0.0014473684210526416,
+        "family_pass": {
+          "access": 9,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    },
+    "baseline_fresh": {
+      "64": {
+        "valid": 5,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.0012332823172892526,
+        "max_absolute_fraction_error": 0.0025923787528868703,
+        "family_pass": {
+          "access": 5,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      },
+      "128": {
+        "valid": 5,
+        "expected": 12,
+        "median_absolute_fraction_error": 0.00131633169462117,
+        "max_absolute_fraction_error": 0.0014473684210526416,
+        "family_pass": {
+          "access": 5,
+          "coverage": 12,
+          "facade": 12,
+          "ground": 12,
+          "legality": 12,
+          "sparsity": 12,
+          "spill": 12,
+          "support": 12,
+          "thickness": 12
+        }
+      }
+    }
+  },
+  "gates": {
+    "regression_64_all_nine": false,
+    "regression_64_volume_error": true,
+    "regression_128_all_nine": false,
+    "regression_128_volume_error": true,
+    "regression_stable_mass": false,
+    "fresh_reserved_64_all_nine": false,
+    "fresh_reserved_64_volume_error": true,
+    "fresh_reserved_128_all_nine": false,
+    "fresh_reserved_128_volume_error": true,
+    "fresh_reserved_stable_mass": false,
+    "baseline_fresh_64_all_nine": false,
+    "baseline_fresh_64_volume_error": true,
+    "baseline_fresh_128_all_nine": false,
+    "baseline_fresh_128_volume_error": true,
+    "baseline_fresh_stable_mass": true
+  },
+  "paired": {
+    "regression": {
+      "64": {
+        "g8": 40,
+        "g9": 38,
+        "improved": [
+          "g7-vertical-reserved-2-v16"
+        ],
+        "regressed": [
+          "g1-unequal_building_heights-1-v16",
+          "g7-vertical-reserved-0-v16",
+          "g8-reserved-1-v24"
+        ]
+      },
+      "128": {
+        "g8": 40,
+        "g9": 40,
+        "improved": [
+          "g7-vertical-reserved-2-v16",
+          "g8-reserved-2-v16"
+        ],
+        "regressed": [
+          "g7-vertical-reserved-0-v16",
+          "g8-reserved-1-v24"
+        ]
+      }
+    },
+    "fresh_reserved": {
+      "64": {
+        "g8": 5,
+        "g9": 9,
+        "improved": [
+          "g9-reserved-0-v24",
+          "g9-reserved-2-v32",
+          "g9-reserved-3-v16",
+          "g9-reserved-3-v24"
+        ],
+        "regressed": []
+      },
+      "128": {
+        "g8": 5,
+        "g9": 9,
+        "improved": [
+          "g9-reserved-0-v24",
+          "g9-reserved-2-v32",
+          "g9-reserved-3-v16",
+          "g9-reserved-3-v24"
+        ],
+        "regressed": []
+      }
+    }
+  },
+  "stability_failures": [
+    {
+      "case": "g1-offset_interfaces-y4-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.07002457002457002,
+      "identical_field": false
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.0946822308690013,
+      "identical_field": false
+    },
+    {
+      "case": "g7-vertical-reserved-0-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.08009708737864078,
+      "identical_field": false
+    },
+    {
+      "case": "g7-vertical-reserved-3-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.05567010309278351,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-0-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.12376779846659365,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-0-v24",
+      "cohort": "regression",
+      "relative_mass_change": 0.1075036075036075,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-1-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.29987293519695046,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-1-v24",
+      "cohort": "regression",
+      "relative_mass_change": 0.06615598885793872,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-2-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.1443850267379679,
+      "identical_field": false
+    },
+    {
+      "case": "g8-reserved-3-v16",
+      "cohort": "regression",
+      "relative_mass_change": 0.06686626746506986,
+      "identical_field": false
+    },
+    {
+      "case": "g9-reserved-0-v16",
+      "cohort": "fresh_reserved",
+      "relative_mass_change": 0.09242761692650334,
+      "identical_field": false
+    },
+    {
+      "case": "g9-reserved-2-v16",
+      "cohort": "fresh_reserved",
+      "relative_mass_change": 0.05676442762535478,
+      "identical_field": false
+    }
+  ],
+  "accepted": false,
+  "visual_review_completed": true,
+  "full_evidence_preserved": true,
+  "decision": "Retain access gains as evidence;diagnose score/fill tradeoff onTRAIN before new compute"
+}

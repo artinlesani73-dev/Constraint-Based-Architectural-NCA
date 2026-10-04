@@ -1,0 +1,240 @@
+{
+  "method": "Read-only analysis of frozen saved64/128 outputs; no additional inference,training or selection.",
+  "interface_metric_caveat": "Existing raw_interface_hits report reachability from lexically first endpoint E_east; if E_east is untouched,both reachability flags are false. Direct physical contact is reported separately here; no metric was changed.",
+  "distance_caveat": "Distance is legal voxel graph distance,not feasible whole-cube additions or a structural/access guarantee.",
+  "cases": [
+    {
+      "case": "g1-offset_interfaces-y0-v16",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 5
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 876,
+      "occupied": 876,
+      "first_ceiling_step": 17,
+      "last_growth_step": 17,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.17546948356807512,
+        0.26091269841269843,
+        0.02992957746478873
+      ],
+      "failed_families": [
+        "access",
+        "coverage"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v24",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 2
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1310,
+      "occupied": 1310,
+      "first_ceiling_step": 19,
+      "last_growth_step": 19,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.1942488262910798,
+        0.38244047619047616,
+        0.12206572769953052
+      ],
+      "failed_families": [
+        "access"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y0-v32",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 2
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1744,
+      "occupied": 1744,
+      "first_ceiling_step": 20,
+      "last_growth_step": 20,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.2705399061032864,
+        0.47619047619047616,
+        0.18955399061032863
+      ],
+      "failed_families": [
+        "access"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v16",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 4
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 874,
+      "occupied": 874,
+      "first_ceiling_step": 14,
+      "last_growth_step": 14,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.18904593639575973,
+        0.25148809523809523,
+        0.027090694935217905
+      ],
+      "failed_families": [
+        "access",
+        "coverage"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v24",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 1
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1307,
+      "occupied": 1307,
+      "first_ceiling_step": 17,
+      "last_growth_step": 17,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.21908127208480566,
+        0.376984126984127,
+        0.10306242638398115
+      ],
+      "failed_families": [
+        "access"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y2-v32",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 2
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 0
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1740,
+      "occupied": 1740,
+      "first_ceiling_step": 19,
+      "last_growth_step": 19,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.2408716136631331,
+        0.470734126984127,
+        0.2249705535924617
+      ],
+      "failed_families": []
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v16",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 5
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 871,
+      "occupied": 871,
+      "first_ceiling_step": 16,
+      "last_growth_step": 16,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.18505338078291814,
+        0.25793650793650796,
+        0.023131672597864767
+      ],
+      "failed_families": [
+        "access",
+        "coverage"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v24",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 0
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 3
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1302,
+      "occupied": 1302,
+      "first_ceiling_step": 20,
+      "last_growth_step": 20,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.21055753262158955,
+        0.373015873015873,
+        0.11565836298932385
+      ],
+      "failed_families": [
+        "access"
+      ]
+    },
+    {
+      "case": "g1-offset_interfaces-y4-v32",
+      "direct_interface_occupied_cells": {
+        "E_west": 8,
+        "E_east": 4
+      },
+      "legal_voxel_moves_to_interface": {
+        "E_west": 0,
+        "E_east": 0
+      },
+      "seed_retained": true,
+      "field_identical64_128": true,
+      "ceiling": 1733,
+      "occupied": 1733,
+      "first_ceiling_step": 22,
+      "last_growth_step": 22,
+      "unused_capacity": 0,
+      "third_bulk_fractions": [
+        0.22004744958481615,
+        0.4573412698412698,
+        0.2609727164887307
+      ],
+      "failed_families": []
+    }
+  ]
+}

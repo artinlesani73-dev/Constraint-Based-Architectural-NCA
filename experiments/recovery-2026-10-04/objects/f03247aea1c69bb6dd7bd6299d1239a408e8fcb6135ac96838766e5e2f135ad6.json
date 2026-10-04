@@ -1,0 +1,102 @@
+{
+  "case": "g1-wide_gap-y2-v24",
+  "step": 16,
+  "seed_phase": false,
+  "mass_before": 747,
+  "mass_after": 864,
+  "ceiling": 1054,
+  "best_distance": 8,
+  "open_unreached": true,
+  "progress_available": 1,
+  "teacher_positive_progress": 1,
+  "teacher_positive_other": 28,
+  "positive_progress_mean_q": 0.5535926818847656,
+  "positive_other_mean_q": 0.4828285574913025,
+  "positive_progress_above_threshold": 1.0,
+  "positive_other_above_threshold": 0.6071428571428571,
+  "accepted_blocks": 44,
+  "accepted_progress_blocks": 1,
+  "added_voxels": 117,
+  "progress_added_voxels": 9,
+  "budget_rejected_blocks": 0,
+  "loss_terms": {
+    "frontier": 1.3939697742462158,
+    "weighted_local_volume": 0.06488200277090073,
+    "global_band": 0.03347862511873245
+  },
+  "neutral_loss_terms": {
+    "frontier": 1.3862942457199097,
+    "weighted_local_volume": 0.06576923280954361,
+    "global_band": 0.03168133646249771
+  },
+  "gradients": {
+    "actual": {
+      "frontier": {
+        "l1": 0.9857842922210693,
+        "progress_positive_mean": -0.015393354929983616,
+        "other_positive_mean": -0.017833499237895012,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 0.0
+      },
+      "weighted_local_volume": {
+        "l1": 0.008132275193929672,
+        "progress_positive_mean": -0.0003726794384419918,
+        "other_positive_mean": -5.130682257004082e-05,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 0.8571428571428571,
+        "negative_raise_fraction": 0.013333333333333334
+      },
+      "global_band": {
+        "l1": 0.013508142903447151,
+        "progress_positive_mean": -0.0005105946329422295,
+        "other_positive_mean": -0.00010109082359122112,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 1.0
+      },
+      "total": {
+        "l1": 0.9869813919067383,
+        "progress_positive_mean": -0.016276627779006958,
+        "other_positive_mean": -0.01798589527606964,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 0.0
+      }
+    },
+    "neutral": {
+      "frontier": {
+        "l1": 1.0,
+        "progress_positive_mean": -0.017241379246115685,
+        "other_positive_mean": -0.017241379246115685,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 0.0
+      },
+      "weighted_local_volume": {
+        "l1": 0.00812085997313261,
+        "progress_positive_mean": -0.0003770108742173761,
+        "other_positive_mean": -5.118341505294666e-05,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 0.8214285714285714,
+        "negative_raise_fraction": 0.013333333333333334
+      },
+      "global_band": {
+        "l1": 0.013304207473993301,
+        "progress_positive_mean": -0.0005165289621800184,
+        "other_positive_mean": -0.00010395913704996929,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 1.0
+      },
+      "total": {
+        "l1": 1.0014753341674805,
+        "progress_positive_mean": -0.018134918063879013,
+        "other_positive_mean": -0.01739652082324028,
+        "progress_positive_raise_fraction": 1.0,
+        "other_positive_raise_fraction": 1.0,
+        "negative_raise_fraction": 0.0
+      }
+    }
+  }
+}

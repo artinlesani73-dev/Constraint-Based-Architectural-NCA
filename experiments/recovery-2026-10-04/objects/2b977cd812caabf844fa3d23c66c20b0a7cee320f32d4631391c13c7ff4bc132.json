@@ -1,0 +1,45 @@
+{
+  "checkpoint": 427,
+  "prefix_check": 256,
+  "firing_seed": 2101,
+  "horizons": [
+    64,
+    128
+  ],
+  "threshold": 0.5,
+  "device": "cpu",
+  "dtype": "float32",
+  "regression_expected": 33,
+  "regression_sources": [
+    {
+      "path": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G1-Preparation-2026-10-03\\split-manifest.json",
+      "sha256": "4661d0ca7d549d5043c1ccb50835c24d2ac18a39a9e13900c4f0d66fb3ab9538",
+      "splits": [
+        "development",
+        "reserved"
+      ]
+    },
+    {
+      "path": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04-v2\\split-manifest.json",
+      "sha256": "189d92d44f15ee89d45c50bd6a3371a4778ee7dfa2b852742f568609f8eb264c",
+      "splits": [
+        "reserved"
+      ]
+    }
+  ],
+  "fresh_manifest_sha256": "4bb4a17490fb055cc4bfa0fefb9b79cbc1b7082ad331dd60a746ceac42f6ddc6",
+  "fresh_expected": 12,
+  "requests": [
+    0.16,
+    0.24,
+    0.32
+  ],
+  "gates": {
+    "all_nine_every_case_both_horizons": true,
+    "median_error_max": 0.02,
+    "max_error_max": 0.04,
+    "per_case_mass_change_max": 0.05
+  },
+  "visual_review_required": true,
+  "executed": false
+}

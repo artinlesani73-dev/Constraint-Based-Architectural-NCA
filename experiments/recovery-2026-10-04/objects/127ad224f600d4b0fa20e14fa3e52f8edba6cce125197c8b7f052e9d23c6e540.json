@@ -1,0 +1,49 @@
+{
+  "cpu_rehearsal": true,
+  "device": "cpu",
+  "manifest_sha256": "0b57f8f049b290f03dee1d9e701759317ab1efac2d9c7cd4926403b66d331b3e",
+  "max_seconds": 600.0,
+  "replayed_updates": 2,
+  "seed": 1201,
+  "settings": {
+    "admission": "cpu_sequential_cube_overlap_v1",
+    "admission_count_columns": [
+      "initial_mass",
+      "offered_blocks",
+      "accepted_blocks",
+      "budget_rejected_blocks",
+      "redundant_blocks",
+      "deferred_seed_blocks",
+      "added_voxels"
+    ],
+    "architecture": "61-64-8",
+    "automatic_retry": false,
+    "budget_width": 3,
+    "objective": {
+      "cube": 3,
+      "frontier_negative": 1.0,
+      "frontier_positive": 1.0,
+      "global_band": 1.0,
+      "intact_negative": 1.5,
+      "volume": 0.25
+    },
+    "proposal_shape": [
+      30,
+      30,
+      30
+    ],
+    "review_firing_seed": 2101,
+    "review_steps": 64,
+    "seconds": 600,
+    "seed": 1201,
+    "seed_loss": "frontier_only",
+    "seed_start_fraction": 0.5,
+    "stability_steps": 128,
+    "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+    "train_steps": 64,
+    "union_surrogate": "independent_before_hard_selection",
+    "updates": 256,
+    "version": "seed_generation_training_v4_blocks"
+  },
+  "updates": 3
+}

@@ -1,0 +1,69 @@
+{
+  "cleanup": {
+    "active_processes_after_stop": 0,
+    "exit_code": 1
+  },
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\scripts\\colab_generation.py\", line 75, in main\n    if p.returncode or result['status']!='completed':raise RuntimeError('Training worker failed; inspect preserved log')\n                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Training worker failed; inspect preserved log\n",
+  "interpretation": "G7 generation training evidence; no quality acceptance or automatic deployment.",
+  "request": {
+    "cpu_rehearsal": true,
+    "device": "cpu",
+    "manifest_sha256": "f6ebdcdc1b593d5f788aff8042854ca3e388d6be9c5ad9e4b0f8c3dd9a4502b5",
+    "max_seconds": 180.0,
+    "replayed_updates": 2,
+    "seed": 1201,
+    "settings": {
+      "admission": "cpu_paced_cube_overlap_v1",
+      "admission_count_columns": [
+        "initial_mass",
+        "offered_blocks",
+        "accepted_blocks",
+        "allowance_rejected_blocks",
+        "redundant_blocks",
+        "deferred_seed_blocks",
+        "added_voxels"
+      ],
+      "architecture": "61-64-8",
+      "automatic_retry": false,
+      "budget_width": 3,
+      "objective": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 1.0,
+        "global_band": 1.0,
+        "volume": 0.25
+      },
+      "pacing_horizon_constant": 64,
+      "proposal_shape": [
+        30,
+        30,
+        30
+      ],
+      "quota_rule": "max(9,ceil((C-27)/63))",
+      "review_firing_seed": 2101,
+      "review_steps": 64,
+      "seconds": 600,
+      "seed": 1201,
+      "seed_loss": "frontier_only",
+      "seed_start_fraction": 0.5,
+      "stability_steps": 128,
+      "teacher_stages": "alternating seed / cube union; sha256(update:row) modulo maximum origin distance",
+      "train_steps": 64,
+      "union_surrogate": "independent_before_hard_selection",
+      "updates": 256,
+      "version": "seed_generation_training_v7_vertical"
+    },
+    "updates": 3
+  },
+  "status": "failed",
+  "wall_seconds": 4.843999999924563,
+  "worker": {
+    "completed": 0,
+    "cpu_rehearsal": true,
+    "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\scripts\\colab_generation.py\", line 23, in worker\n    session=fresh();write_once(out/'identity.json',session.identity)\n            ^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\scripts\\colab_generation.py\", line 22, in fresh\n    def fresh():return GenerationSession(ROOT,data['rows'],identity,device=a.device,seed=a.seed)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\generation_training.py\", line 20, in __init__\n    super().__init__(*args,**kwargs)\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\connected_repair.py\", line 68, in __init__\n    super().__init__(root,rows,identity,**kwargs)\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\repair_portable.py\", line 94, in __init__\n    for row in self.rows:load_example(self.root,row)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\artin\\Documents\\Codex\\outputs\\G7-Vertical-Training-2026-10-04\\package\\nca\\repair_benchmark.py\", line 117, in load_example\n    inputs = {'occupancy': pack['damaged'].astype(np.float32),\n                           ~~~~^^^^^^^^^^^\n  File \"C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py\", line 243, in __getitem__\n    raise KeyError(f\"{key} is not a file in the archive\") from None\nKeyError: 'damaged is not a file in the archive'\n",
+    "peak_reserved": null,
+    "quality_evaluated": false,
+    "status": "failed",
+    "wall_seconds": 2.0
+  }
+}

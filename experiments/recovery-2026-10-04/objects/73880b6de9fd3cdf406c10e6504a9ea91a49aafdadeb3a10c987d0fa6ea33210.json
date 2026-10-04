@@ -1,0 +1,51 @@
+{
+  "experiment": {
+    "manifest_sha256": "27af0c15dba509ad632648cd7c444879caeed2f775ad306f41d42f43f2f0ae63",
+    "preflight": "RGR1_cu130_recovery_v1"
+  },
+  "hard_birth_gradients": false,
+  "model_semantics": "reversible_anchored_repair_v1",
+  "objective": {
+    "cube": 3,
+    "frontier_negative": 1.0,
+    "frontier_positive": 0.5,
+    "intact_negative": 1.5,
+    "projection": "anchored_six_face_cpu_bfs",
+    "supervised_set": "mutable_occupancy_and_frontier",
+    "volume": 0.25
+  },
+  "ordered_training_rows": [
+    {
+      "arrays": "data/mg5__mg3__aligned__v16__s0__cube5.npz",
+      "sha256": "0708921b095f1c87bb93e3f4923174f67d4bb036318d4f9a7d521c6ad310e3ac"
+    }
+  ],
+  "runtime": {
+    "cublas_workspace": ":4096:8",
+    "cuda_build": "13.0",
+    "cudnn": 92700,
+    "cudnn_benchmark": false,
+    "deterministic": true,
+    "device": "cuda:0",
+    "driver_and_gpu_uuid": "580.82.07, GPU-cf0235d9-cb4a-e5aa-bf1f-ef9e2210ea67",
+    "dtype": "float32",
+    "gpu_capability": [
+      7,
+      5
+    ],
+    "gpu_count": 1,
+    "gpu_memory_bytes": 15637086208,
+    "gpu_name": "Tesla T4",
+    "host": "ebc6bbf971c5",
+    "numpy": "2.1.3",
+    "python": "3.13.15",
+    "tf32_cudnn": false,
+    "tf32_matmul": false,
+    "threads": 2,
+    "torch": "2.11.0+cu130",
+    "torch_build_configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.10.2 (Git Hash f1d471933dc852f956fd05389f9313c7148783d5)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.7  (built against CUDA 12.9)\n    - Built with CuDNN 91.9\n  - Magma 2.6.1\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=70d99e998b4955e0049d13a98d77ae1b14db1f45, CUDA_VERSION=13.0, CUDNN_VERSION=9.19.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.11.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+  },
+  "seed": 1201,
+  "train_steps": 32,
+  "version": "volume_repair_portable_preflight_v1"
+}

@@ -1,0 +1,36 @@
+{
+  "parent_manifest_sha256": "1c538905fbaa612639131fd97f3207deed1c398ac824db47fbabb2a2ebb635ab",
+  "changed_members": [
+    "data.json",
+    "nca/generation_package.py",
+    "nca/generation_training.py",
+    "PROTOCOL.md",
+    "scripts/colab_generation.py"
+  ],
+  "added_members": [
+    "examples/g7-vertical-train-0-v16.npz",
+    "examples/g7-vertical-train-0-v24.npz",
+    "examples/g7-vertical-train-0-v32.npz",
+    "examples/g7-vertical-train-1-v16.npz",
+    "examples/g7-vertical-train-1-v24.npz",
+    "examples/g7-vertical-train-1-v32.npz",
+    "examples/g7-vertical-train-2-v16.npz",
+    "examples/g7-vertical-train-2-v24.npz",
+    "examples/g7-vertical-train-2-v32.npz",
+    "examples/g7-vertical-train-3-v16.npz",
+    "examples/g7-vertical-train-3-v24.npz",
+    "examples/g7-vertical-train-3-v32.npz",
+    "examples/g7-vertical-train-4-v16.npz",
+    "examples/g7-vertical-train-4-v24.npz",
+    "examples/g7-vertical-train-4-v32.npz",
+    "examples/g7-vertical-train-5-v16.npz",
+    "examples/g7-vertical-train-5-v24.npz",
+    "examples/g7-vertical-train-5-v32.npz",
+    "vertical-train-scenes.json"
+  ],
+  "paced_model_loss_bytes_unchanged": true,
+  "original27_payloads_unchanged": true,
+  "train_rows": 45,
+  "new_labels": 18,
+  "fresh_reserved_inference": 0
+}

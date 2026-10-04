@@ -1,0 +1,35 @@
+{
+  "event": "G6 pacing-only implementation and package complete",
+  "change": "Effective admission ceiling min(global ceiling,current mass+K) after first cube;K=max(9,ceil((C-27)/63));unchanged loss/model/data/firing.",
+  "trace_semantics": "Column3 allowance_rejected_blocks;quota and per-step ceilings saved separately.",
+  "checks": {
+    "run": "20261004T080937Z_e82f41f9d831",
+    "controlled_seconds": 33.18699999997625,
+    "worker_seconds": 30.46799999999348,
+    "retained_updates": 3,
+    "exact_recoveries": [
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 2
+      },
+      {
+        "full_payload_equal": true,
+        "state_equal": true,
+        "update": 3
+      }
+    ],
+    "evidence_payloads": 23,
+    "evidence_sha256": "d620747e58c6e243de84bb74ceb9b4a83f555eb600cef67dbe07618e376974a0",
+    "verified_step_accounts_and_caps": 192,
+    "all_start_hashes_verified": true,
+    "initial_parameters_equal_g4": true,
+    "row_start_schedule_equal_g4": true,
+    "firing_rng_equal_g4": true,
+    "quality_evaluated": false
+  },
+  "local_prior": "Existing G4weights paced on27TRAIN;12/27valid64,11/27valid128;facade/stability regressions retained.",
+  "paid_run_authorized": false,
+  "quality_evaluated": false,
+  "repository_sync_pending": true
+}

@@ -1,0 +1,135 @@
+{
+  "g4": {
+    "64": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 2,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.4574944071588367,
+      "family_pass": {
+        "access": 2,
+        "coverage": 6,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "g6": {
+    "64": {
+      "valid": 9,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.540652818991098,
+      "family_pass": {
+        "access": 9,
+        "coverage": 9,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    },
+    "128": {
+      "valid": 9,
+      "count": 9,
+      "median_absolute_fraction_error": 0.0015191740412979493,
+      "max_absolute_fraction_error": 0.0016555308092056353,
+      "median_teacher_iou": 0.540652818991098,
+      "family_pass": {
+        "access": 9,
+        "coverage": 9,
+        "facade": 9,
+        "ground": 9,
+        "legality": 9,
+        "sparsity": 9,
+        "spill": 9,
+        "support": 9,
+        "thickness": 9
+      }
+    }
+  },
+  "g4_gates": {
+    "valid_at64": false,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": false,
+    "stable_mass": true
+  },
+  "g6_gates": {
+    "valid_at64": true,
+    "median_fraction_error": true,
+    "max_fraction_error": true,
+    "valid_at128": true,
+    "stable_mass": true
+  },
+  "g6_pilot_gate_passed": true,
+  "paired_evidence": {
+    "dataset_hashes_equal": true,
+    "all256row_and_start_schedules_equal": true,
+    "final_firing_rng_equal": true,
+    "all_initial_parameters_equal": true,
+    "runtime_keys_equal": [
+      "python",
+      "torch",
+      "numpy",
+      "gpu_name",
+      "cuda_build",
+      "cudnn",
+      "dtype",
+      "threads",
+      "deterministic",
+      "tf32_matmul",
+      "tf32_cudnn"
+    ],
+    "extra_parameters": 0,
+    "limitation": "One seeded pacing intervention,not a multi-seed causal estimate. Rejection column now means effective allowance,not global cap alone."
+  },
+  "training_capacity": {
+    "G4": {
+      "total_steps": 16384,
+      "steps_starting_at_global_cap": 13549,
+      "fraction_at_global_cap": 0.82696533203125,
+      "seed_fraction_at_global_cap": 0.7344970703125,
+      "teacher_stage_fraction_at_global_cap": 0.91943359375,
+      "updates_reaching_global_cap": 250,
+      "median_first_global_cap_step": 11.0
+    },
+    "G6": {
+      "total_steps": 16384,
+      "steps_starting_at_global_cap": 4697,
+      "fraction_at_global_cap": 0.28668212890625,
+      "seed_fraction_at_global_cap": 0.0087890625,
+      "teacher_stage_fraction_at_global_cap": 0.5645751953125,
+      "updates_reaching_global_cap": 181,
+      "median_first_global_cap_step": 39.0
+    }
+  },
+  "scope": "One seed and nine reused development requests;not reserved generalization or deployment approval."
+}

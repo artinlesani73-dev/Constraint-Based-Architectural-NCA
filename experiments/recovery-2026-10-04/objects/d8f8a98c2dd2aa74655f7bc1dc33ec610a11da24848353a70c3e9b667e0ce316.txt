@@ -1,0 +1,1 @@
+Initial audit stopped before first case completion: diagnostic supplied Boolean target to baseline conv3d loss, which requires float. No optimizer updates or model inference. Corrected audit uses float target and separate v2 folder. Original source/script retained.

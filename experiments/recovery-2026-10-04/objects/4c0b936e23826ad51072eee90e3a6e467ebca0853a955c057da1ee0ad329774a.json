@@ -1,0 +1,44 @@
+{
+  "status": "planned_not_executed",
+  "candidate": "883833c5a1171e0969e18ad9c7f9dd8eeb9a80379dba364973684b35531b154b",
+  "split_manifest_sha256": "4661d0ca7d549d5043c1ccb50835c24d2ac18a39a9e13900c4f0d66fb3ab9538",
+  "reserved_scene_ids": [
+    "g1-raised_pair-0",
+    "g1-raised_pair-1",
+    "g1-unequal_building_heights-0",
+    "g1-unequal_building_heights-1"
+  ],
+  "requests": [
+    0.16,
+    0.24,
+    0.32
+  ],
+  "expected_cases": 12,
+  "horizons": [
+    64,
+    128
+  ],
+  "firing_seed": 2101,
+  "device": "cpu",
+  "dtype": "float32",
+  "threshold": 0.5,
+  "quota_rule": "max(9,ceil((C-27)/63));unchanged across64/128",
+  "input_rule": "Reconstruct the existing seven-channel scene context from saved environment config;scene-defined seed only;no teacher geometry or route as input.",
+  "teachers_required": false,
+  "gates": {
+    "all_nine_at64": 12,
+    "all_nine_at128": 12,
+    "median_absolute_fraction_error_max": 0.02,
+    "max_absolute_fraction_error_max": 0.04,
+    "per_case_relative_mass_change_max": 0.05
+  },
+  "failure_rule": "Report every scene/request and retain infeasible/unsupported/failing cases. Do not drop cases,retune,reroll,change quota or select checkpoints after inspection.",
+  "remaining_work": [
+    "Verify existing context construction matches archived TRAIN fixtures byte-for-byte before reserved generation",
+    "Generate and evaluate all12reserved requests once at frozen settings",
+    "Inspect saved geometry visually and document physical interpretation",
+    "Decide separately whether the candidate is ready for research UI integration"
+  ],
+  "paid_training_required": false,
+  "executed": false
+}

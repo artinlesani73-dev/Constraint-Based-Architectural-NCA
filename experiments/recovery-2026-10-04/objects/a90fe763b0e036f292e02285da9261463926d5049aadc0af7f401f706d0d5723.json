@@ -1,0 +1,47 @@
+{
+  "cleanup": {
+    "exit_code": 0
+  },
+  "failure": null,
+  "interpretation": "G1 generation training evidence; no quality acceptance or automatic deployment.",
+  "request": {
+    "cpu_rehearsal": false,
+    "device": "cuda:0",
+    "manifest_sha256": "010a384e649f145a346b75687602cb63b630bf07e84351ee91a290bf0c28f44a",
+    "max_seconds": 600.0,
+    "replayed_updates": 2,
+    "seed": 1201,
+    "settings": {
+      "automatic_retry": false,
+      "objective": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 0.5,
+        "intact_negative": 1.5,
+        "volume": 0.25
+      },
+      "review_firing_seed": 2101,
+      "review_steps": 64,
+      "seconds": 600,
+      "seed": 1201,
+      "seed_start_fraction": 0.5,
+      "stability_steps": 128,
+      "teacher_stages": "alternating; sha256(update:row) modulo max teacher distance",
+      "train_steps": 64,
+      "updates": 256,
+      "version": "seed_generation_training_v1"
+    },
+    "updates": 256
+  },
+  "status": "completed",
+  "wall_seconds": 108.18101921399995,
+  "worker": {
+    "completed": 256,
+    "cpu_rehearsal": false,
+    "failure": null,
+    "peak_reserved": 1436549120,
+    "quality_evaluated": false,
+    "status": "completed",
+    "wall_seconds": 101.97192350499995
+  }
+}

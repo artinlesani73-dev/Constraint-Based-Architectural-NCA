@@ -1,0 +1,35 @@
+{
+  "checkpoint": 256,
+  "device": "cpu",
+  "dtype": "float32",
+  "firing_seed": 2101,
+  "horizons": [
+    64,
+    128
+  ],
+  "threshold": 0.5,
+  "quota": "max(9,ceil((C-27)/63))",
+  "regression_manifest": "C:\\Users\\artin\\Documents\\Codex\\outputs\\G1-Preparation-2026-10-03\\split-manifest.json",
+  "regression_manifest_sha256": "4661d0ca7d549d5043c1ccb50835c24d2ac18a39a9e13900c4f0d66fb3ab9538",
+  "regression_splits": [
+    "development",
+    "reserved"
+  ],
+  "regression_expected": 21,
+  "fresh_split_sha256": "189d92d44f15ee89d45c50bd6a3371a4778ee7dfa2b852742f568609f8eb264c",
+  "fresh_reserved_expected": 12,
+  "requests": [
+    0.16,
+    0.24,
+    0.32
+  ],
+  "gates": {
+    "all_nine_each_cohort_both_horizons": true,
+    "median_error_max": 0.02,
+    "max_error_max": 0.04,
+    "per_case_mass_change_max": 0.05
+  },
+  "no_checkpoint_selection": true,
+  "visual_review_required": true,
+  "executed": false
+}

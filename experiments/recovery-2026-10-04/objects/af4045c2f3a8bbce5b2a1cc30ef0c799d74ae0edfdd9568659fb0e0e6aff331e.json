@@ -1,0 +1,116 @@
+{
+  "paired": [
+    {
+      "cohort": "regression",
+      "steps": 64,
+      "gains": [
+        "g1-unequal_building_heights-1-v16",
+        "g7-vertical-reserved-0-v16",
+        "g7-vertical-reserved-2-v16",
+        "g8-reserved-0-v16",
+        "g8-reserved-0-v24",
+        "g8-reserved-0-v32",
+        "g8-reserved-1-v16",
+        "g8-reserved-3-v16",
+        "g9-reserved-0-v24",
+        "g9-reserved-0-v32",
+        "g9-reserved-2-v16",
+        "g9-reserved-3-v16",
+        "g10-reserved-0-v16",
+        "g10-reserved-0-v24",
+        "g10-reserved-0-v32",
+        "g10-reserved-1-v16",
+        "g10-reserved-1-v24",
+        "g10-reserved-2-v16"
+      ],
+      "losses": []
+    },
+    {
+      "cohort": "regression",
+      "steps": 128,
+      "gains": [
+        "g1-unequal_building_heights-1-v16",
+        "g7-vertical-reserved-0-v16",
+        "g7-vertical-reserved-2-v16",
+        "g8-reserved-0-v16",
+        "g8-reserved-0-v24",
+        "g8-reserved-0-v32",
+        "g8-reserved-1-v16",
+        "g8-reserved-3-v16",
+        "g9-reserved-0-v24",
+        "g9-reserved-0-v32",
+        "g9-reserved-2-v16",
+        "g9-reserved-3-v16",
+        "g10-reserved-0-v16",
+        "g10-reserved-0-v24",
+        "g10-reserved-0-v32",
+        "g10-reserved-1-v16",
+        "g10-reserved-1-v24",
+        "g10-reserved-2-v16"
+      ],
+      "losses": []
+    },
+    {
+      "cohort": "fresh",
+      "steps": 64,
+      "gains": [
+        "g11r3-reserved-0-v16",
+        "g11r3-reserved-0-v24",
+        "g11r3-reserved-0-v32",
+        "g11r3-reserved-1-v16",
+        "g11r3-reserved-1-v24",
+        "g11r3-reserved-1-v32",
+        "g11r3-reserved-2-v16",
+        "g11r3-reserved-2-v24",
+        "g11r3-reserved-2-v32",
+        "g11r3-reserved-3-v16"
+      ],
+      "losses": []
+    },
+    {
+      "cohort": "fresh",
+      "steps": 128,
+      "gains": [
+        "g11r3-reserved-0-v16",
+        "g11r3-reserved-0-v24",
+        "g11r3-reserved-0-v32",
+        "g11r3-reserved-1-v16",
+        "g11r3-reserved-1-v24",
+        "g11r3-reserved-1-v32",
+        "g11r3-reserved-2-v16",
+        "g11r3-reserved-2-v24",
+        "g11r3-reserved-2-v32",
+        "g11r3-reserved-3-v16"
+      ],
+      "losses": []
+    }
+  ],
+  "stats": {
+    "regression_G10": {
+      "stable": 69,
+      "count": 69,
+      "max_growth": 0.045965270684371805
+    },
+    "regression_R3": {
+      "stable": 69,
+      "count": 69,
+      "max_growth": 0.0,
+      "planner_share_median": 0.32978723404255317
+    },
+    "fresh_G10": {
+      "stable": 12,
+      "count": 12,
+      "max_growth": 0.017013232514177693
+    },
+    "fresh_R3": {
+      "stable": 12,
+      "count": 12,
+      "max_growth": 0.0,
+      "planner_share_median": 0.32564909786398566
+    }
+  },
+  "frozen_inputs_sources_unchanged": true,
+  "finite_horizon_states": 162,
+  "certificate_failures": [],
+  "unstable": []
+}

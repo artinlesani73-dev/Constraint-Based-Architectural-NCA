@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "rehearsal_run": "20261003T200317Z_e222fe1d2104",
+  "controlled_seconds": 41.84299999999348,
+  "worker_seconds": 38.71900000004098,
+  "recovery_checks": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ],
+  "device_reference_probe": {
+    "device": "cpu",
+    "passed": true,
+    "reference_cases": 8
+  },
+  "final_checkpoint_verified": true,
+  "all192_training_step_budget_counts_verified": true,
+  "fresh_g2_base_parameters_preserved": true,
+  "learned_extra_channel_abs_weight_sum": 0.05022291839122772,
+  "export_payloads_verified": 23,
+  "package_payloads_verified": 53,
+  "gpu_tested": false,
+  "paid_run_started": false
+}

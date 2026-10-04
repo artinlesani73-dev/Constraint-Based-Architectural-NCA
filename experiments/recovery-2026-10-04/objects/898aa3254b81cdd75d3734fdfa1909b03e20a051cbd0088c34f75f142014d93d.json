@@ -1,0 +1,76 @@
+{
+  "cleanup": {
+    "active_processes_after_stop": 0,
+    "exit_code": 0
+  },
+  "failure": null,
+  "interpretation": "Paired training evidence; no heldout quality evaluation or automatic deployment.",
+  "request": {
+    "arms": [
+      "CGR1",
+      "RGR1"
+    ],
+    "cpu_rehearsal": true,
+    "device": "cpu",
+    "manifest_sha256": "a847c631cdf7b48b303b9d22be93f8e8a5759cd685db17797979cef0241b1f23",
+    "max_seconds": 120.0,
+    "seed": 1201,
+    "settings": {
+      "automatic_retry": false,
+      "dataset_run": "20260925T094341Z_316cff241020",
+      "drive_operations_require_separate_approval": true,
+      "evaluation_device": "cpu",
+      "evaluation_dtype": "float32",
+      "gpu_job_requires_approval": true,
+      "initialization": "fresh",
+      "jobs": 1,
+      "loss": {
+        "cube": 3,
+        "frontier_negative": 1.0,
+        "frontier_positive": 0.5,
+        "intact_negative": 1.5,
+        "projection": "anchored_six_face_cpu_bfs",
+        "supervised_set": "mutable_occupancy_and_frontier",
+        "volume": 0.25
+      },
+      "review_firing_seed": 2101,
+      "review_rows": 27,
+      "review_split": "validation",
+      "review_steps": 32,
+      "seconds_per_job": 600,
+      "seeds": [
+        1201
+      ],
+      "test_evaluation": false,
+      "threshold": 0.5,
+      "train_steps": 32,
+      "updates": 256,
+      "version": "reversible_anchored_repair_v1"
+    },
+    "updates_per_arm": 2
+  },
+  "status": "completed",
+  "wall_seconds": 37.875,
+  "worker": {
+    "arms": {
+      "CGR1": {
+        "completed": 2,
+        "initial_parameter_sha256": "d171e87f456e031bc2b3d1b4a8577f89532786fcaa865a54661d2163c8792f99",
+        "peak_reserved": null,
+        "wall_seconds": 12.436999999976251
+      },
+      "RGR1": {
+        "completed": 2,
+        "initial_parameter_sha256": "d171e87f456e031bc2b3d1b4a8577f89532786fcaa865a54661d2163c8792f99",
+        "peak_reserved": null,
+        "wall_seconds": 20.85899999999674
+      }
+    },
+    "cpu_rehearsal": true,
+    "failure": null,
+    "in_progress_completed": null,
+    "interpretation": "Training evidence; final quality evaluated later. Partial arms are not a completed comparison.",
+    "status": "completed",
+    "wall_seconds": 34.36000000004424
+  }
+}

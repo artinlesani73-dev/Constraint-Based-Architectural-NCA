@@ -1,0 +1,25 @@
+{
+  "64": {
+    "g7_valid": 28,
+    "g8_valid": 32,
+    "improved": [
+      "g1-offset_interfaces-y4-v16",
+      "g1-unequal_building_heights-1-v16",
+      "g7-vertical-reserved-0-v16",
+      "g7-vertical-reserved-1-v16"
+    ],
+    "regressed": []
+  },
+  "128": {
+    "g7_valid": 30,
+    "g8_valid": 32,
+    "improved": [
+      "g1-unequal_building_heights-1-v16",
+      "g7-vertical-reserved-0-v16",
+      "g7-vertical-reserved-1-v16"
+    ],
+    "regressed": [
+      "g7-vertical-reserved-2-v16"
+    ]
+  }
+}

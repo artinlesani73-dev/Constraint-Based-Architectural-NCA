@@ -1,0 +1,50 @@
+{
+  "axis_order": [
+    "z",
+    "y",
+    "x"
+  ],
+  "contract_version": "scene_v1",
+  "entrance_anchor": "minimum-index corner",
+  "extent_convention": "half-open [start, end) in voxel indices",
+  "material_threshold_default": 0.5,
+  "scenes": [
+    {
+      "file": "ref-01-ground-pair.json",
+      "scene_hash": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453",
+      "scene_id": "ref-01-ground-pair",
+      "sha256": "ade20096eb298f78e34011e0c3161738d88e8cae6470ed266f98691a780fc453"
+    },
+    {
+      "file": "ref-02-facade-pair-and-ground.json",
+      "scene_hash": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1",
+      "scene_id": "ref-02-facade-pair-and-ground",
+      "sha256": "b89e888053b3e9ee0b345291a83374679a9639fe387f924b27c548be837169c1"
+    },
+    {
+      "file": "ref-03-wide-gap.json",
+      "scene_hash": "dfb73448c78cb38e1bdb9b6381331b805a1dd8a2ddcecda58fc4dc0daa31e96f",
+      "scene_id": "ref-03-wide-gap",
+      "sha256": "dfb73448c78cb38e1bdb9b6381331b805a1dd8a2ddcecda58fc4dc0daa31e96f"
+    },
+    {
+      "file": "ref-04-asymmetric-heights.json",
+      "scene_hash": "0aab0b502265acd45702a5c9f80e0f4b1d80478c704c135854a416405f10f588",
+      "scene_id": "ref-04-asymmetric-heights",
+      "sha256": "0aab0b502265acd45702a5c9f80e0f4b1d80478c704c135854a416405f10f588"
+    },
+    {
+      "file": "ref-05-sealed-partition.json",
+      "scene_hash": "e08eefa43c41d6a989277bc7f236543276e75fced359012eef699e416c952677",
+      "scene_id": "ref-05-sealed-partition",
+      "sha256": "e08eefa43c41d6a989277bc7f236543276e75fced359012eef699e416c952677"
+    },
+    {
+      "file": "ref-06-minimal-smoke.json",
+      "scene_hash": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898",
+      "scene_id": "ref-06-minimal-smoke",
+      "sha256": "02a290712c0aaa16a42b144c0dc8a85ba6054f3c922d55892486a9cfa2124898"
+    }
+  ],
+  "set_version": "reference_v1"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "run_id": "20261003T162226Z_0089b332210b",
+  "recovery_checks": [
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 2
+    },
+    {
+      "full_payload_equal": true,
+      "state_equal": true,
+      "update": 3
+    }
+  ],
+  "checkpoint_identity_mismatch_rejected": true,
+  "export_payloads_verified": 22,
+  "package_payloads_verified": 51,
+  "controlled_seconds": 43.59399999998277,
+  "gpu_recovery_verified": false,
+  "paid_run_started": false,
+  "verification_incident": "First independent restore correctly refused absent CUBLAS_WORKSPACE_CONFIG. Rechecked with identical runtime environment; no checkpoint or code changes."
+}

@@ -1,0 +1,82 @@
+{
+  "case": "g1-offset_interfaces-y0-v32",
+  "steps": 64,
+  "request": 0.32,
+  "score": {
+    "version": "massing_targets_v1",
+    "spec": {
+      "min_volume_fraction": 0.08,
+      "max_volume_fraction": 0.4,
+      "min_cube_m": 2.4,
+      "min_bulk_fraction": 0.9,
+      "min_third_fraction": 0.08,
+      "max_facade_fraction": 0.15
+    },
+    "voxel_size_m": 0.8,
+    "resolved_cube_width_cells": 3,
+    "resolved_cube_width_m": 2.4000000000000004,
+    "occupied_voxels": 108,
+    "gross_volume_m3": 55.296000000000014,
+    "domain_voxels": 5424,
+    "volume_fraction": 0.01991150442477876,
+    "bulk_voxels": 63,
+    "bulk_fraction": 0.5833333333333334,
+    "thirds": [
+      {
+        "domain_cells": 1704,
+        "bulk_cells": 36,
+        "fraction": 0.02112676056338028
+      },
+      {
+        "domain_cells": 2016,
+        "bulk_cells": 27,
+        "fraction": 0.013392857142857142
+      },
+      {
+        "domain_cells": 1704,
+        "bulk_cells": 0,
+        "fraction": 0.0
+      }
+    ],
+    "raw_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "bulk_interface_hits": {
+      "E_west": false,
+      "E_east": false
+    },
+    "unreached_occupied_voxels": 108,
+    "unreached_bulk_voxels": 63,
+    "facade_contact_fraction": 0.018518518518518517,
+    "facade_excess": 0.0,
+    "illegal_voxels": 0,
+    "protected_blocked_voxels": 0,
+    "outside_domain_voxels": 0,
+    "support": {
+      "material_voxels": 108,
+      "unsupported_voxels": 0,
+      "supported_fraction": 1.0,
+      "nonempty": true,
+      "interpretation": "geometric connectivity only"
+    },
+    "context_bulk_interfaces_connectable": true,
+    "context_necessary_checks_pass": true,
+    "family_pass": {
+      "access": false,
+      "coverage": false,
+      "facade": true,
+      "ground": true,
+      "legality": true,
+      "sparsity": false,
+      "spill": true,
+      "support": true,
+      "thickness": false
+    },
+    "contract_pass": false,
+    "interpretation": "Pilot binary massing contract, not trained loss, architectural quality, interior circulation or structural certification."
+  },
+  "absolute_fraction_error": 0.30008849557522127,
+  "teacher_iou": 0.06221198156682028,
+  "forward_seconds": 1.7517645999905653
+}

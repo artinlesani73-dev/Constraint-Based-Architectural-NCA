@@ -1,0 +1,168 @@
+{
+  "saved_fields_only": true,
+  "no_new_inference": true,
+  "training_elevation_pairs": [
+    {
+      "scene": "g1-aligned-y0",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-aligned-y2",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-aligned-y4",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-wide_gap-y0",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-wide_gap-y2",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-wide_gap-y4",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-partial_obstruction-y0",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-partial_obstruction-y2",
+      "z": [
+        8,
+        8
+      ]
+    },
+    {
+      "scene": "g1-partial_obstruction-y4",
+      "z": [
+        8,
+        8
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "case": "g1-raised_pair-0-v16",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-raised_pair-0-v24",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-raised_pair-0-v32",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-raised_pair-1-v16",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-raised_pair-1-v24",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-raised_pair-1-v32",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v16",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v24",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-0-v32",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v16",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 2
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v24",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 2
+      }
+    },
+    {
+      "case": "g1-unequal_building_heights-1-v32",
+      "prefix64_equal": true,
+      "nearest_occupied_to_interface_center_manhattan_cells": {
+        "E_west": 0,
+        "E_east": 0
+      }
+    }
+  ],
+  "all_context_necessary_checks_pass": true
+}
