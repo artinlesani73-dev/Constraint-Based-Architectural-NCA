@@ -1,5 +1,21 @@
 # Next-phase implementation plan
 
+## R3 32/40-cell studio completed — 2026-10-06
+
+Supersedes the previous "next:40-cell studio" instruction. Separate app on loopback8019;
+Classic/Graphite/Porcelain retained. Dimension-aware rendering, editor bounds, strict32/40
+validation, effective per-run config and saved/revisited geometry implemented. Only the
+previously benchmarked40-cell site is newly exposed; arbitrary-site generalization is unproven.
+Two bounded CPU integration runs pass: both R3 horizons exactly reproduce October4 scale
+fixtures. Invalid sizes rejected before jobs; incomplete40-cell draft round-trip verified;
+all three skins visually inspected. Scientific source and weights unchanged.
+See R3_SCALE_STUDIO.md and experiments/reports/R3-scale-studio-2026-10-06.json.
+Runtime .local-artifacts/r3-scale-studio-2026-10-06; source experimental/r3-scale-studio.
+Next: broaden supported site geometry with a bounded implementation and consolidated check,
+then diversity/model-contribution comparisons. Keep all evidence and nine families.
+No active training, paid compute, Drive operation, push or MG7 replacement.
+
+
 ## Repository recovery — 2026-10-04 (current status)
 
 This entry supersedes the older D098 next-action instructions below; those entries remain historical evidence.

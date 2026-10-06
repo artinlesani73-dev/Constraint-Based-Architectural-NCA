@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "grid": 32,
+      "id": "d71b4acf1c9044f9a4fd3632cc05deb9",
+      "R3_both_horizons_exact_baseline_parity": true,
+      "status": {
+        "id": "d71b4acf1c9044f9a4fd3632cc05deb9",
+        "state": "completed",
+        "message": "Saved. R3 passed the per-run checks.",
+        "updated": "2026-10-06T20:38:10.518327+00:00"
+      },
+      "result": {
+        "G10": 0.0014419610670511895,
+        "R3": 0.0
+      }
+    },
+    {
+      "grid": 40,
+      "id": "d9513132246e4021833215d4e84332ca",
+      "R3_both_horizons_exact_baseline_parity": true,
+      "status": {
+        "id": "d9513132246e4021833215d4e84332ca",
+        "state": "completed",
+        "message": "Saved. R3 passed the per-run checks.",
+        "updated": "2026-10-06T20:38:43.017389+00:00"
+      },
+      "result": {
+        "G10": 0.0,
+        "R3": 0.0
+      }
+    }
+  ],
+  "failures": [],
+  "unsupported_rejected": {
+    "error": "Custom sites require a 32 or 40 cell grid, 0.8m voxels, a 6-cell street band and no relaxations."
+  },
+  "mismatch_rejected": {
+    "error": "Edited geometry must match the selected site size."
+  },
+  "draft_40_incomplete_roundtrip": "8a6e7796077448a5bb63cf1b3a9b1934",
+  "passed": true,
+  "scientific_source_unchanged": true,
+  "visual_review": {
+    "skins": [
+      "classic",
+      "graphite",
+      "porcelain"
+    ],
+    "grid": 40,
+    "saved_run_edit_restored": true,
+    "editor_max": 40,
+    "screenshot": "C:\\Users\\artin\\Documents\\Codex\\outputs\\R3-Scale-Studio-2026-10-06\\graphite-40.png"
+  },
+  "limitations": "Two deterministic exposed-fixture integration runs, one per grid. No new generalization claim, training or broad performance assessment."
+}
