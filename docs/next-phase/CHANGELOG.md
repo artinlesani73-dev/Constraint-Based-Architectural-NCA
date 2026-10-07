@@ -1952,3 +1952,20 @@ Next freeze a consolidated diversity/model-contribution comparison, then evaluat
 proposing further training. Arbitrary orientations/multiple interfaces remain unsupported.
 No active training or generation; local server may remain on8020. No Drive,push or MG7 change.
 
+
+
+## R3 contribution comparison frozen — 2026-10-08
+
+Protocol: experiments/reports/R3-contribution-protocol-2026-10-08.json.
+Four exposed sites (32 reference,40 courtyard,40 obstacle,40 full barrier), seeds2102/2103,
+24%,128steps,original route. Compare raw G10,R3,and constant-positive-score R3 admission
+with zero hidden updates. This neutral baseline is not MG7 or witness-only; it removes
+both neural eligibility filtering and learned ranking. No training or architecture adoption.
+Each site worker capped180s,total900s,no automatic retry. Controller/run evidence:
+.local-artifacts/r3-contribution-2026-10-08. Before resuming inspect controller.json;
+never overwrite an existing attempt. Source/model/input manifest frozen before execution.
+Report all requests, separate expected blocked nonoutputs, assess validity, seed diversity
+and paired field differences. Matching validity does not prove equal architectural quality.
+Next execute scripts/r3_contribution_study.py run, then analyze and visually inspect fields.
+No new paid run,Drive,push or studio replacement.
+

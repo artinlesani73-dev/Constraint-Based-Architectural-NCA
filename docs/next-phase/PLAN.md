@@ -1,5 +1,21 @@
 # Next-phase implementation plan
 
+## R3 contribution comparison frozen — 2026-10-08
+
+Protocol: experiments/reports/R3-contribution-protocol-2026-10-08.json.
+Four exposed sites (32 reference,40 courtyard,40 obstacle,40 full barrier), seeds2102/2103,
+24%,128steps,original route. Compare raw G10,R3,and constant-positive-score R3 admission
+with zero hidden updates. This neutral baseline is not MG7 or witness-only; it removes
+both neural eligibility filtering and learned ranking. No training or architecture adoption.
+Each site worker capped180s,total900s,no automatic retry. Controller/run evidence:
+.local-artifacts/r3-contribution-2026-10-08. Before resuming inspect controller.json;
+never overwrite an existing attempt. Source/model/input manifest frozen before execution.
+Report all requests, separate expected blocked nonoutputs, assess validity, seed diversity
+and paired field differences. Matching validity does not prove equal architectural quality.
+Next execute scripts/r3_contribution_study.py run, then analyze and visually inspect fields.
+No new paid run,Drive,push or studio replacement.
+
+
 ## Editable surrounding blocks completed — 2026-10-08
 
 Studio8020: two opposing primary buildings plus up to four editable surrounding context

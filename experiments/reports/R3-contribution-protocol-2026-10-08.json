@@ -1,0 +1,421 @@
+{
+  "protocol": {
+    "version": "r3-neutral-selection-v1",
+    "date": "2026-10-08",
+    "sites": [
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "scale-32",
+        "description": "User-edited local geometry",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              7
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              26
+            ],
+            "gap_facing_x": 7,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              24,
+              32
+            ],
+            "y": [
+              6,
+              26
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 24,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 7,
+            "y": 13,
+            "z": 9
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 22,
+            "y": 16,
+            "z": 12
+          }
+        ],
+        "notes": [
+          "Exploratory edited site; not a held-out evaluation case."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "site-staggered-court-40",
+        "description": "Staggered facing pair with two surrounding context blocks",
+        "grid_size": 40,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              9
+            ],
+            "y": [
+              4,
+              28
+            ],
+            "z": [
+              0,
+              26
+            ],
+            "gap_facing_x": 9,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              30,
+              40
+            ],
+            "y": [
+              12,
+              38
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 30,
+            "side": "right"
+          },
+          {
+            "id": "B_north_wing",
+            "x": [
+              13,
+              17
+            ],
+            "y": [
+              6,
+              14
+            ],
+            "z": [
+              0,
+              22
+            ],
+            "side": null,
+            "gap_facing_x": null
+          },
+          {
+            "id": "B_south_wing",
+            "x": [
+              22,
+              26
+            ],
+            "y": [
+              27,
+              35
+            ],
+            "z": [
+              0,
+              20
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 9,
+            "y": 16,
+            "z": 9
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 28,
+            "y": 20,
+            "z": 12
+          }
+        ],
+        "notes": [
+          "Frozen exploratory development fixture before generation; not held-out evaluation."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "site-offset-obstacle-40",
+        "description": "Offset connections and a tall partial obstruction",
+        "grid_size": 40,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              9
+            ],
+            "y": [
+              8,
+              32
+            ],
+            "z": [
+              0,
+              26
+            ],
+            "gap_facing_x": 9,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              30,
+              40
+            ],
+            "y": [
+              8,
+              32
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 30,
+            "side": "right"
+          },
+          {
+            "id": "B_obstacle",
+            "x": [
+              18,
+              21
+            ],
+            "y": [
+              15,
+              22
+            ],
+            "z": [
+              0,
+              24
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 9,
+            "y": 13,
+            "z": 9
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 28,
+            "y": 25,
+            "z": 12
+          }
+        ],
+        "notes": [
+          "Frozen exploratory development fixture before generation; not held-out evaluation."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "site-blocked-gap-40",
+        "description": "Full-height wall separating the two connection faces; expected no certified route",
+        "grid_size": 40,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              9
+            ],
+            "y": [
+              8,
+              32
+            ],
+            "z": [
+              0,
+              26
+            ],
+            "gap_facing_x": 9,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              30,
+              40
+            ],
+            "y": [
+              8,
+              32
+            ],
+            "z": [
+              0,
+              25
+            ],
+            "gap_facing_x": 30,
+            "side": "right"
+          },
+          {
+            "id": "B_barrier",
+            "x": [
+              19,
+              22
+            ],
+            "y": [
+              0,
+              40
+            ],
+            "z": [
+              0,
+              40
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 9,
+            "y": 16,
+            "z": 9
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 28,
+            "y": 20,
+            "z": 12
+          }
+        ],
+        "notes": [
+          "Frozen exploratory development fixture before generation; not held-out evaluation."
+        ]
+      }
+    ],
+    "seeds": [
+      2102,
+      2103
+    ],
+    "request": 0.24,
+    "steps": 128,
+    "horizons": [
+      64,
+      128
+    ],
+    "route": "original",
+    "methods": [
+      "G10",
+      "R3",
+      "neutral"
+    ],
+    "neutral_definition": "Unchanged R3 planner and admission. Replace learned network output with constant occupancy logit +1 and seven zero hidden updates; q=sigmoid(1)>0.5. Equal scores tie-break by flattened origin index. Same per-case firing seed and RNG draws. Not MG7, not witness-only, not a score-ranking-only intervention.",
+    "measurements": [
+      "nine families at64/128",
+      "absolute requested-volume error",
+      "late growth fraction",
+      "paired method Jaccard at128",
+      "seed-pair Jaccard at128 per site/method",
+      "occupied bounding extent zyx",
+      "rollout wall seconds (single samples, no performance claim)"
+    ],
+    "gates": {
+      "absolute_volume_error_max": 0.04,
+      "late_growth_max": 0.05,
+      "all_nine_both_horizons": true
+    },
+    "interpretation": "Exposed development geometries; two firing seeds are correlated repeats, not independent sites. Blocked requests count as no output, separately from feasible-site validity. No parameter tuning, best-of-N selection, extra retries or automatic adoption.",
+    "decision_rule": "If neutral matches R3 validity on all certified requests, neural selection is not demonstrated necessary for validity here. Occupancy differences alone establish influence, not architectural superiority. Need later broader comparisons and human form review before adoption/training.",
+    "limits": {
+      "worker_seconds": 180,
+      "total_seconds": 900,
+      "device": "cpu",
+      "threads": 2
+    },
+    "references": {
+      "scale-32": {
+        "run": "62c8485628b74c22bb6cf10dad382118",
+        "fields_sha256_bool_bytes": {
+          "G10-128": "4e37a687e1184ae7b602896bb1df35e167d04ff01101b4de424b9c7f496c4441",
+          "G10-64": "0ecd176f248c53f9ed1fea12dd164f49a7827f9fde5c9be0b92101708d20ed64",
+          "R3-128": "7497e66ec2db88d0e002d6d04d288cb0860deac3509c9e14dd0cf6596a5cb09a",
+          "R3-64": "7497e66ec2db88d0e002d6d04d288cb0860deac3509c9e14dd0cf6596a5cb09a"
+        }
+      },
+      "site-staggered-court-40": {
+        "run": "957327d1ee4449cf99e4c41159517e0f",
+        "fields_sha256_bool_bytes": {
+          "G10-128": "d38abe6de46cf6fd221d1fed34bfecb14048f5bd79a44d11eb5fb7de7583acff",
+          "G10-64": "d38abe6de46cf6fd221d1fed34bfecb14048f5bd79a44d11eb5fb7de7583acff",
+          "R3-128": "410dc77a40ea7f0d19aea040097e7ccd183dfd7b8f42957fa613c5362a1a191a",
+          "R3-64": "410dc77a40ea7f0d19aea040097e7ccd183dfd7b8f42957fa613c5362a1a191a"
+        }
+      },
+      "site-offset-obstacle-40": {
+        "run": "9fd1f48db53742968cdd5b4fed64aa72",
+        "fields_sha256_bool_bytes": {
+          "G10-128": "5bf20db42f427529251da07bb5c554498750a9f7c1abdfef4f45952aa6f5b1f4",
+          "G10-64": "c872f611e0e66350f1ef1617bff32dd422b64ffc2517843890b98085948fb538",
+          "R3-128": "f00f5ad6a2c4766ed66d80b4daa467dcdef9801e5491ca3a04f71c3e95d1a89b",
+          "R3-64": "f00f5ad6a2c4766ed66d80b4daa467dcdef9801e5491ca3a04f71c3e95d1a89b"
+        }
+      },
+      "site-blocked-gap-40": {
+        "run": "c34b8f5553944f37869f06bb7d8fa4d9",
+        "fields_sha256_bool_bytes": {
+          "G10-128": "868c436fb4a7039bec85cdc5ed4d706eca897fc954d58f88152bd1b78cbd42bd",
+          "G10-64": "7eee3b0a03aab85c005bfd74e79c1c450124bcc7c9bc016be5885f779f1e3192"
+        }
+      }
+    }
+  },
+  "input_manifest_sha256": "81dd4d3f3b8581f3c3f6dcc049824b08a84c611252343ad407ea846a0f7c0ba0",
+  "artifact_root": "C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.local-artifacts\\r3-contribution-2026-10-08"
+}
