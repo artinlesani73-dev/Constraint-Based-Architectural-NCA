@@ -1,5 +1,34 @@
 # Resume the NCA next phase
 
+## Contribution comparison complete — 2026-10-08
+
+Supersedes the earlier partial/in-progress next actions below. All24 slots accounted
+for,20 outputs plus4 certified refusals; original15 retained and missing9 completed.
+R3 and neutral6/6 feasible accepted, rawG10 4/6. Mean feasible seed Jaccard distance
+R3 .20500,neutral .02925,G10 .23871. Learning affects form/variation; necessity for
+geometric gate passing and architectural superiority not established. Three exact
+saved-array/metric parity checks precede missing cases. No allocation failures in v2.
+See R3_CONTRIBUTION_COMPLETE.md and experiments/reports/R3-contribution-complete-2026-10-08.json.
+Evidence .local-artifacts/r3-contribution-continuation-v2-2026-10-08; controller complete.
+No active comparison. Do not rerun the completed runner or overwrite either attempt.
+Next freeze one consolidated previously unused-site comparison of G10/R3/neutral
+within supported32/40 geometry, with diversity, validity, runtime and peak memory.
+Do not tune on that set; all cases become exposed after evaluation. No new training
+justified yet. Keep R3 experimental,neutral baseline,MG7 production and all nine families.
+No Drive,push or studio change. Archive local only; off-device backup pending permission.
+
+## Contribution continuation v2 in progress — 2026-10-08
+
+User authorized continuation. scripts/continue_r3_contribution.py isolates one
+method/seed per process and omits only unused G10 proposal/candidate histories.
+Original source, model, protocol and failed evidence stay unchanged. All three
+case2 seed2102 parity checks passed for every saved array and metric.
+Current evidence: .local-artifacts/r3-contribution-continuation-v2-2026-10-08.
+Inspect controller.json and live process before any action; run refuses overwrite.
+After completed: .venv/Scripts/python.exe scripts/analyze_r3_continuation.py,
+then render_r3_contribution_complete.py, document, archive and locally commit.
+Original memory failure cause remains uncertain; retention reduced, not proven leak.
+
 ## Contribution comparison stopped; partial evidence preserved — 2026-10-08
 
 15/24 planned outputs evaluated before CPU allocation failure in case2,G10 seed2103.
