@@ -1948,3 +1948,19 @@ and paired field differences. Matching validity does not prove equal architectur
 Next execute scripts/r3_contribution_study.py run, then analyze and visually inspect fields.
 No new paid run,Drive,push or studio replacement.
 
+
+
+## Contribution comparison stopped; partial evidence preserved — 2026-10-08
+
+15/24 planned outputs evaluated before CPU allocation failure in case2,G10 seed2103.
+Completed: R3 and neutral5/5 accepted,rawG10 4/5. TWO complete seed pairs give mean voxel
+Jaccard variation R3 .19127 vs neutral .03172. Neural contribution to form/variation observed;
+necessity for passing geometric gates not demonstrated here. Not an architectural-quality
+or broad-generalization result. No automatic retry; nine method/request slots missing.
+Read R3_CONTRIBUTION_PARTIAL.md and experiments/reports/R3-contribution-results-2026-10-08.json.
+Evidence .local-artifacts/r3-contribution-2026-10-08; controller stopped, no active comparison.
+Next diagnose memory/capture retention, prepare separately versioned memory-bounded runner,
+verify parity and then complete missing comparisons without changing the frozen science.
+Do not overwrite this attempt or describe the study as complete. Studio8020 unchanged.
+No paid training,Drive,push,MG7 replacement or architectural-constraint change.
+
