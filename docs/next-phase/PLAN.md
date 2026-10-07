@@ -1,5 +1,20 @@
 # Next-phase implementation plan
 
+## Editable surrounding blocks completed — 2026-10-08
+
+Studio8020: two opposing primary buildings plus up to four editable surrounding context
+blocks,32/40grids,.8m. Saved/incomplete drafts and run revisit preserve block geometry.
+Three frozen new development fixtures: courtyard and partial obstacle pass R3 per-run gates;
+full barrier correctly produces no certified R3.32reference all four output fields exact.
+First startup/checker attempt failed before any job; retained. Second four-case integration
+completed; all manifests verified. Scientific source/weights and nine families unchanged.
+See R3_SITE_STUDIO.md and experiments/reports/R3-site-studio-2026-10-08.json.
+Source experimental/r3-site-studio; runtime .local-artifacts/r3-site-studio-2026-10-08.
+Next freeze a consolidated diversity/model-contribution comparison, then evaluate before
+proposing further training. Arbitrary orientations/multiple interfaces remain unsupported.
+No active training or generation; local server may remain on8020. No Drive,push or MG7 change.
+
+
 ## R3 32/40-cell studio completed — 2026-10-06
 
 Supersedes the previous "next:40-cell studio" instruction. Separate app on loopback8019;
