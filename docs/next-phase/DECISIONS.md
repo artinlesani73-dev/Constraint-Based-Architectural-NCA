@@ -1983,3 +1983,39 @@ Do not tune on that set; all cases become exposed after evaluation. No new train
 justified yet. Keep R3 experimental,neutral baseline,MG7 production and all nine families.
 No Drive,push or studio change. Archive local only; off-device backup pending permission.
 
+
+
+## Prospective transfer comparison frozen — 2026-10-08
+
+Four new authored layouts: narrow offset32, flanking blocks32, raised obstacle40,
+and sealed gap40. Two seeds2201/2202, three fixed methods G10/R3/neutral,24 slots.
+Same .24 request,128steps,64/128 gates,nine families,float32 CPU2threads.
+No generation-informed selection or tuning. Exact geometry differs from previous
+four contribution sites; no exhaustive training-history exclusion claim.
+Windows peak process working set/commit and rollout wall time recorded together.
+Inputs/model/code copied and hash frozen before execution. Per-slot180s,total1200s.
+Run: .venv/Scripts/python.exe scripts/r3_transfer_study.py run
+Evidence .local-artifacts/r3-transfer-v1-2026-10-08. Inspect controller before resuming;
+never overwrite or automatically rerun. After completion analyze every slot, archive,
+update findings and locally commit. No Drive,paid compute,push,studio or MG7 change.
+
+
+
+## Prospective transfer comparison completed — 2026-10-08
+
+All24 slots complete:20 outputs plus4 certified refusals; no errors/timeouts/retries.
+R3 and neutral6/6 accepted on3 certified sites;rawG10 2/6. Both planner versions
+refuse the sealed site for both seeds. R3 seed Jaccard .25442 vs neutral .03677.
+Learning affects form but is not demonstrated necessary for passing the nine gates.
+R3 rollout5.78–12.02s,peak worker working set257.7–307.4MiB;commit604–691MiB.
+See R3_TRANSFER_RESULTS.md and experiments/reports/R3-transfer-results-2026-10-08.json.
+All new authored layouts frozen before generation; no exhaustive training exclusion
+claim and now exposed. Source/model unchanged. Evidence .local-artifacts/r3-transfer-v1-2026-10-08.
+Controller completed; no active study. Archive in Documents/Codex/outputs/R3-Transfer-2026-10-08.
+Next close studio workflow/export gaps in a separate version, retaining all three
+skins and scientific identity: inspect existing behavior, implement only missing
+save/reopen/export pieces, then one generation-save-reopen-export check. No further
+scientific sweep or new paid training proposed. Follow with local release packaging.
+No Drive,push,MG7 replacement or changes to studio8020 in this milestone.
+This supersedes previous instructions to run the transfer study; never overwrite it.
+

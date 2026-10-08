@@ -1,0 +1,390 @@
+{
+  "protocol": {
+    "version": "r3-transfer-v1",
+    "date": "2026-10-08",
+    "sites": [
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "transfer-narrow-offset-32",
+        "description": "transfer-narrow-offset-32",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              9
+            ],
+            "y": [
+              3,
+              27
+            ],
+            "z": [
+              0,
+              24
+            ],
+            "gap_facing_x": 9,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              23,
+              32
+            ],
+            "y": [
+              5,
+              30
+            ],
+            "z": [
+              0,
+              28
+            ],
+            "gap_facing_x": 23,
+            "side": "right"
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 9,
+            "y": 10,
+            "z": 8
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 21,
+            "y": 19,
+            "z": 14
+          }
+        ],
+        "notes": [
+          "Prospectively authored transfer fixture, frozen before generation. No tuning or replacement based on outcomes."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "transfer-flanking-blocks-32",
+        "description": "transfer-flanking-blocks-32",
+        "grid_size": 32,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              6
+            ],
+            "y": [
+              2,
+              27
+            ],
+            "z": [
+              0,
+              27
+            ],
+            "gap_facing_x": 6,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              25,
+              32
+            ],
+            "y": [
+              4,
+              31
+            ],
+            "z": [
+              0,
+              24
+            ],
+            "gap_facing_x": 25,
+            "side": "right"
+          },
+          {
+            "id": "B_context_0",
+            "x": [
+              11,
+              15
+            ],
+            "y": [
+              4,
+              10
+            ],
+            "z": [
+              0,
+              20
+            ],
+            "side": null,
+            "gap_facing_x": null
+          },
+          {
+            "id": "B_context_1",
+            "x": [
+              18,
+              22
+            ],
+            "y": [
+              24,
+              29
+            ],
+            "z": [
+              0,
+              22
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 6,
+            "y": 14,
+            "z": 11
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 23,
+            "y": 17,
+            "z": 9
+          }
+        ],
+        "notes": [
+          "Prospectively authored transfer fixture, frozen before generation. No tuning or replacement based on outcomes."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "transfer-raised-obstacle-40",
+        "description": "transfer-raised-obstacle-40",
+        "grid_size": 40,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              8
+            ],
+            "y": [
+              3,
+              35
+            ],
+            "z": [
+              0,
+              30
+            ],
+            "gap_facing_x": 8,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              31,
+              40
+            ],
+            "y": [
+              6,
+              38
+            ],
+            "z": [
+              0,
+              29
+            ],
+            "gap_facing_x": 31,
+            "side": "right"
+          },
+          {
+            "id": "B_context_0",
+            "x": [
+              18,
+              22
+            ],
+            "y": [
+              17,
+              23
+            ],
+            "z": [
+              0,
+              26
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 8,
+            "y": 11,
+            "z": 15
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 29,
+            "y": 26,
+            "z": 18
+          }
+        ],
+        "notes": [
+          "Prospectively authored transfer fixture, frozen before generation. No tuning or replacement based on outcomes."
+        ]
+      },
+      {
+        "contract_version": "scene_v1",
+        "scene_id": "transfer-sealed-gap-40",
+        "description": "transfer-sealed-gap-40",
+        "grid_size": 40,
+        "voxel_size_m": 0.8,
+        "street_levels": 6,
+        "ceiling_z": null,
+        "legacy_relaxations": [],
+        "buildings": [
+          {
+            "id": "B_west",
+            "x": [
+              0,
+              10
+            ],
+            "y": [
+              4,
+              36
+            ],
+            "z": [
+              0,
+              28
+            ],
+            "gap_facing_x": 10,
+            "side": "left"
+          },
+          {
+            "id": "B_east",
+            "x": [
+              29,
+              40
+            ],
+            "y": [
+              2,
+              38
+            ],
+            "z": [
+              0,
+              30
+            ],
+            "gap_facing_x": 29,
+            "side": "right"
+          },
+          {
+            "id": "B_context_0",
+            "x": [
+              20,
+              23
+            ],
+            "y": [
+              0,
+              40
+            ],
+            "z": [
+              0,
+              40
+            ],
+            "side": null,
+            "gap_facing_x": null
+          }
+        ],
+        "entrances": [
+          {
+            "id": "E_west",
+            "kind": "facade",
+            "extent": 2,
+            "x": 10,
+            "y": 12,
+            "z": 10
+          },
+          {
+            "id": "E_east",
+            "kind": "facade",
+            "extent": 2,
+            "x": 27,
+            "y": 24,
+            "z": 15
+          }
+        ],
+        "notes": [
+          "Prospectively authored transfer fixture, frozen before generation. No tuning or replacement based on outcomes."
+        ]
+      }
+    ],
+    "seeds": [
+      2201,
+      2202
+    ],
+    "request": 0.24,
+    "steps": 128,
+    "horizons": [
+      64,
+      128
+    ],
+    "route": "original",
+    "methods": [
+      "G10",
+      "R3",
+      "neutral"
+    ],
+    "neutral_definition": "Unchanged R3 planner and admission. Replace learned network output with constant occupancy logit +1 and seven zero hidden updates; q=sigmoid(1)>0.5. Equal scores tie-break by flattened origin index. Same per-case firing seed and RNG draws. Not MG7, not witness-only, not a score-ranking-only intervention.",
+    "measurements": [
+      "nine families at64/128",
+      "absolute requested-volume error",
+      "late growth fraction",
+      "paired method Jaccard at128",
+      "seed-pair Jaccard at128 per site/method",
+      "occupied bounding extent zyx",
+      "rollout wall seconds (single samples, no performance claim)"
+    ],
+    "gates": {
+      "absolute_volume_error_max": 0.04,
+      "late_growth_max": 0.05,
+      "all_nine_both_horizons": true
+    },
+    "interpretation": "Exposed development geometries; two firing seeds are correlated repeats, not independent sites. Blocked requests count as no output, separately from feasible-site validity. No parameter tuning, best-of-N selection, extra retries or automatic adoption.",
+    "decision_rule": "No tuning or case replacement. If R3 fails feasible cases, inspect cause before release or training. If neutral matches validity, continue to describe learning as form selection rather than necessary constraint satisfaction.",
+    "limits": {
+      "worker_seconds": 180,
+      "total_seconds": 1200,
+      "device": "cpu",
+      "threads": 2
+    },
+    "references": {},
+    "parent_manifest_sha256": "81dd4d3f3b8581f3c3f6dcc049824b08a84c611252343ad407ea846a0f7c0ba0",
+    "novelty": "New authored fixtures, exact geometry differs from preceding contribution fixtures. Not an exhaustive training-history exclusion audit or statistically independent benchmark.",
+    "classification": "Report certification separately from acceptance. Intended sealed barrier kept regardless of result; retain every other failure/refusal.",
+    "measurement_scope": "Rollout wall time from original runner; Windows peak working set/commit for whole fresh worker, includes setup and capture. No GPU extrapolation."
+  },
+  "input_manifest_sha256": "02bb688db86c11b125f09cddd990949c6d945b545193b44192ed74a40f0c875a",
+  "artifact_root": "C:\\LAB\\ai-aec-playground\\PROJECTS\\Constraint-Based-Architectural-NCA\\.local-artifacts\\r3-transfer-v1-2026-10-08"
+}
