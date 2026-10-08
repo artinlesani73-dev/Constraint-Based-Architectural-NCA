@@ -2038,3 +2038,20 @@ Next reproducible local release packaging/launch instructions/preserved results
 and drafts, then final handover. No more scientific sweep or paid training planned.
 No Drive,push,MG7 replacement or publication. Local archive only.
 
+
+
+## Local release1 ready — 2026-10-08
+
+Local evaluation/workflow/release milestone complete. See R3_LOCAL_RELEASE.md.
+Ready folder C:/Users/artin/Documents/Codex/outputs/NCA-Studio-Local-Release-1/NCA-Studio
+Double-click START-STUDIO.cmd; existing project Python required; default8022.
+ZIP10,760,503bytes,402payloads,15 runs/6 drafts,hash verified. Same-Windows rebuild
+exact after correcting verifier sort order; source ZIP unchanged. Fresh-copy startup,
+history,reopen,export,draft-save and CMD preflight passed. No generation/training.
+Smoke server stopped; original8021 unchanged. Build .local-artifacts/r3-local-release-2026-10-08;
+check .local-artifacts/r3-release-smoke-2026-10-08. Never overwrite completed artifacts.
+New results/drafts stay in app/. Preserve whole folder on upgrade. Not standalone.
+Next user acceptance and fixes for specific observed issues; publication/production
+requires separate scope decision. No automatic extra science tests or paid training.
+MG7 unchanged; no push,Drive or public deployment. Same-disk copy only.
+
