@@ -1,5 +1,22 @@
 # Resume the NCA next phase
 
+## Studio save/reopen/export completed — 2026-10-08
+
+Separate studio8021, all three skins preserved; old8020 remains untouched.
+Added persistent run links and verified ZIP downloads with exact metre-scale OBJ,
+scene,seed,model identity,trajectories,metrics and per-model acceptance. Failed
+outputs labelled,missing R3 not fabricated. Draft/history retained. One browser
+run8f11090ceaef4f618f853acddb7c4988 reproduces all four reference fields exactly.
+Browser save/restore,download,reload,skin persistence verified. Export surface
+count,bounds,signed volume and all25 hashes checked; corruption rejected.
+See R3_WORKFLOW_STUDIO.md for limitations, initial fixes and complete evidence.
+Source experimental/r3-workflow-studio; runtime .local-artifacts/r3-workflow-studio-2026-10-08.
+Start .venv/Scripts/python.exe .local-artifacts/r3-workflow-studio-2026-10-08/server.py
+Server may remain on8021; no active generation. Do not overwrite runtime or checks.
+Next reproducible local release packaging/launch instructions/preserved results
+and drafts, then final handover. No more scientific sweep or paid training planned.
+No Drive,push,MG7 replacement or publication. Local archive only.
+
 ## Prospective transfer comparison completed — 2026-10-08
 
 All24 slots complete:20 outputs plus4 certified refusals; no errors/timeouts/retries.
