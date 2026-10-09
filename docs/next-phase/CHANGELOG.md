@@ -2084,3 +2084,7 @@ No new generation, training, cloud access or publication. Release1 and saved evi
 
 Next: user tries the packaged studio and supplies concrete usability/design feedback. Fix observed issues in a separately versioned release; preserve release1 and all runs/drafts. Public deployment or model promotion needs a separately defined scope; MG7 remains production. No further automatic scientific sweep planned.
 
+## Private research studio selected — 2026-10-09
+
+User selected private research studio. See PRIVATE_RESEARCH_STUDIO.md for baseline inspection, five implementation steps, boundaries and completion criteria. Preserve release1; next implement explicit persistent-data storage in a separately versioned app. Local-only versus remote personal access is pending clarification. No hosting purchase/upload/deployment authorization inferred. No model changes or extra scientific sweep. Drive permission rule remains unchanged.
+

@@ -1,5 +1,10 @@
 # Next-phase implementation plan
 
+## Private research studio selected — 2026-10-09
+
+User selected private research studio. See PRIVATE_RESEARCH_STUDIO.md for baseline inspection, five implementation steps, boundaries and completion criteria. Preserve release1; next implement explicit persistent-data storage in a separately versioned app. Local-only versus remote personal access is pending clarification. No hosting purchase/upload/deployment authorization inferred. No model changes or extra scientific sweep. Drive permission rule remains unchanged.
+
+
 ## Packaged studio review — 2026-10-09
 
 Delivered release1 launched on http://127.0.0.1:8022/#skin=graphite&run=8f11090ceaef4f618f853acddb7c4988 . Startup verified included files/history. Browser reopened the saved 40-cube courtyard comparison; download controls enabled. Edit selected run restored site-staggered-court-40, seed2102, 40-cube/32m editor and parent-run lineage. Initial immediate snapshot showed old inputs while the asynchronous restore was pending; subsequent completed status confirmed correct behavior. The preliminary bug diagnosis was withdrawn; no source fix or release2 required. Screenshot save initially lacked a filesystem binding; importing it and retrying succeeded.
