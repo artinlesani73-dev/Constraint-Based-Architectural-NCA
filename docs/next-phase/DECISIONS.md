@@ -2067,3 +2067,7 @@ Next: user tries the packaged studio and supplies concrete usability/design feed
 
 User selected private research studio. See PRIVATE_RESEARCH_STUDIO.md for baseline inspection, five implementation steps, boundaries and completion criteria. Preserve release1; next implement explicit persistent-data storage in a separately versioned app. Local-only versus remote personal access is pending clarification. No hosting purchase/upload/deployment authorization inferred. No model changes or extra scientific sweep. Drive permission rule remains unchanged.
 
+## Local private storage completed — 2026-10-09
+
+User confirmed local-only. See PRIVATE_STORAGE.md for commands, artifacts, failed first build and limitations. New app .local-artifacts/r3-private-storage-v2-2026-10-09; separate data .local-artifacts/r3-research-data-2026-10-09. Run launch.py with --data-dir and --port8023 using project Python. Server session64426 may remain on8023; browser saved comparison verified. Release1 and its15 runs/6 drafts retained; hash-verified copy initializes new store. Consolidated migration/restart/export/rejection check passed; no generation/model changes. Use8023 for new work;8022 saves to the older independent store. One server per data store; process lock pending. Next implement worker-process recovery before final workflow enhancements/release. No remote access, cloud, Drive, push or paid compute.
+

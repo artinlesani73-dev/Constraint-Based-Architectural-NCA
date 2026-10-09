@@ -1,6 +1,6 @@
 # Private research studio implementation plan
 
-Decision recorded 2026-10-09: user selected a private research studio rather than a public demo. Local preparation is authorized; hosting purchase, external upload, account/access changes and deployment have not been authorized. Local-only versus remote personal access is pending user clarification.
+Decision recorded 2026-10-09: user selected a private research studio rather than a public demo. Local preparation is authorized; hosting purchase, external upload, account/access changes and deployment have not been authorized. User confirmed local-only on2026-10-09; retain loopback binding.
 
 ## Baseline and boundaries
 
@@ -22,4 +22,4 @@ All existing run/draft payloads remain accounted for and hash verified. Restart 
 
 ## Next action
 
-Implement the data-directory boundary as a separate version, then consolidate recovery and workflow checks. Remote-access preference is pending; it does not block local storage work. No paid compute, cloud operation, push, model promotion or production change performed by this planning milestone.
+Implement the data-directory boundary as a separate version, then consolidate recovery and workflow checks. Local-only is confirmed. Storage boundary completed; see PRIVATE_STORAGE.md. Next implement worker-process recovery. No paid compute, cloud operation, push, model promotion or production change performed by this planning milestone.
