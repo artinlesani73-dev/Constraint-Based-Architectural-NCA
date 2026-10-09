@@ -2092,3 +2092,11 @@ User selected private research studio. See PRIVATE_RESEARCH_STUDIO.md for baseli
 
 User confirmed local-only. See PRIVATE_STORAGE.md for commands, artifacts, failed first build and limitations. New app .local-artifacts/r3-private-storage-v2-2026-10-09; separate data .local-artifacts/r3-research-data-2026-10-09. Run launch.py with --data-dir and --port8023 using project Python. Server session64426 may remain on8023; browser saved comparison verified. Release1 and its15 runs/6 drafts retained; hash-verified copy initializes new store. Consolidated migration/restart/export/rejection check passed; no generation/model changes. Use8023 for new work;8022 saves to the older independent store. One server per data store; process lock pending. Next implement worker-process recovery before final workflow enhancements/release. No remote access, cloud, Drive, push or paid compute.
 
+## Recoverable local worker completed — 2026-10-10
+
+See PRIVATE_JOBS.md. Final app .local-artifacts/r3-private-jobs-v3-2026-10-10, same research-data directory .local-artifacts/r3-research-data-2026-10-09, localhost8023. Start its launch.py with --data-dir and --port8023 using project Python. Owned earlier storage server and intermediate worker server stopped; final server session24603 may remain running. No active generation in actual research store.
+
+Final consolidated check passed at .local-artifacts/r3-private-jobs-check-v4-2026-10-10: interruption preserves partial evidence; recovery idempotent; delayed worker refuses interrupted jobs; active worker/duplicate studio refused; original history untouched; all four real32-cube fields exactly equal saved reference43182d564aa54abeb7d69c1d59752450. Parity run8cf1767e218b4ee298bc33395d7a747c is test-store-only. Earlier attempts and successful check-v3 retained; read PRIVATE_JOBS.md for fixes and limitations. Scientific source/model unchanged. One admitted worker, no numerical resume or automatic retry; new retry IDs retain parent lineage. Worker can outlive server; restart refuses while worker owns store. Do not run older apps against the same store concurrently.
+
+Next searchable research history, separate labels/notes and comparison workflow; then final package. No training, cloud, Drive, push or production change.
+
