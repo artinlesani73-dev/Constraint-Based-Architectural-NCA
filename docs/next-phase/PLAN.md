@@ -1,5 +1,14 @@
 # Next-phase implementation plan
 
+## Packaged studio review — 2026-10-09
+
+Delivered release1 launched on http://127.0.0.1:8022/#skin=graphite&run=8f11090ceaef4f618f853acddb7c4988 . Startup verified included files/history. Browser reopened the saved 40-cube courtyard comparison; download controls enabled. Edit selected run restored site-staggered-court-40, seed2102, 40-cube/32m editor and parent-run lineage. Initial immediate snapshot showed old inputs while the asynchronous restore was pending; subsequent completed status confirmed correct behavior. The preliminary bug diagnosis was withdrawn; no source fix or release2 required. Screenshot save initially lacked a filesystem binding; importing it and retrying succeeded.
+
+No new generation, training, cloud access or publication. Release1 and saved evidence unchanged. Screenshot: C:/Users/artin/Documents/Codex/outputs/NCA-Release-Review-2026-10-09/preview.png . Delivered app server may remain running on8022 (session54736); launch.py verifies baseline hashes on next startup. This is an agent workflow review, not user acceptance or architectural-quality proof.
+
+Next: user tries the packaged studio and supplies concrete usability/design feedback. Fix observed issues in a separately versioned release; preserve release1 and all runs/drafts. Public deployment or model promotion needs a separately defined scope; MG7 remains production. No further automatic scientific sweep planned.
+
+
 ## Local release1 ready — 2026-10-08
 
 Local evaluation/workflow/release milestone complete. See R3_LOCAL_RELEASE.md.
