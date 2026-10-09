@@ -19,3 +19,4 @@ Attempt history retained:
 - Final app-v3 removes potential double release of admission after worker-start failure. HTTP caller owns failed-start cleanup; watcher owns successful-start cleanup. Final consolidated check-v4 verifies the final build.
 
 No cloud, Drive, training, paid compute, push, production model change or new constraint families. Next searchable run history, separate labels/notes and comparison workflow, followed by final local package. Do not claim numerical checkpoint resume or remote authentication.
+Final live API check: initial sandbox request was denied socket access (its displayed zero count was not a data result). Retried with localhost permission: verified15 saved runs on8023.
