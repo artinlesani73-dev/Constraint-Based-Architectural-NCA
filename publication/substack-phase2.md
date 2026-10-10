@@ -52,16 +52,31 @@ The update network is small: 61 input features, a 64-channel intermediate layer 
 
 **A quick guide to the names**
 
-G8, G9 and G10 are experiment IDs for three trained candidates with the same small network architecture. The changes are in what they learn from and how the training signal updates their weights. R3 combines the frozen G10 network with explicit planning rules. The neutral control keeps those rules but removes the learned signal. These names identify versions in this project; a larger number does not mean a larger or automatically better model.
+Vega names the learned generation experiments, from Vega-01 (G1) through Vega-10 (G10). Lyra names the planner-assisted variants: Lyra-03 is the system previously called G11-R3, or R3. These are public-facing aliases; the original IDs remain in the tables and research records. A higher version number does not automatically mean a better model. The first table summarizes the earlier journey; the second introduces the methods compared in this article.
 
-| Name | Role | Short introduction |
+**The research journey: Vega-01 to Vega-07**
+
+| Name | Original ID / role | Short introduction |
 | --- | --- | --- |
-| Phase 1 | Original experiment | Constraint-only training for pavilion-like extensions. Its 500-epoch record uses historical objectives that differ from the later massing tests. |
-| G8 | Trained baseline | Learns from procedural teacher geometry using frontier classification, soft volume discrepancy and a global volume band. Reference for G9 and G10. |
-| G9 | Trained ranking variant | Adds access ranking to the G8 base objective: favor teacher-positive growth that advances a connection. Both score groups receive ranking gradients. |
-| G10 | Trained gradient variant | Uses the same ranking formula as G9, but holds the other-candidate scores fixed in that auxiliary gradient. A separately trained checkpoint. |
-| R3 | Hybrid system | Reuses frozen G10 weights and adds route planning, coverage coordination and growth guards. No additional training or separate training-loss curve. |
-| Neutral | Procedural control | Uses the R3 planner and guards with constant positive occupancy logits and zero hidden updates. No trained network signal drives its growth. |
+| Vega-01 | G1 / Seed growth | First learned generation of building volume from a small seed. |
+| Vega-02 | G2 / Growth signal | Rebalanced the training loss to encourage growth; volume control remained a problem. |
+| Vega-03 | G3 / Volume budget | Added remaining-volume feedback, a volume-band penalty and a hard admission cap. |
+| Vega-04 | G4 / Cube growth | Grew overlapping 3 x 3 x 3 cubes instead of individual cells, addressing thin additions. |
+| Vega-05 | G5 / Destination cues | Added distance and reachability cues toward the opposite interface; did not improve the tested result. |
+| Vega-06 | G6 / Paced growth | Released the volume allowance gradually so growth did not spend its budget too early. |
+| Vega-07 | G7 / Vertical variety | Broadened training examples to include more vertical variation; accuracy and stability regressed. |
+
+**The methods compared in this article**
+
+| Name | Original ID / role | Short introduction |
+| --- | --- | --- |
+| Vega-08 | G8 / Trained baseline | Increased training exposure on the broader dataset. Uses frontier classification, soft volume discrepancy and a global volume band. |
+| Vega-09 | G9 / Access ranking | Adds a learning signal favoring growth that advances an access connection. Both compared score groups receive ranking gradients. |
+| Vega-10 | G10 / Gradient variant | Uses the same ranking formula, but treats other-candidate scores as a fixed reference in that auxiliary gradient. Separately trained. |
+| Lyra-03 | G11-R3 / Hybrid system | Reuses frozen Vega-10 weights with route planning, coverage coordination and growth guards. No additional training-loss curve. |
+| Neutral | Procedural control | Keeps the Lyra-03 planner and guards, with constant positive occupancy logits and zero hidden updates. No learned signal drives growth. |
+
+Protocols evolved across the early stages. The journey table records the development history; it is not a shared benchmark leaderboard.
 
 ## What we trained and why the losses differ
 
@@ -77,17 +92,17 @@ The frontier term classifies fired eligible cube origins. The volume term compar
 
 Three later experiments help explain the progression:
 
-**G8:** Base objective with the revised exposure/start distribution. A reference for the later ranking experiments.
+**Vega-08:** Base objective with the revised exposure/start distribution. A reference for the later ranking experiments.
 
-**G9:** Base objective plus access ranking. Tests whether advancing toward access can be prioritized among teacher-positive candidates.
+**Vega-09:** Base objective plus access ranking. Tests whether advancing toward access can be prioritized among teacher-positive candidates.
 
-**G10:** The same ranking forward value, with the other-candidate reference detached. Tests whether changing the auxiliary gradient path improves the timing of growth.
+**Vega-10:** The same ranking forward value, with the other-candidate reference detached. Tests whether changing the auxiliary gradient path improves the timing of growth.
 
 All three completed 427 updates. The saved logs verify matched row choices and starting occupancy hashes. They remain one seeded comparison: their evolving predictions and hidden states differ, and they are not independent training replications.
 
 ![Later candidate training curves](figures-v4/02-candidate-training.png)
 
-*Figure 2. Each row is a trained candidate: G8, G9 or G10. Left: that candidate's recorded training objective. Right: the shared base-loss expression. Pale traces show raw updates; dark traces show trailing 25-update means. G8 has no ranking auxiliary, so the left-column totals have different objectives. The right column uses the same expression along each candidate's own trajectory, not a shared validation batch.*
+*Figure 2. Each row is a trained candidate: Vega-08, Vega-09 or Vega-10. Left: that candidate's recorded training objective. Right: the shared base-loss expression. Pale traces show raw updates; dark traces show trailing 25-update means. Vega-08 has no ranking auxiliary, so the left-column totals have different objectives. The right column uses the same expression along each candidate's own trajectory, not a shared validation batch.*
 
 The ranking term makes the difference concrete. Let $A$ be advancing teacher origins and $B$ other teacher origins among eligible fired candidates:
 
@@ -95,27 +110,27 @@ $$
 \mathcal{L}_{rank}=\log\left(1+\frac{1}{|A||B|}\sum_{a\in A}\sum_{b\in B}\exp(1+z_b-z_a)\right).
 $$
 
-When both sets exist in an active access phase, this favors advancing scores over other teacher-positive scores. G9 differentiates through both groups. G10 uses the same forward expression but treats the other scores as a fixed comparison reference in this auxiliary. That removes this term's direct gradient through $z_b$; the other scores can still change through the base objective and shared network parameters.
+When both sets exist in an active access phase, this favors advancing scores over other teacher-positive scores. Vega-09 differentiates through both groups. Vega-10 uses the same forward expression but treats the other scores as a fixed comparison reference in this auxiliary. That removes this term's direct gradient through $z_b$; the other scores can still change through the base objective and shared network parameters.
 
 ![Loss components](figures-v4/03-loss-components.png)
 
-*Figure 3. Frontier, soft-volume, band and ranking components plotted separately. G8 is omitted from the ranking panel because it has no such term. A zero ranking observation can mean the term was inactive; it does not necessarily mean access was solved.*
+*Figure 3. Frontier, soft-volume, band and ranking components plotted separately. Vega-08 is omitted from the ranking panel because it has no such term. A zero ranking observation can mean the term was inactive; it does not necessarily mean access was solved.*
 
-G10 did not dominate every earlier reference. In its frozen final review, all nine families passed on six of twelve fresh requests at both horizons, compared with four of twelve for G8 and G9. G10 also passed the late-growth limit across its 69 evaluated requests, while still having connection and coverage failures. The lesson was to evaluate the resulting geometry rather than promote a model because its training curve looked better.
+Vega-10 did not dominate every earlier reference. In its frozen final review, all nine families passed on six of twelve fresh requests at both horizons, compared with four of twelve for Vega-08 and Vega-09. Vega-10 also passed the late-growth limit across its 69 evaluated requests, while still having connection and coverage failures. The lesson was to evaluate the resulting geometry rather than promote a model because its training curve looked better.
 
 ## What the planner contributes
 
-The current experimental system, R3, reuses the frozen G10 weights. It adds a procedural route witness, coverage coordination and guarded growth. **R3 does not have a separate training-loss curve.** Its improvement is a system-level intervention, not evidence of another trained checkpoint.
+The current experimental system, Lyra-03, reuses the frozen Vega-10 weights. It adds a procedural route witness, coverage coordination and guarded growth. **Lyra-03 does not have a separate training-loss curve.** Its improvement is a system-level intervention, not evidence of another trained checkpoint.
 
-To investigate contribution, we compared three methods: G10 with its existing procedural admission; R3 with learned scores and planning; and a neutral control with the same R3 planner and guards, constant positive occupancy logits and zero hidden updates. The neutral control removes learned gating and ranking together.
+To investigate contribution, we compared three methods: Vega-10 with its existing procedural admission; Lyra-03 with learned scores and planning; and a neutral control with the same Lyra-03 planner and guards, constant positive occupancy logits and zero hidden updates. The neutral control removes learned gating and ranking together.
 
 ![Acceptance and variation comparison](figures-v4/04-evaluation-comparison.png)
 
-*Figure 4. Feasible acceptance counts and mean seed Jaccard distances in two separate studies. Each study also includes two blocked requests per method: G10 returns rejected outputs; R3 and neutral refuse. Refusals are reported separately and are not counted as accepted geometry.*
+*Figure 4. Feasible acceptance counts and mean seed Jaccard distances in two separate studies. Each study also includes two blocked requests per method: Vega-10 returns rejected outputs; Lyra-03 and neutral refuse. Refusals are reported separately and are not counted as accepted geometry.*
 
-In the prospective transfer comparison, G10 passed two of six feasible requests; R3 passed six of six. The neutral control also passed six of six. The four authored site layouts were frozen before generation and tested with two firing seeds. This is a bounded transfer result, not a broad real-site generalization claim.
+In the prospective transfer comparison, Vega-10 passed two of six feasible requests; Lyra-03 passed six of six. The neutral control also passed six of six. The four authored site layouts were frozen before generation and tested with two firing seeds. This is a bounded transfer result, not a broad real-site generalization claim.
 
-R3 had more seed variation than neutral: mean Jaccard distance was 0.254 versus 0.037. This distance is one minus intersection-over-union of occupied sets. It describes how much two outputs differ, not which output is better architecture. G10 had still higher variation, 0.298, while failing more requests.
+Lyra-03 had more seed variation than neutral: mean Jaccard distance was 0.254 versus 0.037. This distance is one minus intersection-over-union of occupied sets. It describes how much two outputs differ, not which output is better architecture. Vega-10 had still higher variation, 0.298, while failing more requests.
 
 The comparisons separate two questions I had initially bundled together: can the system meet the geometric contract, and what does learning contribute to the form? Planning and guards can satisfy the tested contract without learned scores. Learning influences the choices made within that framework. Its architectural value still needs a better test.
 

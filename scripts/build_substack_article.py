@@ -53,7 +53,7 @@ def build(out):
 Author: Artin Lesani Abdi. Local draft only; nothing uploaded or published.
 
 1. Open Substack-Phase-2.html to review the complete article and figures.
-2. Use Substack-Phase-2.md as the editable text source. Upload the four numbered chart PNGs from figures-v4 in their numbered positions, retaining captions. The unnumbered 00-model-guide.png is a high-resolution table for editors that flatten pasted HTML tables; the Markdown/HTML also retain a semantic text table. SVGs are vector masters. Equations.tex contains editable LaTeX source; The HTML displays equivalent equations using text and subscripts.
+2. Use Substack-Phase-2.md as the editable text source. Upload the four numbered chart PNGs from figures-v4 in their numbered positions, retaining captions. The unnumbered 00a-research-journey.png and 00b-methods-compared.png are high-resolution tables for editors that flatten pasted HTML tables; the Markdown/HTML also retain a semantic text table. SVGs are vector masters. Equations.tex contains editable LaTeX source; The HTML displays equivalent equations using text and subscripts.
 3. Attach NCA-Technical-Report.pdf through your chosen publication workflow. This copy is byte-identical to the reviewed showcase report; that report has not been silently revised.
 4. Review title, voice and claims, then publish manually or authorize a specific publishing action. Repository links are public; the showcase itself does not yet have a hosted URL. Do not paste local file paths into a public post.
 
@@ -67,7 +67,7 @@ The original private next-phase review, checkpoints, runtime identities and priv
     (out/'publication-manifest.json').write_text(json.dumps(manifest,indent=2));payload.append(out/'publication-manifest.json')
     with zipfile.ZipFile(out/'NCA-Substack-Publication-Kit.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in payload:z.write(p,p.relative_to(out))
-    print(json.dumps({'output':str(out),'article_words':len(text.split()),'chart_count':4,'model_guide_count':1,'equations':len(tex),'zip_bytes':(out/'NCA-Substack-Publication-Kit.zip').stat().st_size}))
+    print(json.dumps({'output':str(out),'article_words':len(text.split()),'chart_count':4,'model_guide_count':2,'equations':len(tex),'zip_bytes':(out/'NCA-Substack-Publication-Kit.zip').stat().st_size}))
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);build(p.parse_args().output)

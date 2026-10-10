@@ -10,6 +10,7 @@ from reportlab.lib.colors import HexColor, Color
 ROOT=Path(__file__).resolve().parents[1]
 ARCHIVE=Path('C:/Users/artin/Documents/Codex/outputs')
 RUNS={'G8':'G8-Final-Review-2026-10-04-v2','G9':'G9-Final-Review-2026-10-04','G10':'G10-Final-Review-2026-10-04'}
+LABELS={'G8':'Vega-08','G9':'Vega-09','G10':'Vega-10','R3':'Lyra-03','neutral':'Neutral'}
 COLORS=['#247d70','#b9613c','#4c67a4']
 POPPLER=Path('C:/Users/artin/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe')
 
@@ -72,29 +73,29 @@ def build(out):
             c=HexColor(color);lp.lines[i].strokeColor=Color(c.red,c.green,c.blue,alpha=.16) if raw else c;lp.lines[i].strokeWidth=.5 if raw else 2;lp.lines[i].symbol=None
         d.add(lp);d.add(String(x+w/2,y+8,xlabel,fontSize=12,textAnchor='middle',fillColor=HexColor('#506667')));d.add(String(x+45,y+h-9,ylabel,fontSize=11,fillColor=HexColor('#506667')))
         if len(series)>1:
-            for i,(_,color,label) in enumerate(series):d.add(String(x+140+i*90,y+h-9,label,fontSize=11,fillColor=HexColor(color)))
+            for i,(_,color,label) in enumerate(series):d.add(String(x+140+i*105,y+h-9,label,fontSize=11,fillColor=HexColor(color)))
 
     d=drawing('Phase 1: the original training record','500 logged epochs. Pale lines: raw values. Dark lines: trailing25-observation mean.')
     for i,(key,title,label) in enumerate([('total_loss','Weighted training objective','Loss'),('L_coverage','Unfilled corridor penalty','Historical loss'),('L_thickness','Historical thickness penalty','Historical loss'),('fill_ratio','Recorded occupancy fraction','Fraction')]):
         plot(d,40+(i%2)*580,80+(1-i//2)*320,540,260,title,[([r[key] for r in old],COLORS[0],'Phase 1')],500,xlabel='Logged epoch +1',ylabel=label)
-    d.add(String(42,35,'Historical proxies and pavilion intent differ from current gross-volume checks. Do not compare total loss with G8-G10.',fontSize=11))
+    d.add(String(42,35,'Historical proxies and pavilion intent differ from current gross-volume checks. Do not compare total loss with Vega-08 to Vega-10.',fontSize=11))
     save(d,'01-phase1-training','Original500-epoch history; raw values and trailing25-observation means. Historical losses are not current acceptance metrics.')
 
     d=drawing('Training the later candidates','427 updates per run. Matched starts; generated trajectories differ. One training seed.',1200,1120)
     commonmax=max(r['loss'] for rows in histories.values() for r in rows)*1.04
     basemax=max(r['frontier_loss']+.25*r['volume_loss']+r['band_loss'] for rows in histories.values() for r in rows)*1.04
     for j,(m,rows) in enumerate(histories.items()):
-        plot(d,40,740-j*310,540,250,m+' / recorded objective',[([r['loss'] for r in rows],COLORS[j],m)],427,commonmax)
-        plot(d,620,740-j*310,540,250,m+' / shared base terms',[([r['frontier_loss']+.25*r['volume_loss']+r['band_loss'] for r in rows],COLORS[j],m)],427,basemax)
-    d.add(String(42,51,'G8: base objective. G9/G10: base + access ranking. Recorded totals have different objectives; no winner is implied.',fontSize=11))
+        plot(d,40,740-j*310,540,250,LABELS[m]+' / recorded objective',[([r['loss'] for r in rows],COLORS[j],m)],427,commonmax)
+        plot(d,620,740-j*310,540,250,LABELS[m]+' / shared base terms',[([r['frontier_loss']+.25*r['volume_loss']+r['band_loss'] for r in rows],COLORS[j],m)],427,basemax)
+    d.add(String(42,51,'Vega-08: base objective. Vega-09/10: base + access ranking. Recorded totals have different objectives; no winner is implied.',fontSize=11))
     d.add(String(42,32,'The same base expression is evaluated along each model\'s own training trajectory, not on a shared fixed validation batch.',fontSize=11))
     save(d,'02-candidate-training','G8/G9/G10 recorded objectives and shared base terms. Raw traces plus trailing25 means. These are training observations, not held-out loss curves.')
 
     d=drawing('What changed inside the loss','Pale lines: raw values. Dark lines: trailing25-observation mean. Dimensionless quantities; separate axes.')
     for i,(key,title) in enumerate([('frontier_loss','Frontier classification'),('volume_loss','Soft cube-volume discrepancy'),('band_loss','Global volume-band penalty'),('ranking_loss','Access-ranking auxiliary')]):
         selected=[(m,rows) for m,rows in histories.items() if key!='ranking_loss' or m!='G8']
-        plot(d,40+(i%2)*580,80+(1-i//2)*320,540,260,title,[([r.get(key,0) for r in rows],COLORS[list(histories).index(m)],m) for m,rows in selected],427)
-    d.add(String(42,35,'G8 has no ranking term. G9 and G10 use the same forward ranking formula but different gradient paths.',fontSize=11))
+        plot(d,40+(i%2)*580,80+(1-i//2)*320,540,260,title,[([r.get(key,0) for r in rows],COLORS[list(histories).index(m)],LABELS[m]) for m,rows in selected],427)
+    d.add(String(42,35,'Vega-08 has no ranking term. Vega-09 and Vega-10 use the same forward ranking formula but different gradient paths.',fontSize=11))
     save(d,'03-loss-components','Separate recorded frontier, soft-volume, band and ranking components. G8 does not have a ranking auxiliary; it is omitted in that panel.')
 
     d=drawing('Training progress is not acceptance','Contribution and prospective transfer studies: six feasible requests per method, reported separately.',1200,620)
@@ -105,8 +106,8 @@ def build(out):
         x=60+j*580;d.add(String(x,505,title,fontSize=18,fontName='Helvetica-Bold'))
         for k,m in enumerate(('G10','R3','neutral')):
             row=data['summary'][m];count=row[key+'_accepted'];distance=row['mean_seed_jaccard_'+key]
-            yy=420-k*100;d.add(String(x,yy+25,m,fontSize=15));d.add(Rect(x+85,yy,360,23,fillColor=HexColor('#e0e7e2'),strokeColor=None));d.add(Rect(x+85,yy,360*count/6,23,fillColor=HexColor(COLORS[k]),strokeColor=None));d.add(String(x+460,yy+5,f'{count}/6',fontSize=14,fontName='Helvetica-Bold'));d.add(String(x+85,yy-20,f'Mean seed Jaccard distance: {distance:.3f}',fontSize=11))
-    d.add(String(60,110,'Blocked requests in each study: G10 two rejected outputs; R3 and neutral two refusals each. Refusals are not passes.',fontSize=12))
+            yy=420-k*100;d.add(String(x,yy+25,LABELS[m],fontSize=15));d.add(Rect(x+85,yy,360,23,fillColor=HexColor('#e0e7e2'),strokeColor=None));d.add(Rect(x+85,yy,360*count/6,23,fillColor=HexColor(COLORS[k]),strokeColor=None));d.add(String(x+460,yy+5,f'{count}/6',fontSize=14,fontName='Helvetica-Bold'));d.add(String(x+85,yy-20,f'Mean seed Jaccard distance: {distance:.3f}',fontSize=11))
+    d.add(String(60,110,'Blocked requests in each study: Vega-10 two rejected outputs; Lyra-03 and Neutral two refusals each. Refusals are not passes.',fontSize=12))
     d.add(String(60,80,'Neutral also passes all feasible requests. Learned scores change form and variation; necessity for these gates is unproven.',fontSize=12))
     d.add(String(60,50,'Small authored samples, two firing seeds per site. No independent training replication or architectural-quality metric.',fontSize=12))
     save(d,'04-evaluation-comparison','Acceptance on feasible requests, with blocked outcomes separate. Jaccard distance measures seed variation, not quality. Studies are not pooled.')

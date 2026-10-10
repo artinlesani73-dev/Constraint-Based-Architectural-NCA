@@ -1,5 +1,11 @@
 # Next-phase implementation plan
 
+## Vega and Lyra publication names adopted - 2026-10-10
+
+User selected Vega for learned generation candidates and Lyra for planner-assisted variants. Updated the unpublished Substack draft219748535 with two white 4800px tables: Vega-01 to Vega-07 (G1-G7), each with a short explanation; and Vega-08 to Vega-10, Lyra-03 (G11-R3), and Neutral. Updated article text and chart legends consistently. Original experiment IDs, checkpoints, numerical results and evidence remain unchanged; aliases are publication display names. G1 is a later seed-growth pilot, not the original Phase1 model. Lyra-03 reuses frozen G10 weights and has no independent training curve.
+
+Saved and reloaded remote draft: all six images complete, Figure2 retained, equations remain native editable text. Tables are high-resolution images in Substack; local Markdown/HTML and CSV retain text tables. Version4 output: C:/Users/artin/Documents/Codex/outputs/NCA-Substack-2026-10-10-v4. Verified all manifest hashes, ZIP integrity, six white 4800px PNGs, four unchanged training CSVs and unchanged technical PDF. Naming map, draft-review-receipt.json and screenshot retained alongside the kit. Earlier completed kits preserved. Prior milestone commit146a467 succeeded after protected Git metadata required escalation. No training, Drive access, push or publication. Next: author review and manual companion PDF attachment, then explicit publication authorization.
+
 ## Figure 2 restored and model guide added — 2026-10-10
 
 User reported missing Figure 2 and requested introductions/table. Inspection confirmed three charts: Figure 2 had been accidentally removed by the prior paragraph-formatting selection, despite its earlier upload success. Restored 4800x4480 training comparison, clarified per-row/per-column caption, separated ranking introduction. Added native plain-language names introduction and white 4800x4640 six-row guide: original Phase1, G8, G9, G10, R3, neutral. R3 reuses G10 weights; neutral is a procedural control. Remote table is an image because pasted HTML tables flatten in this editor; local Markdown/HTML retain a semantic text table and CSV.
