@@ -1,0 +1,29 @@
+{
+  "version": "urban_context_v1",
+  "scene_id": "block-01",
+  "sha256": "fcc672b7307460ebfafda452d38a64bc3dc7c4a04ce6fcff27b1e50631679574",
+  "shape_xyz": [
+    96,
+    96,
+    40
+  ],
+  "extent_xyz_m": [
+    76.80000000000001,
+    76.80000000000001,
+    32.0
+  ],
+  "buildings": 3,
+  "opportunity_regions": 2,
+  "interfaces": 3,
+  "connection_requests": 2,
+  "allowed_cells": 48192,
+  "allowed_volume_m3": 24674.304000000007,
+  "representation_valid": true,
+  "geometric_feasibility_evaluated": false,
+  "trained_model_evaluated": false,
+  "passed": true,
+  "check": "test_urban_context.py",
+  "no_generation": true,
+  "source_sha256": "2d48a4203f908173d188ba3f3cc752ffdc0a387f16dd5e1e04a1003f1fbb0989",
+  "fixture_file_sha256": "3c9d294f04a5f60146664358fa45bdc8e3963ed511e2fcabd85f54afc9e13c76"
+}

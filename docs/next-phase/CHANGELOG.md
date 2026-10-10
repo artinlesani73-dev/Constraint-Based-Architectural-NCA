@@ -2114,3 +2114,9 @@ Owned research server stopped for consistent snapshot, test package server8028 s
 
 Next: separately versioned multi-site scene contract and frozen small-block protocol; review dimensions, supervision, hierarchy and measured memory before any paid training. Do not silently enlarge the old cubic/two-opposing-facade schema or reinterpret historical acceptance. Final package milestone closes current planned local studio work; further user-specific usability fixes remain possible.
 
+## Urban context representation completed — 2026-10-10
+
+Next research phase started following user go-forward instruction. See URBAN_CONTEXT_V1.md. Independent schema nca/urban_context.py supports rectangular grids,multiple buildings/opportunity regions,protected exclusions,facade interfaces on arbitrary axes and requested link graph. Authored block01 is96x96x40 at0.8m,76.8x76.8x32m;3 buildings,2 regions,3 interfaces,2 links. 48,192allowed cells are capacity, not generated volume. Four representation regressions passed; receipt experiments/reports/Urban-context-v1-2026-10-10.json, frozen scene/log .local-artifacts/urban-context-v1-2026-10-10. Plan PNG C:/Users/artin/Documents/Codex/outputs/NCA-Urban-Context-2026-10-10/block-plan.png visually verified. Matplotlib probe unavailable; existing Pillow used without installation. No generated block/model evaluation yet.
+
+Current local studio release remains complete and unchanged on8023 (packaged server session31758 may remain). No new neural architecture/training,Drive,cloud,push,paid compute or constraint families. Next define explicit multi-site nine-family evaluation and shared/per-region budget protocol, then cheap feasible/blocked controls and memory profiling before generator adaptation. Old cubic opposing-facade model is not declared compatible. Read URBAN_CONTEXT_V1.md for commands and limitations.
+

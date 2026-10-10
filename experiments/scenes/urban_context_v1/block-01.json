@@ -1,0 +1,28 @@
+{
+  "version": "urban_context_v1",
+  "scene_id": "block-01",
+  "shape_xyz": [96, 96, 40],
+  "voxel_size_m": 0.8,
+  "origin_xyz_m": [0, 0, 0],
+  "buildings": [
+    {"id": "west", "bounds": {"x": [8, 24], "y": [12, 40], "z": [0, 28]}},
+    {"id": "east", "bounds": {"x": [64, 80], "y": [12, 40], "z": [0, 32]}},
+    {"id": "north", "bounds": {"x": [32, 60], "y": [64, 80], "z": [0, 24]}}
+  ],
+  "opportunity_regions": [
+    {"id": "central", "bounds": {"x": [24, 64], "y": [12, 40], "z": [6, 36]}},
+    {"id": "north-link", "bounds": {"x": [32, 60], "y": [40, 64], "z": [6, 32]}}
+  ],
+  "protected_regions": [
+    {"id": "courtyard", "bounds": {"x": [40, 48], "y": [24, 36], "z": [0, 40]}}
+  ],
+  "interfaces": [
+    {"id": "west-central", "building": "west", "region": "central", "axis": "x", "side": "max", "spans": {"y": [20, 24], "z": [8, 12]}},
+    {"id": "east-central", "building": "east", "region": "central", "axis": "x", "side": "min", "spans": {"y": [20, 24], "z": [8, 12]}},
+    {"id": "north-central", "building": "north", "region": "north-link", "axis": "y", "side": "min", "spans": {"x": [36, 40], "z": [8, 12]}}
+  ],
+  "connections": [
+    {"id": "west-east", "source": "west-central", "target": "east-central"},
+    {"id": "west-north", "source": "west-central", "target": "north-central"}
+  ]
+}
