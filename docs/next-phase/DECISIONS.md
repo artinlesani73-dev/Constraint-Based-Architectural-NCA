@@ -2107,3 +2107,11 @@ User confirmed author Artin Lesani Abdi and prioritized a project showcase with 
 
 Next author review and hosting choice, then explicit publication approval for the concrete package. Multi-site evaluation/generation is deferred; existing context fixture remains representation only. Do not overwrite reviewed output; build a new version directory for revisions. Existing studio and archives unchanged.
 
+
+
+## Substack article and training figures prepared - 2026-10-10
+
+See SUBSTACK_PUBLICATION.md. User requested Phase1 follow-up with mathematics/training/comparisons. publication/substack-phase2.md and two generators are tracked. Local output C:/Users/artin/Documents/Codex/outputs/NCA-Substack-2026-10-10; final figures-v2 (5 PNG/SVG),4 CSVs,4LaTeX equations,HTML/Markdown,byte-identical existing technical PDF. ZIP1805216bytes SHA2562895669b45d443186f1c06e394b407d684eced62aa82511b910466a95a7c7a93. Verified1281update logs against originalZIPs,427matched row/start hashes,500original observations,loss decomposition,20payload hashes and ZIP integrity. Figure designs visually reviewed; HTML file preview blocked by browser security, not bypassed. Initial authoring errors and v1figures retained locally.
+
+Next author review of Substack voice/title/math/layout, then authorize concrete publishing destination/action. R3 reuses G10 weights (no separate training loss); later models use procedural teacher supervision; unlike objectives not ranked by total loss; neutral acceptance limits learned-necessity claims. No new training,inference,Drive,push or publication. Multi-site work remains deferred; existing showcase/studio/report unchanged. Build into a NEW output folder; preserve completed evidence.
+

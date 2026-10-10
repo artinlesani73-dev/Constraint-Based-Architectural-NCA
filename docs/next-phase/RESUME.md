@@ -1,5 +1,12 @@
 # Resume the NCA next phase
 
+## Substack article and training figures prepared - 2026-10-10
+
+See SUBSTACK_PUBLICATION.md. User requested Phase1 follow-up with mathematics/training/comparisons. publication/substack-phase2.md and two generators are tracked. Local output C:/Users/artin/Documents/Codex/outputs/NCA-Substack-2026-10-10; final figures-v2 (5 PNG/SVG),4 CSVs,4LaTeX equations,HTML/Markdown,byte-identical existing technical PDF. ZIP1805216bytes SHA2562895669b45d443186f1c06e394b407d684eced62aa82511b910466a95a7c7a93. Verified1281update logs against originalZIPs,427matched row/start hashes,500original observations,loss decomposition,20payload hashes and ZIP integrity. Figure designs visually reviewed; HTML file preview blocked by browser security, not bypassed. Initial authoring errors and v1figures retained locally.
+
+Next author review of Substack voice/title/math/layout, then authorize concrete publishing destination/action. R3 reuses G10 weights (no separate training loss); later models use procedural teacher supervision; unlike objectives not ranked by total loss; neutral acceptance limits learned-necessity claims. No new training,inference,Drive,push or publication. Multi-site work remains deferred; existing showcase/studio/report unchanged. Build into a NEW output folder; preserve completed evidence.
+
+
 ## Showcase prepared; publication now takes priority - 2026-10-10
 
 User confirmed author Artin Lesani Abdi and prioritized a project showcase with downloadable technical report. See PUBLICATION_SHOWCASE.md. Output C:/Users/artin/Documents/Codex/outputs/NCA-Showcase-2026-10-10/dist; eight-page PDF, static saved-field viewer (24 slots/40 frames), complete two-seed plates, sanitized evidence hashes. Reviewed PDF renders, local HTTP200 HTML/PDF, browser case/seed/step/rotation/refusal behavior. Package NCA-Showcase.zip is547631bytes, SHA25635d5f6096f8f9834c382a4a95726bec2af4e39cdccf3f6aaa5f1ae6853f25b59. Preview8029 session63464 was used for review. No scientific changes, inference, training, Drive, push or publication. Private ignored next-phase report excluded. R3 remains experimental; neutral also passes feasible gates, so learned necessity remains unproven.
