@@ -8,6 +8,7 @@ A research companion to the Phase 2 Substack article. The experiment studies gro
 - [Download the technical report (PDF)](NCA-Technical-Report.pdf)
 - [Browse the saved-geometry showcase](showcase/index.html) — download this directory and open index.html locally; GitHub's file view does not execute the viewer.
 - [Training figures, SVG exports and CSV data](figures-v4/)
+- [Actual volume renders and source-field provenance](volume-figures/)
 - [Equation source](equations.tex)
 - [Publication file checksums](release-manifest.json)
 

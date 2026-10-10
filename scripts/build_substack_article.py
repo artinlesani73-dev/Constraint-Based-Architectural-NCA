@@ -28,6 +28,8 @@ def build(out):
         raise FileExistsError('Preserve the completed kit; build into a new output version.')
     source=ROOT/'publication/substack-phase2.md';text=source.read_text(encoding='utf-8')
     out.mkdir(parents=True,exist_ok=True)
+    if (ROOT/'publication/volume-figures').exists():
+        shutil.copytree(ROOT/'publication/volume-figures',out/'volume-figures')
     shutil.copy2(source,out/'Substack-Phase-2.md')
     tex=re.findall(r'\$\$\s*(.*?)\s*\$\$',text,re.S)
     (out/'equations.tex').write_text('\n\n'.join('\\[\n'+t+'\n\\]' for t in tex),encoding='utf-8')
@@ -53,7 +55,7 @@ def build(out):
 Author: Artin Lesani Abdi. Local draft only; nothing uploaded or published.
 
 1. Open Substack-Phase-2.html to review the complete article and figures.
-2. Use Substack-Phase-2.md as the editable text source. Upload the four numbered chart PNGs from figures-v4 in their numbered positions, retaining captions. The unnumbered 00a-research-journey.png and 00b-methods-compared.png are high-resolution tables for editors that flatten pasted HTML tables; the Markdown/HTML also retain a semantic text table. SVGs are vector masters. Equations.tex contains editable LaTeX source; The HTML displays equivalent equations using text and subscripts.
+2. Use Substack-Phase-2.md as the editable text source. Upload the four numbered chart PNGs from figures-v4 in their numbered positions, retaining captions. The unnumbered 00a-research-journey.png and 00b-methods-compared.png are high-resolution tables for editors that flatten pasted HTML tables; the Markdown/HTML also retain a semantic text table. Upload the three volume-figures PNGs beside their matching captions. They render actual saved transfer fields; provenance is included. SVGs are vector masters. Equations.tex contains editable LaTeX source; The HTML displays equivalent equations using text and subscripts.
 3. Attach NCA-Technical-Report.pdf through your chosen publication workflow. This copy is byte-identical to the reviewed showcase report; that report has not been silently revised.
 4. Review title, voice and claims, then publish manually or authorize a specific publishing action. Repository links are public; the showcase itself does not yet have a hosted URL. Do not paste local file paths into a public post.
 
@@ -63,6 +65,7 @@ The original private next-phase review, checkpoints, runtime identities and priv
 '''
     (out/'START-HERE.txt').write_text(guide,encoding='utf-8')
     payload=[out/'Substack-Phase-2.md',out/'Substack-Phase-2.html',out/'equations.tex',out/'START-HERE.txt',out/'NCA-Technical-Report.pdf']+list((out/'figures-v4').glob('*.png'))+list((out/'figures-v4').glob('*.svg'))+list((out/'figures-v4').glob('*.csv'))+list((out/'figures-v4').glob('*.json'))
+    payload += list((out/'volume-figures').glob('*.png')) + list((out/'volume-figures').glob('*.json'))
     manifest={p.relative_to(out).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in payload}
     (out/'publication-manifest.json').write_text(json.dumps(manifest,indent=2));payload.append(out/'publication-manifest.json')
     with zipfile.ZipFile(out/'NCA-Substack-Publication-Kit.zip','w',zipfile.ZIP_DEFLATED) as z:

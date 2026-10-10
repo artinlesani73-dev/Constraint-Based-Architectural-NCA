@@ -18,6 +18,10 @@ The current object of study is **gross building volume**. An occupied voxel repr
 
 This also changes how thickness is evaluated. The current bulk test asks whether at least 90% of the occupied cells belong to the union of fully occupied 3 × 3 × 3 cubes. At our 0.8 m voxel size, those cubes span 2.4 m. This encourages substantial mass; it is not a structural wall-thickness calculation. The old thickness loss and this new check should not be read as the same quantity.
 
+![Volume example](volume-figures/05-volume-example.png)
+
+*Volume example. Lyra-03 on the raised-obstacle transfer site, seed 2201, step 128. Green voxels show generated gross building mass; wireframes show existing context. This saved output passes the study’s geometric checks; it is not a finished building or a structural assessment.*
+
 ## What the original training curve tells us
 
 ![Original training history](figures-v4/01-phase1-training.png)
@@ -124,6 +128,10 @@ The current experimental system, Lyra-03, reuses the frozen Vega-10 weights. It 
 
 To investigate contribution, we compared three methods: Vega-10 with its existing procedural admission; Lyra-03 with learned scores and planning; and a neutral control with the same Lyra-03 planner and guards, constant positive occupancy logits and zero hidden updates. The neutral control removes learned gating and ranking together.
 
+![Method comparison](volume-figures/06-method-volumes.png)
+
+*Method comparison. The narrow-offset transfer site at step 128, with firing seed 2201 held fixed. Vega-10, Lyra-03 and Neutral each occupy 1,653 cells. Vega-10 is rejected by the full geometric contract; Lyra-03 and Neutral are accepted. Equal volume does not imply equal performance. These are selected examples; aggregate results are shown in Figure 4.*
+
 ![Acceptance and variation comparison](figures-v4/04-evaluation-comparison.png)
 
 *Figure 4. Feasible acceptance counts and mean seed Jaccard distances in two separate studies. Each study also includes two blocked requests per method: Vega-10 returns rejected outputs; Lyra-03 and neutral refuse. Refusals are reported separately and are not counted as accepted geometry.*
@@ -131,6 +139,10 @@ To investigate contribution, we compared three methods: Vega-10 with its existin
 In the prospective transfer comparison, Vega-10 passed two of six feasible requests; Lyra-03 passed six of six. The neutral control also passed six of six. The four authored site layouts were frozen before generation and tested with two firing seeds. This is a bounded transfer result, not a broad real-site generalization claim.
 
 Lyra-03 had more seed variation than neutral: mean Jaccard distance was 0.254 versus 0.037. This distance is one minus intersection-over-union of occupied sets. It describes how much two outputs differ, not which output is better architecture. Vega-10 had still higher variation, 0.298, while failing more requests.
+
+![Seed comparison](volume-figures/07-seed-volumes.png)
+
+*Seed comparison. Two saved Lyra-03 outputs on the same raised-obstacle site at step 128, using firing seeds 2201 and 2202. Both are accepted and contain 3,724 occupied cells, but distribute that mass differently. These examples illustrate seed sensitivity; they do not establish architectural quality.*
 
 The comparisons separate two questions I had initially bundled together: can the system meet the geometric contract, and what does learning contribute to the form? Planning and guards can satisfy the tested contract without learned scores. Learning influences the choices made within that framework. Its architectural value still needs a better test.
 
