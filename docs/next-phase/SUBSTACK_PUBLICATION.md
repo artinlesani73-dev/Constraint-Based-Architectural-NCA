@@ -26,3 +26,16 @@ All five figure designs inspected as PNGs. Fixed initial chart-library attribute
 START-HERE.txt explains text/image/caption use and LaTeX source/image fallback. ZIP1805216bytes. Only public-facing files included, no checkpoints/private histories/runtime identities/private next-phase report. Nothing uploaded, published, pushed, trained or written to Drive.
 
 Next author review of title/voice/math and figure placement, then hosting/publication choice and explicit action authorization. Multi-site work remains deferred. New versions must preserve these completed outputs.
+
+
+## Substack draft revised — 2026-10-10
+
+User requested white high-resolution charts and editable mathematics. Same unpublished draft: https://artinlesani.substack.com/publish/post/219748535 . Four 4800px charts uploaded and complete; mathematics screenshot/caption removed, five equation concepts retained as editable text/subscripts. Candidate panel layout now two columns/three rows; caption and paragraph formatting corrected. Saved status verified. PDF/ZIP attachments remain local; false attachment placeholder removed. No publication.
+
+Revised kit: C:/Users/artin/Documents/Codex/outputs/NCA-Substack-2026-10-10-v2; final figures-v4, four SVG/PNG and four CSV, five LaTeX equations, existing technical PDF unchanged. Manifest and ZIP verified; white corners and 4800px widths asserted; all four plots visually reviewed. revision-receipt.json and draft screenshots record delivery. Earlier cream kit and overlapping draft figures-v3 preserved. Automatic approval review blocked replacing the whole draft with a partial segment; targeted edits completed safely instead. No remaining approval blocker. Next author review; PDF attachment can be dragged into Substack manually, then explicit publication authorization. No training, Drive or push.
+
+## Figure 2 restored and model guide added — 2026-10-10
+
+User reported missing Figure 2 and requested introductions/table. Inspection confirmed three charts: Figure 2 had been accidentally removed by the prior paragraph-formatting selection, despite its earlier upload success. Restored 4800x4480 training comparison, clarified per-row/per-column caption, separated ranking introduction. Added native plain-language names introduction and white 4800x4640 six-row guide: original Phase1, G8, G9, G10, R3, neutral. R3 reuses G10 weights; neutral is a procedural control. Remote table is an image because pasted HTML tables flatten in this editor; local Markdown/HTML retain a semantic text table and CSV.
+
+Same unpublished draft219748535, saved and reloaded; five complete images (four charts+guide), nine section headings, new caption/introduction and absence of mathematics screenshot verified after reload. Evidence: C:/Users/artin/Documents/Codex/outputs/NCA-Substack-2026-10-10-v3, draft-review-receipt.json and screenshots; manifest/ZIP verified. Added scripts/build_substack_model_guide.py; generator packages guide data. Prior kits retained. Prior local commit attempt failed on .git/index.lock permissions; milestone source/docs remain present. No training, Drive, push or publication. Next author review and manual PDF attachment, then explicit publishing authorization.

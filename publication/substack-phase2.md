@@ -20,7 +20,7 @@ This also changes how thickness is evaluated. The current bulk test asks whether
 
 ## What the original training curve tells us
 
-![Original training history](figures-v2/01-phase1-training.png)
+![Original training history](figures-v4/01-phase1-training.png)
 
 *Figure 1. The original 500 logged epochs. Pale traces show individual observations; dark traces show a trailing mean of 25 observations. These are historical training proxies, not scores under the current massing protocol.*
 
@@ -50,6 +50,19 @@ $F_t$ is a stochastic firing mask, $\Omega$ is the legal domain, and $C_t$ is th
 
 The update network is small: 61 input features, a 64-channel intermediate layer and eight outputs, implemented with pointwise convolutions. Including biases, that network has 4,488 trainable parameters. Its repeated application matters more than its size. That count describes this later network, not the approximately 13,000-parameter model discussed in Part 1.
 
+**A quick guide to the names**
+
+G8, G9 and G10 are experiment IDs for three trained candidates with the same small network architecture. The changes are in what they learn from and how the training signal updates their weights. R3 combines the frozen G10 network with explicit planning rules. The neutral control keeps those rules but removes the learned signal. These names identify versions in this project; a larger number does not mean a larger or automatically better model.
+
+| Name | Role | Short introduction |
+| --- | --- | --- |
+| Phase 1 | Original experiment | Constraint-only training for pavilion-like extensions. Its 500-epoch record uses historical objectives that differ from the later massing tests. |
+| G8 | Trained baseline | Learns from procedural teacher geometry using frontier classification, soft volume discrepancy and a global volume band. Reference for G9 and G10. |
+| G9 | Trained ranking variant | Adds access ranking to the G8 base objective: favor teacher-positive growth that advances a connection. Both score groups receive ranking gradients. |
+| G10 | Trained gradient variant | Uses the same ranking formula as G9, but holds the other-candidate scores fixed in that auxiliary gradient. A separately trained checkpoint. |
+| R3 | Hybrid system | Reuses frozen G10 weights and adds route planning, coverage coordination and growth guards. No additional training or separate training-loss curve. |
+| Neutral | Procedural control | Uses the R3 planner and guards with constant positive occupancy logits and zero hidden updates. No trained network signal drives its growth. |
+
 ## What we trained and why the losses differ
 
 The later candidates use procedural teacher geometry during training. This is a meaningful change from the original constraint-only framing: no human-designed exemplar is copied, but there are explicit geometry-derived targets and labels. At inference, the teacher target is not supplied to the learned baseline.
@@ -64,17 +77,17 @@ The frontier term classifies fired eligible cube origins. The volume term compar
 
 Three later experiments help explain the progression:
 
-| Candidate | Training change | What it tests |
-| --- | --- | --- |
-| G8 | Base objective with the revised exposure/start distribution | A reference for the later ranking experiments |
-| G9 | Base objective plus access ranking | Whether advancing toward access can be prioritized among teacher-positive candidates |
-| G10 | Same ranking forward value, with the other-candidate reference detached | Whether changing the auxiliary gradient path improves the timing of growth |
+**G8:** Base objective with the revised exposure/start distribution. A reference for the later ranking experiments.
+
+**G9:** Base objective plus access ranking. Tests whether advancing toward access can be prioritized among teacher-positive candidates.
+
+**G10:** The same ranking forward value, with the other-candidate reference detached. Tests whether changing the auxiliary gradient path improves the timing of growth.
 
 All three completed 427 updates. The saved logs verify matched row choices and starting occupancy hashes. They remain one seeded comparison: their evolving predictions and hidden states differ, and they are not independent training replications.
 
-![Later candidate training curves](figures-v2/02-candidate-training.png)
+![Later candidate training curves](figures-v4/02-candidate-training.png)
 
-*Figure 2. Recorded objectives above; the common base expression below. Raw traces and trailing 25-observation means are shown. G8 has no ranking auxiliary, so its total loss is not directly interchangeable with G9/G10 totals. Even the shared expression is measured along each model's own trajectory, not on a fixed validation batch.*
+*Figure 2. Each row is a trained candidate: G8, G9 or G10. Left: that candidate's recorded training objective. Right: the shared base-loss expression. Pale traces show raw updates; dark traces show trailing 25-update means. G8 has no ranking auxiliary, so the left-column totals have different objectives. The right column uses the same expression along each candidate's own trajectory, not a shared validation batch.*
 
 The ranking term makes the difference concrete. Let $A$ be advancing teacher origins and $B$ other teacher origins among eligible fired candidates:
 
@@ -84,7 +97,7 @@ $$
 
 When both sets exist in an active access phase, this favors advancing scores over other teacher-positive scores. G9 differentiates through both groups. G10 uses the same forward expression but treats the other scores as a fixed comparison reference in this auxiliary. That removes this term's direct gradient through $z_b$; the other scores can still change through the base objective and shared network parameters.
 
-![Loss components](figures-v2/03-loss-components.png)
+![Loss components](figures-v4/03-loss-components.png)
 
 *Figure 3. Frontier, soft-volume, band and ranking components plotted separately. G8 is omitted from the ranking panel because it has no such term. A zero ranking observation can mean the term was inactive; it does not necessarily mean access was solved.*
 
@@ -96,7 +109,7 @@ The current experimental system, R3, reuses the frozen G10 weights. It adds a pr
 
 To investigate contribution, we compared three methods: G10 with its existing procedural admission; R3 with learned scores and planning; and a neutral control with the same R3 planner and guards, constant positive occupancy logits and zero hidden updates. The neutral control removes learned gating and ranking together.
 
-![Acceptance and variation comparison](figures-v2/04-evaluation-comparison.png)
+![Acceptance and variation comparison](figures-v4/04-evaluation-comparison.png)
 
 *Figure 4. Feasible acceptance counts and mean seed Jaccard distances in two separate studies. Each study also includes two blocked requests per method: G10 returns rejected outputs; R3 and neutral refuse. Refusals are reported separately and are not counted as accepted geometry.*
 
@@ -112,9 +125,13 @@ The current evaluation retains nine families: access, coverage, facade contact, 
 
 These checks make a claim inspectable. They do not establish structural safety, regulatory compliance, habitability or design quality. Stability under a hard cap is not evidence that the network independently learned when to stop.
 
-![Mathematics reference](figures-v2/05-mathematics.png)
+The acceptance conditions can be written directly as:
 
-*Figure 5. A portable reference for the current proposal stage, detached admission, objectives and acceptance gates. These equations describe the later hybrid system, not an unchanged continuation of the original notebook.*
+$$
+\left|v_t-0.24\right|\leq0.04\quad(t\in\{64,128\}),\qquad\frac{N_{128}-N_{64}}{N_{64}}\leq0.05.
+$$
+
+Here, N is the number of occupied voxels, and v is occupied volume divided by the eligible domain volume. All nine constraint families must also pass at both horizons. A refusal is recorded separately, rather than counted as accepted geometry.
 
 ## What comes next
 

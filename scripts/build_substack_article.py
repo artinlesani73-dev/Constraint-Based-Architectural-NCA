@@ -7,7 +7,8 @@ EQUATIONS=[
  '(z<sub>t</sub>, Δh<sub>t</sub>) = f<sub>θ</sub>(Φ([m<sub>t</sub>, h<sub>t</sub>]), Φ(c), r<sub>t</sub>)',
  'm<sub>t+1</sub> = 𝒜(m<sub>t</sub>, σ(z<sub>t</sub>), F<sub>t</sub>, Ω, C<sub>t</sub>)',
  'ℒ<sub>base</sub> = ℒ<sub>frontier</sub> + 0.25 ℒ<sub>volume</sub> + ℒ<sub>band</sub>',
- 'ℒ<sub>rank</sub> = log(1 + (1 / |A||B|) ∑<sub>a∈A</sub> ∑<sub>b∈B</sub> exp(1 + z<sub>b</sub> − z<sub>a</sub>))']
+ 'ℒ<sub>rank</sub> = log(1 + (1 / |A||B|) ∑<sub>a∈A</sub> ∑<sub>b∈B</sub> exp(1 + z<sub>b</sub> − z<sub>a</sub>))',
+ '|v<sub>t</sub> − 0.24| ≤ 0.04 (t ∈ {64, 128}); (N<sub>128</sub> − N<sub>64</sub>) / N<sub>64</sub> ≤ 0.05']
 
 def inline(text):
     text=html.escape(text)
@@ -52,21 +53,21 @@ def build(out):
 Author: Artin Lesani Abdi. Local draft only; nothing uploaded or published.
 
 1. Open Substack-Phase-2.html to review the complete article and figures.
-2. Use Substack-Phase-2.md as the editable text source. Upload the five PNGs from figures-v2 in their numbered positions, retaining captions. SVGs are vector masters. Equations.tex contains editable LaTeX source; the mathematics PNG is a portable image fallback. The HTML displays equivalent equations using text and subscripts.
+2. Use Substack-Phase-2.md as the editable text source. Upload the four numbered chart PNGs from figures-v4 in their numbered positions, retaining captions. The unnumbered 00-model-guide.png is a high-resolution table for editors that flatten pasted HTML tables; the Markdown/HTML also retain a semantic text table. SVGs are vector masters. Equations.tex contains editable LaTeX source; The HTML displays equivalent equations using text and subscripts.
 3. Attach NCA-Technical-Report.pdf through your chosen publication workflow. This copy is byte-identical to the reviewed showcase report; that report has not been silently revised.
 4. Review title, voice and claims, then publish manually or authorize a specific publishing action. Repository links are public; the showcase itself does not yet have a hosted URL. Do not paste local file paths into a public post.
 
-Evidence: figures-v2/figure-provenance.json records hashes for all1281 archive-matched later update logs, the original500-observation history and evaluation summaries. CSVs reproduce plotted observations. Smoothing is a trailing25-observation mean. Training loss is not a current acceptance metric. R3 reuses G10 weights; neutral has no training run. There is no validation-loss time series in this kit: the supplied curves are training observations, while the geometric evaluations use saved final-checkpoint outputs.
+Evidence: figures-v4/figure-provenance.json records hashes for all1281 archive-matched later update logs, the original500-observation history and evaluation summaries. CSVs reproduce plotted observations. Smoothing is a trailing25-observation mean. Training loss is not a current acceptance metric. R3 reuses G10 weights; neutral has no training run. There is no validation-loss time series in this kit: the supplied curves are training observations, while the geometric evaluations use saved final-checkpoint outputs.
 
 The original private next-phase review, checkpoints, runtime identities and private studio history are excluded. No external fonts, scripts, telemetry or login required to view this draft. Earlier figure authoring versions remain local and are excluded from the publication ZIP.
 '''
     (out/'START-HERE.txt').write_text(guide,encoding='utf-8')
-    payload=[out/'Substack-Phase-2.md',out/'Substack-Phase-2.html',out/'equations.tex',out/'START-HERE.txt',out/'NCA-Technical-Report.pdf']+list((out/'figures-v2').glob('*.png'))+list((out/'figures-v2').glob('*.svg'))+list((out/'figures-v2').glob('*.csv'))+[out/'figures-v2/figure-provenance.json']
+    payload=[out/'Substack-Phase-2.md',out/'Substack-Phase-2.html',out/'equations.tex',out/'START-HERE.txt',out/'NCA-Technical-Report.pdf']+list((out/'figures-v4').glob('*.png'))+list((out/'figures-v4').glob('*.svg'))+list((out/'figures-v4').glob('*.csv'))+list((out/'figures-v4').glob('*.json'))
     manifest={p.relative_to(out).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in payload}
     (out/'publication-manifest.json').write_text(json.dumps(manifest,indent=2));payload.append(out/'publication-manifest.json')
     with zipfile.ZipFile(out/'NCA-Substack-Publication-Kit.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in payload:z.write(p,p.relative_to(out))
-    print(json.dumps({'output':str(out),'article_words':len(text.split()),'figure_count':5,'equations':len(tex),'zip_bytes':(out/'NCA-Substack-Publication-Kit.zip').stat().st_size}))
+    print(json.dumps({'output':str(out),'article_words':len(text.split()),'chart_count':4,'model_guide_count':1,'equations':len(tex),'zip_bytes':(out/'NCA-Substack-Publication-Kit.zip').stat().st_size}))
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);build(p.parse_args().output)
