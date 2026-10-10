@@ -1,5 +1,10 @@
 # Resume the NCA next phase
 
+## Research history completed — 2026-10-10
+
+See RESEARCH_HISTORY.md. New app .local-artifacts/r3-research-history-v3-2026-10-10 uses existing research data on8023; owned server session22642 may remain. Search runs by site,seed,status,label or notes; row opens G10/R3 and notes. Append-only annotation versions live outside run evidence. Browser restart/search/second-save passed; API rejects stale/oversized/foreign-origin saves; all15-run/6-draft imported evidence hashes unchanged. Test notes isolated in r3-history-check-2026-10-10; test server stopped. No generation/scientific changes. Read documentation for limitations and preserved initial build failure. Next final local package, including full-data inventory/annotations and upgrade/rollback instructions; cross-run simultaneous geometry comparison remains future scope. No cloud,Drive,push or paid compute.
+
+
 ## Recoverable local worker completed — 2026-10-10
 
 See PRIVATE_JOBS.md. Final app .local-artifacts/r3-private-jobs-v3-2026-10-10, same research-data directory .local-artifacts/r3-research-data-2026-10-09, localhost8023. Start its launch.py with --data-dir and --port8023 using project Python. Owned earlier storage server and intermediate worker server stopped; final server session24603 may remain running. No active generation in actual research store.
