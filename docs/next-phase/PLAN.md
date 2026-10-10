@@ -1,5 +1,12 @@
 # Next-phase implementation plan
 
+## Showcase prepared; publication now takes priority - 2026-10-10
+
+User confirmed author Artin Lesani Abdi and prioritized a project showcase with downloadable technical report. See PUBLICATION_SHOWCASE.md. Output C:/Users/artin/Documents/Codex/outputs/NCA-Showcase-2026-10-10/dist; eight-page PDF, static saved-field viewer (24 slots/40 frames), complete two-seed plates, sanitized evidence hashes. Reviewed PDF renders, local HTTP200 HTML/PDF, browser case/seed/step/rotation/refusal behavior. Package NCA-Showcase.zip is547631bytes, SHA25635d5f6096f8f9834c382a4a95726bec2af4e39cdccf3f6aaa5f1ae6853f25b59. Preview8029 session63464 was used for review. No scientific changes, inference, training, Drive, push or publication. Private ignored next-phase report excluded. R3 remains experimental; neutral also passes feasible gates, so learned necessity remains unproven.
+
+Next author review and hosting choice, then explicit publication approval for the concrete package. Multi-site evaluation/generation is deferred; existing context fixture remains representation only. Do not overwrite reviewed output; build a new version directory for revisions. Existing studio and archives unchanged.
+
+
 ## Urban context representation completed — 2026-10-10
 
 Next research phase started following user go-forward instruction. See URBAN_CONTEXT_V1.md. Independent schema nca/urban_context.py supports rectangular grids,multiple buildings/opportunity regions,protected exclusions,facade interfaces on arbitrary axes and requested link graph. Authored block01 is96x96x40 at0.8m,76.8x76.8x32m;3 buildings,2 regions,3 interfaces,2 links. 48,192allowed cells are capacity, not generated volume. Four representation regressions passed; receipt experiments/reports/Urban-context-v1-2026-10-10.json, frozen scene/log .local-artifacts/urban-context-v1-2026-10-10. Plan PNG C:/Users/artin/Documents/Codex/outputs/NCA-Urban-Context-2026-10-10/block-plan.png visually verified. Matplotlib probe unavailable; existing Pillow used without installation. No generated block/model evaluation yet.
