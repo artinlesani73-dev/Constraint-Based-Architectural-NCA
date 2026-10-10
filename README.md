@@ -16,6 +16,18 @@ A research project exploring whether Neural Cellular Automata (NCA) can serve as
 
 ---
 
+## Phase 2 publication companion
+
+**By Artin Lesani Abdi.** The current research studies gross building volume using learned local growth with explicit geometric admission and planning. **Vega** names the learned experiments; **Lyra** names planner-assisted variants. These names preserve the original experiment IDs.
+
+Start with the [Phase 2 companion and results](publication/README.md), [article with model introductions](publication/substack-phase2.md), and [downloadable technical report](publication/NCA-Technical-Report.pdf). [High-resolution figures and training CSVs](publication/figures-v4/) support the comparisons.
+
+The planner-assisted system passes more tested feasible requests than the learned baseline, but the procedural control also passes. **These studies do not establish that learning is necessary.** The nine checks concern geometry, not structural safety, habitability or architectural quality. Multi-site generation is future work. The [private local research studio](docs/next-phase/RESUME.md) is separate from the static publication showcase.
+
+## Historical Phase 1
+
+The features, setup instructions and results below describe the original experiment. They are preserved as historical material and should not be interpreted as the current Phase 2 evaluation or studio setup.
+
 ## Features
 
 - **3D Neural Cellular Automata** - Voxel-based generative model using local update rules

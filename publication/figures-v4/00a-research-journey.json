@@ -1,0 +1,44 @@
+{
+  "rows": [
+    [
+      "Vega-01",
+      "G1 / Seed growth",
+      "First learned generation of building volume from a small seed."
+    ],
+    [
+      "Vega-02",
+      "G2 / Growth signal",
+      "Rebalanced the training loss to encourage growth; volume control remained a problem."
+    ],
+    [
+      "Vega-03",
+      "G3 / Volume budget",
+      "Added remaining-volume feedback, a volume-band penalty and a hard admission cap."
+    ],
+    [
+      "Vega-04",
+      "G4 / Cube growth",
+      "Grew overlapping 3 x 3 x 3 cubes instead of individual cells, addressing thin additions."
+    ],
+    [
+      "Vega-05",
+      "G5 / Destination cues",
+      "Added distance and reachability cues toward the opposite interface; did not improve the tested result."
+    ],
+    [
+      "Vega-06",
+      "G6 / Paced growth",
+      "Released the volume allowance gradually so growth did not spend its budget too early."
+    ],
+    [
+      "Vega-07",
+      "G7 / Vertical variety",
+      "Broadened training examples to include more vertical variation; accuracy and stability regressed."
+    ]
+  ],
+  "png_sha256": "99e69009fcf80cc9243530b22c51dcf21fe0723c3234b096fc8b69008b13c2a0",
+  "dimensions": [
+    4800,
+    5160
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "rows": [
+    [
+      "Vega-08",
+      "G8 / Trained baseline",
+      "Increased training exposure on the broader dataset. Uses frontier classification, soft volume discrepancy and a global volume band."
+    ],
+    [
+      "Vega-09",
+      "G9 / Access ranking",
+      "Adds a learning signal favoring growth that advances an access connection. Both compared score groups receive ranking gradients."
+    ],
+    [
+      "Vega-10",
+      "G10 / Gradient variant",
+      "Uses the same ranking formula, but treats other-candidate scores as a fixed reference in that auxiliary gradient. Separately trained."
+    ],
+    [
+      "Lyra-03",
+      "G11-R3 / Hybrid system",
+      "Reuses frozen Vega-10 weights with route planning, coverage coordination and growth guards. No additional training-loss curve."
+    ],
+    [
+      "Neutral",
+      "Procedural control",
+      "Keeps the Lyra-03 planner and guards, with constant positive occupancy logits and zero hidden updates. No learned signal drives growth."
+    ]
+  ],
+  "png_sha256": "18366bc8686a018e4aa1873f67515ab7caaecc83f049ce2fed1ab36a10f5f39c",
+  "dimensions": [
+    4800,
+    3960
+  ]
+}

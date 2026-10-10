@@ -1,0 +1,114 @@
+{
+  "author": "Artin Lesani Abdi",
+  "date": "2026-10-10",
+  "checkpoint_sha256": "8e4ac1f13ff57b2c644cd2bd6fd27c40b25eca7062ec729f002969171a122bb2",
+  "transfer": {
+    "G10": {
+      "requests": 8,
+      "outputs": 8,
+      "accepted": 2,
+      "no_certified_output": 0,
+      "certified_requests": 6,
+      "certified_accepted": 2,
+      "mean_seed_jaccard_certified": 0.2977700869049885,
+      "rollout_seconds": {
+        "min": 4.127054199925624,
+        "median": 7.482658900029492,
+        "max": 11.553599999984726
+      },
+      "peak_worker_working_set_MiB": {
+        "min": 243.4140625,
+        "median": 279.5625,
+        "max": 316.12109375
+      },
+      "peak_worker_commit_MiB": {
+        "min": 600.29296875,
+        "median": 648.654296875,
+        "max": 697.11328125
+      }
+    },
+    "R3": {
+      "requests": 8,
+      "outputs": 6,
+      "accepted": 6,
+      "no_certified_output": 2,
+      "certified_requests": 6,
+      "certified_accepted": 6,
+      "mean_seed_jaccard_certified": 0.2544191085725344,
+      "rollout_seconds": {
+        "min": 5.7844289999920875,
+        "median": 6.111269399989396,
+        "max": 12.020578399999067
+      },
+      "peak_worker_working_set_MiB": {
+        "min": 257.6875,
+        "median": 263.4296875,
+        "max": 307.36328125
+      },
+      "peak_worker_commit_MiB": {
+        "min": 604.046875,
+        "median": 605.576171875,
+        "max": 690.63671875
+      }
+    },
+    "neutral": {
+      "requests": 8,
+      "outputs": 6,
+      "accepted": 6,
+      "no_certified_output": 2,
+      "certified_requests": 6,
+      "certified_accepted": 6,
+      "mean_seed_jaccard_certified": 0.036771880132166146,
+      "rollout_seconds": {
+        "min": 1.9316206999355927,
+        "median": 2.9437035499722697,
+        "max": 5.427392899990082
+      },
+      "peak_worker_working_set_MiB": {
+        "min": 247.7734375,
+        "median": 248.34375,
+        "max": 278.7734375
+      },
+      "peak_worker_commit_MiB": {
+        "min": 605.40625,
+        "median": 606.158203125,
+        "max": 623.7578125
+      }
+    }
+  },
+  "contribution": {
+    "G10": {
+      "requests": 8,
+      "outputs": 8,
+      "no_certified_output": 0,
+      "accepted": 4,
+      "feasible_accepted": 4,
+      "feasible_requests": 6,
+      "mean_seed_jaccard_feasible": 0.23870756064339352
+    },
+    "R3": {
+      "requests": 8,
+      "outputs": 6,
+      "no_certified_output": 2,
+      "accepted": 6,
+      "feasible_accepted": 6,
+      "feasible_requests": 6,
+      "mean_seed_jaccard_feasible": 0.20500282812770262
+    },
+    "neutral": {
+      "requests": 8,
+      "outputs": 6,
+      "no_certified_output": 2,
+      "accepted": 6,
+      "feasible_accepted": 6,
+      "feasible_requests": 6,
+      "mean_seed_jaccard_feasible": 0.02924804279297666
+    }
+  },
+  "sources": {
+    "experiments/reports/R3-transfer-results-2026-10-08.json": "3968af3a67fdc7f6dd33a54d3fa9b2ada8c2d7b0012f843284015c08d48b0776",
+    "experiments/reports/R3-contribution-complete-2026-10-08.json": "1944bb656e1673aaaae5895066c9cace6570f6d7310681e6f78373885f069008",
+    ".local-artifacts/r3-transfer-v1-2026-10-08/protocol.json": "96520fcbfea16bf3d7490b92fdb051eb2aa60100c1e1a50494e46a05932cee69",
+    ".local-artifacts/r3-transfer-v1-2026-10-08/model/identity.json": "565d2668a03f8338cbc319c27bd6e87a9d38ca671dbe641c41990bf477785666"
+  }
+}
