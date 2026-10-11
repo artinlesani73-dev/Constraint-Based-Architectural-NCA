@@ -4,19 +4,19 @@
 
 **Artin Lesani Abdi**
 
-In [the first part of this experiment](https://artinlesani.substack.com/p/growing-architecture-from-constraints), I asked whether an architectural form could grow from constraints instead of a sketch. A small neural cellular automaton learned a repeated local rule, conditioned on buildings, access points and available space. The results were crude, but they gave the project something concrete to question.
+In [the first part of this experiment](https://artinlesani.substack.com/p/growing-architecture-from-constraints), I asked whether architectural form could grow from constraints instead of a sketch. A small neural cellular automaton learned a repeated local rule conditioned on buildings, access points and available space. Its crude results gave the project something concrete to question.
 
-The next phase made that question more demanding. An attractive output was no longer enough. I wanted volume rather than a thin connection, clearer geometric tests, and a way to tell what the learned rule contributed compared with the procedures around it.
+This phase asks for volume, clearer geometric tests, and evidence of what the learned rule contributes alongside the surrounding procedures.
 
-The strongest result is also a qualification of my original framing: the current hybrid system passes more of our tested cases than the learned baseline, but a procedural control with the learned signal removed also passes. Learning changes the forms we get. These experiments have not yet shown that learning is necessary for the geometric checks we use.
+The strongest result qualifies my original framing: the hybrid system passes more tested cases than the learned baseline, but a procedural control without the learned signal also passes. Learning changes the forms; these experiments have not shown that it is necessary for our geometric checks.
 
 ## From a pavilion to gross building volume
 
-The original experiment sought pavilion-like extensions and treated thickness as something to restrain. That intent became too narrow for the next phase. A connection could satisfy a circulation objective while looking like a line or a platform. It did not necessarily have the depth I wanted to investigate.
+The original experiment sought pavilion-like extensions and restrained thickness. A connection could satisfy circulation while looking like a line or platform, without the depth I wanted to investigate.
 
-The current object of study is **gross building volume**. An occupied voxel represents part of an overall mass, leaving interiors, construction and program for later. It does not represent a solid block of building material. We can investigate the depth, distribution and connections of a volume without pretending that it already contains usable rooms.
+We now study **gross building volume**. Occupied voxels represent overall mass, leaving interiors, construction and program for later. They do not represent solid building material. This lets us investigate depth, distribution and connections without claiming usable rooms.
 
-This also changes how thickness is evaluated. The current bulk test asks whether at least 90% of the occupied cells belong to the union of fully occupied 3 × 3 × 3 cubes. At our 0.8 m voxel size, those cubes span 2.4 m. This encourages substantial mass; it is not a structural wall-thickness calculation. The old thickness loss and this new check should not be read as the same quantity.
+The bulk test asks whether at least 90% of occupied cells belong to the union of fully occupied 3 × 3 × 3 cubes. At our 0.8 m voxel size, these span 2.4 m. This encourages substantial mass, not structural wall thickness. It differs from the historical thickness loss.
 
 ![Volume example](volume-figures/05-volume-example.png)
 
@@ -30,7 +30,7 @@ This also changes how thickness is evaluated. The current bulk test asks whether
 
 The original record shows a rapid early change followed by a noisy plateau. Mean weighted loss falls from 60.41 over the first 25 observations to 28.85 over the final 25. The unfilled-corridor penalty falls from 0.857 to 0.193 over the same windows. The historical thickness penalty falls much less, from 0.930 to 0.748.
 
-Those numbers explain why the early experiment felt promising and unfinished. The optimization found a way to fill much more of its target corridor, but it did not resolve every competing objective. A decreasing weighted sum cannot tell us whether the result has the spatial character we intended, or whether every individual constraint passes.
+The optimization filled much more of its target corridor without resolving every competing objective. A decreasing weighted sum cannot establish the intended spatial character or whether every constraint passes.
 
 ## A local network inside a hybrid growth process
 
@@ -52,11 +52,11 @@ $$
 
 $F_t$ is a stochastic firing mask, $\Omega$ is the legal domain, and $C_t$ is the current admission ceiling. The procedure ranks eligible proposals and admits connected overlapping cubes under a paced volume budget. The admission decisions are detached from differentiation. We should therefore not describe the complete binary growth process as an ordinary end-to-end differentiable rollout.
 
-The update network is small: 61 input features, a 64-channel intermediate layer and eight outputs, implemented with pointwise convolutions. Including biases, that network has 4,488 trainable parameters. Its repeated application matters more than its size. That count describes this later network, not the approximately 13,000-parameter model discussed in Part 1.
+The pointwise update network has 61 input features, a 64-channel intermediate layer and eight outputs: 4,488 trainable parameters including biases. This is the later network; Part 1 discussed an approximately 13,000-parameter model.
 
 **A quick guide to the names**
 
-Vega names the learned generation experiments, from Vega-01 (G1) through Vega-10 (G10). Lyra names the planner-assisted variants: Lyra-03 is the system previously called G11-R3, or R3. These are public-facing aliases; the original IDs remain in the tables and research records. A higher version number does not automatically mean a better model. The first table summarizes the earlier journey; the second introduces the methods compared in this article.
+Vega names learned generation experiments, Vega-01 (G1) through Vega-10 (G10). Lyra names planner-assisted variants; Lyra-03 was G11-R3, or R3. Original IDs remain in the tables and research records. Higher numbers do not guarantee better models. The tables summarize the earlier journey and methods compared here.
 
 **The research journey: Vega-01 to Vega-07**
 
@@ -84,7 +84,7 @@ Protocols evolved across the early stages. The journey table records the develop
 
 ## What we trained and why the losses differ
 
-The later candidates use procedural teacher geometry during training. This is a meaningful change from the original constraint-only framing: no human-designed exemplar is copied, but there are explicit geometry-derived targets and labels. At inference, the teacher target is not supplied to the learned baseline.
+The later candidates train against procedural teacher geometry: explicit geometry-derived targets and labels, without copying human-designed exemplars. This changes the original constraint-only framing. The teacher target is absent at inference for the learned baseline.
 
 The common base objective is:
 
@@ -120,11 +120,11 @@ When both sets exist in an active access phase, this favors advancing scores ove
 
 *Figure 3. Frontier, soft-volume, band and ranking components plotted separately. Vega-08 is omitted from the ranking panel because it has no such term. A zero ranking observation can mean the term was inactive; it does not necessarily mean access was solved.*
 
-Vega-10 did not dominate every earlier reference. In its frozen final review, all nine families passed on six of twelve fresh requests at both horizons, compared with four of twelve for Vega-08 and Vega-09. Vega-10 also passed the late-growth limit across its 69 evaluated requests, while still having connection and coverage failures. The lesson was to evaluate the resulting geometry rather than promote a model because its training curve looked better.
+In the frozen final review, Vega-10 passed all nine families on six of twelve fresh requests at both horizons, versus four of twelve for Vega-08 and Vega-09. It met the late-growth limit across 69 evaluated requests but retained connection and coverage failures. Geometry, not training loss alone, determined the assessment.
 
 ## What the planner contributes
 
-The current experimental system, Lyra-03, reuses the frozen Vega-10 weights. It adds a procedural route witness, coverage coordination and guarded growth. **Lyra-03 does not have a separate training-loss curve.** Its improvement is a system-level intervention, not evidence of another trained checkpoint.
+Lyra-03 reuses frozen Vega-10 weights, adding a procedural route witness, coverage coordination and guarded growth. **It has no separate training-loss curve:** the change is at system level, not another trained checkpoint.
 
 To investigate contribution, we compared three methods: Vega-10 with its existing procedural admission; Lyra-03 with learned scores and planning; and a neutral control with the same Lyra-03 planner and guards, constant positive occupancy logits and zero hidden updates. The neutral control removes learned gating and ranking together.
 
@@ -136,7 +136,7 @@ To investigate contribution, we compared three methods: Vega-10 with its existin
 
 *Figure 4. Feasible acceptance counts and mean seed Jaccard distances in two separate studies. Each study also includes two blocked requests per method: Vega-10 returns rejected outputs; Lyra-03 and neutral refuse. Refusals are reported separately and are not counted as accepted geometry.*
 
-In the prospective transfer comparison, Vega-10 passed two of six feasible requests; Lyra-03 passed six of six. The neutral control also passed six of six. The four authored site layouts were frozen before generation and tested with two firing seeds. This is a bounded transfer result, not a broad real-site generalization claim.
+In the prospective transfer comparison, Vega-10 passed two of six feasible requests; Lyra-03 and neutral each passed six. Four authored site layouts were frozen before generation and tested with two firing seeds. This bounded study does not establish broad real-site generalization.
 
 Lyra-03 had more seed variation than neutral: mean Jaccard distance was 0.254 versus 0.037. This distance is one minus intersection-over-union of occupied sets. It describes how much two outputs differ, not which output is better architecture. Vega-10 had still higher variation, 0.298, while failing more requests.
 
@@ -144,7 +144,7 @@ Lyra-03 had more seed variation than neutral: mean Jaccard distance was 0.254 ve
 
 *Seed comparison. Two saved Lyra-03 outputs on the same raised-obstacle site at step 128, using firing seeds 2201 and 2202. Both are accepted and contain 3,724 occupied cells, but distribute that mass differently. These examples illustrate seed sensitivity; they do not establish architectural quality.*
 
-The comparisons separate two questions I had initially bundled together: can the system meet the geometric contract, and what does learning contribute to the form? Planning and guards can satisfy the tested contract without learned scores. Learning influences the choices made within that framework. Its architectural value still needs a better test.
+These comparisons separate geometric feasibility from learning’s contribution to form. Planning and guards satisfy the tested contract without learned scores. Learning influences choices within that framework; its architectural value needs a better test.
 
 ## A geometric contract rather than a validity slogan
 
@@ -162,11 +162,11 @@ Here, N is the number of occupied voxels, and v is occupied volume divided by th
 
 ## What comes next
 
-The project now includes a private local studio for generation, saved runs, versioned drafts and notes, and geometry exports. Failed and interrupted attempts remain part of the record. That infrastructure makes comparison easier, but does not replace scientific evaluation.
+A private local studio now supports generation, saved runs, versioned drafts, notes and geometry exports. Failed and interrupted attempts remain recorded. This infrastructure supports comparison, not scientific conclusions.
 
-The next research direction is context-conditioned growth of architectural mass across multiple sites. A small-block context representation is prepared; neighborhood generation and evaluation are still future work. Moving from a 32³ grid to 40³ at the same 0.8 m voxel size expands the domain from 25.6 m to 32 m per edge. It does not add finer detail.
+Next is context-conditioned growth of architectural mass across multiple sites. A small-block context representation is prepared; neighborhood generation remains future work. Increasing 32³ to 40³ at 0.8 m expands each edge from 25.6 m to 32 m, without finer detail.
 
-Before scaling further, I want to understand where learning earns its place: producing useful variation, adapting to unfamiliar contexts, or making decisions that a simpler procedural baseline cannot match. The experiment began with the possibility of growing architecture from constraints. It now has a clearer distinction between growth, guidance and evidence.
+Before scaling, I want to establish where learning earns its place: useful variation, adaptation to unfamiliar contexts, or decisions a simpler procedural baseline cannot match. Growing architecture from constraints now means distinguishing growth, guidance and evidence.
 
 ## Sources and companion material
 
@@ -175,4 +175,4 @@ Before scaling further, I want to understand where learning earns its place: pro
 - [Growing Neural Cellular Automata](https://distill.pub/2020/growing-ca/), the learned-local-rule foundation.
 - [Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata](https://arxiv.org/abs/2406.08292), an inspiration for future hierarchy and context planning; a different task from gross building massing.
 
-The companion technical report describes the building-scale method and evaluation. The figure package contains PNG and SVG exports, extracted training CSVs, and source hashes. Training figures come from retained logs; no illustrative or simulated loss curves are used.
+The companion technical report details the method and evaluation. The figure package includes PNG/SVG exports, training CSVs and source hashes. All training curves come from retained logs.

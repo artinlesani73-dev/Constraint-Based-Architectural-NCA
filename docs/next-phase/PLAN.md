@@ -1,5 +1,11 @@
 # Next-phase implementation plan
 
+## Substack prose shortened to 1,699 words - 2026-10-11
+
+User requested about 1,700 words while preserving all LaTeX and images. Read the live author-edited draft as the authority, archived it before editing, and tightened 18 prose paragraphs: 1,988 to 1,699 whitespace-delimited words including headings, captions and references, excluding the six LaTeX blocks, title/subtitle and text inside images. All nine image sources/alt text and captions remain unchanged. Six persistent equation source attributes and rendered MathML are identical after save/reload; transient wrapper HTML varies on reload. No equation or figure edited. Exact selection checking caught a final-period boundary before paste; adjusted selection safely.
+
+Saved/reloaded draft verified. Before/after HTML, inventories, exact edit map, verification receipt and screenshot: C:/Users/artin/Documents/Codex/outputs/NCA-Substack-1700-2026-10-11. Original kits retained. Repository article mirrors only these prose changes, preserving its existing equations, semantic tables, image paths, extra Figure1 caption and author metadata; its total count therefore differs from the live post. Release manifest refreshed. No experiment, model, training, Drive, push or publication changes. Next: author review of the unpublished draft, then separately authorized publication/push. The system diagram remains a separate local work in progress.
+
 ## Actual volume figures added to Substack - 2026-10-10
 
 Added three white4800x1900 renders from saved128-step transfer fields: Lyra03 raised-obstacle seed2201 near volume definition; narrow-offset seed2201 Vega10/Lyra03/Neutral comparison beside planner discussion; raised-obstacle Lyra03 seeds2201/2202 beside variation discussion. Captions identify context, generated mass and acceptance/rejection; selected examples are not complete-study evidence or design-quality claims. scripts/build_substack_volumes.py reuses only the established renderer function, records NPZ hashes and does no inference/training. Original fields and completed kits preserved. First locator boundary landed inside an existing figure; read-only inspection caught this before mutation, then exact paragraph selection resolved insertion safely.
