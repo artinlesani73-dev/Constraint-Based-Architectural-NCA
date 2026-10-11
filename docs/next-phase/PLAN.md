@@ -1,5 +1,11 @@
 # Next-phase implementation plan
 
+## README refreshed for the GitHub publication branch - 2026-10-11
+
+User requested updating the README on next-phase/foundations. Live branch inspection confirmed prior publication files were already pushed at bfe82c7; the earlier statement that a push was still needed was outdated. Replaced the stale September-in-progress introduction with the October Phase2 summary, prominent repository-hosted technical PDF link/download instruction, companion links, saved-volume hero with qualified caption, bounded contribution/transfer comparison and current workspace links. Moved the original sample under Historical Phase1; all text from Features onward is unchanged. Preserved learned-necessity limitations, separate refusals, original IDs and future multi-site scope. Verified local links and unchanged historical tail. Before/after copies: C:/Users/artin/Documents/Codex/outputs/NCA-README-2026-10-11.
+
+This request authorizes updating the named GitHub branch; publish the small documentation commit there after validation and verify the live README. No Substack publication, training, Drive operation or main-branch change is included. Next: author review of the post and separately authorized Substack publication. System diagram remains a separate local work in progress.
+
 ## Substack prose shortened to 1,699 words - 2026-10-11
 
 User requested about 1,700 words while preserving all LaTeX and images. Read the live author-edited draft as the authority, archived it before editing, and tightened 18 prose paragraphs: 1,988 to 1,699 whitespace-delimited words including headings, captions and references, excluding the six LaTeX blocks, title/subtitle and text inside images. All nine image sources/alt text and captions remain unchanged. Six persistent equation source attributes and rendered MathML are identical after save/reload; transient wrapper HTML varies on reload. No equation or figure edited. Exact selection checking caught a final-period boundary before paste; adjusted selection safely.

@@ -4,29 +4,55 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Neural Cellular Automata for Generative Architectural Design**
+**Growing architectural volume with neural cellular automata**
 
-> **Next phase (September 2026):** implementation is underway with independent evaluation and reproducible experiment records. Start with [the current resume checkpoint](docs/next-phase/RESUME.md), [plan](docs/next-phase/PLAN.md), and [change log](docs/next-phase/CHANGELOG.md). The historical results and claims below are retained for context; they do not establish the performance of the repaired system.
+**Artin Lesani Abdi · Phase 2 · October 2026**
 
-A research project exploring whether Neural Cellular Automata (NCA) can serve as a generative tool for architectural design, producing constraint-satisfying volumetric structures in urban contexts.
+This project investigates how architectural mass can grow through repeated local learned updates conditioned on existing buildings, access points and available space. The current system combines a small neural cellular automaton with explicit geometric admission and procedural planning. Occupied voxels represent gross building volume; interiors, construction and program remain for later work.
 
-<p align="center">
-  <img src="assets/sample_output_2.png" alt="Sample NCA Output 2" width="1000"/>
-</p>
+## Technical report and project companion
 
----
+**[Read or download the companion technical report (PDF)](publication/NCA-Technical-Report.pdf)**
 
-## Phase 2 publication companion
+The report is hosted in this repository. Open the PDF above and use GitHub’s download button to save a copy.
 
-**By Artin Lesani Abdi.** The current research studies gross building volume using learned local growth with explicit geometric admission and planning. **Vega** names the learned experiments; **Lyra** names planner-assisted variants. These names preserve the original experiment IDs.
+- [Phase 2 article and model introductions](publication/substack-phase2.md)
+- [Results and evidence guide](publication/README.md)
+- [Training graphs, high-resolution figures and CSV data](publication/figures-v4/)
+- [Saved volume examples and provenance](publication/volume-figures/)
+- [Static geometry showcase](publication/showcase/index.html) — download the repository and open this file locally; GitHub’s file view does not run the viewer.
 
-Start with the [Phase 2 companion and results](publication/README.md), [article with model introductions](publication/substack-phase2.md), and [downloadable technical report](publication/NCA-Technical-Report.pdf). [High-resolution figures and training CSVs](publication/figures-v4/) support the comparisons.
+![Lyra-03 gross building volume on the raised-obstacle transfer site](publication/volume-figures/05-volume-example.png)
 
-The planner-assisted system passes more tested feasible requests than the learned baseline, but the procedural control also passes. **These studies do not establish that learning is necessary.** The nine checks concern geometry, not structural safety, habitability or architectural quality. Multi-site generation is future work. The [private local research studio](docs/next-phase/RESUME.md) is separate from the static publication showcase.
+*A saved Lyra-03 output at step 128, seed 2201. Green shows generated gross building mass; wireframes show existing context. This selected example passes the study’s geometric checks. It is not a finished building or a structural assessment.*
+
+## What Phase 2 shows
+
+**Vega** names the learned generation experiments; **Lyra** names the planner-assisted variants. Lyra-03 reuses frozen Vega-10 weights and has no separate training-loss curve. Original experiment IDs remain in the [alias map](publication/publication-naming-map.json) and research records.
+
+| Method | Contribution study: feasible acceptance | Transfer study: feasible acceptance |
+| --- | --- | --- |
+| Vega-10 (G10) | 4/6 | 2/6 |
+| Lyra-03 (G11-R3) | 6/6 | 6/6 |
+| Neutral procedural control | 6/6 | 6/6 |
+
+These are two separate small studies, not pooled results. Each also includes two blocked requests per method: Vega-10 returns rejected geometry; Lyra-03 and Neutral refuse. Refusals are recorded separately from accepted geometry.
+
+The planner-assisted system passes more tested feasible requests than the learned baseline, but the procedural control also passes. **These studies do not establish that learning is necessary.** Learning changes the distribution of generated mass; seed variation alone does not establish architectural quality.
+
+Evaluation retains nine constraint families at steps 64 and 128. These are geometric checks, not evidence of structural safety, habitability or regulatory compliance. Neighborhood-scale, context-conditioned growth across multiple sites is the next research direction and remains future work.
+
+## Current research workspace
+
+The private studio runs locally and supports generation, saved runs, versioned drafts, notes and geometry exports. It is separate from the static showcase linked above. For current setup, experiment locations and remaining work, start with the [resume checkpoint](docs/next-phase/RESUME.md), [plan](docs/next-phase/PLAN.md), [decisions](docs/next-phase/DECISIONS.md) and [change log](docs/next-phase/CHANGELOG.md).
 
 ## Historical Phase 1
 
-The features, setup instructions and results below describe the original experiment. They are preserved as historical material and should not be interpreted as the current Phase 2 evaluation or studio setup.
+The image, features, setup instructions and results below describe the original experiment. They are retained as historical material and should not be interpreted as the current Phase 2 evaluation or studio setup.
+
+<p align="center">
+  <img src="assets/sample_output_2.png" alt="Historical Phase 1 NCA output" width="1000"/>
+</p>
 
 ## Features
 
